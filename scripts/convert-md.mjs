@@ -160,6 +160,9 @@ function parseContentBlocks(text) {
     // 空行跳过
     if (line.trim() === '') { i++; continue }
 
+    // --- 分隔符跳过
+    if (line.trim() === '---') { i++; continue }
+
     // $$ 公式（独立行）
     if (line.trim().startsWith('$$') && line.trim().endsWith('$$')) {
       const latex = line.trim().slice(2, -2).trim()
@@ -248,6 +251,8 @@ function parseContentBlocks(text) {
     }
     if (para) {
       blocks.push({ type: 'paragraph', content: para })
+    } else {
+      i++
     }
   }
 
@@ -314,18 +319,24 @@ function parseExamples(text) {
     const lines = block.lines
     const result = { title, problem: [], solution: [], answer: '' }
 
-    // Find answer line
+    // Find answer line or analysis line
     let answerIdx = -1
+    let analysisIdx = -1
     for (let i = 0; i < lines.length; i++) {
       if (lines[i].match(/^\*\*答案\*\*/)) {
         answerIdx = i
         break
       }
+      if (lines[i].match(/^\*\*解析\*\*/)) {
+        analysisIdx = i
+        break
+      }
     }
 
-    // Problem = everything before **答案**
-    if (answerIdx > 0) {
-      result.problem = parseContentBlocks(lines.slice(0, answerIdx).join('\n'))
+    // Problem = everything before **答案** or **解析**
+    const splitIdx = answerIdx >= 0 ? answerIdx : analysisIdx
+    if (splitIdx > 0) {
+      result.problem = parseContentBlocks(lines.slice(0, splitIdx).join('\n'))
     } else {
       result.problem = parseContentBlocks(lines.join('\n'))
     }
@@ -343,7 +354,7 @@ function parseExamples(text) {
           const firstLine = lines[i].replace(/^\*\*解析\*\*[：:]\s*/, '')
           if (firstLine) solutionLines.push(firstLine)
           for (let j = i + 1; j < lines.length; j++) {
-            if (lines[j].match(/^\*\*来源\*\*/)) break
+            if (lines[j].match(/^\*\*来源\*\*/) || lines[j].match(/^——/)) break
             solutionLines.push(lines[j])
           }
           break
@@ -360,6 +371,38 @@ function parseExamples(text) {
           result.source = sourceMatch[1].trim()
           break
         }
+        const srcMatch2 = lines[i].match(/^——(.+)/)
+        if (srcMatch2) {
+          result.source = srcMatch2[1].trim()
+          break
+        }
+      }
+    } else if (analysisIdx >= 0) {
+      // No **答案**, but has **解析** - extract answer from problem if possible
+      // Look for answer pattern in problem text
+      const problemText = lines.slice(0, analysisIdx).join('\n')
+      const ansMatch = problemText.match(/\*\*答案\*\*[：:]\s*(.+)/)
+      if (ansMatch) result.answer = ansMatch[1].trim()
+
+      // Parse 解析
+      const solutionLines = []
+      const firstLine = lines[analysisIdx].replace(/^\*\*解析\*\*[：:]\s*/, '')
+      if (firstLine) solutionLines.push(firstLine)
+      for (let j = analysisIdx + 1; j < lines.length; j++) {
+        if (lines[j].match(/^\*\*来源\*\*/) || lines[j].match(/^——/)) break
+        solutionLines.push(lines[j])
+      }
+      if (solutionLines.length > 0) {
+        result.solution = parseContentBlocks(solutionLines.join('\n'))
+      }
+
+      // Parse 来源
+      for (let i = analysisIdx + 1; i < lines.length; i++) {
+        const srcMatch2 = lines[i].match(/^——(.+)/)
+        if (srcMatch2) {
+          result.source = srcMatch2[1].trim()
+          break
+        }
       }
     }
 
@@ -374,39 +417,175 @@ function parseExamples(text) {
 function parseExercises(text, lessonId) {
   const exercises = []
 
-  // Split by ### subsection headers: ### 选择题, ### 判断题, ### 填空题, ### 简答题
   const typeMap = {
     '选择题': 'choice',
     '判断题': 'true_false',
     '填空题': 'fill',
+    '填空/简答题': 'fill',
     '简答题': 'short_answer',
   }
 
-  let currentType = 'choice' // default
   const lines = text.split('\n')
-  let i = 0
 
-  while (i < lines.length) {
-    const h3Match = lines[i].match(/^###\s+(.+)/)
-    if (h3Match) {
-      const typeName = h3Match[1].trim()
-      if (typeMap[typeName]) currentType = typeMap[typeName]
-      i++
-      continue
+  // 检测是否有 "### 参考答案与解析" 部分
+  let answersSectionStart = -1
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].match(/^###\s+参考答案/)) {
+      answersSectionStart = i
+      break
     }
+  }
 
-    // Detect numbered exercise
-    const numMatch = lines[i].match(/^(\d+)\.\s+(.*)/)
-    if (numMatch) {
-      const ex = parseOneExercise(currentType, lines, i, numMatch[1])
-      if (ex) {
-        exercises.push(ex.exercise)
-        i = ex.nextLine
+  // 如果有答案分区，分别解析题目和答案
+  if (answersSectionStart > 0) {
+    const questionLines = lines.slice(0, answersSectionStart)
+    const answerLines = lines.slice(answersSectionStart + 1)
+
+    // 解析答案映射: { num: { answer, analysis, source } }
+    const answerMap = {}
+    let currentNum = null
+    let currentAnswer = ''
+    let currentAnalysis = ''
+    let currentSource = ''
+
+    for (const line of answerLines) {
+      const ansMatch = line.match(/^\*\*(\d+)\.\s*答案[：:]\s*(.+?)\*\*/)
+      if (ansMatch) {
+        // 保存上一题
+        if (currentNum) {
+          answerMap[currentNum] = { answer: currentAnswer, analysis: currentAnalysis, source: currentSource }
+        }
+        currentNum = ansMatch[1]
+        currentAnswer = ansMatch[2].trim()
+        currentAnalysis = ''
+        currentSource = ''
         continue
       }
+      if (currentNum) {
+        const anaMatch = line.match(/^解析[：:]\s*(.+)/)
+        if (anaMatch) {
+          currentAnalysis = anaMatch[1].trim()
+          continue
+        }
+        const srcMatch = line.match(/^——(.+)/)
+        if (srcMatch) {
+          currentSource = srcMatch[1].trim()
+          continue
+        }
+        // 续行解析
+        if (line.trim() && !line.match(/^\*\*\d+/)) {
+          currentAnalysis += ' ' + line.trim()
+        }
+      }
+    }
+    // 保存最后一题
+    if (currentNum) {
+      answerMap[currentNum] = { answer: currentAnswer, analysis: currentAnalysis, source: currentSource }
     }
 
-    i++
+    // 解析题目
+    let currentType = 'choice'
+    let i = 0
+    while (i < questionLines.length) {
+      const h3Match = questionLines[i].match(/^###\s+(.+)/)
+      if (h3Match) {
+        const typeName = h3Match[1].trim()
+        if (typeMap[typeName]) currentType = typeMap[typeName]
+        i++
+        continue
+      }
+
+      // 检测 **N.**（题型）格式 或 **N.** 格式
+      const altMatch = questionLines[i].match(/^\*\*(\d+)\.\*\*[（(](.+?)[）)]/)
+      const altMatch2 = questionLines[i].match(/^\*\*(\d+)\.\*\*\s/)
+      const numMatch = questionLines[i].match(/^(\d+)\.\s+(.*)/)
+      const tiMatch = questionLines[i].match(/^\*\*第(\d+)题\*\*/)
+
+      if (altMatch || altMatch2 || numMatch || tiMatch) {
+        let num, exType
+        if (altMatch) {
+          num = altMatch[1]
+          const typeName = altMatch[2].trim()
+          if (typeMap[typeName]) exType = typeMap[typeName]
+        } else if (altMatch2) {
+          num = altMatch2[1]
+        } else {
+          num = numMatch ? numMatch[1] : tiMatch[1]
+        }
+
+        const exerciseLines = []
+        exerciseLines.push(questionLines[i].replace(/^\*\*\d+\.\*\*[（(][^）)]*[）)]/, '').replace(/^\*\*\d+\.\*\*\s?/, '').replace(/^\d+\.\s+/, '').replace(/^\*\*第\d+题\*\*/, '').trim())
+        i++
+        while (i < questionLines.length) {
+          const line = questionLines[i]
+          if (line.match(/^\*\*\d+\.\*\*/) || line.match(/^\d+\.\s/) || line.match(/^\*\*第\d+题\*\*/) || line.match(/^###\s/)) break
+          exerciseLines.push(line.trim())
+          i++
+        }
+
+        // 去掉尾部空行
+        while (exerciseLines.length > 0 && exerciseLines[exerciseLines.length - 1] === '') {
+          exerciseLines.pop()
+        }
+
+        // 获取对应答案
+        const ans = answerMap[num] || {}
+
+        const type = exType || currentType
+        let exercise
+        if (type === 'choice') exercise = parseChoiceExercise(exerciseLines)
+        else if (type === 'true_false') exercise = parseTrueFalseExercise(exerciseLines)
+        else if (type === 'fill') exercise = parseFillExercise(exerciseLines)
+        else if (type === 'short_answer') exercise = parseShortAnswerExercise(exerciseLines)
+        else exercise = parseChoiceExercise(exerciseLines)
+
+        if (exercise) {
+          if (ans.answer) exercise.answer = ans.answer
+          if (ans.analysis) exercise.analysis = ans.analysis
+          if (ans.source) exercise.source = ans.source
+          exercises.push(exercise)
+        }
+        continue
+      }
+
+      i++
+    }
+  } else {
+    // 原有的无分区格式
+    let currentType = 'choice'
+    let i = 0
+
+    while (i < lines.length) {
+      const h3Match = lines[i].match(/^###\s+(.+)/)
+      if (h3Match) {
+        const typeName = h3Match[1].trim()
+        if (typeMap[typeName]) currentType = typeMap[typeName]
+        i++
+        continue
+      }
+
+      const numMatch = lines[i].match(/^(\d+)\.\s+(.*)/)
+      const tiMatch = lines[i].match(/^\*\*第(\d+)题\*\*/)
+      const altNumMatch = lines[i].match(/^\*\*(\d+)\.\*\*[（(](.+?)[）)]/)
+      if (numMatch || tiMatch || altNumMatch) {
+        let num, exType
+        if (altNumMatch) {
+          num = altNumMatch[1]
+          const typeName = altNumMatch[2].trim()
+          if (typeMap[typeName]) exType = typeMap[typeName]
+        } else {
+          num = numMatch ? numMatch[1] : tiMatch[1]
+        }
+        const ex = parseOneExercise(exType || currentType, lines, i, num)
+        if (ex) {
+          exercises.push(ex.exercise)
+          i = ex.nextLine
+          continue
+        }
+      }
+
+      i++
+    }
   }
 
   // Assign ids with lesson prefix
@@ -424,11 +603,11 @@ function parseOneExercise(type, lines, startLine, num) {
   let i = startLine
 
   // Collect all lines belonging to this exercise (until next numbered item or ### or EOF)
-  exerciseLines.push(lines[i].replace(/^\d+\.\s+/, '').trim())
+  exerciseLines.push(lines[i].replace(/^\d+\.\s+/, '').replace(/^\*\*第\d+题\*\*/, '').replace(/^\*\*\d+\.\*\*[（(][^）)]*[）)]/, '').trim())
   i++
   while (i < lines.length) {
     const line = lines[i]
-    if (line.match(/^\d+\.\s/) || line.match(/^###\s/)) break
+    if (line.match(/^\d+\.\s/) || line.match(/^\*\*第\d+题\*\*/) || line.match(/^\*\*\d+\.\*\*/) || line.match(/^###\s/)) break
     exerciseLines.push(line.trim())
     i++
   }
@@ -471,6 +650,9 @@ function parseChoiceExercise(lines) {
     if (anaMatch) analysis = anaMatch[1].trim()
     const srcMatch = line.match(/^\*\*来源\*\*[：:]\s*(.+)/)
     if (srcMatch) source = srcMatch[1].trim()
+    // Also match "——来源" format
+    const srcMatch2 = line.match(/^——(.+)/)
+    if (srcMatch2 && !source) source = srcMatch2[1].trim()
   }
 
   const ex = { type: 'choice', id: '', stem, options, answer, analysis }
@@ -516,13 +698,13 @@ function parseFillExercise(lines) {
     }
   }
 
-  // Parse segments: split by ___ pattern
+  // Parse segments: split by ___ or _____ or \_\_\_\_\_ or __________ pattern
   const segments = []
-  const parts = stemLine.split(/(___+|`___`)/)
+  const parts = stemLine.split(/(_{3,}|\\_{3,}|`___`)/)
   let blankIdx = 0
   for (const part of parts) {
     if (part === '' || part === undefined) continue
-    if (part.match(/^_+$/) || part === '`___`') {
+    if (part.match(/^_{3,}$/) || part.match(/^\\_{3,}$/) || part === '`___`') {
       blankIdx++
       segments.push(`___${blankIdx}___`)
     } else {
@@ -541,6 +723,15 @@ function parseFillExercise(lines) {
     for (const alt of altParts) {
       alternatives.push(alt.split('|').map((s) => s.trim()))
     }
+  }
+
+  // 如果没有答案行但从segments中检测到了空格，创建空blanks
+  if (answers.length === 0 && blankIdx > 0) {
+    const blanks = []
+    for (let i = 0; i < blankIdx; i++) {
+      blanks.push({ index: i + 1, answer: '' })
+    }
+    return { type: 'fill', id: '', segments, blanks, analysis }
   }
 
   const blanks = answers.map((ans, idx) => {
@@ -576,8 +767,28 @@ function parseShortAnswerExercise(lines) {
 // ===== 五、本课小结 =====
 
 function parseSummary(text) {
+  // 尝试解析 ``` 代码块格式
+  const codeBlockMatch = text.match(/```[\s\S]*?```/)
+  if (codeBlockMatch) {
+    const codeContent = codeBlockMatch[0].replace(/^```\n?/, '').replace(/\n?```$/, '')
+    const lines = codeContent.split('\n').filter(l => l.trim())
+    const nodes = []
+    for (const line of lines) {
+      const stripped = line.replace(/\r$/, '')
+      // 计算缩进级别（基于树状符号）
+      const cleanLine = stripped.replace(/^[│\s]*/, '')
+      const depth = (stripped.match(/[│├└]/g) || []).length
+      const text = cleanLine.replace(/^[├└──\s]+/, '').trim()
+      if (text) {
+        nodes.push({ text, depth })
+      }
+    }
+    // 构建树结构
+    return buildSummaryTreeFromDepth(nodes)
+  }
+
+  // 原有的 - item 格式
   const raw = text.trim().split('\n').filter((l) => l.trim().startsWith('-'))
-  // Normalize: strip \r, get indent level and text
   const lines = raw.map((l) => {
     const stripped = l.replace(/\r$/, '')
     const indent = stripped.match(/^(\s*)/)[1].length
@@ -585,6 +796,27 @@ function parseSummary(text) {
     return { indent, text: content }
   })
   return buildSummaryTree(lines, 0, lines[0]?.indent || 0).nodes
+}
+
+function buildSummaryTreeFromDepth(nodes) {
+  if (nodes.length === 0) return []
+  const result = []
+  let i = 0
+  while (i < nodes.length) {
+    const node = { text: nodes[i].text }
+    const currentDepth = nodes[i].depth
+    const children = []
+    i++
+    while (i < nodes.length && nodes[i].depth > currentDepth) {
+      children.push(nodes[i])
+      i++
+    }
+    if (children.length > 0) {
+      node.children = buildSummaryTreeFromDepth(children)
+    }
+    result.push(node)
+  }
+  return result
 }
 
 function buildSummaryTree(lines, startIdx, baseIndent) {
@@ -627,10 +859,14 @@ function splitByH3(text) {
   let buffer = []
 
   for (const line of lines) {
+    // 支持多种例题格式
     const match = line.match(/^###\s+(.+)/)
-    if (match) {
+    const altMatch = line.match(/^\*\*【(例\d+[^】]*)】\*\*/)
+    const altMatch2 = line.match(/^\*\*(例题?\d+[^】]*)\*\*[：:]?/)
+    const h3 = match || altMatch || altMatch2
+    if (h3) {
       if (currentTitle) blocks.push({ title: currentTitle, lines: buffer })
-      currentTitle = match[1].trim()
+      currentTitle = h3[1].trim()
       buffer = []
     } else if (currentTitle) {
       buffer.push(line)

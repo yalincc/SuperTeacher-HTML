@@ -1,0 +1,722 @@
+{
+  "meta": {
+    "id": 9,
+    "slug": "lesson-09-碳和碳的氧化物",
+    "title": "碳和碳的氧化物",
+    "unit": "第六单元",
+    "week": 5,
+    "day": 1
+  },
+  "objectives": [
+    {
+      "text": "了解碳的几种单质（金刚石、石墨、C₆₀）的结构特点和主要用途",
+      "isKeyPoint": false
+    },
+    {
+      "text": "掌握碳的化学性质（可燃性、还原性），能正确书写相关化学方程式",
+      "isKeyPoint": false
+    },
+    {
+      "text": "掌握二氧化碳的物理性质和化学性质，理解CO₂与水、石灰水的反应",
+      "isKeyPoint": false
+    },
+    {
+      "text": "掌握二氧化碳的实验室制取方法和一氧化碳的性质，能鉴别CO和CO₂并进行相互转化",
+      "isKeyPoint": false
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "核心概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "碳元素是自然界中非常重要的一种元素，它可以形成多种单质和化合物。本课围绕碳的单质、碳的化学性质，以及两种碳的氧化物（CO₂和CO）展开学习。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**1. 碳的单质**"
+        },
+        {
+          "type": "paragraph",
+          "content": "碳元素可以形成多种单质，主要原因在于碳原子之间的排列方式不同。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "单质",
+            "结构特点",
+            "主要物理性质",
+            "主要用途"
+          ],
+          "rows": [
+            [
+              "金刚石",
+              "正八面体结构，每个碳原子与4个碳原子以共价键相连",
+              "无色透明、正八面体晶体，天然最硬的物质",
+              "切割玻璃、切割大理石、做钻头、装饰品（钻石）"
+            ],
+            [
+              "石墨",
+              "层状结构，每层碳原子排列成平面正六边形",
+              "深灰色、有金属光泽、质软、有滑腻感、能导电",
+              "铅笔芯、电极、润滑剂"
+            ],
+            [
+              "C₆₀",
+              "由60个碳原子构成的分子，形似足球",
+              "分子晶体",
+              "超导材料、新材料研究"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "**关键理解**",
+          "content": "金刚石和石墨的物理性质差异巨大，是因为**碳原子的排列方式不同**。这就好比同样的砖头，不同的砌法可以建成完全不同的建筑。虽然物理性质不同，但它们都由碳元素组成，化学性质相似。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**2. 无定形碳**"
+        },
+        {
+          "type": "paragraph",
+          "content": "木炭、活性炭、焦炭、炭黑等都是无定形碳，它们主要是由石墨的微小晶体和少量杂质构成的。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**活性炭**：有很强的**吸附性**（物理变化），可用于净水、防毒面具、制糖脱色等",
+            "**木炭**：也有吸附性，可用于取暖、冶炼金属",
+            "**焦炭**：用于冶炼生铁",
+            "**炭黑**：用于制墨汁、油漆、橡胶添加剂"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "注意",
+          "content": "\"碳\"是元素名称，\"炭\"是具体物质名称。说\"碳元素\"\"碳酸\"\"二氧化碳\"用\"碳\"，说\"木炭\"\"活性炭\"\"炭黑\"用\"炭\"。"
+        }
+      ]
+    },
+    {
+      "title": "重点内容（★标注）",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**★ 碳的化学性质**"
+        },
+        {
+          "type": "paragraph",
+          "content": "（1）**可燃性**"
+        },
+        {
+          "type": "paragraph",
+          "content": "碳在氧气中充分燃烧："
+        },
+        {
+          "type": "equation",
+          "latex": "C + O_2 \\xrightarrow{\\text{点燃}} CO_2",
+          "display": true
+        },
+        {
+          "type": "paragraph",
+          "content": "碳在氧气中不充分燃烧："
+        },
+        {
+          "type": "equation",
+          "latex": "2C + O_2 \\xrightarrow{\\text{点燃}} 2CO",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "碳燃烧是放热反应，碳是重要燃料。燃烧产物取决于氧气的量：氧气充足生成CO₂，氧气不充足生成CO。"
+        },
+        {
+          "type": "paragraph",
+          "content": "（2）**还原性**（★重点）"
+        },
+        {
+          "type": "paragraph",
+          "content": "碳能在高温下夺取某些金属氧化物中的氧，使金属氧化物被还原。"
+        },
+        {
+          "type": "paragraph",
+          "content": "碳还原氧化铜："
+        },
+        {
+          "type": "equation",
+          "latex": "2CuO + C \\xrightarrow{\\text{高温}} 2Cu + CO_2\\uparrow",
+          "display": true
+        },
+        {
+          "type": "paragraph",
+          "content": "现象：黑色粉末逐渐变为红色（生成铜），产生能使澄清石灰水变浑浊的气体（CO₂）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "碳还原氧化铁："
+        },
+        {
+          "type": "equation",
+          "latex": "2Fe_2O_3 + 3C \\xrightarrow{\\text{高温}} 4Fe + 3CO_2\\uparrow",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "碳的还原性在冶金工业中有重要应用，用于冶炼金属。"
+        },
+        {
+          "type": "paragraph",
+          "content": "（3）**稳定性**"
+        },
+        {
+          "type": "paragraph",
+          "content": "常温下碳的化学性质不活泼，受日光照射或与空气、水分接触都不容易变化。因此古代字画用碳素墨水书写可以保存很久。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**★★★ 二氧化碳的性质**"
+        },
+        {
+          "type": "paragraph",
+          "content": "**物理性质：**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "无色无味的气体",
+            "密度比空气大（标准状况下，CO₂密度约1.977 g/L，空气约1.293 g/L）",
+            "能溶于水（1体积水约溶解1体积CO₂）",
+            "固态CO₂叫\"干冰\"，升华时吸收大量热"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "干冰升华吸热，可用于人工降雨、冷藏食品、舞台烟雾效果。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**化学性质：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "① 一般不燃烧，也不支持燃烧"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "这是CO₂灭火的原因。但注意：镁条能在CO₂中燃烧（2Mg + CO₂ → 2MgO + C），所以CO₂不能用于扑灭镁等活泼金属的火灾。"
+        },
+        {
+          "type": "paragraph",
+          "content": "② 与水反应生成碳酸"
+        },
+        {
+          "type": "equation",
+          "latex": "CO_2 + H_2O = H_2CO_3",
+          "display": true
+        },
+        {
+          "type": "paragraph",
+          "content": "碳酸能使紫色石蕊溶液变红。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "实验设计",
+          "content": "将干燥的紫色石蕊纸花放入CO₂中不变色，润湿的紫色石蕊纸花放入CO₂中变红，说明是CO₂与水反应生成的碳酸使石蕊变色，而不是CO₂本身。"
+        },
+        {
+          "type": "paragraph",
+          "content": "碳酸不稳定，容易分解："
+        },
+        {
+          "type": "equation",
+          "latex": "H_2CO_3 = H_2O + CO_2\\uparrow",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "加热变红的石蕊溶液，红色会褪去恢复紫色，就是因为碳酸受热分解。"
+        },
+        {
+          "type": "paragraph",
+          "content": "③ 与石灰水反应（★检验CO₂的标准方法）"
+        },
+        {
+          "type": "equation",
+          "latex": "CO_2 + Ca(OH)_2 = CaCO_3\\downarrow + H_2O",
+          "display": true
+        },
+        {
+          "type": "paragraph",
+          "content": "现象：澄清石灰水变浑浊。这是**检验CO₂的常用方法**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**★ 二氧化碳的实验室制取**"
+        },
+        {
+          "type": "paragraph",
+          "content": "**药品：** 大理石（或石灰石）与稀盐酸"
+        },
+        {
+          "type": "equation",
+          "latex": "CaCO_3 + 2HCl = CaCl_2 + H_2O + CO_2\\uparrow",
+          "display": true
+        },
+        {
+          "type": "paragraph",
+          "content": "**实验装置要点：**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**发生装置**：固液常温型（与制取H₂相同），不能用加热装置",
+            "**收集装置**：向上排空气法（CO₂密度比空气大，能溶于水不能用排水法）"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "**注意事项：**① 不能用稀硫酸代替稀盐酸：因为CaSO₄微溶于水，会覆盖在大理石表面阻止反应继续进行② 不能用浓盐酸：浓盐酸有强挥发性，挥发出的HCl气体会混入CO₂中使气体不纯③ 不能用碳酸钠代替大理石：Na₂CO₃是粉末状，与盐酸反应速率太快，不便于收集"
+        },
+        {
+          "type": "paragraph",
+          "content": "**★ 一氧化碳的性质**"
+        },
+        {
+          "type": "paragraph",
+          "content": "**物理性质：** 无色无味的气体，密度比空气略小，难溶于水"
+        },
+        {
+          "type": "paragraph",
+          "content": "**化学性质：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "① **可燃性**"
+        },
+        {
+          "type": "equation",
+          "latex": "2CO + O_2 \\xrightarrow{\\text{点燃}} 2CO_2",
+          "display": true
+        },
+        {
+          "type": "paragraph",
+          "content": "现象：蓝色火焰。点燃前必须验纯（与H₂一样）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "② **还原性**（★重点）"
+        },
+        {
+          "type": "equation",
+          "latex": "CuO + CO \\xrightarrow{\\Delta} Cu + CO_2",
+          "display": true
+        },
+        {
+          "type": "equation",
+          "latex": "Fe_2O_3 + 3CO \\xrightarrow{\\text{高温}} 2Fe + 3CO_2",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "CO的还原性是高炉炼铁的原理。"
+        },
+        {
+          "type": "paragraph",
+          "content": "③ **毒性**"
+        },
+        {
+          "type": "paragraph",
+          "content": "CO能与血液中的血红蛋白结合，使其丧失携氧能力，造成人体组织缺氧。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "冬天用煤炉取暖要防止煤气中毒，就是防止CO中毒。CO无色无味，难以察觉，特别危险。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**CO和CO₂的鉴别与转化**"
+        },
+        {
+          "type": "paragraph",
+          "content": "**鉴别方法：**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "方法",
+            "CO",
+            "CO₂"
+          ],
+          "rows": [
+            [
+              "通入澄清石灰水",
+              "无变化",
+              "变浑浊"
+            ],
+            [
+              "通入紫色石蕊溶液",
+              "无变化",
+              "变红"
+            ],
+            [
+              "点燃",
+              "能燃烧，蓝色火焰",
+              "不燃烧"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "**相互转化：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "CO → CO₂：CO燃烧或CO与CuO等反应"
+        },
+        {
+          "type": "equation",
+          "latex": "2CO + O_2 \\xrightarrow{\\text{点燃}} 2CO_2",
+          "display": true
+        },
+        {
+          "type": "paragraph",
+          "content": "CO₂ → CO：高温下CO₂与碳反应"
+        },
+        {
+          "type": "equation",
+          "latex": "CO_2 + C \\xrightarrow{\\text{高温}} 2CO",
+          "display": true
+        }
+      ]
+    },
+    {
+      "title": "难点突破",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**难点1：金刚石和石墨物理性质差异的原因**"
+        },
+        {
+          "type": "paragraph",
+          "content": "很多同学难以理解\"同种元素组成的不同单质，物理性质可以截然不同\"。关键在于：**物质的性质取决于结构**。金刚石中碳原子形成空间网状结构，每个碳原子被牢固地\"锁\"在四个共价键中，所以极其坚硬；石墨中碳原子形成层状结构，层与层之间作用力很弱，容易滑动，所以质软有滑腻感。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "类比",
+          "content": "同样是一堆积木，搭成实心方块和搭成扁平的层，其牢固程度自然不同。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**难点2：CO还原金属氧化物的实验操作**"
+        },
+        {
+          "type": "paragraph",
+          "content": "CO还原CuO的实验中，必须注意："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "实验开始时先通CO再加热（排尽装置内空气，防止CO与空气混合加热爆炸）",
+            "实验结束时先停止加热，继续通CO至冷却（防止生成的铜在高温下被空气中的氧气氧化）",
+            "尾气必须处理（通入石灰水或点燃），防止CO污染空气"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "口诀",
+          "content": "\"CO早出晚归，酒精灯迟到早退\""
+        },
+        {
+          "type": "paragraph",
+          "content": "**难点3：CO₂与NaOH和Ca(OH)₂反应的区别**"
+        },
+        {
+          "type": "paragraph",
+          "content": "CO₂通入NaOH溶液无明显现象（因为生成的Na₂CO₃溶于水），但反应确实发生了："
+        },
+        {
+          "type": "equation",
+          "latex": "2NaOH + CO_2 = Na_2CO_3 + H_2O",
+          "display": true
+        },
+        {
+          "type": "paragraph",
+          "content": "CO₂通入Ca(OH)₂溶液有白色沉淀（CaCO₃不溶于水），有明显现象："
+        },
+        {
+          "type": "equation",
+          "latex": "Ca(OH)_2 + CO_2 = CaCO_3\\downarrow + H_2O",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "因此检验CO₂用石灰水，而吸收CO₂常用NaOH溶液（吸收更充分）。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例题1：",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "（1）纸花①不变色，说明什么？（2）纸花②变红，说明什么？（3）纸花③变红，与纸花②变红的原因是否相同？"
+        },
+        {
+          "type": "paragraph",
+          "content": "**解析：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "（1）纸花①不变色，说明CO₂本身不能使石蕊变色，排除了CO₂直接使石蕊变色的可能。"
+        },
+        {
+          "type": "paragraph",
+          "content": "（2）纸花②变红，说明CO₂与水反应生成了碳酸（H₂CO₃），碳酸使石蕊变红。这里起作用的是H₂CO₃，不是CO₂本身。"
+        },
+        {
+          "type": "paragraph",
+          "content": "（3）不相同。纸花②变红是因为CO₂与水反应生成H₂CO₃使石蕊变色；纸花③变红是因为醋酸（CH₃COOH）直接使石蕊变色。两者虽然都是酸使石蕊变色，但酸的来源不同。"
+        }
+      ],
+      "solution": [],
+      "answer": ""
+    },
+    {
+      "title": "例题2：",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "（1）大理石 + 稀硫酸（2）石灰石 + 浓盐酸（3）碳酸钠 + 稀盐酸（4）大理石 + 稀盐酸"
+        },
+        {
+          "type": "paragraph",
+          "content": "**解析：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "（1）不能用。稀硫酸与大理石反应生成微溶的CaSO₄，覆盖在大理石表面，阻碍反应继续进行，反应会很快停止。"
+        },
+        {
+          "type": "paragraph",
+          "content": "（2）不能用。浓盐酸有强挥发性，挥发出的HCl气体混入CO₂中，使制得的气体不纯。"
+        },
+        {
+          "type": "paragraph",
+          "content": "（3）不能用。碳酸钠是粉末状，与稀盐酸反应速率过快，不易控制，不便于收集气体。"
+        },
+        {
+          "type": "paragraph",
+          "content": "（4）能用。大理石是块状固体，与稀盐酸反应速率适中，便于控制，产生的CO₂较纯。这是实验室制取CO₂的标准药品组合。"
+        }
+      ],
+      "solution": [],
+      "answer": ""
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-9-1",
+      "stem": "下列关于碳的单质说法正确的是（　）",
+      "options": [
+        {
+          "label": "A",
+          "text": "金刚石和石墨是由不同元素组成的"
+        },
+        {
+          "label": "B",
+          "text": "金刚石和石墨的物理性质差异很大是因为碳原子排列方式不同"
+        },
+        {
+          "label": "C",
+          "text": "C₆₀是一种新型化合物"
+        },
+        {
+          "label": "D",
+          "text": "活性炭能使红墨水褪色是因为发生了化学变化"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "source": "2022年山东济南中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-9-2",
+      "stem": "下列关于二氧化碳的说法错误的是（　）",
+      "options": [
+        {
+          "label": "A",
+          "text": "二氧化碳能用于灭火是因为它不燃烧也不支持燃烧且密度比空气大"
+        },
+        {
+          "label": "B",
+          "text": "干冰升华时吸收热量，可用于人工降雨"
+        },
+        {
+          "label": "C",
+          "text": "二氧化碳能使紫色石蕊溶液变红"
+        },
+        {
+          "label": "D",
+          "text": "将CO₂通入澄清石灰水可检验CO₂的存在"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "source": "2023年四川成都中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-9-3",
+      "stem": "下列实验操作正确的是（　）",
+      "options": [
+        {
+          "label": "A",
+          "text": "实验室制取CO₂时，用稀硫酸与大理石反应"
+        },
+        {
+          "label": "B",
+          "text": "用CO还原CuO时，先加热再通入CO"
+        },
+        {
+          "label": "C",
+          "text": "检验CO₂用澄清石灰水"
+        },
+        {
+          "label": "D",
+          "text": "用排水法收集CO₂"
+        }
+      ],
+      "answer": "",
+      "analysis": "",
+      "source": "2022年河南中考"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-4",
+      "segments": [
+        "碳在氧气中燃烧，当氧气充足时，反应的化学方程式为 \\_\\_\\_\\_\\_\\_\\_\\_\\_；当氧气不充足时，反应的化学方程式为 \\_\\_\\_\\_\\_\\_\\_\\_\\_。冬天用煤炉取暖时，如果煤炭不充分燃烧，容易发生煤气中毒，造成中毒的物质是 \\_\\_\\_\\_\\_\\_\\_\\_\\_（填化学式），该物质中毒的原理是 \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_。——2023年安徽中考"
+      ],
+      "blanks": [],
+      "analysis": ""
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-5",
+      "segments": [
+        "请根据下列实验装置回答问题：（1）实验室用大理石和稀盐酸制取CO₂，应选择的发生装置是 \\_\\_\\_\\_\\_（填字母），收集装置是 \\_\\_\\_\\_\\_（填字母），选择的理由是 \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_。（2）如何检验集气瓶中是否已收集满CO₂？\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_（3）CO还原Fe₂O₃的化学方程式为 \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_，该反应中 \\_\\_\\_\\_\\_ 是还原剂。——2022年广东中考---"
+      ],
+      "blanks": [],
+      "analysis": ""
+    }
+  ],
+  "summary": [
+    {
+      "text": "碳和碳的氧化物",
+      "children": [
+        {
+          "text": "碳的单质",
+          "children": [
+            {
+              "text": "金刚石——最硬——切割、钻头"
+            },
+            {
+              "text": "石墨——质软导电——铅笔芯、电极"
+            },
+            {
+              "text": "C₆₀——分子结构——新材料"
+            }
+          ]
+        },
+        {
+          "text": "※ 物理性质不同→碳原子排列方式不同"
+        },
+        {
+          "text": "碳的化学性质",
+          "children": [
+            {
+              "text": "可燃性：C+O₂→CO₂（充足）/ 2C+O₂→2CO（不足）"
+            },
+            {
+              "text": "还原性：2CuO+C→2Cu+CO₂↑"
+            },
+            {
+              "text": "常温稳定性"
+            }
+          ]
+        },
+        {
+          "text": "二氧化碳（CO₂）★★★",
+          "children": [
+            {
+              "text": "物理性质：无色无味、密度>空气、溶于水、干冰升华吸热"
+            },
+            {
+              "text": "化学性质：不燃烧不支持燃烧"
+            },
+            {
+              "text": "与水→H₂CO₃（石蕊变红）"
+            },
+            {
+              "text": "与Ca(OH)₂→CaCO₃↓（检验CO₂）"
+            },
+            {
+              "text": "实验室制取：CaCO₃+2HCl→CaCl₂+H₂O+CO₂↑"
+            }
+          ]
+        },
+        {
+          "text": "（大理石+稀盐酸，向上排空气法收集）"
+        },
+        {
+          "text": "一氧化碳（CO）★"
+        },
+        {
+          "text": "可燃性：2CO+O₂→2CO₂（蓝色火焰）"
+        },
+        {
+          "text": "还原性：CuO+CO→Cu+CO₂（炼铁原理）"
+        },
+        {
+          "text": "毒性：与血红蛋白结合"
+        },
+        {
+          "text": "鉴别：石灰水/石蕊溶液/点燃法"
+        }
+      ]
+    }
+  ]
+}

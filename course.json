@@ -6,9 +6,9 @@
     "color": "#6C63FF"
   },
   "schedule": {
-    "weeks": 3,
-    "weekLabels": ["第一周", "第二周", "第三周"],
-    "weekTitles": ["走进化学世界", "空气与氧气", "物质构成的奥秘"]
+    "weeks": 5,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周"],
+    "weekTitles": ["走进化学世界", "空气与氧气", "物质构成的奥秘", "化学方程式", "碳与燃料"]
   },
   "lessons": [
     {
@@ -58,6 +58,38 @@
       "week": 3,
       "day": 2,
       "file": "lesson-06-水与化合价.md"
+    },
+    {
+      "id": 7,
+      "title": "质量守恒定律",
+      "unit": "第四单元",
+      "week": 4,
+      "day": 1,
+      "file": "lesson-07-质量守恒定律.md"
+    },
+    {
+      "id": 8,
+      "title": "化学方程式",
+      "unit": "第四单元",
+      "week": 4,
+      "day": 2,
+      "file": "lesson-08-化学方程式.md"
+    },
+    {
+      "id": 9,
+      "title": "碳和碳的氧化物",
+      "unit": "第六单元",
+      "week": 5,
+      "day": 1,
+      "file": "lesson-09-碳和碳的氧化物.md"
+    },
+    {
+      "id": 10,
+      "title": "燃料及其利用",
+      "unit": "第七单元",
+      "week": 5,
+      "day": 2,
+      "file": "lesson-10-燃料及其利用.md"
     }
   ],
   "features": {
