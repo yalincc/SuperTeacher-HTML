@@ -50,7 +50,7 @@
         },
         {
           "type": "equation",
-          "latex": "C + O_2 \\xrightarrow{\\text{点燃}} CO_2",
+          "latex": "C + O_2 \\xrightarrow{点燃} CO_2",
           "display": true
         },
         {
@@ -72,7 +72,7 @@
         },
         {
           "type": "paragraph",
-          "content": "以 $2H_2 + O_2 \\xrightarrow{\\text{点燃}} 2H_2O$ 为例："
+          "content": "以 $2H_2 + O_2 \\xrightarrow{点燃} 2H_2O$ 为例："
         },
         {
           "type": "table",
@@ -111,7 +111,7 @@
         },
         {
           "type": "paragraph",
-          "content": "以 $2H_2 + O_2 \\xrightarrow{\\text{点燃}} 2H_2O$ 为例："
+          "content": "以 $2H_2 + O_2 \\xrightarrow{点燃} 2H_2O$ 为例："
         },
         {
           "type": "equation",
@@ -366,7 +366,7 @@
         },
         {
           "type": "paragraph",
-          "content": "✅ 正确写法：$2H_2 + O_2 \\xrightarrow{\\text{点燃}} 2H_2O$（只改系数）"
+          "content": "✅ 正确写法：$2H_2 + O_2 \\xrightarrow{点燃} 2H_2O$（只改系数）"
         },
         {
           "type": "paragraph",
@@ -405,7 +405,7 @@
         },
         {
           "type": "equation",
-          "latex": "3Fe + 2O_2 \\xrightarrow{\\text{点燃}} Fe_3O_4 \\quad \\checkmark",
+          "latex": "3Fe + 2O_2 \\xrightarrow{点燃} Fe_3O_4 \\quad \\checkmark",
           "display": true
         },
         {
@@ -458,7 +458,7 @@
         },
         {
           "type": "paragraph",
-          "content": "工业合成氨的反应为 $N_2 + 3H_2 \\xrightarrow{\\text{高温高压}} 2NH_3$，若有 14 g 氮气参与反应，可生成氨气多少克？"
+          "content": "工业合成氨的反应为 $N_2 + 3H_2 \\xrightarrow{高温高压} 2NH_3$，若有 14 g 氮气参与反应，可生成氨气多少克？"
         },
         {
           "type": "paragraph",
@@ -470,7 +470,7 @@
         },
         {
           "type": "equation",
-          "latex": "N_2 + 3H_2 \\xrightarrow{\\text{高温高压}} 2NH_3",
+          "latex": "N_2 + 3H_2 \\xrightarrow{高温高压} 2NH_3",
           "display": true
         },
         {
@@ -647,7 +647,7 @@
         },
         {
           "type": "equation",
-          "latex": "CaCO_3 \\xrightarrow{\\text{高温}} CaO + CO_2\\uparrow",
+          "latex": "CaCO_3 \\xrightarrow{高温} CaO + CO_2\\uparrow",
           "display": true
         },
         {
@@ -678,7 +678,7 @@
         },
         {
           "type": "equation",
-          "latex": "CaCO_3 \\xrightarrow{\\text{高温}} CaO + CO_2\\uparrow",
+          "latex": "CaCO_3 \\xrightarrow{高温} CaO + CO_2\\uparrow",
           "display": true
         },
         {
@@ -721,25 +721,8 @@
     {
       "type": "choice",
       "id": "ex-8-1",
-      "stem": "下列化学方程式书写正确的是（　　）",
-      "options": [
-        {
-          "label": "A",
-          "text": "$2H_2O \\xrightarrow{\\text{点燃}} 2H_2 + O_2\\uparrow$"
-        },
-        {
-          "label": "B",
-          "text": "$S + O_2 \\xrightarrow{\\text{点燃}} SO_3$"
-        },
-        {
-          "label": "C",
-          "text": "$2H_2O \\xrightarrow{\\text{通电}} 2H_2\\uparrow + O_2\\uparrow$"
-        },
-        {
-          "label": "D",
-          "text": "$Fe_2O_3 + 3CO \\xrightarrow{\\text{高温}} 2Fe + 3CO_2$"
-        }
-      ],
+      "stem": "",
+      "options": [],
       "answer": "D",
       "analysis": "",
       "source": "2022年北京市中考"
@@ -747,7 +730,7 @@
     {
       "type": "choice",
       "id": "ex-8-2",
-      "stem": "配平化学方程式：$\\text{\\_\\_\\_}Fe + \\text{\\_\\_\\_}O_2 \\xrightarrow{\\text{点燃}} \\text{\\_\\_\\_}Fe_3O_4$各化学计量数（从左到右）为（　　）",
+      "stem": "$$配平化学方程式： \\text{\\_\\_\\_}Fe + \\text{\\_\\_\\_}O_2 \\xrightarrow{点燃} \\text{\\_\\_\\_}Fe_3O_4$$各化学计量数（从左到右）为（　　）",
       "options": [
         {
           "label": "A",
@@ -761,7 +744,7 @@
     {
       "type": "choice",
       "id": "ex-8-3",
-      "stem": "根据化学方程式 $2CO + O_2 \\xrightarrow{\\text{点燃}} 2CO_2$，下列说法正确的是（　　）",
+      "stem": "根据化学方程式 $2CO + O_2 \\xrightarrow{点燃} 2CO_2$，下列说法正确的是（　　）",
       "options": [
         {
           "label": "A",

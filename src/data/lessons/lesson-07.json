@@ -172,7 +172,7 @@
         },
         {
           "type": "equation",
-          "latex": "4P + 5O_2 \\xrightarrow{\\text{点燃}} 2P_2O_5",
+          "latex": "4P + 5O_2 \\xrightarrow{点燃} 2P_2O_5",
           "display": true
         },
         {
@@ -336,10 +336,14 @@
           "content": "分析："
         },
         {
+          "type": "equation",
+          "latex": "- **镁条燃烧**： 2Mg + O_2 \\xrightarrow{点燃} 2MgO",
+          "display": true
+        },
+        {
           "type": "list",
           "ordered": false,
           "items": [
-            "**镁条燃烧**：$2Mg + O_2 \\xrightarrow{\\text{点燃}} 2MgO$",
             "固体质量增加，因为空气中的 $O_2$ 参与了反应，被\"加\"进来了",
             "反应前：镁的质量 + 参与反应的氧气质量 = 反应后：氧化镁的质量（守恒）"
           ]

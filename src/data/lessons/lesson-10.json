@@ -335,7 +335,7 @@
         },
         {
           "type": "equation",
-          "latex": "CH_4 + 2O_2 \\xrightarrow{\\text{点燃}} CO_2 + 2H_2O",
+          "latex": "CH_4 + 2O_2 \\xrightarrow{点燃} CO_2 + 2H_2O",
           "display": true
         },
         {
@@ -479,7 +479,7 @@
         },
         {
           "type": "equation",
-          "latex": "C_2H_5OH + 3O_2 \\xrightarrow{\\text{点燃}} 2CO_2 + 3H_2O",
+          "latex": "C_2H_5OH + 3O_2 \\xrightarrow{点燃} 2CO_2 + 3H_2O",
           "display": true
         },
         {

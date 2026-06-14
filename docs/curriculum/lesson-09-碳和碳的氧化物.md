@@ -43,10 +43,10 @@
 （1）**可燃性**
 
 碳在氧气中充分燃烧：
-$$C + O_2 \xrightarrow{\text{点燃}} CO_2$$
+$$C + O_2 \xrightarrow{点燃} CO_2$$
 
 碳在氧气中不充分燃烧：
-$$2C + O_2 \xrightarrow{\text{点燃}} 2CO$$
+$$2C + O_2 \xrightarrow{点燃} 2CO$$
 
 > 碳燃烧是放热反应，碳是重要燃料。燃烧产物取决于氧气的量：氧气充足生成CO₂，氧气不充足生成CO。
 
@@ -55,12 +55,12 @@ $$2C + O_2 \xrightarrow{\text{点燃}} 2CO$$
 碳能在高温下夺取某些金属氧化物中的氧，使金属氧化物被还原。
 
 碳还原氧化铜：
-$$2CuO + C \xrightarrow{\text{高温}} 2Cu + CO_2\uparrow$$
+$$2CuO + C \xrightarrow{高温} 2Cu + CO_2\uparrow$$
 
 现象：黑色粉末逐渐变为红色（生成铜），产生能使澄清石灰水变浑浊的气体（CO₂）。
 
 碳还原氧化铁：
-$$2Fe_2O_3 + 3C \xrightarrow{\text{高温}} 4Fe + 3CO_2\uparrow$$
+$$2Fe_2O_3 + 3C \xrightarrow{高温} 4Fe + 3CO_2\uparrow$$
 
 > 碳的还原性在冶金工业中有重要应用，用于冶炼金属。
 
@@ -126,7 +126,7 @@ $$CaCO_3 + 2HCl = CaCl_2 + H_2O + CO_2\uparrow$$
 
 ① **可燃性**
 
-$$2CO + O_2 \xrightarrow{\text{点燃}} 2CO_2$$
+$$2CO + O_2 \xrightarrow{点燃} 2CO_2$$
 
 现象：蓝色火焰。点燃前必须验纯（与H₂一样）。
 
@@ -134,7 +134,7 @@ $$2CO + O_2 \xrightarrow{\text{点燃}} 2CO_2$$
 
 $$CuO + CO \xrightarrow{\Delta} Cu + CO_2$$
 
-$$Fe_2O_3 + 3CO \xrightarrow{\text{高温}} 2Fe + 3CO_2$$
+$$Fe_2O_3 + 3CO \xrightarrow{高温} 2Fe + 3CO_2$$
 
 > CO的还原性是高炉炼铁的原理。
 
@@ -157,10 +157,10 @@ CO能与血液中的血红蛋白结合，使其丧失携氧能力，造成人体
 **相互转化：**
 
 CO → CO₂：CO燃烧或CO与CuO等反应
-$$2CO + O_2 \xrightarrow{\text{点燃}} 2CO_2$$
+$$2CO + O_2 \xrightarrow{点燃} 2CO_2$$
 
 CO₂ → CO：高温下CO₂与碳反应
-$$CO_2 + C \xrightarrow{\text{高温}} 2CO$$
+$$CO_2 + C \xrightarrow{高温} 2CO$$
 
 ### 难点突破
 
@@ -285,7 +285,7 @@ C错误。CO₂本身不能使石蕊变色，是CO₂与水反应生成的碳酸
 
 A错误，稀硫酸与大理石反应生成的CaSO₄微溶，覆盖在大理石表面使反应停止。B错误，应先通CO排尽空气再加热，防止爆炸。C正确，这是检验CO₂的标准方法。D错误，CO₂能溶于水，不能用排水法收集。
 
-**4.** C + O₂ $\xrightarrow{\text{点燃}}$ CO₂ ； 2C + O₂ $\xrightarrow{\text{点燃}}$ 2CO ； CO ； CO与血液中的血红蛋白结合，使血红蛋白丧失携氧能力，造成人体组织缺氧
+$$**4.** C + O₂ \xrightarrow{点燃} CO₂ ； 2C + O₂ \xrightarrow{点燃} 2CO ； CO ； CO与血液中的血红蛋白结合，使血红蛋白丧失携氧能力，造成人体组织缺氧$$
 
 **5.**
 
@@ -293,7 +293,7 @@ A错误，稀硫酸与大理石反应生成的CaSO₄微溶，覆盖在大理石
 
 （2）将燃着的木条放在集气瓶口，若木条熄灭，说明已收集满。
 
-（3）Fe₂O₃ + 3CO $\xrightarrow{\text{高温}}$ 2Fe + 3CO₂ ； CO（CO夺取了Fe₂O₃中的氧，是还原剂）
+$$（3）Fe₂O₃ + 3CO \xrightarrow{高温} 2Fe + 3CO₂ ； CO（CO夺取了Fe₂O₃中的氧，是还原剂）$$
 
 ## 五、本课小结
 

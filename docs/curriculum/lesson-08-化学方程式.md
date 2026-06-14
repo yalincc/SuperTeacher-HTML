@@ -19,7 +19,7 @@
 
 举例：碳在氧气中充分燃烧：
 
-$$C + O_2 \xrightarrow{\text{点燃}} CO_2$$
+$$C + O_2 \xrightarrow{点燃} CO_2$$
 
 化学方程式能告诉我们：
 1. **反应物和生成物是什么**（定性）
@@ -30,7 +30,7 @@ $$C + O_2 \xrightarrow{\text{点燃}} CO_2$$
 
 **化学方程式的意义（三个层面）**
 
-以 $2H_2 + O_2 \xrightarrow{\text{点燃}} 2H_2O$ 为例：
+以 $2H_2 + O_2 \xrightarrow{点燃} 2H_2O$ 为例：
 
 | 层面 | 说明 | 举例 |
 |-----|------|------|
@@ -46,7 +46,7 @@ $$C + O_2 \xrightarrow{\text{点燃}} CO_2$$
 
 **各物质质量比的计算方法**：
 
-以 $2H_2 + O_2 \xrightarrow{\text{点燃}} 2H_2O$ 为例：
+以 $2H_2 + O_2 \xrightarrow{点燃} 2H_2O$ 为例：
 
 $$质量比 = 化学计量数 \times 相对分子质量$$
 
@@ -159,7 +159,7 @@ $$2KMnO_4 \xrightarrow{\Delta} K_2MnO_4 + MnO_2 + O_2\uparrow$$
 
 ❌ 错误写法：$H_2 + O_2 === H_2O_2$（修改了化学式，不允许！）
 
-✅ 正确写法：$2H_2 + O_2 \xrightarrow{\text{点燃}} 2H_2O$（只改系数）
+✅ 正确写法：$2H_2 + O_2 \xrightarrow{点燃} 2H_2O$（只改系数）
 
 **配平练习策略**：
 1. 先配最复杂的化学式，再配其他
@@ -175,7 +175,7 @@ $$Fe + O_2 == Fe_3O_4$$
 - 右边需要3个Fe，左边 $Fe$ 前加3
 - 右边需要4个O，左边 $O_2$ 前加2（$2 \times 2 = 4$）
 
-$$3Fe + 2O_2 \xrightarrow{\text{点燃}} Fe_3O_4 \quad \checkmark$$
+$$3Fe + 2O_2 \xrightarrow{点燃} Fe_3O_4 \quad \checkmark$$
 
 ---
 
@@ -194,13 +194,13 @@ $$3Fe + 2O_2 \xrightarrow{\text{点燃}} Fe_3O_4 \quad \checkmark$$
 
 **标准格式示例**：
 
-工业合成氨的反应为 $N_2 + 3H_2 \xrightarrow{\text{高温高压}} 2NH_3$，若有 14 g 氮气参与反应，可生成氨气多少克？
+工业合成氨的反应为 $N_2 + 3H_2 \xrightarrow{高温高压} 2NH_3$，若有 14 g 氮气参与反应，可生成氨气多少克？
 
 **解**：
 
 设生成氨气的质量为 $x$。
 
-$$N_2 + 3H_2 \xrightarrow{\text{高温高压}} 2NH_3$$
+$$N_2 + 3H_2 \xrightarrow{高温高压} 2NH_3$$
 
 $$28 \quad\quad\quad\quad\quad\quad\quad 34$$
 
@@ -284,7 +284,7 @@ $$CaCO_3 + 2HCl = CaCl_2 + H_2O + CO_2\uparrow$$
 
 **题目**：工业上高温煅烧石灰石制备生石灰，反应方程式为：
 
-$$CaCO_3 \xrightarrow{\text{高温}} CaO + CO_2\uparrow$$
+$$CaCO_3 \xrightarrow{高温} CaO + CO_2\uparrow$$
 
 若要生产 112 t 生石灰（$CaO$），需要消耗石灰石（纯 $CaCO_3$）多少吨？同时会生成多少吨 $CO_2$？
 
@@ -300,7 +300,7 @@ $CO_2$ 的相对分子质量 $= 12 + 16 \times 2 = 44$
 
 设需要消耗 $CaCO_3$ 的质量为 $x$，生成 $CO_2$ 的质量为 $y$。
 
-$$CaCO_3 \xrightarrow{\text{高温}} CaO + CO_2\uparrow$$
+$$CaCO_3 \xrightarrow{高温} CaO + CO_2\uparrow$$
 
 $$100 \quad\quad\quad\quad 56 \quad\quad 44$$
 
@@ -326,13 +326,13 @@ $$\frac{44}{y} = \frac{56}{112\text{ t}} \Rightarrow y = \frac{44 \times 112\tex
 
 下列化学方程式书写正确的是（　　）
 
-A. $2H_2O \xrightarrow{\text{点燃}} 2H_2 + O_2\uparrow$
+$$A. 2H_2O \xrightarrow{点燃} 2H_2 + O_2\uparrow$$
 
-B. $S + O_2 \xrightarrow{\text{点燃}} SO_3$
+$$B. S + O_2 \xrightarrow{点燃} SO_3$$
 
-C. $2H_2O \xrightarrow{\text{通电}} 2H_2\uparrow + O_2\uparrow$
+$$C. 2H_2O \xrightarrow{通电} 2H_2\uparrow + O_2\uparrow$$
 
-D. $Fe_2O_3 + 3CO \xrightarrow{\text{高温}} 2Fe + 3CO_2$
+$$D. Fe_2O_3 + 3CO \xrightarrow{高温} 2Fe + 3CO_2$$
 
 ——2022年北京市中考
 
@@ -341,9 +341,9 @@ D. $Fe_2O_3 + 3CO \xrightarrow{\text{高温}} 2Fe + 3CO_2$
 **解析**：
 - A 错误：水电解才能分解为 $H_2$ 和 $O_2$，反应条件应为"通电"，不是"点燃"；且 $O_2$ 是反应物不是生成物，完全写错了反应。
 - B 错误：$S$ 在 $O_2$ 中燃烧生成 $SO_2$，不是 $SO_3$，化学式错误。
-- C 错误：电解水反应在溶液中进行，$H_2$ 和 $O_2$ 均为气体产物，应标 ↑，但比例系数：$2H_2O \xrightarrow{\text{通电}} 2H_2\uparrow + O_2\uparrow$，这个系数是正确的……实际上C中比例正确，但需验证原子守恒：左边 4H+2O，右边 4H+2O ✓。C 本身方程式平衡，实际是**正确**的。
+- C 错误：电解水反应在溶液中进行，$H_2$ 和 $O_2$ 均为气体产物，应标 ↑，但比例系数：$2H_2O \xrightarrow{通电} 2H_2\uparrow + O_2\uparrow$，这个系数是正确的……实际上C中比例正确，但需验证原子守恒：左边 4H+2O，右边 4H+2O ✓。C 本身方程式平衡，实际是**正确**的。
 
-重新分析：D: $Fe_2O_3 + 3CO \xrightarrow{\text{高温}} 2Fe + 3CO_2$
+$$重新分析：D: Fe_2O_3 + 3CO \xrightarrow{高温} 2Fe + 3CO_2$$
 - 左：2Fe, 3O(from $Fe_2O_3$) + 3C + 3O(from CO) = 2Fe, 3C, 6O
 - 右：2Fe + 3C + 6O ✓
 
@@ -353,7 +353,7 @@ D. $Fe_2O_3 + 3CO \xrightarrow{\text{高温}} 2Fe + 3CO_2$
 
 **第2题**
 
-配平化学方程式：$\text{\_\_\_}Fe + \text{\_\_\_}O_2 \xrightarrow{\text{点燃}} \text{\_\_\_}Fe_3O_4$
+$$配平化学方程式： \text{\_\_\_}Fe + \text{\_\_\_}O_2 \xrightarrow{点燃} \text{\_\_\_}Fe_3O_4$$
 
 各化学计量数（从左到右）为（　　）
 
@@ -374,7 +374,7 @@ $Fe_3O_4$ 中：Fe : O = 3 : 4
 - 左边 Fe：$a = 3$
 - 左边 O：$2b = 4 \Rightarrow b = 2$
 
-所以 $3Fe + 2O_2 \xrightarrow{\text{点燃}} Fe_3O_4$
+$$所以 3Fe + 2O_2 \xrightarrow{点燃} Fe_3O_4$$
 
 选 **B**。
 
@@ -382,7 +382,7 @@ $Fe_3O_4$ 中：Fe : O = 3 : 4
 
 **第3题**
 
-根据化学方程式 $2CO + O_2 \xrightarrow{\text{点燃}} 2CO_2$，下列说法正确的是（　　）
+根据化学方程式 $2CO + O_2 \xrightarrow{点燃} 2CO_2$，下列说法正确的是（　　）
 
 A. 一氧化碳和氧气在任何条件下都能反应
 
@@ -451,7 +451,7 @@ $$x = \frac{65 \times 0.4\text{ g}}{2} = 13\text{ g}$$
 
 某工厂用赤铁矿（主要成分为 $Fe_2O_3$）炼铁，反应的化学方程式为：
 
-$$Fe_2O_3 + 3CO \xrightarrow{\text{高温}} 2Fe + 3CO_2$$
+$$Fe_2O_3 + 3CO \xrightarrow{高温} 2Fe + 3CO_2$$
 
 若该赤铁矿中 $Fe_2O_3$ 的质量分数为 80%，要炼出 560 kg 铁，需要赤铁矿多少千克？
 
@@ -467,7 +467,7 @@ $2Fe$ 的相对质量 $= 56 \times 2 = 112$
 
 设需要 $Fe_2O_3$ 的质量为 $y$。
 
-$$Fe_2O_3 + 3CO \xrightarrow{\text{高温}} 2Fe + 3CO_2$$
+$$Fe_2O_3 + 3CO \xrightarrow{高温} 2Fe + 3CO_2$$
 
 $$160 \quad\quad\quad\quad\quad\quad\quad\quad 112$$
 

@@ -121,7 +121,7 @@
         },
         {
           "type": "equation",
-          "latex": "C + O_2 \\xrightarrow{\\text{点燃}} CO_2",
+          "latex": "C + O_2 \\xrightarrow{点燃} CO_2",
           "display": true
         },
         {
@@ -130,7 +130,7 @@
         },
         {
           "type": "equation",
-          "latex": "2C + O_2 \\xrightarrow{\\text{点燃}} 2CO",
+          "latex": "2C + O_2 \\xrightarrow{点燃} 2CO",
           "display": true
         },
         {
@@ -153,7 +153,7 @@
         },
         {
           "type": "equation",
-          "latex": "2CuO + C \\xrightarrow{\\text{高温}} 2Cu + CO_2\\uparrow",
+          "latex": "2CuO + C \\xrightarrow{高温} 2Cu + CO_2\\uparrow",
           "display": true
         },
         {
@@ -166,7 +166,7 @@
         },
         {
           "type": "equation",
-          "latex": "2Fe_2O_3 + 3C \\xrightarrow{\\text{高温}} 4Fe + 3CO_2\\uparrow",
+          "latex": "2Fe_2O_3 + 3C \\xrightarrow{高温} 4Fe + 3CO_2\\uparrow",
           "display": true
         },
         {
@@ -315,7 +315,7 @@
         },
         {
           "type": "equation",
-          "latex": "2CO + O_2 \\xrightarrow{\\text{点燃}} 2CO_2",
+          "latex": "2CO + O_2 \\xrightarrow{点燃} 2CO_2",
           "display": true
         },
         {
@@ -333,7 +333,7 @@
         },
         {
           "type": "equation",
-          "latex": "Fe_2O_3 + 3CO \\xrightarrow{\\text{高温}} 2Fe + 3CO_2",
+          "latex": "Fe_2O_3 + 3CO \\xrightarrow{高温} 2Fe + 3CO_2",
           "display": true
         },
         {
@@ -399,7 +399,7 @@
         },
         {
           "type": "equation",
-          "latex": "2CO + O_2 \\xrightarrow{\\text{点燃}} 2CO_2",
+          "latex": "2CO + O_2 \\xrightarrow{点燃} 2CO_2",
           "display": true
         },
         {
@@ -408,7 +408,7 @@
         },
         {
           "type": "equation",
-          "latex": "CO_2 + C \\xrightarrow{\\text{高温}} 2CO",
+          "latex": "CO_2 + C \\xrightarrow{高温} 2CO",
           "display": true
         }
       ]

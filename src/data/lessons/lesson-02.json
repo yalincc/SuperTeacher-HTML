@@ -204,7 +204,12 @@
           "type": "callout",
           "variant": "note",
           "title": "化学方程式",
-          "content": "4P + 5O₂ $\\xrightarrow{\\text{点燃}}$ 2P₂O₅"
+          "content": ""
+        },
+        {
+          "type": "equation",
+          "latex": "4P + 5O₂ \\xrightarrow{点燃} 2P₂O₅",
+          "display": true
         },
         {
           "type": "callout",
@@ -318,7 +323,18 @@
           "ordered": false,
           "items": [
             "现象：发出白光，放出热量，生成能使澄清石灰水变浑浊的气体",
-            "化学方程式：C + O₂ $\\xrightarrow{\\text{点燃}}$ CO₂",
+            "方程式："
+          ]
+        },
+        {
+          "type": "equation",
+          "latex": "C + O₂ \\xrightarrow{点燃} CO₂",
+          "display": true
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
             "注意：碳在氧气中充分燃烧生成CO₂，不充分燃烧生成CO"
           ]
         },
@@ -331,7 +347,18 @@
           "ordered": false,
           "items": [
             "现象：发出明亮的蓝紫色火焰，放出热量，生成有刺激性气味的气体",
-            "化学方程式：S + O₂ $\\xrightarrow{\\text{点燃}}$ SO₂",
+            "方程式："
+          ]
+        },
+        {
+          "type": "equation",
+          "latex": "S + O₂ \\xrightarrow{点燃} SO₂",
+          "display": true
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
             "注意：硫在空气中燃烧为**淡蓝色火焰**（与在氧气中的蓝紫色火焰不同！），集气瓶底需放少量NaOH溶液吸收SO₂，防止污染空气"
           ]
         },
@@ -344,7 +371,18 @@
           "ordered": false,
           "items": [
             "现象：剧烈燃烧，火星四射，生成黑色固体，放出大量热",
-            "化学方程式：3Fe + 2O₂ $\\xrightarrow{\\text{点燃}}$ Fe₃O₄",
+            "方程式："
+          ]
+        },
+        {
+          "type": "equation",
+          "latex": "3Fe + 2O₂ \\xrightarrow{点燃} Fe₃O₄",
+          "display": true
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
             "注意：",
             "铁丝在空气中**不能燃烧**，只有在纯氧中才能燃烧（这是一个重要考点）",
             "集气瓶底需放少量水或铺一层细沙——防止高温熔融物溅落炸裂瓶底",
@@ -360,7 +398,18 @@
           "ordered": false,
           "items": [
             "现象：产生大量白烟，放出热量",
-            "化学方程式：4P + 5O₂ $\\xrightarrow{\\text{点燃}}$ 2P₂O₅",
+            "方程式："
+          ]
+        },
+        {
+          "type": "equation",
+          "latex": "4P + 5O₂ \\xrightarrow{点燃} 2P₂O₅",
+          "display": true
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
             "注意：红磷在空气中燃烧为淡黄色火焰，在氧气中更剧烈"
           ]
         },
@@ -373,7 +422,18 @@
           "ordered": false,
           "items": [
             "现象：发出耀眼的白光，放出热量，生成白色固体",
-            "化学方程式：2Mg + O₂ $\\xrightarrow{\\text{点燃}}$ 2MgO",
+            "方程式："
+          ]
+        },
+        {
+          "type": "equation",
+          "latex": "2Mg + O₂ \\xrightarrow{点燃} 2MgO",
+          "display": true
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
             "注意：镁能在空气中燃烧，不能用集气瓶做实验，防止炸裂"
           ]
         },
@@ -386,8 +446,13 @@
           "ordered": false,
           "items": [
             "现象：产生淡蓝色火焰，放出热量，在火焰上方罩干冷烧杯，烧杯内壁出现水雾",
-            "化学方程式：2H₂ + O₂ $\\xrightarrow{\\text{点燃}}$ 2H₂O"
+            "方程式："
           ]
+        },
+        {
+          "type": "equation",
+          "latex": "2H₂ + O₂ \\xrightarrow{点燃} 2H₂O",
+          "display": true
         },
         {
           "type": "callout",
@@ -602,7 +667,7 @@
         }
       ],
       "analysis": "本实验关键是确保气密性良好、红磷足量、冷却后再打开止水夹。步骤②中加入少量水主要是吸收P₂O₅，防止污染空气（注意：这里的少量水不是用来防止炸裂瓶底的，因为红磷燃烧不像铁丝那样产生高温熔融物）。 ---",
-      "answer": "3Fe + 2O₂ $\\xrightarrow{\\text{点燃}}$ Fe₃O₄；防止高温熔融物溅落炸裂瓶底；温度达到着火点"
+      "answer": "3Fe + 2O₂ $\\xrightarrow{点燃}$ Fe₃O₄；防止高温熔融物溅落炸裂瓶底；温度达到着火点"
     },
     {
       "type": "short_answer",

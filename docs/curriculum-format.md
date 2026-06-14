@@ -105,12 +105,74 @@
 
 #### 公式
 
-行内公式：`$公式$`，如 `$CO_2$`
+> ⚠️ **【重要】公式格式严格区分两种场景，写错会导致渲染乱码！**
 
-独立公式：`$$公式$$`，如：
+##### 独立公式块（化学方程式必须用此格式）
+
+完整化学方程式（含 `\xrightarrow{}`）**必须使用独立 `$$` 块，单独成行**：
+
+✅ **正确写法：**
 ```markdown
 $$2H_2 + O_2 \xrightarrow{点燃} 2H_2O$$
+
+$$C + O_2 \xrightarrow{点燃} CO_2$$
+
+$$2H_2O_2 \xrightarrow{MnO_2} 2H_2O + O_2\uparrow$$
 ```
+
+❌ **错误写法：**
+```markdown
+$2H_2 + O_2 \xrightarrow{\text{点燃}} 2H_2O$       ← 不可内联！不可用 \text{}！
+C + O₂ $\xrightarrow{\text{点燃}}$ CO₂            ← 方程式应完整放入 $$ 块
+```
+
+**公式规则清单：**
+
+| 规则 | 说明 |
+|------|------|
+| ① 方程式用 `$$` 块 | 含 `\xrightarrow{}` 的化学方程式必须单独成行，用 `$$...$$` 包裹 |
+| ② 禁止 `\text{}` 包裹 | `\xrightarrow{点燃}` ✅ → `\xrightarrow{\text{点燃}}` ❌ |
+| ③ 标签不放公式内 | "化学方程式：" 写为普通文本行，方程式单独 `$$` 行 |
+| ④ 单位可用 `\text{}` | `14\text{ g}`、`112\text{ t}` 等单位允许（不含中文即可） |
+
+##### 内联公式（仅限简短符号）
+
+简单的变量、符号、化学式可用内联 `$...$`：
+
+```markdown
+反应前后质量记为 $m_1$ 和 $m_2$
+空气主要含 $N_2$ 和 $O_2$
+```
+
+##### 常见写法速查
+
+```markdown
+<!-- 方程式 → 独立块 -->
+$$C + O_2 \xrightarrow{点燃} CO_2$$
+
+<!-- 反应条件 → 直接写中文，不用 \text{} -->
+$$CaCO_3 \xrightarrow{高温} CaO + CO_2\uparrow$$
+$$2KMnO_4 \xrightarrow{\Delta} K_2MnO_4 + MnO_2 + O_2\uparrow$$
+
+<!-- 催化剂 → 直接写化学式 -->
+$$2H_2O_2 \xrightarrow{MnO_2} 2H_2O + O_2\uparrow$$
+
+<!-- 算式（含单位） → 独立块，\text{ g} 允许 -->
+$$x = \frac{34 \times 14\text{ g}}{28} = 17\text{ g}$$
+
+<!-- 简短符号 → 内联 -->
+质量记为 $m_1$，分子式为 $H_2O$
+```
+
+##### 格式检查工具
+
+编写完教案后，可运行格式修正脚本自动检查并修复公式格式：
+
+```bash
+node scripts/fix-md-format.mjs
+```
+
+该脚本自动完成：① 去除 `\text{中文}` 包裹 ② 内联方程式转独立 `$$` 块 ③ 保留 `\text{ g}` 等单位
 
 #### 列表
 
@@ -245,10 +307,17 @@ D. 矿石粉碎
 编写完成后，在项目根目录执行：
 
 ```bash
+# 1. 可选：检查并修正公式格式
+node scripts/fix-md-format.mjs
+
+# 2. 转换为 JSON
 npm run convert
+
+# 3. 构建
+npm run build
 ```
 
-自动读取 `docs/curriculum/*.md` → 生成 `src/data/lessons/*.json` + `src/data/index.ts`
+`npm run convert` 自动读取 `docs/curriculum/*.md` → 生成 `src/data/lessons/*.json` + `src/data/index.ts`
 
 ---
 
@@ -275,7 +344,7 @@ npm run convert
 
 > 💡 解题技巧：技巧内容...
 
-$$公式$$
+$$C + O_2 \xrightarrow{点燃} CO_2$$
 
 ### 另一个小节
 更多内容...

@@ -51,8 +51,9 @@
           "content": "**方法一：加热高锰酸钾（KMnO₄）**"
         },
         {
-          "type": "paragraph",
-          "content": "化学方程式：2KMnO₄ $\\xrightarrow{\\Delta}$ K₂MnO₄ + MnO₂ + O₂↑"
+          "type": "equation",
+          "latex": "2KMnO₄ \\xrightarrow{\\Delta} K₂MnO₄ + MnO₂ + O₂↑",
+          "display": true
         },
         {
           "type": "callout",
@@ -144,8 +145,9 @@
           "content": "**方法二：分解过氧化氢（H₂O₂）——双氧水分解法**"
         },
         {
-          "type": "paragraph",
-          "content": "化学方程式：2H₂O₂ $\\xrightarrow{\\text{MnO₂}}$ 2H₂O + O₂↑"
+          "type": "equation",
+          "latex": "2H₂O₂ \\xrightarrow{MnO₂} 2H₂O + O₂↑",
+          "display": true
         },
         {
           "type": "callout",
@@ -473,7 +475,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "在 2H₂O₂ $\\xrightarrow{\\text{MnO₂}}$ 2H₂O + O₂↑ 中，MnO₂是**催化剂**",
+            "在 2H₂O₂ $\\xrightarrow{MnO₂}$ 2H₂O + O₂↑ 中，MnO₂是**催化剂**",
             "在 2KMnO₄ $\\xrightarrow{\\Delta}$ K₂MnO₄ + MnO₂ + O₂↑ 中，MnO₂是**生成物**"
           ]
         },
@@ -633,7 +635,7 @@
         }
       ],
       "analysis": "过氧化氢在MnO₂催化下分解产生水和氧气，MnO₂作为催化剂。与加热KMnO₄法相比，不需加热更安全方便。排水法收集依据O₂不易溶于水，向上排空气法收集依据O₂密度比空气大。 （1）MnO₂能加快H₂O₂分解的速率（改变了反应速率）。 （2）验证MnO₂在反应前后质量是否改变。如果称量所得固体质量与加入的MnO₂质量相等，说明反应前后MnO₂质量不变。 （3）不能。仅通过实验一和实验二只能说明MnO₂改变了反应速率（\"一变\"），还不能证明MnO₂在反应前后质量和化学性质没有改变（\"两不变\"）。必须再验证质量和化学性质不变，才能确认MnO₂是催化剂。 ---",
-      "answer": "2H₂O₂ $\\xrightarrow{\\text{MnO₂}}$ 2H₂O + O₂↑；催化；不需要加热（或安全、操作简便、可控制反应速率等）；氧气不易溶于水；氧气的密度比空气大"
+      "answer": "2H₂O₂ $\\xrightarrow{MnO₂}$ 2H₂O + O₂↑；催化；不需要加热（或安全、操作简便、可控制反应速率等）；氧气不易溶于水；氧气的密度比空气大"
     },
     {
       "type": "short_answer",
