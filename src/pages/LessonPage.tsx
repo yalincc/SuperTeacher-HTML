@@ -30,22 +30,45 @@ function LessonPage() {
   return (
     <div>
       {/* Top navigation */}
-      <div className="flex items-center justify-between mb-6 pb-4 border-b border-gray-200">
-        {lesson.meta.id > 1 ? (
-          <Link to={`/lesson/${lesson.meta.id - 1}`} className="text-sm text-blue-600 hover:underline">
-            ← 上一课
+      <div className="mb-6 pb-4 border-b border-gray-200">
+        {/* Mobile: stacked layout */}
+        <div className="sm:hidden">
+          <div className="flex items-center justify-between mb-2">
+            {lesson.meta.id > 1 ? (
+              <Link to={`/lesson/${lesson.meta.id - 1}`} className="text-sm text-blue-600 hover:underline">
+                ← 上一课
+              </Link>
+            ) : (
+              <Link to="/" className="text-sm text-blue-600 hover:underline">
+                ← 首页
+              </Link>
+            )}
+            <Link to={`/lesson/${lesson.meta.id + 1}`} className="text-sm text-blue-600 hover:underline">
+              下一课 →
+            </Link>
+          </div>
+          <h1 className="text-lg font-bold text-gray-900">
+            第{lesson.meta.id}课：{lesson.meta.title}
+          </h1>
+        </div>
+        {/* Desktop: inline layout */}
+        <div className="hidden sm:flex items-center justify-between">
+          {lesson.meta.id > 1 ? (
+            <Link to={`/lesson/${lesson.meta.id - 1}`} className="text-sm text-blue-600 hover:underline">
+              ← 上一课
+            </Link>
+          ) : (
+            <Link to="/" className="text-sm text-blue-600 hover:underline">
+              ← 首页
+            </Link>
+          )}
+          <h1 className="text-xl font-bold text-gray-900 text-center">
+            第{lesson.meta.id}课：{lesson.meta.title}
+          </h1>
+          <Link to={`/lesson/${lesson.meta.id + 1}`} className="text-sm text-blue-600 hover:underline">
+            下一课 →
           </Link>
-        ) : (
-          <Link to="/" className="text-sm text-blue-600 hover:underline">
-            ← 首页
-          </Link>
-        )}
-        <h1 className="text-xl font-bold text-gray-900 text-center">
-          第{lesson.meta.id}课：{lesson.meta.title}
-        </h1>
-        <Link to={`/lesson/${lesson.meta.id + 1}`} className="text-sm text-blue-600 hover:underline">
-          下一课 →
-        </Link>
+        </div>
       </div>
 
       {/* 一、学习目标 */}

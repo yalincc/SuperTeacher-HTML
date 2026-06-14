@@ -64,7 +64,7 @@ function FillExercise({ exercise, savedResult, onAnswer }: Props) {
             value={values[blankIndex] || ''}
             onChange={(e) => handleChange(blankIndex, e.target.value)}
             disabled={submitted}
-            className={`inline-block w-24 mx-1 px-2 py-1 text-sm border-2 rounded-md transition ${
+            className={`inline-block w-20 sm:w-24 mx-1 px-2 py-1 text-sm border-2 rounded-md transition ${
               isResult === true
                 ? 'border-green-500 bg-green-50'
                 : isResult === false

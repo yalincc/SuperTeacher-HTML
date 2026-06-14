@@ -6,9 +6,9 @@
     "color": "#6C63FF"
   },
   "schedule": {
-    "weeks": 2,
-    "weekLabels": ["第一周", "第二周"],
-    "weekTitles": ["走进化学世界", "物质构成的奥秘"]
+    "weeks": 3,
+    "weekLabels": ["第一周", "第二周", "第三周"],
+    "weekTitles": ["走进化学世界", "空气与氧气", "物质构成的奥秘"]
   },
   "lessons": [
     {
@@ -21,11 +21,43 @@
     },
     {
       "id": 2,
-      "title": "化学是一门以实验为基础的科学",
-      "unit": "第一单元",
+      "title": "空气与氧气性质",
+      "unit": "第二单元",
       "week": 1,
       "day": 2,
-      "file": "lesson-02-化学是一门以实验为基础的科学.md"
+      "file": "lesson-02-空气与氧气性质.md"
+    },
+    {
+      "id": 3,
+      "title": "氧气的制取",
+      "unit": "第二单元",
+      "week": 2,
+      "day": 1,
+      "file": "lesson-03-氧气的制取.md"
+    },
+    {
+      "id": 4,
+      "title": "分子原子",
+      "unit": "第三单元",
+      "week": 2,
+      "day": 2,
+      "file": "lesson-04-分子原子.md"
+    },
+    {
+      "id": 5,
+      "title": "元素离子化学式",
+      "unit": "第三单元",
+      "week": 3,
+      "day": 1,
+      "file": "lesson-05-元素离子化学式.md"
+    },
+    {
+      "id": 6,
+      "title": "水与化合价",
+      "unit": "第三单元",
+      "week": 3,
+      "day": 2,
+      "file": "lesson-06-水与化合价.md"
     }
   ],
   "features": {

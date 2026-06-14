@@ -11,15 +11,15 @@ function HomePage() {
     <div>
       {/* Course header */}
       <div className="mb-8 text-center">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">
-          <span className="text-4xl mr-2">{course.icon}</span>
+        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+          <span className="text-3xl sm:text-4xl mr-2">{course.icon}</span>
           {course.name}
         </h1>
-        <p className="text-gray-500">{course.subtitle}</p>
+        <p className="text-sm sm:text-base text-gray-500">{course.subtitle}</p>
 
         {/* Stats bar */}
         {stats.totalAttempted > 0 && (
-          <div className="flex items-center justify-center gap-6 mt-4 text-sm">
+          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 mt-4 text-sm">
             <div className="flex items-center gap-1.5 text-gray-600">
               <span className="w-2 h-2 rounded-full bg-blue-500" />
               已做 <strong>{stats.totalAttempted}</strong> 题

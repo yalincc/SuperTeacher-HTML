@@ -1,208 +1,499 @@
 {
   "meta": {
     "id": 2,
-    "slug": "lesson-02-化学是一门以实验为基础的科学",
-    "title": "化学是一门以实验为基础的科学",
-    "unit": "第一单元",
+    "slug": "lesson-02-空气与氧气性质",
+    "title": "空气与氧气性质",
+    "unit": "第二单元",
     "week": 1,
     "day": 2
   },
   "objectives": [
     {
-      "text": "了解化学是一门以实验为基础的自然科学",
-      "isKeyPoint": false
-    },
-    {
-      "text": "掌握基本的实验操作技能",
+      "text": " 掌握空气的组成成分及各成分的体积分数",
       "isKeyPoint": true
     },
     {
-      "text": "学习观察和记录实验现象的方法",
+      "text": " 理解拉瓦锡测定空气组成实验的原理和结论",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解空气污染的主要来源及防治措施",
       "isKeyPoint": false
     },
     {
-      "text": "了解科学探究的一般过程",
+      "text": " 掌握氧气的物理性质和化学性质",
+      "isKeyPoint": true
+    },
+    {
+      "text": " 熟记碳、硫、铁、磷等物质在氧气中燃烧的现象和化学方程式",
+      "isKeyPoint": true
+    },
+    {
+      "text": "理解氧化反应的概念",
+      "isKeyPoint": false
+    },
+    {
+      "text": "--",
       "isKeyPoint": false
     }
   ],
   "knowledge": [
     {
-      "title": "化学实验的重要性",
+      "title": "核心概念",
       "defaultExpanded": true,
       "blocks": [
         {
           "type": "paragraph",
-          "content": "化学是一门以实验为基础的科学。通过实验可以验证假设、发现规律。"
+          "content": "**1. 空气的组成**"
+        },
+        {
+          "type": "paragraph",
+          "content": "空气是一种混合物，由多种气体组成。按体积分数计算："
+        },
+        {
+          "type": "table",
+          "headers": [
+            "成分",
+            "体积分数"
+          ],
+          "rows": [
+            [
+              "氮气（N₂）",
+              "约78%"
+            ],
+            [
+              "氧气（O₂）",
+              "约21%"
+            ],
+            [
+              "稀有气体",
+              "约0.94%"
+            ],
+            [
+              "二氧化碳（CO₂）",
+              "约0.03%"
+            ],
+            [
+              "其他气体和杂质",
+              "约0.03%"
+            ]
+          ]
         },
         {
           "type": "callout",
-          "variant": "tip",
-          "title": "学习建议",
-          "content": "学习化学实验时，要注意观察\"变化前、变化中、变化后\"三个阶段的现象。"
+          "variant": "note",
+          "title": "**注意**",
+          "content": "是**体积分数**，不是质量分数！空气中含量最多的是氮气，其次是氧气。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**2. 稀有气体**"
+        },
+        {
+          "type": "paragraph",
+          "content": "稀有气体（旧称惰性气体）包括氦（He）、氖（Ne）、氩（Ar）、氪（Kr）、氙（Xe）等。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "化学性质非常稳定，一般不与其他物质发生化学反应",
+            "用途：氦气充气球（比氢气安全）、霓虹灯（通电发光）、氩气作焊接保护气"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "**3. 空气污染与防治**"
+        },
+        {
+          "type": "paragraph",
+          "content": "主要污染物：PM2.5、SO₂、NO₂、CO、臭氧（O₃）等"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "污染来源",
+            "主要污染物"
+          ],
+          "rows": [
+            [
+              "化石燃料燃烧",
+              "SO₂、NO₂、CO、PM"
+            ],
+            [
+              "工厂废气",
+              "SO₂、NO₂、粉尘"
+            ],
+            [
+              "汽车尾气",
+              "NO₂、CO、碳氢化合物"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "防治措施："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "减少化石燃料的使用，开发清洁能源",
+            "工厂废气处理后排放",
+            "汽车安装尾气净化装置",
+            "植树造林，绿化环境"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "---"
         }
       ]
     },
     {
-      "title": "基本实验操作",
+      "title": "重点内容（★标注）",
       "defaultExpanded": true,
       "blocks": [
         {
+          "type": "paragraph",
+          "content": "**★ 拉瓦锡测定空气组成的实验**"
+        },
+        {
+          "type": "paragraph",
+          "content": "拉瓦锡通过加热汞的实验，第一次明确提出空气是由氧气和氮气组成的。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**实验过程**："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "将少量汞放在密封的曲颈甑中，连续加热12天",
+            "汞与空气中的氧气反应，生成红色的氧化汞粉末",
+            "气体体积减少了约1/5",
+            "将剩余气体通入石灰水，不变浑浊（说明剩余气体不是CO₂）"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "**实验结论**：氧气约占空气总体积的1/5"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "**课本实验——红磷燃烧法测定空气中O₂含量**"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": ""
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "原理",
+          "content": "红磷在空气中燃烧消耗氧气，生成固体P₂O₅，容器内压强减小，水进入容器，进入水的体积即为O₂的体积。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": ""
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "化学方程式",
+          "content": "4P + 5O₂ $\\xrightarrow{\\text{点燃}}$ 2P₂O₅"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": ""
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "实验现象",
+          "content": "红磷燃烧产生大量白烟，水进入集气瓶，体积约为原容积的1/5"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": ""
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "**实验成功的关键**："
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "1. 红磷要过量——确保O₂被完全消耗"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "2. 装置气密性要好——防止空气进入或气体泄漏"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "3. 待冷却后再打开止水夹——防止气体受热膨胀导致误差"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": ""
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "**误差分析**",
+          "content": ""
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "- 水进入偏少→红磷不足/O₂未消耗完；装置漏气"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "- 水进入偏多→燃烧匙伸入过慢，瓶内空气受热膨胀溢出"
+        },
+        {
+          "type": "paragraph",
+          "content": "---"
+        },
+        {
+          "type": "paragraph",
+          "content": "**★ 氧气的物理性质**"
+        },
+        {
           "type": "table",
           "headers": [
-            "操作",
-            "注意事项"
+            "性质",
+            "内容"
           ],
           "rows": [
             [
-              "取用固体药品",
-              "用镊子或药匙，不可用手直接拿"
+              "颜色、状态",
+              "无色无味的气体"
             ],
             [
-              "取用液体药品",
-              "瓶塞倒放，标签朝手心"
+              "密度",
+              "比空气略大（1.429 g/L）"
             ],
             [
-              "加热",
-              "先预热再集中加热，试管口不对人"
+              "溶解性",
+              "不易溶于水"
+            ],
+            [
+              "三态变化",
+              "标准状况下，液氧为淡蓝色液体，固态氧为淡蓝色雪花状固体"
             ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "---"
+        },
+        {
+          "type": "paragraph",
+          "content": "**★ 氧气的化学性质——氧气与各种物质的反应**"
+        },
+        {
+          "type": "paragraph",
+          "content": "氧气的化学性质比较活泼，能支持燃烧（助燃性）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**（1）碳在氧气中燃烧**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "现象：发出白光，放出热量，生成能使澄清石灰水变浑浊的气体",
+            "化学方程式：C + O₂ $\\xrightarrow{\\text{点燃}}$ CO₂",
+            "注意：碳在氧气中充分燃烧生成CO₂，不充分燃烧生成CO"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "**（2）硫在氧气中燃烧**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "现象：发出明亮的蓝紫色火焰，放出热量，生成有刺激性气味的气体",
+            "化学方程式：S + O₂ $\\xrightarrow{\\text{点燃}}$ SO₂",
+            "注意：硫在空气中燃烧为**淡蓝色火焰**（与在氧气中的蓝紫色火焰不同！），集气瓶底需放少量NaOH溶液吸收SO₂，防止污染空气"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "**（3）铁在氧气中燃烧**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "现象：剧烈燃烧，火星四射，生成黑色固体，放出大量热",
+            "化学方程式：3Fe + 2O₂ $\\xrightarrow{\\text{点燃}}$ Fe₃O₄",
+            "注意：",
+            "铁丝在空气中**不能燃烧**，只有在纯氧中才能燃烧（这是一个重要考点）",
+            "集气瓶底需放少量水或铺一层细沙——防止高温熔融物溅落炸裂瓶底",
+            "铁丝前端需系一根火柴——引燃铁丝"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "**（4）磷在氧气中燃烧**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "现象：产生大量白烟，放出热量",
+            "化学方程式：4P + 5O₂ $\\xrightarrow{\\text{点燃}}$ 2P₂O₅",
+            "注意：红磷在空气中燃烧为淡黄色火焰，在氧气中更剧烈"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "**（5）镁在空气中燃烧**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "现象：发出耀眼的白光，放出热量，生成白色固体",
+            "化学方程式：2Mg + O₂ $\\xrightarrow{\\text{点燃}}$ 2MgO",
+            "注意：镁能在空气中燃烧，不能用集气瓶做实验，防止炸裂"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "**（6）氢气在氧气中燃烧**"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "现象：产生淡蓝色火焰，放出热量，在火焰上方罩干冷烧杯，烧杯内壁出现水雾",
+            "化学方程式：2H₂ + O₂ $\\xrightarrow{\\text{点燃}}$ 2H₂O"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "**现象记忆口诀**",
+          "content": ""
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "- 碳——白光、浑浊（石灰水变浑浊）"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "- 硫——蓝紫（纯氧）/ 淡蓝（空气）、刺激"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "- 铁——火星四射、黑色"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "- 磷——白烟"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "提示",
+          "content": "- 镁——白光、白色"
+        },
+        {
+          "type": "paragraph",
+          "content": "---"
+        }
+      ]
+    },
+    {
+      "title": "难点突破",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**难点1：空气中氧气含量测定的误差分析**"
+        },
+        {
+          "type": "paragraph",
+          "content": "很多同学容易搞混\"偏大\"和\"偏小\"的原因，可以这样理解："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**结果偏大（>1/5）**：消耗的\"东西\"多了，或进入瓶内的水多了",
+            "燃烧匙伸入过慢，瓶内空气受热膨胀溢出",
+            "弹簧夹未夹紧，瓶内气体受热从导管溢出"
           ]
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "酒精灯使用：用外焰加热，灭灯用灯帽盖灭",
-            "量筒读数：视线与凹液面最低处相平",
-            "天平使用：左物右码"
+            "**结果偏小（<1/5）**：消耗的O₂少了，或该进入的水没进入",
+            "红磷量不足，O₂未被完全消耗",
+            "装置漏气，外界空气进入",
+            "未冷却到室温就打开止水夹"
           ]
         },
         {
-          "type": "callout",
-          "variant": "warning",
-          "title": "易错提醒",
-          "content": "量筒量取液体时，俯视读数偏大，仰视读数偏小！"
-        }
-      ]
-    }
-  ],
-  "examples": [
-    {
-      "title": "例1：实验操作规范",
-      "problem": [
+          "type": "paragraph",
+          "content": "**难点2：铁丝燃烧实验的细节**"
+        },
         {
           "type": "paragraph",
-          "content": "下列实验操作正确的是（  ）"
+          "content": "为什么铁丝在空气中不能燃烧？因为空气中O₂浓度只有21%，不足以维持铁丝的燃烧。在纯氧中（O₂浓度100%），反应更剧烈，可以持续燃烧。"
         },
-        {
-          "type": "list",
-          "ordered": true,
-          "items": [
-            "A. 用嘴尝药品的味道",
-            "B. 将实验剩余药品放回原瓶",
-            "C. 用灯帽盖灭酒精灯",
-            "D. 直接加热烧杯"
-          ]
-        }
-      ],
-      "solution": [
         {
           "type": "paragraph",
-          "content": "酒精灯必须用灯帽盖灭，不可用嘴吹灭。A选项不能品尝药品，B选项剩余药品不能放回原瓶，D选项烧杯需要垫石棉网。"
+          "content": "为什么瓶底要放水或细沙？铁丝燃烧时温度极高，生成的Fe₃O₄是高温熔融状态，如果直接滴落到玻璃瓶底，会使瓶底局部受热不均而炸裂。"
+        },
+        {
+          "type": "paragraph",
+          "content": "---"
         }
-      ],
-      "answer": "C"
-    }
-  ],
-  "exercises": [
-    {
-      "type": "choice",
-      "id": "ex-2-1",
-      "stem": "量取8mL水时，若仰视读数，实际量取的水的体积（  ）",
-      "options": [
-        {
-          "label": "A",
-          "text": "大于8mL"
-        },
-        {
-          "label": "B",
-          "text": "等于8mL"
-        },
-        {
-          "label": "C",
-          "text": "小于8mL"
-        },
-        {
-          "label": "D",
-          "text": "无法判断"
-        }
-      ],
-      "answer": "A",
-      "analysis": "仰视量筒时，看到的刻度比实际液面低，所以实际液面高于8mL刻度线，实际量取的水大于8mL。"
-    },
-    {
-      "type": "true_false",
-      "id": "ex-2-2",
-      "stem": "用天平称量药品时，左盘放砝码，右盘放药品。",
-      "answer": false,
-      "analysis": "天平的使用规则是\"左物右码\"，即左盘放药品，右盘放砝码。"
-    },
-    {
-      "type": "fill",
-      "id": "ex-2-3",
-      "segments": [
-        "酒精灯用",
-        "___1___",
-        "焰加热，灭灯时用",
-        "___2___",
-        "盖灭。"
-      ],
-      "blanks": [
-        {
-          "index": 1,
-          "answer": "外"
-        },
-        {
-          "index": 2,
-          "answer": "灯帽"
-        }
-      ],
-      "analysis": "酒精灯火焰分为外焰、内焰、焰心三部分，外焰温度最高，应用外焰加热。灭灯时必须用灯帽盖灭，不可用嘴吹灭。"
-    },
-    {
-      "type": "short_answer",
-      "id": "ex-2-4",
-      "question": "请简述科学探究的一般步骤。",
-      "referenceAnswer": "科学探究的一般步骤：①提出问题；②猜想与假设；③制定计划；④进行实验；⑤收集证据；⑥解释与结论；⑦反思与评价；⑧表达与交流。",
-      "scoringPoints": [
-        "至少答出\"提出问题、猜想假设、实验验证、得出结论\"四个核心步骤"
       ]
     }
   ],
-  "summary": [
-    {
-      "text": "化学实验的重要性",
-      "children": [
-        {
-          "text": "化学是以实验为基础的科学"
-        },
-        {
-          "text": "实验可以验证假设、发现规律"
-        }
-      ]
-    },
-    {
-      "text": "基本实验操作",
-      "children": [
-        {
-          "text": "药品取用规范"
-        },
-        {
-          "text": "加热操作要点"
-        },
-        {
-          "text": "量筒、天平的正确使用"
-        }
-      ]
-    }
-  ]
+  "examples": [],
+  "exercises": [],
+  "summary": []
 }

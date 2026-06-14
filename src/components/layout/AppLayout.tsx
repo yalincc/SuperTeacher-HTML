@@ -1,5 +1,5 @@
 import { Outlet, Link } from 'react-router-dom'
-import { BookOpen, Home } from 'lucide-react'
+import { Home } from 'lucide-react'
 import courseConfig from '@/config/course'
 
 function AppLayout() {
@@ -16,10 +16,6 @@ function AppLayout() {
             <Link to="/" className="flex items-center gap-1 text-sm text-gray-600 hover:text-blue-600 transition">
               <Home className="w-4 h-4" />
               <span className="hidden sm:inline">首页</span>
-            </Link>
-            <Link to="/progress" className="flex items-center gap-1 text-sm text-gray-600 hover:text-blue-600 transition">
-              <BookOpen className="w-4 h-4" />
-              <span className="hidden sm:inline">进度</span>
             </Link>
           </nav>
         </div>
