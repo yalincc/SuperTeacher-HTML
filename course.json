@@ -1,0 +1,39 @@
+{
+  "course": {
+    "name": "初中化学",
+    "icon": "⚗️",
+    "subtitle": "人教版九年级全一册",
+    "color": "#6C63FF"
+  },
+  "schedule": {
+    "weeks": 2,
+    "weekLabels": ["第一周", "第二周"],
+    "weekTitles": ["走进化学世界", "物质构成的奥秘"]
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "title": "走进化学世界",
+      "unit": "第一单元",
+      "week": 1,
+      "day": 1,
+      "file": "lesson-01-走进化学世界.md"
+    },
+    {
+      "id": 2,
+      "title": "化学是一门以实验为基础的科学",
+      "unit": "第一单元",
+      "week": 1,
+      "day": 2,
+      "file": "lesson-02-化学是一门以实验为基础的科学.md"
+    }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  },
+  "paths": {
+    "contentDir": "docs/curriculum",
+    "outputDir": "src/data/lessons"
+  }
+}

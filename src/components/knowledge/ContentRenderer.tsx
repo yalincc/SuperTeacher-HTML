@@ -1,0 +1,39 @@
+import type { ContentBlock } from '@/types'
+import ParagraphBlock from './blocks/ParagraphBlock'
+import TableBlock from './blocks/TableBlock'
+import CalloutBlock from './blocks/CalloutBlock'
+import EquationBlock from './blocks/EquationBlock'
+import ListBlock from './blocks/ListBlock'
+
+interface Props {
+  blocks: ContentBlock[]
+}
+
+function ContentRenderer({ blocks }: Props) {
+  return (
+    <div>
+      {blocks.map((block, i) => {
+        switch (block.type) {
+          case 'paragraph':
+            return <ParagraphBlock key={i} block={block} />
+          case 'table':
+            return <TableBlock key={i} block={block} />
+          case 'callout':
+            return <CalloutBlock key={i} block={block} />
+          case 'equation':
+            return <EquationBlock key={i} block={block} />
+          case 'list':
+            return <ListBlock key={i} block={block} />
+          default:
+            return (
+              <p key={i} className="text-red-400 text-sm italic">
+                未知块类型: {(block as ContentBlock).type}
+              </p>
+            )
+        }
+      })}
+    </div>
+  )
+}
+
+export default ContentRenderer

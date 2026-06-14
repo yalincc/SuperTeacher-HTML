@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "id": 2,
+    "slug": "lesson-02-化学是一门以实验为基础的科学",
+    "title": "化学是一门以实验为基础的科学",
+    "unit": "第一单元",
+    "week": 1,
+    "day": 2
+  },
+  "objectives": [
+    {
+      "text": "了解化学是一门以实验为基础的自然科学",
+      "isKeyPoint": false
+    },
+    {
+      "text": "掌握基本的实验操作技能",
+      "isKeyPoint": true
+    },
+    {
+      "text": "学习观察和记录实验现象的方法",
+      "isKeyPoint": false
+    },
+    {
+      "text": "了解科学探究的一般过程",
+      "isKeyPoint": false
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "化学实验的重要性",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "化学是一门以实验为基础的科学。通过实验可以验证假设、发现规律。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "学习建议",
+          "content": "学习化学实验时，要注意观察\"变化前、变化中、变化后\"三个阶段的现象。"
+        }
+      ]
+    },
+    {
+      "title": "基本实验操作",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "操作",
+            "注意事项"
+          ],
+          "rows": [
+            [
+              "取用固体药品",
+              "用镊子或药匙，不可用手直接拿"
+            ],
+            [
+              "取用液体药品",
+              "瓶塞倒放，标签朝手心"
+            ],
+            [
+              "加热",
+              "先预热再集中加热，试管口不对人"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "酒精灯使用：用外焰加热，灭灯用灯帽盖灭",
+            "量筒读数：视线与凹液面最低处相平",
+            "天平使用：左物右码"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "量筒量取液体时，俯视读数偏大，仰视读数偏小！"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：实验操作规范",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "下列实验操作正确的是（  ）"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A. 用嘴尝药品的味道",
+            "B. 将实验剩余药品放回原瓶",
+            "C. 用灯帽盖灭酒精灯",
+            "D. 直接加热烧杯"
+          ]
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "酒精灯必须用灯帽盖灭，不可用嘴吹灭。A选项不能品尝药品，B选项剩余药品不能放回原瓶，D选项烧杯需要垫石棉网。"
+        }
+      ],
+      "answer": "C"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-2-1",
+      "stem": "量取8mL水时，若仰视读数，实际量取的水的体积（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "大于8mL"
+        },
+        {
+          "label": "B",
+          "text": "等于8mL"
+        },
+        {
+          "label": "C",
+          "text": "小于8mL"
+        },
+        {
+          "label": "D",
+          "text": "无法判断"
+        }
+      ],
+      "answer": "A",
+      "analysis": "仰视量筒时，看到的刻度比实际液面低，所以实际液面高于8mL刻度线，实际量取的水大于8mL。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-2-2",
+      "stem": "用天平称量药品时，左盘放砝码，右盘放药品。",
+      "answer": false,
+      "analysis": "天平的使用规则是\"左物右码\"，即左盘放药品，右盘放砝码。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-3",
+      "segments": [
+        "酒精灯用",
+        "___1___",
+        "焰加热，灭灯时用",
+        "___2___",
+        "盖灭。"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "外"
+        },
+        {
+          "index": 2,
+          "answer": "灯帽"
+        }
+      ],
+      "analysis": "酒精灯火焰分为外焰、内焰、焰心三部分，外焰温度最高，应用外焰加热。灭灯时必须用灯帽盖灭，不可用嘴吹灭。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-2-4",
+      "question": "请简述科学探究的一般步骤。",
+      "referenceAnswer": "科学探究的一般步骤：①提出问题；②猜想与假设；③制定计划；④进行实验；⑤收集证据；⑥解释与结论；⑦反思与评价；⑧表达与交流。",
+      "scoringPoints": [
+        "至少答出\"提出问题、猜想假设、实验验证、得出结论\"四个核心步骤"
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "text": "化学实验的重要性",
+      "children": [
+        {
+          "text": "化学是以实验为基础的科学"
+        },
+        {
+          "text": "实验可以验证假设、发现规律"
+        }
+      ]
+    },
+    {
+      "text": "基本实验操作",
+      "children": [
+        {
+          "text": "药品取用规范"
+        },
+        {
+          "text": "加热操作要点"
+        },
+        {
+          "text": "量筒、天平的正确使用"
+        }
+      ]
+    }
+  ]
+}
