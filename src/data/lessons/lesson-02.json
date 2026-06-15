@@ -31,10 +31,6 @@
     {
       "text": "理解氧化反应的概念",
       "isKeyPoint": false
-    },
-    {
-      "text": "--",
-      "isKeyPoint": false
     }
   ],
   "knowledge": [
@@ -180,102 +176,18 @@
           "type": "callout",
           "variant": "note",
           "title": "提示",
-          "content": "**课本实验——红磷燃烧法测定空气中O₂含量**"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "原理",
-          "content": "红磷在空气中燃烧消耗氧气，生成固体P₂O₅，容器内压强减小，水进入容器，进入水的体积即为O₂的体积。"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "化学方程式",
-          "content": ""
+          "content": "**课本实验——红磷燃烧法测定空气中O₂含量**\n原理：红磷在空气中燃烧消耗氧气，生成固体P₂O₅，容器内压强减小，水进入容器，进入水的体积即为O₂的体积。\n化学方程式："
         },
         {
           "type": "equation",
-          "latex": "4P + 5O₂ \\xrightarrow{点燃} 2P₂O₅",
+          "latex": "4P + 5O_2 \\xrightarrow{点燃} 2P_2O_5",
           "display": true
         },
         {
           "type": "callout",
           "variant": "note",
-          "title": "提示",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
           "title": "实验现象",
-          "content": "红磷燃烧产生大量白烟，水进入集气瓶，体积约为原容积的1/5"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "**实验成功的关键**："
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "1. 红磷要过量——确保O₂被完全消耗"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "2. 装置气密性要好——防止空气进入或气体泄漏"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "3. 待冷却后再打开止水夹——防止气体受热膨胀导致误差"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "**误差分析**",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 水进入偏少→红磷不足/O₂未消耗完；装置漏气"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 水进入偏多→燃烧匙伸入过慢，瓶内空气受热膨胀溢出"
+          "content": "红磷燃烧产生大量白烟，水进入集气瓶，体积约为原容积的1/5\n**实验成功的关键**：\n1. 红磷要过量——确保O₂被完全消耗\n2. 装置气密性要好——防止空气进入或气体泄漏\n3. 待冷却后再打开止水夹——防止气体受热膨胀导致误差\n**误差分析**：\n- 水进入偏少→红磷不足/O₂未消耗完；装置漏气\n- 水进入偏多→燃烧匙伸入过慢，瓶内空气受热膨胀溢出"
         },
         {
           "type": "paragraph",
@@ -328,7 +240,7 @@
         },
         {
           "type": "equation",
-          "latex": "C + O₂ \\xrightarrow{点燃} CO₂",
+          "latex": "C + O_2 \\xrightarrow{点燃} CO_2",
           "display": true
         },
         {
@@ -352,7 +264,7 @@
         },
         {
           "type": "equation",
-          "latex": "S + O₂ \\xrightarrow{点燃} SO₂",
+          "latex": "S + O_2 \\xrightarrow{点燃} SO_2",
           "display": true
         },
         {
@@ -376,7 +288,7 @@
         },
         {
           "type": "equation",
-          "latex": "3Fe + 2O₂ \\xrightarrow{点燃} Fe₃O₄",
+          "latex": "3Fe + 2O_2 \\xrightarrow{点燃} Fe_3O_4",
           "display": true
         },
         {
@@ -403,7 +315,7 @@
         },
         {
           "type": "equation",
-          "latex": "4P + 5O₂ \\xrightarrow{点燃} 2P₂O₅",
+          "latex": "4P + 5O_2 \\xrightarrow{点燃} 2P_2O_5",
           "display": true
         },
         {
@@ -427,7 +339,7 @@
         },
         {
           "type": "equation",
-          "latex": "2Mg + O₂ \\xrightarrow{点燃} 2MgO",
+          "latex": "2Mg + O_2 \\xrightarrow{点燃} 2MgO",
           "display": true
         },
         {
@@ -451,44 +363,14 @@
         },
         {
           "type": "equation",
-          "latex": "2H₂ + O₂ \\xrightarrow{点燃} 2H₂O",
+          "latex": "2H_2 + O_2 \\xrightarrow{点燃} 2H_2O",
           "display": true
         },
         {
           "type": "callout",
           "variant": "mnemonic",
           "title": "**现象记忆口诀**",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 碳——白光、浑浊（石灰水变浑浊）"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 硫——蓝紫（纯氧）/ 淡蓝（空气）、刺激"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 铁——火星四射、黑色"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 磷——白烟"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 镁——白光、白色"
+          "content": "- 碳——白光、浑浊（石灰水变浑浊）\n- 硫——蓝紫（纯氧）/ 淡蓝（空气）、刺激\n- 铁——火星四射、黑色\n- 磷——白烟\n- 镁——白光、白色"
         }
       ]
     },
@@ -637,7 +519,7 @@
         }
       ],
       "answer": "D",
-      "analysis": "A正确，空气由多种气体混合而成，是混合物；B正确，O₂约21%，N₂约78%，比值约为1:4；C正确，CO₂是主要温室气体之一；D错误，空气中稀有气体的体积分数约为0.94%，不是0.03%（0.03%是CO₂的含量）。",
+      "analysis": "本实验关键是确保气密性良好、红磷足量、冷却后再打开止水夹。步骤②中加入少量水主要是吸收P₂O₅，防止污染空气（注意：这里的少量水不是用来防止炸裂瓶底的，因为红磷燃烧不像铁丝那样产生高温熔融物）。 ---",
       "source": "2022年四川中考"
     },
     {
@@ -666,8 +548,7 @@
           "answer": ""
         }
       ],
-      "analysis": "本实验关键是确保气密性良好、红磷足量、冷却后再打开止水夹。步骤②中加入少量水主要是吸收P₂O₅，防止污染空气（注意：这里的少量水不是用来防止炸裂瓶底的，因为红磷燃烧不像铁丝那样产生高温熔融物）。 ---",
-      "answer": "3Fe + 2O₂ $\\xrightarrow{点燃}$ Fe₃O₄；防止高温熔融物溅落炸裂瓶底；温度达到着火点"
+      "analysis": ""
     },
     {
       "type": "short_answer",

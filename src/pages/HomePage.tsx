@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { CheckCircle2 } from 'lucide-react'
 import courseConfig from '@/config/course'
 import { useProgressContext } from '@/hooks/ProgressContext'
 
@@ -11,26 +10,26 @@ function HomePage() {
     <div>
       {/* Course header */}
       <div className="mb-8 text-center">
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-          <span className="text-3xl sm:text-4xl mr-2">{course.icon}</span>
+        <h1 className="text-2xl sm:text-[28px] font-bold text-text mb-2">
+          <span className="text-[32px] mr-2">{course.icon}</span>
           {course.name}
         </h1>
-        <p className="text-sm sm:text-base text-gray-500">{course.subtitle}</p>
+        <p className="text-sm sm:text-base text-text-secondary">{course.subtitle}</p>
 
         {/* Stats bar */}
         {stats.totalAttempted > 0 && (
-          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 mt-4 text-sm">
-            <div className="flex items-center gap-1.5 text-gray-600">
+          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mt-4 text-sm">
+            <div className="flex items-center gap-1.5 text-text-secondary">
               <span className="w-2 h-2 rounded-full bg-blue-500" />
               已做 <strong>{stats.totalAttempted}</strong> 题
             </div>
-            <div className="flex items-center gap-1.5 text-gray-600">
-              <span className="w-2 h-2 rounded-full bg-green-500" />
+            <div className="flex items-center gap-1.5 text-text-secondary">
+              <span className="w-2 h-2 rounded-full bg-success" />
               正确 <strong>{stats.totalCorrect}</strong> 题
             </div>
             {stats.totalCompleted > 0 && (
-              <div className="flex items-center gap-1.5 text-gray-600">
-                <span className="w-2 h-2 rounded-full bg-amber-500" />
+              <div className="flex items-center gap-1.5 text-text-secondary">
+                <span className="w-2 h-2 rounded-full bg-warning" />
                 完成 <strong>{stats.totalCompleted}</strong> 课
               </div>
             )}
@@ -41,10 +40,10 @@ function HomePage() {
       {/* Week sections */}
       {Array.from({ length: schedule.weeks }, (_, w) => (
         <section key={w} className="mb-8">
-          <h2 className="text-lg font-semibold text-gray-700 mb-3">
+          <h2 className="text-[17px] font-semibold text-text mb-3">
             {schedule.weekLabels[w]}：{schedule.weekTitles[w]}
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
             {lessons
               .filter((l) => l.week === w + 1)
               .map((lesson) => {
@@ -53,18 +52,27 @@ function HomePage() {
                   <Link
                     key={lesson.id}
                     to={`/lesson/${lesson.id}`}
-                    className={`relative bg-white rounded-lg shadow-sm border p-4 hover:shadow-md hover:border-blue-300 transition ${
-                      completed ? 'border-green-300 bg-green-50/50' : 'border-gray-200'
+                    className={`relative bg-surface rounded-r-[10px] border border-border border-l-[3px] border-l-primary p-3.5 pl-4 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 ${
+                      completed ? 'bg-primary-bg border-border/60' : ''
                     }`}
                   >
                     {completed && (
-                      <CheckCircle2 className="absolute top-2 right-2 w-5 h-5 text-green-500" />
+                      <div className="absolute top-2.5 right-2.5 w-[18px] h-[18px] bg-success rounded-full flex items-center justify-center">
+                        <span className="text-white text-[11px] leading-none">✓</span>
+                      </div>
                     )}
-                    <div className="text-sm text-gray-400 mb-1">第{lesson.id}课</div>
-                    <div className="font-medium text-gray-900 text-sm leading-snug">
+                    <div className="text-xs text-text-muted mb-1">第{lesson.id}课</div>
+                    <div className="font-medium text-text text-sm leading-snug">
                       {lesson.title}
                     </div>
-                    <div className="text-xs text-gray-400 mt-2">{lesson.unit}</div>
+                    <div className="text-xs text-text-muted mt-2">{lesson.unit}</div>
+                    {/* 底部进度条 */}
+                    <div className="h-[3px] bg-border rounded-b-[10px] mt-3 -mx-3.5 -mb-3.5 overflow-hidden">
+                      <div
+                        className="h-full bg-success rounded-b-[10px] transition-all duration-400"
+                        style={{ width: completed ? '100%' : '0%' }}
+                      />
+                    </div>
                   </Link>
                 )
               })}

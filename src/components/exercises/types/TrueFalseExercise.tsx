@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { TrueFalseExercise as TFType, ExerciseResult } from '@/types'
 import AnswerReveal from '../AnswerReveal'
+import { renderInline } from '@/utils/renderInline'
 
 interface Props {
   exercise: TFType
@@ -41,7 +42,7 @@ function TrueFalseExercise({ exercise, savedResult, onAnswer }: Props) {
     <div className="bg-white rounded-lg border border-gray-200 p-4 my-3">
       {/* 题干 */}
       <div className="mb-3">
-        <span className="text-sm font-medium text-gray-800">{exercise.stem}</span>
+        <span className="text-sm font-medium text-gray-800">{renderInline(exercise.stem)}</span>
         {exercise.source && (
           <span className="ml-2 text-xs text-gray-400">（{exercise.source}）</span>
         )}

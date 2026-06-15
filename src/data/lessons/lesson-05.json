@@ -260,19 +260,7 @@
           "type": "callout",
           "variant": "note",
           "title": "关键等式",
-          "content": "原子得失电子时，**质子数不变，电子数改变**"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "- 阳离子",
-          "content": "质子数 > 电子数"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "- 阴离子",
-          "content": "质子数 < 电子数"
+          "content": "原子得失电子时，**质子数不变，电子数改变**\n- 阳离子：质子数 > 电子数\n- 阴离子：质子数 < 电子数"
         },
         {
           "type": "paragraph",
@@ -526,8 +514,12 @@
   ],
   "examples": [
     {
-      "title": "例题1",
+      "title": "例1：化学符号的意义",
       "problem": [
+        {
+          "type": "paragraph",
+          "content": "下列符号既能表示一个原子，又能表示一种元素，还能表示一种物质的是（ ）"
+        },
         {
           "type": "list",
           "ordered": true,
@@ -549,17 +541,17 @@
         },
         {
           "type": "paragraph",
-          "content": "**答案：B**"
+          "content": "**答案**：B"
         }
       ],
       "answer": ""
     },
     {
-      "title": "例题2",
+      "title": "例2：粒子结构示意图判读",
       "problem": [
         {
           "type": "paragraph",
-          "content": "（1）该粒子含有________个质子，________个电子；（2）该粒子是________（填\"原子\"或\"离子\"），其符号为________。"
+          "content": "某粒子的结构示意图为（+11）2 8，请回答：（1）该粒子含有________个质子，________个电子；（2）该粒子是________（填\"原子\"或\"离子\"），其符号为________。"
         }
       ],
       "solution": [
@@ -569,7 +561,7 @@
         },
         {
           "type": "paragraph",
-          "content": "**答案：11，10；阳离子，Na⁺**"
+          "content": "**答案**：11，10；阳离子，Na⁺"
         }
       ],
       "answer": ""

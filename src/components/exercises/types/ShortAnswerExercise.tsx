@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import type { ShortAnswerExercise as SAType, ExerciseResult } from '@/types'
+import { renderInline } from '@/utils/renderInline'
 
 interface Props {
   exercise: SAType
@@ -41,7 +42,7 @@ function ShortAnswerExercise({ exercise, savedResult, onAnswer }: Props) {
     <div className="bg-white rounded-lg border border-gray-200 p-4 my-3">
       {/* 题干 */}
       <div className="mb-3 text-sm font-medium text-gray-800">
-        {exercise.question}
+        {renderInline(exercise.question)}
       </div>
 
       {/* 文本输入框 */}
@@ -67,7 +68,7 @@ function ShortAnswerExercise({ exercise, savedResult, onAnswer }: Props) {
         <div className="mt-3">
           <div className="bg-blue-50 rounded-lg p-3 mb-3">
             <div className="text-xs font-semibold text-blue-600 mb-1">参考答案</div>
-            <p className="text-sm text-gray-700 leading-relaxed">{exercise.referenceAnswer}</p>
+            <p className="text-sm text-gray-700 leading-relaxed">{renderInline(exercise.referenceAnswer)}</p>
             {exercise.scoringPoints && exercise.scoringPoints.length > 0 && (
               <div className="mt-2">
                 <div className="text-xs font-semibold text-blue-600 mb-1">得分要点</div>

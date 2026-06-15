@@ -6,14 +6,14 @@ interface Props {
 
 function TableBlockComponent({ block }: Props) {
   return (
-    <div className="my-3 overflow-x-auto rounded-lg border border-gray-200">
+    <div className="my-3 overflow-x-auto rounded-[10px] border border-border">
       <table className="min-w-full text-sm">
         <thead>
-          <tr className="bg-gray-100">
+          <tr className="bg-primary-bg">
             {block.headers.map((header, i) => (
               <th
                 key={i}
-                className="px-4 py-2 text-left font-semibold text-gray-700 whitespace-nowrap"
+                className="px-4 py-2.5 text-left font-semibold text-primary-dark whitespace-nowrap border-b-2 border-primary/20"
               >
                 {header}
               </th>
@@ -22,9 +22,9 @@ function TableBlockComponent({ block }: Props) {
         </thead>
         <tbody>
           {block.rows.map((row, ri) => (
-            <tr key={ri} className="border-t border-gray-100 hover:bg-gray-50">
+            <tr key={ri} className="border-t border-border even:bg-bg hover:bg-primary-bg transition-colors">
               {row.map((cell, ci) => (
-                <td key={ci} className="px-4 py-2 text-gray-600">
+                <td key={ci} className="px-4 py-2.5 text-text">
                   {cell}
                 </td>
               ))}

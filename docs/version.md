@@ -4,6 +4,85 @@
 
 ---
 
+## v1.4 (2026-06-15)
+
+> 前端内联渲染修复 — KaTeX 行内公式 + 全组件 renderInline 接入 ✅ 已验收通过
+
+### ✨ 新增
+- **`src/utils/renderInline.tsx` 增加 KaTeX 行内渲染** — `$...$` 化学式/符号现在能正确渲染为下标、上标等
+  - 正则顺序：`$$...$$`（display）→ `$...$`（inline）→ `**bold**` → `*italic*`
+  - KaTeX `throwOnError: false` 容错，语法错误时显示原始文本
+
+### 🔧 修复
+- **6 个组件接入 renderInline** — 题干、选项、解析等文本字段现在支持加粗和 LaTeX 渲染
+  - `AnswerReveal.tsx` — analysis 文本
+  - `ChoiceExercise.tsx` — stem + option.text
+  - `TrueFalseExercise.tsx` — stem
+  - `FillExercise.tsx` — segments
+  - `ShortAnswerExercise.tsx` — question + referenceAnswer
+  - `ListBlock.tsx` — 列表项
+- **lesson-02 第 5 题参考答案** — 删除 HTML 注释标记（答案已存在于参考答案章节）
+
+### 📝 文档
+- **`docs/curriculum-format.md` 重写** — 精简冗余 + 新增「前端渲染规范」章节
+  - 明确 renderInline 支持的标记（`$...$`、`**bold**`、`*italic*`）
+  - 列出所有支持渲染的字段及状态
+  - 标注不支持的标记（代码块、链接、图片）
+  - 记录转换脚本已知问题
+
+### ⏸️ 待后续处理
+- 代码块 ``` 渲染（lesson-04/06 树形图）
+- convert-md.mjs 同行多选项拆分 bug
+- lesson-02/04/08 题干为空 bug
+
+---
+
+## v1.3 (2026-06-15)
+
+> "实验橙"主题皮肤实施 + Markdown 内联渲染修复
+
+### ✨ 新增
+- **"实验橙"主题皮肤**：基于 Tailwind v4 `@theme` 变量体系，全组件从"功能原型"改造为精致教学产品
+  - 配色：橙色主色（#e8600c）+ 暖色背景（#fefcfa）+ 语义化 token（primary/success/warning/error）
+  - 设计稿：`docs/design/preview/chemistry-skin-preview.html`（设计先行，代码照搬）
+- **`src/utils/renderInline.tsx`** — 轻量 Markdown 内联渲染（`**bold**` → `<strong>`，`*italic*` → `<em>`）
+- **`docs/index.md`** — 项目结构说明文档，供 AI 快速了解项目全貌
+
+### 🎨 UI 改造（11 个组件）
+- `AppLayout.tsx` — 导航栏：`shadow-sm` → `border-b`，`max-w-6xl` → `max-w-[900px]`，橙色主题
+- `HomePage.tsx` — 首页卡片：左侧橙条 + 绿色 ✓ badge + 底部进度条
+- `SectionKnowledge.tsx` — 知识点卡片：暖黄背景 + 左侧橙条 + 入场动画
+- `CalloutBlock.tsx` — 提示框：4 种变体渐变背景（红/绿/蓝/紫）
+- `TableBlock.tsx` — 表格：橙色表头 + 斑马纹
+- `ListBlock.tsx` — 列表：橙色标记
+- `EquationBlock.tsx` — 公式块：暖黄背景 + 左侧橙条
+- `ParagraphBlock.tsx` — 段落：`text-text` + renderInline 支持
+- `ChoiceExercise.tsx` — 选择题：卡片式选项 + 状态驱动样式（橙选中/绿正确/红错误）
+- `AnswerReveal.tsx` — 解析展开：橙色配色 + 淡入动画
+- `index.css` — CSS 变量体系 + 动画关键帧（slide-up/fade-in）
+
+### 🔧 修复
+- **Markdown 内联语法不渲染** — ParagraphBlock/CalloutBlock 直接显示 `**bold**` 原文
+  - 根因：组件未解析 Markdown 内联语法
+  - 修复：新建 `renderInline.tsx` 工具函数，在渲染层解析 `**bold**` 和 `*italic*`
+- **convert-md.mjs 目标项解析 bug** — `---` 分隔符被误识别为目标项，生成 `"text": "--"` 脏数据
+  - 修复：`parseObjectives()` 过滤 `---` 和 `--` 行
+- **convert-md.mjs 多行 blockquote bug** — 连续 `>` 行被逐行拆成多个空 callout
+  - 修复：`parseContentBlocks()` 合并连续 `>` 行为单个 callout
+- 重新运行 convert 脚本，10 个课时 JSON 全部重新生成
+
+### 📝 文档
+- 新建 `docs/index.md` — 项目结构说明（目录职责 + 数据流 + 架构决策）
+- `v1.3-implementation.md` — 精简为轻量状态看板
+- `roadmap.md` — 更新 P6 状态，标记已过时的架构方案
+
+### ⏸️ 推迟到 v1.4
+- 5 模块导航（ModuleNav）
+- 设置面板（SettingsPanel）
+- 判断题/填空题/简答题 UI 改造
+
+---
+
 ## v1.2 (2026-06-14)
 
 ### 🔧 修复

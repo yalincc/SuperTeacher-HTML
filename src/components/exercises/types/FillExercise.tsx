@@ -2,6 +2,7 @@ import { useState } from 'react'
 import type { FillExercise as FillType, ExerciseResult } from '@/types'
 import { checkAnswer } from '@/utils/formula'
 import AnswerReveal from '../AnswerReveal'
+import { renderInline } from '@/utils/renderInline'
 
 interface Props {
   exercise: FillType
@@ -74,7 +75,7 @@ function FillExercise({ exercise, savedResult, onAnswer }: Props) {
           />
         )
       }
-      return <span key={i}>{segment}</span>
+      return <span key={i}>{renderInline(segment)}</span>
     })
   }
 

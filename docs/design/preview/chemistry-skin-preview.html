@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>化学 Skin 测试页 v1.1 — SuperTeacher</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* 主色系 — 实验橙 */
+      --color-primary: #e8600c;
+      --color-primary-light: #f97316;
+      --color-primary-dark: #c2410c;
+      --color-primary-bg: #fff7ed;
+
+      /* 功能色 */
+      --color-success: #0d9488;
+      --color-success-bg: #f0fdfa;
+      --color-warning: #d97706;
+      --color-error: #dc2626;
+
+      /* 中性色 */
+      --color-bg: #fefcfa;
+      --color-surface: #ffffff;
+      --color-surface-warm: #fffbeb;
+      --color-border: #e7e5e4;
+      --color-text: #1c1917;
+      --color-text-secondary: #78716c;
+      --color-text-muted: #a8a29e;
+
+      /* 字体 */
+      --font-heading: 'Noto Sans SC', sans-serif;
+      --font-body: 'Noto Sans SC', sans-serif;
+      --font-formula: 'JetBrains Mono', 'Fira Code', monospace;
+
+      /* 间距 */
+      --space-sm: 8px;
+      --space-md: 16px;
+      --space-lg: 24px;
+      --space-xl: 32px;
+
+      /* 圆角 */
+      --radius-md: 10px;
+      --radius-lg: 16px;
+
+      /* 阴影 */
+      --shadow-sm: 0 1px 3px rgba(194, 65, 12, 0.06);
+      --shadow-md: 0 4px 12px rgba(194, 65, 12, 0.08);
+    }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: var(--font-body);
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    /* ========= 顶部导航 ========= */
+    .topnav {
+      background: #fff;
+      border-bottom: 1px solid var(--color-border);
+      position: sticky; top: 0; z-index: 50;
+    }
+    .topnav-inner {
+      max-width: 900px; margin: 0 auto;
+      padding: 0 var(--space-md);
+      height: 56px; display: flex;
+      align-items: center; justify-content: space-between;
+    }
+    .topnav-brand {
+      display: flex; align-items: center; gap: 8px;
+      font-weight: 700; font-size: 16px;
+      color: var(--color-text); text-decoration: none;
+    }
+    .topnav-brand span { font-size: 20px; }
+
+    /* ========= 主内容 ========= */
+    .main {
+      max-width: 900px; margin: 0 auto;
+      padding: var(--space-lg) var(--space-md) 80px;
+    }
+
+    /* ========= 首页 ========= */
+    .hero { text-align: center; margin-bottom: var(--space-xl); }
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: 28px; font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .hero h1 span { font-size: 32px; margin-right: 8px; }
+    .hero p { font-size: 15px; color: var(--color-text-secondary); }
+
+    .stats {
+      display: flex; justify-content: center; gap: 24px;
+      margin-top: 16px; flex-wrap: wrap;
+    }
+    .stat-item {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 14px; color: var(--color-text-secondary);
+    }
+    .stat-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .stat-dot.blue { background: #3b82f6; }
+    .stat-dot.green { background: #10b981; }
+    .stat-dot.amber { background: var(--color-warning); }
+
+    /* ========= 课程卡片 ========= */
+    .section-title {
+      font-size: 17px; font-weight: 600;
+      color: var(--color-text); margin-bottom: 12px;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px; margin-bottom: var(--space-xl);
+    }
+    .lesson-card {
+      position: relative;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-left: 3px solid var(--color-primary);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      padding: 14px 14px 14px 18px;
+      text-decoration: none; color: inherit;
+      transition: all 0.2s ease;
+    }
+    .lesson-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+    .lesson-card.completed {
+      background: var(--color-primary-bg);
+      border-color: #fed7aa;
+    }
+    .card-badge {
+      position: absolute; top: 10px; right: 10px;
+      width: 18px; height: 18px;
+      background: var(--color-success);
+      border-radius: 50%; display: flex;
+      align-items: center; justify-content: center;
+      color: #fff; font-size: 11px;
+    }
+    .card-id { font-size: 12px; color: var(--color-text-muted); margin-bottom: 4px; }
+    .card-title { font-size: 14px; font-weight: 500; line-height: 1.4; }
+    .card-unit { font-size: 12px; color: var(--color-text-muted); margin-top: 8px; }
+    .card-progress {
+      height: 3px; background: var(--color-border);
+      border-radius: 0 0 var(--radius-md) var(--radius-md);
+      margin: 12px -14px -14px -18px; overflow: hidden;
+    }
+    .card-progress-fill {
+      height: 100%; background: var(--color-success);
+      border-radius: inherit; transition: width 0.4s ease;
+    }
+
+    /* ========= 步骤指示器（5模块） ========= */
+    .module-nav {
+      display: flex; gap: 0; margin-bottom: var(--space-lg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+    .module-nav-item {
+      flex: 1; text-align: center;
+      padding: 10px 4px;
+      font-size: 12px; color: var(--color-text-muted);
+      cursor: pointer; transition: all 0.2s;
+      border-right: 1px solid var(--color-border);
+      position: relative;
+    }
+    .module-nav-item:last-child { border-right: none; }
+    .module-nav-item.active {
+      background: var(--color-primary-bg);
+      color: var(--color-primary); font-weight: 600;
+    }
+    .module-nav-item.completed {
+      color: var(--color-success);
+    }
+    .module-nav-item.completed::after {
+      content: '✓';
+      position: absolute; right: 6px; top: 50%;
+      transform: translateY(-50%);
+      font-size: 11px; color: var(--color-success);
+    }
+    .module-nav-item .module-icon { font-size: 16px; display: block; margin-bottom: 2px; }
+
+    /* ========= 知识点卡片 ========= */
+    .knowledge-card {
+      background: var(--color-surface-warm);
+      border-left: 4px solid var(--color-primary);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      padding: var(--space-lg);
+      margin-bottom: var(--space-lg);
+      animation: slideUp 0.4s ease-out;
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .knowledge-card h2 {
+      font-family: var(--font-heading);
+      font-size: 20px; font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-md);
+      /* 下划线渐显 */
+      background-image: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary) 100%);
+      background-size: 0% 3px;
+      background-repeat: no-repeat;
+      background-position: left bottom;
+      padding-bottom: 4px;
+      animation: underlineReveal 0.8s ease-out 0.3s forwards;
+    }
+    @keyframes underlineReveal {
+      from { background-size: 0% 3px; }
+      to   { background-size: 100% 3px; }
+    }
+    .knowledge-card p {
+      font-size: 15px; line-height: 1.8;
+      margin-bottom: var(--space-sm);
+    }
+
+    /* 关键词高亮 — 只触发一次（JS控制） */
+    .highlight-once {
+      background: transparent;
+      padding: 1px 3px; border-radius: 3px;
+    }
+    .highlight-once.flash {
+      animation: pulseHighlight 1.5s ease-in-out forwards;
+    }
+    @keyframes pulseHighlight {
+      0%, 100% { background: transparent; }
+      30%, 70% { background: rgba(232, 96, 12, 0.12); }
+    }
+
+    /* ========= 公式块 ========= */
+    .formula-block {
+      background: #fef3c7;
+      border-left: 3px solid var(--color-primary);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 16px 24px;
+      margin: var(--space-md) 0;
+      text-align: center;
+      font-family: var(--font-formula);
+      font-size: 16px;
+      animation: formulaReveal 0.5s ease-out;
+    }
+    @keyframes formulaReveal {
+      from { opacity: 0; max-height: 0; padding: 0 24px; }
+      to   { opacity: 1; max-height: 200px; padding: 16px 24px; }
+    }
+
+    /* ========= 练习区 ========= */
+    .exercise-section {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-lg);
+      margin-top: var(--space-xl);
+    }
+    .exercise-tag {
+      display: inline-block;
+      background: var(--color-primary-bg);
+      color: var(--color-primary);
+      font-size: 12px; font-weight: 500;
+      padding: 3px 10px; border-radius: 20px;
+      margin-bottom: var(--space-md);
+    }
+    .option-list {
+      display: flex; flex-direction: column; gap: 10px;
+      margin-bottom: var(--space-lg);
+    }
+    .option-card {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 16px;
+      border: 2px solid var(--color-border);
+      border-radius: var(--radius-md);
+      cursor: pointer; transition: all 0.2s;
+    }
+    .option-card:hover {
+      border-color: var(--color-primary-light);
+      background: var(--color-primary-bg);
+    }
+    .option-card.selected {
+      border-color: var(--color-primary);
+      background: var(--color-primary-bg);
+    }
+    .option-card.selected.wrong {
+      border-color: var(--color-error);
+      background: #fef2f2;
+    }
+    .option-card.selected.wrong .option-label {
+      background: var(--color-error);
+      border-color: var(--color-error);
+      color: #fff;
+    }
+    .option-card.correct {
+      border-color: var(--color-success);
+      background: var(--color-success-bg);
+    }
+    .option-label {
+      width: 24px; height: 24px; border-radius: 50%;
+      border: 2px solid var(--color-border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; font-weight: 500; flex-shrink: 0;
+      transition: all 0.2s;
+    }
+    .option-card.selected .option-label {
+      background: var(--color-primary);
+      border-color: var(--color-primary); color: #fff;
+    }
+    .option-card.correct .option-label {
+      background: var(--color-success);
+      border-color: var(--color-success); color: #fff;
+    }
+
+    /* ========= 按钮 ========= */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 6px; padding: 10px 24px;
+      border-radius: var(--radius-md);
+      font-size: 14px; font-weight: 500;
+      cursor: pointer; transition: all 0.2s;
+      border: none; font-family: var(--font-body);
+    }
+    .btn-primary { background: var(--color-primary); color: #fff; }
+    .btn-primary:hover {
+      background: var(--color-primary-dark);
+      box-shadow: 0 4px 16px rgba(232, 96, 12, 0.3);
+    }
+    .btn-secondary {
+      background: var(--color-surface);
+      color: var(--color-text-secondary);
+      border: 1px solid var(--color-border);
+    }
+    .btn-group {
+      display: flex; justify-content: space-between;
+      margin-top: var(--space-lg);
+    }
+
+    /* ========= 正确反馈（克制版） ========= */
+    .feedback-toast {
+      position: fixed; top: 72px; left: 50%; transform: translateX(-50%);
+      background: var(--color-success); color: #fff;
+      padding: 10px 24px; border-radius: 24px;
+      font-size: 14px; font-weight: 500;
+      box-shadow: 0 4px 20px rgba(13, 148, 136, 0.3);
+      z-index: 200; opacity: 0;
+      transition: opacity 0.3s, transform 0.3s;
+      pointer-events: none;
+    }
+    .feedback-toast.show {
+      opacity: 1; transform: translateX(-50%) translateY(0);
+    }
+
+    /* ========= 提示框（4种变体） ========= */
+    .callout {
+      border-left: 4px solid;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      padding: 14px 16px;
+      margin: 12px 0;
+      display: flex; gap: 10px; align-items: flex-start;
+      animation: slideUp 0.35s ease-out;
+    }
+    .callout-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+    .callout-body { flex: 1; }
+    .callout-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+    .callout-text { font-size: 13px; line-height: 1.7; }
+
+    .callout.warning {
+      border-color: #ef4444;
+      background: linear-gradient(90deg, #fef2f2 0%, #fff 50%);
+    }
+    .callout.warning .callout-title { color: #dc2626; }
+    .callout.warning .callout-text { color: #7f1d1d; }
+
+    .callout.tip {
+      border-color: var(--color-success);
+      background: linear-gradient(90deg, #f0fdfa 0%, #fff 50%);
+    }
+    .callout.tip .callout-title { color: #0d9488; }
+    .callout.tip .callout-text { color: #134e4a; }
+
+    .callout.note {
+      border-color: #3b82f6;
+      background: linear-gradient(90deg, #eff6ff 0%, #fff 50%);
+    }
+    .callout.note .callout-title { color: #2563eb; }
+    .callout.note .callout-text { color: #1e3a5f; }
+
+    .callout.mnemonic {
+      border-color: #8b5cf6;
+      background: linear-gradient(90deg, #f5f3ff 0%, #fff 50%);
+    }
+    .callout.mnemonic .callout-title { color: #7c3aed; }
+    .callout.mnemonic .callout-text { color: #4c1d95; }
+
+    /* ========= 表格 ========= */
+    .styled-table-wrap {
+      margin: 12px 0;
+      overflow-x: auto;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border);
+    }
+    .styled-table {
+      width: 100%; border-collapse: collapse; font-size: 14px;
+    }
+    .styled-table thead tr {
+      background: var(--color-primary-bg);
+    }
+    .styled-table th {
+      padding: 10px 16px; text-align: left;
+      font-weight: 600; color: var(--color-primary-dark);
+      white-space: nowrap; border-bottom: 2px solid #fed7aa;
+    }
+    .styled-table td {
+      padding: 10px 16px; color: var(--color-text);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .styled-table tbody tr:nth-child(even) {
+      background: var(--color-bg);
+    }
+    .styled-table tbody tr:hover {
+      background: var(--color-primary-bg);
+    }
+    .styled-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* ========= 列表 ========= */
+    .styled-list {
+      margin: 10px 0; padding-left: 24px;
+    }
+    .styled-list li {
+      font-size: 14px; line-height: 1.8;
+      color: var(--color-text);
+      margin-bottom: 4px;
+    }
+    .styled-list ul { list-style: none; padding-left: 0; }
+    .styled-list li::marker {
+      color: var(--color-primary);
+    }
+    .styled-list ol { list-style: none; padding-left: 0; counter-reset: item; }
+    .styled-list ol li { counter-increment: item; }
+    .styled-list ol li::before {
+      content: counter(item) '.';
+      color: var(--color-primary);
+      font-weight: 600;
+      margin-right: 6px;
+    }
+
+    /* ========= 解析展开 ========= */
+    .analysis-toggle {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 13px; color: var(--color-primary);
+      cursor: pointer; border: none; background: none;
+      font-family: var(--font-body);
+      padding: 4px 0; margin-top: 8px;
+      transition: color 0.2s;
+    }
+    .analysis-toggle:hover { color: var(--color-primary-dark); }
+    .analysis-toggle .arrow {
+      display: inline-block; transition: transform 0.25s;
+      font-size: 11px;
+    }
+    .analysis-toggle .arrow.open { transform: rotate(0deg); }
+    .analysis-toggle .arrow.closed { transform: rotate(-90deg); }
+    .analysis-content {
+      margin-top: 8px; padding-left: 14px;
+      border-left: 2px solid #fed7aa;
+      font-size: 13px; color: var(--color-text-secondary);
+      line-height: 1.7;
+      animation: slideUp 0.3s ease-out;
+    }
+
+    /* ========= 错误反馈 Toast ========= */
+    .feedback-toast.error {
+      background: var(--color-error);
+      box-shadow: 0 4px 20px rgba(220, 38, 38, 0.3);
+    }
+
+    /* ========= 场景标签 ========= */
+    .scene-label {
+      display: inline-block;
+      font-size: 11px; font-weight: 600;
+      color: var(--color-text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+      padding: 2px 8px;
+      background: var(--color-border);
+      border-radius: 4px;
+    }
+
+    /* ========= 响应式 ========= */
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 22px; }
+      .card-grid { grid-template-columns: repeat(2, 1fr); }
+      .module-nav-item { font-size: 11px; padding: 8px 2px; }
+      .knowledge-card { padding: 16px; }
+      .settings-panel { width: calc(100vw - 48px); right: 24px; }
+      .styled-table { font-size: 13px; }
+      .styled-table th, .styled-table td { padding: 8px 10px; }
+    }
+
+    /* ========= 分隔线 ========= */
+    .divider {
+      border-top: 2px dashed var(--color-border);
+      margin: 40px 0;
+    }
+
+    /* ========= 设置面板（悬浮） ========= */
+    .settings-fab {
+      position: fixed; bottom: 24px; right: 24px;
+      width: 48px; height: 48px; border-radius: 50%;
+      background: var(--color-primary); color: #fff;
+      border: none; cursor: pointer;
+      box-shadow: 0 4px 16px rgba(232, 96, 12, 0.3);
+      font-size: 20px; z-index: 300;
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.2s;
+    }
+    .settings-fab:hover { transform: scale(1.1); }
+
+    .settings-panel {
+      position: fixed; bottom: 80px; right: 24px;
+      width: 300px; max-height: 70vh; overflow-y: auto;
+      background: #fff; border-radius: var(--radius-lg);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+      z-index: 301; padding: 20px;
+      transform: translateY(20px); opacity: 0;
+      pointer-events: none; transition: all 0.25s ease;
+    }
+    .settings-panel.open {
+      transform: translateY(0); opacity: 1;
+      pointer-events: auto;
+    }
+    .settings-panel h3 {
+      font-size: 16px; font-weight: 600;
+      margin-bottom: 16px; color: var(--color-text);
+    }
+    .setting-row {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 14px;
+    }
+    .setting-row label {
+      font-size: 13px; color: var(--color-text-secondary);
+    }
+    .setting-row input[type="range"] {
+      width: 120px; height: 4px;
+    }
+    .setting-row input[type="color"] {
+      width: 32px; height: 24px; border: none;
+      border-radius: 4px; cursor: pointer;
+    }
+    .setting-reset {
+      display: block; width: 100%; margin-top: 12px;
+      padding: 8px; font-size: 13px;
+      background: var(--color-surface-warm);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      cursor: pointer; color: var(--color-text-secondary);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 顶部导航 -->
+  <header class="topnav">
+    <div class="topnav-inner">
+      <a href="#" class="topnav-brand">
+        <span>🧪</span>
+        <span>SuperTeacher · 化学 Skin 测试 v1.1</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ===== 首页演示 ===== -->
+    <section id="homeDemo">
+      <div class="hero">
+        <h1><span>🧪</span>化学 · 互动教学</h1>
+        <p>探索物质的奥秘 — 初中化学九年级上册</p>
+        <div class="stats">
+          <div class="stat-item"><span class="stat-dot blue"></span>已做 <strong>12</strong> 题</div>
+          <div class="stat-item"><span class="stat-dot green"></span>正确 <strong>8</strong> 题</div>
+          <div class="stat-item"><span class="stat-dot amber"></span>完成 <strong>3</strong> 课</div>
+        </div>
+      </div>
+
+      <h2 class="section-title">第1周：化学反应基础</h2>
+      <div class="card-grid">
+        <a href="#" class="lesson-card completed">
+          <div class="card-badge">✓</div>
+          <div class="card-id">第1课</div>
+          <div class="card-title">化学反应速率</div>
+          <div class="card-unit">反应速率 · 影响因素</div>
+          <div class="card-progress"><div class="card-progress-fill" style="width:100%"></div></div>
+        </a>
+        <a href="#" class="lesson-card">
+          <div class="card-id">第2课</div>
+          <div class="card-title">质量守恒定律</div>
+          <div class="card-unit">质量守恒 · 化学方程式</div>
+          <div class="card-progress"><div class="card-progress-fill" style="width:0%"></div></div>
+        </a>
+        <a href="#" class="lesson-card">
+          <div class="card-id">第3课</div>
+          <div class="card-title">化学方程式</div>
+          <div class="card-unit">方程式配平 · 计算</div>
+          <div class="card-progress"><div class="card-progress-fill" style="width:0%"></div></div>
+        </a>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ===== 知识点页：5模块导航 ===== -->
+    <section id="lessonDemo">
+      <p style="font-size:14px;color:var(--color-text-muted);margin-bottom:16px;">
+        ← <a href="#homeDemo" style="color:var(--color-primary);text-decoration:none;">返回首页</a>
+        &nbsp; 第 3 课：化学反应速率
+      </p>
+
+      <!-- 5模块步骤指示器 -->
+      <div class="module-nav" id="moduleNav">
+        <div class="module-nav-item completed" data-module="0">
+          <span class="module-icon">🎯</span>目标
+        </div>
+        <div class="module-nav-item active" data-module="1">
+          <span class="module-icon">📚</span>知识点
+        </div>
+        <div class="module-nav-item" data-module="2">
+          <span class="module-icon">✏️</span>例题
+        </div>
+        <div class="module-nav-item" data-module="3">
+          <span class="module-icon">📝</span>练习
+        </div>
+        <div class="module-nav-item" data-module="4">
+          <span class="module-icon">📋</span>小结
+        </div>
+      </div>
+
+      <!-- 知识点卡片 -->
+      <div class="knowledge-card" id="knowledgeCard">
+        <h2>化学反应速率的定义</h2>
+        <p>
+          化学反应速率通常用<span class="highlight-once" id="kw1">单位时间内</span>反应物浓度的<span class="highlight-once" id="kw2">减少量</span>，
+          或生成物浓度的<span class="highlight-once" id="kw3">增加量</span>来表示。
+        </p>
+        <div class="formula-block">v = Δc / Δt</div>
+        <p style="font-size:13px;color:var(--color-text-secondary);">
+          其中：v 表示反应速率，Δc 表示浓度变化量，Δt 表示时间变化量。
+        </p>
+      </div>
+
+      <div class="btn-group">
+        <button class="btn btn-secondary" onclick="prevModule()">上一个模块</button>
+        <button class="btn btn-primary" onclick="nextModule()">下一个模块 →</button>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ===== 练习区演示 ===== -->
+    <section id="exerciseDemo">
+      <div class="exercise-section">
+        <div class="exercise-tag">【选择题】</div>
+        <div class="exercise-question">
+          下列关于化学反应速率的说法，<strong>正确的是？</strong>
+        </div>
+        <div class="option-list" id="optionList">
+          <div class="option-card" onclick="selectOption(this,false)">
+            <div class="option-label">A</div>
+            <div>反应速率越大，反应越快</div>
+          </div>
+          <div class="option-card" onclick="selectOption(this,false)">
+            <div class="option-label">B</div>
+            <div>温度升高，反应速率减小</div>
+          </div>
+          <div class="option-card" onclick="selectOption(this,true)">
+            <div class="option-label">C</div>
+            <div>催化剂能改变反应速率</div>
+          </div>
+          <div class="option-card" onclick="selectOption(this,false)">
+            <div class="option-label">D</div>
+            <div>反应物浓度越大，速率越小</div>
+          </div>
+        </div>
+        <button class="btn btn-primary" onclick="submitAnswer()" id="submitBtn">提交答案</button>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ===== 提示框演示（4种变体） ===== -->
+    <section id="calloutDemo">
+      <span class="scene-label">场景：提示框 Callout</span>
+
+      <div class="callout warning">
+        <span class="callout-icon">⚠️</span>
+        <div class="callout-body">
+          <div class="callout-title">易错提醒</div>
+          <div class="callout-text">催化剂在化学反应前后质量和化学性质不变，但物理性质（如状态）可能改变。不要笼统地说"性质不变"。</div>
+        </div>
+      </div>
+
+      <div class="callout tip">
+        <span class="callout-icon">💡</span>
+        <div class="callout-body">
+          <div class="callout-title">解题技巧</div>
+          <div class="callout-text">判断化学反应速率快慢时，注意区分"反应速率大"和"反应快"——前者是定量描述，后者是定性判断，二者含义不同。</div>
+        </div>
+      </div>
+
+      <div class="callout note">
+        <span class="callout-icon">ℹ️</span>
+        <div class="callout-body">
+          <div class="callout-title">补充说明</div>
+          <div class="callout-text">反应速率的单位通常为 mol/(L·s) 或 mol/(L·min)，具体取决于反应进行的快慢程度。</div>
+        </div>
+      </div>
+
+      <div class="callout mnemonic">
+        <span class="callout-icon">📖</span>
+        <div class="callout-body">
+          <div class="callout-title">记忆口诀</div>
+          <div class="callout-text">温浓压催加快跑，降温减压慢悠悠。固体纯液不参与，速率只论气溶液。</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ===== 表格演示 ===== -->
+    <section id="tableDemo">
+      <span class="scene-label">场景：表格 Table</span>
+
+      <div class="knowledge-card" style="animation:none;">
+        <h2 style="animation:none;background-image:none;">
+          影响化学反应速率的因素
+        </h2>
+        <p>下表总结了影响化学反应速率的主要因素及其规律：</p>
+
+        <div class="styled-table-wrap">
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>因素</th>
+                <th>变化方向</th>
+                <th>对速率的影响</th>
+                <th>原理</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>温度</td>
+                <td>升高 ↑</td>
+                <td>加快 ↑</td>
+                <td>活化分子比例增大</td>
+              </tr>
+              <tr>
+                <td>浓度</td>
+                <td>增大 ↑</td>
+                <td>加快 ↑</td>
+                <td>单位体积活化分子数增多</td>
+              </tr>
+              <tr>
+                <td>压强</td>
+                <td>增大 ↑</td>
+                <td>加快 ↑（仅气体）</td>
+                <td>等效于增大浓度</td>
+              </tr>
+              <tr>
+                <td>催化剂</td>
+                <td>加入</td>
+                <td>加快 ↑</td>
+                <td>降低活化能</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ===== 列表演示 ===== -->
+    <section id="listDemo">
+      <span class="scene-label">场景：列表 List</span>
+
+      <div class="knowledge-card" style="animation:none;">
+        <h2 style="animation:none;background-image:none;">
+          化学反应速率的要点
+        </h2>
+        <p>掌握以下要点，理解反应速率的核心概念：</p>
+
+        <ul class="styled-list">
+          <li>反应速率是<strong>平均速率</strong>，不是瞬时速率</li>
+          <li>同一反应中，不同物质表示的速率之比 = 化学计量数之比</li>
+          <li>固体和纯液体的浓度视为常数，不用于表示反应速率</li>
+          <li>反应速率通常指<strong>正值</strong>，无论用反应物还是生成物表示</li>
+        </ul>
+
+        <p style="margin-top:12px;">实验步骤（有序列表）：</p>
+
+        <div class="styled-list">
+          <ol>
+            <li>准备等浓度的盐酸两份，分别标记为 A、B</li>
+            <li>A 组加热至 60°C，B 组保持室温</li>
+            <li>同时加入等质量的锌粒</li>
+            <li>记录收集 50mL 氢气所需的时间</li>
+            <li>比较两组数据，得出结论</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ===== 选择题：答错场景演示 ===== -->
+    <section id="exerciseErrorDemo">
+      <span class="scene-label">场景：选择题 — 答错反馈</span>
+
+      <div class="exercise-section">
+        <div class="exercise-tag">【选择题】</div>
+        <div class="exercise-question" style="margin-bottom:14px;">
+          下列有关催化剂的说法，<strong>正确的是？</strong>
+        </div>
+        <div class="option-list" id="optionListError">
+          <div class="option-card" data-correct="false">
+            <div class="option-label">A</div>
+            <div>催化剂在反应前后性质不变</div>
+          </div>
+          <div class="option-card selected wrong" data-correct="false">
+            <div class="option-label">B</div>
+            <div>催化剂能加快所有反应的速率</div>
+          </div>
+          <div class="option-card correct" data-correct="true">
+            <div class="option-label">C</div>
+            <div>催化剂在反应前后质量和化学性质不变</div>
+          </div>
+          <div class="option-card" data-correct="false">
+            <div class="option-label">D</div>
+            <div>没有催化剂反应就不能进行</div>
+          </div>
+        </div>
+        <button class="btn btn-primary" disabled style="opacity:0.6;cursor:not-allowed;">已提交</button>
+
+        <!-- 错误内联反馈 -->
+        <div style="margin-top:12px;padding:10px 14px;border-radius:var(--radius-md);background:#fef2f2;color:#991b1b;font-size:14px;">
+          ❌ 回答错误，正确答案是 <strong>C</strong>
+        </div>
+
+        <!-- 解析展开 -->
+        <div>
+          <button class="analysis-toggle" onclick="toggleAnalysis(this)">
+            <span class="arrow open">▼</span>
+            查看解析
+          </button>
+          <div class="analysis-content">
+            催化剂在化学反应前后，<strong>质量</strong>和<strong>化学性质</strong>不变，但物理性质（如状态、形状）可能改变。A 选项说"性质不变"过于笼统，包含了物理性质，因此不正确。催化剂具有选择性，不能加快所有反应（B 错）。某些反应不需要催化剂也能进行（D 错）。
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ===== 选择题：答对场景演示 ===== -->
+    <section id="exerciseCorrectDemo">
+      <span class="scene-label">场景：选择题 — 答对反馈</span>
+
+      <div class="exercise-section">
+        <div class="exercise-tag">【选择题】</div>
+        <div class="exercise-question" style="margin-bottom:14px;">
+          增大反应物浓度，化学反应速率加快的原因是？
+        </div>
+        <div class="option-list">
+          <div class="option-card" data-correct="false" style="opacity:0.5;">
+            <div class="option-label">A</div>
+            <div>活化能降低</div>
+          </div>
+          <div class="option-card correct" data-correct="true">
+            <div class="option-label">B</div>
+            <div>单位体积内活化分子数增多</div>
+          </div>
+          <div class="option-card" data-correct="false" style="opacity:0.5;">
+            <div class="option-label">C</div>
+            <div>分子总数减少</div>
+          </div>
+          <div class="option-card" data-correct="false" style="opacity:0.5;">
+            <div class="option-label">D</div>
+            <div>反应放出更多热量</div>
+          </div>
+        </div>
+        <button class="btn btn-primary" disabled style="opacity:0.6;cursor:not-allowed;">已提交</button>
+
+        <!-- 正确内联反馈 -->
+        <div style="margin-top:12px;padding:10px 14px;border-radius:var(--radius-md);background:var(--color-success-bg);color:#115e59;font-size:14px;">
+          ✅ 回答正确！
+        </div>
+
+        <!-- 解析展开（收起状态） -->
+        <div>
+          <button class="analysis-toggle" onclick="toggleAnalysis(this)">
+            <span class="arrow closed">▼</span>
+            查看解析
+          </button>
+          <div class="analysis-content" style="display:none;">
+            增大反应物浓度，使单位体积内的分子总数增多，其中活化分子数也随之增多（活化分子比例不变）。有效碰撞次数增加，因此反应速率加快。A 选项是催化剂的作用原理，C、D 与浓度无关。
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 正确反馈 Toast（克制版） -->
+  <div class="feedback-toast" id="feedbackToast">✓ 回答正确！</div>
+
+  <!-- 设置按钮 -->
+  <button class="settings-fab" onclick="toggleSettings()" title="设计设置">⚙️</button>
+
+  <!-- 设置面板 -->
+  <div class="settings-panel" id="settingsPanel">
+    <h3>🎨 设计设置</h3>
+
+    <div class="setting-row">
+      <label>主色</label>
+      <input type="color" id="setPrimary" value="#e8600c" onchange="applySettings()">
+    </div>
+
+    <div class="setting-row">
+      <label>成功色</label>
+      <input type="color" id="setSuccess" value="#0d9488" onchange="applySettings()">
+    </div>
+
+    <div class="setting-row">
+      <label>字体大小</label>
+      <input type="range" id="setFontSize" min="13" max="18" value="15" oninput="applySettings()">
+      <span id="fontSizeVal">15px</span>
+    </div>
+
+    <div class="setting-row">
+      <label>圆角大小</label>
+      <input type="range" id="setRadius" min="6" max="20" value="10" oninput="applySettings()">
+      <span id="radiusVal">10px</span>
+    </div>
+
+    <div class="setting-row">
+      <label>暖色背景</label>
+      <input type="checkbox" id="setWarmBg" checked onchange="applySettings()">
+    </div>
+
+    <button class="setting-reset" onclick="resetSettings()">重置为默认</button>
+  </div>
+
+  <script>
+    // ---- 关键词高亮：只触发一次 ----
+    let highlightFired = false;
+    function fireHighlight() {
+      if (highlightFired) return;
+      highlightFired = true;
+      ['kw1','kw2','kw3'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.classList.add('flash');
+      });
+    }
+    // 页面加载后 1.2s 触发（等下划线动画结束）
+    setTimeout(fireHighlight, 1200);
+
+    // ---- 5模块导航 ----
+    let currentModule = 1;
+    function updateModuleNav() {
+      document.querySelectorAll('.module-nav-item').forEach((el, i) => {
+        el.className = 'module-nav-item';
+        if (i < currentModule) el.classList.add('completed');
+        else if (i === currentModule) el.classList.add('active');
+      });
+    }
+    function nextModule() {
+      if (currentModule < 4) { currentModule++; updateModuleNav(); replayCard(); }
+    }
+    function prevModule() {
+      if (currentModule > 0) { currentModule--; updateModuleNav(); replayCard(); }
+    }
+    function replayCard() {
+      const card = document.getElementById('knowledgeCard');
+      card.style.animation = 'none';
+      card.offsetHeight;
+      card.style.animation = 'slideUp 0.4s ease-out';
+      highlightFired = false;
+      setTimeout(fireHighlight, 1200);
+    }
+
+    // ---- 选项选择 ----
+    function selectOption(el, isCorrect) {
+      document.querySelectorAll('.option-card').forEach(c => c.classList.remove('selected'));
+      el.classList.add('selected');
+      el.dataset.correct = isCorrect;
+    }
+
+    // ---- 提交答案（克制版反馈） ----
+    function submitAnswer() {
+      const selected = document.querySelector('.option-card.selected');
+      if (!selected) return alert('请先选择一个答案！');
+      const isCorrect = selected.dataset.correct === 'true';
+
+      document.querySelectorAll('.option-card').forEach(c => {
+        if (c.dataset.correct === 'true') c.classList.add('correct');
+      });
+
+      const toast = document.getElementById('feedbackToast');
+      if (isCorrect) {
+        toast.textContent = '✓ 回答正确！';
+        toast.style.background = 'var(--color-success)';
+      } else {
+        toast.textContent = '✗ 回答错误，正确答案已标出';
+        toast.style.background = 'var(--color-error)';
+      }
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2000);
+
+      document.getElementById('submitBtn').textContent = '已提交';
+      document.getElementById('submitBtn').disabled = true;
+    }
+
+    // ---- 设置面板 ----
+    function toggleSettings() {
+      document.getElementById('settingsPanel').classList.toggle('open');
+    }
+
+    function applySettings() {
+      const root = document.documentElement;
+
+      // 主色
+      root.style.setProperty('--color-primary', document.getElementById('setPrimary').value);
+      // 成功色
+      root.style.setProperty('--color-success', document.getElementById('setSuccess').value);
+      // 字体大小
+      const fs = document.getElementById('setFontSize').value;
+      root.style.setProperty('--font-body-size', fs + 'px');
+      document.getElementById('fontSizeVal').textContent = fs + 'px';
+      document.querySelectorAll('.knowledge-card p, .exercise-question').forEach(el => {
+        el.style.fontSize = fs + 'px';
+      });
+      // 圆角
+      const r = document.getElementById('setRadius').value;
+      root.style.setProperty('--radius-md', r + 'px');
+      document.getElementById('radiusVal').textContent = r + 'px';
+      // 暖色背景
+      const warmBg = document.getElementById('setWarmBg').checked;
+      root.style.setProperty('--color-bg', warmBg ? '#fefcfa' : '#f8fafc');
+      root.style.setProperty('--color-surface-warm', warmBg ? '#fffbeb' : '#ffffff');
+    }
+
+    function resetSettings() {
+      document.getElementById('setPrimary').value = '#e8600c';
+      document.getElementById('setSuccess').value = '#0d9488';
+      document.getElementById('setFontSize').value = '15';
+      document.getElementById('fontSizeVal').textContent = '15px';
+      document.getElementById('setRadius').value = '10';
+      document.getElementById('radiusVal').textContent = '10px';
+      document.getElementById('setWarmBg').checked = true;
+      applySettings();
+    }
+
+    // 点击面板外关闭
+    document.addEventListener('click', e => {
+      const panel = document.getElementById('settingsPanel');
+      const fab = document.querySelector('.settings-fab');
+      if (!panel.contains(e.target) && !fab.contains(e.target)) {
+        panel.classList.remove('open');
+      }
+    });
+
+    // ---- 解析展开/收起 ----
+    function toggleAnalysis(btn) {
+      const arrow = btn.querySelector('.arrow');
+      const content = btn.nextElementSibling;
+      if (!content || !content.classList.contains('analysis-content')) {
+        // 没有解析内容，切换箭头方向
+        arrow.classList.toggle('open');
+        arrow.classList.toggle('closed');
+        btn.childNodes[btn.childNodes.length - 1].textContent =
+          arrow.classList.contains('open') ? ' 收起解析' : ' 查看解析';
+        return;
+      }
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+        arrow.classList.remove('closed');
+        arrow.classList.add('open');
+        btn.childNodes[btn.childNodes.length - 1].textContent = ' 收起解析';
+      } else {
+        content.style.display = 'none';
+        arrow.classList.remove('open');
+        arrow.classList.add('closed');
+        btn.childNodes[btn.childNodes.length - 1].textContent = ' 查看解析';
+      }
+    }
+  </script>
+</body>
+</html>

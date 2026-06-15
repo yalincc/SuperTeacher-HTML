@@ -19,8 +19,10 @@ const CONTENT_DIR = join(__dirname, '..', 'docs', 'curriculum')
 
 const TARGET = [
   'lesson-02-空气与氧气性质.md', 'lesson-03-氧气的制取.md',
-  'lesson-07-质量守恒定律.md', 'lesson-08-化学方程式.md',
-  'lesson-09-碳和碳的氧化物.md', 'lesson-10-燃料及其利用.md',
+  'lesson-04-分子原子.md', 'lesson-05-元素离子化学式.md',
+  'lesson-06-水与化合价.md', 'lesson-07-质量守恒定律.md',
+  'lesson-08-化学方程式.md', 'lesson-09-碳和碳的氧化物.md',
+  'lesson-10-燃料及其利用.md',
 ]
 
 // ===== 工具 =====

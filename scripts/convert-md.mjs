@@ -98,7 +98,7 @@ function splitSections(md) {
 // ===== 一、学习目标 =====
 
 function parseObjectives(text) {
-  const lines = text.trim().split('\n').filter((l) => l.trim().startsWith('-'))
+  const lines = text.trim().split('\n').filter((l) => l.trim().startsWith('-') && l.trim() !== '---' && l.trim() !== '--')
   return lines.map((line) => {
     const trimmed = line.trim().replace(/^-\s*/, '')
     const isKeyPoint = trimmed.startsWith('★')
@@ -198,11 +198,25 @@ function parseContentBlocks(text) {
       continue
     }
 
-    // 提示框（blockquote）
+    // 提示框（blockquote）— 合并连续 > 行
     if (line.trim().startsWith('>')) {
-      const callout = parseCallout(line.trim())
-      blocks.push(callout)
-      i++
+      const calloutLines = []
+      while (i < lines.length && lines[i].trim().startsWith('>')) {
+        const stripped = lines[i].trim().replace(/^>\s?/, '')
+        if (stripped.trim() !== '') calloutLines.push(stripped)
+        i++
+      }
+      if (calloutLines.length > 0) {
+        // 第一行检测 variant
+        const firstLine = calloutLines[0]
+        const rest = calloutLines.slice(1).join('\n')
+        const callout = parseCallout('> ' + firstLine)
+        // 如果后续行有内容，拼接到 content
+        if (rest) {
+          callout.content = callout.content ? callout.content + '\n' + rest : rest
+        }
+        blocks.push(callout)
+      }
       continue
     }
 
@@ -626,6 +640,14 @@ function parseOneExercise(type, lines, startLine, num) {
 }
 
 function parseChoiceExercise(lines) {
+  // TODO（已知问题）：
+  // 1. 选项合并问题：若 MD 中多个选项写在同一行（如 "A. 氧气 B. 氮气 C. ..."），
+  //    正则 /^([A-D])\.\s+(.+)/ 只匹配第一个选项，剩余选项被合并到 text 中。
+  //    影响：lesson-02、06、07、08 部分选择题选项显示为一个整体按钮。
+  //    修复：用全局匹配或拆分同行多选项。
+  // 2. 题干缺失问题：若选项从第一行开始（stemEnd=0），则 stem 为空字符串。
+  //    影响：lesson-02 例1/例2、lesson-04/08 部分题目。
+  //    修复：检查 MD 原稿中 `### 例N：` 标题行是否被错误包含在 exerciseLines 之外。
   // Stem = first line(s) before options
   const options = []
   let stemEnd = 0

@@ -1,4 +1,5 @@
 import type { ParagraphBlock } from '@/types'
+import { renderInline } from '@/utils/renderInline'
 
 interface Props {
   block: ParagraphBlock
@@ -6,8 +7,8 @@ interface Props {
 
 function ParagraphBlockComponent({ block }: Props) {
   return (
-    <p className="text-gray-700 leading-relaxed my-2">
-      {block.content}
+    <p className="text-text leading-relaxed my-2">
+      {renderInline(block.content)}
     </p>
   )
 }

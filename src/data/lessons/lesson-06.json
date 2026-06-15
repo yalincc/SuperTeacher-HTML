@@ -89,7 +89,12 @@
         },
         {
           "type": "paragraph",
-          "content": "化学方程式：2H₂O ════ 2H₂↑ + O₂↑（通电）"
+          "content": "化学方程式："
+        },
+        {
+          "type": "equation",
+          "latex": "2H_2O \\xrightarrow{通电} 2H_2\\uparrow + O_2\\uparrow",
+          "display": true
         },
         {
           "type": "callout",
@@ -113,8 +118,8 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "**可燃性**：2H₂ + O₂ ════ 2H₂O（点燃）——产生淡蓝色火焰",
-            "**还原性**：H₂ + CuO ════ Cu + H₂O（加热）——黑色粉末变红"
+            "**可燃性**：$2H_2 + O_2 \\xrightarrow{点燃} 2H_2O$ ——产生淡蓝色火焰",
+            "**还原性**：$H_2 + CuO \\xrightarrow{\\Delta} Cu + H_2O$ ——黑色粉末变红"
           ]
         },
         {
@@ -174,25 +179,7 @@
           "type": "callout",
           "variant": "note",
           "title": "注意",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 单质和化合物都属于**纯净物**"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 氧化物一定是化合物，化合物不一定是氧化物"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- 含氧元素的化合物不一定是氧化物（如 KMnO₄ 含氧但含三种元素，不是氧化物）"
+          "content": "- 单质和化合物都属于**纯净物**\n- 氧化物一定是化合物，化合物不一定是氧化物\n- 含氧元素的化合物不一定是氧化物（如 KMnO₄ 含氧但含三种元素，不是氧化物）"
         }
       ]
     },
@@ -247,25 +234,7 @@
           "type": "callout",
           "variant": "note",
           "title": "过滤操作要点",
-          "content": "**一贴二低三靠**"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "- 一贴",
-          "content": "滤纸紧贴漏斗内壁"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "- 二低",
-          "content": "滤纸边缘低于漏斗边缘；液面低于滤纸边缘"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "- 三靠",
-          "content": "烧杯口紧靠玻璃棒；玻璃棒下端紧靠三层滤纸处；漏斗下端紧靠烧杯内壁"
+          "content": "**一贴二低三靠**\n- 一贴：滤纸紧贴漏斗内壁\n- 二低：滤纸边缘低于漏斗边缘；液面低于滤纸边缘\n- 三靠：烧杯口紧靠玻璃棒；玻璃棒下端紧靠三层滤纸处；漏斗下端紧靠烧杯内壁"
         },
         {
           "type": "paragraph",
@@ -432,12 +401,6 @@
           "type": "callout",
           "variant": "mnemonic",
           "title": "化合价记忆口诀（选背）",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
           "content": "一价钾钠氯氢银，二价氧钙钡镁锌，三价铝铁四价碳，铜汞二价最常见。"
         },
         {
@@ -606,8 +569,12 @@
   ],
   "examples": [
     {
-      "title": "例题1",
+      "title": "例1：氧化物的判断",
       "problem": [
+        {
+          "type": "paragraph",
+          "content": "下列物质中，属于氧化物的是（ ）"
+        },
         {
           "type": "list",
           "ordered": true,
@@ -633,17 +600,17 @@
         },
         {
           "type": "paragraph",
-          "content": "**答案：C**"
+          "content": "**答案**：C"
         }
       ],
       "answer": ""
     },
     {
-      "title": "例题2",
+      "title": "例2：化合价与化学式计算",
       "problem": [
         {
           "type": "paragraph",
-          "content": "（1）R 的相对原子质量；（2）R 的化合价。"
+          "content": "已知某化合物的化学式为 R₂O₃，其中氧元素的质量分数为 30%，求：（1）R 的相对原子质量；（2）R 的化合价。"
         }
       ],
       "solution": [
@@ -689,7 +656,7 @@
         },
         {
           "type": "paragraph",
-          "content": "**答案：R 的相对原子质量为56（铁元素），R 的化合价为+3价。**"
+          "content": "**答案**：R 的相对原子质量为56（铁元素），R 的化合价为+3价"
         }
       ],
       "answer": ""
@@ -802,7 +769,7 @@
               "text": "水由氢元素和氧元素组成"
             },
             {
-              "text": "化学方程式：2H₂O ════ 2H₂↑ + O₂↑"
+              "text": "化学方程式：2H2O --通电--> 2H2↑ + O2↑"
             }
           ]
         },

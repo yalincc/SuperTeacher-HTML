@@ -27,10 +27,6 @@
     {
       "text": "能根据实验要求选择和连接实验装置",
       "isKeyPoint": false
-    },
-    {
-      "text": "--",
-      "isKeyPoint": false
     }
   ],
   "knowledge": [
@@ -114,31 +110,7 @@
           "type": "callout",
           "variant": "note",
           "title": "**关键易错点**",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "1. 试管口放棉花——防止粉末堵塞导管"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "2. 试管口略向下倾斜——防止冷凝水倒流"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "3. 先撤导管再灭灯——防止水倒吸"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "4. 先预热再集中加热——防止试管受热不均"
+          "content": "1. 试管口放棉花——防止粉末堵塞导管\n2. 试管口略向下倾斜——防止冷凝水倒流\n3. 先撤导管再灭灯——防止水倒吸\n4. 先预热再集中加热——防止试管受热不均"
         },
         {
           "type": "paragraph",
@@ -229,31 +201,7 @@
           "type": "callout",
           "variant": "note",
           "title": "**易错点**",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "1. 催化剂说\"改变\"速率，不只是\"加快\"，也可以是\"减慢\""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "2. \"两不变\"指的是催化剂本身的质量和化学性质不变，不是反应物或生成物的"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "3. 催化剂不能改变生成物的种类和质量（不会增加或减少产物）"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "4. MnO₂在H₂O₂分解中是催化剂，但在KMnO₄分解中是生成物（产物），角色不同！"
+          "content": "1. 催化剂说\"改变\"速率，不只是\"加快\"，也可以是\"减慢\"\n2. \"两不变\"指的是催化剂本身的质量和化学性质不变，不是反应物或生成物的\n3. 催化剂不能改变生成物的种类和质量（不会增加或减少产物）\n4. MnO₂在H₂O₂分解中是催化剂，但在KMnO₄分解中是生成物（产物），角色不同！"
         }
       ]
     },
@@ -292,25 +240,7 @@
           "type": "callout",
           "variant": "note",
           "title": "**选择依据**",
-          "content": ""
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "- 看溶解性",
-          "content": "不易溶于水且不与水反应→可用排水法"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "- 看密度",
-          "content": "密度比空气大（相对分子质量>29）→可用向上排空气法；密度比空气小→向下排空气法"
-        },
-        {
-          "type": "callout",
-          "variant": "note",
-          "title": "提示",
-          "content": "- O₂不易溶于水，密度比空气大（32>29），所以两种方法都可以"
+          "content": "- 看溶解性：不易溶于水且不与水反应→可用排水法\n- 看密度：密度比空气大（相对分子质量>29）→可用向上排空气法；密度比空气小→向下排空气法\n- O₂不易溶于水，密度比空气大（32>29），所以两种方法都可以"
         },
         {
           "type": "paragraph",
