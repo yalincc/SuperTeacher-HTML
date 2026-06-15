@@ -4,9 +4,10 @@ import type { Objective } from '@/types'
 
 interface Props {
   objectives: Objective[]
+  onComplete?: () => void
 }
 
-function SectionObjectives({ objectives }: Props) {
+function SectionObjectives({ objectives, onComplete }: Props) {
   return (
     <section className="mb-8">
       <h2 className="text-lg font-bold text-gray-800 mb-3 flex items-center gap-2">

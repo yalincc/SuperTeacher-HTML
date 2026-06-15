@@ -68,6 +68,7 @@ export type ContentBlock =
   | CalloutBlock
   | EquationBlock
   | ListBlock
+  | AnimationBlock
 
 export interface ParagraphBlock {
   type: 'paragraph'
@@ -97,6 +98,13 @@ export interface ListBlock {
   type: 'list'
   ordered: boolean
   items: string[]
+}
+
+export interface AnimationBlock {
+  type: 'animation'
+  src: string
+  alt?: string
+  width?: number
 }
 
 // ===== 典型例题 =====
@@ -196,3 +204,17 @@ export interface WrongExercise {
   userAnswer: string
   timestamp: number
 }
+
+// ===== 游戏状态 =====
+export type ModuleName = 'objectives' | 'knowledge' | 'examples' | 'exercises' | 'summary'
+
+export interface GameState {
+  version: 1
+  hearts: number
+  maxHearts: number
+  unlockedLessons: number[]
+  unlockedModules: Record<string, ModuleName[]>
+}
+
+export const INITIAL_HEARTS = 3
+export const MODULE_ORDER: ModuleName[] = ['objectives', 'knowledge', 'examples', 'exercises', 'summary']

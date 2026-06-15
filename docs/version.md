@@ -4,6 +4,38 @@
 
 ---
 
+## v1.5 (2026-06-15)
+
+> 游戏化功能：过关系统 + 心数系统 + GIF 动画
+
+### ✨ 新增
+- **过关系统** — 每课 5 个模块按顺序解锁，完成当前模块才能进入下一个
+  - `GameContext` — 管理心数、解锁进度
+  - `LessonPage` — 模块导航栏 + 🔒 锁定状态
+  - `HomePage` — 课时卡片锁定状态
+  - `SectionObjectives` — 新增"已阅读，继续学习"按钮
+  - `SectionExercises` — 全部答完自动解锁下一模块
+  - localStorage 存档
+- **心数系统** — 答错扣心，3 颗心用完弹出 Game Over 弹窗
+  - `ExerciseEngine` — 答错时触发 `onWrongAnswer` 回调
+  - `LessonPage` — 右上角显示 ❤️ 心数 + 动画效果
+  - `LessonPage` — Game Over 全屏弹窗 + 重新开始按钮
+- **GIF 动画** — 答对/答错播放 GIF 动图
+  - `AnswerAnimation` — 全屏 GIF 动画组件（1.5秒自动消失）
+  - `AnimationBlock` — GIF 内容块组件（用于知识点中插入 GIF）
+  - `ContentRenderer` — 支持 `animation` 类型块
+  - GIF 文件存放：`public/gifs/correct.gif`、`public/gifs/wrong.gif`
+- **架构变更** — 废弃 convert-md.mjs，新课时由 AI 直接生成 JSON
+
+### 🔧 修复
+- **heart 重置按钮** — 心数用完后可重置重新答题
+
+### 📝 文档
+- `docs/v1.5-plan.md` — 游戏化功能规划
+- `docs/curriculum-format.md` — 新增 AnimationBlock 说明
+
+---
+
 ## v1.4 (2026-06-15)
 
 > 前端内联渲染修复 — KaTeX 行内公式 + 全组件 renderInline 接入 ✅ 已验收通过

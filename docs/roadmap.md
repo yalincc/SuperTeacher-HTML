@@ -137,10 +137,14 @@
 
 > **实际架构**：用 Tailwind v4 `@theme` 在 `index.css` 定义语义化变量，组件直接用 `bg-primary`/`text-success` 等工具类。未采用原计划的独立 `src/styles/skins/` 文件架构。
 
-### P6.2 化学 Skin v1.4 增量（待启动）
+### P6.2 化学 Skin v1.4 增量（部分完成）
 
 | 任务 | 状态 |
 |------|:----:|
+| 过关系统（模块顺序解锁） | ✅ |
+| 心数系统（答错扣心 + Game Over） | ✅ |
+| GIF 动画（答对/答错） | ✅ |
+| AnimationBlock 组件（知识点 GIF） | ✅ |
 | 5 模块导航（ModuleNav） | ⬜ |
 | 设置面板（字号/配色，localStorage 持久化） | ⬜ |
 | 判断题/填空题/简答题 UI 改造 | ⬜ |

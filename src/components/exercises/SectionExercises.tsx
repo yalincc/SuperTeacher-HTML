@@ -5,9 +5,11 @@ interface Props {
   exercises: Exercise[]
   savedResults?: Record<string, ExerciseResult>
   onAnswer: (exerciseId: string, result: ExerciseResult) => void
+  onComplete?: () => void
+  onWrongAnswer?: () => void
 }
 
-function SectionExercises({ exercises, savedResults, onAnswer }: Props) {
+function SectionExercises({ exercises, savedResults, onAnswer, onComplete, onWrongAnswer }: Props) {
   return (
     <section className="mb-8">
       <h2 className="text-lg font-bold text-gray-800 mb-3 flex items-center gap-2">
@@ -18,6 +20,8 @@ function SectionExercises({ exercises, savedResults, onAnswer }: Props) {
         exercises={exercises}
         savedResults={savedResults}
         onAnswer={onAnswer}
+        onComplete={onComplete}
+        onWrongAnswer={onWrongAnswer}
       />
     </section>
   )

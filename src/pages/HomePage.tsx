@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom'
 import courseConfig from '@/config/course'
 import { useProgressContext } from '@/hooks/ProgressContext'
+import { useGameContext } from '@/hooks/useGame'
+import { Lock } from 'lucide-react'
 
 function HomePage() {
   const { course, schedule, lessons } = courseConfig
   const { isLessonCompleted, stats } = useProgressContext()
+  const { isLessonUnlocked } = useGameContext()
 
   return (
     <div>
@@ -48,15 +51,26 @@ function HomePage() {
               .filter((l) => l.week === w + 1)
               .map((lesson) => {
                 const completed = isLessonCompleted(lesson.id)
+                const unlocked = isLessonUnlocked(lesson.id)
                 return (
                   <Link
                     key={lesson.id}
-                    to={`/lesson/${lesson.id}`}
-                    className={`relative bg-surface rounded-r-[10px] border border-border border-l-[3px] border-l-primary p-3.5 pl-4 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 ${
-                      completed ? 'bg-primary-bg border-border/60' : ''
-                    }`}
+                    to={unlocked ? `/lesson/${lesson.id}` : '#'}
+                    className={`relative bg-surface rounded-r-[10px] border border-border border-l-[3px] border-l-primary p-3.5 pl-4 transition-all duration-200 ${
+                      unlocked
+                        ? 'hover:shadow-md hover:-translate-y-0.5'
+                        : 'opacity-60 cursor-not-allowed'
+                    } ${completed ? 'bg-primary-bg border-border/60' : ''}`}
+                    onClick={(e) => {
+                      if (!unlocked) e.preventDefault()
+                    }}
                   >
-                    {completed && (
+                    {!unlocked && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-gray-50/80 rounded-r-[10px]">
+                        <Lock className="w-6 h-6 text-gray-300" />
+                      </div>
+                    )}
+                    {completed && unlocked && (
                       <div className="absolute top-2.5 right-2.5 w-[18px] h-[18px] bg-success rounded-full flex items-center justify-center">
                         <span className="text-white text-[11px] leading-none">✓</span>
                       </div>

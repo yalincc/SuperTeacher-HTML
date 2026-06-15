@@ -146,6 +146,7 @@ B. 选项B
 | 表格 | TableBlock | Markdown 表格 → HTML 表格 |
 | 提示框 `>` | CalloutBlock | 支持内联渲染（加粗/公式） |
 | 列表 `-` / `1.` | ListBlock | 支持内联渲染（加加粗/公式） |
+| GIF 动图 | AnimationBlock | 插入 GIF 文件（`src` + `alt`） |
 | 段落（其他文本） | ParagraphBlock | 支持内联渲染 |
 
 ### 3.3 支持渲染的字段
