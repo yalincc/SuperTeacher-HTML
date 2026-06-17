@@ -6,15 +6,9 @@ interface Props {
 
 function SectionSummary({ summary }: Props) {
   return (
-    <section className="mb-8">
-      <h2 className="text-lg font-bold text-gray-800 mb-3 flex items-center gap-2">
-        <span className="w-6 h-6 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xs font-bold">五</span>
-        本课小结
-      </h2>
-      <div className="bg-white rounded-lg border border-gray-200 p-4">
-        <SummaryTree nodes={summary} level={0} />
-      </div>
-    </section>
+    <div className="bg-surface rounded-2xl border border-border p-6 shadow-sm">
+      <SummaryTree nodes={summary} level={0} />
+    </div>
   )
 }
 
@@ -25,15 +19,15 @@ interface TreeProps {
 
 function SummaryTree({ nodes, level }: TreeProps) {
   return (
-    <ul className={`${level > 0 ? 'ml-5 mt-1' : ''} space-y-1`}>
+    <ul className={`${level > 0 ? 'ml-5 mt-2 border-l border-border/50 pl-3' : ''} space-y-2`}>
       {nodes.map((node, i) => (
-        <li key={i} className="flex items-start gap-1.5">
-          <span className={`shrink-0 mt-1 ${level === 0 ? 'text-blue-500' : 'text-gray-400'}`}>
-            {level === 0 ? '●' : '○'}
-          </span>
-          <span className={`text-sm ${level === 0 ? 'font-semibold text-gray-800' : 'text-gray-600'}`}>
-            {node.text}
-          </span>
+        <li key={i} className="flex items-start gap-2.5">
+          <span className={`shrink-0 mt-1.5 ${level === 0 ? 'w-2.5 h-2.5 rounded-full bg-primary' : 'w-2 h-2 rounded-full bg-text-muted'}`} />
+          <div>
+            <span className={`${level === 0 ? 'text-base font-semibold text-text' : 'text-sm text-text-secondary'} leading-relaxed`}>
+              {node.text}
+            </span>
+          </div>
           {node.children && <SummaryTree nodes={node.children} level={level + 1} />}
         </li>
       ))}

@@ -6,6 +6,7 @@ import { useGame } from './hooks/useGame'
 import AppLayout from './components/layout/AppLayout'
 import HomePage from './pages/HomePage'
 import LessonPage from './pages/LessonPage'
+import GamePage from './pages/GamePage'
 
 function App() {
   const progressValue = useProgress()
@@ -19,6 +20,7 @@ function App() {
             <Route element={<AppLayout />}>
               <Route path="/" element={<HomePage />} />
               <Route path="/lesson/:id" element={<LessonPage />} />
+              <Route path="/lesson/:id/game" element={<GamePage />} />
             </Route>
           </Routes>
         </BrowserRouter>

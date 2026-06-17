@@ -21,7 +21,11 @@ function EquationBlockComponent({ block }: KaTeXProps) {
   return (
     <div
       ref={ref}
-      className={`my-3 ${block.display ? 'text-center bg-[#fef3c7] border-l-[3px] border-primary rounded-r-[6px] py-4 px-6 font-mono' : 'inline'}`}
+      className={`my-5 ${
+        block.display
+          ? 'text-center bg-surface-warm border border-border rounded-2xl py-6 px-8 shadow-sm'
+          : 'inline'
+      }`}
     />
   )
 }

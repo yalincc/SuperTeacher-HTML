@@ -1,36 +1,38 @@
-import { useState } from 'react'
-import { ChevronDown, ChevronRight, Star } from 'lucide-react'
+import { Star } from 'lucide-react'
 import type { Objective } from '@/types'
 
 interface Props {
   objectives: Objective[]
-  onComplete?: () => void
 }
 
-function SectionObjectives({ objectives, onComplete }: Props) {
+function SectionObjectives({ objectives }: Props) {
+  const keyPoints = objectives.filter((o) => o.isKeyPoint)
+  const normalPoints = objectives.filter((o) => !o.isKeyPoint)
+
   return (
-    <section className="mb-8">
-      <h2 className="text-lg font-bold text-gray-800 mb-3 flex items-center gap-2">
-        <span className="w-6 h-6 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xs font-bold">一</span>
-        学习目标
-      </h2>
-      <ul className="space-y-2">
-        {objectives.map((obj, i) => (
-          <li key={i} className="flex items-start gap-2">
-            {obj.isKeyPoint ? (
-              <Star className="w-4 h-4 text-yellow-500 fill-yellow-500 shrink-0 mt-0.5" />
-            ) : (
-              <span className="w-4 h-4 shrink-0 mt-0.5 flex items-center justify-center">
-                <span className="w-1.5 h-1.5 bg-gray-300 rounded-full" />
-              </span>
-            )}
-            <span className={`text-sm ${obj.isKeyPoint ? 'text-gray-900 font-medium' : 'text-gray-600'}`}>
-              {obj.text}
-            </span>
-          </li>
-        ))}
-      </ul>
-    </section>
+    <div className="space-y-3">
+      {/* 重点目标 — 大卡片 */}
+      {keyPoints.map((obj, i) => (
+        <div
+          key={`key-${i}`}
+          className="flex items-start gap-4 px-6 py-5 bg-surface-warm border border-primary/15 rounded-2xl"
+        >
+          <Star className="w-5 h-5 text-warning fill-warning shrink-0 mt-0.5" />
+          <span className="text-base text-text font-medium leading-relaxed">{obj.text}</span>
+        </div>
+      ))}
+
+      {/* 普通目标 — 简洁行 */}
+      {normalPoints.map((obj, i) => (
+        <div
+          key={`normal-${i}`}
+          className="flex items-center gap-3 px-6 py-3"
+        >
+          <span className="w-2 h-2 rounded-full bg-text-muted shrink-0" />
+          <span className="text-base text-text-secondary leading-relaxed">{obj.text}</span>
+        </div>
+      ))}
+    </div>
   )
 }
 

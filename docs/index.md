@@ -41,6 +41,7 @@
 | `package.json` | 依赖管理，核心脚本：`dev`、`convert`、`build` |
 | `tsconfig.app.json` | TypeScript 应用配置 |
 | `vercel.json` | Vercel 部署配置（SPA 路由回退） |
+| `public/gifs/` | 答题 GIF 动画文件（correct.gif / wrong.gif） |
 
 ## 常用命令
 
@@ -77,14 +78,14 @@ npm run preview    # 预览生产构建
 
 | 文件 | 说明 |
 |------|------|
-| `convert-md.mjs` | **核心转换脚本**：读取 `course.json` + `docs/curriculum/*.md` → 生成 `src/data/lessons/*.json` + `src/data/index.ts` |
-| `fix-md-format.mjs` | **MD 格式修正脚本**：修正 LaTeX 公式格式（`\text{}` 包裹、内联公式位置），在 convert 之前运行 |
+| `convert-md.mjs` | ~~MD→JSON 转换脚本~~（v1.5 起废弃，新课时由 AI 直接生成 JSON） |
+| `fix-md-format.mjs` | MD 公式格式修正脚本（修正 LaTeX `\text{}` 包裹、内联公式位置） |
 
 ### 数据流
 
 ```
-docs/curriculum/*.md  ──→  scripts/convert-md.mjs  ──→  src/data/lessons/*.json
-course.json           ──→                             ──→  src/data/index.ts
+AI 直接生成 JSON  ──→  src/data/lessons/*.json
+                      （convert-md.mjs 已废弃）
 ```
 
 ---
@@ -97,9 +98,10 @@ course.json           ──→                             ──→  src/data/
 
 - **课程配置**：`CourseConfig`、`LessonMeta`
 - **课时数据**：`LessonData`、`Objective`、`KnowledgeSection`
-- **内容块**（核心抽象）：`ContentBlock` = `ParagraphBlock | TableBlock | CalloutBlock | EquationBlock | ListBlock`
+- **内容块**（核心抽象）：`ContentBlock` = `ParagraphBlock | TableBlock | CalloutBlock | EquationBlock | ListBlock | AnimationBlock`
 - **例题/练习**：`Example`、`Exercise`（`ChoiceExercise | TrueFalseExercise | FillExercise | ShortAnswerExercise`）
 - **学习进度**：`UserProgress`、`LessonProgress`、`ExerciseResult`
+- **游戏状态**：`GameState`（心数 + 解锁进度）
 
 ### `src/config/` — 应用配置
 
@@ -108,12 +110,12 @@ course.json           ──→                             ──→  src/data/
 | `course.ts` | 导入 `course.json` 并导出带类型的课程配置 |
 | `index.ts` | 配置统一导出入口 |
 
-### `src/data/` — 课时数据（自动生成）
+### `src/data/` — 课时数据
 
 | 文件 | 说明 |
 |------|------|
-| `lessons/lesson-XX.json` | **自动生成的课时 JSON**（由 `convert-md.mjs` 生成，勿手动编辑） |
-| `index.ts` | **自动生成的索引**：导入所有课时 JSON，提供 `getLessonById(id)` 查询函数 |
+| `lessons/lesson-XX.json` | 课时 JSON（v1.5 起由 AI 直接生成，~~convert-md.mjs~~ 已废弃） |
+| `index.ts` | 索引：导入所有课时 JSON，提供 `getLessonById(id)` 查询函数 |
 
 ### `src/utils/` — 工具函数
 
@@ -127,15 +129,17 @@ course.json           ──→                             ──→  src/data/
 
 | 文件 | 说明 |
 |------|------|
-| `ProgressContext.ts` | 学习进度的 React Context（`answerExercise`、`markRead`、`getExerciseResults`、`isLessonCompleted`、`stats`） |
+| `ProgressContext.ts` | 学习进度的 React Context |
 | `useProgress.ts` | 进度管理 Hook，封装 localStorage 读写，自动持久化 |
+| `useGame.ts` | 游戏状态 Hook：心数管理 + 模块解锁进度，localStorage 持久化 |
 
 ### `src/pages/` — 页面组件
 
 | 文件 | 说明 |
 |------|------|
-| `HomePage.tsx` | 首页：课时卡片列表，显示完成状态和进度条 |
-| `LessonPage.tsx` | 课时页：按 `一~五` 顺序渲染 `SectionObjectives → SectionKnowledge → SectionExamples → SectionExercises → SectionSummary` |
+| `HomePage.tsx` | 首页：课时卡片列表，显示完成状态和进度条，点击进入知识点页 |
+| `LessonPage.tsx` | 知识点页面（`/lesson/:id`）：Hero 仪表盘 + 阅读进度条 + 翻卡自测 + sticky「开始挑战」 |
+| `GamePage.tsx` | 游戏页面（`/lesson/:id/game`）：一题一屏 + 反馈动画 + 心数 + 通关撒花 + 全屏覆盖 |
 
 ### `src/components/` — UI 组件
 
@@ -164,6 +168,7 @@ course.json           ──→                             ──→  src/data/
 | `CalloutBlock.tsx` | 提示框块：4 种变体（warning/tip/note/mnemonic），渐变背景 |
 | `EquationBlock.tsx` | 公式块：KaTeX 渲染，暖黄背景 + 左侧橙条 |
 | `ListBlock.tsx` | 列表块：有序/无序，橙色标记 |
+| `AnimationBlock.tsx` | GIF 动画块：用于知识点中插入 GIF 动图 |
 
 #### `components/exercises/` — 练习题
 
@@ -172,6 +177,7 @@ course.json           ──→                             ──→  src/data/
 | `SectionExercises.tsx` | 四、课后练习区（按题型分组） |
 | `ExerciseEngine.tsx` | 练习引擎：管理答题状态、提交验证 |
 | `AnswerReveal.tsx` | 解析展开组件（橙色配色 + 淡入动画） |
+| `AnswerAnimation.tsx` | 答题 GIF 动画组件（答对/答错全屏动画，1.5秒自动消失） |
 | `types/ChoiceExercise.tsx` | 选择题：卡片式选项、状态驱动样式（选中橙/正确绿/错误红） |
 | `types/TrueFalseExercise.tsx` | 判断题 |
 | `types/FillExercise.tsx` | 填空题（含公式标准化比对） |
@@ -188,7 +194,7 @@ course.json           ──→                             ──→  src/data/
 | 文件 | 说明 |
 |------|------|
 | `main.tsx` | React 入口，挂载 `<App />` |
-| `App.tsx` | 路由配置（`/` → HomePage，`/lesson/:id` → LessonPage），ProgressProvider 包裹 |
+| `App.tsx` | 路由配置（3 路由：`/` / `/lesson/:id` / `/lesson/:id/game`），ProgressProvider + GameProvider 包裹 |
 | `index.css` | 全局 CSS：Tailwind v4 `@theme` 变量（橙色主题色系）+ 自定义动画（slide-up、fade-in） |
 
 ---
@@ -206,8 +212,9 @@ course.json           ──→                             ──→  src/data/
 
 ## 关键架构决策
 
-1. **数据与渲染分离**：课程内容用 Markdown 编写 → 脚本转 JSON → React 渲染，内容作者只需写 MD
-2. **内容块抽象**（`ContentBlock`）：5 种 block 类型覆盖所有教学场景，新增类型只需扩展 union + 添加 Block 组件
-3. **纯前端静态部署**：无后端，进度存 localStorage，部署到 Vercel/GitHub Pages
-4. **设计稿先行**：`docs/design/preview/` 里的静态 HTML 是视觉决策源头，React 组件照搬实现
-5. **Tailwind CSS v4**：使用 `@theme` 定义语义化颜色变量（primary/success/warning/error），组件用语义 token 而非硬编码色值
+1. **数据与渲染分离**：AI 直接生成课时 JSON → React 渲染（~~convert-md.mjs~~ 已废弃）
+2. **内容块抽象**（`ContentBlock`）：6 种 block 类型（含 AnimationBlock），新增类型只需扩展 union + 添加 Block 组件
+3. **纯前端静态部署**：无后端，进度 + 游戏状态存 localStorage，部署到 Vercel
+4. **设计稿先行**：`docs/design/preview/` 里的静态 HTML 是视觉决策源头
+5. **Tailwind CSS v4**：`@theme` 语义化颜色变量，组件用 token 而非硬编码色值
+6. **知识点 + 游戏分离**（v1.6）：`/lesson/:id` 纯阅读，`/lesson/:id/game` 互动答题，体验风格各异

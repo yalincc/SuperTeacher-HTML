@@ -7,7 +7,7 @@ interface Props {
 
 function ParagraphBlockComponent({ block }: Props) {
   return (
-    <p className="text-text leading-relaxed my-2">
+    <p className="text-text leading-loose my-4 tracking-wide">
       {renderInline(block.content)}
     </p>
   )

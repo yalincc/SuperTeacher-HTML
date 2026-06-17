@@ -1,0 +1,31 @@
+{
+  "course": {
+    "name": "初中化学",
+    "icon": "⚗️",
+    "subtitle": "人教版九年级全一册",
+    "color": "#6C63FF"
+  },
+  "schedule": {
+    "weeks": 5,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周"],
+    "weekTitles": ["走进化学世界", "空气与氧气", "物质构成的奥秘", "化学方程式", "碳与燃料"]
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "title": "走进化学世界",
+      "unit": "第一单元",
+      "week": 1,
+      "day": 1,
+      "file": "lesson-01-走进化学世界.md"
+    }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  },
+  "paths": {
+    "contentDir": "docs/curriculum-v2.0",
+    "outputDir": "src/data/lessons-v2"
+  }
+}

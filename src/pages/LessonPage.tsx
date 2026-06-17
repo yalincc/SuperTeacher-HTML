@@ -1,185 +1,152 @@
 import { useParams, Link } from 'react-router-dom'
 import { getLessonById } from '@/data'
 import { useProgressContext } from '@/hooks/ProgressContext'
-import { useGameContext } from '@/hooks/useGame'
 import SectionObjectives from '@/components/knowledge/SectionObjectives'
 import SectionKnowledge from '@/components/knowledge/SectionKnowledge'
 import SectionExamples from '@/components/knowledge/SectionExamples'
-import SectionExercises from '@/components/exercises/SectionExercises'
 import SectionSummary from '@/components/knowledge/SectionSummary'
-import type { ExerciseResult } from '@/types'
-import { Lock } from 'lucide-react'
+import { Gamepad2, ChevronLeft, ChevronRight, Zap, Target, Layers, Lightbulb, ListChecks } from 'lucide-react'
+import { useState } from 'react'
+
+type TabKey = 'objectives' | 'knowledge' | 'examples' | 'summary'
+
+const TABS: { key: TabKey; label: string; icon: React.ReactNode }[] = [
+  { key: 'objectives', label: '目标', icon: <Target className="w-4 h-4" /> },
+  { key: 'knowledge', label: '知识', icon: <Layers className="w-4 h-4" /> },
+  { key: 'examples', label: '例题', icon: <Lightbulb className="w-4 h-4" /> },
+  { key: 'summary', label: '小结', icon: <ListChecks className="w-4 h-4" /> },
+]
 
 function LessonPage() {
   const { id } = useParams<{ id: string }>()
   const lessonId = Number(id)
   const lesson = getLessonById(lessonId)
-  const { answerExercise, getExerciseResults } = useProgressContext()
-  const { hearts, resetHearts, useHeart, isModuleUnlocked, completeModule, unlockNextModule } = useGameContext()
+  const { getExerciseResults } = useProgressContext()
+  const [activeTab, setActiveTab] = useState<TabKey>('objectives')
 
-  const savedResults = lesson ? getExerciseResults(lessonId) : undefined
-  const exercisesCompleted = isModuleUnlocked(lessonId, 'exercises')
+  // 游戏成绩
+  const gameResults = lesson ? getExerciseResults(lessonId) : undefined
+  const gameExercises = lesson?.exercises.filter((e) => e.type === 'choice' || e.type === 'true_false') ?? []
+  const gameAnswered = gameExercises.filter((e) => gameResults?.[e.id]?.answered).length
+  const gameCorrect = gameExercises.filter((e) => gameResults?.[e.id]?.answered && gameResults[e.id].correct).length
+  const hasGameRecord = gameAnswered > 0
 
   if (!lesson) {
     return (
-      <div className="text-center py-20">
-        <p className="text-gray-500">课时不存在</p>
-        <Link to="/" className="text-blue-600 hover:underline mt-2 inline-block">
-          返回首页
-        </Link>
+      <div className="min-h-[60vh] flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-text-muted mb-3">课时不存在</p>
+          <Link to="/" className="text-primary hover:underline">返回首页</Link>
+        </div>
       </div>
     )
   }
 
-  function handleExercisesComplete() {
-    completeModule(lessonId, 'exercises')
-    unlockNextModule(lessonId, 'exercises')
-  }
-
-  function handleResetExercises() {
-    // Reset exercise results for this lesson
-    const emptyResults: Record<string, ExerciseResult> = {}
-    lesson.exercises.forEach((ex) => {
-      answerExercise(lessonId, ex.id, {
-        answered: false,
-        correct: false,
-        userAnswer: '',
-        timestamp: 0,
-      })
-    })
+  const renderTabContent = () => {
+    switch (activeTab) {
+      case 'objectives':
+        return <SectionObjectives objectives={lesson.objectives} />
+      case 'knowledge':
+        return <SectionKnowledge sections={lesson.knowledge} />
+      case 'examples':
+        return <SectionExamples examples={lesson.examples} />
+      case 'summary':
+        return <SectionSummary summary={lesson.summary} />
+    }
   }
 
   return (
-    <div>
-      {/* Top navigation */}
-      <div className="mb-6 pb-4 border-b border-gray-200">
-        {/* Mobile: stacked layout */}
-        <div className="sm:hidden">
-          <div className="flex items-center justify-between mb-2">
-            {lesson.meta.id > 1 ? (
-              <Link to={`/lesson/${lesson.meta.id - 1}`} className="text-sm text-blue-600 hover:underline">
-                ← 上一课
-              </Link>
-            ) : (
-              <Link to="/" className="text-sm text-blue-600 hover:underline">
-                ← 首页
+    <div className="pb-24">
+      {/* ── Hero 头部 — Apple 简约风 ── */}
+      <div className="pt-4 pb-6">
+        {/* 课时标签 + 导航 */}
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-2">
+            <span className="inline-flex items-center px-3 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full">
+              第 {lesson.meta.id} 课
+            </span>
+            <span className="text-xs text-text-muted">{lesson.meta.unit}</span>
+          </div>
+
+          <div className="flex items-center gap-1">
+            {lesson.meta.id > 1 && (
+              <Link
+                to={`/lesson/${lesson.meta.id - 1}`}
+                className="flex items-center gap-0.5 px-2.5 py-1.5 text-xs text-text-secondary hover:text-primary hover:bg-primary-bg rounded-lg transition"
+              >
+                <ChevronLeft className="w-3.5 h-3.5" />
+                上一课
               </Link>
             )}
-            <Link to={`/lesson/${lesson.meta.id + 1}`} className="text-sm text-blue-600 hover:underline">
-              下一课 →
+            <Link
+              to={`/lesson/${lesson.meta.id + 1}`}
+              className="flex items-center gap-0.5 px-2.5 py-1.5 text-xs text-text-secondary hover:text-primary hover:bg-primary-bg rounded-lg transition"
+            >
+              下一课
+              <ChevronRight className="w-3.5 h-3.5" />
             </Link>
           </div>
-          <h1 className="text-lg font-bold text-gray-900">
-            第{lesson.meta.id}课：{lesson.meta.title}
-          </h1>
         </div>
-        {/* Desktop: inline layout */}
-        <div className="hidden sm:flex items-center justify-between">
-          {lesson.meta.id > 1 ? (
-            <Link to={`/lesson/${lesson.meta.id - 1}`} className="text-sm text-blue-600 hover:underline">
-              ← 上一课
-            </Link>
+
+        {/* 大标题 */}
+        <h1 className="text-3xl sm:text-4xl font-bold text-text leading-tight tracking-tight">
+          {lesson.meta.title}
+        </h1>
+
+        {/* 副标题 / 游戏状态 */}
+        <p className="mt-2 text-sm text-text-secondary">
+          {hasGameRecord ? (
+            <>
+              已挑战：<span className="text-success font-semibold">{gameCorrect}/{gameExercises.length}</span> 正确
+              {' · '}
+              <Link to={`/lesson/${lessonId}/game`} className="text-primary hover:underline font-medium">
+                再战一次 →
+              </Link>
+            </>
           ) : (
-            <Link to="/" className="text-sm text-blue-600 hover:underline">
-              ← 首页
-            </Link>
+            <>{lesson.objectives.filter((o) => o.isKeyPoint).length} 个重点目标 · {lesson.knowledge.length} 个知识模块</>
           )}
-          <h1 className="text-xl font-bold text-gray-900 text-center">
-            第{lesson.meta.id}课：{lesson.meta.title}
-          </h1>
-          <Link to={`/lesson/${lesson.meta.id + 1}`} className="text-sm text-blue-600 hover:underline">
-            下一课 →
+        </p>
+      </div>
+
+      {/* ── Tab 栏 ── */}
+      <div className="sticky top-14 z-20 -mx-4 px-4 py-2 bg-bg/90 backdrop-blur-md border-b border-border/60">
+        <div className="flex items-center gap-1 bg-bg border border-border rounded-full p-1">
+          {TABS.map((tab) => (
+            <button
+              key={tab.key}
+              onClick={() => setActiveTab(tab.key)}
+              className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-full text-sm font-medium transition-all ${
+                activeTab === tab.key
+                  ? 'bg-primary text-white shadow-sm'
+                  : 'text-text-secondary hover:text-text hover:bg-surface'
+              }`}
+            >
+              {tab.icon}
+              <span className="hidden sm:inline">{tab.label}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* ── Tab 内容区 ── */}
+      <div key={activeTab} className="mt-6 animate-[tab-fade-in_0.25s_ease-out]">
+        {renderTabContent()}
+      </div>
+
+      {/* ── Sticky CTA ── */}
+      <div className="fixed bottom-0 left-0 right-0 z-30 bg-bg/90 backdrop-blur-md border-t border-border/60">
+        <div className="max-w-[900px] mx-auto px-4 py-3">
+          <Link
+            to={`/lesson/${lessonId}/game`}
+            className="flex items-center justify-center gap-2 w-full py-3.5 bg-primary text-white rounded-full font-semibold text-base hover:bg-primary-dark active:scale-[0.98] transition-all shadow-md"
+          >
+            <Gamepad2 className="w-5 h-5" />
+            开始挑战
+            <Zap className="w-4 h-4" />
           </Link>
         </div>
       </div>
-
-      {/* Hearts display */}
-      <div className="flex items-center justify-end gap-1 mb-4">
-        {Array.from({ length: 3 }, (_, i) => (
-          <span
-            key={i}
-            className={`text-xl transition-all duration-300 ${
-              i < hearts ? 'text-red-500 scale-100' : 'text-gray-200 scale-75'
-            }`}
-          >
-            ❤️
-          </span>
-        ))}
-        {hearts === 0 && (
-          <div className="flex items-center gap-2 ml-2">
-            <span className="text-xs text-red-500 font-medium">生命值耗尽</span>
-            <button
-              onClick={resetHearts}
-              className="px-3 py-1 bg-red-500 text-white text-xs rounded-full hover:bg-red-600 transition"
-            >
-              重新开始
-            </button>
-          </div>
-        )}
-      </div>
-
-      {/* Game over overlay */}
-      {hearts === 0 && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-2xl p-8 text-center max-w-sm mx-4 shadow-xl">
-            <div className="text-5xl mb-4">💔</div>
-            <h3 className="text-xl font-bold text-gray-800 mb-2">生命值耗尽</h3>
-            <p className="text-sm text-gray-500 mb-6">别灰心，再来一次吧！</p>
-            <button
-              onClick={resetHearts}
-              className="px-6 py-2.5 bg-primary text-white rounded-full font-medium hover:bg-primary-dark transition"
-            >
-              重新开始
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* 一、学习目标 — 直接显示 */}
-      <SectionObjectives objectives={lesson.objectives} />
-
-      {/* 二、知识点梳理 — 直接显示 */}
-      <SectionKnowledge sections={lesson.knowledge} />
-
-      {/* 三、典型例题 — 直接显示 */}
-      <SectionExamples examples={lesson.examples} />
-
-      {/* 四、课后练习 — 游戏区域 */}
-      <div className="my-8">
-        <div className="flex items-center justify-between mb-3">
-          <h2 className="text-lg font-bold text-gray-800 flex items-center gap-2">
-            <span className="w-6 h-6 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xs font-bold">四</span>
-            课后练习
-          </h2>
-          {exercisesCompleted && (
-            <button
-              onClick={handleResetExercises}
-              className="px-3 py-1.5 text-xs text-primary border border-primary rounded-full hover:bg-primary-bg transition"
-            >
-              🔄 重做题目
-            </button>
-          )}
-        </div>
-        <SectionExercises
-          exercises={lesson.exercises}
-          savedResults={savedResults}
-          onAnswer={(exerciseId: string, result: ExerciseResult) => {
-            answerExercise(lessonId, exerciseId, result)
-          }}
-          onComplete={handleExercisesComplete}
-          onWrongAnswer={useHeart}
-        />
-      </div>
-
-      {/* 五、本课小结 — 练习完成后显示 */}
-      {exercisesCompleted ? (
-        <SectionSummary summary={lesson.summary} />
-      ) : (
-        <div className="my-8 p-6 bg-gray-50 rounded-xl border-2 border-dashed border-gray-200 text-center">
-          <Lock className="w-8 h-8 text-gray-300 mx-auto mb-2" />
-          <p className="text-sm text-gray-400">完成课后练习后解锁本课小结</p>
-        </div>
-      )}
     </div>
   )
 }
