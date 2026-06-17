@@ -4,33 +4,48 @@
 
 ---
 
-## v1.7 (2026-06-15)
+## v1.7 (2026-06-17)
 
-> 知识点页面"学习仪表盘"改造 + GamePage 按钮可见性修复
+> 知识点页面「互动教科书」改造 — Tab UI 标签页架构 + Apple 简约科技风
 
 ### ✨ 新增
-- **LessonPage 学习仪表盘** — 从线性文档 → 层次化学习页
-  - **Hero 头部**：渐变背景 + 装饰圆 + 课时标签 + 大号标题 + 游戏成绩（已挑战 X/Y 正确）
-  - **阅读进度条**：顶部固定细条，随滚动实时增长
-  - **上下课导航**：Hero 右上角前后课快捷切换
-  - **Sticky CTA**：底部固定"开始挑战"按钮，始终可见
-- **SectionObjectives 任务卡风格**：重点目标 ⭐ + 普通目标区分显示
-- **SectionExamples 翻卡式自测**：默认只显示题目，点击"显示答案与解析"展开，带淡入动画
+- **Tab UI 标签页架构** — 从纵向长滚动 → 四区块切页浏览（目标 / 知识 / 例题 / 小结）
+  - `sticky top-14` Tab 栏固定导航栏下方，pill 样式激活态
+  - `tab-fade-in` 动画切换，`key={activeTab}` 触发 re-render
+- **SectionSummary 接入** — 原未展示的知识点小结作为第 4 个 Tab 上线
+  - 树状结构：一级节点橙色圆点 + 粗体，二级节点缩进线
+- **Apple 系统字体栈** — `-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', 'PingFang SC'`
+- **Apple 风主题 token** — `#f5f5f7` 背景色、`#1d1d1f` 文字色、轻柔阴影、tab-fade-in 动画
 
-### 🔧 修复
-- **GamePage "下一题"按钮不可见** — 被推出视口外 57px，用户需滚动才能看到
-  - 根因：`AppLayout` 外层 `<main>` 的 `py-6` padding 偏移了 `h-screen` 起始位置
-  - 修复：根容器改为 `fixed inset-0 z-40` 覆盖全视口，按钮移出滚动区用 `flex-shrink-0` 固定
-  - 验证：按钮 `bottom=1227px` < `innerHeight=1251px`，24px 余量，无需滚动即完全可见
+### 🎨 改造（11 个文件）
+- **LessonPage Hero** — 纯留白 + 大标题 + 副标题 + 课时标签，移除渐变装饰
+- **Sticky CTA** — `rounded-full` 胶囊按钮，始终可见
+- **SectionObjectives** — 重点目标大卡片 `rounded-2xl bg-surface-warm`，普通目标简洁行
+- **SectionKnowledge** — 去掉手风琴折叠 → 卡片流，序号徽章 `bg-primary text-white`
+- **SectionExamples** — Apple 风卡片，答案按钮 `rounded-full` pill 样式，tab-fade-in 动画
+- **ParagraphBlock** — `text-base leading-loose tracking-wide my-4`
+- **TableBlock** — `rounded-2xl` 外层，表头 `bg-bg/80`，行 hover 高亮，单元格 renderInline
+- **CalloutBlock** — `border-l-4` 细线 → 全包裹卡片 `rounded-2xl`，图标圆形背景 `w-10 h-10`
+- **ListBlock** — 自定义橙色圆点 / 数字徽章，`leading-loose space-y-2`
+- **KaTeX** — display 公式 `rounded-2xl py-6 px-8 bg-surface-warm border shadow-sm`
+
+### 🔧 移除
+- **阅读进度条** — Tab UI 不需要长滚动进度跟踪
 
 ### 🎨 改造文件
 | 文件 | 改动 |
 |------|------|
-| `LessonPage.tsx` | Hero区 + 阅读进度条 + 游戏状态 + sticky CTA + 上下课导航 |
-| `GamePage.tsx` | fixed inset-0 全屏容器 + "下一题"按钮独立固定 + overflow-y-auto 题目区 |
-| `SectionObjectives.tsx` | 任务卡风格（重点目标 ⭐ + 普通目标） |
-| `SectionExamples.tsx` | 翻卡式自测（默认隐藏答案，点击展开 + 淡入动画） |
-| `SectionKnowledge.tsx` | 视觉微调（序号圆点 + 展开动画） |
+| `src/index.css` | Apple 主题变量 + 系统字体栈 + tab-fade-in 动画 |
+| `src/pages/LessonPage.tsx` | 重写 — Tab UI 架构 + Apple Hero |
+| `src/components/knowledge/SectionObjectives.tsx` | 重写 — 卡片式目标 |
+| `src/components/knowledge/SectionKnowledge.tsx` | 重写 — 卡片流 |
+| `src/components/knowledge/SectionExamples.tsx` | 重写 — Apple 风卡片 |
+| `src/components/knowledge/SectionSummary.tsx` | 重写 — 树状小结（新接入） |
+| `src/components/knowledge/blocks/ParagraphBlock.tsx` | 样式增强 |
+| `src/components/knowledge/blocks/TableBlock.tsx` | 样式增强 + renderInline |
+| `src/components/knowledge/blocks/CalloutBlock.tsx` | 重写 — 全包裹卡片 |
+| `src/components/knowledge/blocks/ListBlock.tsx` | 样式增强 |
+| `src/components/ui/KaTeX.tsx` | 样式增强 |
 
 ---
 
