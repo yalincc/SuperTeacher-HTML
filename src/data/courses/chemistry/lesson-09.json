@@ -1,0 +1,37 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-水资源及其利用", "title": "水资源及其利用", "unit": "第四单元", "week": 5, "day": 1 },
+  "objectives": [
+    { "text": "了解水资源的分布和现状", "isKeyPoint": false },
+    { "text": "了解水污染的原因和防治", "isKeyPoint": false },
+    { "text": "掌握水的净化方法", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "水资源概况",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "地球水资源丰富，但可直接利用的淡水资源很少（不到总水量的1%）。我国水资源分布不均，南多北少。" }
+      ]
+    },
+    {
+      "title": "水的净化",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "table", "headers": ["方法", "原理", "净化程度"], "rows": [["沉淀", "重力沉降", "低"], ["过滤", "不溶物与液体分离", "中"], ["吸附", "活性炭吸附色素和异味", "中"], ["蒸馏", "加热蒸发再冷凝", "高"]] },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "净化程度：沉淀 < 过滤 < 吸附 < 蒸馏。过滤只能除去不溶性杂质，不能除去可溶性杂质。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：净水方法",
+      "problem": [{ "type": "paragraph", "content": "下列净水方法中，净化程度最高的是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 沉淀", "B. 过滤", "C. 吸附", "D. 蒸馏"] }],
+      "solution": [{ "type": "paragraph", "content": "蒸馏可以除去所有杂质，净化程度最高。" }],
+      "answer": "D"
+    }
+  ],
+  "summary": [
+    { "text": "水资源", "children": [{ "text": "淡水稀缺，分布不均" }] },
+    { "text": "净化方法", "children": [{ "text": "沉淀 < 过滤 < 吸附 < 蒸馏" }] }
+  ]
+}

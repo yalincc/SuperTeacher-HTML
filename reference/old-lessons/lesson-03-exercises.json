@@ -1,0 +1,8 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    { "type": "choice", "id": "ex-3-1", "stem": "空气中体积分数约占78%的气体是（  ）", "options": [{ "label": "A", "text": "氧气" }, { "label": "B", "text": "氮气" }, { "label": "C", "text": "二氧化碳" }, { "label": "D", "text": "稀有气体" }], "answer": "B", "analysis": "氮气约占空气体积的78%。" },
+    { "type": "true_false", "id": "ex-3-2", "stem": "可以用木炭代替红磷测定空气中氧气的含量。", "answer": false, "analysis": "木炭燃烧生成CO₂气体，容器内压强变化不明显，不能用于测定。" },
+    { "type": "fill", "id": "ex-3-3", "segments": ["空气中含量最多的气体是", "___1___", "，约占空气体积的", "___2___", "。"], "blanks": [{ "index": 1, "answer": "氮气" }, { "index": 2, "answer": "78%" }], "analysis": "氮气约占78%，氧气约占21%。" }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "physics",
+  "course": {
+    "name": "初二物理",
+    "icon": "⚡",
+    "subtitle": "人教版八年级全一册",
+    "color": "#3b82f6"
+  },
+  "schedule": {
+    "weeks": 4,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周"],
+    "weekTitles": ["长度测量与声现象", "光与透镜", "力与运动", "压强·浮力·机械"]
+  },
+  "lessons": [
+    { "id": 1, "title": "长度和时间的测量", "unit": "第一单元", "week": 1, "day": 1 },
+    { "id": 2, "title": "声现象", "unit": "第一单元", "week": 1, "day": 2 },
+    { "id": 3, "title": "物态变化", "unit": "第二单元", "week": 1, "day": 3 },
+    { "id": 4, "title": "光现象", "unit": "第二单元", "week": 2, "day": 1 },
+    { "id": 5, "title": "透镜及其应用", "unit": "第三单元", "week": 2, "day": 2 },
+    { "id": 6, "title": "质量与密度", "unit": "第三单元", "week": 2, "day": 3 },
+    { "id": 7, "title": "力", "unit": "第四单元", "week": 3, "day": 1 },
+    { "id": 8, "title": "运动和力", "unit": "第四单元", "week": 3, "day": 2 },
+    { "id": 9, "title": "压强", "unit": "第五单元", "week": 3, "day": 3 },
+    { "id": 10, "title": "浮力", "unit": "第五单元", "week": 4, "day": 1 },
+    { "id": 11, "title": "功和机械能", "unit": "第六单元", "week": 4, "day": 2 },
+    { "id": 12, "title": "简单机械", "unit": "第六单元", "week": 4, "day": 3 }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  }
+}

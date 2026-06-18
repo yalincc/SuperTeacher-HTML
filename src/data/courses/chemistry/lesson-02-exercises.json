@@ -1,0 +1,9 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    { "type": "choice", "id": "ex-2-1", "stem": "下列操作正确的是（  ）", "options": [{ "label": "A", "text": "嘴吹灭酒精灯" }, { "label": "B", "text": "用手直接拿药品" }, { "label": "C", "text": "量筒读数视线与凹液面最低处水平" }, { "label": "D", "text": "试管口对着自己加热" }], "answer": "C", "analysis": "A应用灯帽盖灭；B不能用手接触药品；D试管口不能对着人。" },
+    { "type": "choice", "id": "ex-2-2", "stem": "给试管中的液体加热时，液体体积不能超过试管容积的（  ）", "options": [{ "label": "A", "text": "1/2" }, { "label": "B", "text": "1/3" }, { "label": "C", "text": "2/3" }, { "label": "D", "text": "1/4" }], "answer": "B", "analysis": "给试管加热液体不能超过容积的1/3。" },
+    { "type": "true_false", "id": "ex-2-3", "stem": "量筒可以用作反应容器。", "answer": false, "analysis": "量筒只能量取液体体积，不能加热或作反应容器。" },
+    { "type": "fill", "id": "ex-2-4", "segments": ["取用药品遵循\"三不\"原则：不用手接触、不", "___1___", "、不尝。"], "blanks": [{ "index": 1, "answer": "闻", "alternatives": ["凑近闻"] }], "analysis": "闻药品气味应用扇闻法。" }
+  ]
+}

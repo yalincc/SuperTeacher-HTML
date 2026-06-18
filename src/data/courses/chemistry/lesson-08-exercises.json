@@ -1,0 +1,9 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    { "type": "choice", "id": "ex-8-1", "stem": "地壳中含量最多的金属元素是（  ）", "options": [{ "label": "A", "text": "氧" }, { "label": "B", "text": "硅" }, { "label": "C", "text": "铝" }, { "label": "D", "text": "铁" }], "answer": "C", "analysis": "地壳含量前四：O、Si、Al、Fe，含量最多的金属是铝。" },
+    { "type": "choice", "id": "ex-8-2", "stem": "元素是具有相同（  ）的一类原子的总称", "options": [{ "label": "A", "text": "中子数" }, { "label": "B", "text": "质子数" }, { "label": "C", "text": "电子数" }, { "label": "D", "text": "相对原子质量" }], "answer": "B", "analysis": "元素是具有相同质子数（核电荷数）的一类原子的总称。" },
+    { "type": "true_false", "id": "ex-8-3", "stem": "\"水由两个氢元素和一个氧元素组成\"这种说法是正确的。", "answer": false, "analysis": "元素只讲种类不讲个数，应说\"水由氢元素和氧元素组成\"。" },
+    { "type": "fill", "id": "ex-8-4", "segments": ["地壳中含量前四位的元素是氧、硅、", "___1___", "、铁。元素只讲", "___2___", "，不讲个数。"], "blanks": [{ "index": 1, "answer": "铝" }, { "index": 2, "answer": "种类" }], "analysis": "地壳含量：O>Si>Al>Fe。元素只讲种类不讲个数。" }
+  ]
+}

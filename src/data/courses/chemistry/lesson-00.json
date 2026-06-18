@@ -1,0 +1,39 @@
+{
+  "meta": { "id": 0, "slug": "lesson-00-化学使世界变得更加绚丽多彩", "title": "化学使世界变得更加绚丽多彩", "unit": "绪论", "week": 1, "day": 0 },
+  "objectives": [
+    { "text": "了解化学的研究对象和范畴", "isKeyPoint": false },
+    { "text": "认识化学在社会发展中的重要作用", "isKeyPoint": false },
+    { "text": "激发学习化学的兴趣", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "什么是化学",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "化学是在**分子、原子层次**上研究物质**性质、组成、结构与变化规律**的科学。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "化学研究的核心：分子和原子层面的物质变化。宏观看到的变化，微观要用分子原子解释。" }
+      ]
+    },
+    {
+      "title": "化学与生活",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "化学渗透到生活的方方面面：衣（合成纤维）、食（食品添加剂）、住（建筑材料）、行（汽车燃料）。" },
+        { "type": "table", "headers": ["领域", "化学应用"], "rows": [["材料", "塑料、合金、纳米材料"], ["能源", "汽油、氢能源、电池"], ["医药", "抗生素、疫苗、药物合成"], ["农业", "化肥、农药"]] },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "衣食住行用化学，材料能源医与农。分子原子是基础，性质变化要弄清。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：化学研究对象",
+      "problem": [{ "type": "paragraph", "content": "下列不属于化学研究范畴的是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 物质的组成", "B. 物质的结构", "C. 物体的运动速度", "D. 物质的变化规律"] }],
+      "solution": [{ "type": "paragraph", "content": "化学研究物质的组成、结构、性质和变化规律。物体的运动速度属于物理学范畴。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "化学定义", "children": [{ "text": "在分子、原子层次上研究物质" }] },
+    { "text": "化学应用", "children": [{ "text": "材料、能源、医药、农业" }] }
+  ]
+}

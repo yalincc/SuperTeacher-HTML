@@ -1,0 +1,63 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-6-1",
+      "stem": "下列关于质量和密度的说法中，正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "一块铁从北京带到上海，质量发生变化" },
+        { "label": "B", "text": "密度是物质的特性，与质量和体积无关" },
+        { "label": "C", "text": "体积相同的不同物质，质量一定不同" },
+        { "label": "D", "text": "把铜块压成铜片，密度变小" }
+      ],
+      "answer": "B",
+      "analysis": "A错误，质量不随位置改变。B正确，密度是物质特性。C错误，不同物质密度可能接近。D错误，形状改变不影响密度。",
+      "source": "2023北京中考"
+    },
+    {
+      "type": "choice", "id": "ex-6-2",
+      "stem": "一个瓶子能装 $1\\text{ kg}$ 的水，用这个瓶子装酒精（$\\rho_{\\text{酒精}} = 0.8 \\times 10^3\\text{ kg/m}^3$），最多能装（  ）",
+      "options": [
+        { "label": "A", "text": "$1\\text{ kg}$" },
+        { "label": "B", "text": "$0.8\\text{ kg}$" },
+        { "label": "C", "text": "$1.25\\text{ kg}$" },
+        { "label": "D", "text": "$0.5\\text{ kg}$" }
+      ],
+      "answer": "B",
+      "analysis": "瓶子容积不变，$V = \\dfrac{m_{\\text{水}}}{\\rho_{\\text{水}}} = \\dfrac{1}{1.0 \\times 10^3} = 10^{-3}\\text{ m}^3$。装酒精质量 $m_{\\text{酒精}} = \\rho_{\\text{酒精}} \\times V = 0.8 \\times 10^3 \\times 10^{-3} = 0.8\\text{ kg}$。"
+    },
+    {
+      "type": "choice", "id": "ex-6-3",
+      "stem": "用天平和量筒测量矿石密度时，下列操作步骤正确的顺序是（  ）",
+      "options": [
+        { "label": "A", "text": "先测矿石体积，再测矿石质量" },
+        { "label": "B", "text": "先测矿石质量，再测矿石体积" },
+        { "label": "C", "text": "先用量筒取一定体积的水，再放入矿石" },
+        { "label": "D", "text": "先测空量筒质量，再测装水后的质量" }
+      ],
+      "answer": "B",
+      "analysis": "应先测质量再测体积。若先测体积，矿石沾水后再测质量会偏大。"
+    },
+    {
+      "type": "true_false", "id": "ex-6-4",
+      "stem": "$1\\text{ g/cm}^3 = 1000\\text{ kg/m}^3$。",
+      "answer": true,
+      "analysis": "$1\\text{ g/cm}^3 = \\dfrac{10^{-3}\\text{ kg}}{10^{-6}\\text{ m}^3} = 10^3\\text{ kg/m}^3 = 1000\\text{ kg/m}^3$。"
+    },
+    {
+      "type": "fill", "id": "ex-6-5",
+      "segments": ["水的密度为 $1.0 \\times 10^3\\text{ kg/m}^3$，其物理意义是每立方米水的质量为", "___1___", "$\\text{kg}$。$500\\text{ mL}$ 水的质量为", "___2___", "$\\text{g}$。"],
+      "blanks": [
+        { "index": 1, "answer": "1000" },
+        { "index": 2, "answer": "500" }
+      ],
+      "analysis": "$500\\text{ mL} = 500\\text{ cm}^3$，$m = \\rho V = 1.0\\text{ g/cm}^3 \\times 500\\text{ cm}^3 = 500\\text{ g}$。"
+    },
+    {
+      "type": "short_answer", "id": "ex-6-6",
+      "question": "请简述用天平和量筒测量固体密度的实验步骤。",
+      "referenceAnswer": "①将天平放在水平桌面上，游码归零，调节平衡螺母使天平平衡；②用天平测量固体的质量 $m$；③在量筒中倒入适量水，记录水的体积 $V_1$；④用细线系住固体，浸没在量筒的水中，记录总体积 $V_2$；⑤固体体积 $V = V_2 - V_1$；⑥计算密度 $\\rho = \\dfrac{m}{V}$。",
+      "scoringPoints": ["天平调平步骤", "测量质量", "排水法测体积", "密度公式计算"]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { getLessonById } from '@/data'
+import { getLessonById, getExercisesByLessonId } from '@/data'
 import { useProgressContext } from '@/hooks/ProgressContext'
 import SectionObjectives from '@/components/knowledge/SectionObjectives'
 import SectionKnowledge from '@/components/knowledge/SectionKnowledge'
@@ -18,15 +18,14 @@ const TABS: { key: TabKey; label: string; icon: React.ReactNode }[] = [
 ]
 
 function LessonPage() {
-  const { id } = useParams<{ id: string }>()
+  const { courseId, id } = useParams<{ courseId: string; id: string }>()
   const lessonId = Number(id)
-  const lesson = getLessonById(lessonId)
+  const lesson = getLessonById(courseId || '', lessonId)
   const { getExerciseResults } = useProgressContext()
   const [activeTab, setActiveTab] = useState<TabKey>('objectives')
 
-  // 游戏成绩
   const gameResults = lesson ? getExerciseResults(lessonId) : undefined
-  const gameExercises = lesson?.exercises.filter((e) => e.type === 'choice' || e.type === 'true_false') ?? []
+  const gameExercises = (lesson ? getExercisesByLessonId(courseId || '', lessonId) : []).filter((e) => e.type === 'choice' || e.type === 'true_false')
   const gameAnswered = gameExercises.filter((e) => gameResults?.[e.id]?.answered).length
   const gameCorrect = gameExercises.filter((e) => gameResults?.[e.id]?.answered && gameResults[e.id].correct).length
   const hasGameRecord = gameAnswered > 0
@@ -36,7 +35,7 @@ function LessonPage() {
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="text-center">
           <p className="text-text-muted mb-3">课时不存在</p>
-          <Link to="/" className="text-primary hover:underline">返回首页</Link>
+          <Link to={`/course/${courseId}`} className="text-primary hover:underline">返回课程</Link>
         </div>
       </div>
     )
@@ -71,7 +70,7 @@ function LessonPage() {
           <div className="flex items-center gap-1">
             {lesson.meta.id > 1 && (
               <Link
-                to={`/lesson/${lesson.meta.id - 1}`}
+                to={`/course/${courseId}/lesson/${lesson.meta.id - 1}`}
                 className="flex items-center gap-0.5 px-2.5 py-1.5 text-xs text-text-secondary hover:text-primary hover:bg-primary-bg rounded-lg transition"
               >
                 <ChevronLeft className="w-3.5 h-3.5" />
@@ -79,7 +78,7 @@ function LessonPage() {
               </Link>
             )}
             <Link
-              to={`/lesson/${lesson.meta.id + 1}`}
+              to={`/course/${courseId}/lesson/${lesson.meta.id + 1}`}
               className="flex items-center gap-0.5 px-2.5 py-1.5 text-xs text-text-secondary hover:text-primary hover:bg-primary-bg rounded-lg transition"
             >
               下一课
@@ -99,7 +98,7 @@ function LessonPage() {
             <>
               已挑战：<span className="text-success font-semibold">{gameCorrect}/{gameExercises.length}</span> 正确
               {' · '}
-              <Link to={`/lesson/${lessonId}/game`} className="text-primary hover:underline font-medium">
+              <Link to={`/course/${courseId}/lesson/${lessonId}/game`} className="text-primary hover:underline font-medium">
                 再战一次 →
               </Link>
             </>
@@ -138,7 +137,7 @@ function LessonPage() {
       <div className="fixed bottom-0 left-0 right-0 z-30 bg-bg/90 backdrop-blur-md border-t border-border/60">
         <div className="max-w-[900px] mx-auto px-4 py-3">
           <Link
-            to={`/lesson/${lessonId}/game`}
+            to={`/course/${courseId}/lesson/${lessonId}/game`}
             className="flex items-center justify-center gap-2 w-full py-3.5 bg-primary text-white rounded-full font-semibold text-base hover:bg-primary-dark active:scale-[0.98] transition-all shadow-md"
           >
             <Gamepad2 className="w-5 h-5" />

@@ -1,0 +1,9 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    { "type": "choice", "id": "ex-7-1", "stem": "原子中决定元素种类的是（  ）", "options": [{ "label": "A", "text": "质子数" }, { "label": "B", "text": "中子数" }, { "label": "C", "text": "电子数" }, { "label": "D", "text": "最外层电子数" }], "answer": "A", "analysis": "元素是具有相同质子数的一类原子的总称。" },
+    { "type": "choice", "id": "ex-7-2", "stem": "下列关于原子结构的说法正确的是（  ）", "options": [{ "label": "A", "text": "原子核都由质子和中子构成" }, { "label": "B", "text": "原子的质量主要集中在原子核上" }, { "label": "C", "text": "原子核带负电" }, { "label": "D", "text": "核外电子带正电" }], "answer": "B", "analysis": "原子质量主要集中在原子核（质子+中子），电子质量很小。" },
+    { "type": "true_false", "id": "ex-7-3", "stem": "所有原子的原子核内都有中子。", "answer": false, "analysis": "普通氢原子（氕）只有1个质子，没有中子。" },
+    { "type": "fill", "id": "ex-7-4", "segments": ["原子由原子核和", "___1___", "构成。原子核内有质子和中子。在原子中，质子数=", "___2___", "。"], "blanks": [{ "index": 1, "answer": "核外电子" }, { "index": 2, "answer": "电子数" }], "analysis": "原子由原子核和核外电子构成，质子数=电子数使原子呈电中性。" }
+  ]
+}

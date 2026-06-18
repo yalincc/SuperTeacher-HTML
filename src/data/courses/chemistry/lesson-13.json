@@ -1,0 +1,37 @@
+{
+  "meta": { "id": 13, "slug": "lesson-13-化学方程式", "title": "化学方程式", "unit": "第五单元", "week": 6, "day": 2 },
+  "objectives": [
+    { "text": "掌握化学方程式的书写步骤", "isKeyPoint": true },
+    { "text": "学会配平化学方程式", "isKeyPoint": true },
+    { "text": "理解化学方程式的含义", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "化学方程式书写",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "list", "ordered": true, "items": ["写：写出反应物和生成物的化学式", "配：配平化学方程式（使左右两边原子个数相等）", "注：注明反应条件和生成物状态（↑↓）", "等：将横线改为等号"] },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "配平后化学式不能改动！只能在化学式前面加化学计量数。" }
+      ]
+    },
+    {
+      "title": "化学方程式含义",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "以 $2H_2 + O_2 \\xrightarrow{点燃} 2H_2O$ 为例：①表示氢气和氧气在点燃条件下生成水 ②表示2个氢分子和1个氧分子生成2个水分子 ③表示质量比 4:32:36（即1:8:9）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：配平化学方程式",
+      "problem": [{ "type": "paragraph", "content": "配平：$Fe + O_2 \\xrightarrow{点燃} Fe_3O_4$" }],
+      "solution": [{ "type": "paragraph", "content": "右边Fe为3，左边加3；右边O为4，左边O₂加2。配平后：$3Fe + 2O_2 \\xrightarrow{点燃} Fe_3O_4$" }],
+      "answer": "$3Fe + 2O_2 \\xrightarrow{点燃} Fe_3O_4$"
+    }
+  ],
+  "summary": [
+    { "text": "书写步骤", "children": [{ "text": "写→配→注→等" }] },
+    { "text": "配平原则", "children": [{ "text": "原子种类和数目不变" }] }
+  ]
+}

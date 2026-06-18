@@ -1,0 +1,9 @@
+{
+  "lessonId": 14,
+  "exercises": [
+    { "type": "choice", "id": "ex-14-1", "stem": "金刚石和石墨物理性质差异大的原因是（  ）", "options": [{ "label": "A", "text": "组成元素不同" }, { "label": "B", "text": "原子种类不同" }, { "label": "C", "text": "碳原子排列方式不同" }, { "label": "D", "text": "原子大小不同" }], "answer": "C", "analysis": "两者都是碳元素，差异源于原子排列方式。" },
+    { "type": "choice", "id": "ex-14-2", "stem": "下列关于碳单质的说法错误的是（  ）", "options": [{ "label": "A", "text": "金刚石是天然最硬的物质" }, { "label": "B", "text": "石墨具有导电性" }, { "label": "C", "text": "C₆₀是一种化合物" }, { "label": "D", "text": "活性炭有吸附性" }], "answer": "C", "analysis": "C₆₀是碳元素的单质，不是化合物。" },
+    { "type": "true_false", "id": "ex-14-3", "stem": "碳在常温下化学性质活泼。", "answer": false, "analysis": "碳在常温下化学性质稳定，高温下才活泼。" },
+    { "type": "fill", "id": "ex-14-4", "segments": ["碳在氧气充足时燃烧生成", "___1___", "，不充足时生成", "___2___", "。"], "blanks": [{ "index": 1, "answer": "CO2", "alternatives": ["CO₂"] }, { "index": 2, "answer": "CO" }], "analysis": "O₂充足生成CO₂，不充足生成CO。" }
+  ]
+}

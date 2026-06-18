@@ -1,0 +1,9 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    { "type": "choice", "id": "ex-4-1", "stem": "铁丝在氧气中燃烧的现象是（  ）", "options": [{ "label": "A", "text": "发出白光" }, { "label": "B", "text": "火星四射" }, { "label": "C", "text": "产生白烟" }, { "label": "D", "text": "蓝紫色火焰" }], "answer": "B", "analysis": "铁丝在氧气中剧烈燃烧，火星四射，生成黑色固体。" },
+    { "type": "choice", "id": "ex-4-2", "stem": "下列物质在氧气中燃烧，发出蓝紫色火焰的是（  ）", "options": [{ "label": "A", "text": "木炭" }, { "label": "B", "text": "铁丝" }, { "label": "C", "text": "硫" }, { "label": "D", "text": "红磷" }], "answer": "C", "analysis": "硫在氧气中燃烧发出蓝紫色火焰，在空气中是淡蓝色火焰。" },
+    { "type": "true_false", "id": "ex-4-3", "stem": "铁丝在空气中能燃烧。", "answer": false, "analysis": "铁丝在空气中不能燃烧，只能在纯氧中燃烧。" },
+    { "type": "fill", "id": "ex-4-4", "segments": ["铁丝在氧气中燃烧生成", "___1___", "，实验时瓶底应放水或细沙，防止", "___2___", "。"], "blanks": [{ "index": 1, "answer": "Fe3O4", "alternatives": ["Fe₃O₄"] }, { "index": 2, "answer": "高温熔化物溅落炸裂瓶底" }], "analysis": "生成四氧化三铁，需防止炸裂瓶底。" }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": 10,
+    "slug": "lesson-10-浮力",
+    "title": "浮力",
+    "unit": "第五单元",
+    "week": 4,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解浮力的概念和产生原因", "isKeyPoint": true },
+    { "text": "掌握阿基米德原理及其应用", "isKeyPoint": true },
+    { "text": "理解物体的浮沉条件", "isKeyPoint": true },
+    { "text": "了解浮力在生活中的应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "浮力",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**浮力**是浸在液体（或气体）中的物体受到液体（或气体）向上托的力。浮力的方向：**竖直向上**。" },
+        { "type": "paragraph", "content": "浮力产生的原因：物体上下表面受到液体的压力不同，压力差就是浮力。$F_{\\text{浮}} = F_{\\text{向上}} - F_{\\text{向下}}$。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "浮力方向是\"竖直向上\"，不是\"垂直向上\"。桥墩插入河底不受浮力，因为其下表面没有受到水向上的压力。" },
+        { "type": "paragraph", "content": "称重法测浮力：$F_{\\text{浮}} = G - F_{\\text{拉}}$（物体在空气中的重力减去浸在液体中弹簧测力计的示数）。" }
+      ]
+    },
+    {
+      "title": "阿基米德原理",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**阿基米德原理**：浸在液体中的物体受到向上的浮力，浮力的大小等于它排开液体的重力。" },
+        { "type": "paragraph", "content": "公式：$F_{\\text{浮}} = G_{\\text{排}} = \\rho_{\\text{液}} g V_{\\text{排}}$。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "阿基米德原理适用于所有浸在液体（或气体）中的物体。浮力大小只与液体密度 $\\rho_{\\text{液}}$ 和排开液体体积 $V_{\\text{排}}$ 有关，与物体的密度、形状、深度无关。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "$V_{\\text{排}}$ 不一定等于 $V_{\\text{物}}$。物体漂浮或悬浮时 $V_{\\text{排}} < V_{\\text{物}}$，物体完全浸没时 $V_{\\text{排}} = V_{\\text{物}}$。" }
+      ]
+    },
+    {
+      "title": "物体的浮沉条件",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "物体的浮沉取决于浮力 $F_{\\text{浮}}$ 与重力 $G$ 的关系：" },
+        { "type": "table", "headers": ["状态", "力的关系", "密度关系", "表现"], "rows": [["漂浮", "$F_{\\text{浮}} = G$", "$\\rho_{\\text{物}} < \\rho_{\\text{液}}$", "部分浸入液面"], ["悬浮", "$F_{\\text{浮}} = G$", "$\\rho_{\\text{物}} = \\rho_{\\text{液}}$", "完全浸没，可停在任意深度"], ["下沉", "$F_{\\text{浮}} < G$", "$\\rho_{\\text{物}} > \\rho_{\\text{液}}$", "沉到底部"], ["上浮", "$F_{\\text{浮}} > G$", "$\\rho_{\\text{物}} < \\rho_{\\text{液}}$", "从底部向液面运动"]] },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "浮力大于重力就上浮，小于重力就下沉，等于重力就悬浮或漂浮。密度比液体大就沉，小就浮，相等就悬浮。" }
+      ]
+    },
+    {
+      "title": "浮力的应用",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "list", "ordered": false, "items": ["轮船：用钢铁制造，做成空心，增大排开液体体积，从而增大浮力", "潜水艇：通过改变自身重力实现浮沉", "密度计：利用漂浮条件工作，刻度上小下大", "热气球：利用气体浮力升空，改变气囊内气体温度来控制升降"] }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：阿基米德原理计算",
+      "problem": [
+        { "type": "paragraph", "content": "一个体积为 $200\\text{ cm}^3$ 的铁块浸没在水中，求它受到的浮力。（$\\rho_{\\text{水}} = 1.0 \\times 10^3\\text{ kg/m}^3$，$g = 10\\text{ N/kg}$）" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "铁块浸没在水中，$V_{\\text{排}} = V_{\\text{物}} = 200\\text{ cm}^3 = 2 \\times 10^{-4}\\text{ m}^3$" },
+        { "type": "paragraph", "content": "$F_{\\text{浮}} = \\rho_{\\text{水}} g V_{\\text{排}} = 1.0 \\times 10^3 \\times 10 \\times 2 \\times 10^{-4} = 2\\text{ N}$" }
+      ],
+      "answer": "2 N"
+    },
+    {
+      "title": "例2：浮沉条件判断",
+      "problem": [
+        { "type": "paragraph", "content": "一个木块放入水中漂浮在水面上，将木块取出后放入酒精中（$\\rho_{\\text{酒精}} = 0.8 \\times 10^3\\text{ kg/m}^3$），则木块在酒精中将（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 漂浮", "B. 悬浮", "C. 下沉", "D. 无法判断"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "木块在水中漂浮，说明 $\\rho_{\\text{木}} < \\rho_{\\text{水}} = 1.0 \\times 10^3\\text{ kg/m}^3$。但木块密度可能大于 $0.8 \\times 10^3\\text{ kg/m}^3$（酒精密度），所以不一定能在酒精中漂浮。但木头密度一般小于 $1.0\\text{ g/cm}^3$，常见木头密度约 $0.4 \\sim 0.8\\text{ g/cm}^3$，所以大多数木块在酒精中仍可漂浮。选 **A**。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "浮力", "children": [{ "text": "方向：竖直向上" }, { "text": "产生原因：上下表面压力差" }, { "text": "称重法：F浮 = G - F拉" }] },
+    { "text": "阿基米德原理", "children": [{ "text": "F浮 = G排 = ρ液gV排" }, { "text": "浮力与ρ液和V排有关" }] },
+    { "text": "浮沉条件", "children": [{ "text": "漂浮/悬浮：F浮 = G" }, { "text": "下沉：F浮 < G" }, { "text": "上浮：F浮 > G" }] },
+    { "text": "应用", "children": [{ "text": "轮船、潜水艇、密度计、热气球" }] }
+  ]
+}

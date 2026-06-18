@@ -1,0 +1,39 @@
+{
+  "meta": { "id": 1, "slug": "lesson-01-物质的变化和性质", "title": "物质的变化和性质", "unit": "第一单元", "week": 1, "day": 1 },
+  "objectives": [
+    { "text": "理解物理变化和化学变化的概念及本质区别", "isKeyPoint": true },
+    { "text": "掌握化学变化的判断方法", "isKeyPoint": true },
+    { "text": "了解物理性质和化学性质的区别", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "物理变化与化学变化",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**物理变化**：没有新物质生成的变化。**化学变化**：有新物质生成的变化。本质区别：是否有新物质生成。" },
+        { "type": "table", "headers": ["比较项", "物理变化", "化学变化"], "rows": [["定义", "没有新物质生成", "有新物质生成"], ["实例", "水的三态变化、酒精挥发", "铁钉生锈、木材燃烧"], ["伴随现象", "形状、状态改变", "发光发热、颜色变化、气体生成"]] },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "爆炸不一定是化学变化！锅炉爆炸是物理变化（体积膨胀）；火药爆炸是化学变化（有新物质）。" }
+      ]
+    },
+    {
+      "title": "物理性质与化学性质",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**物理性质**：不需要化学变化就能表现的性质（颜色、状态、气味、密度、熔点、沸点等）。**化学性质**：在化学变化中表现的性质（可燃性、助燃性、氧化性等）。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "物性无需化学变，化性要在变化见。色态味密熔沸点，可燃助燃氧化还。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断化学变化",
+      "problem": [{ "type": "paragraph", "content": "下列变化属于化学变化的是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 冰雪融化", "B. 铁钉生锈", "C. 酒精挥发", "D. 矿石粉碎"] }],
+      "solution": [{ "type": "paragraph", "content": "铁钉生锈生成了铁锈（Fe₂O₃），有新物质生成，属于化学变化。" }],
+      "answer": "B", "source": "2024北京中考"
+    }
+  ],
+  "summary": [
+    { "text": "物理变化 vs 化学变化", "children": [{ "text": "本质区别：是否有新物质生成" }] },
+    { "text": "物理性质 vs 化学性质", "children": [{ "text": "物理性质：无需化学变化" }, { "text": "化学性质：在化学变化中表现" }] }
+  ]
+}

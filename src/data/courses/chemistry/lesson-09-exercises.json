@@ -1,0 +1,9 @@
+{
+  "lessonId": 9,
+  "exercises": [
+    { "type": "choice", "id": "ex-9-1", "stem": "净化程度最高的净水方法是（  ）", "options": [{ "label": "A", "text": "沉淀" }, { "label": "B", "text": "过滤" }, { "label": "C", "text": "吸附" }, { "label": "D", "text": "蒸馏" }], "answer": "D", "analysis": "蒸馏可除去所有杂质，净化程度最高。" },
+    { "type": "choice", "id": "ex-9-2", "stem": "下列净水方法中，能除去可溶性杂质的是（  ）", "options": [{ "label": "A", "text": "沉淀" }, { "label": "B", "text": "过滤" }, { "label": "C", "text": "蒸馏" }, { "label": "D", "text": "以上都是" }], "answer": "C", "analysis": "沉淀和过滤只能除去不溶性杂质，蒸馏可除去可溶性杂质。" },
+    { "type": "true_false", "id": "ex-9-3", "stem": "过滤可以除去水中的可溶性杂质。", "answer": false, "analysis": "过滤只能除去不溶性固体杂质。" },
+    { "type": "fill", "id": "ex-9-4", "segments": ["过滤可以除去水中的", "___1___", "杂质，但不能除去", "___2___", "杂质。"], "blanks": [{ "index": 1, "answer": "不溶性" }, { "index": 2, "answer": "可溶性" }], "analysis": "过滤只能分离不溶性固体与液体。" }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": { "id": 4, "slug": "lesson-04-氧气", "title": "氧气", "unit": "第二单元", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "了解氧气的物理性质", "isKeyPoint": false },
+    { "text": "掌握氧气的化学性质（与金属、非金属反应）", "isKeyPoint": true },
+    { "text": "理解氧化反应和缓慢氧化的概念", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "氧气的物理性质",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "无色无味气体，密度比空气略大，不易溶于水。液态氧为淡蓝色。" }
+      ]
+    },
+    {
+      "title": "氧气的化学性质",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "氧气化学性质比较活泼，能与多种物质反应，具有氧化性。" },
+        { "type": "table", "headers": ["物质", "在空气中燃烧现象", "在氧气中燃烧现象", "化学方程式"], "rows": [["碳", "红热", "发出白光，放热", "$C + O_2 \\xrightarrow{点燃} CO_2$"], ["硫", "淡蓝色火焰", "蓝紫色火焰，放热", "$S + O_2 \\xrightarrow{点燃} SO_2$"], ["铁丝", "不能燃烧", "剧烈燃烧，火星四射，生成黑色固体", "$3Fe + 2O_2 \\xrightarrow{点燃} Fe_3O_4$"]] },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "铁丝在空气中不能燃烧，只能在纯氧中燃烧。铁丝燃烧实验需在集气瓶底部放少量水或铺一层细沙，防止高温熔化物溅落炸裂瓶底。" }
+      ]
+    },
+    {
+      "title": "氧化反应",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "物质与氧发生的反应叫做**氧化反应**。氧化反应分为剧烈氧化（燃烧）和缓慢氧化（如铁生锈、食物腐烂）。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "判断氧化反应的关键：看物质是否与氧（O₂）反应。注意：氧化反应不一定是化合反应，化合反应也不一定是氧化反应。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：铁丝在氧气中燃烧",
+      "problem": [{ "type": "paragraph", "content": "铁丝在氧气中燃烧的实验现象是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 发出白光", "B. 剧烈燃烧，火星四射", "C. 产生大量白烟", "D. 发出蓝紫色火焰"] }],
+      "solution": [{ "type": "paragraph", "content": "铁丝在氧气中剧烈燃烧，火星四射，生成黑色固体（Fe₃O₄），放出大量热。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "氧气物理性质", "children": [{ "text": "无色无味，密度略大于空气，不易溶于水" }] },
+    { "text": "氧气化学性质", "children": [{ "text": "与C：发出白光" }, { "text": "与S：蓝紫色火焰" }, { "text": "与Fe：火星四射，生成黑色固体" }] },
+    { "text": "氧化反应", "children": [{ "text": "物质与氧的反应" }, { "text": "剧烈氧化（燃烧）vs 缓慢氧化" }] }
+  ]
+}

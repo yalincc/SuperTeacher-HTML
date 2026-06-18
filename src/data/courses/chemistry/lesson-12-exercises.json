@@ -1,0 +1,9 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    { "type": "choice", "id": "ex-12-1", "stem": "5g A与4g B恰好完全反应生成3g C，生成D的质量为（  ）", "options": [{ "label": "A", "text": "2g" }, { "label": "B", "text": "5g" }, { "label": "C", "text": "6g" }, { "label": "D", "text": "9g" }], "answer": "C", "analysis": "5+4=3+D，D=6g。" },
+    { "type": "choice", "id": "ex-12-2", "stem": "下列现象能用质量守恒定律解释的是（  ）", "options": [{ "label": "A", "text": "10g水蒸发得到10g水蒸气" }, { "label": "B", "text": "蜡烛燃烧后变短了" }, { "label": "C", "text": "50ml水和50ml酒精混合后体积小于100ml" }, { "label": "D", "text": "打开啤酒瓶盖有气泡冒出" }], "answer": "B", "analysis": "蜡烛燃烧是化学反应，遵循质量守恒定律。A是物理变化，C是分子间有间隔，D是压强变化。" },
+    { "type": "true_false", "id": "ex-12-3", "stem": "化学反应前后分子的种类不变。", "answer": false, "analysis": "化学反应前后原子种类不变，但分子种类一定改变。" },
+    { "type": "fill", "id": "ex-12-4", "segments": ["质量守恒定律：参加化学反应的各物质的", "___1___", "等于反应后生成的各物质的", "___2___", "。"], "blanks": [{ "index": 1, "answer": "质量总和" }, { "index": 2, "answer": "质量总和" }], "analysis": "反应物总质量等于生成物总质量。" }
+  ]
+}

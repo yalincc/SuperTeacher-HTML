@@ -1,0 +1,63 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-4-1",
+      "stem": "下列现象中，能用光的直线传播来解释的是（  ）",
+      "options": [
+        { "label": "A", "text": "水中倒影" },
+        { "label": "B", "text": "海市蜃楼" },
+        { "label": "C", "text": "日食的形成" },
+        { "label": "D", "text": "雨后彩虹" }
+      ],
+      "answer": "C",
+      "analysis": "A是光的反射，B是光的折射，C是光的直线传播（月球挡住了太阳光），D是光的色散。",
+      "source": "2023北京中考"
+    },
+    {
+      "type": "choice", "id": "ex-4-2",
+      "stem": "关于平面镜成像，下列说法正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "物体离平面镜越远，像越小" },
+        { "label": "B", "text": "平面镜成的是倒立的实像" },
+        { "label": "C", "text": "像与物到平面镜的距离相等" },
+        { "label": "D", "text": "平面镜成像的原理是光的折射" }
+      ],
+      "answer": "C",
+      "analysis": "A错误，像的大小与物到镜距离无关。B错误，成的是正立的虚像。C正确，等距是平面镜成像特点。D错误，原理是光的反射。"
+    },
+    {
+      "type": "choice", "id": "ex-4-3",
+      "stem": "一束光斜射到平面镜上，入射角为 $40^\\circ$，则反射角为（  ）",
+      "options": [
+        { "label": "A", "text": "$40^\\circ$" },
+        { "label": "B", "text": "$50^\\circ$" },
+        { "label": "C", "text": "$80^\\circ$" },
+        { "label": "D", "text": "$90^\\circ$" }
+      ],
+      "answer": "A",
+      "analysis": "根据反射定律，反射角等于入射角。入射角为 $40^\\circ$，反射角也是 $40^\\circ$。"
+    },
+    {
+      "type": "true_false", "id": "ex-4-4",
+      "stem": "在探究平面镜成像实验中，应选用薄玻璃板代替平面镜。",
+      "answer": true,
+      "analysis": "玻璃板既能反射成像又能透光，便于确定像的位置。"
+    },
+    {
+      "type": "fill", "id": "ex-4-5",
+      "segments": ["光在真空中的传播速度为", "___1___", "$\\text{m/s}$。光从空气斜射入水中时，折射角", "___2___", "（选填\"大于\"\"小于\"\"等于\"）入射角。"],
+      "blanks": [
+        { "index": 1, "answer": "3×10⁸", "alternatives": ["3×10^8", "300000000"] },
+        { "index": 2, "answer": "小于" }
+      ],
+      "analysis": "光在真空中速度为 $3 \\times 10^8\\text{ m/s}$。光从空气斜射入水，折射角小于入射角。"
+    },
+    {
+      "type": "short_answer", "id": "ex-4-6",
+      "question": "请简述平面镜成像的四个特点。",
+      "referenceAnswer": "①像与物大小相等；②像与物到平面镜的距离相等；③像与物的连线与镜面垂直；④平面镜成正立的虚像。",
+      "scoringPoints": ["等大", "等距", "连线垂直镜面", "正立虚像"]
+    }
+  ]
+}

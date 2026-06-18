@@ -1,0 +1,9 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    { "type": "choice", "id": "ex-13-1", "stem": "配平后Fe的化学计量数为3的反应是（  ）", "options": [{ "label": "A", "text": "$Fe + O_2 \\xrightarrow{点燃} Fe_3O_4$" }, { "label": "B", "text": "$Fe + CuSO_4 = FeSO_4 + Cu$" }, { "label": "C", "text": "$Fe_2O_3 + CO \\xrightarrow{高温} Fe + CO_2$" }, { "label": "D", "text": "以上都是" }], "answer": "D", "analysis": "三个反应配平后Fe的系数都是3（A:3Fe, B:1Fe, C:2Fe）。实际A是3Fe正确。" },
+    { "type": "choice", "id": "ex-13-2", "stem": "化学方程式配平的原则是（  ）", "options": [{ "label": "A", "text": "原子种类不变" }, { "label": "B", "text": "原子数目不变" }, { "label": "C", "text": "原子种类和数目都不变" }, { "label": "D", "text": "分子数目不变" }], "answer": "C", "analysis": "配平要保证反应前后原子种类和数目都不变。" },
+    { "type": "true_false", "id": "ex-13-3", "stem": "配平时可以在化学式前面加化学计量数，但不能改动化学式。", "answer": true, "analysis": "配平只能在化学式前加系数，不能改变化学式本身。" },
+    { "type": "fill", "id": "ex-13-4", "segments": ["化学方程式书写步骤：写、", "___1___", "、注、等。配平的原则是反应前后", "___2___", "不变。"], "blanks": [{ "index": 1, "answer": "配" }, { "index": 2, "answer": "原子种类和数目" }], "analysis": "步骤为写配注等，配平保证原子守恒。" }
+  ]
+}

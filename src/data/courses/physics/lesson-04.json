@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "id": 4,
+    "slug": "lesson-04-光现象",
+    "title": "光现象",
+    "unit": "第二单元",
+    "week": 2,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "了解光的直线传播条件和光速", "isKeyPoint": false },
+    { "text": "掌握光的反射定律", "isKeyPoint": true },
+    { "text": "理解平面镜成像的特点和原理", "isKeyPoint": true },
+    { "text": "了解光的折射规律和光的色散", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "光的直线传播",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "光在**同种均匀介质**中沿直线传播。能证明光沿直线传播的现象：影子、日食月食、小孔成像、激光准直。" },
+        { "type": "paragraph", "content": "光在真空中的传播速度最快，$c = 3 \\times 10^8\\text{ m/s}$。光在空气中的速度近似等于真空中的速度。光在水中的速度约为真空中的 $\\dfrac{3}{4}$，在玻璃中约为真空中的 $\\dfrac{2}{3}$。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "小孔成像成的是**倒立的实像**，像的形状与孔的形状无关，与物体的形状有关。" },
+        { "type": "list", "ordered": false, "items": ["影子：光被不透明物体挡住形成的暗区", "日食：月球挡住了太阳射向地球的光", "月食：地球挡住了太阳射向月球的光", "小孔成像：倒立的实像，可大可小"] }
+      ]
+    },
+    {
+      "title": "光的反射",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**光的反射定律**：反射光线、入射光线和法线在同一平面内；反射光线和入射光线分居法线两侧；**反射角等于入射角**。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "不能说\"入射角等于反射角\"，应该说\"反射角等于入射角\"。因为先有入射角，后有反射角。" },
+        { "type": "table", "headers": ["反射类型", "特点", "实例"], "rows": [["镜面反射", "平行光入射，反射光仍然平行", "镜子、平静水面"], ["漫反射", "平行光入射，反射光向各个方向", "电影银幕、书本纸面"]] },
+        { "type": "paragraph", "content": "无论是镜面反射还是漫反射，每条光线都遵守光的反射定律。" }
+      ]
+    },
+    {
+      "title": "平面镜成像",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**平面镜成像特点**：像与物大小相等；像与物到平面镜的距离相等；像与物的连线与镜面垂直；平面镜成的是**正立的虚像**。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "平面镜成像作图要点：①像和物关于镜面对称；②像用虚线画（虚像）；③连线与镜面垂直；④等距、等大。" },
+        { "type": "paragraph", "content": "探究平面镜成像实验中，用**薄玻璃板**代替平面镜，因为玻璃板既能反射成像，又能透过玻璃看到后面的蜡烛，便于确定像的位置。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "像的大小只取决于物体的大小，与物体到镜面的距离无关。人远离镜子时感觉像变小，是因为视角变小了，实际上像的大小不变。" }
+      ]
+    },
+    {
+      "title": "光的折射与色散",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**光的折射**：光从一种介质斜射入另一种介质时，传播方向发生偏折的现象。" },
+        { "type": "paragraph", "content": "折射规律：折射光线、入射光线和法线在同一平面内；分居法线两侧。当光从空气斜射入水（或玻璃）中时，折射角**小于**入射角；反之折射角大于入射角。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "池水变浅、筷子弯折、海市蜃楼等现象都与光的折射有关。从岸上看水中的物体，感觉位置比实际偏高。" },
+        { "type": "paragraph", "content": "**光的色散**：太阳光通过三棱镜后分解成红、橙、黄、绿、蓝、靛、紫七种颜色的光。说明白光是由各种色光混合而成的。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：平面镜成像",
+      "problem": [
+        { "type": "paragraph", "content": "一个人站在平面镜前 $2\\text{ m}$ 处，他在镜中的像到镜面的距离是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. $1\\text{ m}$", "B. $2\\text{ m}$", "C. $4\\text{ m}$", "D. $8\\text{ m}$"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "平面镜成像特点：像到镜面的距离等于物到镜面的距离。物距 $= 2\\text{ m}$，则像距 $= 2\\text{ m}$。选 **B**。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：光的反射角度计算",
+      "problem": [
+        { "type": "paragraph", "content": "一束光射到平面镜上，入射光线与镜面的夹角为 $30^\\circ$，求反射角。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "入射角是入射光线与法线的夹角。入射光线与镜面夹角为 $30^\\circ$，法线与镜面垂直（$90^\\circ$），所以入射角 $= 90^\\circ - 30^\\circ = 60^\\circ$。" },
+        { "type": "paragraph", "content": "根据反射定律，反射角 $=$ 入射角 $= 60^\\circ$。" }
+      ],
+      "answer": "60°"
+    }
+  ],
+  "summary": [
+    { "text": "光的直线传播", "children": [{ "text": "同种均匀介质中沿直线传播" }, { "text": "真空中光速 c = 3×10⁸ m/s" }, { "text": "实例：影子、日食月食、小孔成像" }] },
+    { "text": "光的反射", "children": [{ "text": "反射角等于入射角" }, { "text": "镜面反射和漫反射都遵守反射定律" }] },
+    { "text": "平面镜成像", "children": [{ "text": "等大、等距、正立、虚像" }, { "text": "像与物关于镜面对称" }] },
+    { "text": "光的折射与色散", "children": [{ "text": "光从空气斜射入水：折射角<入射角" }, { "text": "白光可分解为七色光" }] }
+  ]
+}

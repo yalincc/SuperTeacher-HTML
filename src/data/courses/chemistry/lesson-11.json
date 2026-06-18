@@ -1,0 +1,39 @@
+{
+  "meta": { "id": 11, "slug": "lesson-11-物质组成的表示", "title": "物质组成的表示", "unit": "第四单元", "week": 5, "day": 3 },
+  "objectives": [
+    { "text": "了解化学式的含义", "isKeyPoint": true },
+    { "text": "掌握化合价的概念和应用", "isKeyPoint": true },
+    { "text": "能根据化学式进行简单计算", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "化学式",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**化学式**：用元素符号和数字表示物质组成的式子。化学式可以表示：①一种物质 ②该物质的元素组成 ③一个分子 ④分子的原子构成。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "化学式中原子个数写在元素符号右下角。如H₂O表示2个氢原子和1个氧原子。" }
+      ]
+    },
+    {
+      "title": "化合价",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**化合价**：元素在形成化合物时表现出来的性质。化合物中各元素化合价代数和为零。" },
+        { "type": "table", "headers": ["常见化合价", "元素"], "rows": [["+1", "H、Na、K"], ["+2", "Mg、Ca、Ba、Zn"], ["-2", "O"], ["-1", "Cl"], ["+3", "Al"], ["+4", "Si"]] },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "一价钾钠氯氢银，二价氧钙钡镁锌，三铝四硅五价磷，二三铁二四碳。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：化学式含义",
+      "problem": [{ "type": "paragraph", "content": "H₂O表示的意义不包括（  ）" }, { "type": "list", "ordered": true, "items": ["A. 水这种物质", "B. 水由氢元素和氧元素组成", "C. 一个水分子", "D. 水分子由氢气和氧气组成"] }],
+      "solution": [{ "type": "paragraph", "content": "水分子由氢原子和氧原子组成，不是由氢气和氧气组成。D错误。" }],
+      "answer": "D"
+    }
+  ],
+  "summary": [
+    { "text": "化学式", "children": [{ "text": "表示物质组成、分子构成" }] },
+    { "text": "化合价", "children": [{ "text": "化合物中各元素化合价代数和为零" }, { "text": "一价钾钠氯氢银，二价氧钙钡镁锌" }] }
+  ]
+}

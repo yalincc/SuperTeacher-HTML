@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "id": 6,
+    "slug": "lesson-06-质量与密度",
+    "title": "质量与密度",
+    "unit": "第三单元",
+    "week": 2,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "理解质量的概念，知道质量是物体的基本属性", "isKeyPoint": false },
+    { "text": "掌握密度的概念、公式和单位", "isKeyPoint": true },
+    { "text": "学会用天平和量筒测量固体和液体的密度", "isKeyPoint": true },
+    { "text": "了解密度在生活中的应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "质量",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**质量**是物体所含物质的多少，是物体的基本属性。质量不随物体的形状、状态、位置和温度的变化而变化。" },
+        { "type": "paragraph", "content": "质量的国际单位是**千克**（$\\text{kg}$）。常用单位有：吨（$\\text{t}$）、克（$\\text{g}$）、毫克（$\\text{mg}$）。" },
+        { "type": "table", "headers": ["单位", "符号", "换算关系"], "rows": [["吨", "t", "$1\\text{ t} = 1000\\text{ kg}$"], ["千克", "kg", "基本单位"], ["克", "g", "$1\\text{ kg} = 1000\\text{ g}$"], ["毫克", "mg", "$1\\text{ g} = 1000\\text{ mg}$"]] },
+        { "type": "paragraph", "content": "实验室用**天平**测量质量。使用天平的步骤：调平（游码归零，调节平衡螺母）、称量（左物右码）、读数（砝码 + 游码示数）。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "天平称量时必须\"左物右码\"。如果放反了：物体质量 = 砝码质量 - 游码示数。" }
+      ]
+    },
+    {
+      "title": "密度",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**密度**是物质的一种特性，表示单位体积某种物质的质量。公式：$\\rho = \\dfrac{m}{V}$。" },
+        { "type": "paragraph", "content": "密度的国际单位是 $\\text{kg/m}^3$，常用单位是 $\\text{g/cm}^3$。换算关系：$1\\text{ g/cm}^3 = 1.0 \\times 10^3\\text{ kg/m}^3$。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "密度是物质的特性，与质量和体积无关。同种物质密度相同（状态不变时），不同物质密度一般不同。" },
+        { "type": "table", "headers": ["物质", "密度（$\\text{kg/m}^3$）", "物质", "密度（$\\text{kg/m}^3$）"], "rows": [["水", "$1.0 \\times 10^3$", "铝", "$2.7 \\times 10^3$"], ["铁", "$7.9 \\times 10^3$", "铜", "$8.9 \\times 10^3$"], ["金", "$19.3 \\times 10^3$", "铝", "$2.7 \\times 10^3$"], ["冰", "$0.9 \\times 10^3$", "空气", "$1.29$"]] },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "水的密度 $\\rho_{\\text{水}} = 1.0 \\times 10^3\\text{ kg/m}^3 = 1.0\\text{ g/cm}^3$，是常考常记的重要数值。" }
+      ]
+    },
+    {
+      "title": "测量密度",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "测量密度的原理：$\\rho = \\dfrac{m}{V}$。需要测量物体的质量 $m$ 和体积 $V$。" },
+        { "type": "list", "ordered": true, "items": ["用天平测量物体质量 $m$", "用量筒和水测量物体体积 $V$（排水法）", "代入公式计算密度 $\\rho = \\dfrac{m}{V}$"] },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "量筒读数时视线要与凹液面的最低处相平。如果物体太大放不进量筒，可以用\"溢水法\"测量体积。" },
+        { "type": "paragraph", "content": "测量液体密度时，可以先测烧杯和液体总质量，再将部分液体倒入量筒测体积，最后测烧杯和剩余液体质量，这样可以减小误差。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：密度公式应用",
+      "problem": [
+        { "type": "paragraph", "content": "一个铝球的质量为 $540\\text{ g}$，体积为 $200\\text{ cm}^3$，请判断该铝球是实心的还是空心的。（$\\rho_{\\text{铝}} = 2.7 \\times 10^3\\text{ kg/m}^3$）" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "铝球的密度：$\\rho = \\dfrac{m}{V} = \\dfrac{540\\text{ g}}{200\\text{ cm}^3} = 2.7\\text{ g/cm}^3 = 2.7 \\times 10^3\\text{ kg/m}^3$" },
+        { "type": "paragraph", "content": "铝球的密度等于铝的密度，说明该铝球是**实心**的。" }
+      ],
+      "answer": "实心"
+    },
+    {
+      "title": "例2：密度计算",
+      "problem": [
+        { "type": "paragraph", "content": "一个容积为 $2\\text{ L}$ 的瓶子，装满水后总质量为 $2.2\\text{ kg}$，则瓶子的质量是多少？（$\\rho_{\\text{水}} = 1.0 \\times 10^3\\text{ kg/m}^3$）" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "水的体积 $V = 2\\text{ L} = 2 \\times 10^{-3}\\text{ m}^3$" },
+        { "type": "paragraph", "content": "水的质量 $m_{\\text{水}} = \\rho_{\\text{水}} \\times V = 1.0 \\times 10^3 \\times 2 \\times 10^{-3} = 2\\text{ kg}$" },
+        { "type": "paragraph", "content": "瓶子质量 $m_{\\text{瓶}} = m_{\\text{总}} - m_{\\text{水}} = 2.2 - 2 = 0.2\\text{ kg}$" }
+      ],
+      "answer": "0.2 kg"
+    }
+  ],
+  "summary": [
+    { "text": "质量", "children": [{ "text": "质量是物体的基本属性，不随形状、状态、位置改变" }, { "text": "国际单位：千克(kg)" }, { "text": "天平使用：左物右码" }] },
+    { "text": "密度", "children": [{ "text": "公式：ρ = m/V" }, { "text": "单位：kg/m³ 或 g/cm³" }, { "text": "密度是物质特性，与m、V无关" }] },
+    { "text": "测量密度", "children": [{ "text": "原理：ρ = m/V" }, { "text": "工具：天平 + 量筒" }, { "text": "步骤：测质量→测体积→算密度" }] }
+  ]
+}

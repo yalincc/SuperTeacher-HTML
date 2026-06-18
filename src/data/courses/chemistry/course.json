@@ -1,0 +1,39 @@
+{
+  "id": "chemistry",
+  "course": {
+    "name": "初中化学",
+    "icon": "⚗️",
+    "subtitle": "人教版九年级上册（2024版）",
+    "color": "#e8600c"
+  },
+  "schedule": {
+    "weeks": 7,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周", "第六周", "第七周"],
+    "weekTitles": ["走进化学世界", "空气和氧气", "物质构成的奥秘", "自然界的水", "化学反应的定量关系", "碳和碳的氧化物", "能源的合理利用与开发"]
+  },
+  "lessons": [
+    { "id": 0, "title": "化学使世界变得更加绚丽多彩", "unit": "绪论", "week": 1, "day": 0 },
+    { "id": 1, "title": "物质的变化和性质", "unit": "第一单元", "week": 1, "day": 1 },
+    { "id": 2, "title": "化学实验与科学探究", "unit": "第一单元", "week": 1, "day": 2 },
+    { "id": 3, "title": "我们周围的空气", "unit": "第二单元", "week": 2, "day": 1 },
+    { "id": 4, "title": "氧气", "unit": "第二单元", "week": 2, "day": 2 },
+    { "id": 5, "title": "制取氧气", "unit": "第二单元", "week": 3, "day": 1 },
+    { "id": 6, "title": "分子和原子", "unit": "第三单元", "week": 3, "day": 2 },
+    { "id": 7, "title": "原子结构", "unit": "第三单元", "week": 4, "day": 1 },
+    { "id": 8, "title": "元素", "unit": "第三单元", "week": 4, "day": 2 },
+    { "id": 9, "title": "水资源及其利用", "unit": "第四单元", "week": 5, "day": 1 },
+    { "id": 10, "title": "水的组成", "unit": "第四单元", "week": 5, "day": 2 },
+    { "id": 11, "title": "物质组成的表示", "unit": "第四单元", "week": 5, "day": 3 },
+    { "id": 12, "title": "质量守恒定律", "unit": "第五单元", "week": 6, "day": 1 },
+    { "id": 13, "title": "化学方程式", "unit": "第五单元", "week": 6, "day": 2 },
+    { "id": 14, "title": "碳单质的多样性", "unit": "第六单元", "week": 6, "day": 3 },
+    { "id": 15, "title": "碳的氧化物", "unit": "第六单元", "week": 7, "day": 1 },
+    { "id": 16, "title": "二氧化碳的实验室制取", "unit": "第六单元", "week": 7, "day": 2 },
+    { "id": 17, "title": "燃料的燃烧", "unit": "第七单元", "week": 7, "day": 3 },
+    { "id": 18, "title": "化石能源的合理利用", "unit": "第七单元", "week": 7, "day": 4 }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  }
+}

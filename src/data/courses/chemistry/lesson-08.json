@@ -1,0 +1,38 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-元素", "title": "元素", "unit": "第三单元", "week": 4, "day": 2 },
+  "objectives": [
+    { "text": "了解元素的概念", "isKeyPoint": true },
+    { "text": "认识元素符号和元素周期表", "isKeyPoint": false },
+    { "text": "理解地壳中元素含量排序", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "元素概念",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**元素**是具有相同质子数（即核电荷数）的一类原子的总称。元素只讲种类，不讲个数。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "\"水由氢元素和氧元素组成\"✓；\"水由两个氢元素和一个氧元素组成\"✗（元素只讲种类不讲个数）。" }
+      ]
+    },
+    {
+      "title": "地壳元素含量",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "地壳中含量前五位：氧(O)、硅(Si)、铝(Al)、铁(Fe)、钙(Ca)。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "养闺女贴铁盖——氧硅铝铁钙。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：元素概念",
+      "problem": [{ "type": "paragraph", "content": "元素是具有相同（  ）的一类原子的总称" }, { "type": "list", "ordered": true, "items": ["A. 中子数", "B. 质子数", "C. 电子数", "D. 相对原子质量"] }],
+      "solution": [{ "type": "paragraph", "content": "元素是具有相同质子数（核电荷数）的一类原子的总称。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "元素", "children": [{ "text": "相同质子数的一类原子的总称" }, { "text": "只讲种类，不讲个数" }] },
+    { "text": "地壳含量", "children": [{ "text": "O > Si > Al > Fe > Ca" }] }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    { "type": "choice", "id": "ex-6-1", "stem": "下列事实不能说明分子在不断运动的是（  ）", "options": [{ "label": "A", "text": "湿衣服晾干" }, { "label": "B", "text": "花开闻香" }, { "label": "C", "text": "糖溶于水变甜" }, { "label": "D", "text": "沙尘暴" }], "answer": "D", "analysis": "沙尘暴是宏观固体颗粒运动，不能说明分子运动。" },
+    { "type": "choice", "id": "ex-6-2", "stem": "化学变化中最小的粒子是（  ）", "options": [{ "label": "A", "text": "分子" }, { "label": "B", "text": "原子" }, { "label": "C", "text": "电子" }, { "label": "D", "text": "质子" }], "answer": "B", "analysis": "原子是化学变化中的最小粒子。" },
+    { "type": "true_false", "id": "ex-6-3", "stem": "在化学变化中，分子可以再分，原子不能再分。", "answer": true, "analysis": "化学变化的实质是分子分裂为原子，原子重新组合。" },
+    { "type": "fill", "id": "ex-6-4", "segments": ["保持物质化学性质的最小粒子是", "___1___", "。化学变化中的最小粒子是", "___2___", "。"], "blanks": [{ "index": 1, "answer": "分子" }, { "index": 2, "answer": "原子" }], "analysis": "分子保持化学性质，原子是化学变化中最小粒子。" }
+  ]
+}

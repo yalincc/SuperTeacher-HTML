@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "convert": "node scripts/convert-md.mjs",
-    "build": "npm run convert && vite build",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-lesson.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

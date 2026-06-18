@@ -1,0 +1,9 @@
+{
+  "lessonId": 0,
+  "exercises": [
+    { "type": "choice", "id": "ex-0-1", "stem": "化学研究的对象是（  ）", "options": [{ "label": "A", "text": "物体的运动" }, { "label": "B", "text": "生命活动规律" }, { "label": "C", "text": "物质的组成、结构、性质和变化规律" }, { "label": "D", "text": "社会经济发展" }], "answer": "C", "analysis": "化学是在分子、原子层次上研究物质的组成、结构、性质和变化规律的科学。" },
+    { "type": "choice", "id": "ex-0-2", "stem": "下列不属于化学研究范畴的是（  ）", "options": [{ "label": "A", "text": "研制新材料" }, { "label": "B", "text": "开发新能源" }, { "label": "C", "text": "研究天体运动" }, { "label": "D", "text": "环境保护" }], "answer": "C", "analysis": "天体运动属于天文学和物理学范畴。" },
+    { "type": "true_false", "id": "ex-0-3", "stem": "化学能创造新物质。", "answer": true, "analysis": "化学变化的本质是有新物质生成，化学可以合成新物质。" },
+    { "type": "fill", "id": "ex-0-4", "segments": ["化学是在", "___1___", "层次上研究物质的科学。"], "blanks": [{ "index": 1, "answer": "分子、原子" }], "analysis": "化学研究的微观层次是分子和原子。" }
+  ]
+}

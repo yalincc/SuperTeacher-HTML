@@ -25,3 +25,6 @@ Thumbs.db
 # Generated data (regenerated from MD)
 # src/data/lessons/
 .vercel
+/.agents
+/.qoder
+/.mimocode

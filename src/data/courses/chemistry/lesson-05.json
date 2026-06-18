@@ -1,0 +1,38 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-制取氧气", "title": "制取氧气", "unit": "第二单元", "week": 3, "day": 1 },
+  "objectives": [
+    { "text": "掌握实验室制取氧气的方法和原理", "isKeyPoint": true },
+    { "text": "理解催化剂的概念", "isKeyPoint": true },
+    { "text": "了解工业制氧的方法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "实验室制取氧气",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "table", "headers": ["方法", "方程式", "装置类型"], "rows": [["加热KMnO₄", "$2KMnO_4 \\xrightarrow{\\Delta} K_2MnO_4 + MnO_2 + O_2\\uparrow$", "固体加热型"], ["加热KClO₃", "$2KClO_3 \\xrightarrow[MnO_2]{\\Delta} 2KCl + 3O_2\\uparrow$", "固体加热型"], ["分解H₂O₂", "$2H_2O_2 \\xrightarrow{MnO_2} 2H_2O + O_2\\uparrow$", "固液常温型"]] },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "选择发生装置依据：反应物状态+反应条件。固体+加热→固体加热型；固体+液体+常温→固液常温型。" }
+      ]
+    },
+    {
+      "title": "催化剂",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**催化剂**：能改变反应速率，而本身质量和化学性质在反应前后不变的物质。\"一变两不变\"。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "\"改变\"包括加快和减慢，不是只有加快。催化剂不参与反应后不会被消耗。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：催化剂",
+      "problem": [{ "type": "paragraph", "content": "关于催化剂说法正确的是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 能加快反应速率", "B. 反应后质量减小", "C. 反应后化学性质改变", "D. 没有催化剂反应不能发生"] }],
+      "solution": [{ "type": "paragraph", "content": "催化剂改变（加快或减慢）反应速率，反应前后质量和化学性质不变。" }],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "实验室制O₂", "children": [{ "text": "加热KMnO₄、加热KClO₃、分解H₂O₂" }] },
+    { "text": "催化剂", "children": [{ "text": "一变两不变" }] }
+  ]
+}

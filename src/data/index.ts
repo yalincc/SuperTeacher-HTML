@@ -1,29 +1,68 @@
-import type { LessonData } from '../types'
+import type { CourseConfig, LessonData, ExerciseData, Exercise } from '../types'
 
-import lesson1 from './lessons/lesson-01.json'
-import lesson2 from './lessons/lesson-02.json'
-import lesson3 from './lessons/lesson-03.json'
-import lesson4 from './lessons/lesson-04.json'
-import lesson5 from './lessons/lesson-05.json'
-import lesson6 from './lessons/lesson-06.json'
-import lesson7 from './lessons/lesson-07.json'
-import lesson8 from './lessons/lesson-08.json'
-import lesson9 from './lessons/lesson-09.json'
-import lesson10 from './lessons/lesson-10.json'
+// ===== 自动扫描 courses/ 目录 =====
+const courseModules = import.meta.glob<{ default: CourseConfig }>('./courses/*/course.json', { eager: true })
+const lessonModules = import.meta.glob<{ default: LessonData }>('./courses/*/lesson-[0-9][0-9].json', { eager: true })
+const exerciseModules = import.meta.glob<{ default: ExerciseData }>('./courses/*/*-exercises.json', { eager: true })
 
-export const lessonIndex: LessonData[] = [
-  lesson1 as LessonData,
-  lesson2 as LessonData,
-  lesson3 as LessonData,
-  lesson4 as LessonData,
-  lesson5 as LessonData,
-  lesson6 as LessonData,
-  lesson7 as LessonData,
-  lesson8 as LessonData,
-  lesson9 as LessonData,
-  lesson10 as LessonData,
-]
+// ===== 构建课程列表 =====
+export interface CourseWithLessons extends CourseConfig {
+  lessonData: LessonData[]
+  exerciseMap: Map<number, ExerciseData>
+}
 
-export function getLessonById(id: number): LessonData | undefined {
-  return lessonIndex.find((l) => l.meta.id === id)
+function buildCourses(): CourseWithLessons[] {
+  const courses: CourseWithLessons[] = []
+
+  for (const [path, mod] of Object.entries(courseModules)) {
+    const config = mod.default
+    const courseId = config.id
+
+    // 收集该课程的所有课时
+    const lessonData: LessonData[] = []
+    for (const [lessonPath, lessonMod] of Object.entries(lessonModules)) {
+      if (lessonPath.includes(`/courses/${courseId}/`)) {
+        lessonData.push(lessonMod.default)
+      }
+    }
+    lessonData.sort((a, b) => a.meta.id - b.meta.id)
+
+    // 收集该课程的所有练习题
+    const exerciseMap = new Map<number, ExerciseData>()
+    for (const [exPath, exMod] of Object.entries(exerciseModules)) {
+      if (exPath.includes(`/courses/${courseId}/`)) {
+        const data = exMod.default
+        exerciseMap.set(data.lessonId, data)
+      }
+    }
+
+    courses.push({ ...config, lessonData, exerciseMap })
+  }
+
+  // 按 course.json 中的顺序排列
+  return courses
+}
+
+export const courses = buildCourses()
+
+if (import.meta.env.DEV) {
+  console.log('[SuperTeacher] courses loaded:', courses.length, courses.map(c => c.id))
+}
+
+export function getCourseById(id: string): CourseWithLessons | undefined {
+  return courses.find((c) => c.id === id)
+}
+
+export function getLessonById(courseId: string, lessonId: number): LessonData | undefined {
+  const course = getCourseById(courseId)
+  return course?.lessonData.find((l) => l.meta.id === lessonId)
+}
+
+export function getExercisesByLessonId(courseId: string, lessonId: number): Exercise[] {
+  const course = getCourseById(courseId)
+  if (!course) return []
+  const separate = course.exerciseMap.get(lessonId)
+  if (separate) return separate.exercises
+  const lesson = course.lessonData.find((l) => l.meta.id === lessonId)
+  return lesson?.exercises ?? []
 }

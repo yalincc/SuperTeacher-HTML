@@ -1,0 +1,38 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-分子和原子", "title": "分子和原子", "unit": "第三单元", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "了解分子、原子的概念和基本性质", "isKeyPoint": true },
+    { "text": "理解分子运动现象", "isKeyPoint": false },
+    { "text": "掌握用分子、原子观点解释宏观现象", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "分子",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**分子**是保持物质化学性质的最小粒子。分子很小（直径约$10^{-10}$m），在不断运动，分子之间有间隔。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "分子是保持物质**化学性质**的最小粒子，不是保持物质性质的最小粒子（物理性质由大量分子集合体表现）。" }
+      ]
+    },
+    {
+      "title": "原子",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**原子**是化学变化中的最小粒子。在化学变化中，分子可以再分，原子不能再分。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "化学变化的实质：分子分裂为原子，原子重新组合成新的分子。原子是化学变化中的最小粒子。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：分子性质",
+      "problem": [{ "type": "paragraph", "content": "下列现象不能说明分子在运动的是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 花开闻香", "B. 湿衣服晾干", "C. 糖溶于水", "D. 沙尘暴"] }],
+      "solution": [{ "type": "paragraph", "content": "A花香分子扩散、B水分子蒸发、C糖分子扩散都能说明分子运动。沙尘暴是宏观粒子运动，不能说明分子运动。" }],
+      "answer": "D"
+    }
+  ],
+  "summary": [
+    { "text": "分子", "children": [{ "text": "保持化学性质的最小粒子" }, { "text": "不断运动，有间隔" }] },
+    { "text": "原子", "children": [{ "text": "化学变化中的最小粒子" }, { "text": "化学变化中不可再分" }] }
+  ]
+}

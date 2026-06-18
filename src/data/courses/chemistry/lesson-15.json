@@ -1,0 +1,40 @@
+{
+  "meta": { "id": 15, "slug": "lesson-15-碳的氧化物", "title": "碳的氧化物", "unit": "第六单元", "week": 7, "day": 1 },
+  "objectives": [
+    { "text": "掌握CO和CO₂的性质对比", "isKeyPoint": true },
+    { "text": "了解CO的毒性和CO₂的温室效应", "isKeyPoint": false },
+    { "text": "理解CO和CO₂的相互转化", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "CO与CO₂性质对比",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "table", "headers": ["性质", "CO", "CO₂"], "rows": [["毒性", "有毒", "无毒"], ["可燃性", "可燃", "不可燃"], ["还原性", "有（还原CuO）", "无"], ["与水", "不反应", "生成碳酸"], ["与石灰水", "不反应", "变浑浊"]] },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "CO有剧毒！与血红蛋白结合使人缺氧中毒。冬天取暖注意通风防CO中毒。" }
+      ]
+    },
+    {
+      "title": "CO与CO₂的转化",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "equation", "latex": "2CO + O_2 \\xrightarrow{点燃} 2CO_2", "display": true },
+        { "type": "equation", "latex": "CO_2 + C \\xrightarrow{高温} 2CO", "display": true },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "CO→CO₂：点燃或还原金属氧化物。CO₂→CO：与碳在高温下反应。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：CO₂检验",
+      "problem": [{ "type": "paragraph", "content": "检验CO₂的常用方法是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 通入紫色石蕊试液", "B. 通入澄清石灰水", "C. 点燃", "D. 通入水中"] }],
+      "solution": [{ "type": "paragraph", "content": "CO₂能使澄清石灰水变浑浊（生成CaCO₃沉淀），这是CO₂的特征反应。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "CO", "children": [{ "text": "有毒、可燃、有还原性" }] },
+    { "text": "CO₂", "children": [{ "text": "无毒、不可燃、使石灰水变浑浊" }] },
+    { "text": "转化", "children": [{ "text": "CO→CO₂（点燃）；CO₂→CO（+C高温）" }] }
+  ]
+}

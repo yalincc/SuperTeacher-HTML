@@ -1,6 +1,8 @@
-import type { UserProgress, LessonProgress, ExerciseResult, ProgressStats } from '@/types'
+import type { UserProgress, LessonProgress, ExerciseResult, ProgressStats } from '../types'
 
-const STORAGE_KEY = 'superteacher_progress'
+function getStorageKey(courseId: string): string {
+  return `superteacher_progress_${courseId}`
+}
 
 function createEmptyProgress(): UserProgress {
   return {
@@ -16,9 +18,9 @@ function createEmptyProgress(): UserProgress {
 }
 
 /** 从 localStorage 读取进度 */
-export function loadProgress(): UserProgress {
+export function loadProgress(courseId: string): UserProgress {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY)
+    const raw = localStorage.getItem(getStorageKey(courseId))
     if (!raw) return createEmptyProgress()
     const data = JSON.parse(raw) as UserProgress
     if (data.version !== 1) return createEmptyProgress()
@@ -29,8 +31,8 @@ export function loadProgress(): UserProgress {
 }
 
 /** 保存进度到 localStorage */
-export function saveProgress(progress: UserProgress): void {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
+export function saveProgress(courseId: string, progress: UserProgress): void {
+  localStorage.setItem(getStorageKey(courseId), JSON.stringify(progress))
 }
 
 /** 获取某课时的进度 */
@@ -43,6 +45,7 @@ export function getLessonProgress(
 
 /** 更新某课时的某道练习结果，并重新计算统计 */
 export function updateExerciseResult(
+  courseId: string,
   progress: UserProgress,
   lessonId: number,
   exerciseId: string,
@@ -56,22 +59,21 @@ export function updateExerciseResult(
 
   lessonProgress.exerciseResults[exerciseId] = result
 
-  // 检查是否所有练习都已完成（简化逻辑：只要有任何回答就算进行中）
   const results = Object.values(lessonProgress.exerciseResults)
   if (results.every((r) => r.answered)) {
     lessonProgress.completedAt = Date.now()
   }
 
   progress.lessons[key] = lessonProgress
-
-  // 重新计算全局统计
   progress.stats = recalculateStats(progress)
 
+  saveProgress(courseId, progress)
   return progress
 }
 
 /** 标记知识点已阅读 */
 export function markKnowledgeRead(
+  courseId: string,
   progress: UserProgress,
   lessonId: number
 ): UserProgress {
@@ -82,6 +84,7 @@ export function markKnowledgeRead(
   }
   lessonProgress.knowledgeRead = true
   progress.lessons[key] = lessonProgress
+  saveProgress(courseId, progress)
   return progress
 }
 
@@ -120,7 +123,7 @@ function recalculateStats(progress: UserProgress): ProgressStats {
   return { totalCompleted, totalCorrect, totalAttempted, wrongExercises }
 }
 
-/** 重置所有进度（调试用） */
-export function resetProgress(): void {
-  localStorage.removeItem(STORAGE_KEY)
+/** 重置某课程进度 */
+export function resetProgress(courseId: string): void {
+  localStorage.removeItem(getStorageKey(courseId))
 }

@@ -1,0 +1,9 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    { "type": "choice", "id": "ex-10-1", "stem": "电解水时正极产生的气体是（  ）", "options": [{ "label": "A", "text": "氢气" }, { "label": "B", "text": "氧气" }, { "label": "C", "text": "氮气" }, { "label": "D", "text": "空气" }], "answer": "B", "analysis": "正氧负氢，正极产生氧气。" },
+    { "type": "choice", "id": "ex-10-2", "stem": "电解水实验证明了水是由（  ）组成的", "options": [{ "label": "A", "text": "氢气和氧气" }, { "label": "B", "text": "氢元素和氧元素" }, { "label": "C", "text": "氢原子和氧原子" }, { "label": "D", "text": "两个氢原子和一个氧原子" }], "answer": "B", "analysis": "电解水生成H₂和O₂，证明水由氢元素和氧元素组成。" },
+    { "type": "true_false", "id": "ex-10-3", "stem": "电解水时氢气和氧气的体积比为1:2。", "answer": false, "analysis": "氢气和氧气的体积比为2:1（氢二氧一）。" },
+    { "type": "fill", "id": "ex-10-4", "segments": ["电解水实验中，正极产生氧气，负极产生氢气，体积比为", "___1___", "。检验氧气用", "___2___", "。"], "blanks": [{ "index": 1, "answer": "1:2" }, { "index": 2, "answer": "带火星木条" }], "analysis": "正氧负氢，体积比1:2。氧气使带火星木条复燃。" }
+  ]
+}

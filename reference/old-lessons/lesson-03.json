@@ -1,0 +1,49 @@
+{
+  "meta": { "id": 3, "slug": "lesson-03-我们周围的空气", "title": "我们周围的空气", "unit": "第二单元", "week": 2, "day": 1 },
+  "objectives": [
+    { "text": "了解空气的组成成分及各成分的体积分数", "isKeyPoint": true },
+    { "text": "掌握测定空气中氧气含量的实验原理", "isKeyPoint": true },
+    { "text": "了解空气污染的危害和防治", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "空气的组成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "空气按体积计算：$N_2$ 约78%，$O_2$ 约21%，稀有气体约0.94%，$CO_2$ 约0.03%，其他气体和杂质约0.03%。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "空气成分是按体积分数计算，不是质量分数。氮气最多（78%），不是氧气。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "记忆口诀：氮七八、氧二一、零点九四是稀气、零点零三有两个——二氧化碳和杂气。" }
+      ]
+    },
+    {
+      "title": "测定空气中氧气含量",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**实验原理**：利用红磷燃烧消耗密闭容器中的氧气，使容器内压强减小，水倒流入容器，进入水的体积即为氧气的体积。" },
+        { "type": "equation", "latex": "4P + 5O_2 \\xrightarrow{点燃} 2P_2O_5", "display": true },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "不能用木炭或硫代替红磷！木炭燃烧生成CO₂气体，硫燃烧生成SO₂气体，容器内压强变化不明显，水不会倒流。" }
+      ]
+    },
+    {
+      "title": "空气污染",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "主要污染物：$SO_2$、$NO_2$、$CO$、可吸入颗粒物（PM2.5、PM10）。" },
+        { "type": "list", "ordered": false, "items": ["使用清洁能源", "工厂废气处理后排放", "植树造林", "绿色出行"] }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：空气成分",
+      "problem": [{ "type": "paragraph", "content": "空气中体积分数约占78%的气体是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 氧气", "B. 氮气", "C. 二氧化碳", "D. 稀有气体"] }],
+      "solution": [{ "type": "paragraph", "content": "氮气约占空气体积的78%，是空气中含量最多的气体。" }],
+      "answer": "B",
+      "source": "2022广东中考"
+    }
+  ],
+  "summary": [
+    { "text": "空气组成（体积分数）", "children": [{ "text": "N₂ 78%、O₂ 21%、稀有气体 0.94%、CO₂ 0.03%" }] },
+    { "text": "测定氧气含量", "children": [{ "text": "红磷燃烧法：消耗O₂，水倒流" }, { "text": "不能用木炭或硫代替" }] }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    { "type": "choice", "id": "ex-11-1", "stem": "H₂O不能表示的意义是（  ）", "options": [{ "label": "A", "text": "水这种物质" }, { "label": "B", "text": "水由氢氧元素组成" }, { "label": "C", "text": "一个水分子" }, { "label": "D", "text": "水分子由氢气和氧气组成" }], "answer": "D", "analysis": "水分子由氢原子和氧原子组成，不是氢气和氧气。" },
+    { "type": "choice", "id": "ex-11-2", "stem": "水中氢元素的化合价为（  ）", "options": [{ "label": "A", "text": "+1" }, { "label": "B", "text": "-1" }, { "label": "C", "text": "+2" }, { "label": "D", "text": "-2" }], "answer": "A", "analysis": "水中H为+1价，O为-2价。" },
+    { "type": "true_false", "id": "ex-11-3", "stem": "化合物中各元素化合价代数和为零。", "answer": true, "analysis": "这是化合价的基本规则。" },
+    { "type": "fill", "id": "ex-11-4", "segments": ["化合物中各元素化合价代数和为", "___1___", "。水中氧元素化合价为", "___2___", "。"], "blanks": [{ "index": 1, "answer": "零" }, { "index": 2, "answer": "-2" }], "analysis": "化合价代数和为零，水中O为-2价。" }
+  ]
+}

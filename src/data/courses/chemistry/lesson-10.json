@@ -1,0 +1,48 @@
+{
+  "meta": { "id": 10, "slug": "lesson-10-水的组成", "title": "水的组成", "unit": "第四单元", "week": 5, "day": 2 },
+  "objectives": [
+    { "text": "了解水的物理性质", "isKeyPoint": false },
+    { "text": "掌握电解水实验的现象和结论", "isKeyPoint": true },
+    { "text": "理解水是由氢元素和氧元素组成的", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "水的物理性质",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "纯水是无色、无味、无臭的透明液体。在标准大气压下，水的凝固点是$0^\\circ C$，沸点是$100^\\circ C$。水在$4^\\circ C$时密度最大（$1\\text{g/cm}^3$）。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "冰的密度比水小，所以冰能浮在水面上。这是水的特殊性质，大多数物质固态密度大于液态。" }
+      ]
+    },
+    {
+      "title": "电解水实验",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "电解水实验：正极产生氧气，负极产生氢气，体积比为1:2。" },
+        { "type": "equation", "latex": "2H_2O \\xrightarrow{通电} 2H_2\\uparrow + O_2\\uparrow", "display": true },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "正氧负氢，氢二氧一。注意是体积比1:2，不是质量比。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "记忆：正氧负氢，氢二氧一。检验氧气用带火星木条（复燃），检验氢气用燃着木条（淡蓝色火焰）。" }
+      ]
+    },
+    {
+      "title": "水的组成结论",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "电解水生成氢气和氧气，说明水是由**氢元素**和**氧元素**组成的。从微观角度看，每个水分子由2个氢原子和1个氧原子构成。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "证明物质组成的方法：通过化学反应生成新物质，从生成物的元素组成推断反应物的元素组成。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：电解水",
+      "problem": [{ "type": "paragraph", "content": "电解水实验中，正极产生的气体是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 氢气", "B. 氧气", "C. 氮气", "D. 二氧化碳"] }],
+      "solution": [{ "type": "paragraph", "content": "电解水时正极产生氧气，负极产生氢气。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "水的物理性质", "children": [{ "text": "无色无味透明液体" }, { "text": "4°C时密度最大" }] },
+    { "text": "电解水", "children": [{ "text": "正氧负氢，氢二氧一" }, { "text": "水由氢元素和氧元素组成" }] }
+  ]
+}

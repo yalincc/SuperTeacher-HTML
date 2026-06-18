@@ -1,7 +1,7 @@
 # SuperTeacher-HTML 项目结构说明
 
 > 初中化学互动教学网页应用，基于 React + Vite + Tailwind CSS v4 构建。
-> 数据流：Markdown 课程文档 → 脚本转换 → JSON → React 渲染
+> 数据流：AI 直接生成 JSON → React 渲染
 
 ---
 
@@ -35,20 +35,21 @@
 
 | 文件/目录 | 说明 |
 |-----------|------|
-| `course.json` | **课程总配置**：课时列表、周计划、功能开关、路径配置 |
 | `vite.config.ts` | Vite 构建配置，含 Tailwind CSS v4 插件和 `@/` 路径别名 |
 | `index.html` | SPA 入口 HTML |
-| `package.json` | 依赖管理，核心脚本：`dev`、`convert`、`build` |
+| `package.json` | 依赖管理，核心脚本：`dev`、`build`、`validate` |
 | `tsconfig.app.json` | TypeScript 应用配置 |
 | `vercel.json` | Vercel 部署配置（SPA 路由回退） |
 | `public/gifs/` | 答题 GIF 动画文件（correct.gif / wrong.gif） |
+| `.agents/` | MiMoCode AI skill 目录（project-manager） |
+| `.qoder/` | Qoder AI 工作目录（generate-lesson skill + repowiki） |
 
 ## 常用命令
 
 ```bash
 npm run dev        # 启动 Vite 开发服务器
-npm run convert    # 运行 MD→JSON 转换脚本
-npm run build      # convert + vite build（生产构建）
+npm run build      # vite build（生产构建）
+npm run validate   # 校验所有课程 JSON
 npm run preview    # 预览生产构建
 ```
 
@@ -58,18 +59,14 @@ npm run preview    # 预览生产构建
 
 | 文件/目录 | 说明 |
 |-----------|------|
-| `curriculum/` | **课程 Markdown 原稿**（10 个课时），是内容数据的唯一来源 |
-| `curriculum/lesson-XX-xxx.md` | 单课时 MD 文件，结构：`## 一、学习目标` → `## 二、知识点梳理` → `## 三、典型例题` → `## 四、课后练习` → `## 五、本课小结` |
-| `curriculum/README.md` | 课程原稿编写规范 |
+| `curriculum/` | **课程 Markdown 原稿**（旧版 10 课时），参考用 |
+| `curriculum-v2.0/` | 课程原稿 v2（新格式） |
 | `curriculum-format.md` | MD 格式详细说明（block 类型、公式写法等） |
 | `design/preview/` | **静态 HTML 设计稿**，用于在改 React 代码前验证视觉效果 |
-| `design/preview/chemistry-skin-preview.html` | "实验橙"主题皮肤设计稿（含所有组件的视觉预览） |
-| `system-design.md` | 系统设计文档 v1 |
-| `system-design-v2.md` | 系统设计文档 v2 |
-| `v1.3-plan.md` | v1.3 版本规划 |
-| `v1.3-implementation.md` | v1.3 实施进度跟踪（含完成状态和日期） |
+| `v1.3-plan.md` ~ `v1.9-plan.md` | 各版本规划文档 |
+| `v1.3-implementation.md` ~ `v1.9-implementation.md` | 各版本实施进度 |
 | `roadmap.md` | 项目路线图 |
-| `version.md` | 版本号记录 |
+| `version.md` | 版本更新日志 |
 | `index.md` | 本文件 — 项目结构说明 |
 
 ---
@@ -78,14 +75,12 @@ npm run preview    # 预览生产构建
 
 | 文件 | 说明 |
 |------|------|
-| `convert-md.mjs` | ~~MD→JSON 转换脚本~~（v1.5 起废弃，新课时由 AI 直接生成 JSON） |
-| `fix-md-format.mjs` | MD 公式格式修正脚本（修正 LaTeX `\text{}` 包裹、内联公式位置） |
+| `validate-lesson.mjs` | 课程 JSON 校验脚本（扫描 courses/ 目录，检查知识点和练习题格式） |
 
 ### 数据流
 
 ```
-AI 直接生成 JSON  ──→  src/data/lessons/*.json
-                      （convert-md.mjs 已废弃）
+AI 直接生成 JSON  ──→  src/data/courses/{subject}/lesson-XX.json
 ```
 
 ---
@@ -96,113 +91,114 @@ AI 直接生成 JSON  ──→  src/data/lessons/*.json
 
 全局 TypeScript 类型定义，是整个项目的数据契约：
 
-- **课程配置**：`CourseConfig`、`LessonMeta`
+- **课程配置**：`CourseConfig`（含 `id` 字段）、`LessonMeta`
 - **课时数据**：`LessonData`、`Objective`、`KnowledgeSection`
 - **内容块**（核心抽象）：`ContentBlock` = `ParagraphBlock | TableBlock | CalloutBlock | EquationBlock | ListBlock | AnimationBlock`
 - **例题/练习**：`Example`、`Exercise`（`ChoiceExercise | TrueFalseExercise | FillExercise | ShortAnswerExercise`）
 - **学习进度**：`UserProgress`、`LessonProgress`、`ExerciseResult`
 - **游戏状态**：`GameState`（心数 + 解锁进度）
 
-### `src/config/` — 应用配置
+### `src/data/` — 课时数据（多学科架构）
 
-| 文件 | 说明 |
-|------|------|
-| `course.ts` | 导入 `course.json` 并导出带类型的课程配置 |
-| `index.ts` | 配置统一导出入口 |
+```
+src/data/
+├── courses/
+│   ├── chemistry/           ← 初中化学（19 课，2024人教版）
+│   │   ├── course.json      ← 课程配置（id: "chemistry"）
+│   │   ├── lesson-00.json   ← 绪论
+│   │   ├── lesson-01.json ~ lesson-18.json
+│   │   └── *-exercises.json
+│   ├── physics/             ← 初二物理
+│   │   ├── course.json
+│   │   └── lesson-01.json（声现象）
+│   └── math/                ← 初一数学（占位）
+│       └── course.json
+├── index.ts                 ← import.meta.glob 自动扫描，聚合导出
+```
 
-### `src/data/` — 课时数据
-
-| 文件 | 说明 |
-|------|------|
-| `lessons/lesson-XX.json` | 课时 JSON（v1.5 起由 AI 直接生成，~~convert-md.mjs~~ 已废弃） |
-| `index.ts` | 索引：导入所有课时 JSON，提供 `getLessonById(id)` 查询函数 |
-
-### `src/utils/` — 工具函数
-
-| 文件 | 说明 |
-|------|------|
-| `formula.ts` | 化学公式标准化（上下标统一、科学记数法），用于填空题答案比对 |
-| `storage.ts` | localStorage 读写封装：`loadProgress`、`saveProgress`、`updateExerciseResult`、`markKnowledgeRead` |
-| `renderInline.tsx` | Markdown 内联渲染（`$...$` KaTeX 公式 + `**bold**` + `*italic*`），供所有文本组件使用 |
-
-### `src/hooks/` — React Hooks
-
-| 文件 | 说明 |
-|------|------|
-| `ProgressContext.ts` | 学习进度的 React Context |
-| `useProgress.ts` | 进度管理 Hook，封装 localStorage 读写，自动持久化 |
-| `useGame.ts` | 游戏状态 Hook：心数管理 + 模块解锁进度，localStorage 持久化 |
+**加新学科**：在 `courses/` 下新建目录 + 放入文件，首页自动出现，无需改代码。
 
 ### `src/pages/` — 页面组件
 
 | 文件 | 说明 |
 |------|------|
-| `HomePage.tsx` | 首页：课时卡片列表，显示完成状态和进度条，点击进入知识点页 |
-| `LessonPage.tsx` | 知识点页面（`/lesson/:id`）：Hero 仪表盘 + 阅读进度条 + 翻卡自测 + sticky「开始挑战」 |
-| `GamePage.tsx` | 游戏页面（`/lesson/:id/game`）：一题一屏 + 反馈动画 + 心数 + 通关撒花 + 全屏覆盖 |
+| `HomePage.tsx` | 首页：学科选择卡片页 |
+| `CoursePage.tsx` | 课程页：某学科的课时列表 |
+| `LessonPage.tsx` | 知识点页面（`/course/:courseId/lesson/:id`）：Tab UI 四区块浏览 |
+| `GamePage.tsx` | 游戏页面（`/course/:courseId/lesson/:id/game`）：一题一屏 + 反馈动画 |
 
 ### `src/components/` — UI 组件
 
-#### `components/layout/` — 布局
+#### `components/layout/`
 
 | 文件 | 说明 |
 |------|------|
-| `AppLayout.tsx` | 全局布局：顶部导航栏 + 内容区，`max-w-[900px]` 居中，橙色主题 |
+| `AppLayout.tsx` | 全局布局：顶部导航栏 + 内容区，支持多学科导航 |
 
-#### `components/knowledge/` — 知识点展示
-
-| 文件 | 说明 |
-|------|------|
-| `SectionObjectives.tsx` | 一、学习目标区（星标重点 + 普通目标列表） |
-| `SectionKnowledge.tsx` | 二、知识点卡片区（可折叠，暖黄背景 + 左侧橙条） |
-| `ContentRenderer.tsx` | **内容块分发器**：根据 `block.type` 分发到对应的 Block 组件 |
-| `SectionExamples.tsx` | 三、典型例题区（题目 + 答案 + 解析） |
-| `SectionSummary.tsx` | 五、本课小结区（树状结构） |
-
-#### `components/knowledge/blocks/` — 内容块组件
+#### `components/knowledge/`
 
 | 文件 | 说明 |
 |------|------|
-| `ParagraphBlock.tsx` | 段落块：支持 KaTeX 公式 + 加粗 + 斜体内联渲染 |
-| `TableBlock.tsx` | 表格块：橙色表头 + 斑马纹 |
-| `CalloutBlock.tsx` | 提示框块：4 种变体（warning/tip/note/mnemonic），渐变背景 |
-| `EquationBlock.tsx` | 公式块：KaTeX 渲染，暖黄背景 + 左侧橙条 |
-| `ListBlock.tsx` | 列表块：有序/无序，橙色标记 |
-| `AnimationBlock.tsx` | GIF 动画块：用于知识点中插入 GIF 动图 |
+| `SectionObjectives.tsx` | 学习目标区（卡片式目标） |
+| `SectionKnowledge.tsx` | 知识点卡片区（卡片流） |
+| `ContentRenderer.tsx` | 内容块分发器 |
+| `SectionExamples.tsx` | 典型例题区（翻卡式自测） |
+| `SectionSummary.tsx` | 本课小结区（树状结构） |
 
-#### `components/exercises/` — 练习题
+#### `components/knowledge/blocks/`
 
 | 文件 | 说明 |
 |------|------|
-| `SectionExercises.tsx` | 四、课后练习区（按题型分组） |
-| `ExerciseEngine.tsx` | 练习引擎：管理答题状态、提交验证 |
-| `AnswerReveal.tsx` | 解析展开组件（橙色配色 + 淡入动画） |
-| `AnswerAnimation.tsx` | 答题 GIF 动画组件（答对/答错全屏动画，1.5秒自动消失） |
-| `types/ChoiceExercise.tsx` | 选择题：卡片式选项、状态驱动样式（选中橙/正确绿/错误红） |
+| `ParagraphBlock.tsx` | 段落块：KaTeX + 加粗 + 斜体 |
+| `TableBlock.tsx` | 表格块：圆角卡片 + renderInline |
+| `CalloutBlock.tsx` | 提示框块：4 种变体 |
+| `EquationBlock.tsx` | 公式块：KaTeX 渲染 |
+| `ListBlock.tsx` | 列表块：自定义标记 |
+| `AnimationBlock.tsx` | GIF 动画块 |
+
+#### `components/exercises/`
+
+| 文件 | 说明 |
+|------|------|
+| `ExerciseEngine.tsx` | 练习引擎 |
+| `AnswerReveal.tsx` | 解析展开组件 |
+| `AnswerAnimation.tsx` | 答题 GIF 动画 |
+| `types/ChoiceExercise.tsx` | 选择题 |
 | `types/TrueFalseExercise.tsx` | 判断题 |
-| `types/FillExercise.tsx` | 填空题（含公式标准化比对） |
+| `types/FillExercise.tsx` | 填空题 |
 | `types/ShortAnswerExercise.tsx` | 简答题 |
 
-#### `components/ui/` — 通用 UI
+### `src/hooks/` — React Hooks
 
 | 文件 | 说明 |
 |------|------|
-| `KaTeX.tsx` | KaTeX 公式渲染封装（inline 和 display 模式） |
+| `ProgressContext.ts` | 学习进度 Context（按 courseId 隔离） |
+| `useProgress.ts` | 进度管理 Hook |
+| `useGame.ts` | 游戏状态 Hook（按 courseId 隔离） |
+
+### `src/utils/` — 工具函数
+
+| 文件 | 说明 |
+|------|------|
+| `formula.ts` | 化学公式标准化 |
+| `storage.ts` | localStorage 读写（key 含 courseId 前缀） |
+| `renderInline.tsx` | Markdown 内联渲染 |
 
 ### `src/` 根文件
 
 | 文件 | 说明 |
 |------|------|
-| `main.tsx` | React 入口，挂载 `<App />` |
-| `App.tsx` | 路由配置（3 路由：`/` / `/lesson/:id` / `/lesson/:id/game`），ProgressProvider + GameProvider 包裹 |
-| `index.css` | 全局 CSS：Tailwind v4 `@theme` 变量（橙色主题色系）+ 自定义动画（slide-up、fade-in） |
+| `main.tsx` | React 入口 |
+| `App.tsx` | 路由配置（`/` 学科选择 → `/course/:courseId` → `/course/:courseId/lesson/:id`） |
+| `index.css` | 全局 CSS：Apple 风主题 + Tailwind v4 `@theme` |
 
 ---
 
 ## `reference/` — 参考资料
 
-| 文件 | 说明 |
-|------|------|
+| 文件/目录 | 说明 |
+|-----------|------|
+| `old-lessons/` | 旧版 10 课化学 JSON 备份 |
 | `LiaScript项目思路借鉴.md` | LiaScript 竞品分析 |
 | `SuperTeacher-Qoder.md` | 项目初始规划文档 |
 | `SuperTeacher框架竞品分析报告.md` | 竞品分析报告 |
@@ -212,9 +208,11 @@ AI 直接生成 JSON  ──→  src/data/lessons/*.json
 
 ## 关键架构决策
 
-1. **数据与渲染分离**：AI 直接生成课时 JSON → React 渲染（~~convert-md.mjs~~ 已废弃）
-2. **内容块抽象**（`ContentBlock`）：6 种 block 类型（含 AnimationBlock），新增类型只需扩展 union + 添加 Block 组件
+1. **数据与渲染分离**：AI 直接生成课时 JSON → React 渲染
+2. **内容块抽象**（`ContentBlock`）：6 种 block 类型，新增类型只需扩展 union + 添加 Block 组件
 3. **纯前端静态部署**：无后端，进度 + 游戏状态存 localStorage，部署到 Vercel
 4. **设计稿先行**：`docs/design/preview/` 里的静态 HTML 是视觉决策源头
 5. **Tailwind CSS v4**：`@theme` 语义化颜色变量，组件用 token 而非硬编码色值
-6. **知识点 + 游戏分离**（v1.6）：`/lesson/:id` 纯阅读，`/lesson/:id/game` 互动答题，体验风格各异
+6. **多学科架构**（v1.8）：`courses/` 目录按学科分组，`import.meta.glob` 自动发现，加新学科零代码改动
+7. **renderInline 渲染规范**：所有 `text` 类型字段输出时**必须**调用 `renderInline()`，支持 `$...$` KaTeX 公式和 `**bold**`
+8. **AI Skill 体系**：project-manager（版本管理）+ generate-lesson（课程生成），全局安装在 `~/.agents/skills/`

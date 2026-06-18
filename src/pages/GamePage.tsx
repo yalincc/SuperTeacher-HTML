@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { getLessonById } from '@/data'
+import { getLessonById, getExercisesByLessonId } from '@/data'
 import { useProgressContext } from '@/hooks/ProgressContext'
 import { useGameContext } from '@/hooks/useGame'
 import { useState, useMemo, useEffect } from 'react'
@@ -72,18 +72,17 @@ function Stars({ count }: { count: number }) {
 
 // ─── Main ────────────────────────────────────────────────────────────────────
 function GamePage() {
-  const { id } = useParams<{ id: string }>()
+  const { courseId, id } = useParams<{ courseId: string; id: string }>()
   const navigate = useNavigate()
   const lessonId = Number(id)
-  const lesson = getLessonById(lessonId)
+  const lesson = getLessonById(courseId || '', lessonId)
   const { answerExercise, getExerciseResults } = useProgressContext()
   const { hearts, resetHearts, useHeart } = useGameContext()
 
   const savedResults = lesson ? getExerciseResults(lessonId) : undefined
-  // 游戏模式只包含选择题和判断题
   const exercises = useMemo(
-    () => (lesson?.exercises ?? []).filter((e) => GAME_TYPES.has(e.type)),
-    [lesson],
+    () => getExercisesByLessonId(courseId || '', lessonId).filter((e) => GAME_TYPES.has(e.type)),
+    [courseId, lessonId],
   )
 
   const [current, setCurrent] = useState(0)
@@ -193,7 +192,7 @@ function GamePage() {
         <div className="max-w-2xl mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             {/* 返回 */}
-            <Link to={`/lesson/${lessonId}`} className="text-text-muted hover:text-text transition">
+            <Link to={`/course/${courseId}/lesson/${lessonId}`} className="text-text-muted hover:text-text transition">
               <X className="w-5 h-5" />
             </Link>
 
@@ -285,7 +284,7 @@ function GamePage() {
                   再来一次
                 </button>
                 <button
-                  onClick={() => navigate(`/lesson/${lessonId + 1}`)}
+                  onClick={() => navigate(`/course/${courseId}/lesson/${lessonId + 1}`)}
                   className="flex-1 py-3 bg-primary text-white rounded-full font-medium hover:bg-primary-dark transition flex items-center justify-center gap-1.5 text-sm shadow-md"
                 >
                   下一课

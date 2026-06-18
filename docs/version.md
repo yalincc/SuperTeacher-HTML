@@ -1,6 +1,94 @@
 # 更新日志 (Changelog)
 
-> SuperTeacher-HTML — Markdown 教案 → 互动教学网页 转换框架
+> SuperTeacher-HTML — 初中化学互动教学网页应用
+
+---
+
+## v2.0 (2026-06-18)
+
+> 物理课程完整生成 — 12章知识点 + 练习题（人教版八年级全一册）
+
+### ✨ 新增
+- **物理课程 12 课** — 按 2024 人教版八年级物理教材目录生成（id 1-12）
+  - 6 单元 12 章，完整覆盖教材内容
+  - 每课知识点 JSON + 练习题 JSON（共 24 文件）
+- **课程内容覆盖**：
+  - 第一单元：长度和时间的测量、声现象
+  - 第二单元：物态变化、光现象
+  - 第三单元：透镜及其应用、质量与密度
+  - 第四单元：力、运动和力
+  - 第五单元：压强、浮力
+  - 第六单元：功和机械能、简单机械
+- **练习题题型分布** — 每课 6-8 道（选择 3 + 判断 1-2 + 填空 1-2 + 简答 1）
+- **知识点结构** — 每课 3-4 个知识分区 + 2 道例题 + 4-5 个学习目标
+
+### 🔧 改造
+- **course.json** — 从 8 课扩展到 12 课，subtitle 更新为「人教版八年级全一册」
+- **课程组织** — 4 周 × 3 课/周，覆盖全部 12 章
+
+### 📝 文档
+- `docs/version.md` — v2.0 版本记录
+- `docs/roadmap.md` — 新增 P13 物理课程阶段
+
+### 🎨 改造文件
+| 文件 | 改动 |
+|------|------|
+| `src/data/courses/physics/course.json` | 12 课配置 + 4 周计划 |
+| `src/data/courses/physics/lesson-01.json` ~ `lesson-12.json` | 12 课知识点 |
+| `src/data/courses/physics/lesson-01-exercises.json` ~ `lesson-12-exercises.json` | 12 课练习题 |
+
+---
+
+## v1.9 (2026-06-18)
+
+> 化学课程按教材 19 课题重新生成 + generate-lesson skill 增强
+
+### ✨ 新增
+- **化学课程 19 课** — 按 2024 人教版九年级化学教材目录重新生成（id 0-18）
+  - 绪论 + 7 单元 18 课题，完整覆盖教材内容
+  - 每课知识点 JSON + 练习题 JSON（共 38 文件）
+- **generate-lesson skill 增强** — 新增课程质量审核功能
+  - 触发词：审核课程、检查课程、校验规范、课程质量
+  - 读取 SKILL.md 规范自动检查，不写死规则
+- **练习题规范统一** — 每课 4-6 道（选择 2-3 + 判断 1 + 填空 1）
+- **校验脚本适配** — 支持 id=0（绪论课）
+
+### 🔧 改造
+- **course.json** — 从 10 课扩展到 19 课，subtitle 更新为「人教版九年级上册（2024版）」
+- **校验脚本** — `validate-lesson.mjs` 扫描 `courses/*/lesson-*.json`，允许 id=0
+- **MEMORY.md** — 新增 Skill 必读规则（生成课程前/版本更新前强制读取 skill）
+
+### 📝 文档
+- `docs/index.md` — 全面同步多学科架构 + 19 课结构
+- `docs/v1.9-plan.md` — 化学课程对齐教材规划
+- `docs/v1.9-implementation.md` — 实施进度看板
+
+### 🎨 改造文件
+| 文件 | 改动 |
+|------|------|
+| `src/data/courses/chemistry/course.json` | 19 课配置 |
+| `src/data/courses/chemistry/lesson-00.json` ~ `lesson-18.json` | 19 课知识点 |
+| `src/data/courses/chemistry/lesson-00-exercises.json` ~ `lesson-18-exercises.json` | 19 课练习题 |
+| `scripts/validate-lesson.mjs` | 适配 id=0 + courses 目录扫描 |
+| `.agents/skills/generate-lesson/SKILL.md` | 新增审核功能 + 触发词更新 |
+
+---
+
+## v1.8 (2026-06-18)
+
+> AI Skill 体系搭建 + 项目文档同步
+
+### ✨ 新增
+- **project-manager skill** — 版本更新管理（version/update 同步 + index/ 同步）
+  - 全局安装于 `~/.agents/skills/project-manager/`
+- **generate-lesson skill** — 课程 JSON 生成（知识点 + 练习题）
+  - 全局安装于 `~/.agents/skills/generate-lesson/`
+  - 支持 `/generate-lesson <课号> <标题>` 触发
+
+### 📝 文档
+- `docs/index.md` — 全面更新目录结构（新增 v1.4~v1.7 文档、scripts 精简、架构决策第 7 条）
+- `docs/v1.7-implementation.md` — 补建 v1.7 实施进度看板
+- `docs/roadmap.md` — 新增 AI Skill 阶段，更新待办事项
 
 ---
 

@@ -1,0 +1,9 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    { "type": "choice", "id": "ex-5-1", "stem": "下列关于催化剂说法正确的是（  ）", "options": [{ "label": "A", "text": "能改变反应速率" }, { "label": "B", "text": "反应后质量减小" }, { "label": "C", "text": "反应后化学性质改变" }, { "label": "D", "text": "没有催化剂反应不能发生" }], "answer": "A", "analysis": "催化剂改变反应速率，质量和化学性质不变。" },
+    { "type": "choice", "id": "ex-5-2", "stem": "实验室用H₂O₂制O₂时加入MnO₂的作用是（  ）", "options": [{ "label": "A", "text": "增加O₂产量" }, { "label": "B", "text": "作催化剂加快反应" }, { "label": "C", "text": "作反应物" }, { "label": "D", "text": "防止爆炸" }], "answer": "B", "analysis": "MnO₂在H₂O₂分解中作催化剂，加快反应速率。" },
+    { "type": "true_false", "id": "ex-5-3", "stem": "工业制氧气采用分离液态空气法，属于化学变化。", "answer": false, "analysis": "分离液态空气利用沸点不同，属于物理变化。" },
+    { "type": "fill", "id": "ex-5-4", "segments": ["催化剂的特点是\"一变两不变\"：改变反应速率，", "___1___", "不变，", "___2___", "不变。"], "blanks": [{ "index": 1, "answer": "质量" }, { "index": 2, "answer": "化学性质" }], "analysis": "一变两不变：改变速率，质量不变，化学性质不变。" }
+  ]
+}

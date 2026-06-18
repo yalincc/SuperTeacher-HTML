@@ -1,0 +1,39 @@
+{
+  "meta": { "id": 7, "slug": "lesson-07-原子结构", "title": "原子结构", "unit": "第三单元", "week": 4, "day": 1 },
+  "objectives": [
+    { "text": "了解原子的构成（原子核、电子）", "isKeyPoint": true },
+    { "text": "理解核外电子排布规律", "isKeyPoint": false },
+    { "text": "掌握相对原子质量的计算", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "原子的构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "原子由**原子核**（质子+中子）和**核外电子**构成。质子带正电，电子带负电，中子不带电。原子呈电中性：质子数=电子数。" },
+        { "type": "table", "headers": ["粒子", "电性", "质量"], "rows": [["质子", "正电", "约1"], ["中子", "不带电", "约1"], ["电子", "负电", "约1/1836"]] },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "不是所有原子都有中子！普通氢原子（氕）只有1个质子，没有中子。" }
+      ]
+    },
+    {
+      "title": "相对原子质量",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "以一种碳原子（碳-12）质量的1/12为标准，其他原子质量与之的比值。$Ar = \\frac{\\text{原子实际质量}}{\\frac{1}{12} \\times m(C-12)}$" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "近似计算：相对原子质量 ≈ 质子数 + 中子数。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：原子构成",
+      "problem": [{ "type": "paragraph", "content": "某原子的质子数为12，中子数为12，该原子的相对原子质量约为（  ）" }, { "type": "list", "ordered": true, "items": ["A. 12", "B. 24", "C. 12", "D. 0"] }],
+      "solution": [{ "type": "paragraph", "content": "相对原子质量 ≈ 质子数 + 中子数 = 12 + 12 = 24。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "原子构成", "children": [{ "text": "原子核（质子+中子）+ 核外电子" }, { "text": "质子数=电子数（电中性）" }] },
+    { "text": "相对原子质量", "children": [{ "text": "≈ 质子数 + 中子数" }] }
+  ]
+}

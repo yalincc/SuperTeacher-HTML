@@ -1,0 +1,64 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-7-1",
+      "stem": "下列关于力的说法中，正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "力可以离开物体而独立存在" },
+        { "label": "B", "text": "一个物体也能产生力的作用" },
+        { "label": "C", "text": "物体间力的作用是相互的" },
+        { "label": "D", "text": "两个不接触的物体间不可能有力的作用" }
+      ],
+      "answer": "C",
+      "analysis": "A错误，力不能离开物体。B错误，力至少需要两个物体。C正确，力的作用是相互的。D错误，如磁铁吸引铁钉就不需要接触。"
+    },
+    {
+      "type": "choice", "id": "ex-7-2",
+      "stem": "一个鸡蛋的质量约为 $50\\text{ g}$，则一个鸡蛋受到的重力约为（  ）",
+      "options": [
+        { "label": "A", "text": "$0.5\\text{ N}$" },
+        { "label": "B", "text": "$5\\text{ N}$" },
+        { "label": "C", "text": "$50\\text{ N}$" },
+        { "label": "D", "text": "$0.05\\text{ N}$" }
+      ],
+      "answer": "A",
+      "analysis": "$G = mg = 0.05\\text{ kg} \\times 10\\text{ N/kg} = 0.5\\text{ N}$。",
+      "source": "2024北京中考"
+    },
+    {
+      "type": "choice", "id": "ex-7-3",
+      "stem": "使用弹簧测力计时，下列做法正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "测量前不需要校零" },
+        { "label": "B", "text": "可以测量超过量程的力" },
+        { "label": "C", "text": "拉力方向应沿弹簧轴线方向" },
+        { "label": "D", "text": "读数时可以将测力计倒过来读" }
+      ],
+      "answer": "C",
+      "analysis": "A错误，使用前必须校零。B错误，不能超过量程。C正确，拉力方向应沿弹簧轴线方向。D错误，倒过来读数会因弹簧自重产生误差。"
+    },
+    {
+      "type": "true_false", "id": "ex-7-4",
+      "stem": "重力的方向是竖直向下的，即垂直于地面的方向。",
+      "answer": false,
+      "analysis": "重力方向是竖直向下（指向地心），不是垂直于地面。在斜面上，竖直向下与垂直于斜面是不同的方向。"
+    },
+    {
+      "type": "fill", "id": "ex-7-5",
+      "segments": ["力的三要素是力的大小、", "___1___", "和", "___2___", "。物体间力的作用是", "___3___", "的。"],
+      "blanks": [
+        { "index": 1, "answer": "方向" },
+        { "index": 2, "answer": "作用点" },
+        { "index": 3, "answer": "相互" }
+      ],
+      "analysis": "力的三要素：大小、方向、作用点。力的作用是相互的。"
+    },
+    {
+      "type": "short_answer", "id": "ex-7-6",
+      "question": "一个质量为 $60\\text{ kg}$ 的人站在地面上，（1）求他受到的重力；（2）他受到地面的支持力是多少？（$g = 10\\text{ N/kg}$）",
+      "referenceAnswer": "（1）$G = mg = 60\\text{ kg} \\times 10\\text{ N/kg} = 600\\text{ N}$；（2）人静止在地面上，处于平衡状态，支持力与重力平衡，$F_{\\text{支}} = G = 600\\text{ N}$，方向竖直向上。",
+      "scoringPoints": ["正确计算重力", "判断二力平衡", "支持力大小正确"]
+    }
+  ]
+}

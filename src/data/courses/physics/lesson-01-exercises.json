@@ -1,0 +1,69 @@
+{
+  "lessonId": 1,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-1-1",
+      "stem": "下列长度单位换算正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$5.6\\text{ cm} = 5.6 \\times 10^{-2}\\text{ m} = 0.056\\text{ m}$" },
+        { "label": "B", "text": "$5.6\\text{ cm} = 5.6\\text{ cm} \\times 10^{-2} = 0.056\\text{ m}$" },
+        { "label": "C", "text": "$5.6\\text{ cm} = 5.6 \\div 100\\text{ cm} = 0.056\\text{ m}$" },
+        { "label": "D", "text": "$5.6\\text{ cm} = 5.6 \\times 10^{-2} = 0.056\\text{ m}$" }
+      ],
+      "answer": "A",
+      "analysis": "单位换算时，数值乘以进率并带上新单位。B中间过程丢失单位，C中间过程写法错误，D缺少单位。"
+    },
+    {
+      "type": "choice", "id": "ex-1-2",
+      "stem": "用刻度尺测量物体长度时，下列做法正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "读数时视线应与尺面成一定角度" },
+        { "label": "B", "text": "记录结果时只写数字不写单位" },
+        { "label": "C", "text": "刻度尺的零刻度线磨损了，可以从其他整刻度线量起" },
+        { "label": "D", "text": "测量时应尽量选择较粗的刻度尺" }
+      ],
+      "answer": "C",
+      "analysis": "A错误，读数时视线应与尺面垂直。B错误，记录结果必须带单位。C正确，零刻度线磨损可以从其他刻度线量起。D错误，应选择分度值小的刻度尺更精确。"
+    },
+    {
+      "type": "choice", "id": "ex-1-3",
+      "stem": "某同学用分度值为 $1\\text{ mm}$ 的刻度尺测量课本的宽度，四次测量结果分别为 $18.52\\text{ cm}$、$18.53\\text{ cm}$、$18.93\\text{ cm}$、$18.51\\text{ cm}$。该课本宽度应记为（  ）",
+      "options": [
+        { "label": "A", "text": "$18.52\\text{ cm}$" },
+        { "label": "B", "text": "$18.62\\text{ cm}$" },
+        { "label": "C", "text": "$18.523\\text{ cm}$" },
+        { "label": "D", "text": "$18.52\\text{ cm}$" }
+      ],
+      "answer": "D",
+      "analysis": "$18.93\\text{ cm}$ 与其他三次数据偏差过大，属于错误数据应舍去。取剩余三次的平均值：$(18.52+18.53+18.51)/3 = 18.52\\text{ cm}$。",
+      "source": "2023广东中考"
+    },
+    {
+      "type": "true_false", "id": "ex-1-4",
+      "stem": "误差是由于测量方法不正确造成的，只要方法正确就可以消除误差。",
+      "answer": false,
+      "analysis": "误差是测量值与真实值之间的差异，是不可避免的，只能减小。错误才是由于不遵守规则造成的。"
+    },
+    {
+      "type": "true_false", "id": "ex-1-5",
+      "stem": "用一把刻度尺测量同一物体长度，多次测量求平均值可以减小误差。",
+      "answer": true,
+      "analysis": "多次测量求平均值是减小误差的常用方法之一。"
+    },
+    {
+      "type": "fill", "id": "ex-1-6",
+      "segments": ["完成单位换算：$25\\text{ m/s} = $", "___1___", "$\\text{ km/h}$，$3.6\\text{ km/h} = $", "___2___", "$\\text{ m/s}$。"],
+      "blanks": [
+        { "index": 1, "answer": "90" },
+        { "index": 2, "answer": "1" }
+      ],
+      "analysis": "$25\\text{ m/s} = 25 \\times 3.6\\text{ km/h} = 90\\text{ km/h}$；$3.6\\text{ km/h} = 3.6 \\div 3.6\\text{ m/s} = 1\\text{ m/s}$。"
+    },
+    {
+      "type": "short_answer", "id": "ex-1-7",
+      "question": "请简述使用刻度尺测量物体长度的正确步骤，并说明读数时需要注意什么。",
+      "referenceAnswer": "步骤：①选：根据测量要求选择合适量程和分度值的刻度尺；②放：将零刻度线对准被测物体一端，刻度尺要与被测边平行；③读：视线与尺面垂直，估读到分度值的下一位；④记：记录测量结果，包括数值和单位。",
+      "scoringPoints": ["说出选、放、读、记四个步骤", "强调估读到分度值的下一位", "强调记录必须带单位"]
+    }
+  ]
+}

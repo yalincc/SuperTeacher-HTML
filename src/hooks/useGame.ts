@@ -2,21 +2,23 @@ import { createContext, useContext, useState, useCallback, useMemo } from 'react
 import type { GameState, ModuleName } from '@/types'
 import { INITIAL_HEARTS, MODULE_ORDER } from '@/types'
 
-const GAME_STORAGE_KEY = 'superteacher_game'
+function getGameKey(courseId: string): string {
+  return `superteacher_game_${courseId}`
+}
 
 function createInitialState(): GameState {
   return {
     version: 1,
     hearts: INITIAL_HEARTS,
     maxHearts: INITIAL_HEARTS,
-    unlockedLessons: [1],
-    unlockedModules: { '1': ['objectives'] },
+    unlockedLessons: [],
+    unlockedModules: {},
   }
 }
 
-function loadGameState(): GameState {
+function loadGameState(courseId: string): GameState {
   try {
-    const raw = localStorage.getItem(GAME_STORAGE_KEY)
+    const raw = localStorage.getItem(getGameKey(courseId))
     if (!raw) return createInitialState()
     const data = JSON.parse(raw) as GameState
     if (data.version !== 1) return createInitialState()
@@ -26,11 +28,12 @@ function loadGameState(): GameState {
   }
 }
 
-function saveGameState(state: GameState): void {
-  localStorage.setItem(GAME_STORAGE_KEY, JSON.stringify(state))
+function saveGameState(courseId: string, state: GameState): void {
+  localStorage.setItem(getGameKey(courseId), JSON.stringify(state))
 }
 
 interface GameContextValue {
+  courseId: string
   hearts: number
   maxHearts: number
   isLessonUnlocked: (lessonId: number) => boolean
@@ -49,8 +52,8 @@ export function useGameContext() {
   return ctx
 }
 
-export function useGame() {
-  const [state, setState] = useState<GameState>(loadGameState)
+export function useGame(courseId: string) {
+  const [state, setState] = useState<GameState>(() => loadGameState(courseId))
 
   const useHeart = useCallback((): boolean => {
     let heartUsed = false
@@ -58,34 +61,32 @@ export function useGame() {
       if (prev.hearts <= 0) return prev
       heartUsed = true
       const next = { ...prev, hearts: prev.hearts - 1 }
-      saveGameState(next)
+      saveGameState(courseId, next)
       return next
     })
     return heartUsed
-  }, [])
+  }, [courseId])
 
   const resetHearts = useCallback(() => {
     setState((prev) => {
       const next = { ...prev, hearts: prev.maxHearts }
-      saveGameState(next)
+      saveGameState(courseId, next)
       return next
     })
-  }, [])
+  }, [courseId])
 
   const isLessonUnlocked = useCallback(
-    (lessonId: number): boolean => {
-      return state.unlockedLessons.includes(lessonId)
+    (_lessonId: number): boolean => {
+      return true
     },
-    [state.unlockedLessons]
+    []
   )
 
   const isModuleUnlocked = useCallback(
-    (lessonId: number, module: ModuleName): boolean => {
-      const key = String(lessonId)
-      const modules = state.unlockedModules[key] || []
-      return modules.includes(module)
+    (_lessonId: number, _module: ModuleName): boolean => {
+      return true
     },
-    [state.unlockedModules]
+    []
   )
 
   const completeModule = useCallback((lessonId: number, module: ModuleName) => {
@@ -101,10 +102,10 @@ export function useGame() {
           [key]: [...modules, module],
         },
       }
-      saveGameState(next)
+      saveGameState(courseId, next)
       return next
     })
-  }, [])
+  }, [courseId])
 
   const unlockNextModule = useCallback((lessonId: number, currentModule: ModuleName) => {
     setState((prev) => {
@@ -124,13 +125,14 @@ export function useGame() {
           [key]: [...modules, nextModuleName],
         },
       }
-      saveGameState(next)
+      saveGameState(courseId, next)
       return next
     })
-  }, [])
+  }, [courseId])
 
   const value = useMemo<GameContextValue>(
     () => ({
+      courseId,
       hearts: state.hearts,
       maxHearts: state.maxHearts,
       isLessonUnlocked,
@@ -140,7 +142,7 @@ export function useGame() {
       completeModule,
       unlockNextModule,
     }),
-    [state, isLessonUnlocked, isModuleUnlocked, useHeart, resetHearts, completeModule, unlockNextModule]
+    [courseId, state, isLessonUnlocked, isModuleUnlocked, useHeart, resetHearts, completeModule, unlockNextModule]
   )
 
   return value

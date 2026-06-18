@@ -1,0 +1,48 @@
+{
+  "meta": { "id": 12, "slug": "lesson-12-质量守恒定律", "title": "质量守恒定律", "unit": "第五单元", "week": 6, "day": 1 },
+  "objectives": [
+    { "text": "理解质量守恒定律的内容", "isKeyPoint": true },
+    { "text": "能用微粒观点解释质量守恒定律", "isKeyPoint": true },
+    { "text": "能运用质量守恒定律进行简单计算", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "质量守恒定律内容",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**质量守恒定律**：参加化学反应的各物质的质量总和等于反应后生成的各物质的质量总和。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "关键词：\"参加\"反应的。未参加反应的物质质量不能算入。如镁在空气中燃烧，应加上参加反应的氧气质量。" }
+      ]
+    },
+    {
+      "title": "微观解释",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "从微观角度解释质量守恒：化学反应前后，**原子种类**不变、**原子数目**不变、**原子质量**不变。因此反应前后总质量不变。" },
+        { "type": "table", "headers": ["不变的量", "改变的量"], "rows": [["原子种类", "分子种类"], ["原子数目", "分子数目（可能变）"], ["原子质量", "物质种类"], ["元素种类", ""], ["元素质量", ""]] },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "化学反应前后：六不变（原子三不变+元素两不变+总质量不变），两一定变（分子种类、物质种类），一可能变（分子数目）。" }
+      ]
+    },
+    {
+      "title": "验证实验",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "验证质量守恒定律的实验：在密闭容器中进行化学反应，称量反应前后总质量。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "有气体参与或生成的反应必须在密闭容器中进行！如镁在空气中燃烧，如果不密闭，氧气参与反应但未被称量，会导致质量增加的假象。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：质量守恒定律应用",
+      "problem": [{ "type": "paragraph", "content": "在化学反应A+B→C+D中，5g A与4g B恰好完全反应，生成3g C，则生成D的质量为（  ）" }, { "type": "list", "ordered": true, "items": ["A. 2g", "B. 5g", "C. 6g", "D. 9g"] }],
+      "solution": [{ "type": "paragraph", "content": "根据质量守恒：A+B=C+D，5+4=3+D，D=6g。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "质量守恒定律", "children": [{ "text": "反应物总质量=生成物总质量" }] },
+    { "text": "微观解释", "children": [{ "text": "原子种类、数目、质量不变" }] },
+    { "text": "验证实验", "children": [{ "text": "密闭容器中称量反应前后总质量" }] }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    { "type": "choice", "id": "ex-2-1", "stem": "下列实验操作正确的是（  ）", "options": [{ "label": "A", "text": "用嘴吹灭酒精灯" }, { "label": "B", "text": "用手直接拿取药品" }, { "label": "C", "text": "用量筒量取液体时视线与凹液面最低处保持水平" }, { "label": "D", "text": "给试管内液体加热时试管口对着自己" }], "answer": "C", "analysis": "A应用灯帽盖灭；B不能用手接触药品；D试管口不能对着自己或他人。" },
+    { "type": "true_false", "id": "ex-2-2", "stem": "量筒可以用作反应容器。", "answer": false, "analysis": "量筒只能用于量取液体体积，不能加热、不能作反应容器。" },
+    { "type": "fill", "id": "ex-2-3", "segments": ["取用药品时遵循"三不"原则：不用手接触药品、不", "___1___", "药品气味、不尝药品味道。"], "blanks": [{ "index": 1, "answer": "闻", "alternatives": ["凑近闻", "直接闻"] }], "analysis": "闻药品气味应用扇闻法，不能直接凑近闻。" }
+  ]
+}

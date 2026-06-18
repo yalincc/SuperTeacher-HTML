@@ -1,5 +1,6 @@
 // ===== 课程元数据 =====
 export interface CourseConfig {
+  id: string
   course: {
     name: string
     icon: string
@@ -16,10 +17,6 @@ export interface CourseConfig {
     katex: boolean
     formulaNormalize: boolean
   }
-  paths: {
-    contentDir: string
-    outputDir: string
-  }
 }
 
 export interface LessonMeta {
@@ -28,10 +25,9 @@ export interface LessonMeta {
   unit: string
   week: number
   day: number
-  file: string
 }
 
-// ===== 课时数据 =====
+// ===== 课时数据（知识点） =====
 export interface LessonData {
   meta: {
     id: number
@@ -44,8 +40,14 @@ export interface LessonData {
   objectives: Objective[]
   knowledge: KnowledgeSection[]
   examples: Example[]
-  exercises: Exercise[]
+  exercises?: Exercise[]
   summary: SummaryNode[]
+}
+
+// ===== 练习题数据（独立文件） =====
+export interface ExerciseData {
+  lessonId: number
+  exercises: Exercise[]
 }
 
 // ===== 学习目标 =====

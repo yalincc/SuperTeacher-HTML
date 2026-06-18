@@ -2,6 +2,7 @@ import { createContext, useContext } from 'react'
 import type { ExerciseResult } from '@/types'
 
 interface ProgressContextValue {
+  courseId: string
   answerExercise: (lessonId: number, exerciseId: string, result: ExerciseResult) => void
   markRead: (lessonId: number) => void
   getExerciseResults: (lessonId: number) => Record<string, ExerciseResult>

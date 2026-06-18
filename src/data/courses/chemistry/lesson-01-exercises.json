@@ -1,0 +1,9 @@
+{
+  "lessonId": 1,
+  "exercises": [
+    { "type": "choice", "id": "ex-1-1", "stem": "下列变化属于化学变化的是（  ）", "options": [{ "label": "A", "text": "水结成冰" }, { "label": "B", "text": "汽油挥发" }, { "label": "C", "text": "食物腐烂" }, { "label": "D", "text": "胆矾研碎" }], "answer": "C", "analysis": "食物腐烂有新物质生成，属于化学变化。" },
+    { "type": "choice", "id": "ex-1-2", "stem": "下列性质属于化学性质的是（  ）", "options": [{ "label": "A", "text": "密度" }, { "label": "B", "text": "可燃性" }, { "label": "C", "text": "熔点" }, { "label": "D", "text": "颜色" }], "answer": "B", "analysis": "可燃性需要通过化学变化才能表现，属于化学性质。" },
+    { "type": "true_false", "id": "ex-1-3", "stem": "电灯发光发热属于化学变化。", "answer": false, "analysis": "电灯发光是电能转化，没有新物质生成，属于物理变化。" },
+    { "type": "fill", "id": "ex-1-4", "segments": ["化学变化与物理变化的本质区别是", "___1___", "。"], "blanks": [{ "index": 1, "answer": "是否有新物质生成" }], "analysis": "判断关键：看有没有新物质生成。" }
+  ]
+}

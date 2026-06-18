@@ -1,0 +1,9 @@
+{
+  "lessonId": 17,
+  "exercises": [
+    { "type": "choice", "id": "ex-17-1", "stem": "燃烧需要同时满足的条件是（  ）", "options": [{ "label": "A", "text": "可燃物和氧气" }, { "label": "B", "text": "可燃物、氧气、温度达到着火点" }, { "label": "C", "text": "只要有可燃物" }, { "label": "D", "text": "只要温度达到着火点" }], "answer": "B", "analysis": "燃烧三个条件缺一不可。" },
+    { "type": "choice", "id": "ex-17-2", "stem": "下列灭火方法不正确的是（  ）", "options": [{ "label": "A", "text": "油锅着火用锅盖盖灭" }, { "label": "B", "text": "电器着火用水浇灭" }, { "label": "C", "text": "森林着火开辟隔离带" }, { "label": "D", "text": "熄灭酒精灯用灯帽盖灭" }], "answer": "B", "analysis": "电器着火不能用水浇，应先断电再灭火，防止触电。" },
+    { "type": "true_false", "id": "ex-17-3", "stem": "灭火可以降低可燃物的着火点。", "answer": false, "analysis": "着火点是固有属性不能降低，灭火是降低温度到着火点以下。" },
+    { "type": "fill", "id": "ex-17-4", "segments": ["燃烧三个条件：可燃物、与氧气接触、温度达到", "___1___", "。灭火原理：破坏燃烧条件中的", "___2___", "即可。"], "blanks": [{ "index": 1, "answer": "着火点" }, { "index": 2, "answer": "任意一个" }], "analysis": "燃烧三条件缺一不可，灭火破坏其中任意一个即可。" }
+  ]
+}

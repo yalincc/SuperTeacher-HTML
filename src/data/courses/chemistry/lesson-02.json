@@ -1,0 +1,38 @@
+{
+  "meta": { "id": 2, "slug": "lesson-02-化学实验与科学探究", "title": "化学实验与科学探究", "unit": "第一单元", "week": 1, "day": 2 },
+  "objectives": [
+    { "text": "认识化学实验常用仪器及使用方法", "isKeyPoint": false },
+    { "text": "掌握药品取用、加热等基本操作", "isKeyPoint": true },
+    { "text": "了解科学探究的基本环节", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "常用化学仪器",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "table", "headers": ["仪器", "用途", "注意事项"], "rows": [["试管", "少量试剂反应容器", "加热先预热，液体不超1/3"], ["烧杯", "较多量试剂反应容器", "加热需垫石棉网"], ["酒精灯", "加热热源", "外焰加热，灯帽盖灭"], ["量筒", "量取液体体积", "不能加热，不能作反应容器"]] },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "量筒只能量取液体，不能加热、不能作反应容器、不能溶解物质。" }
+      ]
+    },
+    {
+      "title": "基本实验操作",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**药品取用**：固体用药匙或镊子，液体用量筒和胶头滴管。取用药品遵循\"三不\"原则：不用手接触、不闻（扇闻法）、不尝。" },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "给试管加热步骤：①预热 ②固定加热 ③加热后不能骤冷（防炸裂）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：实验操作规范",
+      "problem": [{ "type": "paragraph", "content": "下列操作正确的是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 嘴吹灭酒精灯", "B. 向燃着的酒精灯添加酒精", "C. 天平称量左物右码", "D. 量筒加热后量取"] }],
+      "solution": [{ "type": "paragraph", "content": "A应用灯帽盖灭；B易引发火灾；D量筒不能加热。C正确。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "常用仪器", "children": [{ "text": "试管、烧杯、酒精灯、量筒" }] },
+    { "text": "操作规范", "children": [{ "text": "三不原则、外焰加热、灯帽盖灭" }] }
+  ]
+}
