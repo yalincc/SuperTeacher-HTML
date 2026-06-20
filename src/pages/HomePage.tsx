@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
-import { courses } from '@/data'
+import { getHomeDisplayItems } from '@/data'
 
 function HomePage() {
+  const items = getHomeDisplayItems()
+
   return (
     <div>
       <div className="text-center mb-10">
@@ -10,26 +12,48 @@ function HomePage() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {courses.map((c) => (
-          <Link
-            key={c.id}
-            to={`/course/${c.id}`}
-            className="group bg-surface rounded-2xl border border-border p-6 transition-all duration-200 hover:shadow-lg hover:-translate-y-1"
-          >
-            <div className="text-4xl mb-3">{c.course.icon}</div>
-            <h2 className="text-xl font-bold text-text mb-1">{c.course.name}</h2>
-            <p className="text-sm text-text-secondary mb-4">{c.course.subtitle}</p>
-            <div className="flex items-center justify-between">
-              <span className="text-sm text-text-muted">{c.lessonData.length} 课时</span>
-              <span
-                className="text-sm font-medium transition-colors"
-                style={{ color: c.course.color }}
+        {items.map((item) => {
+          if (item.kind === 'course') {
+            const c = item.course
+            return (
+              <Link
+                key={c.id}
+                to={`/course/${c.id}`}
+                className="group bg-surface rounded-2xl border border-border p-6 transition-all duration-200 hover:shadow-lg hover:-translate-y-1"
               >
-                开始学习 →
-              </span>
-            </div>
-          </Link>
-        ))}
+                <div className="text-4xl mb-3">{c.course.icon}</div>
+                <h2 className="text-xl font-bold text-text mb-1">{c.course.name}</h2>
+                <p className="text-sm text-text-secondary mb-4">{c.course.subtitle}</p>
+                <div className="flex items-center justify-between">
+                  <span className="text-sm text-text-muted">{c.lessonData.length} 课时</span>
+                  <span className="text-sm font-medium transition-colors" style={{ color: c.course.color }}>
+                    开始学习 →
+                  </span>
+                </div>
+              </Link>
+            )
+          }
+
+          const g = item.group
+          const totalLessons = g.courses.reduce((sum, c) => sum + c.lessonData.length, 0)
+          return (
+            <Link
+              key={g.id}
+              to={`/course/${g.id}`}
+              className="group bg-surface rounded-2xl border border-border p-6 transition-all duration-200 hover:shadow-lg hover:-translate-y-1"
+            >
+              <div className="text-4xl mb-3">{g.icon}</div>
+              <h2 className="text-xl font-bold text-text mb-1">{g.name}</h2>
+              <p className="text-sm text-text-secondary mb-4">{g.courses.length} 个学期</p>
+              <div className="flex items-center justify-between">
+                <span className="text-sm text-text-muted">{totalLessons} 课时</span>
+                <span className="text-sm font-medium transition-colors" style={{ color: g.color }}>
+                  选择学期 →
+                </span>
+              </div>
+            </Link>
+          )
+        })}
       </div>
     </div>
   )

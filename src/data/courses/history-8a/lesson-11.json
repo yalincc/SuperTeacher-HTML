@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 11, "slug": "lesson-11-西安事变与抗日民族统一战线", "title": "西安事变与抗日民族统一战线", "unit": "第四单元", "week": 4, "day": 2 },
+  "objectives": [
+    { "text": "了解西安事变的背景和经过", "isKeyPoint": true },
+    { "text": "掌握西安事变和平解决的意义", "isKeyPoint": true },
+    { "text": "理解抗日民族统一战线的形成", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "西安事变",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1936年12月12日，**张学良**和**杨虎城**在西安扣押蒋介石，实行「兵谏」，要求停止内战、联共抗日，史称「**西安事变**」（双十二事变）。中国共产党从全民族利益出发，主张和平解决。" },
+        { "type": "callout", "variant": "tip", "title": "和平解决的意义", "content": "西安事变的和平解决，揭开了国共两党由内战到联合抗日的序幕，成为扭转时局的关键。十年内战基本结束，抗日民族统一战线初步形成。" }
+      ]
+    },
+    {
+      "title": "抗日民族统一战线",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1937年9月，国民党中央通讯社公布了中共中央提交的国共合作宣言，**抗日民族统一战线正式形成**。国共两党实现了第二次合作，共同抗日。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "抗日民族统一战线正式形成的标志是1937年9月国民党中央通讯社公布国共合作宣言，不是西安事变。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：西安事变",
+      "problem": [
+        { "type": "paragraph", "content": "西安事变的发动者是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 蒋介石、汪精卫", "B. 张学良、杨虎城", "C. 毛泽东、朱德", "D. 李宗仁、白崇禧"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "张学良和杨虎城发动西安事变。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：统一战线",
+      "problem": [
+        { "type": "paragraph", "content": "抗日民族统一战线正式形成的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 西安事变和平解决", "B. 七七事变爆发", "C. 国共合作宣言公布", "D. 八一三事变"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1937年9月国民党中央通讯社公布国共合作宣言，标志抗日民族统一战线正式形成。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "西安事变（1936年）", "children": [
+      { "text": "张学良、杨虎城发动" },
+      { "text": "和平解决，十年内战基本结束" }
+    ]},
+    { "text": "抗日民族统一战线", "children": [
+      { "text": "1937年正式形成" },
+      { "text": "国共第二次合作" }
+    ]}
+  ]
+}

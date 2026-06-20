@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 16, "slug": "lesson-16-科技文化成就", "title": "科技文化成就", "unit": "第六单元", "week": 6, "day": 1 },
+  "objectives": [
+    { "text": "了解「两弹一星」科学家的贡献", "isKeyPoint": true },
+    { "text": "掌握屠呦呦等科学家的成就", "isKeyPoint": true },
+    { "text": "理解科教兴国战略", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "科学家的贡献",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "新中国成立后，广大科技工作者为国家发展作出了巨大贡献。**邓稼先**领导完成了原子弹和氢弹的理论方案，被誉为「**两弹元勋**」。**屠呦呦**领导团队发现了**青蒿素**，开创了疟疾治疗新方法，2015年获得**诺贝尔生理学或医学奖**。" },
+        { "type": "callout", "variant": "note", "title": "屠呦呦", "content": "屠呦呦是第一位获得诺贝尔科学奖项的中国本土科学家。她从中医古籍中获得灵感，发现了青蒿素。" }
+      ]
+    },
+    {
+      "title": "科教兴国战略",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1995年，党和国家提出实施**科教兴国**战略。科学技术是第一生产力。改革开放以来，我国科技发展取得了举世瞩目的成就，在一些重要领域走在世界前列。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "科教兴国战略的核心是把科技和教育摆在经济社会发展的重要位置，增强国家的科技实力。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：两弹元勋",
+      "problem": [
+        { "type": "paragraph", "content": "被誉为「两弹元勋」的科学家是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 钱学森", "B. 邓稼先", "C. 袁隆平", "D. 屠呦呦"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "邓稼先被誉为「两弹元勋」。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：诺贝尔奖",
+      "problem": [
+        { "type": "paragraph", "content": "获得诺贝尔生理学或医学奖的中国科学家是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 袁隆平", "B. 屠呦呦", "C. 邓稼先", "D. 钱学森"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "屠呦呦因发现青蒿素获得诺贝尔生理学或医学奖。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "科学家的贡献", "children": [
+      { "text": "邓稼先——两弹元勋" },
+      { "text": "屠呦呦——发现青蒿素" }
+    ]},
+    { "text": "科教兴国战略", "children": [
+      { "text": "1995年提出" },
+      { "text": "科学技术是第一生产力" }
+    ]}
+  ]
+}

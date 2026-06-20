@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "id": 1,
+    "slug": "lesson-01-示例课题",
+    "title": "示例课题",
+    "unit": "第一单元",
+    "week": 1,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "了解xxx的历史背景", "isKeyPoint": false },
+    { "text": "掌握xxx的主要内容和影响", "isKeyPoint": true },
+    { "text": "理解xxx的历史意义", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "知识分区标题一",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "正文段落，用于叙述历史事件。关键人名用 **加粗**，专有名词用「**加粗**」。" },
+        { "type": "timeline", "items": [
+          { "time": "时间点1", "title": "事件名称", "content": "简短说明" },
+          { "time": "时间点2", "title": "事件名称" },
+          { "time": "时间点3", "title": "事件名称", "content": "简短说明" }
+        ]},
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "补充背景信息或延伸知识。" }
+      ]
+    },
+    {
+      "title": "知识分区标题二",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "正文段落，介绍具体措施或特征。" },
+        { "type": "table", "headers": ["方面", "内容", "影响"], "rows": [
+          ["方面1", "具体内容", "产生的影响"],
+          ["方面2", "具体内容", "产生的影响"]
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "帮助理解的核心要点。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "帮助记忆的口诀或顺口溜。" }
+      ]
+    },
+    {
+      "title": "知识分区标题三（展示更多 callout 变体）",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "正文段落。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "学生容易混淆或出错的知识点。" },
+        { "type": "callout", "variant": "quote", "title": "《文献名称》", "content": "历史文献原文或名人名言。" },
+        { "type": "list", "ordered": false, "items": ["列举项1", "列举项2", "列举项3"] }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：典型例题",
+      "problem": [
+        { "type": "paragraph", "content": "关于xxx的表述，正确的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 选项A", "B. 选项B", "C. 选项C", "D. 选项D"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "解析：逐一分析各选项，说明为什么选X。" }
+      ],
+      "answer": "B",
+      "source": "2024各地中考常见"
+    }
+  ],
+  "summary": [
+    { "text": "核心知识点一", "children": [
+      { "text": "子要点1" },
+      { "text": "子要点2" }
+    ]},
+    { "text": "核心知识点二", "children": [
+      { "text": "子要点1" },
+      { "text": "子要点2" },
+      { "text": "子要点3" }
+    ]}
+  ]
+}

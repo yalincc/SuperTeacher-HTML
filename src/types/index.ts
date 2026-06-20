@@ -17,6 +17,18 @@ export interface CourseConfig {
     katex: boolean
     formulaNormalize: boolean
   }
+  order?: number
+  group?: {
+    id: string
+    name: string
+    icon: string
+    color: string
+    order: number
+  }
+  semester?: {
+    name: string
+    order: number
+  }
 }
 
 export interface LessonMeta {
@@ -71,6 +83,7 @@ export type ContentBlock =
   | EquationBlock
   | ListBlock
   | AnimationBlock
+  | TimelineBlock
 
 export interface ParagraphBlock {
   type: 'paragraph'
@@ -85,7 +98,7 @@ export interface TableBlock {
 
 export interface CalloutBlock {
   type: 'callout'
-  variant: 'warning' | 'tip' | 'note' | 'mnemonic'
+  variant: 'warning' | 'tip' | 'note' | 'mnemonic' | 'quote'
   title: string
   content: string
 }
@@ -107,6 +120,17 @@ export interface AnimationBlock {
   src: string
   alt?: string
   width?: number
+}
+
+export interface TimelineBlock {
+  type: 'timeline'
+  items: TimelineItem[]
+}
+
+export interface TimelineItem {
+  time: string
+  title: string
+  content?: string
 }
 
 // ===== 典型例题 =====

@@ -1,0 +1,67 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-动荡变化中的春秋时期", "title": "动荡变化中的春秋时期", "unit": "第二单元", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "了解春秋时期的时代特征", "isKeyPoint": true },
+    { "text": "掌握春秋五霸及主要历史事件", "isKeyPoint": true },
+    { "text": "理解春秋时期经济发展的表现", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "春秋时期的时代特征",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**春秋时期**（公元前770年—公元前476年）是东周的前半期。因鲁国编年史《春秋》而得名。这一时期，周王室衰微，诸侯争霸，社会处于大动荡、大变革之中。" },
+        { "type": "timeline", "items": [
+          { "time": "公元前770年", "title": "平王东迁", "content": "周平王将都城东迁至洛邑，标志着春秋时期开始" },
+          { "time": "公元前7世纪", "title": "齐桓公称霸", "content": "齐桓公任用管仲改革，以「尊王攘夷「为旗号成为第一个霸主" },
+          { "time": "公元前632年", "title": "城濮之战", "content": "晋文公击败楚军，确立霸主地位" },
+          { "time": "公元前6世纪", "title": "楚庄王称霸", "content": "楚国问鼎中原，成为春秋后期的霸主" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "春秋五霸", "content": "一般认为春秋五霸是：齐桓公、晋文公、楚庄王、吴王阖闾、越王勾践。也有说法包括宋襄公和秦穆公。" }
+      ]
+    },
+    {
+      "title": "春秋时期的经济发展",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "春秋时期，**铁制农具**和**牛耕**的出现，极大地促进了农业生产力的发展。手工业和商业也有显著进步。" },
+        { "type": "table", "headers": ["领域", "发展表现"], "rows": [
+          ["农业", "铁制农具出现，牛耕推广（革命性变化）"],
+          ["手工业", "冶铁业发展，青铜铸造技术进步"],
+          ["商业", "金属货币广泛使用，商业城市兴起"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "注意区分", "content": "铁制农具和牛耕始于春秋时期，不是战国时期。铁器的广泛使用是战国时期的特征。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：春秋争霸",
+      "problem": [
+        { "type": "paragraph", "content": "春秋时期第一个霸主是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 晋文公", "B. 楚庄王", "C. 齐桓公", "D. 越王勾践"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "齐桓公任用管仲为相进行改革，打着「尊王攘夷「的旗号，成为春秋时期第一个霸主。正确答案为C。" }],
+      "answer": "C", "source": "2024各地中考常见"
+    },
+    {
+      "title": "例2：铁制农具与牛耕",
+      "problem": [
+        { "type": "paragraph", "content": "春秋时期出现的标志性生产工具是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 石器和木器", "B. 青铜器", "C. 铁制农具和牛耕", "D. 筒车和曲辕犁"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "春秋时期铁制农具和牛耕出现，是农业生产力的革命性变化。石器木器是远古时期，青铜器是商周时期，筒车曲辕犁是唐朝。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "春秋时期特征", "children": [
+      { "text": "周王室衰微，诸侯争霸" },
+      { "text": "春秋五霸：齐桓公、晋文公、楚庄王等" }
+    ]},
+    { "text": "经济发展", "children": [
+      { "text": "铁制农具和牛耕出现（革命性变化）" },
+      { "text": "冶铁业、商业发展" }
+    ]}
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-经济体制改革", "title": "经济体制改革", "unit": "第三单元", "week": 3, "day": 3 },
+  "objectives": [
+    { "text": "了解农村家庭联产承包责任制", "isKeyPoint": true },
+    { "text": "掌握城市经济体制改革", "isKeyPoint": true },
+    { "text": "理解社会主义市场经济体制的建立", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "农村改革",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "十一届三中全会后，改革首先在农村取得突破。**安徽凤阳小岗村**农民率先实行**家庭联产承包责任制**，分田包产到户。家庭联产承包责任制使农民有了生产自主权，极大地调动了农民的生产积极性。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "家庭联产承包责任制是在土地公有制基础上，把土地长期承包给农户使用，分户经营、自负盈亏。" }
+      ]
+    },
+    {
+      "title": "城市改革与市场经济",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1984年起，改革的重点从农村转向**城市**。城市经济体制改革以**国有企业改革**为重点。1992年，**中共十四大**明确提出建立**社会主义市场经济体制**的目标。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "社会主义市场经济体制的目标是在1992年中共十四大上提出的，不是十三大。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：家庭联产承包责任制",
+      "problem": [
+        { "type": "paragraph", "content": "率先实行家庭联产承包责任制的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 四川成都", "B. 安徽凤阳小岗村", "C. 广东深圳", "D. 上海浦东"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "安徽凤阳小岗村农民率先实行家庭联产承包责任制。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：市场经济体制",
+      "problem": [
+        { "type": "paragraph", "content": "明确提出建立社会主义市场经济体制目标的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 中共十二大", "B. 中共十三大", "C. 中共十四大", "D. 中共十五大"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1992年中共十四大明确提出建立社会主义市场经济体制的目标。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "农村改革", "children": [
+      { "text": "家庭联产承包责任制" },
+      { "text": "安徽凤阳小岗村率先实行" }
+    ]},
+    { "text": "城市改革", "children": [
+      { "text": "1984年开始" },
+      { "text": "国有企业改革为重点" }
+    ]},
+    { "text": "社会主义市场经济体制", "children": [
+      { "text": "1992年中共十四大提出" }
+    ]}
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-夏商周时期的科技与文化", "title": "夏商周时期的科技与文化", "unit": "第二单元", "week": 3, "day": 1 },
+  "objectives": [
+    { "text": "了解甲骨文的特点和历史价值", "isKeyPoint": true },
+    { "text": "了解青铜器的艺术成就", "isKeyPoint": true },
+    { "text": "了解夏商周时期的天文历法和医学成就", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "甲骨文",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**甲骨文**是商朝时期刻在龟甲和兽骨上的文字，是中国已发现的古代文字中**年代最早、体系最为完整**的文字。甲骨文的发现证明了商朝的存在，使中国有文字可考的历史从商朝开始。" },
+        { "type": "callout", "variant": "note", "title": "重要发现", "content": "1899年，清朝人王懿荣首次发现甲骨文。至今已出土约15万片甲骨，记载了祭祀、战争、农牧、天文等内容。" },
+        { "type": "callout", "variant": "tip", "title": "造字方法", "content": "甲骨文已具备象形、指事、会意、形声等造字方法，与今天的汉字一脉相承。" }
+      ]
+    },
+    {
+      "title": "青铜器",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "商周时期的**青铜器**制作技术达到了很高水平。青铜器不仅是生活用具和兵器，更是权力和地位的象征，是礼器的重要组成部分。" },
+        { "type": "table", "headers": ["代表作品", "特点"], "rows": [
+          ["司母戊鼎", "世界上最重的青铜器，重832.84千克"],
+          ["四羊方尊", "造型奇特，四角各有一羊，工艺精湛"],
+          ["三星堆青铜面具", "造型夸张神秘，体现古蜀文明特色"]
+        ]},
+        { "type": "callout", "variant": "mnemonic", "title": "记忆要点", "content": "甲骨文 = 商朝文字记录；青铜器 = 商周工艺巅峰。司母戊鼎最大，四羊方尊最美。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：甲骨文",
+      "problem": [
+        { "type": "paragraph", "content": "我国有文字可考的历史开始于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 夏朝", "B. 商朝", "C. 西周", "D. 春秋"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "甲骨文是商朝的文字记录，因此中国有文字可考的历史从商朝开始。正确答案为B。" }],
+      "answer": "B", "source": "2024各地中考常见"
+    },
+    {
+      "title": "例2：青铜器",
+      "problem": [
+        { "type": "paragraph", "content": "迄今世界上出土的最重的青铜器是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 四羊方尊", "B. 司母戊鼎", "C. 青铜面具", "D. 编钟"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "司母戊鼎（后母戊鼎）重832.84千克，是迄今世界上出土的最重的青铜器。四羊方尊以精美著称。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "甲骨文", "children": [
+      { "text": "商朝文字，刻于龟甲兽骨" },
+      { "text": "中国最早体系完整的文字" }
+    ]},
+    { "text": "青铜器", "children": [
+      { "text": "司母戊鼎（最重）、四羊方尊（精美）" },
+      { "text": "礼器 = 权力象征" }
+    ]}
+  ]
+}

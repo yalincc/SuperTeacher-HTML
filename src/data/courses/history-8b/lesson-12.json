@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 12, "slug": "lesson-12-民族团结", "title": "民族团结", "unit": "第四单元", "week": 4, "day": 3 },
+  "objectives": [
+    { "text": "了解民族区域自治制度", "isKeyPoint": true },
+    { "text": "掌握各民族共同发展的成就", "isKeyPoint": true },
+    { "text": "理解民族团结的重要性", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "民族区域自治制度",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "我国在少数民族聚居的地方实行**民族区域自治制度**，设立自治机关，行使自治权。全国共建立了5个民族自治区、30个民族自治州、120个民族自治县。民族区域自治制度是我国的一项基本政治制度。" },
+        { "type": "callout", "variant": "note", "title": "五个自治区", "content": "内蒙古自治区（1947年）、新疆维吾尔自治区（1955年）、广西壮族自治区（1958年）、宁夏回族自治区（1958年）、西藏自治区（1965年）。" }
+      ]
+    },
+    {
+      "title": "各民族共同发展",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "新中国成立后，党和政府重视少数民族地区的发展。**青藏铁路**的通车，结束了西藏不通铁路的历史。**西部大开发**战略的实施，促进了少数民族地区的经济社会发展。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "民族团结是国家统一、繁荣昌盛的前提和保证。各民族共同团结奋斗、共同繁荣发展是民族工作的主题。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：民族区域自治",
+      "problem": [
+        { "type": "paragraph", "content": "我国在少数民族聚居的地方实行（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 特别行政区制度", "B. 民族区域自治制度", "C. 经济特区制度", "D. 直辖市制度"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "我国在少数民族聚居的地方实行民族区域自治制度。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：五个自治区",
+      "problem": [
+        { "type": "paragraph", "content": "我国建立最早的民族自治区是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 新疆维吾尔自治区", "B. 广西壮族自治区", "C. 内蒙古自治区", "D. 西藏自治区"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "内蒙古自治区成立于1947年，是最早建立的。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "民族区域自治制度", "children": [
+      { "text": "我国基本政治制度" },
+      { "text": "5个民族自治区" }
+    ]},
+    { "text": "各民族共同发展", "children": [
+      { "text": "青藏铁路通车" },
+      { "text": "西部大开发" }
+    ]}
+  ]
+}

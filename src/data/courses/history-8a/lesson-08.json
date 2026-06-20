@@ -1,0 +1,60 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-中国共产党的诞生", "title": "中国共产党的诞生", "unit": "第三单元", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "了解马克思主义在中国的传播", "isKeyPoint": true },
+    { "text": "掌握中共一大的召开和党的诞生", "isKeyPoint": true },
+    { "text": "理解中国共产党诞生的意义", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "马克思主义传播与共产党早期组织",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "五四运动后，**马克思主义**在中国广泛传播。**李大钊**发表《我的马克思主义观》，系统介绍马克思主义。各地建立了共产党早期组织。" },
+        { "type": "callout", "variant": "note", "title": "李大钊", "content": "李大钊是中国最早传播马克思主义的人之一，是中国共产党的主要创始人之一。" }
+      ]
+    },
+    {
+      "title": "中共一大",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1921年7月，**中国共产党第一次全国代表大会**在上海召开，后转移到浙江**嘉兴南湖**的一艘游船上。大会通过了党的纲领，选举**陈独秀**为中央局书记。**中国共产党诞生**了。" },
+        { "type": "callout", "variant": "tip", "title": "历史意义", "content": "中国共产党的诞生是中国历史上开天辟地的大事。自从有了中国共产党，中国革命的面貌就焕然一新了。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "中共一大召开于1921年7月，但建党纪念日是7月1日。一大最后一天转移到嘉兴南湖。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：中共一大",
+      "problem": [
+        { "type": "paragraph", "content": "中国共产党第一次全国代表大会召开于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1919年", "B. 1920年", "C. 1921年", "D. 1922年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "中共一大于1921年7月召开。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：党的诞生",
+      "problem": [
+        { "type": "paragraph", "content": "中国共产党的诞生是中国历史上（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 开天辟地的大事", "B. 意味着新民主主义革命的胜利", "C. 标志着国共合作", "D. 结束了封建帝制"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "中国共产党的诞生是中国历史上开天辟地的大事。正确答案为A。" }],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "马克思主义传播", "children": [
+      { "text": "李大钊系统介绍马克思主义" }
+    ]},
+    { "text": "中共一大（1921年）", "children": [
+      { "text": "上海召开，后转嘉兴南湖" },
+      { "text": "陈独秀任中央局书记" }
+    ]},
+    { "text": "历史意义", "children": [
+      { "text": "开天辟地的大事" },
+      { "text": "中国革命面貌焕然一新" }
+    ]}
+  ]
+}

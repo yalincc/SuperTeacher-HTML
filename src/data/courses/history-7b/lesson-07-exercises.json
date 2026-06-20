@@ -1,0 +1,9 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    { "type": "choice", "id": "ex-7-1", "stem": "北宋的建立者是（  ）", "options": [{ "label": "A", "text": "赵匡胤" }, { "label": "B", "text": "赵构" }, { "label": "C", "text": "忽必烈" }, { "label": "D", "text": "朱元璋" }], "answer": "A", "analysis": "赵匡胤（宋太祖）960年建立北宋。赵构是南宋建立者。" },
+    { "type": "choice", "id": "ex-7-2", "stem": "北宋加强中央集权的措施中，「杯酒释兵权」属于（  ）", "options": [{ "label": "A", "text": "行政方面" }, { "label": "B", "text": "军事方面" }, { "label": "C", "text": "财政方面" }, { "label": "D", "text": "监察方面" }], "answer": "B", "analysis": "「杯酒释兵权」是宋太祖解除禁军将领兵权的军事措施。" },
+    { "type": "true_false", "id": "ex-7-3", "stem": "北宋结束了五代十国的分裂局面，实现了全国统一。", "answer": false, "analysis": "北宋结束了五代十国的分裂局面，但并未统一全国，当时还有辽、西夏等政权并立。" },
+    { "type": "fill", "id": "ex-7-4", "segments": ["北宋实行", "___1___", "政策，抑制武将、提升文官地位。宋太祖通过", "___2___", "和平解除将领兵权。"], "blanks": [{ "index": 1, "answer": "重文轻武" }, { "index": 2, "answer": "杯酒释兵权" }], "analysis": "北宋实行重文轻武政策。宋太祖通过「杯酒释兵权」和平解除将领兵权。" }
+  ]
+}

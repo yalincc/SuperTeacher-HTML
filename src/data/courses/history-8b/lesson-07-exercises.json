@@ -1,0 +1,9 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    { "type": "choice", "id": "ex-7-1", "stem": "文化大革命结束的标志是（  ）", "options": [{ "label": "A", "text": "林彪集团被粉碎" }, { "label": "B", "text": "粉碎「四人帮」" }, { "label": "C", "text": "刘少奇平反" }, { "label": "D", "text": "中共十一届三中全会" }], "answer": "B", "analysis": "1976年10月粉碎「四人帮」，文化大革命结束。" },
+    { "type": "choice", "id": "ex-7-2", "stem": "文化大革命期间最大的冤案是（  ）", "options": [{ "label": "A", "text": "邓小平被批判" }, { "label": "B", "text": "刘少奇被迫害致死" }, { "label": "C", "text": "彭德怀被批判" }, { "label": "D", "text": "贺龙被迫害" }], "answer": "B", "analysis": "刘少奇被迫害致死是文革中最大的冤案。" },
+    { "type": "true_false", "id": "ex-7-3", "stem": "文化大革命是一场由领导者错误发动的内乱。", "answer": true, "analysis": "文化大革命是一场由领导者错误发动、被反革命集团利用的内乱。" },
+    { "type": "fill", "id": "ex-7-4", "segments": ["1966年，", "___1___", "全面发动。1976年10月粉碎", "___2___", "，文革结束。"], "blanks": [{ "index": 1, "answer": "文化大革命" }, { "index": 2, "answer": "四人帮" }], "analysis": "1966年文革发动，1976年粉碎四人帮结束。" }
+  ]
+}

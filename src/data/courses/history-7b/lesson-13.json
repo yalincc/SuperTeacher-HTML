@@ -1,0 +1,78 @@
+{
+  "meta": { "id": 13, "slug": "lesson-13-明朝的统治", "title": "明朝的统治", "unit": "第三单元", "week": 5, "day": 1 },
+  "objectives": [
+    { "text": "掌握明朝的建立和朱元璋加强皇权的措施", "isKeyPoint": true },
+    { "text": "了解明朝的科举制度和特务机构", "isKeyPoint": true },
+    { "text": "理解明朝君主专制加强的表现", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "明朝建立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1368年，**朱元璋**称帝，建立明朝，定都**应天府**（今南京），朱元璋就是明太祖。同年，明军攻占大都，元朝在全国的统治结束。后来明成祖**朱棣**迁都**北京**。" },
+        { "type": "timeline", "items": [
+          { "time": "1368年", "title": "明朝建立", "content": "朱元璋称帝，定都应天府" },
+          { "time": "1421年", "title": "迁都北京", "content": "明成祖朱棣迁都北京" }
+        ]},
+        { "type": "callout", "variant": "note", "title": "朱元璋经历", "content": "朱元璋出身贫苦农民家庭，参加农民起义，最终统一天下，是中国历史上少有的从底层崛起的皇帝。" }
+      ]
+    },
+    {
+      "title": "加强皇权",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "朱元璋为加强皇权，在中央废除**丞相制度**和中书省，由六部直接对皇帝负责。在地方设**三司**分管民政、刑狱和军政。还设立**锦衣卫**等特务机构监视臣民。" },
+        { "type": "table", "headers": ["措施", "内容", "目的"], "rows": [
+          ["废丞相", "废除中书省和丞相", "权分六部，加强皇权"],
+          ["设三司", "地方分设三司", "分散地方权力"],
+          ["设锦衣卫", "特务机构", "监视臣民"],
+          ["八股取士", "科举考试格式固定", "控制思想"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "废除丞相制度的是朱元璋（明太祖），不是朱棣（明成祖）。朱棣设立的是东厂。" }
+      ]
+    },
+    {
+      "title": "八股取士",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "明朝科举考试实行**八股取士**，考试内容限于四书五经，文体必须是八股文。这种制度禁锢了人们的思想，阻碍了文化的发展。" },
+        { "type": "callout", "variant": "tip", "title": "影响", "content": "八股取士使读书人只知埋头攻读经书，不讲求实际学问，不利于社会进步和科技发展。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：明朝建立",
+      "problem": [
+        { "type": "paragraph", "content": "明朝的建立者是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 朱棣", "B. 朱元璋", "C. 朱高炽", "D. 朱瞻基"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "朱元璋（明太祖）1368年建立明朝。朱棣是明成祖，迁都北京。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：废丞相",
+      "problem": [
+        { "type": "paragraph", "content": "废除丞相制度的皇帝是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 唐太宗", "B. 宋太祖", "C. 朱元璋", "D. 朱棣"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "朱元璋废除丞相制度和中书省，权分六部，加强皇权。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "明朝建立（1368年）", "children": [
+      { "text": "朱元璋建明，定都应天府" },
+      { "text": "明成祖迁都北京" }
+    ]},
+    { "text": "加强皇权", "children": [
+      { "text": "废丞相、设三司" },
+      { "text": "设锦衣卫特务机构" }
+    ]},
+    { "text": "八股取士", "children": [
+      { "text": "考试限于四书五经" },
+      { "text": "禁锢思想，阻碍发展" }
+    ]}
+  ]
+}

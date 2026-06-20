@@ -1,0 +1,57 @@
+{
+  "meta": { "id": 4, "slug": "lesson-04-工业化的起步与三大改造", "title": "工业化的起步与三大改造", "unit": "第二单元", "week": 2, "day": 1 },
+  "objectives": [
+    { "text": "了解一五计划的背景和成就", "isKeyPoint": true },
+    { "text": "掌握三大改造的内容和意义", "isKeyPoint": true },
+    { "text": "理解社会主义制度的建立", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "一五计划",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1953年，我国开始执行第一个**五年计划**（1953—1957年），集中力量发展重工业。一五计划期间，**长春第一汽车制造厂**建成投产，**武汉长江大桥**通车，**川藏、青藏、新藏公路**修通。一五计划超额完成，开始改变工业落后的面貌。" },
+        { "type": "callout", "variant": "note", "title": "一五计划成就", "content": "一五计划期间，鞍山钢铁公司无缝钢管厂等三大工程建成，长春一汽、沈阳机床厂和飞机制造厂建成投产。" }
+      ]
+    },
+    {
+      "title": "三大改造",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1953—1956年，我国对**农业、手工业和资本主义工商业**进行了社会主义改造（三大改造）。到1956年底，三大改造基本完成，实现了生产资料私有制向**社会主义公有制**的转变，**社会主义基本制度**在我国建立起来。" },
+        { "type": "callout", "variant": "tip", "title": "历史意义", "content": "三大改造的完成，标志着社会主义基本制度在我国建立起来，我国从此进入社会主义初级阶段。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "三大改造完成于1956年底，不是1953年。1953年是开始时间。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：一五计划",
+      "problem": [
+        { "type": "paragraph", "content": "一五计划期间建成的著名大桥是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 南京长江大桥", "B. 武汉长江大桥", "C. 上海长江大桥", "D. 重庆长江大桥"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "一五计划期间武汉长江大桥建成通车。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：三大改造",
+      "problem": [
+        { "type": "paragraph", "content": "三大改造的完成标志着（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 新民主主义革命胜利", "B. 社会主义基本制度建立", "C. 改革开放开始", "D. 工业化实现"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "三大改造的完成标志着社会主义基本制度在我国建立。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "一五计划（1953—1957年）", "children": [
+      { "text": "集中力量发展重工业" },
+      { "text": "武汉长江大桥建成" }
+    ]},
+    { "text": "三大改造（1953—1956年）", "children": [
+      { "text": "农业、手工业、资本主义工商业" },
+      { "text": "社会主义基本制度建立" }
+    ]}
+  ]
+}

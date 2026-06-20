@@ -1,0 +1,63 @@
+{
+  "meta": { "id": 14, "slug": "lesson-14-钢铁长城", "title": "钢铁长城", "unit": "第五单元", "week": 5, "day": 2 },
+  "objectives": [
+    { "text": "了解人民军队的现代化建设", "isKeyPoint": true },
+    { "text": "掌握「两弹一星」的成就", "isKeyPoint": true },
+    { "text": "理解国防建设的意义", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "国防建设",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "新中国成立后，人民军队不断发展壮大。**1964年**，我国第一颗**原子弹**爆炸成功。**1966年**，我国第一颗**装有核弹头的地地导弹**飞行试验成功。**1967年**，我国第一颗**氢弹**爆炸成功。**1970年**，我国成功发射了第一颗**人造地球卫星**——「**东方红一号**」。" },
+        { "type": "table", "headers": ["成就", "时间", "意义"], "rows": [
+          ["原子弹爆炸成功", "1964年", "打破核垄断"],
+          ["导弹飞行试验成功", "1966年", "具备核打击能力"],
+          ["氢弹爆炸成功", "1967年", "核武器发展里程碑"],
+          ["东方红一号卫星", "1970年", "中国进入太空时代"]
+        ]},
+        { "type": "callout", "variant": "mnemonic", "title": "记忆要点", "content": "两弹一星：原子弹（1964）、导弹（1966）、氢弹（1967）、卫星（1970）。" }
+      ]
+    },
+    {
+      "title": "国防现代化",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "改革开放以来，我国国防和军队建设取得巨大成就。**2012年**，中国第一艘航空母舰「**辽宁舰**」正式交付海军。人民军队正朝着**现代化、正规化**方向迈进。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "强大的国防是国家安全的保障。国防建设必须与经济建设协调发展。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：两弹一星",
+      "problem": [
+        { "type": "paragraph", "content": "我国第一颗原子弹爆炸成功的时间是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1960年", "B. 1964年", "C. 1967年", "D. 1970年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1964年我国第一颗原子弹爆炸成功。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：东方红一号",
+      "problem": [
+        { "type": "paragraph", "content": "我国第一颗人造地球卫星是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 神舟一号", "B. 东方红一号", "C. 嫦娥一号", "D. 天宫一号"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1970年我国成功发射第一颗人造地球卫星「东方红一号」。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "两弹一星", "children": [
+      { "text": "原子弹（1964年）" },
+      { "text": "氢弹（1967年）" },
+      { "text": "东方红一号卫星（1970年）" }
+    ]},
+    { "text": "国防现代化", "children": [
+      { "text": "辽宁舰交付海军" },
+      { "text": "现代化、正规化建设" }
+    ]}
+  ]
+}

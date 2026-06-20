@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 10, "slug": "lesson-10-对外开放", "title": "对外开放", "unit": "第三单元", "week": 4, "day": 1 },
+  "objectives": [
+    { "text": "了解经济特区的设立", "isKeyPoint": true },
+    { "text": "掌握对外开放格局的形成", "isKeyPoint": true },
+    { "text": "理解对外开放的意义", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "经济特区的设立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1980年，我国设立**深圳、珠海、汕头、厦门**4个经济特区。深圳成为经济特区的代表和对外开放的「窗口」。1988年，**海南**经济特区设立。" },
+        { "type": "callout", "variant": "note", "title": "深圳速度", "content": "深圳从一个边陲小渔村发展成为现代化大都市，创造了著名的「深圳速度」，成为改革开放的象征。" }
+      ]
+    },
+    {
+      "title": "对外开放格局",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "我国逐步形成了**「经济特区—沿海开放城市—沿海经济开放区—内地」**的全方位、多层次、宽领域的对外开放格局。2001年，中国加入**世界贸易组织**（WTO），对外开放进入新阶段。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "对外开放格局的特点：全方位（对所有国家开放）、多层次（从特区到内地逐步推进）、宽领域（从经济到科技文化等多领域）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：经济特区",
+      "problem": [
+        { "type": "paragraph", "content": "1980年设立的经济特区不包括（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 深圳", "B. 珠海", "C. 上海", "D. 厦门"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1980年设立的经济特区是深圳、珠海、汕头、厦门。上海不是经济特区。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：加入WTO",
+      "problem": [
+        { "type": "paragraph", "content": "中国加入世界贸易组织的时间是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1997年", "B. 1999年", "C. 2001年", "D. 2003年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "2001年中国加入世界贸易组织。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "经济特区", "children": [
+      { "text": "1980年设立深圳等4个" },
+      { "text": "深圳是对外开放窗口" }
+    ]},
+    { "text": "对外开放格局", "children": [
+      { "text": "全方位、多层次、宽领域" },
+      { "text": "2001年加入WTO" }
+    ]}
+  ]
+}

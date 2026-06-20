@@ -1,0 +1,9 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    { "type": "choice", "id": "ex-7-1", "stem": "道家学派的创始人是（  ）", "options": [{ "label": "A", "text": "孔子" }, { "label": "B", "text": "老子" }, { "label": "C", "text": "庄子" }, { "label": "D", "text": "孟子" }], "answer": "B", "analysis": "老子是春秋晚期思想家，道家学派创始人，著有《道德经》。" },
+    { "type": "choice", "id": "ex-7-2", "stem": "孔子的核心思想是（  ）", "options": [{ "label": "A", "text": "无为而治" }, { "label": "B", "text": "仁与礼" }, { "label": "C", "text": "兼爱非攻" }, { "label": "D", "text": "以法治国" }], "answer": "B", "analysis": "孔子思想的核心是「仁「（仁爱）和「礼「（社会规范），这是儒家思想的基础。" },
+    { "type": "true_false", "id": "ex-7-3", "stem": "法家韩非主张以法治国，建立中央集权。", "answer": true, "analysis": "韩非是法家的集大成者，主张以法治国、加强君主权力、建立中央集权制度。" },
+    { "type": "fill", "id": "ex-7-4", "segments": ["孔子在教育方面主张", "___1___", "（不分贵贱都接受教育）和", "___2___", "（根据学生特点施教）。"], "blanks": [{ "index": 1, "answer": "有教无类" }, { "index": 2, "answer": "因材施教" }], "analysis": "有教无类打破了贵族垄断教育，因材施教体现了个性化教育理念。" }
+  ]
+}

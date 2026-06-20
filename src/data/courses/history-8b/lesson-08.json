@@ -1,0 +1,60 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-伟大的历史转折", "title": "伟大的历史转折", "unit": "第三单元", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "了解关于真理标准问题的讨论", "isKeyPoint": true },
+    { "text": "掌握中共十一届三中全会的内容和意义", "isKeyPoint": true },
+    { "text": "理解改革开放的开端", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "关于真理标准问题的讨论",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1978年，思想理论界展开了一场**关于真理标准问题的大讨论**。讨论的焦点是：实践是检验真理的唯一标准，还是「两个凡是」。这场讨论解放了人们的思想，为十一届三中全会的召开奠定了思想基础。" },
+        { "type": "callout", "variant": "note", "title": "两个凡是", "content": "「两个凡是」是指：凡是毛主席作出的决策，我们都坚决维护；凡是毛主席的指示，我们都始终不渝地遵循。这一方针阻碍了拨乱反正工作的进行。" }
+      ]
+    },
+    {
+      "title": "中共十一届三中全会",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1978年12月，**中共十一届三中全会**在北京召开。全会果断结束「以阶级斗争为纲」，作出把党和国家工作中心转移到**经济建设**上来、实行**改革开放**的历史性决策。十一届三中全会是新中国成立以来党的历史上具有深远意义的伟大转折。" },
+        { "type": "timeline", "items": [
+          { "time": "1978年", "title": "真理标准讨论", "content": "解放思想，为全会奠定思想基础" },
+          { "time": "1978年12月", "title": "十一届三中全会", "content": "作出改革开放决策" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "历史意义", "content": "十一届三中全会是建国以来党的历史上具有深远意义的伟大转折，开启了改革开放和社会主义现代化建设的新时期。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：十一届三中全会",
+      "problem": [
+        { "type": "paragraph", "content": "中共十一届三中全会作出的历史性决策是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 以阶级斗争为纲", "B. 实行改革开放", "C. 大跃进", "D. 人民公社化"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "十一届三中全会作出改革开放的历史性决策。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：伟大转折",
+      "problem": [
+        { "type": "paragraph", "content": "新中国成立以来党的历史上具有深远意义的伟大转折是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 中共八大", "B. 中共十一届三中全会", "C. 中共十三大", "D. 中共十四大"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "十一届三中全会是伟大转折。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "真理标准讨论（1978年）", "children": [
+      { "text": "实践是检验真理的唯一标准" }
+    ]},
+    { "text": "十一届三中全会（1978年12月）", "children": [
+      { "text": "转移工作中心到经济建设" },
+      { "text": "实行改革开放" },
+      { "text": "伟大转折" }
+    ]}
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "meta": { "id": 2, "slug": "lesson-02-从贞观之治到开元盛世", "title": "从贞观之治到开元盛世", "unit": "第一单元", "week": 1, "day": 2 },
+  "objectives": [
+    { "text": "了解唐太宗贞观之治的主要措施", "isKeyPoint": true },
+    { "text": "掌握武则天的统治及其历史地位", "isKeyPoint": true },
+    { "text": "理解唐玄宗开元盛世的表现", "isKeyPoint": true },
+    { "text": "了解唐朝前期政治清明的原因", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "唐太宗与贞观之治",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "618年，**李渊**建立唐朝，定都长安。626年，**李世民**即位，即**唐太宗**，年号**贞观**。唐太宗吸取隋亡教训，虚心纳谏，任用贤能，推行一系列改革措施，使唐朝出现政治清明、经济发展的局面，史称「**贞观之治**」。" },
+        { "type": "table", "headers": ["方面", "措施"], "rows": [
+          ["政治", "虚心纳谏（魏征）、知人善任（房玄龄、杜如晦）"],
+          ["经济", "轻徭薄赋、劝课农桑、戒奢从简"],
+          ["法律", "修订法律、宽省刑法"],
+          ["用人", "完善科举制、扩充国学规模"]
+        ]},
+        { "type": "callout", "variant": "quote", "title": "《资治通鉴》", "content": "以铜为镜，可以正衣冠；以古为镜，可以知兴替；以人为镜，可以明得失。——唐太宗论魏征" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "贞观之治唐太宗，虚心纳谏用贤能。轻徭薄赋戒奢俭，政治清明国力盛。" }
+      ]
+    },
+    {
+      "title": "武则天的统治",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**武则天**是中国历史上唯一的女皇帝。她当政期间，打击敌对的官僚贵族，大力发展科举制，不拘一格选拔人才。她统治期间，社会经济得以持续发展，人口持续增长，边疆得到巩固和开拓。" },
+        { "type": "callout", "variant": "tip", "title": "历史地位", "content": "武则天的统治「政启开元，治宏贞观」，为后来唐玄宗的开元盛世奠定了基础。她是中国历史上唯一的女皇帝。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "武则天是唐朝皇帝（改国号为周），不是宋朝或其他朝代。她统治期间社会经济继续发展，不是倒退。" }
+      ]
+    },
+    {
+      "title": "唐玄宗与开元盛世",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**唐玄宗**李隆基即位后，励精图治，重用贤能（**姚崇、宋璟**），整顿吏治，裁减冗员，发展经济，改革税制，注重文教，编修经籍。唐朝进入鼎盛时期，史称「**开元盛世**」。" },
+        { "type": "timeline", "items": [
+          { "time": "618年", "title": "唐朝建立", "content": "李渊称帝，定都长安" },
+          { "time": "626年", "title": "贞观之治", "content": "唐太宗即位，政治清明" },
+          { "time": "690年", "title": "武则天称帝", "content": "改国号为周，中国唯一女皇帝" },
+          { "time": "713年", "title": "开元盛世", "content": "唐玄宗即位，唐朝进入鼎盛" }
+        ]},
+        { "type": "callout", "variant": "note", "title": "唐朝盛世", "content": "唐太宗贞观之治→武则天政启开元→唐玄宗开元盛世，三位皇帝接力，使唐朝成为当时世界上最强大的国家之一。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：贞观之治",
+      "problem": [
+        { "type": "paragraph", "content": "唐太宗统治时期，政治清明，经济发展，国力增强，史称（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 文景之治", "B. 光武中兴", "C. 贞观之治", "D. 开元盛世"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "唐太宗年号贞观，其统治时期史称「贞观之治」。文景之治是西汉，光武中兴是东汉，开元盛世是唐玄宗时期。正确答案为C。" }],
+      "answer": "C", "source": "2024各地中考常见"
+    },
+    {
+      "title": "例2：武则天",
+      "problem": [
+        { "type": "paragraph", "content": "武则天统治时期的历史评价是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 政启开元，治宏贞观", "B. 贞观之治", "C. 开元盛世", "D. 康乾盛世"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "武则天的统治「政启开元，治宏贞观」，意思是为开元盛世开了好头，继承了贞观之治的遗风。正确答案为A。" }],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "贞观之治", "children": [
+      { "text": "唐太宗李世民，年号贞观" },
+      { "text": "虚心纳谏、任用贤能、轻徭薄赋" }
+    ]},
+    { "text": "武则天", "children": [
+      { "text": "中国唯一女皇帝" },
+      { "text": "政启开元，治宏贞观" }
+    ]},
+    { "text": "开元盛世", "children": [
+      { "text": "唐玄宗李隆基，重用姚崇、宋璟" },
+      { "text": "唐朝鼎盛时期，当时世界最强国家之一" }
+    ]}
+  ]
+}

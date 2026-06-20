@@ -1,0 +1,9 @@
+{
+  "lessonId": 14,
+  "exercises": [
+    { "type": "choice", "id": "ex-14-1", "stem": "郑和下西洋最远到达（  ）", "options": [{ "label": "A", "text": "印度" }, { "label": "B", "text": "非洲东海岸" }, { "label": "C", "text": "欧洲" }, { "label": "D", "text": "美洲" }], "answer": "B", "analysis": "郑和下西洋最远到达非洲东海岸和红海沿岸。" },
+    { "type": "choice", "id": "ex-14-2", "stem": "明朝抗击倭寇的民族英雄是（  ）", "options": [{ "label": "A", "text": "郑成功" }, { "label": "B", "text": "戚继光" }, { "label": "C", "text": "文天祥" }, { "label": "D", "text": "岳飞" }], "answer": "B", "analysis": "戚继光率领戚家军抗击倭寇。" },
+    { "type": "true_false", "id": "ex-14-3", "stem": "郑和下西洋比欧洲航海家早半个多世纪。", "answer": true, "analysis": "郑和1405年首次下西洋，比哥伦布1492年到达美洲早87年。" },
+    { "type": "fill", "id": "ex-14-4", "segments": ["郑和", "___1___", "次下西洋。戚继光率领的军队称为", "___2___", "。"], "blanks": [{ "index": 1, "answer": "七" }, { "index": 2, "answer": "戚家军" }], "analysis": "郑和七次下西洋，戚继光率领的军队称为「戚家军」。" }
+  ]
+}

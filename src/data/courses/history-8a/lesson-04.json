@@ -1,0 +1,61 @@
+{
+  "meta": { "id": 4, "slug": "lesson-04-甲午中日战争与瓜分中国狂潮", "title": "甲午中日战争与瓜分中国狂潮", "unit": "第二单元", "week": 2, "day": 1 },
+  "objectives": [
+    { "text": "了解甲午中日战争的经过", "isKeyPoint": true },
+    { "text": "掌握《马关条约》的内容及影响", "isKeyPoint": true },
+    { "text": "了解列强瓜分中国的狂潮", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "甲午中日战争",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1894年，日本发动侵略中国的**甲午中日战争**。北洋舰队在**黄海海战**中损失惨重，**邓世昌**等将领壮烈殉国。1895年，清政府战败，被迫签订《**马关条约**》。" },
+        { "type": "timeline", "items": [
+          { "time": "1894年", "title": "甲午战争爆发", "content": "日本发动侵华战争" },
+          { "time": "1894年", "title": "黄海海战", "content": "邓世昌壮烈殉国" },
+          { "time": "1895年", "title": "《马关条约》签订", "content": "中国半殖民地化大大加深" }
+        ]},
+        { "type": "callout", "variant": "quote", "title": "邓世昌", "content": "此日漫挥天下泪，有公足壮海军威。——光绪帝挽联" }
+      ]
+    },
+    {
+      "title": "《马关条约》",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1895年签订的《马关条约》主要内容：割**辽东半岛、台湾全岛及所有附属各岛屿、澎湖列岛**给日本；赔偿日本兵费白银**2亿两**；开放沙市、重庆、苏州、杭州为商埠；允许日本在通商口岸开设工厂。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "《马关条约》使外国侵略势力进一步深入中国腹地，大大加深了中国的半殖民地化程度。允许日本设厂标志着列强对华侵略由商品输出为主转为资本输出为主。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：黄海海战",
+      "problem": [
+        { "type": "paragraph", "content": "在甲午中日战争黄海海战中壮烈殉国的将领是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 林则徐", "B. 邓世昌", "C. 左宗棠", "D. 李鸿章"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "邓世昌在黄海海战中壮烈殉国。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：马关条约",
+      "problem": [
+        { "type": "paragraph", "content": "《马关条约》中允许日本在通商口岸开设工厂，这标志着列强侵华方式转变为（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 商品输出", "B. 资本输出", "C. 武力侵略", "D. 文化渗透"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "允许日本设厂标志着列强对华侵略由商品输出为主转为资本输出为主。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "甲午中日战争（1894—1895年）", "children": [
+      { "text": "邓世昌黄海海战壮烈殉国" }
+    ]},
+    { "text": "《马关条约》", "children": [
+      { "text": "割台湾等、赔2亿两、开放口岸" },
+      { "text": "允许日本设厂" },
+      { "text": "大大加深半殖民地化" }
+    ]}
+  ]
+}

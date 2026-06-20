@@ -1,0 +1,80 @@
+{
+  "meta": { "id": 12, "slug": "lesson-12-宋元时期的科技与文化", "title": "宋元时期的科技与文化", "unit": "第二单元", "week": 4, "day": 3 },
+  "objectives": [
+    { "text": "掌握活字印刷术、指南针、火药的发明和应用", "isKeyPoint": true },
+    { "text": "了解宋元时期文学艺术的成就", "isKeyPoint": true },
+    { "text": "理解四大发明对世界文明的贡献", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "三大发明",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "宋元时期是中国科技发展的高峰期。**活字印刷术**、**指南针**、**火药**三大发明在这一时期完善并广泛应用，对世界文明发展产生了深远影响。" },
+        { "type": "table", "headers": ["发明", "时期", "人物/说明", "影响"], "rows": [
+          ["活字印刷术", "北宋", "毕昇发明", "促进文化传播"],
+          ["指南针", "北宋", "开始用于航海", "促进航海事业发展"],
+          ["火药", "宋元", "广泛用于军事", "改变战争方式"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "活字印刷术是北宋毕昇发明，不是唐朝。唐朝是雕版印刷术。指南针在北宋开始用于航海。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "毕昇活字印书快，指南导航航海来。火药武器震天下，三大发明传四海。" }
+      ]
+    },
+    {
+      "title": "文学成就",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "宋代文学以**词**最为繁荣，**苏轼**、**李清照**、**辛弃疾**是杰出的词人。元代以**曲**（杂剧）最为著名，**关汉卿**的《**窦娥冤**》是代表作。" },
+        { "type": "table", "headers": ["时期", "代表人物", "代表作/成就"], "rows": [
+          ["北宋", "苏轼", "豪放派词人"],
+          ["两宋之交", "李清照", "婉约派词人"],
+          ["南宋", "辛弃疾", "豪放派词人"],
+          ["元朝", "关汉卿", "《窦娥冤》"]
+        ]},
+        { "type": "callout", "variant": "quote", "title": "苏轼《念奴娇·赤壁怀古》", "content": "大江东去，浪淘尽，千古风流人物。" }
+      ]
+    },
+    {
+      "title": "史学成就",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "北宋**司马光**主持编写的《**资治通鉴**》是一部编年体通史巨著，记述了从战国到五代共1300多年的历史。它与《史记》并列为中国史学的不朽巨著。" },
+        { "type": "callout", "variant": "note", "title": "史学双璧", "content": "《史记》（司马迁）是纪传体通史，《资治通鉴》（司马光）是编年体通史，两者并称「史学双璧」。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：活字印刷术",
+      "problem": [
+        { "type": "paragraph", "content": "活字印刷术的发明者是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 蔡伦", "B. 毕昇", "C. 沈括", "D. 黄道婆"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "北宋毕昇发明活字印刷术。蔡伦改进造纸术，沈括记录活字印刷术。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：资治通鉴",
+      "problem": [
+        { "type": "paragraph", "content": "《资治通鉴》的作者是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 司马迁", "B. 司马光", "C. 班固", "D. 欧阳修"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "《资治通鉴》由北宋司马光主持编写。司马迁写《史记》。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "三大发明", "children": [
+      { "text": "活字印刷术：北宋毕昇" },
+      { "text": "指南针：北宋用于航海" },
+      { "text": "火药：宋元广泛用于军事" }
+    ]},
+    { "text": "文学成就", "children": [
+      { "text": "词：苏轼、李清照、辛弃疾" },
+      { "text": "曲：关汉卿《窦娥冤》" }
+    ]},
+    { "text": "史学成就", "children": [
+      { "text": "《资治通鉴》：司马光，编年体通史" }
+    ]}
+  ]
+}

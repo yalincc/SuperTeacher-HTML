@@ -1,0 +1,59 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-北伐战争与土地革命", "title": "北伐战争与土地革命", "unit": "第三单元", "week": 3, "day": 3 },
+  "objectives": [
+    { "text": "了解国共第一次合作和北伐战争", "isKeyPoint": true },
+    { "text": "掌握南昌起义和秋收起义", "isKeyPoint": true },
+    { "text": "理解井冈山革命根据地的建立", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "北伐战争",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1924年，国民党一大召开，**国共第一次合作**实现。1926年，**北伐战争**开始，目标是推翻北洋军阀统治。北伐军在**叶挺**独立团等部队英勇奋战，基本推翻了北洋军阀统治。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "1927年蒋介石发动「四一二」反革命政变，国共合作破裂，国民革命失败。" }
+      ]
+    },
+    {
+      "title": "南昌起义与秋收起义",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1927年8月1日，**周恩来、贺龙**等在南昌发动起义，打响了武装反抗国民党反动统治的第一枪。1927年9月，**毛泽东**领导秋收起义，创建了第一个农村革命根据地——**井冈山革命根据地**。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "南昌起义是中国共产党独立领导武装斗争的开始。井冈山道路是「农村包围城市、武装夺取政权」的道路。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：南昌起义",
+      "problem": [
+        { "type": "paragraph", "content": "打响武装反抗国民党反动统治第一枪的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 秋收起义", "B. 南昌起义", "C. 广州起义", "D. 武昌起义"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1927年8月1日南昌起义，打响了武装反抗国民党反动统治的第一枪。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：井冈山根据地",
+      "problem": [
+        { "type": "paragraph", "content": "中国第一个农村革命根据地是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 中央革命根据地", "B. 井冈山革命根据地", "C. 陕北革命根据地", "D. 湘赣革命根据地"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "毛泽东创建的井冈山革命根据地是中国第一个农村革命根据地。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "北伐战争", "children": [
+      { "text": "国共第一次合作" },
+      { "text": "基本推翻北洋军阀统治" }
+    ]},
+    { "text": "南昌起义（1927年）", "children": [
+      { "text": "打响武装反抗国民党第一枪" }
+    ]},
+    { "text": "井冈山根据地", "children": [
+      { "text": "第一个农村革命根据地" },
+      { "text": "农村包围城市道路" }
+    ]}
+  ]
+}

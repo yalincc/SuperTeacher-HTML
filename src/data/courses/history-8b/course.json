@@ -1,0 +1,48 @@
+{
+  "id": "history-8b",
+  "course": {
+    "name": "八年级下册",
+    "icon": "📜",
+    "subtitle": "人教版八年级下册（2024版）",
+    "color": "#b45309"
+  },
+  "group": {
+    "id": "history",
+    "name": "初中历史",
+    "icon": "📜",
+    "color": "#b45309",
+    "order": 4
+  },
+  "semester": {
+    "name": "八年级下",
+    "order": 4
+  },
+  "schedule": {
+    "weeks": 6,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周", "第六周"],
+    "weekTitles": ["新中国的成立与巩固", "社会主义建设探索", "改革开放", "民族团结与外交", "科技文化", "社会生活"]
+  },
+  "lessons": [
+    { "id": 1, "title": "中华人民共和国成立", "unit": "第一单元", "week": 1, "day": 1 },
+    { "id": 2, "title": "抗美援朝", "unit": "第一单元", "week": 1, "day": 2 },
+    { "id": 3, "title": "土地改革", "unit": "第一单元", "week": 1, "day": 3 },
+    { "id": 4, "title": "工业化的起步与三大改造", "unit": "第二单元", "week": 2, "day": 1 },
+    { "id": 5, "title": "人民代表大会制度与民主政治建设", "unit": "第二单元", "week": 2, "day": 2 },
+    { "id": 6, "title": "艰辛探索与建设成就", "unit": "第二单元", "week": 2, "day": 3 },
+    { "id": 7, "title": "文化大革命", "unit": "第二单元", "week": 3, "day": 1 },
+    { "id": 8, "title": "伟大的历史转折", "unit": "第三单元", "week": 3, "day": 2 },
+    { "id": 9, "title": "经济体制改革", "unit": "第三单元", "week": 3, "day": 3 },
+    { "id": 10, "title": "对外开放", "unit": "第三单元", "week": 4, "day": 1 },
+    { "id": 11, "title": "建设中国特色社会主义", "unit": "第三单元", "week": 4, "day": 2 },
+    { "id": 12, "title": "民族团结", "unit": "第四单元", "week": 4, "day": 3 },
+    { "id": 13, "title": "祖国统一大业", "unit": "第四单元", "week": 5, "day": 1 },
+    { "id": 14, "title": "钢铁长城", "unit": "第五单元", "week": 5, "day": 2 },
+    { "id": 15, "title": "独立自主的和平外交", "unit": "第五单元", "week": 5, "day": 3 },
+    { "id": 16, "title": "科技文化成就", "unit": "第六单元", "week": 6, "day": 1 },
+    { "id": 17, "title": "社会生活的变迁", "unit": "第六单元", "week": 6, "day": 2 }
+  ],
+  "features": {
+    "katex": false,
+    "formulaNormalize": false
+  }
+}

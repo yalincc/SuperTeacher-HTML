@@ -1,0 +1,48 @@
+{
+  "id": "history-8a",
+  "course": {
+    "name": "八年级上册",
+    "icon": "📜",
+    "subtitle": "人教版八年级上册（2024版）",
+    "color": "#b45309"
+  },
+  "group": {
+    "id": "history",
+    "name": "初中历史",
+    "icon": "📜",
+    "color": "#b45309",
+    "order": 4
+  },
+  "semester": {
+    "name": "八年级上",
+    "order": 3
+  },
+  "schedule": {
+    "weeks": 6,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周", "第六周"],
+    "weekTitles": ["中国开始沦为半殖民地半封建社会", "近代化的探索", "新民主主义革命的兴起", "中华民族的抗日战争", "人民解放战争（上）", "人民解放战争（下）"]
+  },
+  "lessons": [
+    { "id": 1, "title": "鸦片战争", "unit": "第一单元", "week": 1, "day": 1 },
+    { "id": 2, "title": "第二次鸦片战争与太平天国运动", "unit": "第一单元", "week": 1, "day": 2 },
+    { "id": 3, "title": "洋务运动", "unit": "第二单元", "week": 1, "day": 3 },
+    { "id": 4, "title": "甲午中日战争与瓜分中国狂潮", "unit": "第二单元", "week": 2, "day": 1 },
+    { "id": 5, "title": "戊戌变法与义和团运动", "unit": "第二单元", "week": 2, "day": 2 },
+    { "id": 6, "title": "辛亥革命", "unit": "第二单元", "week": 2, "day": 3 },
+    { "id": 7, "title": "新文化运动与五四运动", "unit": "第三单元", "week": 3, "day": 1 },
+    { "id": 8, "title": "中国共产党的诞生", "unit": "第三单元", "week": 3, "day": 2 },
+    { "id": 9, "title": "北伐战争与土地革命", "unit": "第三单元", "week": 3, "day": 3 },
+    { "id": 10, "title": "红军长征", "unit": "第三单元", "week": 4, "day": 1 },
+    { "id": 11, "title": "西安事变与抗日民族统一战线", "unit": "第四单元", "week": 4, "day": 2 },
+    { "id": 12, "title": "七七事变与全面抗战", "unit": "第四单元", "week": 4, "day": 3 },
+    { "id": 13, "title": "正面战场与敌后战场", "unit": "第四单元", "week": 5, "day": 1 },
+    { "id": 14, "title": "抗日战争的胜利", "unit": "第四单元", "week": 5, "day": 2 },
+    { "id": 15, "title": "重庆谈判与内战爆发", "unit": "第五单元", "week": 5, "day": 3 },
+    { "id": 16, "title": "战略反攻与三大战役", "unit": "第五单元", "week": 6, "day": 1 },
+    { "id": 17, "title": "解放战争的胜利", "unit": "第五单元", "week": 6, "day": 2 }
+  ],
+  "features": {
+    "katex": false,
+    "formulaNormalize": false
+  }
+}

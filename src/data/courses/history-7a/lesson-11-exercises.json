@@ -1,0 +1,8 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    { "type": "choice", "id": "ex-11-1", "stem": "汉初实行休养生息政策的根本原因是（  ）", "options": [{ "label": "A", "text": "秦朝暴政的教训" }, { "label": "B", "text": "汉初经济凋敝、国力贫弱" }, { "label": "C", "text": "刘邦的个人喜好" }, { "label": "D", "text": "匈奴的威胁" }], "answer": "B", "analysis": "汉初社会极度贫困，国力不足以支撑大规模建设，这是实行休养生息政策的根本原因。" },
+    { "type": "true_false", "id": "ex-11-2", "stem": "文景之治是中国封建社会的第一个治世。", "answer": true, "analysis": "文景之治（汉文帝、汉景帝时期）是中国封建社会出现的第一个治世局面。" },
+    { "type": "fill", "id": "ex-11-3", "segments": ["文景之治时期的治国理念是", "___1___", "，田租税率为", "___2___", "。"], "blanks": [{ "index": 1, "answer": "休养生息", "alternatives": ["无为而治"] }, { "index": 2, "answer": "三十税一" }], "analysis": "文景之治延续了汉初的休养生息政策，进一步轻徭薄赋，税率降至三十税一。" }
+  ]
+}

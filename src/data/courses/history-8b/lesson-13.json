@@ -1,0 +1,71 @@
+{
+  "meta": { "id": 13, "slug": "lesson-13-祖国统一大业", "title": "祖国统一大业", "unit": "第四单元", "week": 5, "day": 1 },
+  "objectives": [
+    { "text": "了解「一国两制」构想的提出", "isKeyPoint": true },
+    { "text": "掌握香港、澳门回归", "isKeyPoint": true },
+    { "text": "理解海峡两岸关系的发展", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "「一国两制」构想",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "进入改革开放新时期后，**邓小平**从维护祖国和中华民族根本利益出发，创造性地提出了「**一国两制**」的伟大构想。「一国两制」就是在祖国统一的前提下，国家的主体坚持社会主义制度，同时在台湾、香港、澳门保持原有的资本主义制度和生活方式长期不变。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "「一国两制」构想为实现祖国和平统一开辟了道路，也为国际上解决历史遗留问题提供了新思路。" }
+      ]
+    },
+    {
+      "title": "香港、澳门回归",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**1997年7月1日**，中国对香港恢复行使主权，**香港回归**。**1999年12月20日**，中国对澳门恢复行使主权，**澳门回归**。香港、澳门回归祖国，标志着中国人民洗雪了百年国耻，在完成祖国统一大业的道路上迈出了重要一步。" },
+        { "type": "timeline", "items": [
+          { "time": "1997年7月1日", "title": "香港回归", "content": "中国对香港恢复行使主权" },
+          { "time": "1999年12月20日", "title": "澳门回归", "content": "中国对澳门恢复行使主权" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "香港回归是1997年，澳门回归是1999年，不要混淆。" }
+      ]
+    },
+    {
+      "title": "海峡两岸关系",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1987年，台湾当局调整「三不」政策，两岸关系发生历史性变化。1992年，两会达成「**九二共识**」，即「海峡两岸均坚持一个中国原则」。2008年，两岸实现「三通」（通邮、通航、通商）。" },
+        { "type": "callout", "variant": "note", "title": "九二共识", "content": "「九二共识」的核心是海峡两岸均坚持一个中国原则，这是两岸关系和平发展的政治基础。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：香港回归",
+      "problem": [
+        { "type": "paragraph", "content": "中国对香港恢复行使主权的时间是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1997年7月1日", "B. 1999年12月20日", "C. 2001年1月1日", "D. 2003年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1997年7月1日中国对香港恢复行使主权。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：九二共识",
+      "problem": [
+        { "type": "paragraph", "content": "「九二共识」的核心是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 两岸三通", "B. 海峡两岸均坚持一个中国原则", "C. 一国两制", "D. 和平统一"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "「九二共识」的核心是海峡两岸均坚持一个中国原则。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "一国两制", "children": [
+      { "text": "邓小平创造性提出" }
+    ]},
+    { "text": "香港、澳门回归", "children": [
+      { "text": "1997年香港回归" },
+      { "text": "1999年澳门回归" }
+    ]},
+    { "text": "海峡两岸关系", "children": [
+      { "text": "1992年九二共识" },
+      { "text": "2008年实现三通" }
+    ]}
+  ]
+}

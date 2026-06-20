@@ -1,0 +1,9 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    { "type": "choice", "id": "ex-11-1", "stem": "邓小平理论被确立为党的指导思想是在（  ）", "options": [{ "label": "A", "text": "中共十三大" }, { "label": "B", "text": "中共十四大" }, { "label": "C", "text": "中共十五大" }, { "label": "D", "text": "中共十六大" }], "answer": "C", "analysis": "1997年中共十五大把邓小平理论确立为党的指导思想。" },
+    { "type": "choice", "id": "ex-11-2", "stem": "「三个代表」重要思想被确立为党的指导思想是在（  ）", "options": [{ "label": "A", "text": "中共十五大" }, { "label": "B", "text": "中共十六大" }, { "label": "C", "text": "中共十七大" }, { "label": "D", "text": "中共十八大" }], "answer": "B", "analysis": "2002年中共十六大把「三个代表」重要思想确立为党的指导思想。" },
+    { "type": "true_false", "id": "ex-11-3", "stem": "邓小平是中国改革开放和现代化建设的总设计师。", "answer": true, "analysis": "邓小平是中国改革开放和现代化建设的总设计师。" },
+    { "type": "fill", "id": "ex-11-4", "segments": ["1997年中共", "___1___", "确立邓小平理论为指导思想。2002年中共", "___2___", "确立「三个代表」为指导思想。"], "blanks": [{ "index": 1, "answer": "十五大" }, { "index": 2, "answer": "十六大" }], "analysis": "十五大确立邓小平理论，十六大确立「三个代表」。" }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "meta": { "id": 7, "slug": "lesson-07-新文化运动与五四运动", "title": "新文化运动与五四运动", "unit": "第三单元", "week": 3, "day": 1 },
+  "objectives": [
+    { "text": "了解新文化运动的背景和内容", "isKeyPoint": true },
+    { "text": "掌握五四运动的经过和意义", "isKeyPoint": true },
+    { "text": "理解五四运动是中国新民主主义革命的开端", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "新文化运动",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1915年，**陈独秀**在上海创办《青年杂志》（后改名《新青年》），发起**新文化运动**。口号是「**民主**」和「**科学**」（德先生和赛先生）。主要代表人物有**陈独秀、李大钊、胡适、鲁迅**等。" },
+        { "type": "callout", "variant": "tip", "title": "意义", "content": "新文化运动动摇了封建道德礼教的统治地位，使中国人民接受了一次民主与科学的洗礼，为五四运动起了思想宣传和铺垫作用。" }
+      ]
+    },
+    {
+      "title": "五四运动",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1919年5月4日，北京学生在天安门前集会，抗议**巴黎和会**将德国在山东的特权转让给日本。五四运动爆发。运动中心由北京转到上海，主力由学生变为**工人阶级**。" },
+        { "type": "timeline", "items": [
+          { "time": "1919年5月4日", "title": "五四运动爆发", "content": "北京学生抗议巴黎和会" },
+          { "time": "1919年6月", "title": "中心转移", "content": "运动中心转到上海，工人阶级成为主力" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "五四运动是中国新民主主义革命的开端，因为工人阶级开始登上政治舞台。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：五四运动",
+      "problem": [
+        { "type": "paragraph", "content": "五四运动爆发的直接原因是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 巴黎和会中国外交失败", "B. 新文化运动的影响", "C. 北洋军阀的黑暗统治", "D. 俄国十月革命的影响"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "巴黎和会将德国在山东的特权转让给日本，这是五四运动爆发的直接原因。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：新民主主义革命",
+      "problem": [
+        { "type": "paragraph", "content": "中国新民主主义革命的开端是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 辛亥革命", "B. 五四运动", "C. 中国共产党成立", "D. 北伐战争"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "五四运动是中国新民主主义革命的开端。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "新文化运动", "children": [
+      { "text": "口号：民主、科学" },
+      { "text": "代表：陈独秀、李大钊、胡适、鲁迅" }
+    ]},
+    { "text": "五四运动（1919年）", "children": [
+      { "text": "抗议巴黎和会中国外交失败" },
+      { "text": "工人阶级登上政治舞台" },
+      { "text": "新民主主义革命的开端" }
+    ]}
+  ]
+}

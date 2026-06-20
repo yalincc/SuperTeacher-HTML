@@ -1,0 +1,49 @@
+{
+  "id": "history-7b",
+  "course": {
+    "name": "七年级下册",
+    "icon": "📜",
+    "subtitle": "人教版七年级下册（2024版）",
+    "color": "#b45309"
+  },
+  "group": {
+    "id": "history",
+    "name": "初中历史",
+    "icon": "📜",
+    "color": "#b45309",
+    "order": 4
+  },
+  "semester": {
+    "name": "七年级下",
+    "order": 2
+  },
+  "schedule": {
+    "weeks": 6,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周", "第六周"],
+    "weekTitles": ["隋唐时期（上）", "隋唐时期（下）", "辽宋夏金元（上）", "辽宋夏金元（下）", "明清时期（上）", "明清时期（下）"]
+  },
+  "lessons": [
+    { "id": 1, "title": "隋朝统一与灭亡", "unit": "第一单元", "week": 1, "day": 1 },
+    { "id": 2, "title": "从贞观之治到开元盛世", "unit": "第一单元", "week": 1, "day": 2 },
+    { "id": 3, "title": "盛唐气象", "unit": "第一单元", "week": 1, "day": 3 },
+    { "id": 4, "title": "唐朝的中外文化交流", "unit": "第一单元", "week": 2, "day": 1 },
+    { "id": 5, "title": "安史之乱与唐朝衰亡", "unit": "第一单元", "week": 2, "day": 2 },
+    { "id": 6, "title": "隋唐时期的科技与文化", "unit": "第一单元", "week": 2, "day": 3 },
+    { "id": 7, "title": "北宋的政治", "unit": "第二单元", "week": 3, "day": 1 },
+    { "id": 8, "title": "辽、西夏与北宋的并立", "unit": "第二单元", "week": 3, "day": 2 },
+    { "id": 9, "title": "金与南宋的对峙", "unit": "第二单元", "week": 3, "day": 3 },
+    { "id": 10, "title": "宋代经济的发展", "unit": "第二单元", "week": 4, "day": 1 },
+    { "id": 11, "title": "蒙古族的兴起与元朝的建立", "unit": "第二单元", "week": 4, "day": 2 },
+    { "id": 12, "title": "宋元时期的科技与文化", "unit": "第二单元", "week": 4, "day": 3 },
+    { "id": 13, "title": "明朝的统治", "unit": "第三单元", "week": 5, "day": 1 },
+    { "id": 14, "title": "明朝的对外关系", "unit": "第三单元", "week": 5, "day": 2 },
+    { "id": 15, "title": "明朝的灭亡", "unit": "第三单元", "week": 5, "day": 3 },
+    { "id": 16, "title": "统一多民族国家的巩固与发展", "unit": "第三单元", "week": 6, "day": 1 },
+    { "id": 17, "title": "清朝前期的经济与社会", "unit": "第三单元", "week": 6, "day": 2 },
+    { "id": 18, "title": "明清时期的科技与文化", "unit": "第三单元", "week": 6, "day": 3 }
+  ],
+  "features": {
+    "katex": false,
+    "formulaNormalize": false
+  }
+}

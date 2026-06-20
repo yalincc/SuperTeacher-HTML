@@ -1,6 +1,6 @@
 # SuperTeacher-HTML 项目结构说明
 
-> 初中化学互动教学网页应用，基于 React + Vite + Tailwind CSS v4 构建。
+> 初中多学科互动教学网页应用，基于 React + Vite + Tailwind CSS v4 构建。
 > 数据流：AI 直接生成 JSON → React 渲染
 
 ---
@@ -40,6 +40,7 @@
 | `package.json` | 依赖管理，核心脚本：`dev`、`build`、`validate` |
 | `tsconfig.app.json` | TypeScript 应用配置 |
 | `vercel.json` | Vercel 部署配置（SPA 路由回退） |
+| `netlify.toml` | Netlify 部署配置（SPA 路由 + 静态资源缓存） |
 | `public/gifs/` | 答题 GIF 动画文件（correct.gif / wrong.gif） |
 | `.agents/` | MiMoCode AI skill 目录（project-manager） |
 | `.qoder/` | Qoder AI 工作目录（generate-lesson skill + repowiki） |
@@ -62,6 +63,8 @@ npm run preview    # 预览生产构建
 | `curriculum/` | **课程 Markdown 原稿**（旧版 10 课时），参考用 |
 | `curriculum-v2.0/` | 课程原稿 v2（新格式） |
 | `curriculum-format.md` | MD 格式详细说明（block 类型、公式写法等） |
+| `curriculum-format-liberal-arts.md` | **文科课程规范**（timeline、quote 等） |
+| `curriculum/history-lesson-template.json` | **历史课程范本** |
 | `design/preview/` | **静态 HTML 设计稿**，用于在改 React 代码前验证视觉效果 |
 | `v1.3-plan.md` ~ `v1.9-plan.md` | 各版本规划文档 |
 | `v1.3-implementation.md` ~ `v1.9-implementation.md` | 各版本实施进度 |
@@ -93,7 +96,7 @@ AI 直接生成 JSON  ──→  src/data/courses/{subject}/lesson-XX.json
 
 - **课程配置**：`CourseConfig`（含 `id` 字段）、`LessonMeta`
 - **课时数据**：`LessonData`、`Objective`、`KnowledgeSection`
-- **内容块**（核心抽象）：`ContentBlock` = `ParagraphBlock | TableBlock | CalloutBlock | EquationBlock | ListBlock | AnimationBlock`
+- **内容块**（核心抽象）：`ContentBlock` = `ParagraphBlock | TableBlock | CalloutBlock | EquationBlock | ListBlock | AnimationBlock | TimelineBlock`
 - **例题/练习**：`Example`、`Exercise`（`ChoiceExercise | TrueFalseExercise | FillExercise | ShortAnswerExercise`）
 - **学习进度**：`UserProgress`、`LessonProgress`、`ExerciseResult`
 - **游戏状态**：`GameState`（心数 + 解锁进度）
@@ -108,11 +111,15 @@ src/data/
 │   │   ├── lesson-00.json   ← 绪论
 │   │   ├── lesson-01.json ~ lesson-18.json
 │   │   └── *-exercises.json
-│   ├── physics/             ← 初二物理
+│   ├── physics/             ← 初二物理（12 课，2024人教版）
 │   │   ├── course.json
-│   │   └── lesson-01.json（声现象）
-│   └── math/                ← 初一数学（占位）
-│       └── course.json
+│   │   └── lesson-01.json ~ lesson-12.json
+│   ├── math/                ← 初一数学（占位）
+│   │   └── course.json
+│   ├── history-7a/          ← 七年级上册历史（20 课，2024人教版）
+│   ├── history-7b/          ← 七年级下册历史（18 课，2024人教版）
+│   ├── history-8a/          ← 八年级上册历史（17 课，2024人教版）
+│   └── history-8b/          ← 八年级下册历史（17 课，2024人教版）
 ├── index.ts                 ← import.meta.glob 自动扫描，聚合导出
 ```
 
@@ -151,10 +158,11 @@ src/data/
 |------|------|
 | `ParagraphBlock.tsx` | 段落块：KaTeX + 加粗 + 斜体 |
 | `TableBlock.tsx` | 表格块：圆角卡片 + renderInline |
-| `CalloutBlock.tsx` | 提示框块：4 种变体 |
+| `CalloutBlock.tsx` | 提示框块：5 种变体（warning/tip/note/mnemonic/quote） |
 | `EquationBlock.tsx` | 公式块：KaTeX 渲染 |
 | `ListBlock.tsx` | 列表块：自定义标记 |
 | `AnimationBlock.tsx` | GIF 动画块 |
+| `TimelineBlock.tsx` | 时间线块（历史事件、朝代更替等） |
 
 #### `components/exercises/`
 
@@ -216,3 +224,5 @@ src/data/
 6. **多学科架构**（v1.8）：`courses/` 目录按学科分组，`import.meta.glob` 自动发现，加新学科零代码改动
 7. **renderInline 渲染规范**：所有 `text` 类型字段输出时**必须**调用 `renderInline()`，支持 `$...$` KaTeX 公式和 `**bold**`
 8. **AI Skill 体系**：project-manager（版本管理）+ generate-lesson（课程生成），全局安装在 `~/.agents/skills/`
+9. **文科课程规范**（v2.1）：`curriculum-format-liberal-arts.md` 覆盖 timeline、quote 等文科专属内容块
+10. **Netlify 部署**（v2.1）：`netlify.toml` 配置 SPA 路由和静态资源缓存

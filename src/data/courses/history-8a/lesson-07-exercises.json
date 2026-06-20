@@ -1,0 +1,9 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    { "type": "choice", "id": "ex-7-1", "stem": "五四运动爆发的直接原因是（  ）", "options": [{ "label": "A", "text": "巴黎和会中国外交失败" }, { "label": "B", "text": "新文化运动的影响" }, { "label": "C", "text": "北洋军阀的黑暗统治" }, { "label": "D", "text": "俄国十月革命的影响" }], "answer": "A", "analysis": "巴黎和会将德国在山东的特权转让给日本，是五四运动爆发的直接原因。" },
+    { "type": "choice", "id": "ex-7-2", "stem": "中国新民主主义革命的开端是（  ）", "options": [{ "label": "A", "text": "辛亥革命" }, { "label": "B", "text": "五四运动" }, { "label": "C", "text": "中国共产党成立" }, { "label": "D", "text": "北伐战争" }], "answer": "B", "analysis": "五四运动是中国新民主主义革命的开端。" },
+    { "type": "true_false", "id": "ex-7-3", "stem": "新文化运动的口号是民主和科学。", "answer": true, "analysis": "新文化运动的口号是「民主」和「科学」。" },
+    { "type": "fill", "id": "ex-7-4", "segments": ["1915年，", "___1___", "创办《新青年》，发起新文化运动。五四运动爆发于", "___2___", "年。"], "blanks": [{ "index": 1, "answer": "陈独秀" }, { "index": 2, "answer": "1919" }], "analysis": "陈独秀创办《新青年》，五四运动爆发于1919年。" }
+  ]
+}

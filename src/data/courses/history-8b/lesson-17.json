@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 17, "slug": "lesson-17-社会生活的变迁", "title": "社会生活的变迁", "unit": "第六单元", "week": 6, "day": 2 },
+  "objectives": [
+    { "text": "了解改革开放以来社会生活的变化", "isKeyPoint": true },
+    { "text": "掌握交通、通讯、住房等方面的发展", "isKeyPoint": true },
+    { "text": "理解改革开放对人民生活的影响", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "衣食住行的变化",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "改革开放以来，我国人民的生活发生了翻天覆地的变化。衣着从单调走向丰富多彩，饮食从追求温饱到注重营养健康，住房从简陋到宽敞明亮，出行从步行自行车到私家车、高铁、飞机。" },
+        { "type": "table", "headers": ["方面", "改革开放前", "改革开放后"], "rows": [
+          ["衣着", "颜色单调，款式单一", "丰富多彩，品牌多样"],
+          ["饮食", "追求温饱", "注重营养健康"],
+          ["住房", "简陋拥挤", "宽敞明亮"],
+          ["出行", "步行、自行车", "私家车、高铁、飞机"]
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "社会生活的变化是改革开放成就的直接体现，反映了人民生活水平的显著提高。" }
+      ]
+    },
+    {
+      "title": "通讯与信息时代",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "改革开放以来，通讯方式发生了巨大变化。从固定电话到移动电话，从书信到互联网，信息技术的发展深刻改变了人们的生活方式。**互联网**的普及使人们足不出户就能了解天下事。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "中国已成为世界上最大的互联网用户国，电子商务、移动支付等新业态蓬勃发展。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：社会生活变化",
+      "problem": [
+        { "type": "paragraph", "content": "改革开放以来，人们出行方式变化最大的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 从步行到骑自行车", "B. 从自行车到私家车、高铁", "C. 从马车到汽车", "D. 从火车到飞机"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "改革开放后，出行方式从自行车发展到私家车、高铁、飞机。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：通讯变化",
+      "problem": [
+        { "type": "paragraph", "content": "深刻改变人们生活方式的技术是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 电视", "B. 电话", "C. 互联网", "D. 收音机"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "互联网的普及深刻改变了人们的生活方式。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "衣食住行变化", "children": [
+      { "text": "从温饱到小康" },
+      { "text": "生活水平显著提高" }
+    ]},
+    { "text": "通讯与信息时代", "children": [
+      { "text": "互联网普及" },
+      { "text": "电子商务、移动支付" }
+    ]}
+  ]
+}

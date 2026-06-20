@@ -1,0 +1,74 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-隋唐时期的科技与文化", "title": "隋唐时期的科技与文化", "unit": "第一单元", "week": 2, "day": 3 },
+  "objectives": [
+    { "text": "了解隋唐时期科技的主要成就", "isKeyPoint": true },
+    { "text": "掌握唐朝书法和绘画的代表人物", "isKeyPoint": true },
+    { "text": "了解隋唐时期石窟艺术的成就", "isKeyPoint": false },
+    { "text": "理解隋唐文化繁荣的原因", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "科技成就",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "隋唐时期科技成就显著。隋朝**李春**设计建造的**赵州桥**，是世界上现存最古老的石拱桥。唐朝时，中国已有雕版印刷的《金刚经》，是世界上现存最早的标有确切日期的雕版印刷品。" },
+        { "type": "table", "headers": ["成就", "时期", "人物/说明"], "rows": [
+          ["赵州桥", "隋朝", "李春设计，世界最古老石拱桥"],
+          ["雕版印刷术", "唐朝", "《金刚经》868年，世界最早标日期印刷品"],
+          ["火药", "唐朝", "炼丹家发明，唐末用于军事"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "赵州桥是隋朝李春设计，不是唐朝。雕版印刷术发明于唐朝，活字印刷术发明于北宋毕昇。" }
+      ]
+    },
+    {
+      "title": "书法与绘画",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "唐朝书法名家辈出。**颜真卿**的字端正劲美，雄浑敦厚；**柳公权**的字方折峻丽，骨力劲健。绘画方面，**吴道子**被称为「画圣」，他的画人物形态各异，神形兼备。" },
+        { "type": "callout", "variant": "mnemonic", "title": "颜筋柳骨", "content": "颜真卿的字肥壮有力，称为「颜筋」；柳公权的字瘦硬挺拔，称为「柳骨」。两人并称「颜柳」。" }
+      ]
+    },
+    {
+      "title": "石窟艺术",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "隋唐时期石窟艺术发达。山西大同的**云冈石窟**和河南洛阳的**龙门石窟**最为著名。石窟中大量的佛像雕塑和壁画，反映了当时高超的艺术水平。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "云冈石窟始凿于北魏，龙门石窟始凿于北魏孝文帝迁都洛阳后，两处石窟在隋唐时期继续扩建，达到鼎盛。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：隋唐科技",
+      "problem": [
+        { "type": "paragraph", "content": "世界上现存最古老的石拱桥是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 赵州桥", "B. 卢沟桥", "C. 安济桥", "D. 宝带桥"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "赵州桥（安济桥）由隋朝李春设计建造，是世界上现存最古老的石拱桥。卢沟桥建于金朝。正确答案为A。" }],
+      "answer": "A", "source": "2024各地中考常见"
+    },
+    {
+      "title": "例2：唐朝印刷术",
+      "problem": [
+        { "type": "paragraph", "content": "世界上现存最早的标有确切日期的雕版印刷品是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《黄帝内经》", "B. 《金刚经》", "C. 《论语》", "D. 《史记》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "唐朝868年印刷的《金刚经》是世界上现存最早的标有确切日期的雕版印刷品。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "科技成就", "children": [
+      { "text": "赵州桥：隋朝李春设计，世界最古老石拱桥" },
+      { "text": "雕版印刷术：唐朝《金刚经》868年" },
+      { "text": "火药：唐朝炼丹家发明" }
+    ]},
+    { "text": "书法绘画", "children": [
+      { "text": "颜真卿（颜筋）、柳公权（柳骨）" },
+      { "text": "吴道子被称为「画圣」" }
+    ]},
+    { "text": "石窟艺术", "children": [
+      { "text": "云冈石窟、龙门石窟" }
+    ]}
+  ]
+}

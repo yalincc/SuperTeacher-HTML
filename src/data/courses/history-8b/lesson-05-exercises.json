@@ -1,0 +1,9 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    { "type": "choice", "id": "ex-5-1", "stem": "我国第一部社会主义类型的宪法是（  ）", "options": [{ "label": "A", "text": "《共同纲领》" }, { "label": "B", "text": "1954年宪法" }, { "label": "C", "text": "1982年宪法" }, { "label": "D", "text": "《中华民国临时约法》" }], "answer": "B", "analysis": "1954年宪法是我国第一部社会主义类型的宪法。" },
+    { "type": "choice", "id": "ex-5-2", "stem": "第一届全国人民代表大会召开于（  ）", "options": [{ "label": "A", "text": "1949年" }, { "label": "B", "text": "1953年" }, { "label": "C", "text": "1954年" }, { "label": "D", "text": "1956年" }], "answer": "C", "analysis": "1954年9月第一届全国人大召开。" },
+    { "type": "true_false", "id": "ex-5-3", "stem": "1954年宪法是我国有史以来真正反映人民利益的宪法。", "answer": true, "analysis": "1954年宪法是我国有史以来真正反映人民利益的宪法。" },
+    { "type": "fill", "id": "ex-5-4", "segments": ["1954年，第一届全国人民代表大会制定了", "___1___", "。这是我国第一部", "___2___", "类型的宪法。"], "blanks": [{ "index": 1, "answer": "中华人民共和国宪法" }, { "index": 2, "answer": "社会主义" }], "analysis": "1954年宪法是第一部社会主义类型宪法。" }
+  ]
+}

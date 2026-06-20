@@ -1,0 +1,9 @@
+{
+  "lessonId": 17,
+  "exercises": [
+    { "type": "choice", "id": "ex-17-1", "stem": "中华人民共和国成立于（  ）", "options": [{ "label": "A", "text": "1949年9月" }, { "label": "B", "text": "1949年10月1日" }, { "label": "C", "text": "1950年1月" }, { "label": "D", "text": "1951年1月" }], "answer": "B", "analysis": "1949年10月1日开国大典，中华人民共和国成立。" },
+    { "type": "choice", "id": "ex-17-2", "stem": "《共同纲领》的作用是（  ）", "options": [{ "label": "A", "text": "正式宪法" }, { "label": "B", "text": "临时宪法" }, { "label": "C", "text": "党纲" }, { "label": "D", "text": "军令" }], "answer": "B", "analysis": "《共同纲领》起临时宪法作用。" },
+    { "type": "true_false", "id": "ex-17-3", "stem": "解放区的土地改革使广大农民分到了土地。", "answer": true, "analysis": "土地改革没收地主土地，实行耕者有其田，农民分到了土地。" },
+    { "type": "fill", "id": "ex-17-4", "segments": ["1947年，中国共产党颁布", "___1___", "进行土地改革。1949年10月1日，举行", "___2___", "。"], "blanks": [{ "index": 1, "answer": "中国土地法大纲" }, { "index": 2, "answer": "开国大典" }], "analysis": "《中国土地法大纲》进行土地改革，1949年10月1日举行开国大典。" }
+  ]
+}

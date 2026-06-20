@@ -1,5 +1,6 @@
 {
   "id": "math",
+  "order": 1,
   "course": {
     "name": "初一数学",
     "icon": "📐",

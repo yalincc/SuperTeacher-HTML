@@ -15,9 +15,9 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const COURSES_DIR = join(__dirname, '..', 'src', 'data', 'courses')
 
-const VALID_BLOCK_TYPES = ['paragraph', 'table', 'callout', 'equation', 'list', 'animation']
+const VALID_BLOCK_TYPES = ['paragraph', 'table', 'callout', 'equation', 'list', 'animation', 'timeline']
 const VALID_EXERCISE_TYPES = ['choice', 'true_false', 'fill', 'short_answer']
-const VALID_CALLOUT_VARIANTS = ['warning', 'tip', 'note', 'mnemonic']
+const VALID_CALLOUT_VARIANTS = ['warning', 'tip', 'note', 'mnemonic', 'quote']
 
 // ===== 主流程 =====
 
@@ -223,6 +223,17 @@ function validateBlock(block, path, errors) {
       break
     case 'animation':
       if (typeof block.src !== 'string') errors.push(`${path}.src 应为字符串`)
+      break
+    case 'timeline':
+      if (!Array.isArray(block.items)) {
+        errors.push(`${path}.items 应为数组`)
+      } else {
+        block.items.forEach((item, j) => {
+          if (typeof item.time !== 'string') errors.push(`${path}.items[${j}].time 应为字符串`)
+          if (typeof item.title !== 'string') errors.push(`${path}.items[${j}].title 应为字符串`)
+          if (item.content !== undefined && typeof item.content !== 'string') errors.push(`${path}.items[${j}].content 应为字符串`)
+        })
+      }
       break
   }
 }

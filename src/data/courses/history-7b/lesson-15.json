@@ -1,0 +1,72 @@
+{
+  "meta": { "id": 15, "slug": "lesson-15-明朝的灭亡", "title": "明朝的灭亡", "unit": "第三单元", "week": 5, "day": 3 },
+  "objectives": [
+    { "text": "了解明朝末年的政治腐败和社会矛盾", "isKeyPoint": true },
+    { "text": "掌握李自成起义和明朝灭亡", "isKeyPoint": true },
+    { "text": "了解清军入关和清朝建立", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "明朝末年的危机",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "明朝末年，政治腐败，土地兼并严重，天灾不断，人民无法忍受。1628年，陕北爆发农民起义，**李自成**是起义军中最杰出的领袖。" },
+        { "type": "callout", "variant": "note", "title": "起义背景", "content": "明朝后期，皇帝多年不上朝，宦官专权，政治黑暗。加上连年天灾，农民生活困苦，纷纷起义。" }
+      ]
+    },
+    {
+      "title": "明朝灭亡",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1644年，李自成率起义军攻入北京，明崇祯帝自缢身亡，**明朝灭亡**。李自成在西安建立大顺政权。但不久，驻守山海关的明将**吴三桂**引清军入关，李自成战败。" },
+        { "type": "timeline", "items": [
+          { "time": "1628年", "title": "农民起义爆发", "content": "陕北农民起义" },
+          { "time": "1644年", "title": "明朝灭亡", "content": "李自成攻入北京，崇祯帝自缢" },
+          { "time": "1644年", "title": "清军入关", "content": "吴三桂引清军入关" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "明朝是被李自成起义灭亡的，不是被清朝灭亡的。清军入关是在明朝灭亡之后。" }
+      ]
+    },
+    {
+      "title": "清朝建立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1616年，**努尔哈赤**建立后金政权。1636年，**皇太极**改国号为**清**。1644年清军入关后，清朝逐步统一全国，定都北京。" },
+        { "type": "callout", "variant": "note", "title": "清朝建立者", "content": "努尔哈赤建立后金，皇太极改国号为清。清朝入关后的第一位皇帝是顺治帝（福临）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：明朝灭亡",
+      "problem": [
+        { "type": "paragraph", "content": "灭亡明朝的农民起义军领袖是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 黄巢", "B. 李自成", "C. 洪秀全", "D. 李秀成"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "李自成率起义军攻入北京，明朝灭亡。黄巢是唐末农民起义，洪秀全是太平天国。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：清军入关",
+      "problem": [
+        { "type": "paragraph", "content": "引清军入关的明朝将领是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 袁崇焕", "B. 吴三桂", "C. 史可法", "D. 郑成功"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1644年吴三桂引清军入关。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "明朝灭亡（1644年）", "children": [
+      { "text": "李自成攻入北京" },
+      { "text": "崇祯帝自缢" }
+    ]},
+    { "text": "清军入关", "children": [
+      { "text": "吴三桂引清军入关" },
+      { "text": "清朝逐步统一全国" }
+    ]},
+    { "text": "清朝建立", "children": [
+      { "text": "努尔哈赤建后金，皇太极改国号清" }
+    ]}
+  ]
+}

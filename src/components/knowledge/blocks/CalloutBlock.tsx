@@ -1,4 +1,4 @@
-import { AlertTriangle, Lightbulb, Info, BookOpen } from 'lucide-react'
+import { AlertTriangle, Lightbulb, Info, BookOpen, ScrollText } from 'lucide-react'
 import type { CalloutBlock } from '@/types'
 import { renderInline } from '@/utils/renderInline'
 
@@ -30,6 +30,12 @@ const variantStyles: Record<CalloutBlock['variant'], { bg: string; border: strin
     border: 'border-purple-200',
     iconBg: 'bg-purple-100',
     icon: <BookOpen className="w-5 h-5 text-purple-500" />,
+  },
+  quote: {
+    bg: 'bg-amber-50',
+    border: 'border-amber-200',
+    iconBg: 'bg-amber-100',
+    icon: <ScrollText className="w-5 h-5 text-amber-600" />,
   },
 }
 

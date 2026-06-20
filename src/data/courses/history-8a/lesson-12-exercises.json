@@ -1,0 +1,9 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    { "type": "choice", "id": "ex-12-1", "stem": "七七事变标志着（  ）", "options": [{ "label": "A", "text": "局部抗战开始" }, { "label": "B", "text": "全面抗战开始" }, { "label": "C", "text": "抗战胜利" }, { "label": "D", "text": "国共合作" }], "answer": "B", "analysis": "七七事变标志着中国全民族抗战的开始。" },
+    { "type": "choice", "id": "ex-12-2", "stem": "南京大屠杀发生在（  ）", "options": [{ "label": "A", "text": "1937年" }, { "label": "B", "text": "1938年" }, { "label": "C", "text": "1939年" }, { "label": "D", "text": "1940年" }], "answer": "A", "analysis": "1937年12月13日日军攻陷南京，制造南京大屠杀。" },
+    { "type": "true_false", "id": "ex-12-3", "stem": "九一八事变标志着全面抗战的开始。", "answer": false, "analysis": "九一八事变标志着局部抗战的开始，七七事变标志全面抗战开始。" },
+    { "type": "fill", "id": "ex-12-4", "segments": ["1937年7月7日，", "___1___", "事变爆发。12月13日日军制造", "___2___", "大屠杀。"], "blanks": [{ "index": 1, "answer": "七七" }, { "index": 2, "answer": "南京" }], "analysis": "七七事变和南京大屠杀是1937年的重要事件。" }
+  ]
+}

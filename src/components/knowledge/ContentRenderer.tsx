@@ -5,6 +5,7 @@ import CalloutBlock from './blocks/CalloutBlock'
 import EquationBlock from './blocks/EquationBlock'
 import ListBlock from './blocks/ListBlock'
 import AnimationBlock from './blocks/AnimationBlock'
+import TimelineBlock from './blocks/TimelineBlock'
 
 interface Props {
   blocks: ContentBlock[]
@@ -27,6 +28,8 @@ function ContentRenderer({ blocks }: Props) {
             return <ListBlock key={i} block={block} />
           case 'animation':
             return <AnimationBlock key={i} block={block} />
+          case 'timeline':
+            return <TimelineBlock key={i} block={block} />
           default:
             return (
               <p key={i} className="text-red-400 text-sm italic">

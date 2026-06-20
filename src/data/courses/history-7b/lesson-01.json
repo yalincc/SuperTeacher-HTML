@@ -1,0 +1,91 @@
+{
+  "meta": { "id": 1, "slug": "lesson-01-隋朝统一与灭亡", "title": "隋朝统一与灭亡", "unit": "第一单元", "week": 1, "day": 1 },
+  "objectives": [
+    { "text": "了解隋朝的建立和统一过程", "isKeyPoint": true },
+    { "text": "掌握大运河的开通及其影响", "isKeyPoint": true },
+    { "text": "了解科举制的创立及其意义", "isKeyPoint": true },
+    { "text": "理解隋朝二世而亡的原因", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "隋朝的建立与统一",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "581年，**杨坚**（隋文帝）夺取北周政权，建立隋朝，定都**长安**。589年，隋文帝灭掉南方的**陈朝**，结束了长期分裂的局面，实现了全国统一。" },
+        { "type": "timeline", "items": [
+          { "time": "581年", "title": "隋朝建立", "content": "杨坚夺取北周政权，定都长安" },
+          { "time": "589年", "title": "统一全国", "content": "隋灭陈，结束长期分裂" },
+          { "time": "604年", "title": "隋炀帝即位", "content": "杨广继位，年号大业" }
+        ]},
+        { "type": "callout", "variant": "note", "title": "历史背景", "content": "魏晋南北朝时期，中国长期处于分裂割据状态。隋朝的统一结束了近300年的分裂，为后来唐朝的繁荣奠定了基础。" }
+      ]
+    },
+    {
+      "title": "大运河的开通",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**隋炀帝**时，从605年起，陆续开凿了一条贯通南北的大运河。大运河以**洛阳**为中心，北抵**涿郡**（今北京），南至**余杭**（今杭州），全长2000多千米，是古代世界最长的运河。" },
+        { "type": "table", "headers": ["段落", "起点", "终点", "说明"], "rows": [
+          ["永济渠", "涿郡", "洛阳", "连接海河水系与黄河"],
+          ["通济渠", "洛阳", "山阳", "连接黄河与淮河"],
+          ["邗沟", "山阳", "江都", "连接淮河与长江"],
+          ["江南河", "江都", "余杭", "连接长江与钱塘江"]
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "大运河的作用：加强了南北地区政治、经济和文化交流，巩固了国家统一。但开凿大运河也加重了人民负担，加速了隋朝的灭亡。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "隋朝运河贯南北，中心洛阳北涿郡。永济通济邗沟连，江南余杭四段记。" }
+      ]
+    },
+    {
+      "title": "科举制的创立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "隋文帝时，废除了魏晋以来的**九品中正制**，开始用分科考试的方法选拔官员。隋炀帝时，正式设置**进士科**，标志着**科举制**的正式创立。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "科举制创立于隋朝，不是唐朝。隋文帝开始用考试选官，隋炀帝设进士科标志科举制正式确立。" },
+        { "type": "callout", "variant": "quote", "title": "历史意义", "content": "科举制改善了用人制度，使有才学的读书人有机会进入各级政府任职，促进了教育事业和文学艺术的发展。" }
+      ]
+    },
+    {
+      "title": "隋朝的灭亡",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "隋炀帝在位期间，好大喜功，不恤民力，又三次征伐辽东，使人民无法忍受。618年，隋炀帝在江都被部将杀死，隋朝灭亡。隋朝存在仅38年，是一个短命王朝。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "隋朝灭亡的直接原因是隋炀帝的暴政（大运河、征辽东等），根本原因是阶级矛盾激化。注意区分隋朝与秦朝灭亡原因的相似性。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：大运河",
+      "problem": [
+        { "type": "paragraph", "content": "隋朝大运河的中心是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 长安", "B. 洛阳", "C. 涿郡", "D. 余杭"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "隋朝大运河以洛阳为中心，北抵涿郡（今北京），南至余杭（今杭州）。长安是隋朝都城，不是运河中心。正确答案为B。" }],
+      "answer": "B", "source": "2024各地中考常见"
+    },
+    {
+      "title": "例2：科举制创立",
+      "problem": [
+        { "type": "paragraph", "content": "标志着科举制正式创立的事件是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 隋文帝开始用分科考试选官", "B. 隋炀帝设置进士科", "C. 唐太宗扩充国学规模", "D. 武则天创立殿试"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "隋文帝开始用考试选官是科举制的雏形，隋炀帝设进士科标志科举制正式确立。唐太宗和武则天是进一步完善科举制。正确答案为B。" }],
+      "answer": "B", "source": "2024各地中考常见"
+    }
+  ],
+  "summary": [
+    { "text": "隋朝统一（589年）", "children": [
+      { "text": "581年杨坚建隋，589年灭陈统一" },
+      { "text": "结束近300年分裂" }
+    ]},
+    { "text": "大运河", "children": [
+      { "text": "隋炀帝时开凿，以洛阳为中心" },
+      { "text": "北涿郡南余杭，全长2000多千米" },
+      { "text": "加强南北交流，但加重人民负担" }
+    ]},
+    { "text": "科举制创立", "children": [
+      { "text": "隋文帝开始考试选官" },
+      { "text": "隋炀帝设进士科，标志科举制确立" }
+    ]}
+  ]
+}

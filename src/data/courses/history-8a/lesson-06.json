@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-辛亥革命", "title": "辛亥革命", "unit": "第二单元", "week": 2, "day": 3 },
+  "objectives": [
+    { "text": "了解孙中山的革命活动", "isKeyPoint": true },
+    { "text": "掌握辛亥革命的经过和意义", "isKeyPoint": true },
+    { "text": "理解中华民国的建立", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "孙中山与革命准备",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**孙中山**是中国民主革命的先行者。1905年，他在日本东京成立**中国同盟会**，提出「**三民主义**」（民族、民权、民生）。革命党人发动了多次武装起义。" },
+        { "type": "callout", "variant": "note", "title": "三民主义", "content": "民族主义：推翻清朝统治；民权主义：建立民国；民生主义：平均地权。三民主义是辛亥革命的指导思想。" }
+      ]
+    },
+    {
+      "title": "辛亥革命",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1911年10月10日，革命党人在**武昌**发动起义，史称「**辛亥革命**」。1912年1月1日，**中华民国**成立，孙中山任临时大总统。同年2月，清宣统帝退位，清朝灭亡。" },
+        { "type": "timeline", "items": [
+          { "time": "1911年10月10日", "title": "武昌起义", "content": "辛亥革命爆发" },
+          { "time": "1912年1月1日", "title": "中华民国成立", "content": "孙中山任临时大总统" },
+          { "time": "1912年2月", "title": "清朝灭亡", "content": "宣统帝退位" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "历史意义", "content": "辛亥革命推翻了清王朝的反动统治，结束了中国两千多年的君主专制制度，使民主共和观念深入人心。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：辛亥革命",
+      "problem": [
+        { "type": "paragraph", "content": "辛亥革命推翻了（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 帝国主义统治", "B. 封建制度", "C. 君主专制制度", "D. 北洋军阀统治"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "辛亥革命推翻了清王朝的反动统治，结束了中国两千多年的君主专制制度。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：中华民国",
+      "problem": [
+        { "type": "paragraph", "content": "中华民国成立于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1911年", "B. 1912年", "C. 1913年", "D. 1914年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1912年1月1日中华民国成立。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "孙中山与革命准备", "children": [
+      { "text": "中国同盟会" },
+      { "text": "三民主义" }
+    ]},
+    { "text": "辛亥革命", "children": [
+      { "text": "1911年武昌起义" },
+      { "text": "1912年中华民国成立" },
+      { "text": "结束君主专制制度" }
+    ]}
+  ]
+}

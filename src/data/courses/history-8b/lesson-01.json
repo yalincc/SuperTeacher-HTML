@@ -1,0 +1,64 @@
+{
+  "meta": { "id": 1, "slug": "lesson-01-中华人民共和国成立", "title": "中华人民共和国成立", "unit": "第一单元", "week": 1, "day": 1 },
+  "objectives": [
+    { "text": "了解中国人民政治协商会议的召开", "isKeyPoint": true },
+    { "text": "掌握开国大典的过程和意义", "isKeyPoint": true },
+    { "text": "理解新中国成立的历史意义", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "筹建新中国",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1949年9月，**中国人民政治协商会议第一届全体会议**在北平召开。会议通过了《**共同纲领**》，选举**毛泽东**为中央人民政府主席，决定以五星红旗为国旗、《义勇军进行曲》为代国歌、北平为首都并改名北京。" },
+        { "type": "callout", "variant": "note", "title": "共同纲领", "content": "《共同纲领》规定了新中国的国家性质和基本政策，起临时宪法作用。" }
+      ]
+    },
+    {
+      "title": "开国大典",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1949年10月1日，**开国大典**在北京天安门广场隆重举行。**毛泽东**向全世界庄严宣告：「中华人民共和国中央人民政府今天成立了！」五星红旗冉冉升起，54门礼炮齐鸣28响。" },
+        { "type": "timeline", "items": [
+          { "time": "1949年9月", "title": "政协会议", "content": "通过《共同纲领》，筹建新中国" },
+          { "time": "1949年10月1日", "title": "开国大典", "content": "中华人民共和国成立" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "历史意义", "content": "新中国的成立，开辟了中国历史的新纪元。中国人民经过一百多年的英勇斗争，终于推翻了帝国主义、封建主义和官僚资本主义的统治。中国真正成为独立自主的国家。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：开国大典",
+      "problem": [
+        { "type": "paragraph", "content": "中华人民共和国成立于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1949年9月", "B. 1949年10月1日", "C. 1950年1月", "D. 1951年1月"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1949年10月1日开国大典，中华人民共和国成立。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：共同纲领",
+      "problem": [
+        { "type": "paragraph", "content": "《共同纲领》的作用是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 正式宪法", "B. 临时宪法", "C. 党纲", "D. 军令"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "《共同纲领》起临时宪法作用。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "筹建新中国", "children": [
+      { "text": "1949年9月政协会议" },
+      { "text": "通过《共同纲领》" }
+    ]},
+    { "text": "开国大典", "children": [
+      { "text": "1949年10月1日" },
+      { "text": "毛泽东宣告新中国成立" }
+    ]},
+    { "text": "历史意义", "children": [
+      { "text": "开辟中国历史新纪元" },
+      { "text": "中国真正成为独立自主的国家" }
+    ]}
+  ]
+}

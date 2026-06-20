@@ -1,0 +1,59 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-戊戌变法与义和团运动", "title": "戊戌变法与义和团运动", "unit": "第二单元", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "了解戊戌变法的背景和过程", "isKeyPoint": true },
+    { "text": "掌握戊戌变法的主要内容和意义", "isKeyPoint": true },
+    { "text": "了解义和团运动和八国联军侵华", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "戊戌变法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1898年，**康有为**、**梁启超**等维新派发动**戊戌变法**（百日维新），主张学习西方政治制度，实行君主立宪。变法仅持续**103天**就被慈禧太后镇压，**谭嗣同等「戊戌六君子」**英勇就义。" },
+        { "type": "callout", "variant": "quote", "title": "谭嗣同", "content": "我自横刀向天笑，去留肝胆两昆仑。——谭嗣同" },
+        { "type": "callout", "variant": "tip", "title": "意义", "content": "戊戌变法虽然失败了，但在思想文化方面产生了广泛而持久的影响，起到了思想启蒙的作用。" }
+      ]
+    },
+    {
+      "title": "义和团运动与八国联军侵华",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1900年，**义和团运动**兴起，口号是「**扶清灭洋**」。为镇压义和团运动，**八国联军**发动侵华战争。1901年，清政府被迫签订《**辛丑条约**》。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "《辛丑条约》是中国近代史上赔款数目最庞大、主权丧失最严重的不平等条约。清政府沦为「洋人的朝廷」。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：戊戌变法",
+      "problem": [
+        { "type": "paragraph", "content": "戊戌变法的领导人是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 李鸿章", "B. 康有为、梁启超", "C. 孙中山", "D. 陈独秀"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "戊戌变法由康有为、梁启超等维新派领导。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：辛丑条约",
+      "problem": [
+        { "type": "paragraph", "content": "《辛丑条约》的影响是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 中国开始沦为半殖民地半封建社会", "B. 中国半殖民地化大大加深", "C. 中国完全沦为半殖民地半封建社会", "D. 中国近代化开始"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "《辛丑条约》使中国完全沦为半殖民地半封建社会。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "戊戌变法（1898年）", "children": [
+      { "text": "康有为、梁启超领导" },
+      { "text": "103天失败，谭嗣同等牺牲" }
+    ]},
+    { "text": "义和团运动", "children": [
+      { "text": "扶清灭洋" }
+    ]},
+    { "text": "《辛丑条约》（1901年）", "children": [
+      { "text": "中国完全沦为半殖民地半封建社会" }
+    ]}
+  ]
+}

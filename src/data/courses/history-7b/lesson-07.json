@@ -1,0 +1,81 @@
+{
+  "meta": { "id": 7, "slug": "lesson-07-北宋的政治", "title": "北宋的政治", "unit": "第二单元", "week": 3, "day": 1 },
+  "objectives": [
+    { "text": "了解北宋建立和结束五代十国分裂局面", "isKeyPoint": true },
+    { "text": "掌握宋太祖加强中央集权的措施", "isKeyPoint": true },
+    { "text": "理解重文轻武政策的影响", "isKeyPoint": true },
+    { "text": "了解北宋时期的社会矛盾", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "北宋的建立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "960年，后周大将**赵匡胤**在**陈桥驿**发动兵变，建立宋朝，定都**东京**（今开封），史称**北宋**。赵匡胤就是宋太祖。979年，北宋消灭最后一个割据政权北汉，结束了五代十国的分裂局面。" },
+        { "type": "timeline", "items": [
+          { "time": "960年", "title": "北宋建立", "content": "赵匡胤陈桥兵变，定都东京" },
+          { "time": "979年", "title": "统一中原", "content": "消灭北汉，结束五代十国分裂" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "北宋结束了五代十国的分裂局面，但并未统一全国。当时还有辽、西夏等政权并立。" }
+      ]
+    },
+    {
+      "title": "加强中央集权",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "宋太祖为防止藩镇割据重演，采取了一系列加强中央集权的措施，把地方的军权、行政权、财权收归中央。" },
+        { "type": "table", "headers": ["方面", "措施", "作用"], "rows": [
+          ["军事", "杯酒释兵权、解除禁军将领兵权", "防止武将专权"],
+          ["行政", "派文官担任地方长官（知州）", "削弱地方权力"],
+          ["财政", "设转运使将地方财赋收归中央", "消除地方割据的物质基础"],
+          ["监察", "设通判监督知州", "牵制地方权力"]
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "宋太祖通过「杯酒释兵权」和平解除将领兵权，是中国历史上少有的不流血的权力集中。" }
+      ]
+    },
+    {
+      "title": "重文轻武政策",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "北宋实行**重文轻武**政策，抑制武将、提升文官地位。文官在朝廷和地方占据主导地位，武将受到严格限制。这一政策扭转了五代十国尚武轻文的风气。" },
+        { "type": "callout", "variant": "note", "title": "积极影响", "content": "重文轻武政策促进了文化教育的发展，营造了浓厚的读书风气，有利于政权稳固和社会安定。" },
+        { "type": "callout", "variant": "warning", "title": "消极影响", "content": "过度重文轻武导致军队战斗力下降，在与辽、西夏、金的战争中屡屡失利，形成「积贫积弱」的局面。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：北宋建立",
+      "problem": [
+        { "type": "paragraph", "content": "北宋的建立者是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 赵匡胤", "B. 赵构", "C. 忽必烈", "D. 朱元璋"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "赵匡胤（宋太祖）960年建立北宋。赵构是南宋建立者，忽必烈是元朝建立者，朱元璋是明朝建立者。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：重文轻武",
+      "problem": [
+        { "type": "paragraph", "content": "北宋实行重文轻武政策的主要目的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 发展文化教育", "B. 防止武将专权", "C. 减少军费开支", "D. 提高官员素质"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "北宋重文轻武的根本目的是防止武将专权、藩镇割据重演，巩固中央集权。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "北宋建立（960年）", "children": [
+      { "text": "赵匡胤陈桥兵变，定都东京" },
+      { "text": "979年结束五代十国分裂" }
+    ]},
+    { "text": "加强中央集权", "children": [
+      { "text": "军事：杯酒释兵权" },
+      { "text": "行政：文官任知州" },
+      { "text": "财政：转运使收财权" }
+    ]},
+    { "text": "重文轻武", "children": [
+      { "text": "抑制武将、提升文官地位" },
+      { "text": "促进文化发展，但削弱军事力量" }
+    ]}
+  ]
+}

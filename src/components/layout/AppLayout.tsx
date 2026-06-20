@@ -1,10 +1,23 @@
 import { Outlet, Link, useParams } from 'react-router-dom'
 import { Home } from 'lucide-react'
-import { getCourseById } from '@/data'
+import { getCourseById, getGroupById, isGroupId } from '@/data'
 
 function AppLayout() {
   const { courseId } = useParams<{ courseId: string }>()
   const course = courseId ? getCourseById(courseId) : null
+
+  // 导航面包屑：分组课程显示分组信息，独立课程显示课程信息
+  let navInfo: { icon: string; name: string; to: string } | null = null
+  if (courseId) {
+    if (isGroupId(courseId)) {
+      const group = getGroupById(courseId)
+      if (group) navInfo = { icon: group.icon, name: group.name, to: `/course/${courseId}` }
+    } else if (course?.group) {
+      navInfo = { icon: course.group.icon, name: course.group.name, to: `/course/${course.group.id}` }
+    } else if (course) {
+      navInfo = { icon: course.course.icon, name: course.course.name, to: `/course/${courseId}` }
+    }
+  }
 
   return (
     <div className="min-h-screen bg-bg">
@@ -15,13 +28,13 @@ function AppLayout() {
             <span className="font-bold">SuperTeacher</span>
           </Link>
           <nav className="flex items-center gap-4">
-            {course && (
+            {navInfo && (
               <Link
-                to={`/course/${courseId}`}
+                to={navInfo.to}
                 className="flex items-center gap-1 text-sm text-text-secondary hover:text-primary transition"
               >
-                <span>{course.course.icon}</span>
-                <span className="hidden sm:inline">{course.course.name}</span>
+                <span>{navInfo.icon}</span>
+                <span className="hidden sm:inline">{navInfo.name}</span>
               </Link>
             )}
             <Link to="/" className="flex items-center gap-1 text-sm text-text-secondary hover:text-primary transition">

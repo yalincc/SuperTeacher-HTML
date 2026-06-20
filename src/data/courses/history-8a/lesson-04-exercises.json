@@ -1,0 +1,9 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    { "type": "choice", "id": "ex-4-1", "stem": "甲午中日战争中壮烈殉国的将领是（  ）", "options": [{ "label": "A", "text": "林则徐" }, { "label": "B", "text": "邓世昌" }, { "label": "C", "text": "左宗棠" }, { "label": "D", "text": "李鸿章" }], "answer": "B", "analysis": "邓世昌在黄海海战中壮烈殉国。" },
+    { "type": "choice", "id": "ex-4-2", "stem": "《马关条约》中允许日本在通商口岸开设工厂，这标志着列强侵华方式转变为（  ）", "options": [{ "label": "A", "text": "商品输出" }, { "label": "B", "text": "资本输出" }, { "label": "C", "text": "武力侵略" }, { "label": "D", "text": "文化渗透" }], "answer": "B", "analysis": "允许日本设厂标志着列强对华侵略由商品输出为主转为资本输出为主。" },
+    { "type": "true_false", "id": "ex-4-3", "stem": "《马关条约》大大加深了中国的半殖民地化程度。", "answer": true, "analysis": "《马关条约》使外国侵略势力进一步深入中国腹地，大大加深了中国的半殖民地化程度。" },
+    { "type": "fill", "id": "ex-4-4", "segments": ["1895年签订", "___1___", "割让台湾给日本。在黄海海战中壮烈殉国的将领是", "___2___", "。"], "blanks": [{ "index": 1, "answer": "马关条约" }, { "index": 2, "answer": "邓世昌" }], "analysis": "《马关条约》割让台湾，邓世昌在黄海海战中壮烈殉国。" }
+  ]
+}

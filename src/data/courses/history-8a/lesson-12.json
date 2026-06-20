@@ -1,0 +1,55 @@
+{
+  "meta": { "id": 12, "slug": "lesson-12-七七事变与全面抗战", "title": "七七事变与全面抗战", "unit": "第四单元", "week": 4, "day": 3 },
+  "objectives": [
+    { "text": "了解七七事变的经过", "isKeyPoint": true },
+    { "text": "掌握淞沪会战和南京大屠杀", "isKeyPoint": true },
+    { "text": "理解全面抗战的开始", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "七七事变",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1937年7月7日，日军在北平西南**卢沟桥**附近举行军事演习，借口一名士兵失踪，要求进入宛平城搜查，遭到中国守军拒绝。日军随即向中国守军发起进攻，史称「**七七事变**」（卢沟桥事变）。七七事变标志着中国**全民族抗战**的开始。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "七七事变是全面抗战的开始，九一八事变是局部抗战的开始。两者不要混淆。" }
+      ]
+    },
+    {
+      "title": "淞沪会战与南京大屠杀",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1937年8月13日，日军进攻上海，**淞沪会战**爆发。11月上海失守。12月13日，日军攻陷南京，制造了惨绝人寰的「**南京大屠杀**」，遇难同胞达**30万人**以上。" },
+        { "type": "callout", "variant": "quote", "title": "历史警示", "content": "南京大屠杀是日本侵略者对中国人民犯下的滔天罪行。2014年，国家将12月13日设立为南京大屠杀死难者国家公祭日。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：七七事变",
+      "problem": [
+        { "type": "paragraph", "content": "七七事变标志着（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 局部抗战开始", "B. 全面抗战开始", "C. 抗战胜利", "D. 国共合作"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "七七事变标志着中国全民族抗战的开始。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：南京大屠杀",
+      "problem": [
+        { "type": "paragraph", "content": "南京大屠杀发生在（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1937年", "B. 1938年", "C. 1939年", "D. 1940年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1937年12月13日日军攻陷南京，制造南京大屠杀。正确答案为A。" }],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "七七事变（1937年）", "children": [
+      { "text": "全面抗战开始" }
+    ]},
+    { "text": "南京大屠杀", "children": [
+      { "text": "1937年12月13日" },
+      { "text": "遇难同胞30万人以上" }
+    ]}
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-人民代表大会制度与民主政治建设", "title": "人民代表大会制度与民主政治建设", "unit": "第二单元", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "了解第一届全国人大的召开", "isKeyPoint": true },
+    { "text": "掌握1954年宪法的内容和意义", "isKeyPoint": true },
+    { "text": "理解人民代表大会制度", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "第一届全国人大与1954年宪法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1954年9月，**第一届全国人民代表大会**在北京召开。大会制定了《**中华人民共和国宪法**》（1954年宪法），这是我国第一部**社会主义类型**的宪法，也是我国有史以来真正反映人民利益的宪法。" },
+        { "type": "callout", "variant": "tip", "title": "宪法内容", "content": "1954年宪法规定：中华人民共和国的一切权力属于人民；人民行使权力的机关是全国人民代表大会和地方各级人民代表大会。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "1954年宪法是我国第一部社会主义类型的宪法，不是《共同纲领》。《共同纲领》起临时宪法作用。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：1954年宪法",
+      "problem": [
+        { "type": "paragraph", "content": "我国第一部社会主义类型的宪法是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《共同纲领》", "B. 1954年宪法", "C. 1982年宪法", "D. 《中华民国临时约法》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1954年宪法是我国第一部社会主义类型的宪法。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：第一届全国人大",
+      "problem": [
+        { "type": "paragraph", "content": "第一届全国人民代表大会召开于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1949年", "B. 1953年", "C. 1954年", "D. 1956年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1954年9月第一届全国人大召开。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "第一届全国人大（1954年）", "children": [
+      { "text": "制定1954年宪法" },
+      { "text": "第一部社会主义类型宪法" }
+    ]}
+  ]
+}

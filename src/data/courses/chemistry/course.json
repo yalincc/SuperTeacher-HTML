@@ -1,5 +1,6 @@
 {
   "id": "chemistry",
+  "order": 3,
   "course": {
     "name": "初中化学",
     "icon": "⚗️",

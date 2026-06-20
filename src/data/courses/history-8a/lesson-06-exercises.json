@@ -1,0 +1,9 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    { "type": "choice", "id": "ex-6-1", "stem": "辛亥革命推翻了（  ）", "options": [{ "label": "A", "text": "帝国主义统治" }, { "label": "B", "text": "封建制度" }, { "label": "C", "text": "君主专制制度" }, { "label": "D", "text": "北洋军阀统治" }], "answer": "C", "analysis": "辛亥革命结束了中国两千多年的君主专制制度。" },
+    { "type": "choice", "id": "ex-6-2", "stem": "中华民国成立于（  ）", "options": [{ "label": "A", "text": "1911年" }, { "label": "B", "text": "1912年" }, { "label": "C", "text": "1913年" }, { "label": "D", "text": "1914年" }], "answer": "B", "analysis": "1912年1月1日中华民国成立。" },
+    { "type": "true_false", "id": "ex-6-3", "stem": "辛亥革命使民主共和观念深入人心。", "answer": true, "analysis": "辛亥革命推翻了君主专制制度，使民主共和观念深入人心。" },
+    { "type": "fill", "id": "ex-6-4", "segments": ["孙中山提出的三民主义是民族、", "___1___", "、民生。中华民国成立于", "___2___", "年。"], "blanks": [{ "index": 1, "answer": "民权" }, { "index": 2, "answer": "1912" }], "analysis": "三民主义是民族、民权、民生。中华民国成立于1912年。" }
+  ]
+}

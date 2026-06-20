@@ -1,0 +1,69 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-战国时期的社会变革", "title": "战国时期的社会变革", "unit": "第二单元", "week": 2, "day": 3 },
+  "objectives": [
+    { "text": "掌握战国七雄及其主要战役", "isKeyPoint": true },
+    { "text": "了解商鞅变法的内容和历史意义", "isKeyPoint": true },
+    { "text": "理解战国时期的时代特征", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "战国七雄与兼并战争",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**战国时期**（公元前475年—公元前221年）是东周的后半期。经过长期兼并，形成了**齐、楚、燕、韩、赵、魏、秦**七个强国，史称「战国七雄「。" },
+        { "type": "table", "headers": ["战役", "交战双方", "结果"], "rows": [
+          ["桂陵之战", "齐（孙膑）vs 魏（庞涓）", "围魏救赵，齐国大败魏军"],
+          ["马陵之战", "齐 vs 魏", "减灶计，庞涓兵败自杀"],
+          ["长平之战", "秦（白起）vs 赵（赵括）", "秦军大胜，坑杀赵军40万降兵"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "长平之战中纸上谈兵的赵括代替了老将廉颇，这是赵国失败的关键原因。" }
+      ]
+    },
+    {
+      "title": "商鞅变法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "公元前356年，**商鞅**在**秦孝公**支持下进行变法。商鞅变法是战国时期最彻底、成效最大的变法，为秦国统一全国奠定了基础。" },
+        { "type": "table", "headers": ["方面", "变法内容"], "rows": [
+          ["政治", "确立县制、废除贵族世袭特权、严明法度"],
+          ["经济", "废除井田制、允许土地自由买卖、统一度量衡"],
+          ["军事", "奖励军功，按军功授予爵位和土地"],
+          ["社会", "实行连坐法、推行户籍制度"]
+        ]},
+        { "type": "callout", "variant": "quote", "title": "《史记·商君列传》", "content": "治世不一道，便国不法古。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "商鞅变法强秦国，废井田、重军功。县制取代封邑制，度量衡统利经商。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：商鞅变法",
+      "problem": [
+        { "type": "paragraph", "content": "商鞅变法内容中，最能体现封建土地所有制确立的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 奖励军功", "B. 废除井田制", "C. 实行县制", "D. 统一度量衡"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "废除井田制、允许土地自由买卖，确立了封建土地私有制，是封建经济基础的变革。正确答案为B。" }],
+      "answer": "B", "source": "2024各地中考常见"
+    },
+    {
+      "title": "例2：战国七雄",
+      "problem": [
+        { "type": "paragraph", "content": "战国七雄中，位于最西边的诸侯国是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 齐国", "B. 楚国", "C. 燕国", "D. 秦国"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "战国七雄位置：齐（东）、楚（南）、秦（西）、燕（北）、赵魏韩（中间）。秦国在最西边。正确答案为D。" }],
+      "answer": "D"
+    }
+  ],
+  "summary": [
+    { "text": "战国七雄", "children": [
+      { "text": "齐楚燕韩赵魏秦" },
+      { "text": "著名战役：桂陵之战、马陵之战、长平之战" }
+    ]},
+    { "text": "商鞅变法", "children": [
+      { "text": "秦孝公支持，公元前356年" },
+      { "text": "废井田、奖军功、立县制" },
+      { "text": "为秦统一奠定基础" }
+    ]}
+  ]
+}

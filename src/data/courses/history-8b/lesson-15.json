@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 15, "slug": "lesson-15-独立自主的和平外交", "title": "独立自主的和平外交", "unit": "第五单元", "week": 5, "day": 3 },
+  "objectives": [
+    { "text": "了解和平共处五项原则", "isKeyPoint": true },
+    { "text": "掌握中国恢复联合国合法席位", "isKeyPoint": true },
+    { "text": "理解中美、中日关系正常化", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "和平共处五项原则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1953年底，周恩来在接见印度代表团时，首次提出**和平共处五项原则**：互相尊重主权和领土完整、互不侵犯、互不干涉内政、平等互利、和平共处。1954年，周恩来访问印度和缅甸，分别与两国总理发表联合声明，同意以和平共处五项原则作为指导中印、中缅关系的基本原则。" },
+        { "type": "callout", "variant": "tip", "title": "意义", "content": "和平共处五项原则在国际上产生深远影响，成为处理国与国之间关系的基本准则。" }
+      ]
+    },
+    {
+      "title": "外交成就",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**1971年**，第26届联合国大会恢复中国在联合国的合法席位。**1972年**，美国总统**尼克松**访华，中美双方签署《联合公报》，中美关系开始走向正常化。**1972年**，日本首相**田中角荣**访华，中日正式建立外交关系。" },
+        { "type": "timeline", "items": [
+          { "time": "1971年", "title": "恢复联合国席位", "content": "第26届联大通过决议" },
+          { "time": "1972年", "title": "尼克松访华", "content": "中美关系开始正常化" },
+          { "time": "1972年", "title": "中日建交", "content": "田中角荣访华" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "中美建交是在1979年，不是1972年。1972年尼克松访华是中美关系开始正常化。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：和平共处五项原则",
+      "problem": [
+        { "type": "paragraph", "content": "和平共处五项原则首次提出于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1953年", "B. 1954年", "C. 1955年", "D. 1956年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1953年底周恩来首次提出和平共处五项原则。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：恢复联合国席位",
+      "problem": [
+        { "type": "paragraph", "content": "中国恢复在联合国合法席位是在（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1970年", "B. 1971年", "C. 1972年", "D. 1973年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1971年第26届联大恢复中国在联合国的合法席位。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "和平共处五项原则", "children": [
+      { "text": "1953年周恩来首次提出" },
+      { "text": "处理国际关系的基本准则" }
+    ]},
+    { "text": "外交成就", "children": [
+      { "text": "1971年恢复联合国席位" },
+      { "text": "1972年尼克松访华" },
+      { "text": "1972年中日建交" }
+    ]}
+  ]
+}

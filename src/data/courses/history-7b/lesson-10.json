@@ -1,0 +1,74 @@
+{
+  "meta": { "id": 10, "slug": "lesson-10-宋代经济的发展", "title": "宋代经济的发展", "unit": "第二单元", "week": 4, "day": 1 },
+  "objectives": [
+    { "text": "了解宋代农业和手工业的发展", "isKeyPoint": true },
+    { "text": "掌握宋代商业和海外贸易的繁荣", "isKeyPoint": true },
+    { "text": "理解经济重心南移的过程", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "农业与手工业",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "宋代农业发达，水稻产量跃居粮食首位。**占城稻**从越南引进，推广到东南地区。手工业以**造船业**和**制瓷业**最为突出，景德镇成为瓷都。" },
+        { "type": "table", "headers": ["领域", "发展表现"], "rows": [
+          ["农业", "占城稻推广、水稻产量居首位"],
+          ["手工业", "造船业发达、景德镇成为瓷都"],
+          ["纺织", "四川地区丝织业发达"]
+        ]},
+        { "type": "callout", "variant": "tip", "title": "记忆要点", "content": "宋代水稻产量居粮食首位，「苏湖熟，天下足」说明江南农业的重要性。" }
+      ]
+    },
+    {
+      "title": "商业与海外贸易",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "宋代商业繁荣，打破了坊市界限，出现了早市和夜市。四川地区出现了世界上最早的纸币——**交子**。海外贸易发达，广州、泉州是闻名世界的大商港。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "交子是北宋四川地区出现的，不是南宋。交子是世界上最早的纸币，不是金属货币。" },
+        { "type": "callout", "variant": "note", "title": "海外贸易", "content": "宋代海外贸易范围广，东到日本、朝鲜，西至阿拉伯半岛和非洲东海岸。政府设市舶司管理海外贸易。" }
+      ]
+    },
+    {
+      "title": "经济重心南移",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "从唐朝中期开始，经济重心逐渐南移。到**南宋**时，经济重心南移完成，**「苏湖熟，天下足」**的谚语说明江南已成为全国经济重心。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "经济重心南移：唐朝开始南宋完，苏湖熟时天下足。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：交子",
+      "problem": [
+        { "type": "paragraph", "content": "世界上最早的纸币出现在（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 唐朝长安", "B. 北宋四川", "C. 南宋临安", "D. 元朝大都"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "北宋四川地区出现了世界上最早的纸币「交子」。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：经济重心南移",
+      "problem": [
+        { "type": "paragraph", "content": "我国经济重心南移完成的时期是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 唐朝中期", "B. 北宋", "C. 南宋", "D. 元朝"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "经济重心南移从唐朝中期开始，到南宋时完成。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "农业与手工业", "children": [
+      { "text": "占城稻推广，水稻居粮食首位" },
+      { "text": "造船业、制瓷业发达" }
+    ]},
+    { "text": "商业与海外贸易", "children": [
+      { "text": "交子：世界最早纸币（北宋四川）" },
+      { "text": "广州、泉州是大商港" }
+    ]},
+    { "text": "经济重心南移", "children": [
+      { "text": "唐朝开始，南宋完成" },
+      { "text": "苏湖熟，天下足" }
+    ]}
+  ]
+}

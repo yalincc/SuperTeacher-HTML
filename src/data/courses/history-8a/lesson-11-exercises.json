@@ -1,0 +1,9 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    { "type": "choice", "id": "ex-11-1", "stem": "西安事变的发动者是（  ）", "options": [{ "label": "A", "text": "蒋介石、汪精卫" }, { "label": "B", "text": "张学良、杨虎城" }, { "label": "C", "text": "毛泽东、朱德" }, { "label": "D", "text": "李宗仁、白崇禧" }], "answer": "B", "analysis": "张学良和杨虎城发动西安事变。" },
+    { "type": "choice", "id": "ex-11-2", "stem": "抗日民族统一战线正式形成的标志是（  ）", "options": [{ "label": "A", "text": "西安事变和平解决" }, { "label": "B", "text": "七七事变爆发" }, { "label": "C", "text": "国共合作宣言公布" }, { "label": "D", "text": "八一三事变" }], "answer": "C", "analysis": "1937年9月国共合作宣言公布，标志抗日民族统一战线正式形成。" },
+    { "type": "true_false", "id": "ex-11-3", "stem": "西安事变的和平解决成为扭转时局的关键。", "answer": true, "analysis": "西安事变和平解决揭开了国共两党由内战到联合抗日的序幕。" },
+    { "type": "fill", "id": "ex-11-4", "segments": ["1936年12月12日，", "___1___", "和杨虎城发动西安事变。1937年9月，抗日民族统一战线", "___2___", "形成。"], "blanks": [{ "index": 1, "answer": "张学良" }, { "index": 2, "answer": "正式" }], "analysis": "张学良和杨虎城发动西安事变，1937年抗日民族统一战线正式形成。" }
+  ]
+}

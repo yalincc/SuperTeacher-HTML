@@ -1,0 +1,8 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    { "type": "choice", "id": "ex-13-1", "stem": "东汉的建立者和都城分别是（  ）", "options": [{ "label": "A", "text": "刘邦，长安" }, { "label": "B", "text": "刘秀，洛阳" }, { "label": "C", "text": "刘秀，长安" }, { "label": "D", "text": "刘邦，洛阳" }], "answer": "B", "analysis": "刘秀于公元25年建立东汉，定都洛阳。刘邦建立的是西汉，都城在长安。" },
+    { "type": "true_false", "id": "ex-13-2", "stem": "黄巾起义发生在东汉末年，由张角领导。", "answer": true, "analysis": "黄巾起义爆发于184年，由张角利用太平道组织发动，是东汉末年规模最大的农民起义。" },
+    { "type": "fill", "id": "ex-13-3", "segments": ["东汉中期以后，", "___1___", "和", "___2___", "交替专权，政治腐败。"], "blanks": [{ "index": 1, "answer": "外戚" }, { "index": 2, "answer": "宦官" }], "analysis": "外戚（皇帝母族或妻族）和宦官交替把持朝政，是东汉中期以后政治腐败的重要表现。" }
+  ]
+}

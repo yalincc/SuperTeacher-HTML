@@ -1,0 +1,9 @@
+{
+  "lessonId": 16,
+  "exercises": [
+    { "type": "choice", "id": "ex-16-1", "stem": "从荷兰殖民者手中收复台湾的是（  ）", "options": [{ "label": "A", "text": "戚继光" }, { "label": "B", "text": "郑成功" }, { "label": "C", "text": "郑和" }, { "label": "D", "text": "施琅" }], "answer": "B", "analysis": "1662年郑成功从荷兰殖民者手中收复台湾。" },
+    { "type": "choice", "id": "ex-16-2", "stem": "清朝设置驻藏大臣的皇帝是（  ）", "options": [{ "label": "A", "text": "顺治帝" }, { "label": "B", "text": "康熙帝" }, { "label": "C", "text": "雍正帝" }, { "label": "D", "text": "乾隆帝" }], "answer": "C", "analysis": "1727年雍正帝设置驻藏大臣。" },
+    { "type": "true_false", "id": "ex-16-3", "stem": "册封班禅额尔德尼的是康熙帝。", "answer": true, "analysis": "康熙帝册封班禅额尔德尼，顺治帝册封达赖喇嘛。" },
+    { "type": "fill", "id": "ex-16-4", "segments": ["清朝设", "___1___", "管辖西藏，设", "___2___", "管辖新疆。"], "blanks": [{ "index": 1, "answer": "驻藏大臣" }, { "index": 2, "answer": "伊犁将军" }], "analysis": "驻藏大臣管辖西藏，伊犁将军管辖新疆。" }
+  ]
+}

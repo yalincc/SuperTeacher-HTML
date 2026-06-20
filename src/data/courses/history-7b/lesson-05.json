@@ -1,0 +1,77 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-安史之乱与唐朝衰亡", "title": "安史之乱与唐朝衰亡", "unit": "第一单元", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "了解安史之乱的原因和过程", "isKeyPoint": true },
+    { "text": "掌握安史之乱对唐朝的影响", "isKeyPoint": true },
+    { "text": "了解唐朝灭亡的过程", "isKeyPoint": false },
+    { "text": "理解五代十国的更迭", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "安史之乱",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "唐玄宗统治后期，朝政日趋腐败。755年，身兼三镇节度使的**安禄山**和部将**史思明**发动叛乱，史称「**安史之乱**」。叛军攻占洛阳、长安，唐玄宗逃往四川。历时8年的叛乱最终被平定，但唐朝从此由盛转衰。" },
+        { "type": "timeline", "items": [
+          { "time": "755年", "title": "安史之乱爆发", "content": "安禄山在范阳起兵叛乱" },
+          { "time": "756年", "title": "长安陷落", "content": "叛军攻占长安，玄宗逃蜀" },
+          { "time": "757年", "title": "安禄山被杀", "content": "安禄山被其子安庆绪杀害" },
+          { "time": "763年", "title": "叛乱平定", "content": "历时8年，最终平定" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "安史之乱是唐朝由盛转衰的转折点，不是唐朝灭亡的标志。唐朝在安史之乱后又延续了150多年。" },
+        { "type": "callout", "variant": "tip", "title": "影响", "content": "安史之乱使北方经济遭到严重破坏，唐朝中央权力削弱，藩镇割据局面形成。" }
+      ]
+    },
+    {
+      "title": "唐朝衰亡",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "安史之乱后，唐朝中央权力衰微，藩镇割据日益严重。宦官专权、朋党之争也削弱了唐朝的统治。875年，**黄巢起义**爆发，给唐朝统治以致命打击。907年，**朱温**建立后梁，唐朝灭亡。" },
+        { "type": "callout", "variant": "note", "title": "唐朝灭亡", "content": "唐朝从618年建立到907年灭亡，共289年。灭亡的直接原因是朱温篡唐，根本原因是安史之乱后藩镇割据、宦官专权等积弊。" }
+      ]
+    },
+    {
+      "title": "五代十国",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "唐朝灭亡后，中国进入**五代十国**时期（907—960年）。北方先后出现后梁、后唐、后晋、后汉、后周五个朝代，南方和山西先后出现十个割据政权，史称「十国」。这一时期政权更迭频繁，但统一始终是客观趋势。" },
+        { "type": "callout", "variant": "note", "title": "历史趋势", "content": "五代十国是唐末藩镇割据的延续，虽然政权分立，但各地经济文化仍有发展，统一始终是客观趋势。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：安史之乱",
+      "problem": [
+        { "type": "paragraph", "content": "唐朝由盛转衰的转折点是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 贞观之治", "B. 开元盛世", "C. 安史之乱", "D. 黄巢起义"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "安史之乱（755—763年）使唐朝国力大损，由盛转衰。贞观之治和开元盛世是唐朝盛世，黄巢起义是唐朝后期的农民起义。正确答案为C。" }],
+      "answer": "C", "source": "2024各地中考常见"
+    },
+    {
+      "title": "例2：唐朝灭亡",
+      "problem": [
+        { "type": "paragraph", "content": "唐朝灭亡的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 安史之乱", "B. 黄巢起义", "C. 朱温建立后梁", "D. 五代十国"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "907年朱温建立后梁，唐朝灭亡。安史之乱是唐朝由盛转衰的转折点，黄巢起义给唐朝致命打击。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "安史之乱（755—763年）", "children": [
+      { "text": "安禄山、史思明发动叛乱" },
+      { "text": "唐朝由盛转衰的转折点" },
+      { "text": "藩镇割据局面形成" }
+    ]},
+    { "text": "唐朝灭亡", "children": [
+      { "text": "黄巢起义给唐朝致命打击" },
+      { "text": "907年朱温建后梁，唐朝灭亡" }
+    ]},
+    { "text": "五代十国", "children": [
+      { "text": "北方五代，南方十国" },
+      { "text": "统一是客观趋势" }
+    ]}
+  ]
+}

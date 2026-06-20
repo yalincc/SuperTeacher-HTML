@@ -1,0 +1,9 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    { "type": "choice", "id": "ex-11-1", "stem": "统一蒙古各部并被尊称为「成吉思汗」的是（  ）", "options": [{ "label": "A", "text": "忽必烈" }, { "label": "B", "text": "铁木真" }, { "label": "C", "text": "蒙哥" }, { "label": "D", "text": "窝阔台" }], "answer": "B", "analysis": "铁木真统一蒙古各部，被尊称为「成吉思汗」。忽必烈是他的孙子，建立元朝。" },
+    { "type": "choice", "id": "ex-11-2", "stem": "我国省制的开端始于（  ）", "options": [{ "label": "A", "text": "秦朝郡县制" }, { "label": "B", "text": "隋朝三省六部制" }, { "label": "C", "text": "元朝行省制度" }, { "label": "D", "text": "明朝内阁制" }], "answer": "C", "analysis": "元朝实行行省制度，是我国省制的开端。" },
+    { "type": "true_false", "id": "ex-11-3", "stem": "成吉思汗灭亡了南宋。", "answer": false, "analysis": "成吉思汗统一蒙古，但没有灭亡南宋。灭亡南宋的是他的孙子忽必烈建立的元朝。" },
+    { "type": "fill", "id": "ex-11-4", "segments": ["元朝设立", "___1___", "管辖西藏，设立", "___2___", "管辖台湾。"], "blanks": [{ "index": 1, "answer": "宣政院" }, { "index": 2, "answer": "澎湖巡检司" }], "analysis": "宣政院管辖西藏，澎湖巡检司管辖台湾。" }
+  ]
+}

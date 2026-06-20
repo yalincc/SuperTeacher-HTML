@@ -1,0 +1,73 @@
+{
+  "meta": { "id": 17, "slug": "lesson-17-清朝前期的经济与社会", "title": "清朝前期的经济与社会", "unit": "第三单元", "week": 6, "day": 2 },
+  "objectives": [
+    { "text": "了解清朝前期经济恢复和发展的表现", "isKeyPoint": true },
+    { "text": "掌握清朝人口增长和人地矛盾", "isKeyPoint": true },
+    { "text": "了解清朝闭关锁国政策及其影响", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "经济恢复与发展",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "清朝前期统治者重视农业生产，推行垦荒政策，推广玉米、甘薯等高产作物。农业、手工业和商业都有很大发展，出现了「**康乾盛世**」。" },
+        { "type": "table", "headers": ["领域", "发展表现"], "rows": [
+          ["农业", "推广高产作物、耕地面积扩大"],
+          ["手工业", "丝织业、制瓷业发达"],
+          ["商业", "商业城市繁荣、商帮出现"]
+        ]},
+        { "type": "callout", "variant": "tip", "title": "记忆要点", "content": "「康乾盛世」指康熙、雍正、乾隆三朝，是清朝最强盛的时期。" }
+      ]
+    },
+    {
+      "title": "人口增长与社会问题",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "清朝前期人口快速增长，乾隆末年全国人口达**3亿**。人口增长导致人地矛盾尖锐，许多农民被迫开荒垦地，造成生态环境破坏。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "清朝人口增长与高产作物（玉米、甘薯）的推广有关，但也带来了人地矛盾等社会问题。" }
+      ]
+    },
+    {
+      "title": "闭关锁国政策",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "清朝实行**闭关锁国**政策，严格限制对外贸易，只开放**广州**一处作为对外通商口岸，由「**广州十三行**」统一管理对外贸易。这一政策使中国逐渐落后于世界。" },
+        { "type": "callout", "variant": "quote", "title": "历史教训", "content": "闭关锁国导致中国错失了向西方学习先进科技的机会，是近代中国落后挨打的重要原因之一。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：康乾盛世",
+      "problem": [
+        { "type": "paragraph", "content": "「康乾盛世」中的「康」指的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 康熙帝", "B. 康有为", "C. 康朗", "D. 康泽"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "「康乾盛世」指康熙、雍正、乾隆三朝。「康」指康熙帝。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：闭关锁国",
+      "problem": [
+        { "type": "paragraph", "content": "清朝唯一开放的对外通商口岸是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 上海", "B. 广州", "C. 泉州", "D. 宁波"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "清朝闭关锁国，只开放广州一处作为对外通商口岸。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "经济恢复发展", "children": [
+      { "text": "康乾盛世" },
+      { "text": "推广高产作物" }
+    ]},
+    { "text": "人口增长", "children": [
+      { "text": "乾隆末年达3亿" },
+      { "text": "人地矛盾尖锐" }
+    ]},
+    { "text": "闭关锁国", "children": [
+      { "text": "只开放广州一口通商" },
+      { "text": "使中国逐渐落后于世界" }
+    ]}
+  ]
+}

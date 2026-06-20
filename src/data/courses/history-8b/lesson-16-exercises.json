@@ -1,0 +1,9 @@
+{
+  "lessonId": 16,
+  "exercises": [
+    { "type": "choice", "id": "ex-16-1", "stem": "被誉为「两弹元勋」的科学家是（  ）", "options": [{ "label": "A", "text": "钱学森" }, { "label": "B", "text": "邓稼先" }, { "label": "C", "text": "袁隆平" }, { "label": "D", "text": "屠呦呦" }], "answer": "B", "analysis": "邓稼先被誉为「两弹元勋」。" },
+    { "type": "choice", "id": "ex-16-2", "stem": "获得诺贝尔生理学或医学奖的中国科学家是（  ）", "options": [{ "label": "A", "text": "袁隆平" }, { "label": "B", "text": "屠呦呦" }, { "label": "C", "text": "邓稼先" }, { "label": "D", "text": "钱学森" }], "answer": "B", "analysis": "屠呦呦因发现青蒿素获得诺贝尔奖。" },
+    { "type": "true_false", "id": "ex-16-3", "stem": "屠呦呦是第一位获得诺贝尔科学奖项的中国本土科学家。", "answer": true, "analysis": "屠呦呦是第一位获得诺贝尔科学奖项的中国本土科学家。" },
+    { "type": "fill", "id": "ex-16-4", "segments": ["邓稼先被誉为", "___1___", "。屠呦呦发现了", "___2___", "。"], "blanks": [{ "index": 1, "answer": "两弹元勋" }, { "index": 2, "answer": "青蒿素" }], "analysis": "邓稼先被誉为两弹元勋，屠呦呦发现青蒿素。" }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": { "id": 11, "slug": "lesson-11-建设中国特色社会主义", "title": "建设中国特色社会主义", "unit": "第三单元", "week": 4, "day": 2 },
+  "objectives": [
+    { "text": "了解邓小平理论的形成", "isKeyPoint": true },
+    { "text": "掌握「三个代表」重要思想", "isKeyPoint": true },
+    { "text": "理解中国特色社会主义理论体系", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "邓小平理论",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**邓小平**是中国改革开放和现代化建设的总设计师。他提出了**建设有中国特色的社会主义**理论。1997年**中共十五大**把**邓小平理论**确立为党的指导思想。" },
+        { "type": "callout", "variant": "note", "title": "邓小平理论", "content": "邓小平理论第一次比较系统地回答了中国社会主义发展的一系列基本问题，是马克思主义在中国发展的新阶段。" }
+      ]
+    },
+    {
+      "title": "「三个代表」重要思想",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "以**江泽民**为核心的党中央提出了「**三个代表**」重要思想：中国共产党始终代表中国先进生产力的发展要求，代表中国先进文化的前进方向，代表中国最广大人民的根本利益。2002年**中共十六大**把「三个代表」重要思想确立为党的指导思想。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "邓小平理论在十五大确立为指导思想，「三个代表」在十六大确立为指导思想。注意区分。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：邓小平理论",
+      "problem": [
+        { "type": "paragraph", "content": "邓小平理论被确立为党的指导思想是在（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 中共十三大", "B. 中共十四大", "C. 中共十五大", "D. 中共十六大"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1997年中共十五大把邓小平理论确立为党的指导思想。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：三个代表",
+      "problem": [
+        { "type": "paragraph", "content": "「三个代表」重要思想被确立为党的指导思想是在（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 中共十五大", "B. 中共十六大", "C. 中共十七大", "D. 中共十八大"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "2002年中共十六大把「三个代表」重要思想确立为党的指导思想。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "邓小平理论", "children": [
+      { "text": "十五大确立为指导思想" },
+      { "text": "建设有中国特色社会主义" }
+    ]},
+    { "text": "「三个代表」重要思想", "children": [
+      { "text": "十六大确立为指导思想" }
+    ]}
+  ]
+}

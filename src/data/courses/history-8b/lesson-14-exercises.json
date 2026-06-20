@@ -1,0 +1,9 @@
+{
+  "lessonId": 14,
+  "exercises": [
+    { "type": "choice", "id": "ex-14-1", "stem": "我国第一颗原子弹爆炸成功的时间是（  ）", "options": [{ "label": "A", "text": "1960年" }, { "label": "B", "text": "1964年" }, { "label": "C", "text": "1967年" }, { "label": "D", "text": "1970年" }], "answer": "B", "analysis": "1964年我国第一颗原子弹爆炸成功。" },
+    { "type": "choice", "id": "ex-14-2", "stem": "我国第一颗人造地球卫星是（  ）", "options": [{ "label": "A", "text": "神舟一号" }, { "label": "B", "text": "东方红一号" }, { "label": "C", "text": "嫦娥一号" }, { "label": "D", "text": "天宫一号" }], "answer": "B", "analysis": "1970年我国成功发射第一颗人造地球卫星「东方红一号」。" },
+    { "type": "true_false", "id": "ex-14-3", "stem": "我国第一颗氢弹爆炸成功是在1967年。", "answer": true, "analysis": "1967年我国第一颗氢弹爆炸成功。" },
+    { "type": "fill", "id": "ex-14-4", "segments": ["1964年，我国第一颗", "___1___", "爆炸成功。1970年，第一颗人造卫星", "___2___", "发射成功。"], "blanks": [{ "index": 1, "answer": "原子弹" }, { "index": 2, "answer": "东方红一号" }], "analysis": "1964年原子弹，1970年东方红一号卫星。" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "lessonId": 16,
+  "exercises": [
+    { "type": "choice", "id": "ex-16-1", "stem": "赤壁之战中孙刘联军击败曹操的主要战术是（  ）", "options": [{ "label": "A", "text": "围魏救赵" }, { "label": "B", "text": "火攻" }, { "label": "C", "text": "水淹" }, { "label": "D", "text": "伏击" }], "answer": "B", "analysis": "赤壁之战中，孙刘联军利用火攻大败曹操，是这场战役的关键战术。" },
+    { "type": "choice", "id": "ex-16-2", "stem": "三国中最早建立的是（  ）", "options": [{ "label": "A", "text": "魏" }, { "label": "B", "text": "蜀" }, { "label": "C", "text": "吴" }, { "label": "D", "text": "同时建立" }], "answer": "A", "analysis": "魏国最早建立（220年，曹丕），蜀国次之（221年，刘备），吴国最晚（229年，孙权）。" },
+    { "type": "true_false", "id": "ex-16-3", "stem": "曹操是三国时期魏国的皇帝。", "answer": false, "analysis": "曹操终其一生没有称帝。220年曹丕称帝建立魏国，此时曹操已经去世。" }
+  ]
+}

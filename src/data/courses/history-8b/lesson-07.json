@@ -1,0 +1,60 @@
+{
+  "meta": { "id": 7, "slug": "lesson-07-文化大革命", "title": "文化大革命", "unit": "第二单元", "week": 3, "day": 1 },
+  "objectives": [
+    { "text": "了解文化大革命的发动和经过", "isKeyPoint": true },
+    { "text": "掌握文化大革命的危害", "isKeyPoint": true },
+    { "text": "理解文化大革命的教训", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "文化大革命的发动",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1966年5月，**文化大革命**全面发动。这场运动由领导者错误发动，被反革命集团利用，给党、国家和各族人民带来了建国以来最严重的挫折和损失。1976年10月，粉碎「**四人帮**」，文化大革命结束。" },
+        { "type": "timeline", "items": [
+          { "time": "1966年", "title": "文革发动", "content": "文化大革命全面发动" },
+          { "time": "1976年10月", "title": "文革结束", "content": "粉碎「四人帮」" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "文化大革命不是任何意义上的革命或社会进步，而是一场由领导者错误发动、被反革命集团利用的内乱。" }
+      ]
+    },
+    {
+      "title": "文化大革命的危害",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "文化大革命期间，民主与法制遭到严重破坏，大批干部和知识分子受到迫害，国民经济遭受严重损失。**刘少奇**被迫害致死，是文革中最大的冤案。" },
+        { "type": "callout", "variant": "tip", "title": "经验教训", "content": "文化大革命的教训：必须坚持以经济建设为中心，加强社会主义民主法制建设，反对任何形式的个人崇拜。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：文革结束",
+      "problem": [
+        { "type": "paragraph", "content": "文化大革命结束的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 林彪集团被粉碎", "B. 粉碎「四人帮」", "C. 刘少奇平反", "D. 中共十一届三中全会"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1976年10月粉碎「四人帮」，文化大革命结束。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：文革危害",
+      "problem": [
+        { "type": "paragraph", "content": "文化大革命期间最大的冤案是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 邓小平被批判", "B. 刘少奇被迫害致死", "C. 彭德怀被批判", "D. 贺龙被迫害"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "刘少奇被迫害致死是文革中最大的冤案。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "文化大革命（1966—1976年）", "children": [
+      { "text": "1966年发动，1976年结束" },
+      { "text": "民主法制遭严重破坏" }
+    ]},
+    { "text": "教训", "children": [
+      { "text": "坚持以经济建设为中心" },
+      { "text": "加强民主法制建设" }
+    ]}
+  ]
+}

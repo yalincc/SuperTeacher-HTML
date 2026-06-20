@@ -1,0 +1,9 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    { "type": "choice", "id": "ex-5-1", "stem": "唐朝由盛转衰的转折点是（  ）", "options": [{ "label": "A", "text": "贞观之治" }, { "label": "B", "text": "开元盛世" }, { "label": "C", "text": "安史之乱" }, { "label": "D", "text": "黄巢起义" }], "answer": "C", "analysis": "安史之乱（755—763年）使唐朝国力大损，由盛转衰。" },
+    { "type": "choice", "id": "ex-5-2", "stem": "唐朝灭亡的时间是（  ）", "options": [{ "label": "A", "text": "755年" }, { "label": "B", "text": "875年" }, { "label": "C", "text": "907年" }, { "label": "D", "text": "960年" }], "answer": "C", "analysis": "907年朱温建立后梁，唐朝灭亡。755年是安史之乱爆发，875年是黄巢起义，960年是北宋建立。" },
+    { "type": "true_false", "id": "ex-5-3", "stem": "安史之乱直接导致了唐朝的灭亡。", "answer": false, "analysis": "安史之乱使唐朝由盛转衰，但唐朝在安史之乱后又延续了150多年，907年才灭亡。" },
+    { "type": "fill", "id": "ex-5-4", "segments": ["安史之乱的发动者是", "___1___", "和史思明。唐朝灭亡后，北方先后出现五个朝代，史称「", "___2___」。"], "blanks": [{ "index": 1, "answer": "安禄山" }, { "index": 2, "answer": "五代" }], "analysis": "安禄山和史思明发动安史之乱。唐朝灭亡后北方出现后梁、后唐、后晋、后汉、后周五个朝代，史称「五代」。" }
+  ]
+}

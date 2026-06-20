@@ -1,0 +1,9 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    { "type": "choice", "id": "ex-13-1", "stem": "中国对香港恢复行使主权的时间是（  ）", "options": [{ "label": "A", "text": "1997年7月1日" }, { "label": "B", "text": "1999年12月20日" }, { "label": "C", "text": "2001年1月1日" }, { "label": "D", "text": "2003年" }], "answer": "A", "analysis": "1997年7月1日中国对香港恢复行使主权。" },
+    { "type": "choice", "id": "ex-13-2", "stem": "「九二共识」的核心是（  ）", "options": [{ "label": "A", "text": "两岸三通" }, { "label": "B", "text": "海峡两岸均坚持一个中国原则" }, { "label": "C", "text": "一国两制" }, { "label": "D", "text": "和平统一" }], "answer": "B", "analysis": "「九二共识」的核心是海峡两岸均坚持一个中国原则。" },
+    { "type": "true_false", "id": "ex-13-3", "stem": "澳门回归是在1997年。", "answer": false, "analysis": "澳门回归是在1999年12月20日，不是1997年。" },
+    { "type": "fill", "id": "ex-13-4", "segments": ["1997年7月1日", "___1___", "回归。1999年12月20日", "___2___", "回归。"], "blanks": [{ "index": 1, "answer": "香港" }, { "index": 2, "answer": "澳门" }], "analysis": "1997年香港回归，1999年澳门回归。" }
+  ]
+}

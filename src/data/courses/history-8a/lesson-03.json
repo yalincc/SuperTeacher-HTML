@@ -1,0 +1,75 @@
+{
+  "meta": { "id": 3, "slug": "lesson-03-洋务运动", "title": "洋务运动", "unit": "第二单元", "week": 1, "day": 3 },
+  "objectives": [
+    { "text": "了解洋务运动的背景和代表人物", "isKeyPoint": true },
+    { "text": "掌握洋务运动的主要内容", "isKeyPoint": true },
+    { "text": "理解洋务运动的评价", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "洋务运动的兴起",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "第二次鸦片战争后，清朝统治集团内部一些开明官员主张利用西方先进技术，维护清朝统治，掀起了「**师夷长技以自强**」的**洋务运动**。代表人物有**奕訢**、**曾国藩**、**李鸿章**、**左宗棠**、**张之洞**等。" },
+        { "type": "callout", "variant": "note", "title": "洋务派", "content": "洋务派主张学习西方先进技术，「自强」「求富」是他们的口号。前期以「自强」为口号创办军事工业，后期以「求富」为口号创办民用工业。" }
+      ]
+    },
+    {
+      "title": "洋务运动的内容",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "洋务运动以**「自强」「求富」**为口号，创办了一批近代军事工业和民用工业，建立了新式海陆军，兴办了新式学堂。" },
+        { "type": "table", "headers": ["方面", "内容"], "rows": [
+          ["军事工业", "江南制造总局、福州船政局"],
+          ["民用工业", "轮船招商局、汉阳铁厂"],
+          ["新式海军", "北洋、南洋、福建三支海军"],
+          ["新式教育", "京师同文馆等新式学堂"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "洋务运动的根本目的是维护清朝统治，不是发展资本主义。它只学习西方技术，不改变封建制度。" }
+      ]
+    },
+    {
+      "title": "洋务运动的评价",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "洋务运动是中国历史上第一次近代化运动。它客观上促进了中国民族资本主义的产生，对外国资本的入侵起到了一定的抵制作用。但由于其根本目的是维护清朝统治，没有改变封建制度，最终没有使中国富强起来。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "洋务运动的失败说明：在不改变封建制度的前提下，单纯学习西方技术是无法使中国富强的。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：洋务运动口号",
+      "problem": [
+        { "type": "paragraph", "content": "洋务运动的口号是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 师夷长技以制夷", "B. 自强、求富", "C. 民主、科学", "D. 变法图强"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "洋务运动以「自强」「求富」为口号。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：洋务运动评价",
+      "problem": [
+        { "type": "paragraph", "content": "洋务运动的根本目的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 发展资本主义", "B. 学习西方制度", "C. 维护清朝统治", "D. 抵抗外国侵略"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "洋务运动的根本目的是维护清朝统治，只学习西方技术，不改变封建制度。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "洋务运动", "children": [
+      { "text": "口号：自强、求富" },
+      { "text": "代表：奕訢、李鸿章、左宗棠等" }
+    ]},
+    { "text": "主要内容", "children": [
+      { "text": "创办军事工业和民用工业" },
+      { "text": "建立新式海军" },
+      { "text": "兴办新式学堂" }
+    ]},
+    { "text": "评价", "children": [
+      { "text": "中国第一次近代化运动" },
+      { "text": "未使中国富强" }
+    ]}
+  ]
+}

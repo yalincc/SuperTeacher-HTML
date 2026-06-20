@@ -1,0 +1,54 @@
+{
+  "meta": { "id": 15, "slug": "lesson-15-重庆谈判与内战爆发", "title": "重庆谈判与内战爆发", "unit": "第五单元", "week": 5, "day": 3 },
+  "objectives": [
+    { "text": "了解重庆谈判的背景和过程", "isKeyPoint": true },
+    { "text": "掌握全面内战的爆发", "isKeyPoint": true },
+    { "text": "理解解放战争初期的战略防御", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "重庆谈判",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "抗战胜利后，全国人民渴望和平民主。1945年8月，**毛泽东**赴重庆与国民党进行谈判，双方签署了《**双十协定**》（《政府与中共代表会谈纪要》）。但蒋介石假和平、真内战的方针没有改变。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "毛泽东亲赴重庆谈判，表明了中国共产党争取和平民主的诚意，赢得了广大人民的拥护。" }
+      ]
+    },
+    {
+      "title": "全面内战爆发",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1946年6月，蒋介石公开撕毁《双十协定》，对中原解放区发动疯狂进攻，**全面内战爆发**。解放军采取运动战方式，以歼灭敌人有生力量为主要目标。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "全面内战爆发的标志是1946年6月蒋介石进攻中原解放区，不是重庆谈判。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：重庆谈判",
+      "problem": [
+        { "type": "paragraph", "content": "重庆谈判签署的文件是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《南京条约》", "B. 《双十协定》", "C. 《共同纲领》", "D. 《停战协定》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "重庆谈判签署了《双十协定》。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：内战爆发",
+      "problem": [
+        { "type": "paragraph", "content": "全面内战爆发的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 重庆谈判", "B. 蒋介石进攻中原解放区", "C. 三大战役", "D. 渡江战役"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1946年6月蒋介石进攻中原解放区，全面内战爆发。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "重庆谈判（1945年）", "children": [
+      { "text": "签署《双十协定》" }
+    ]},
+    { "text": "全面内战爆发（1946年）", "children": [
+      { "text": "蒋介石进攻中原解放区" }
+    ]}
+  ]
+}

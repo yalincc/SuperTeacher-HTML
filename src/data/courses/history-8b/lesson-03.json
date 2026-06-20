@@ -1,0 +1,45 @@
+{
+  "meta": { "id": 3, "slug": "lesson-03-土地改革", "title": "土地改革", "unit": "第一单元", "week": 1, "day": 3 },
+  "objectives": [
+    { "text": "了解土地改革的背景和过程", "isKeyPoint": true },
+    { "text": "掌握《中华人民共和国土地改革法》的内容", "isKeyPoint": true },
+    { "text": "理解土地改革的意义", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "土地改革的进行",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1950年，中央人民政府颁布《**中华人民共和国土地改革法**》，废除地主阶级封建剥削的土地所有制，实行农民的土地所有制。到1952年底，除部分少数民族地区外，全国大陆基本完成土地改革。" },
+        { "type": "callout", "variant": "tip", "title": "意义", "content": "土地改革的完成，彻底摧毁了我国存在2000多年的封建土地制度，消灭了地主阶级；农民翻了身，得到了土地，成为土地的主人。这使人民政权更加巩固，也大大解放了农村生产力。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：土地改革法",
+      "problem": [
+        { "type": "paragraph", "content": "1950年颁布的土地改革法废除了（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 资本主义剥削制度", "B. 封建土地制度", "C. 奴隶制度", "D. 官僚资本主义"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "土地改革法废除地主阶级封建剥削的土地所有制。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：土地改革完成时间",
+      "problem": [
+        { "type": "paragraph", "content": "全国大陆基本完成土地改革的时间是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1950年", "B. 1951年", "C. 1952年底", "D. 1953年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "到1952年底，全国大陆基本完成土地改革。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "土地改革（1950—1952年）", "children": [
+      { "text": "颁布《土地改革法》" },
+      { "text": "废除封建土地制度" },
+      { "text": "农民成为土地的主人" }
+    ]}
+  ]
+}

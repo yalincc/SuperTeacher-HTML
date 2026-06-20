@@ -1,0 +1,77 @@
+{
+  "meta": { "id": 4, "slug": "lesson-04-唐朝的中外文化交流", "title": "唐朝的中外文化交流", "unit": "第一单元", "week": 2, "day": 1 },
+  "objectives": [
+    { "text": "了解遣唐使来华的历史背景和影响", "isKeyPoint": true },
+    { "text": "掌握鉴真东渡日本的事迹", "isKeyPoint": true },
+    { "text": "了解玄奘西行取经的经过", "isKeyPoint": true },
+    { "text": "理解唐朝对外交往频繁的原因", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "遣唐使来华",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "唐朝时期，日本多次派遣**遣唐使**来中国学习。从贞观年间开始，日本先后派出10多批遣唐使，每次多达数百人。遣唐使把唐朝先进的制度、天文历法、文字、典籍、书法艺术、建筑技术等传回日本，对日本社会的发展产生了深远影响。" },
+        { "type": "callout", "variant": "note", "title": "遣唐使", "content": "遣唐使是日本派到唐朝的使节团，不仅有使臣，还有留学生、留学僧等。他们在唐朝学习数年后回国，成为日本大化改新的重要推动力量。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "日本大化改新（646年）就是以唐朝制度为蓝本进行的改革，使日本从奴隶社会过渡到封建社会。" }
+      ]
+    },
+    {
+      "title": "鉴真东渡",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**鉴真**是唐朝高僧，应日本僧人邀请，六次东渡，终于在754年到达日本。他在日本传授佛经，还传播中国的医药、文学、书法、建筑、绘画等，为中日文化交流作出了卓越贡献。" },
+        { "type": "timeline", "items": [
+          { "time": "742年", "title": "接受邀请", "content": "日本僧人邀请鉴真东渡传法" },
+          { "time": "743—753年", "title": "六次东渡", "content": "前五次失败，双目失明仍不放弃" },
+          { "time": "754年", "title": "到达日本", "content": "第六次东渡成功，抵达日本" },
+          { "time": "763年", "title": "鉴真圆寂", "content": "在日本奈良圆寂，中日交流的使者" }
+        ]},
+        { "type": "callout", "variant": "mnemonic", "title": "记忆要点", "content": "鉴真六次东渡，双目失明仍不放弃，体现坚韧精神。他在日本建唐招提寺，传播唐朝文化。" }
+      ]
+    },
+    {
+      "title": "玄奘西行",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**玄奘**是唐朝高僧，贞观初年从长安出发，历经艰险，前往天竺（今印度）取经。他在天竺游学多年，带回大量佛经。回国后主持译经工作，为中国佛教的发展作出了重大贡献。根据他的口述，由弟子记录成《**大唐西域记**》。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "玄奘西行是去天竺（印度），不是去日本。鉴真东渡是去日本。两人方向相反，不要混淆。" },
+        { "type": "callout", "variant": "quote", "title": "《大唐西域记》", "content": "《大唐西域记》记载了玄奘亲历的110个国家和地区，是研究中亚、印度半岛历史地理的重要文献。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：唐朝对外交流",
+      "problem": [
+        { "type": "paragraph", "content": "六次东渡日本，为中日文化交流作出卓越贡献的高僧是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 玄奘", "B. 鉴真", "C. 义净", "D. 法显"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "鉴真六次东渡日本，传播唐朝文化。玄奘是西行天竺取经。正确答案为B。" }],
+      "answer": "B", "source": "2024各地中考常见"
+    },
+    {
+      "title": "例2：玄奘西行",
+      "problem": [
+        { "type": "paragraph", "content": "玄奘西行取经回国后，根据口述记录成书的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《西游记》", "B. 《大唐西域记》", "C. 《金刚经》", "D. 《资治通鉴》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "《大唐西域记》记录玄奘亲历的110个国家和地区。《西游记》是明朝小说，《金刚经》是佛经，《资治通鉴》是史书。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "遣唐使来华", "children": [
+      { "text": "日本多次派遣遣唐使来华学习" },
+      { "text": "带回唐朝制度、文化，推动大化改新" }
+    ]},
+    { "text": "鉴真东渡", "children": [
+      { "text": "六次东渡，754年到达日本" },
+      { "text": "传播佛经、医药、建筑等文化" }
+    ]},
+    { "text": "玄奘西行", "children": [
+      { "text": "贞观初年西行天竺取经" },
+      { "text": "《大唐西域记》记录亲身经历" }
+    ]}
+  ]
+}

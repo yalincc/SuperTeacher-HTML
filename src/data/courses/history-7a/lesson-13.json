@@ -1,0 +1,48 @@
+{
+  "meta": { "id": 13, "slug": "lesson-13-东汉的兴衰", "title": "东汉的兴衰", "unit": "第三单元", "week": 4, "day": 2 },
+  "objectives": [
+    { "text": "了解东汉的建立", "isKeyPoint": true },
+    { "text": "了解光武中兴的成就", "isKeyPoint": true },
+    { "text": "了解东汉末年的社会状况", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "东汉的建立与光武中兴",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "公元**25年**，**刘秀**称帝，建立东汉，定都洛阳。刘秀即**光武帝**。他采取一系列措施恢复社会经济，史称「**光武中兴**」。" },
+        { "type": "list", "ordered": false, "items": ["释放奴婢、减轻赋税", "精简机构、裁减官员", "允许少数民族内迁", "重视教育、恢复太学"] },
+        { "type": "callout", "variant": "tip", "title": "两汉对比", "content": "西汉：刘邦建，都城长安；东汉：刘秀建，都城洛阳。两者合称「两汉」。" }
+      ]
+    },
+    {
+      "title": "东汉的衰落",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "东汉中期以后，**外戚和宦官交替专权**，政治日趋腐败。豪强地主势力膨胀，农民生活困苦，最终爆发了**黄巾起义**（184年，张角领导），沉重打击了东汉的统治。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "东汉灭亡的直接原因不是黄巾起义。黄巾起义沉重打击了东汉，但东汉最终是在军阀混战中名存实亡的。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：东汉",
+      "problem": [{ "type": "paragraph", "content": "东汉的建立者是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 刘邦", "B. 刘秀", "C. 刘备", "D. 刘彻"] }],
+      "solution": [{ "type": "paragraph", "content": "刘邦建立西汉，刘秀建立东汉。刘彻是汉武帝。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：光武中兴",
+      "problem": [
+        { "type": "paragraph", "content": "东汉初期出现的治世局面是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 贞观之治", "B. 光武中兴", "C. 文景之治", "D. 开元盛世"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "刘秀（光武帝）统治时期，采取释放奴婢、减轻赋税等措施，史称「光武中兴」。贞观之治是唐太宗，文景之治是西汉，开元盛世是唐玄宗。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "东汉建立（25年）", "children": [{ "text": "刘秀（光武帝）建东汉，都洛阳" }, { "text": "光武中兴：释奴婢、减赋税" }] },
+    { "text": "东汉衰落", "children": [{ "text": "外戚宦官交替专权" }, { "text": "黄巾起义（184年，张角）" }] }
+  ]
+}

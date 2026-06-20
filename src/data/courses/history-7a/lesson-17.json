@@ -1,0 +1,47 @@
+{
+  "meta": { "id": 17, "slug": "lesson-17-西晋的短暂统一和北方各族的内迁", "title": "西晋的短暂统一和北方各族的内迁", "unit": "第四单元", "week": 5, "day": 2 },
+  "objectives": [
+    { "text": "了解西晋的建立和统一", "isKeyPoint": true },
+    { "text": "了解八王之乱和西晋灭亡", "isKeyPoint": true },
+    { "text": "了解北方少数民族内迁的情况", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "西晋的兴亡",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "266年，**司马炎**建立西晋，定都洛阳。280年西晋灭吴，统一全国。但西晋统治集团内部很快爆发了「**八王之乱**「（291-306年），严重削弱了西晋国力。316年，西晋被匈奴建立的汉赵政权所灭。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "西晋虽然实现了短暂统一，但只维持了很短时间。八王之乱是西晋衰落的关键事件。" }
+      ]
+    },
+    {
+      "title": "北方少数民族内迁",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "东汉末年以来，北方少数民族不断内迁。主要有**匈奴、鲜卑、羯、氐、羌**五个民族，史称「五胡「。内迁各民族与汉族杂居相处，促进了民族融合。" },
+        { "type": "list", "ordered": false, "items": ["匈奴：迁入今山西、陕西北部", "鲜卑：迁入辽西、河北北部", "羯、氐、羌：迁入关中地区"] }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：西晋",
+      "problem": [{ "type": "paragraph", "content": "西晋的统一是通过消灭哪个政权实现的？" }, { "type": "list", "ordered": true, "items": ["A. 蜀汉", "B. 曹魏", "C. 东吴", "D. 前秦"] }],
+      "solution": [{ "type": "paragraph", "content": "280年西晋灭东吴，实现全国统一。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：八王之乱",
+      "problem": [
+        { "type": "paragraph", "content": "导致西晋衰落的内乱是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 安史之乱", "B. 八王之乱", "C. 黄巾起义", "D. 七国之乱"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "八王之乱（291-306年）是西晋统治集团内部的争权夺利之乱，严重削弱了西晋国力。安史之乱是唐朝，黄巾起义是东汉，七国之乱是西汉。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "西晋", "children": [{ "text": "266年司马炎建西晋，280年灭吴统一" }, { "text": "八王之乱（291-306年）→ 316年灭亡" }] },
+    { "text": "民族内迁", "children": [{ "text": "五胡：匈奴、鲜卑、羯、氐、羌" }, { "text": "促进民族融合" }] }
+  ]
+}

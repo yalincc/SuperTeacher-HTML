@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 19, "slug": "lesson-19-北朝的政治和北方各族的大融合", "title": "北朝的政治和北方各族的大融合", "unit": "第四单元", "week": 5, "day": 4 },
+  "objectives": [
+    { "text": "了解北魏孝文帝改革的内容和意义", "isKeyPoint": true },
+    { "text": "了解北方民族大融合的表现", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "北魏孝文帝改革",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "439年，**北魏**统一黄河流域。北魏**孝文帝**（拓跋宏）为加强对中原地区的统治，推行了一系列汉化改革，是中国历史上著名的改革家。" },
+        { "type": "table", "headers": ["改革措施", "内容"], "rows": [
+          ["迁都", "将都城从平城（大同）迁至洛阳"],
+          ["改姓", "鲜卑族改汉姓（拓跋→元）"],
+          ["改服", "穿汉族服装"],
+          ["通婚", "鼓励鲜卑族与汉族通婚"],
+          ["语言", "朝廷中禁止说鲜卑语，使用汉语"]
+        ]},
+        { "type": "callout", "variant": "tip", "title": "改革意义", "content": "孝文帝改革加速了鲜卑族的汉化进程，促进了北方各民族的大融合，为后来的隋唐统一奠定了基础。" }
+      ]
+    },
+    {
+      "title": "北方民族大融合",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "魏晋南北朝时期，北方出现了大规模的民族融合。各民族在生产方式、生活习俗、语言文化等方面相互学习、相互影响，民族隔阂逐渐消除。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "孝文帝，搞改革。迁洛阳，穿汉服。改汉姓，说汉语。鲜卑汉，大融合。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：孝文帝改革",
+      "problem": [{ "type": "paragraph", "content": "北魏孝文帝改革的根本目的是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 学习汉族先进文化", "B. 加强对中原地区的统治", "C. 「消灭鲜卑族」", "D. 「迁都洛阳」"] }],
+      "solution": [{ "type": "paragraph", "content": "孝文帝改革的根本目的是加强对中原地区的统治，巩固北魏政权。学习汉族文化是手段而非根本目的。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：孝文帝汉化措施",
+      "problem": [
+        { "type": "paragraph", "content": "北魏孝文帝将都城从平城迁到了（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 长安", "B. 建康", "C. 洛阳", "D. 邺城"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "孝文帝将都城从平城（今大同）迁至洛阳，以便加强对中原地区的控制。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "孝文帝改革", "children": [
+      { "text": "迁都洛阳、改汉姓、穿汉服、说汉语、与汉族通婚" },
+      { "text": "加速汉化，促进民族融合" }
+    ]},
+    { "text": "北方民族大融合", "children": [{ "text": "各民族相互学习，隔阂消除" }, { "text": "为隋唐统一奠定基础" }] }
+  ]
+}

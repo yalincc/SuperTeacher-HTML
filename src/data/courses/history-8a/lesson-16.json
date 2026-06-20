@@ -1,0 +1,72 @@
+{
+  "meta": { "id": 16, "slug": "lesson-16-战略反攻与三大战役", "title": "战略反攻与三大战役", "unit": "第五单元", "week": 6, "day": 1 },
+  "objectives": [
+    { "text": "了解刘邓大军挺进大别山", "isKeyPoint": true },
+    { "text": "掌握三大战役的经过和意义", "isKeyPoint": true },
+    { "text": "理解渡江战役和南京解放", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "战略反攻",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1947年6月，**刘伯承、邓小平**率领晋冀鲁豫解放军主力，强渡黄河，千里跃进**大别山**，直接威胁南京和武汉，揭开了人民解放军战略进攻的序幕。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "刘邓大军挺进大别山是解放战争的转折点，标志着解放军从战略防御转入战略进攻。" }
+      ]
+    },
+    {
+      "title": "三大战役",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1948年9月至1949年1月，人民解放军发动了**辽沈战役、淮海战役、平津战役**三大战役，共歼灭和改编国民党军队**154万余人**，国民党军队的主力基本被消灭。" },
+        { "type": "table", "headers": ["战役", "时间", "指挥者", "成果"], "rows": [
+          ["辽沈战役", "1948年9-11月", "林彪、罗荣桓", "解放东北全境"],
+          ["淮海战役", "1948年11月-1949年1月", "刘伯承、陈毅等", "解放长江以北中下游地区"],
+          ["平津战役", "1948年11月-1949年1月", "林彪、罗荣桓等", "华北全境解放"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "三大战役中和平解放的是北平（平津战役），不是其他城市。" }
+      ]
+    },
+    {
+      "title": "渡江战役与南京解放",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1949年4月，人民解放军发起**渡江战役**。4月23日，解放**南京**，国民党政权垮台。" },
+        { "type": "callout", "variant": "quote", "title": "毛泽东诗词", "content": "钟山风雨起苍黄，百万雄师过大江。虎踞龙盘今胜昔，天翻地覆慨而慷。——毛泽东《七律·人民解放军占领南京》" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：三大战役",
+      "problem": [
+        { "type": "paragraph", "content": "三大战役中和平解放的城市是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 沈阳", "B. 北平", "C. 徐州", "D. 南京"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "平津战役中北平和平解放。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：南京解放",
+      "problem": [
+        { "type": "paragraph", "content": "南京解放标志着（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 抗战胜利", "B. 国民党政权垮台", "C. 新中国成立", "D. 三大战役结束"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1949年4月23日南京解放，国民党政权垮台。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "战略反攻", "children": [
+      { "text": "1947年刘邓大军挺进大别山" }
+    ]},
+    { "text": "三大战役", "children": [
+      { "text": "辽沈、淮海、平津" },
+      { "text": "歼敌154万余人" }
+    ]},
+    { "text": "渡江战役", "children": [
+      { "text": "1949年4月23日解放南京" },
+      { "text": "国民党政权垮台" }
+    ]}
+  ]
+}

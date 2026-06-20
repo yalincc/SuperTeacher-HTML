@@ -1,0 +1,8 @@
+{
+  "lessonId": 14,
+  "exercises": [
+    { "type": "choice", "id": "ex-14-1", "stem": "张骞第一次出使西域的目的是（  ）", "options": [{ "label": "A", "text": "传播儒家文化" }, { "label": "B", "text": "联络大月氏夹击匈奴" }, { "label": "C", "text": "开辟丝绸之路" }, { "label": "D", "text": "与乌孙结好" }], "answer": "B", "analysis": "张骞第一次出使西域（前138年）的目的是联络大月氏夹击匈奴。" },
+    { "type": "true_false", "id": "ex-14-2", "stem": "西域都护府的设置标志着西域正式归属中央政权。", "answer": true, "analysis": "公元前60年设置西域都护府，标志着西域（今新疆地区）正式归属中央政权管辖。" },
+    { "type": "fill", "id": "ex-14-3", "segments": ["丝绸之路的起点是", "___1___", "，最远到达", "___2___", "（今罗马）。"], "blanks": [{ "index": 1, "answer": "长安" }, { "index": 2, "answer": "大秦" }], "analysis": "丝绸之路从长安出发，最远到达大秦（即罗马帝国）。" }
+  ]
+}

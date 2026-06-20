@@ -1,0 +1,74 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-金与南宋的对峙", "title": "金与南宋的对峙", "unit": "第二单元", "week": 3, "day": 3 },
+  "objectives": [
+    { "text": "了解女真族的兴起和金的建立", "isKeyPoint": true },
+    { "text": "掌握靖康之变和南宋建立", "isKeyPoint": true },
+    { "text": "了解岳飞抗金和宋金和议", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "金的建立与南下",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "12世纪初期，女真族首领**完颜阿骨打**统一女真各部，建立**金**政权。1125年，金灭辽。1127年，金军攻破东京，掳走宋徽宗和宋钦宗，北宋灭亡，史称「**靖康之变**」。" },
+        { "type": "timeline", "items": [
+          { "time": "1115年", "title": "金建立", "content": "完颜阿骨打称帝，国号金" },
+          { "time": "1125年", "title": "金灭辽", "content": "金军攻灭辽国" },
+          { "time": "1127年", "title": "靖康之变", "content": "金军掳走徽钦二帝，北宋灭亡" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "靖康之变导致北宋灭亡，不是南宋灭亡。南宋是后来被蒙古（元）灭亡的。" }
+      ]
+    },
+    {
+      "title": "南宋建立与岳飞抗金",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1127年，宋钦宗弟弟**赵构**在应天府称帝，建立**南宋**，后定都**临安**（今杭州）。南宋初年，**岳飞**等将领抗金取得重大胜利，但宋高宗和秦桧以「莫须有」罪名杀害岳飞。" },
+        { "type": "callout", "variant": "quote", "title": "岳飞《满江红》", "content": "壮志饥餐胡虏肉，笑谈渴饮匈奴血。待从头、收拾旧山河，朝天阙。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆要点", "content": "岳飞抗金是正义的自卫战争，被害是南宋政治腐败的体现。「莫须有」意为「也许有」，是千古冤案。" }
+      ]
+    },
+    {
+      "title": "宋金和议",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1141年，宋金达成和议（**绍兴和议**），南宋向金称臣，割让部分领土，每年给金岁贡。宋金对峙局面形成，边界以**淮水至大散关**一线为界。" },
+        { "type": "callout", "variant": "tip", "title": "影响", "content": "宋金和议使双方维持了较长时间的和平，有利于经济发展和文化交流，但对南宋来说是屈辱性的。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：靖康之变",
+      "problem": [
+        { "type": "paragraph", "content": "导致北宋灭亡的事件是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 澶渊之盟", "B. 靖康之变", "C. 陈桥兵变", "D. 土木之变"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1127年金军攻破东京，掳走徽钦二帝，北宋灭亡，史称「靖康之变」。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：宋金对峙",
+      "problem": [
+        { "type": "paragraph", "content": "南宋与金对峙的分界线是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 长城一线", "B. 黄河一线", "C. 淮水至大散关一线", "D. 长江一线"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "绍兴和议规定宋金以淮水至大散关一线为界。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "金的建立与灭辽北宋", "children": [
+      { "text": "完颜阿骨打建立金" },
+      { "text": "1127年靖康之变，北宋灭亡" }
+    ]},
+    { "text": "南宋建立", "children": [
+      { "text": "赵构建立南宋，定都临安" },
+      { "text": "岳飞抗金，被秦桧害死" }
+    ]},
+    { "text": "宋金和议", "children": [
+      { "text": "1141年绍兴和议" },
+      { "text": "淮水至大散关为界" }
+    ]}
+  ]
+}

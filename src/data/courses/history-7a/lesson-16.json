@@ -1,0 +1,55 @@
+{
+  "meta": { "id": 16, "slug": "lesson-16-三国鼎立", "title": "三国鼎立", "unit": "第四单元", "week": 5, "day": 1 },
+  "objectives": [
+    { "text": "了解官渡之战和赤壁之战", "isKeyPoint": true },
+    { "text": "掌握三国鼎立局面的形成", "isKeyPoint": true },
+    { "text": "了解三国时期的经济发展", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "官渡之战与赤壁之战",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "东汉末年军阀混战，**曹操**和**袁绍**成为北方最强大的两个军事集团。200年，曹操在**官渡之战**中以少胜多击败袁绍，统一北方。208年，曹操南下，在**赤壁之战**中被孙刘联军以火攻大败。" },
+        { "type": "table", "headers": ["战役", "时间", "交战双方", "结果"], "rows": [
+          ["官渡之战", "200年", "曹操 vs 袁绍", "曹操以少胜多，统一北方"],
+          ["赤壁之战", "208年", "曹操 vs 孙刘联军", "孙刘联军火攻大败曹操"]
+        ]}
+      ]
+    },
+    {
+      "title": "三国鼎立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "赤壁之战后，曹操退守北方，孙权占据江东，刘备占据荆州部分地区，三国鼎立局面初步形成。" },
+        { "type": "table", "headers": ["国名", "建立者", "时间", "都城"], "rows": [
+          ["魏", "曹丕", "220年", "洛阳"],
+          ["蜀", "刘备", "221年", "成都"],
+          ["吴", "孙权", "229年", "建业（南京）"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "三国正式建立的时间分别是220年（魏）、221年（蜀）、229年（吴），不是赤壁之战后立即建立。曹操终其一生没有称帝。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：三国",
+      "problem": [{ "type": "paragraph", "content": "三国鼎立局面形成的关键战役是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 官渡之战", "B. 赤壁之战", "C. 巨鹿之战", "D. 长平之战"] }],
+      "solution": [{ "type": "paragraph", "content": "赤壁之战（208年）后曹操退守北方，孙权占据江东，刘备获得立足之地，三国鼎立局面初步形成。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：官渡之战",
+      "problem": [
+        { "type": "paragraph", "content": "官渡之战中，曹操打败的对手是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 刘备", "B. 袁绍", "C. 孙权", "D. 吕布"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "200年，曹操在官渡之战中以少胜多击败袁绍，统一了北方。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "两大战役", "children": [{ "text": "官渡之战（200年）：曹操统一北方" }, { "text": "赤壁之战（208年）：三分天下开端" }] },
+    { "text": "三国鼎立", "children": [{ "text": "魏（曹丕，洛阳）、蜀（刘备，成都）、吴（孙权，建业）" }] }
+  ]
+}

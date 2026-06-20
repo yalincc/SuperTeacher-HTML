@@ -1,0 +1,68 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-艰辛探索与建设成就", "title": "艰辛探索与建设成就", "unit": "第二单元", "week": 2, "day": 3 },
+  "objectives": [
+    { "text": "了解中共八大的召开", "isKeyPoint": true },
+    { "text": "掌握大跃进和人民公社化运动", "isKeyPoint": true },
+    { "text": "理解探索建设社会主义道路的经验教训", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "中共八大",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1956年，**中共八大**在北京召开。大会分析了国内主要矛盾，指出党和人民的主要任务是集中力量发展社会生产力，实现国家工业化。中共八大是探索建设社会主义道路的良好开端。" },
+        { "type": "callout", "variant": "note", "title": "八大路线", "content": "中共八大正确分析了国内形势和主要矛盾的变化，提出了全面开展社会主义建设的任务。" }
+      ]
+    },
+    {
+      "title": "大跃进和人民公社化运动",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1958年，全国掀起了**大跃进**和**人民公社化**运动。由于急于求成，忽视了客观经济规律，加上自然灾害等因素，1959—1961年我国国民经济发生严重困难。" },
+        { "type": "callout", "variant": "warning", "title": "经验教训", "content": "大跃进和人民公社化运动的失误说明：经济建设要遵循客观规律，不能急于求成，要立足国情。" }
+      ]
+    },
+    {
+      "title": "建设成就",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "在探索建设社会主义道路的过程中，我国也取得了巨大成就。**大庆油田**建成，结束了我国靠「洋油」过日子的时代。**焦裕禄、王进喜、雷锋**等先进人物成为全国人民学习的榜样。" },
+        { "type": "callout", "variant": "mnemonic", "title": "模范人物", "content": "铁人王进喜、党的好干部焦裕禄、解放军好战士雷锋，他们是这一时期的杰出代表。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：中共八大",
+      "problem": [
+        { "type": "paragraph", "content": "中共八大指出党和人民的主要任务是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 阶级斗争", "B. 发展社会生产力", "C. 大跃进", "D. 人民公社化"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "中共八大指出主要任务是集中力量发展社会生产力。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：建设成就",
+      "problem": [
+        { "type": "paragraph", "content": "被称为「铁人」的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 焦裕禄", "B. 王进喜", "C. 雷锋", "D. 邓稼先"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "王进喜被称为「铁人」。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "中共八大（1956年）", "children": [
+      { "text": "正确分析主要矛盾" },
+      { "text": "主要任务是发展生产力" }
+    ]},
+    { "text": "大跃进和人民公社化", "children": [
+      { "text": "1958年掀起" },
+      { "text": "忽视客观经济规律" }
+    ]},
+    { "text": "建设成就", "children": [
+      { "text": "大庆油田建成" },
+      { "text": "王进喜、焦裕禄、雷锋" }
+    ]}
+  ]
+}

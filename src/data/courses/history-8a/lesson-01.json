@@ -1,0 +1,71 @@
+{
+  "meta": { "id": 1, "slug": "lesson-01-鸦片战争", "title": "鸦片战争", "unit": "第一单元", "week": 1, "day": 1 },
+  "objectives": [
+    { "text": "了解鸦片战争的背景和经过", "isKeyPoint": true },
+    { "text": "掌握《南京条约》的内容及影响", "isKeyPoint": true },
+    { "text": "理解鸦片战争是中国近代史的开端", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "鸦片战争的爆发",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1840年6月，英国以**林则徐虎门销烟**为借口，发动侵华战争，史称**鸦片战争**。1842年，清政府战败，被迫签订中国近代史上第一个不平等条约——《**南京条约**》。" },
+        { "type": "timeline", "items": [
+          { "time": "1839年", "title": "虎门销烟", "content": "林则徐在广州虎门海滩销毁鸦片" },
+          { "time": "1840年6月", "title": "鸦片战争爆发", "content": "英国舰队到达广东海面" },
+          { "time": "1842年8月", "title": "《南京条约》签订", "content": "中国近代史上第一个不平等条约" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "鸦片战争的根本原因是英国为了打开中国市场，虎门销烟只是英国发动战争的借口。" }
+      ]
+    },
+    {
+      "title": "《南京条约》",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1842年签订的《南京条约》是中国近代史上第一个不平等条约。主要内容包括：割**香港岛**给英国；赔款2100万银元；开放广州、厦门、福州、宁波、上海五处为通商口岸；英商进出口货物应纳税款，必须经过双方协议。" },
+        { "type": "table", "headers": ["内容", "影响"], "rows": [
+          ["割香港岛", "破坏领土主权"],
+          ["赔款2100万银元", "加重人民负担"],
+          ["五口通商", "打开中国市场"],
+          ["协定关税", "破坏关税自主权"]
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "《南京条约》使中国开始沦为半殖民地半封建社会。鸦片战争是中国近代史的开端。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：南京条约",
+      "problem": [
+        { "type": "paragraph", "content": "中国近代史上第一个不平等条约是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《北京条约》", "B. 《南京条约》", "C. 《马关条约》", "D. 《辛丑条约》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1842年签订的《南京条约》是中国近代史上第一个不平等条约。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：鸦片战争影响",
+      "problem": [
+        { "type": "paragraph", "content": "鸦片战争使中国开始沦为（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 封建社会", "B. 资本主义社会", "C. 半殖民地半封建社会", "D. 殖民地社会"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "鸦片战争后，中国开始沦为半殖民地半封建社会。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "鸦片战争（1840—1842年）", "children": [
+      { "text": "英国发动侵华战争" },
+      { "text": "中国战败" }
+    ]},
+    { "text": "《南京条约》", "children": [
+      { "text": "割香港岛、赔款、五口通商、协定关税" },
+      { "text": "中国近代史第一个不平等条约" }
+    ]},
+    { "text": "影响", "children": [
+      { "text": "中国开始沦为半殖民地半封建社会" },
+      { "text": "鸦片战争是中国近代史的开端" }
+    ]}
+  ]
+}

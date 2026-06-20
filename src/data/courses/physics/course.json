@@ -1,5 +1,6 @@
 {
   "id": "physics",
+  "order": 2,
   "course": {
     "name": "初二物理",
     "icon": "⚡",

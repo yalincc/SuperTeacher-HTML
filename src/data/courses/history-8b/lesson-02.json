@@ -1,0 +1,57 @@
+{
+  "meta": { "id": 2, "slug": "lesson-02-抗美援朝", "title": "抗美援朝", "unit": "第一单元", "week": 1, "day": 2 },
+  "objectives": [
+    { "text": "了解抗美援朝的背景和经过", "isKeyPoint": true },
+    { "text": "掌握抗美援朝战争的结果和意义", "isKeyPoint": true },
+    { "text": "理解志愿军战士的英雄事迹", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "抗美援朝的背景",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1950年6月，朝鲜内战爆发。美国派兵侵略朝鲜，把战火烧到中朝边境。**彭德怀**率领**中国人民志愿军**赴朝作战，抗美援朝、保家卫国。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "抗美援朝的目的是保家卫国，不是侵略朝鲜。中国人民志愿军是应朝鲜请求出兵的。" }
+      ]
+    },
+    {
+      "title": "战争经过与英雄",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1950年10月，志愿军入朝作战。**黄继光**用身体堵住敌人枪眼，**邱少云**严守潜伏纪律被烈火吞噬壮烈牺牲。1953年7月，美国被迫在停战协定上签字，抗美援朝战争胜利结束。" },
+        { "type": "callout", "variant": "quote", "title": "英雄精神", "content": "中国人民志愿军发扬高度的爱国主义、革命英雄主义和国际主义精神，被称为「最可爱的人」。" },
+        { "type": "callout", "variant": "tip", "title": "历史意义", "content": "抗美援朝战争的胜利，为我国的经济建设赢得了一个相对稳定的和平环境，大大提高了我国的国际地位。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：抗美援朝",
+      "problem": [
+        { "type": "paragraph", "content": "抗美援朝战争中，用身体堵住敌人枪眼的英雄是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 黄继光", "B. 邱少云", "C. 董存瑞", "D. 刘胡兰"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "黄继光用身体堵住敌人枪眼。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：停战协定",
+      "problem": [
+        { "type": "paragraph", "content": "抗美援朝战争胜利结束的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 仁川登陆", "B. 上甘岭战役", "C. 签署停战协定", "D. 三八线划定"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1953年7月美国被迫在停战协定上签字，抗美援朝战争胜利结束。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "抗美援朝（1950—1953年）", "children": [
+      { "text": "彭德怀率领志愿军赴朝" },
+      { "text": "黄继光、邱少云等英雄" }
+    ]},
+    { "text": "胜利意义", "children": [
+      { "text": "赢得相对稳定的和平环境" },
+      { "text": "提高国际地位" }
+    ]}
+  ]
+}

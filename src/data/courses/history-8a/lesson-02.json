@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 2, "slug": "lesson-02-第二次鸦片战争与太平天国运动", "title": "第二次鸦片战争与太平天国运动", "unit": "第一单元", "week": 1, "day": 2 },
+  "objectives": [
+    { "text": "了解第二次鸦片战争的经过和影响", "isKeyPoint": true },
+    { "text": "掌握太平天国运动的兴衰过程", "isKeyPoint": true },
+    { "text": "理解中国半殖民地化程度加深", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "第二次鸦片战争",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1856年，英法联军发动**第二次鸦片战争**。1860年，英法联军攻入北京，**火烧圆明园**。清政府被迫签订《**北京条约**》等，中国半殖民地化程度进一步加深。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "火烧圆明园的是英法联军，不是八国联军。第二次鸦片战争的主凶是英法联军。" }
+      ]
+    },
+    {
+      "title": "太平天国运动",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1851年，**洪秀全**在广西金田村发动起义，建号**太平天国**。1853年，太平军攻占南京，改名**天京**，作为都城。1864年，天京陷落，太平天国运动失败。太平天国运动是中国历史上规模最宏大的农民战争。" },
+        { "type": "timeline", "items": [
+          { "time": "1851年", "title": "金田起义", "content": "洪秀全发动起义" },
+          { "time": "1853年", "title": "定都天京", "content": "攻占南京，建都" },
+          { "time": "1864年", "title": "天京陷落", "content": "太平天国运动失败" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "太平天国运动沉重打击了清朝的统治和外国侵略势力，但农民阶级的局限性导致最终失败。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：火烧圆明园",
+      "problem": [
+        { "type": "paragraph", "content": "火烧圆明园的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 英军", "B. 法军", "C. 英法联军", "D. 八国联军"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1860年英法联军攻入北京，火烧圆明园。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：太平天国",
+      "problem": [
+        { "type": "paragraph", "content": "太平天国运动的领导人是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 林则徐", "B. 洪秀全", "C. 康有为", "D. 孙中山"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "洪秀全发动金田起义，建立太平天国。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "第二次鸦片战争", "children": [
+      { "text": "英法联军发动" },
+      { "text": "火烧圆明园" }
+    ]},
+    { "text": "太平天国运动", "children": [
+      { "text": "洪秀全领导" },
+      { "text": "1853年定都天京" },
+      { "text": "1864年失败" }
+    ]}
+  ]
+}

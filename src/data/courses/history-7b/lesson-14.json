@@ -1,0 +1,63 @@
+{
+  "meta": { "id": 14, "slug": "lesson-14-明朝的对外关系", "title": "明朝的对外关系", "unit": "第三单元", "week": 5, "day": 2 },
+  "objectives": [
+    { "text": "掌握郑和下西洋的经过和意义", "isKeyPoint": true },
+    { "text": "了解戚继光抗倭的事迹", "isKeyPoint": true },
+    { "text": "理解明朝对外交往的特点", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "郑和下西洋",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1405—1433年，**郑和**率船队**七次下西洋**，到达亚非30多个国家和地区，最远到达**非洲东海岸**和**红海沿岸**。郑和下西洋是世界航海史上的空前壮举。" },
+        { "type": "timeline", "items": [
+          { "time": "1405年", "title": "第一次下西洋", "content": "郑和率船队从刘家港出发" },
+          { "time": "1405—1433年", "title": "七次下西洋", "content": "到达亚非30多个国家和地区" },
+          { "time": "1433年", "title": "最后一次", "content": "郑和在归途中病逝" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "历史意义", "content": "郑和下西洋促进了中国和亚非各国的经济交流，加强了我国和亚非各国的友好关系。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "郑和下西洋比欧洲航海家早半个多世纪，是世界航海史上的壮举。但明朝后来实行海禁，限制了海上贸易。" }
+      ]
+    },
+    {
+      "title": "戚继光抗倭",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "明朝中期，倭寇（日本海盗）骚扰中国东南沿海。**戚继光**率领「**戚家军**」在台州九战九捷，平定了浙东地区的倭患，后又前往福建、广东配合当地明军剿灭倭寇。" },
+        { "type": "callout", "variant": "quote", "title": "戚继光名言", "content": "封侯非我意，但愿海波平。——戚继光" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆要点", "content": "戚继光抗倭是反侵略战争，他是我国历史上一位伟大的民族英雄。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：郑和下西洋",
+      "problem": [
+        { "type": "paragraph", "content": "郑和下西洋最远到达（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 印度", "B. 非洲东海岸", "C. 欧洲", "D. 美洲"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "郑和下西洋最远到达非洲东海岸和红海沿岸。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：戚继光抗倭",
+      "problem": [
+        { "type": "paragraph", "content": "明朝抗击倭寇的民族英雄是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 郑成功", "B. 戚继光", "C. 文天祥", "D. 岳飞"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "戚继光率领戚家军抗击倭寇，是明朝著名民族英雄。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "郑和下西洋", "children": [
+      { "text": "1405—1433年七次下西洋" },
+      { "text": "到达亚非30多国，最远到非洲东海岸" }
+    ]},
+    { "text": "戚继光抗倭", "children": [
+      { "text": "台州九战九捷" },
+      { "text": "伟大的民族英雄" }
+    ]}
+  ]
+}

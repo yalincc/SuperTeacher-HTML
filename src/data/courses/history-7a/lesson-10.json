@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 10, "slug": "lesson-10-秦末农民大起义", "title": "秦末农民大起义", "unit": "第三单元", "week": 3, "day": 3 },
+  "objectives": [
+    { "text": "了解秦朝的暴政及其后果", "isKeyPoint": true },
+    { "text": "掌握陈胜吴广起义的原因和意义", "isKeyPoint": true },
+    { "text": "了解楚汉之争和秦朝灭亡的过程", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "秦的暴政",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "秦朝统一后，实行**暴政统治**：繁重的赋税（收泰半之赋）、沉重的徭役和兵役（修长城、阿房宫、骊山陵）、严苛的刑罚（族诛、连坐），激化了社会矛盾。" },
+        { "type": "list", "ordered": false, "items": ["赋税沉重：农民要将收获的三分之二上缴国家", "徭役繁重：修长城、阿房宫、骊山陵等工程", "刑法严酷：族诛、连坐等严刑峻法", "秦始皇死后，秦二世更加残暴"] }
+      ]
+    },
+    {
+      "title": "陈胜吴广起义与秦朝灭亡",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**公元前209年**，陈胜、吴广在大泽乡发动起义，这是中国历史上第一次大规模的农民起义。虽然起义最终失败，但沉重打击了秦朝的统治。此后，项羽和刘邦继续进行反秦斗争。" },
+        { "type": "timeline", "items": [
+          { "time": "公元前209年", "title": "大泽乡起义", "content": "陈胜吴广揭竿而起，中国第一次大规模农民起义" },
+          { "time": "公元前207年", "title": "巨鹿之战", "content": "项羽破釜沉舟，大败秦军主力" },
+          { "time": "公元前207年", "title": "秦朝灭亡", "content": "刘邦入关，秦王子婴投降" },
+          { "time": "公元前202年", "title": "楚汉之争结束", "content": "刘邦在垓下之战击败项羽，建立西汉" }
+        ]},
+        { "type": "callout", "variant": "quote", "title": "《史记·陈涉世家》", "content": "王侯将相宁有种乎！" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：陈胜吴广起义",
+      "problem": [
+        { "type": "paragraph", "content": "中国历史上第一次大规模的农民起义是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 黄巾起义", "B. 陈胜吴广起义", "C. 黄巢起义", "D. 李自成起义"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "陈胜吴广起义（公元前209年）是中国历史上第一次大规模农民起义。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：秦朝灭亡",
+      "problem": [
+        { "type": "paragraph", "content": "秦朝灭亡的时间是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 公元前209年", "B. 公元前207年", "C. 公元前202年", "D. 公元前221年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "公元前209年陈胜吴广起义，公元前207年刘邦入关秦朝灭亡，公元前202年刘邦建西汉，公元前221年秦统一。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "秦的暴政", "children": [
+      { "text": "重赋、重役、严刑" }
+    ]},
+    { "text": "农民起义与秦亡", "children": [
+      { "text": "陈胜吴广起义（前209年）= 第一次大规模农民起义" },
+      { "text": "项羽巨鹿之战破秦军 → 刘邦入关秦朝灭" },
+      { "text": "楚汉之争 → 刘邦建西汉（前202年）" }
+    ]}
+  ]
+}

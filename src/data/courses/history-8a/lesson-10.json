@@ -1,0 +1,66 @@
+{
+  "meta": { "id": 10, "slug": "lesson-10-红军长征", "title": "红军长征", "unit": "第三单元", "week": 4, "day": 1 },
+  "objectives": [
+    { "text": "了解红军第五次反围剿失败的原因", "isKeyPoint": true },
+    { "text": "掌握长征的主要经过", "isKeyPoint": true },
+    { "text": "理解遵义会议的意义", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "长征的开始",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1934年10月，由于**第五次反围剿**失败，中央红军被迫进行战略转移，开始**长征**。长征初期，红军损失惨重。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "第五次反围剿失败的原因是博古、李德的「左」倾错误指挥，不是敌人太强大。" }
+      ]
+    },
+    {
+      "title": "遵义会议",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1935年1月，中共中央在贵州**遵义**召开政治局扩大会议（**遵义会议**），确立了以**毛泽东**为代表的马克思主义正确路线在中共中央的领导地位。遵义会议是党的历史上生死攸关的转折点。" },
+        { "type": "callout", "variant": "tip", "title": "历史意义", "content": "遵义会议在极端危急的时刻挽救了党、挽救了红军、挽救了中国革命，是中国共产党历史上一个生死攸关的转折点。" }
+      ]
+    },
+    {
+      "title": "长征胜利",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1935年10月，中央红军到达**陕北吴起镇**。1936年10月，红军三大主力在甘肃**会宁**会师，长征胜利结束。红军长征历时两年，行程二万五千里。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆要点", "content": "长征路线：江西出发→遵义会议→四渡赤水→飞夺泸定桥→过雪山草地→陕北会师。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：遵义会议",
+      "problem": [
+        { "type": "paragraph", "content": "遵义会议确立了谁的领导地位？（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 博古", "B. 李德", "C. 毛泽东", "D. 周恩来"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "遵义会议确立了以毛泽东为代表的马克思主义正确路线的领导地位。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：长征胜利",
+      "problem": [
+        { "type": "paragraph", "content": "红军三大主力会师的地点是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 吴起镇", "B. 会宁", "C. 遵义", "D. 瑞金"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1936年10月，红军三大主力在甘肃会宁会师，长征胜利结束。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "长征开始（1934年）", "children": [
+      { "text": "第五次反围剿失败" }
+    ]},
+    { "text": "遵义会议（1935年）", "children": [
+      { "text": "确立毛泽东领导地位" },
+      { "text": "党的历史上生死攸关的转折点" }
+    ]},
+    { "text": "长征胜利（1936年）", "children": [
+      { "text": "三大主力会宁会师" }
+    ]}
+  ]
+}

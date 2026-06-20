@@ -1,0 +1,9 @@
+{
+  "lessonId": 15,
+  "exercises": [
+    { "type": "choice", "id": "ex-15-1", "stem": "重庆谈判签署的文件是（  ）", "options": [{ "label": "A", "text": "《南京条约》" }, { "label": "B", "text": "《双十协定》" }, { "label": "C", "text": "《共同纲领》" }, { "label": "D", "text": "《停战协定》" }], "answer": "B", "analysis": "重庆谈判签署了《双十协定》。" },
+    { "type": "choice", "id": "ex-15-2", "stem": "全面内战爆发的标志是（  ）", "options": [{ "label": "A", "text": "重庆谈判" }, { "label": "B", "text": "蒋介石进攻中原解放区" }, { "label": "C", "text": "三大战役" }, { "label": "D", "text": "渡江战役" }], "answer": "B", "analysis": "1946年6月蒋介石进攻中原解放区，全面内战爆发。" },
+    { "type": "true_false", "id": "ex-15-3", "stem": "毛泽东亲赴重庆谈判表明了中国共产党争取和平民主的诚意。", "answer": true, "analysis": "毛泽东亲赴重庆谈判，赢得了广大人民的拥护。" },
+    { "type": "fill", "id": "ex-15-4", "segments": ["1945年8月，", "___1___", "赴重庆谈判。1946年6月，全面", "___2___", "爆发。"], "blanks": [{ "index": 1, "answer": "毛泽东" }, { "index": 2, "answer": "内战" }], "analysis": "毛泽东赴重庆谈判，1946年内战爆发。" }
+  ]
+}

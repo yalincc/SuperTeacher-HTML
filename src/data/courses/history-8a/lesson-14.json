@@ -1,0 +1,61 @@
+{
+  "meta": { "id": 14, "slug": "lesson-14-抗日战争的胜利", "title": "抗日战争的胜利", "unit": "第四单元", "week": 5, "day": 2 },
+  "objectives": [
+    { "text": "了解中共七大的召开", "isKeyPoint": true },
+    { "text": "掌握抗日战争胜利的过程", "isKeyPoint": true },
+    { "text": "理解抗日战争胜利的意义", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "中共七大",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1945年4月，**中国共产党第七次全国代表大会**在延安召开。大会确立**毛泽东思想**为党的指导思想，为争取抗日战争的胜利和新民主主义革命在全国的胜利奠定了政治和思想基础。" },
+        { "type": "callout", "variant": "note", "title": "七大意义", "content": "中共七大是党在民主革命时期召开的最重要的一次大会，为抗战胜利和新民主主义革命胜利奠定了基础。" }
+      ]
+    },
+    {
+      "title": "抗战胜利",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1945年8月15日，日本宣布无条件投降。9月2日，日本正式签署投降书。**抗日战争胜利**。10月25日，**台湾**回到祖国怀抱。抗日战争的胜利是中华民族由衰败到振兴的转折点。" },
+        { "type": "timeline", "items": [
+          { "time": "1945年8月15日", "title": "日本宣布投降", "content": "日本宣布无条件投降" },
+          { "time": "1945年9月2日", "title": "日本签署投降书", "content": "抗日战争胜利" },
+          { "time": "1945年10月25日", "title": "台湾光复", "content": "台湾回到祖国怀抱" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "胜利原因", "content": "抗日战争胜利的根本原因是中国人民的全民族抗战。中国共产党在全民族抗战中发挥了中流砥柱作用。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：抗战胜利",
+      "problem": [
+        { "type": "paragraph", "content": "日本宣布无条件投降的时间是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1945年8月15日", "B. 1945年9月2日", "C. 1945年10月25日", "D. 1946年1月1日"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1945年8月15日日本宣布无条件投降。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：中共七大",
+      "problem": [
+        { "type": "paragraph", "content": "中共七大确立的党的指导思想是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 马克思列宁主义", "B. 毛泽东思想", "C. 邓小平理论", "D. 三个代表"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "中共七大确立毛泽东思想为党的指导思想。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "中共七大（1945年）", "children": [
+      { "text": "确立毛泽东思想为指导思想" }
+    ]},
+    { "text": "抗战胜利", "children": [
+      { "text": "1945年8月15日日本投降" },
+      { "text": "台湾光复" },
+      { "text": "中华民族由衰败到振兴的转折点" }
+    ]}
+  ]
+}

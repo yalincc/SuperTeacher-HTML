@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 13, "slug": "lesson-13-正面战场与敌后战场", "title": "正面战场与敌后战场", "unit": "第四单元", "week": 5, "day": 1 },
+  "objectives": [
+    { "text": "了解正面战场的主要战役", "isKeyPoint": true },
+    { "text": "掌握敌后战场的抗日斗争", "isKeyPoint": true },
+    { "text": "理解两个战场的关系", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "正面战场",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "抗战初期，国民党军队在正面战场组织了多次大规模战役。**台儿庄战役**（1938年）是抗战以来中国正面战场取得的最大胜利。**武汉会战**后，抗日战争进入**战略相持阶段**。" },
+        { "type": "callout", "variant": "note", "title": "台儿庄战役", "content": "1938年，李宗仁指挥中国军队在台儿庄与日军激战，歼敌1万余人，是抗战以来正面战场的最大胜利。" }
+      ]
+    },
+    {
+      "title": "敌后战场",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "中国共产党领导的八路军、新四军深入敌后，建立**抗日根据地**，开展**游击战争**。1940年，**彭德怀**指挥**百团大战**，有力打击了日军的侵略气焰。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "正面战场和敌后战场相互配合，构成了中国抗日战争的整体。战略相持阶段后，敌后战场逐渐成为抗战的主战场。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：台儿庄战役",
+      "problem": [
+        { "type": "paragraph", "content": "抗战以来正面战场取得的最大胜利是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 淞沪会战", "B. 台儿庄战役", "C. 武汉会战", "D. 百团大战"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "台儿庄战役是抗战以来正面战场取得的最大胜利。百团大战是敌后战场的战役。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：百团大战",
+      "problem": [
+        { "type": "paragraph", "content": "百团大战的指挥者是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 毛泽东", "B. 朱德", "C. 彭德怀", "D. 叶挺"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "百团大战由彭德怀指挥。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "正面战场", "children": [
+      { "text": "台儿庄战役（1938年）" },
+      { "text": "抗战以来最大胜利" }
+    ]},
+    { "text": "敌后战场", "children": [
+      { "text": "百团大战（1940年）" },
+      { "text": "彭德怀指挥" }
+    ]}
+  ]
+}

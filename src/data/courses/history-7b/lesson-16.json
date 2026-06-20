@@ -1,0 +1,72 @@
+{
+  "meta": { "id": 16, "slug": "lesson-16-统一多民族国家的巩固与发展", "title": "统一多民族国家的巩固与发展", "unit": "第三单元", "week": 6, "day": 1 },
+  "objectives": [
+    { "text": "了解清朝对西藏和新疆的管辖措施", "isKeyPoint": true },
+    { "text": "掌握郑成功收复台湾和清朝设台湾府", "isKeyPoint": true },
+    { "text": "理解清朝巩固统一多民族国家的意义", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "对西藏的管辖",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "清朝加强对西藏的管辖。顺治帝册封「**达赖喇嘛**」，康熙帝册封「**班禅额尔德尼**」。1727年设**驻藏大臣**，与达赖、班禅共同管理西藏事务。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "册封达赖的是顺治帝，册封班禅的是康熙帝，设驻藏大臣的是雍正帝（1727年）。" }
+      ]
+    },
+    {
+      "title": "对新疆的管辖",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "乾隆帝时，平定了回部**大、小和卓**的叛乱。1762年设**伊犁将军**，管辖包括巴尔喀什湖在内的整个新疆地区。" },
+        { "type": "callout", "variant": "note", "title": "新疆管辖", "content": "伊犁将军是清朝在新疆的最高军政长官，管辖整个新疆地区，加强了对西北边疆的控制。" }
+      ]
+    },
+    {
+      "title": "收复台湾",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1662年，**郑成功**从荷兰殖民者手中收复台湾。1684年，清朝设**台湾府**，隶属福建省，加强了台湾与内地的联系。" },
+        { "type": "timeline", "items": [
+          { "time": "1662年", "title": "郑成功收复台湾", "content": "从荷兰殖民者手中收复" },
+          { "time": "1684年", "title": "设台湾府", "content": "隶属福建省" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "郑成功收复台湾是反抗外来侵略的正义行为，他是我国历史上的民族英雄。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：收复台湾",
+      "problem": [
+        { "type": "paragraph", "content": "从荷兰殖民者手中收复台湾的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 戚继光", "B. 郑成功", "C. 郑和", "D. 施琅"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1662年郑成功从荷兰殖民者手中收复台湾。戚继光抗倭，郑和下西洋。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：驻藏大臣",
+      "problem": [
+        { "type": "paragraph", "content": "清朝设置驻藏大臣的皇帝是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 顺治帝", "B. 康熙帝", "C. 雍正帝", "D. 乾隆帝"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1727年雍正帝设置驻藏大臣。顺治帝册封达赖，康熙帝册封班禅。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "对西藏的管辖", "children": [
+      { "text": "册封达赖、班禅" },
+      { "text": "1727年设驻藏大臣" }
+    ]},
+    { "text": "对新疆的管辖", "children": [
+      { "text": "平定大、小和卓叛乱" },
+      { "text": "设伊犁将军" }
+    ]},
+    { "text": "收复台湾", "children": [
+      { "text": "1662年郑成功收复台湾" },
+      { "text": "1684年设台湾府" }
+    ]}
+  ]
+}

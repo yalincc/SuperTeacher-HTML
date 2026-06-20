@@ -1,0 +1,69 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-辽西夏与北宋的并立", "title": "辽、西夏与北宋的并立", "unit": "第二单元", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "了解辽和西夏的建立及其与北宋的关系", "isKeyPoint": true },
+    { "text": "掌握澶渊之盟的内容和影响", "isKeyPoint": true },
+    { "text": "理解宋辽、宋夏和议的利弊", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "辽的建立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "10世纪初，契丹族首领**耶律阿保机**统一契丹各部，建立政权，国号**契丹**（后改称辽）。辽与北宋长期对峙，双方有战有和。" },
+        { "type": "callout", "variant": "note", "title": "契丹族", "content": "契丹族是游牧民族，生活在北方草原。耶律阿保机统一各部后，学习汉族制度，发展农业和手工业。" }
+      ]
+    },
+    {
+      "title": "西夏的建立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "11世纪前期，党项族首领**元昊**称帝，国号**大夏**，史称**西夏**。西夏与北宋多次发生战争，双方损失惨重，后来达成和议。" },
+        { "type": "callout", "variant": "note", "title": "党项族", "content": "党项族是羌族的一支，生活在西北地区。元昊仿效汉族制度建立西夏，创制了西夏文字。" }
+      ]
+    },
+    {
+      "title": "澶渊之盟",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1005年，北宋与辽在澶州达成和议，史称「**澶渊之盟**」。盟约规定：北宋每年给辽银10万两、绢20万匹，双方约为兄弟之国，以白沟河为界。此后很长时间，辽宋之间保持和平局面。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "澶渊之盟对北宋来说虽然加重了财政负担，但换来了长期和平，促进了双方经济文化交流。对辽来说获得了稳定的经济来源。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "澶渊之盟是北宋与辽的和约，不是与西夏的。宋夏和议是后来的事。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：辽的建立",
+      "problem": [
+        { "type": "paragraph", "content": "建立辽政权的少数民族是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 党项族", "B. 契丹族", "C. 女真族", "D. 蒙古族"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "契丹族首领耶律阿保机建立辽。党项族建立西夏，女真族建立金，蒙古族建立元。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：澶渊之盟",
+      "problem": [
+        { "type": "paragraph", "content": "澶渊之盟是北宋与哪个政权签订的和约？（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 西夏", "B. 辽", "C. 金", "D. 大理"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "澶渊之盟（1005年）是北宋与辽签订的和约。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "辽的建立", "children": [
+      { "text": "契丹族耶律阿保机建立" },
+      { "text": "与北宋长期对峙" }
+    ]},
+    { "text": "西夏的建立", "children": [
+      { "text": "党项族元昊建立" },
+      { "text": "仿效汉族制度" }
+    ]},
+    { "text": "澶渊之盟", "children": [
+      { "text": "1005年宋辽和议" },
+      { "text": "北宋给辽岁币，换长期和平" }
+    ]}
+  ]
+}

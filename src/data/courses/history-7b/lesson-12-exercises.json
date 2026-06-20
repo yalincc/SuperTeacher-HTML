@@ -1,0 +1,9 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    { "type": "choice", "id": "ex-12-1", "stem": "活字印刷术的发明者是（  ）", "options": [{ "label": "A", "text": "蔡伦" }, { "label": "B", "text": "毕昇" }, { "label": "C", "text": "沈括" }, { "label": "D", "text": "黄道婆" }], "answer": "B", "analysis": "北宋毕昇发明活字印刷术。蔡伦改进造纸术。" },
+    { "type": "choice", "id": "ex-12-2", "stem": "《资治通鉴》的作者是（  ）", "options": [{ "label": "A", "text": "司马迁" }, { "label": "B", "text": "司马光" }, { "label": "C", "text": "班固" }, { "label": "D", "text": "欧阳修" }], "answer": "B", "analysis": "《资治通鉴》由北宋司马光主持编写。司马迁写《史记》。" },
+    { "type": "true_false", "id": "ex-12-3", "stem": "指南针在北宋开始用于航海。", "answer": true, "analysis": "指南针在北宋开始用于航海事业，促进了世界航海技术的发展。" },
+    { "type": "fill", "id": "ex-12-4", "segments": ["北宋毕昇发明了", "___1___", "。元代关汉卿的代表作是", "___2___", "。"], "blanks": [{ "index": 1, "answer": "活字印刷术" }, { "index": 2, "answer": "窦娥冤" }], "analysis": "毕昇发明活字印刷术，关汉卿代表作《窦娥冤》。" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    { "type": "choice", "id": "ex-3-1", "stem": "1950年颁布的土地改革法废除了（  ）", "options": [{ "label": "A", "text": "资本主义剥削制度" }, { "label": "B", "text": "封建土地制度" }, { "label": "C", "text": "奴隶制度" }, { "label": "D", "text": "官僚资本主义" }], "answer": "B", "analysis": "土地改革法废除地主阶级封建剥削的土地所有制。" },
+    { "type": "choice", "id": "ex-3-2", "stem": "全国大陆基本完成土地改革的时间是（  ）", "options": [{ "label": "A", "text": "1950年" }, { "label": "B", "text": "1951年" }, { "label": "C", "text": "1952年底" }, { "label": "D", "text": "1953年" }], "answer": "C", "analysis": "到1952年底全国大陆基本完成土地改革。" },
+    { "type": "true_false", "id": "ex-3-3", "stem": "土地改革使农民成为土地的主人。", "answer": true, "analysis": "土地改革实行农民的土地所有制，农民成为土地的主人。" },
+    { "type": "fill", "id": "ex-3-4", "segments": ["1950年，中央人民政府颁布", "___1___", "。到1952年底，土地改革基本完成。"], "blanks": [{ "index": 1, "answer": "中华人民共和国土地改革法" }], "analysis": "1950年颁布《中华人民共和国土地改革法》。" }
+  ]
+}

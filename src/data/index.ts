@@ -39,7 +39,8 @@ function buildCourses(): CourseWithLessons[] {
     courses.push({ ...config, lessonData, exerciseMap })
   }
 
-  // 按 course.json 中的顺序排列
+  // 按 order 字段排序（默认 99）
+  courses.sort((a, b) => (a.order ?? 99) - (b.order ?? 99))
   return courses
 }
 
@@ -47,6 +48,76 @@ export const courses = buildCourses()
 
 if (import.meta.env.DEV) {
   console.log('[SuperTeacher] courses loaded:', courses.length, courses.map(c => c.id))
+}
+
+// ===== 学期分组 =====
+export interface CourseGroup {
+  id: string
+  name: string
+  icon: string
+  color: string
+  order: number
+  courses: CourseWithLessons[]
+}
+
+function buildGroups(): CourseGroup[] {
+  const map = new Map<string, CourseGroup>()
+  for (const course of courses) {
+    if (!course.group) continue
+    const g = course.group
+    if (!map.has(g.id)) {
+      map.set(g.id, { id: g.id, name: g.name, icon: g.icon, color: g.color, order: g.order, courses: [] })
+    }
+    map.get(g.id)!.courses.push(course)
+  }
+  // 每学期内按 semester.order 排序
+  for (const group of map.values()) {
+    group.courses.sort((a, b) => (a.semester?.order ?? 99) - (b.semester?.order ?? 99))
+  }
+  return Array.from(map.values()).sort((a, b) => a.order - b.order)
+}
+
+const groups = buildGroups()
+
+export function getGroups(): CourseGroup[] {
+  return groups
+}
+
+export function getGroupById(id: string): CourseGroup | undefined {
+  return groups.find((g) => g.id === id)
+}
+
+export function isGroupId(id: string): boolean {
+  return groups.some((g) => g.id === id)
+}
+
+// ===== 首页展示列表 =====
+export type HomeDisplayItem =
+  | { kind: 'course'; course: CourseWithLessons }
+  | { kind: 'group'; group: CourseGroup }
+
+export function getHomeDisplayItems(): HomeDisplayItem[] {
+  const groupedCourseIds = new Set<string>()
+  for (const g of groups) {
+    for (const c of g.courses) groupedCourseIds.add(c.id)
+  }
+
+  const items: HomeDisplayItem[] = []
+  for (const course of courses) {
+    if (!groupedCourseIds.has(course.id)) {
+      items.push({ kind: 'course', course })
+    }
+  }
+  for (const group of groups) {
+    items.push({ kind: 'group', group })
+  }
+  // 统一按 order 排序
+  items.sort((a, b) => {
+    const orderA = a.kind === 'course' ? (a.course.order ?? 99) : a.group.order
+    const orderB = b.kind === 'course' ? (b.course.order ?? 99) : b.group.order
+    return orderA - orderB
+  })
+  return items
 }
 
 export function getCourseById(id: string): CourseWithLessons | undefined {

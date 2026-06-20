@@ -1,0 +1,74 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-秦统一中国", "title": "秦统一中国", "unit": "第三单元", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "了解秦灭六国、统一中国的过程和原因", "isKeyPoint": true },
+    { "text": "掌握秦始皇巩固统一的措施", "isKeyPoint": true },
+    { "text": "理解秦朝中央集权制度的基本框架", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "秦灭六国",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**公元前230年—前221年**，秦国先后灭掉韩、赵、魏、楚、燕、齐六国，完成统一。秦王嬴政自称「**始皇帝**「，建立秦朝。秦的统一结束了长期分裂割据的局面，建立了中国历史上第一个统一的多民族封建国家。" },
+        { "type": "timeline", "items": [
+          { "time": "公元前230年", "title": "灭韩" },
+          { "time": "公元前228年", "title": "灭赵" },
+          { "time": "公元前225年", "title": "灭魏" },
+          { "time": "公元前223年", "title": "灭楚" },
+          { "time": "公元前222年", "title": "灭燕" },
+          { "time": "公元前221年", "title": "灭齐，统一中国", "content": "建立秦朝，中国第一个统一的多民族封建国家" }
+        ]},
+        { "type": "callout", "variant": "note", "title": "统一原因", "content": "长期战乱使人民渴望统一；商鞅变法使秦国实力最强；秦王嬴政雄才大略、策略正确。" }
+      ]
+    },
+    {
+      "title": "秦始皇巩固统一的措施",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "秦始皇为巩固统一，在政治、经济、文化、军事等方面采取了一系列措施，建立了一套完整的中央集权制度。" },
+        { "type": "table", "headers": ["方面", "措施", "作用"], "rows": [
+          ["政治", "建立皇帝制、三公九卿制、郡县制", "加强中央对地方的控制"],
+          ["经济", "统一度量衡、统一货币（圆形方孔钱）", "促进经济交流"],
+          ["文化", "统一文字（小篆）", "促进文化交流"],
+          ["交通", "统一车轨、修驰道", "加强各地联系"],
+          ["军事", "北击匈奴修长城、南征百越修灵渠", "巩固边疆"]
+        ]},
+        { "type": "callout", "variant": "quote", "title": "《史记·秦始皇本纪》", "content": "一法度衡石丈尺。车同轨。书同文字。" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "政经文交军，皇帝三公郡。度量货币文，车轨长城灵。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：秦朝制度",
+      "problem": [
+        { "type": "paragraph", "content": "秦始皇为加强中央集权，在地方上推行的制度是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 分封制", "B. 郡县制", "C. 科举制", "D. 行省制"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "秦始皇废除分封制，在全国推行郡县制，郡守和县令由皇帝直接任免。分封制是西周制度，科举制始于隋唐，行省制始于元朝。正确答案为B。" }],
+      "answer": "B", "source": "2024各地中考常见"
+    },
+    {
+      "title": "例2：秦始皇巩固统一",
+      "problem": [
+        { "type": "paragraph", "content": "秦始皇统一文字后，作为全国标准文字的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 甲骨文", "B. 金文", "C. 小篆", "D. 隶书"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "秦始皇统一文字为小篆，后来隶书逐渐流行。甲骨文是商朝文字，金文是商周青铜器文字。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "秦统一（前221年）", "children": [
+      { "text": "灭六国顺序：韩赵魏楚燕齐" },
+      { "text": "中国第一个统一的多民族封建国家" }
+    ]},
+    { "text": "巩固统一措施", "children": [
+      { "text": "政治：皇帝制 + 三公九卿 + 郡县制" },
+      { "text": "经济：统一度量衡、货币" },
+      { "text": "文化：统一文字（小篆）" },
+      { "text": "交通：统一车轨、修驰道" }
+    ]}
+  ]
+}

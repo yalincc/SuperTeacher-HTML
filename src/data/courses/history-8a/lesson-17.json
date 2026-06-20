@@ -1,0 +1,61 @@
+{
+  "meta": { "id": 17, "slug": "lesson-17-解放战争的胜利", "title": "解放战争的胜利", "unit": "第五单元", "week": 6, "day": 2 },
+  "objectives": [
+    { "text": "了解解放区的土地改革", "isKeyPoint": true },
+    { "text": "掌握新中国成立的准备", "isKeyPoint": true },
+    { "text": "理解解放战争胜利的原因", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "解放区的土地改革",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1947年，中国共产党颁布《**中国土地法大纲**》，在解放区进行土地改革。没收地主土地，废除封建剥削的土地制度，实行耕者有其田。广大农民分到了土地，踊跃参军支援前线。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "土地改革激发了农民的革命和生产积极性，为解放战争提供了源源不断的人力物力支持。" }
+      ]
+    },
+    {
+      "title": "新中国成立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1949年9月，**中国人民政治协商会议第一届全体会议**在北平召开，通过了《**共同纲领**》，选举**毛泽东**为中央人民政府主席。1949年10月1日，**开国大典**在北京天安门广场举行，**中华人民共和国**成立。" },
+        { "type": "timeline", "items": [
+          { "time": "1949年9月", "title": "政协会议", "content": "通过《共同纲领》" },
+          { "time": "1949年10月1日", "title": "开国大典", "content": "中华人民共和国成立" }
+        ]},
+        { "type": "callout", "variant": "mnemonic", "title": "记忆要点", "content": "《共同纲领》起临时宪法作用。新中国成立标志着新民主主义革命的胜利。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：开国大典",
+      "problem": [
+        { "type": "paragraph", "content": "中华人民共和国成立于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1949年9月", "B. 1949年10月1日", "C. 1950年1月", "D. 1951年1月"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1949年10月1日开国大典，中华人民共和国成立。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：共同纲领",
+      "problem": [
+        { "type": "paragraph", "content": "《共同纲领》的作用是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 正式宪法", "B. 临时宪法", "C. 党纲", "D. 军令"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "《共同纲领》起临时宪法作用。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "土地改革", "children": [
+      { "text": "1947年《中国土地法大纲》" },
+      { "text": "耕者有其田" }
+    ]},
+    { "text": "新中国成立", "children": [
+      { "text": "1949年9月政协会议" },
+      { "text": "1949年10月1日开国大典" },
+      { "text": "《共同纲领》起临时宪法作用" }
+    ]}
+  ]
+}

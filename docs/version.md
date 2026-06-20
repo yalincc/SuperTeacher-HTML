@@ -1,6 +1,45 @@
 # 更新日志 (Changelog)
 
-> SuperTeacher-HTML — 初中化学互动教学网页应用
+> SuperTeacher-HTML — 初中多学科互动教学网页应用
+
+---
+
+## v2.1 (2026-06-20)
+
+> 初中历史课程全面上线 — 文科规范建立 + 四册历史课程生成
+
+### ✨ 新增
+- **文科课程规范** — `docs/curriculum-format-liberal-arts.md`，覆盖 timeline、quote 等文科专属内容块
+- **历史课程范本** — `docs/curriculum/history-lesson-template.json`
+- **历史课程 52 课** — 七下 18 课 + 八上 17 课 + 八下 17 课（2024人教版）
+  - 每课知识点 JSON + 练习题 JSON（共 104 文件）
+  - 每课 3 个学习目标 + 2-3 个知识分区 + 2 道例题 + 4 道练习题
+- **Netlify 部署支持** — `netlify.toml`，配置 SPA 路由和静态资源缓存
+- **七年级上册历史完善** — 20 课补充第 2 道例题
+
+### 🔧 改造
+- **例题规范统一** — 所有历史课程例题数量统一为 2 道/课
+- **generate-lesson skill** — 新增多学科支持（文科/理科自动判断）
+- **course.json 更新** — history-7b（18课）、history-8a（17课）、history-8b（17课）课程配置
+
+### 📝 文档
+- `docs/curriculum-format-liberal-arts.md` — 文科课程规范
+- `docs/curriculum/history-lesson-template.json` — 历史课程范本
+- `docs/v2.1-plan.md` — 版本规划
+- `docs/v2.1-implementation.md` — 实施进度
+- `docs/version.md` — v2.1 版本记录
+- `docs/index.md` — 项目结构说明更新
+- `docs/roadmap.md` — 新增 P14 历史课程阶段
+
+### 🎨 改造文件
+| 文件 | 改动 |
+|------|------|
+| `src/data/courses/history-7b/` | 七下历史 18 课（course.json + lesson + exercises） |
+| `src/data/courses/history-8a/` | 八上历史 17 课（course.json + lesson + exercises） |
+| `src/data/courses/history-8b/` | 八下历史 17 课（course.json + lesson + exercises） |
+| `src/data/courses/history-7a/lesson-*.json` | 七上 20 课补充第 2 道例题 |
+| `netlify.toml` | Netlify 部署配置 |
+| `.agents/skills/generate-lesson/SKILL.md` | 多学科支持 |
 
 ---
 

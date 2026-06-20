@@ -3,9 +3,11 @@ import { ProgressContext } from './hooks/ProgressContext'
 import { useProgress } from './hooks/useProgress'
 import { GameContext } from './hooks/useGame'
 import { useGame } from './hooks/useGame'
+import { isGroupId } from './data'
 import AppLayout from './components/layout/AppLayout'
 import HomePage from './pages/HomePage'
 import CoursePage from './pages/CoursePage'
+import SemesterPage from './pages/SemesterPage'
 import LessonPage from './pages/LessonPage'
 import GamePage from './pages/GamePage'
 
@@ -25,17 +27,25 @@ function CourseProvider({ children }: { children: React.ReactNode }) {
   )
 }
 
+function CourseEntry() {
+  const { courseId } = useParams<{ courseId: string }>()
+  if (courseId && isGroupId(courseId)) {
+    return <SemesterPage />
+  }
+  return (
+    <CourseProvider>
+      <CoursePage />
+    </CourseProvider>
+  )
+}
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route element={<AppLayout />}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/course/:courseId" element={
-            <CourseProvider>
-              <CoursePage />
-            </CourseProvider>
-          } />
+          <Route path="/course/:courseId" element={<CourseEntry />} />
           <Route path="/course/:courseId/lesson/:id" element={
             <CourseProvider>
               <LessonPage />
