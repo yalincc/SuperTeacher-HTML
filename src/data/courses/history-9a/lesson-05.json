@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-罗马城邦和罗马帝国", "title": "罗马城邦和罗马帝国", "unit": "第二单元", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "了解罗马城邦的兴起", "isKeyPoint": false },
+    { "text": "掌握罗马共和国和罗马帝国的兴衰", "isKeyPoint": true },
+    { "text": "理解《十二铜表法》的意义", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "罗马共和国",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "公元前509年，罗马建立**共和国**。公元前450年左右颁布《**十二铜表法**》，是罗马法制建设的第一步，是后世罗马法典甚至欧洲法学的渊源。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "《十二铜表法》使量刑定罪有了文字依据，在一定程度上遏制了贵族对法律的曲解和滥用。" }
+      ]
+    },
+    {
+      "title": "罗马帝国",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "公元前27年，**屋大维**首创「元首制」，罗马共和国演变为**罗马帝国**。2世纪，罗马帝国进入黄金时期，版图横跨欧亚非三洲。395年，帝国分裂为东西两部分。476年，西罗马帝国灭亡。" },
+        { "type": "timeline", "items": [
+          { "time": "公元前509年", "title": "罗马共和国", "content": "建立共和国" },
+          { "time": "公元前27年", "title": "罗马帝国", "content": "屋大维建立帝国" },
+          { "time": "2世纪", "title": "黄金时期", "content": "版图横跨欧亚非" },
+          { "time": "476年", "title": "西罗马灭亡", "content": "西罗马帝国灭亡" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "西罗马帝国灭亡于476年，标志着西欧奴隶社会的结束。东罗马帝国（拜占庭）继续存在。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：十二铜表法",
+      "problem": [
+        { "type": "paragraph", "content": "罗马法制建设的第一步是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《汉谟拉比法典》", "B. 《十二铜表法》", "C. 《查士丁尼法典》", "D. 《拿破仑法典》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "《十二铜表法》是罗马法制建设的第一步。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：罗马帝国",
+      "problem": [
+        { "type": "paragraph", "content": "罗马共和国演变为罗马帝国的时间是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 公元前509年", "B. 公元前27年", "C. 公元1世纪", "D. 公元476年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "公元前27年屋大维建立罗马帝国。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "罗马共和国", "children": [
+      { "text": "公元前509年建立" },
+      { "text": "《十二铜表法》——罗马法制第一步" }
+    ]},
+    { "text": "罗马帝国", "children": [
+      { "text": "公元前27年屋大维建立" },
+      { "text": "476年西罗马帝国灭亡" }
+    ]}
+  ]
+}

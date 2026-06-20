@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 7, "slug": "lesson-07-基督教的兴起和法兰克王国", "title": "基督教的兴起和法兰克王国", "unit": "第三单元", "week": 3, "day": 1 },
+  "objectives": [
+    { "text": "了解基督教的兴起和传播", "isKeyPoint": true },
+    { "text": "掌握法兰克王国的建立和查理曼帝国", "isKeyPoint": true },
+    { "text": "理解基督教在中世纪欧洲的地位", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "基督教的兴起",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1世纪，基督教产生于巴勒斯坦地区。基督教信仰**耶稣**为「救世主」（基督）。4世纪末，基督教被定为罗马国教。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "基督教后来分裂为天主教、东正教和新教三大教派。" }
+      ]
+    },
+    {
+      "title": "法兰克王国",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "481年，**克洛维**建立**法兰克王国**，皈依基督教。8世纪前期，**查理·马特**改革，实行采邑制。800年，教皇为**查理**加冕，称为「查理大帝」，法兰克王国称为「查理曼帝国」。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "查理曼帝国在843年《凡尔登条约》中被一分为三，奠定了后来德、法、意三国的雏形。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：基督教",
+      "problem": [
+        { "type": "paragraph", "content": "基督教产生于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 公元前1世纪", "B. 公元1世纪", "C. 公元4世纪", "D. 公元8世纪"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "基督教产生于公元1世纪。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：查理曼帝国",
+      "problem": [
+        { "type": "paragraph", "content": "查理曼帝国被一分为三的条约是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《威斯特伐利亚和约》", "B. 《凡尔登条约》", "C. 《巴黎和约》", "D. 《罗马条约》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "843年《凡尔登条约》将查理曼帝国一分为三。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "基督教", "children": [
+      { "text": "1世纪产生于巴勒斯坦" },
+      { "text": "4世纪末成为罗马国教" }
+    ]},
+    { "text": "法兰克王国", "children": [
+      { "text": "481年克洛维建立" },
+      { "text": "843年《凡尔登条约》三分帝国" }
+    ]}
+  ]
+}

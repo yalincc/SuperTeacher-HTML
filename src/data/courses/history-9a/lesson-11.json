@@ -1,0 +1,57 @@
+{
+  "meta": { "id": 11, "slug": "lesson-11-阿拉伯帝国", "title": "阿拉伯帝国", "unit": "第四单元", "week": 4, "day": 2 },
+  "objectives": [
+    { "text": "了解伊斯兰教的创立", "isKeyPoint": true },
+    { "text": "掌握阿拉伯帝国的扩张和成就", "isKeyPoint": true },
+    { "text": "理解阿拉伯文化对东西方交流的贡献", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "伊斯兰教的创立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "7世纪初，**穆罕默德**在阿拉伯半岛创立**伊斯兰教**。他以宗教信仰为纽带，建立起政教合一的政权。穆罕默德逝世后，他的继承者（哈里发）不断扩张。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "伊斯兰教信仰唯一的神「真主」（安拉），经典为《古兰经》。" }
+      ]
+    },
+    {
+      "title": "阿拉伯帝国的成就",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "8世纪中期，阿拉伯帝国版图横跨欧亚非三洲，是当时世界上最大的帝国。阿拉伯人改造了古印度人发明的计数法，形成了「**阿拉伯数字**」。阿拉伯人还担当了沟通东西方文化的角色。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "阿拉伯数字实际上由古印度人发明，经阿拉伯人改造后传入欧洲，因此被称为「阿拉伯数字」。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：伊斯兰教",
+      "problem": [
+        { "type": "paragraph", "content": "伊斯兰教的创立者是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 耶稣", "B. 穆罕默德", "C. 释迦牟尼", "D. 老子"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "穆罕默德创立伊斯兰教。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：阿拉伯数字",
+      "problem": [
+        { "type": "paragraph", "content": "「阿拉伯数字」实际上是由（  ）发明的" },
+        { "type": "list", "ordered": true, "items": ["A. 阿拉伯人", "B. 古印度人", "C. 古埃及人", "D. 古巴比伦人"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "「阿拉伯数字」实际上由古印度人发明，经阿拉伯人改造后传入欧洲。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "伊斯兰教", "children": [
+      { "text": "7世纪初穆罕默德创立" },
+      { "text": "信仰真主（安拉）" }
+    ]},
+    { "text": "阿拉伯帝国", "children": [
+      { "text": "8世纪版图横跨欧亚非" },
+      { "text": "改造阿拉伯数字" },
+      { "text": "沟通东西方文化" }
+    ]}
+  ]
+}

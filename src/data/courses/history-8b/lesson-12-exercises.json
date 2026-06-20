@@ -1,9 +1,84 @@
 {
   "lessonId": 12,
   "exercises": [
-    { "type": "choice", "id": "ex-12-1", "stem": "我国在少数民族聚居的地方实行（  ）", "options": [{ "label": "A", "text": "特别行政区制度" }, { "label": "B", "text": "民族区域自治制度" }, { "label": "C", "text": "经济特区制度" }, { "label": "D", "text": "直辖市制度" }], "answer": "B", "analysis": "我国在少数民族聚居的地方实行民族区域自治制度。" },
-    { "type": "choice", "id": "ex-12-2", "stem": "我国建立最早的民族自治区是（  ）", "options": [{ "label": "A", "text": "新疆维吾尔自治区" }, { "label": "B", "text": "广西壮族自治区" }, { "label": "C", "text": "内蒙古自治区" }, { "label": "D", "text": "西藏自治区" }], "answer": "C", "analysis": "内蒙古自治区成立于1947年，是最早建立的。" },
-    { "type": "true_false", "id": "ex-12-3", "stem": "民族区域自治制度是我国的一项基本政治制度。", "answer": true, "analysis": "民族区域自治制度是我国的一项基本政治制度。" },
-    { "type": "fill", "id": "ex-12-4", "segments": ["我国共建立了", "___1___", "个民族自治区。青藏铁路的通车结束了西藏不通", "___2___", "的历史。"], "blanks": [{ "index": 1, "answer": "5" }, { "index": 2, "answer": "铁路" }], "analysis": "我国有5个民族自治区，青藏铁路结束了西藏不通铁路的历史。" }
+    {
+      "type": "choice",
+      "id": "ex-12-1",
+      "stem": "我国在少数民族聚居的地方实行（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "特别行政区制度"
+        },
+        {
+          "label": "B",
+          "text": "民族区域自治制度"
+        },
+        {
+          "label": "C",
+          "text": "经济特区制度"
+        },
+        {
+          "label": "D",
+          "text": "直辖市制度"
+        }
+      ],
+      "answer": "B",
+      "analysis": "我国在少数民族聚居的地方实行民族区域自治制度。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-2",
+      "stem": "我国建立最早的民族自治区是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "新疆维吾尔自治区"
+        },
+        {
+          "label": "B",
+          "text": "广西壮族自治区"
+        },
+        {
+          "label": "C",
+          "text": "内蒙古自治区"
+        },
+        {
+          "label": "D",
+          "text": "西藏自治区"
+        }
+      ],
+      "answer": "C",
+      "analysis": "内蒙古自治区成立于1947年，是最早建立的。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-12-3",
+      "stem": "民族区域自治制度是我国的一项基本政治制度。",
+      "answer": true,
+      "analysis": "民族区域自治制度是我国的一项基本政治制度。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-12-4",
+      "segments": [
+        "我国共建立了",
+        "___1___",
+        "个民族自治区。青藏铁路的通车结束了西藏不通",
+        "___2___",
+        "的历史"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "5"
+        },
+        {
+          "index": 2,
+          "answer": "铁路"
+        }
+      ],
+      "analysis": "我国有5个民族自治区，青藏铁路结束了西藏不通铁路的历史。"
+    }
   ]
 }

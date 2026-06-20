@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 3, "slug": "lesson-03-古代印度", "title": "古代印度", "unit": "第一单元", "week": 1, "day": 3 },
+  "objectives": [
+    { "text": "了解古代印度的地理位置", "isKeyPoint": false },
+    { "text": "掌握种姓制度的内容和影响", "isKeyPoint": true },
+    { "text": "了解佛教的创立及其传播", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "种姓制度",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "古代印度实行**种姓制度**，将社会分为四个等级：**婆罗门**（祭司贵族）、**刹帝利**（军事贵族）、**吠舍**（普通平民）、**首陀罗**（被征服居民）。此外还有「不可接触者」（贱民）。" },
+        { "type": "table", "headers": ["等级", "人群", "职责"], "rows": [
+          ["婆罗门", "祭司贵族", "掌握神权"],
+          ["刹帝利", "军事贵族", "掌管军政大权"],
+          ["吠舍", "农民、商人等", "供养前两个等级"],
+          ["首陀罗", "被征服居民", "从事低贱职业"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "种姓制度各等级之间贵贱分明，世代相袭，不同等级之间不能通婚。" }
+      ]
+    },
+    {
+      "title": "佛教的创立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "公元前6世纪，**乔达摩·悉达多**（释迦牟尼）创立**佛教**。佛教主张「众生平等」，反对婆罗门的特权地位。佛教后来传播到东亚、东南亚等地，成为世界三大宗教之一。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "佛教的「众生平等」主张反映了下层人民对种姓制度的不满，因此得到广泛支持。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：种姓制度",
+      "problem": [
+        { "type": "paragraph", "content": "古代印度种姓制度中，掌管军政大权的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 婆罗门", "B. 刹帝利", "C. 吠舍", "D. 首陀罗"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "刹帝利掌管军政大权。婆罗门掌握神权。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：佛教",
+      "problem": [
+        { "type": "paragraph", "content": "佛教的创始人是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 老子", "B. 孔子", "C. 乔达摩·悉达多", "D. 穆罕默德"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "乔达摩·悉达多（释迦牟尼）创立佛教。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "种姓制度", "children": [
+      { "text": "四个等级：婆罗门、刹帝利、吠舍、首陀罗" },
+      { "text": "贵贱分明，世代相袭" }
+    ]},
+    { "text": "佛教", "children": [
+      { "text": "公元前6世纪乔达摩·悉达多创立" },
+      { "text": "主张众生平等" }
+    ]}
+  ]
+}

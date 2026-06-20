@@ -1,0 +1,84 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-7-1",
+      "stem": "基督教产生于（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "公元前1世纪"
+        },
+        {
+          "label": "B",
+          "text": "公元1世纪"
+        },
+        {
+          "label": "C",
+          "text": "公元4世纪"
+        },
+        {
+          "label": "D",
+          "text": "公元8世纪"
+        }
+      ],
+      "answer": "B",
+      "analysis": "基督教产生于公元1世纪。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-7-2",
+      "stem": "查理曼帝国被一分为三的条约是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "《威斯特伐利亚和约》"
+        },
+        {
+          "label": "B",
+          "text": "《凡尔登条约》"
+        },
+        {
+          "label": "C",
+          "text": "《巴黎和约》"
+        },
+        {
+          "label": "D",
+          "text": "《罗马条约》"
+        }
+      ],
+      "answer": "B",
+      "analysis": "843年《凡尔登条约》将查理曼帝国一分为三。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-7-3",
+      "stem": "4世纪末基督教成为罗马国教。",
+      "answer": true,
+      "analysis": "4世纪末基督教被定为罗马国教。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-4",
+      "segments": [
+        "基督教信仰",
+        "___1___",
+        "为救世主，843年",
+        "___2___",
+        "条约将查理曼帝国一分为三"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "耶稣"
+        },
+        {
+          "index": 2,
+          "answer": "凡尔登"
+        }
+      ],
+      "analysis": "基督教信仰耶稣，凡尔登条约三分帝国。"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    { "type": "choice", "id": "ex-8-1", "stem": "西欧庄园的居民均为领主的（  ）", "options": [{ "label": "A", "text": "奴隶" }, { "label": "B", "text": "佃户" }, { "label": "C", "text": "臣民" }, { "label": "D", "text": "士兵" }], "answer": "B", "analysis": "庄园居民为领主的佃户。" },
+    { "type": "choice", "id": "ex-8-2", "stem": "庄园法庭的主要作用是（  ）", "options": [{ "label": "A", "text": "征收赋税" }, { "label": "B", "text": "维护庄园公共秩序" }, { "label": "C", "text": "组织生产" }, { "label": "D", "text": "对外战争" }], "answer": "B", "analysis": "庄园法庭维护庄园公共秩序。" },
+    { "type": "true_false", "id": "ex-8-3", "stem": "西欧庄园是自给自足的经济单位。", "answer": true, "analysis": "庄园是独立的自给自足的经济和政治单位。" },
+    { "type": "fill", "id": "ex-8-4", "segments": ["西欧庄园从", "___1___", "世纪开始流行，居民包括农民和", "___2___"], "blanks": [{ "index": 1, "answer": "9" }, { "index": 2, "answer": "农奴" }], "analysis": "庄园从9世纪开始流行，居民包括农民和农奴。" }
+  ]
+}

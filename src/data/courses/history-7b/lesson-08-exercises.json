@@ -1,9 +1,84 @@
 {
   "lessonId": 8,
   "exercises": [
-    { "type": "choice", "id": "ex-8-1", "stem": "建立辽政权的少数民族是（  ）", "options": [{ "label": "A", "text": "党项族" }, { "label": "B", "text": "契丹族" }, { "label": "C", "text": "女真族" }, { "label": "D", "text": "蒙古族" }], "answer": "B", "analysis": "契丹族首领耶律阿保机建立辽。" },
-    { "type": "choice", "id": "ex-8-2", "stem": "澶渊之盟是北宋与哪个政权签订的？（  ）", "options": [{ "label": "A", "text": "西夏" }, { "label": "B", "text": "辽" }, { "label": "C", "text": "金" }, { "label": "D", "text": "大理" }], "answer": "B", "analysis": "澶渊之盟（1005年）是北宋与辽签订的和约。" },
-    { "type": "true_false", "id": "ex-8-3", "stem": "西夏是党项族建立的政权。", "answer": true, "analysis": "11世纪前期，党项族首领元昊建立西夏。" },
-    { "type": "fill", "id": "ex-8-4", "segments": ["契丹族首领", "___1___", "建立辽。党项族首领", "___2___", "建立西夏。"], "blanks": [{ "index": 1, "answer": "耶律阿保机" }, { "index": 2, "answer": "元昊" }], "analysis": "耶律阿保机建立辽，元昊建立西夏。" }
+    {
+      "type": "choice",
+      "id": "ex-8-1",
+      "stem": "建立辽政权的少数民族是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "党项族"
+        },
+        {
+          "label": "B",
+          "text": "契丹族"
+        },
+        {
+          "label": "C",
+          "text": "女真族"
+        },
+        {
+          "label": "D",
+          "text": "蒙古族"
+        }
+      ],
+      "answer": "B",
+      "analysis": "契丹族首领耶律阿保机建立辽。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-8-2",
+      "stem": "澶渊之盟是北宋与哪个政权签订的？（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "西夏"
+        },
+        {
+          "label": "B",
+          "text": "辽"
+        },
+        {
+          "label": "C",
+          "text": "金"
+        },
+        {
+          "label": "D",
+          "text": "大理"
+        }
+      ],
+      "answer": "B",
+      "analysis": "澶渊之盟（1005年）是北宋与辽签订的和约。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-8-3",
+      "stem": "西夏是党项族建立的政权。",
+      "answer": true,
+      "analysis": "11世纪前期，党项族首领元昊建立西夏。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-4",
+      "segments": [
+        "契丹族首领",
+        "___1___",
+        "建立辽。党项族首领",
+        "___2___",
+        "建立西夏"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "耶律阿保机"
+        },
+        {
+          "index": 2,
+          "answer": "元昊"
+        }
+      ],
+      "analysis": "耶律阿保机建立辽，元昊建立西夏。"
+    }
   ]
 }

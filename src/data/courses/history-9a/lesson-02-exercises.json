@@ -1,0 +1,9 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    { "type": "choice", "id": "ex-2-1", "stem": "迄今已知世界上第一部较为完整的成文法典是（  ）", "options": [{ "label": "A", "text": "《汉谟拉比法典》" }, { "label": "B", "text": "《十二铜表法》" }, { "label": "C", "text": "《查士丁尼法典》" }, { "label": "D", "text": "《权利法案》" }], "answer": "A", "analysis": "《汉谟拉比法典》是第一部较为完整的成文法典。" },
+    { "type": "choice", "id": "ex-2-2", "stem": "「两河」指的是（  ）", "options": [{ "label": "A", "text": "尼罗河和恒河" }, { "label": "B", "text": "幼发拉底河和底格里斯河" }, { "label": "C", "text": "黄河和长江" }, { "label": "D", "text": "印度河和恒河" }], "answer": "B", "analysis": "两河指幼发拉底河和底格里斯河。" },
+    { "type": "true_false", "id": "ex-2-3", "stem": "两河流域又称「美索不达米亚」。", "answer": true, "analysis": "两河流域又称「美索不达米亚」。" },
+    { "type": "fill", "id": "ex-2-4", "segments": ["汉谟拉比法典是第一部较为完整的成文法典，两河流域又称", "___1___"], "blanks": [{ "index": 1, "answer": "美索不达米亚" }], "analysis": "两河流域又称美索不达米亚。" }
+  ]
+}

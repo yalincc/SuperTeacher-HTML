@@ -1,9 +1,84 @@
 {
   "lessonId": 6,
   "exercises": [
-    { "type": "choice", "id": "ex-6-1", "stem": "战国七雄中，位于最西边的是（  ）", "options": [{ "label": "A", "text": "齐" }, { "label": "B", "text": "楚" }, { "label": "C", "text": "秦" }, { "label": "D", "text": "燕" }], "answer": "C", "analysis": "秦国位于战国七雄的最西边，地处关中地区。齐在最东边，燕在最北边，楚在最南边。" },
-    { "type": "choice", "id": "ex-6-2", "stem": "商鞅变法发生在（  ）", "options": [{ "label": "A", "text": "秦穆公时期" }, { "label": "B", "text": "秦孝公时期" }, { "label": "C", "text": "秦王嬴政时期" }, { "label": "D", "text": "秦惠文王时期" }], "answer": "B", "analysis": "商鞅变法发生在秦孝公时期（公元前356年开始）。" },
-    { "type": "true_false", "id": "ex-6-3", "stem": "长平之战后，六国再无力抵抗秦国的进攻。", "answer": true, "analysis": "长平之战赵国损失惨重（坑杀40万降兵），此后六国再也无力与秦国抗衡，为秦统一奠定基础。" },
-    { "type": "fill", "id": "ex-6-4", "segments": ["商鞅变法在经济方面废除了", "___1___", "，允许土地自由买卖，还统一了", "___2___", "。"], "blanks": [{ "index": 1, "answer": "井田制" }, { "index": 2, "answer": "度量衡" }], "analysis": "废除井田制确立了封建土地私有制，统一度量衡便利了经济交流。" }
+    {
+      "type": "choice",
+      "id": "ex-6-1",
+      "stem": "战国七雄中，位于最西边的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "齐"
+        },
+        {
+          "label": "B",
+          "text": "楚"
+        },
+        {
+          "label": "C",
+          "text": "秦"
+        },
+        {
+          "label": "D",
+          "text": "燕"
+        }
+      ],
+      "answer": "C",
+      "analysis": "秦国位于战国七雄的最西边，地处关中地区。齐在最东边，燕在最北边，楚在最南边。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-6-2",
+      "stem": "商鞅变法发生在（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "秦穆公时期"
+        },
+        {
+          "label": "B",
+          "text": "秦孝公时期"
+        },
+        {
+          "label": "C",
+          "text": "秦王嬴政时期"
+        },
+        {
+          "label": "D",
+          "text": "秦惠文王时期"
+        }
+      ],
+      "answer": "B",
+      "analysis": "商鞅变法发生在秦孝公时期（公元前356年开始）。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-6-3",
+      "stem": "长平之战后，六国再无力抵抗秦国的进攻。",
+      "answer": true,
+      "analysis": "长平之战赵国损失惨重（坑杀40万降兵），此后六国再也无力与秦国抗衡，为秦统一奠定基础。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-4",
+      "segments": [
+        "商鞅变法在经济方面废除了",
+        "___1___",
+        "，允许土地自由买卖，还统一了",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "井田制"
+        },
+        {
+          "index": 2,
+          "answer": "度量衡"
+        }
+      ],
+      "analysis": "废除井田制确立了封建土地私有制，统一度量衡便利了经济交流。"
+    }
   ]
 }

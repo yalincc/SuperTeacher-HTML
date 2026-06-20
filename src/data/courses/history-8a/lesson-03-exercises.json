@@ -1,9 +1,84 @@
 {
   "lessonId": 3,
   "exercises": [
-    { "type": "choice", "id": "ex-3-1", "stem": "洋务运动的口号是（  ）", "options": [{ "label": "A", "text": "师夷长技以制夷" }, { "label": "B", "text": "自强、求富" }, { "label": "C", "text": "民主、科学" }, { "label": "D", "text": "变法图强" }], "answer": "B", "analysis": "洋务运动以「自强」「求富」为口号。" },
-    { "type": "choice", "id": "ex-3-2", "stem": "洋务运动的根本目的是（  ）", "options": [{ "label": "A", "text": "发展资本主义" }, { "label": "B", "text": "学习西方制度" }, { "label": "C", "text": "维护清朝统治" }, { "label": "D", "text": "抵抗外国侵略" }], "answer": "C", "analysis": "洋务运动的根本目的是维护清朝统治。" },
-    { "type": "true_false", "id": "ex-3-3", "stem": "洋务运动使中国走上了富强道路。", "answer": false, "analysis": "洋务运动没有使中国富强起来，最终失败。" },
-    { "type": "fill", "id": "ex-3-4", "segments": ["洋务运动以", "___1___", "、", "___2___", "为口号，创办近代工业。"], "blanks": [{ "index": 1, "answer": "自强" }, { "index": 2, "answer": "求富" }], "analysis": "洋务运动以「自强」「求富」为口号。" }
+    {
+      "type": "choice",
+      "id": "ex-3-1",
+      "stem": "洋务运动的口号是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "师夷长技以制夷"
+        },
+        {
+          "label": "B",
+          "text": "自强、求富"
+        },
+        {
+          "label": "C",
+          "text": "民主、科学"
+        },
+        {
+          "label": "D",
+          "text": "变法图强"
+        }
+      ],
+      "answer": "B",
+      "analysis": "洋务运动以「自强」「求富」为口号。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-3-2",
+      "stem": "洋务运动的根本目的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "发展资本主义"
+        },
+        {
+          "label": "B",
+          "text": "学习西方制度"
+        },
+        {
+          "label": "C",
+          "text": "维护清朝统治"
+        },
+        {
+          "label": "D",
+          "text": "抵抗外国侵略"
+        }
+      ],
+      "answer": "C",
+      "analysis": "洋务运动的根本目的是维护清朝统治。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-3-3",
+      "stem": "洋务运动使中国走上了富强道路。",
+      "answer": false,
+      "analysis": "洋务运动没有使中国富强起来，最终失败。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-4",
+      "segments": [
+        "洋务运动以",
+        "___1___",
+        "、",
+        "___2___",
+        "为口号，创办近代工业"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "自强"
+        },
+        {
+          "index": 2,
+          "answer": "求富"
+        }
+      ],
+      "analysis": "洋务运动以「自强」「求富」为口号。"
+    }
   ]
 }

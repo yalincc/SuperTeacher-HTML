@@ -1,0 +1,84 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-12-1",
+      "stem": "日本大化改新发生在（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1世纪"
+        },
+        {
+          "label": "B",
+          "text": "5世纪"
+        },
+        {
+          "label": "C",
+          "text": "646年"
+        },
+        {
+          "label": "D",
+          "text": "12世纪"
+        }
+      ],
+      "answer": "C",
+      "analysis": "646年日本进行大化改新。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-2",
+      "stem": "大化改新使日本（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "进入奴隶社会"
+        },
+        {
+          "label": "B",
+          "text": "发展为中央集权封建国家"
+        },
+        {
+          "label": "C",
+          "text": "实现了统一"
+        },
+        {
+          "label": "D",
+          "text": "成为海上强国"
+        }
+      ],
+      "answer": "B",
+      "analysis": "大化改新使日本发展为中央集权封建国家。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-12-3",
+      "stem": "大化改新仿效的是中国唐朝制度。",
+      "answer": true,
+      "analysis": "大化改新仿效唐朝制度。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-12-4",
+      "segments": [
+        "646年日本进行",
+        "___1___",
+        "仿效唐朝制度，使日本过渡到",
+        "___2___",
+        "社会"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "大化改新"
+        },
+        {
+          "index": 2,
+          "answer": "封建"
+        }
+      ],
+      "analysis": "大化改新仿效唐朝制度，使日本过渡到封建社会。"
+    }
+  ]
+}

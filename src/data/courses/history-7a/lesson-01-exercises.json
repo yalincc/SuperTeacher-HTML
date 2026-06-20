@@ -1,9 +1,90 @@
 {
   "lessonId": 1,
   "exercises": [
-    { "type": "choice", "id": "ex-1-1", "stem": "中国境内已知最早的古人类之一是（  ）", "options": [{ "label": "A", "text": "北京人" }, { "label": "B", "text": "山顶洞人" }, { "label": "C", "text": "元谋人" }, { "label": "D", "text": "半坡人" }], "answer": "C", "analysis": "元谋人生活在约170万年前，是中国境内已知最早的古人类之一。" },
-    { "type": "choice", "id": "ex-1-2", "stem": "北京人使用的生产工具主要是（  ）", "options": [{ "label": "A", "text": "磨制石器" }, { "label": "B", "text": "打制石器" }, { "label": "C", "text": "铁制农具" }, { "label": "D", "text": "青铜器" }], "answer": "B", "analysis": "北京人处于旧石器时代，使用打制石器。磨制石器是新石器时代的特征。" },
-    { "type": "true_false", "id": "ex-1-3", "stem": "北京人已经掌握了人工取火的技术。", "answer": false, "analysis": "北京人使用的是天然火，会保存火种，但不会人工取火。人工取火是山顶洞人掌握的技术。" },
-    { "type": "fill", "id": "ex-1-4", "segments": ["北京人发现于", "___1___", "，距今约", "___2___", "年前。"], "blanks": [{ "index": 1, "answer": "北京周口店", "alternatives": ["周口店"] }, { "index": 2, "answer": "70万—20万", "alternatives": ["70万至20万"] }], "analysis": "北京人遗址位于北京周口店龙骨山，生活年代约为70万—20万年前。" }
+    {
+      "type": "choice",
+      "id": "ex-1-1",
+      "stem": "中国境内已知最早的古人类之一是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "北京人"
+        },
+        {
+          "label": "B",
+          "text": "山顶洞人"
+        },
+        {
+          "label": "C",
+          "text": "元谋人"
+        },
+        {
+          "label": "D",
+          "text": "半坡人"
+        }
+      ],
+      "answer": "C",
+      "analysis": "元谋人生活在约170万年前，是中国境内已知最早的古人类之一。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-1-2",
+      "stem": "北京人使用的生产工具主要是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "磨制石器"
+        },
+        {
+          "label": "B",
+          "text": "打制石器"
+        },
+        {
+          "label": "C",
+          "text": "铁制农具"
+        },
+        {
+          "label": "D",
+          "text": "青铜器"
+        }
+      ],
+      "answer": "B",
+      "analysis": "北京人处于旧石器时代，使用打制石器。磨制石器是新石器时代的特征。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-1-3",
+      "stem": "北京人已经掌握了人工取火的技术。",
+      "answer": false,
+      "analysis": "北京人使用的是天然火，会保存火种，但不会人工取火。人工取火是山顶洞人掌握的技术。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-1-4",
+      "segments": [
+        "北京人发现于",
+        "___1___",
+        "，距今约",
+        "___2___",
+        "年前"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "北京周口店",
+          "alternatives": [
+            "周口店"
+          ]
+        },
+        {
+          "index": 2,
+          "answer": "70万—20万",
+          "alternatives": [
+            "70万至20万"
+          ]
+        }
+      ],
+      "analysis": "北京人遗址位于北京周口店龙骨山，生活年代约为70万—20万年前。"
+    }
   ]
 }

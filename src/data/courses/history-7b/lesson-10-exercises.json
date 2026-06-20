@@ -1,9 +1,84 @@
 {
   "lessonId": 10,
   "exercises": [
-    { "type": "choice", "id": "ex-10-1", "stem": "世界上最早的纸币出现在（  ）", "options": [{ "label": "A", "text": "唐朝长安" }, { "label": "B", "text": "北宋四川" }, { "label": "C", "text": "南宋临安" }, { "label": "D", "text": "元朝大都" }], "answer": "B", "analysis": "北宋四川地区出现了世界上最早的纸币「交子」。" },
-    { "type": "choice", "id": "ex-10-2", "stem": "我国经济重心南移完成的时期是（  ）", "options": [{ "label": "A", "text": "唐朝中期" }, { "label": "B", "text": "北宋" }, { "label": "C", "text": "南宋" }, { "label": "D", "text": "元朝" }], "answer": "C", "analysis": "经济重心南移从唐朝中期开始，到南宋完成。" },
-    { "type": "true_false", "id": "ex-10-3", "stem": "宋代水稻产量居粮食作物首位。", "answer": true, "analysis": "宋代农业发达，水稻产量跃居粮食作物首位。" },
-    { "type": "fill", "id": "ex-10-4", "segments": ["北宋四川地区出现的纸币是", "___1___", "。宋代著名瓷都是", "___2___", "。"], "blanks": [{ "index": 1, "answer": "交子" }, { "index": 2, "answer": "景德镇" }], "analysis": "交子是世界最早纸币，景德镇是宋代著名瓷都。" }
+    {
+      "type": "choice",
+      "id": "ex-10-1",
+      "stem": "世界上最早的纸币出现在（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "唐朝长安"
+        },
+        {
+          "label": "B",
+          "text": "北宋四川"
+        },
+        {
+          "label": "C",
+          "text": "南宋临安"
+        },
+        {
+          "label": "D",
+          "text": "元朝大都"
+        }
+      ],
+      "answer": "B",
+      "analysis": "北宋四川地区出现了世界上最早的纸币「交子」。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-2",
+      "stem": "我国经济重心南移完成的时期是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "唐朝中期"
+        },
+        {
+          "label": "B",
+          "text": "北宋"
+        },
+        {
+          "label": "C",
+          "text": "南宋"
+        },
+        {
+          "label": "D",
+          "text": "元朝"
+        }
+      ],
+      "answer": "C",
+      "analysis": "经济重心南移从唐朝中期开始，到南宋完成。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-3",
+      "stem": "宋代水稻产量居粮食作物首位。",
+      "answer": true,
+      "analysis": "宋代农业发达，水稻产量跃居粮食作物首位。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-4",
+      "segments": [
+        "北宋四川地区出现的纸币是",
+        "___1___",
+        "。宋代著名瓷都是",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "交子"
+        },
+        {
+          "index": 2,
+          "answer": "景德镇"
+        }
+      ],
+      "analysis": "交子是世界最早纸币，景德镇是宋代著名瓷都。"
+    }
   ]
 }

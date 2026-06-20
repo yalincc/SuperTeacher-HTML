@@ -1,8 +1,77 @@
 {
   "lessonId": 19,
   "exercises": [
-    { "type": "choice", "id": "ex-19-1", "stem": "北魏孝文帝将都城从平城迁到了（  ）", "options": [{ "label": "A", "text": "长安" }, { "label": "B", "text": "建康" }, { "label": "C", "text": "洛阳" }, { "label": "D", "text": "邺城" }], "answer": "C", "analysis": "孝文帝将都城从平城（今大同）迁至洛阳，以便加强对中原地区的控制。" },
-    { "type": "choice", "id": "ex-19-2", "stem": "孝文帝改革中，鲜卑族「拓跋「改为汉姓（  ）", "options": [{ "label": "A", "text": "元" }, { "label": "B", "text": "李" }, { "label": "C", "text": "王" }, { "label": "D", "text": "刘" }], "answer": "A", "analysis": "孝文帝下令鲜卑族改汉姓，拓跋氏改为元氏。" },
-    { "type": "true_false", "id": "ex-19-3", "stem": "孝文帝改革促进了北方各民族的大融合。", "answer": true, "analysis": "孝文帝的汉化改革加速了鲜卑族的汉化进程，促进了北方各民族的大融合。" }
+    {
+      "type": "choice",
+      "id": "ex-19-1",
+      "stem": "北魏孝文帝将都城从平城迁到了（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "长安"
+        },
+        {
+          "label": "B",
+          "text": "建康"
+        },
+        {
+          "label": "C",
+          "text": "洛阳"
+        },
+        {
+          "label": "D",
+          "text": "邺城"
+        }
+      ],
+      "answer": "C",
+      "analysis": "孝文帝将都城从平城（今大同）迁至洛阳，以便加强对中原地区的控制。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-19-2",
+      "stem": "孝文帝改革中，鲜卑族「拓跋「改为汉姓（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "元"
+        },
+        {
+          "label": "B",
+          "text": "李"
+        },
+        {
+          "label": "C",
+          "text": "王"
+        },
+        {
+          "label": "D",
+          "text": "刘"
+        }
+      ],
+      "answer": "A",
+      "analysis": "孝文帝下令鲜卑族改汉姓，拓跋氏改为元氏。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-19-3",
+      "stem": "孝文帝改革促进了北方各民族的大融合。",
+      "answer": true,
+      "analysis": "孝文帝的汉化改革加速了鲜卑族的汉化进程，促进了北方各民族的大融合。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-19-4",
+      "segments": [
+        "填空题待补充",
+        "___1___"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "待补充"
+        }
+      ],
+      "analysis": "解析待补充"
+    }
   ]
 }

@@ -1,56 +1,165 @@
 {
-  "meta": { "id": 14, "slug": "lesson-14-丝绸之路的开通与经营西域", "title": "丝绸之路的开通与经营西域", "unit": "第三单元", "week": 4, "day": 3 },
+  "meta": {
+    "id": 14,
+    "slug": "lesson-14-丝绸之路的开通与经营西域",
+    "title": "丝绸之路的开通与经营西域",
+    "unit": "第三单元",
+    "week": 4,
+    "day": 3
+  },
   "objectives": [
-    { "text": "了解张骞出使西域的目的和成果", "isKeyPoint": true },
-    { "text": "掌握丝绸之路的路线和历史意义", "isKeyPoint": true },
-    { "text": "了解西域都护府的设置", "isKeyPoint": false }
+    {
+      "text": "了解张骞出使西域的目的和成果",
+      "isKeyPoint": true
+    },
+    {
+      "text": "掌握丝绸之路的路线和历史意义",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解西域都护府的设置",
+      "isKeyPoint": false
+    }
   ],
   "knowledge": [
     {
       "title": "张骞出使西域",
       "defaultExpanded": true,
       "blocks": [
-        { "type": "paragraph", "content": "**张骞**两次出使西域（公元前138年和前119年），最初目的是联络大月氏夹击匈奴。虽然没有达到军事目的，但张骞的出使开辟了通往西域的道路，促进了汉朝与西域各国的经济文化交流。" },
-        { "type": "timeline", "items": [
-          { "time": "公元前138年", "title": "张骞第一次出使西域", "content": "目的是联络大月氏夹击匈奴" },
-          { "time": "公元前119年", "title": "张骞第二次出使西域", "content": "目的是与乌孙结好，加强与西域联系" },
-          { "time": "公元前60年", "title": "设置西域都护府", "content": "标志着西域正式归属中央政权" }
-        ]}
+        {
+          "type": "paragraph",
+          "content": "**张骞**两次出使西域（公元前138年和前119年），最初目的是联络大月氏夹击匈奴。虽然没有达到军事目的，但张骞的出使开辟了通往西域的道路，促进了汉朝与西域各国的经济文化交流。"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "time": "公元前138年",
+              "title": "张骞第一次出使西域",
+              "content": "目的是联络大月氏夹击匈奴"
+            },
+            {
+              "time": "公元前119年",
+              "title": "张骞第二次出使西域",
+              "content": "目的是与乌孙结好，加强与西域联系"
+            },
+            {
+              "time": "公元前60年",
+              "title": "设置西域都护府",
+              "content": "标志着西域正式归属中央政权"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "本节内容需要补充要点说明。"
+        }
       ]
     },
     {
       "title": "丝绸之路",
       "defaultExpanded": true,
       "blocks": [
-        { "type": "paragraph", "content": "**丝绸之路**是从长安出发，经河西走廊、西域，通往中亚、西亚，最远到达欧洲（大秦/罗马）的陆上贸易通道。丝绸之路上中国输出丝绸、瓷器、茶叶等，输入香料、珠宝、玻璃等。" },
-        { "type": "list", "ordered": false, "items": [
-          "路线：长安-河西走廊-西域-中亚-西亚-欧洲（大秦）",
-          "中国输出：丝绸、瓷器、茶叶、铁器、漆器",
-          "中国输入：香料、珠宝、玻璃、汗血马、葡萄、核桃"
-        ]},
-        { "type": "callout", "variant": "tip", "title": "历史意义", "content": "丝绸之路是古代东西方经济文化交流的桥梁，促进了沿线各国的繁荣发展。" }
+        {
+          "type": "paragraph",
+          "content": "**丝绸之路**是从长安出发，经河西走廊、西域，通往中亚、西亚，最远到达欧洲（大秦/罗马）的陆上贸易通道。丝绸之路上中国输出丝绸、瓷器、茶叶等，输入香料、珠宝、玻璃等。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "路线：长安-河西走廊-西域-中亚-西亚-欧洲（大秦）",
+            "中国输出：丝绸、瓷器、茶叶、铁器、漆器",
+            "中国输入：香料、珠宝、玻璃、汗血马、葡萄、核桃"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "历史意义",
+          "content": "丝绸之路是古代东西方经济文化交流的桥梁，促进了沿线各国的繁荣发展。"
+        }
       ]
     }
   ],
   "examples": [
     {
       "title": "例1：丝绸之路",
-      "problem": [{ "type": "paragraph", "content": "丝绸之路的起点是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 洛阳", "B. 长安", "C. 敦煌", "D. 楼兰"] }],
-      "solution": [{ "type": "paragraph", "content": "丝绸之路从长安出发，经河西走廊通往西域和西方。正确答案为B。" }],
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "丝绸之路的起点是（  ）"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A. 洛阳",
+            "B. 长安",
+            "C. 敦煌",
+            "D. 楼兰"
+          ]
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "丝绸之路从长安出发，经河西走廊通往西域和西方。正确答案为B。"
+        }
+      ],
       "answer": "B"
     },
     {
       "title": "例2：张骞出使西域",
       "problem": [
-        { "type": "paragraph", "content": "张骞第一次出使西域的目的是（  ）" },
-        { "type": "list", "ordered": true, "items": ["A. 开通丝绸之路", "B. 联络大月氏夹击匈奴", "C. 传播佛教", "D. 经贸往来"] }
+        {
+          "type": "paragraph",
+          "content": "张骞第一次出使西域的目的是（  ）"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A. 开通丝绸之路",
+            "B. 联络大月氏夹击匈奴",
+            "C. 传播佛教",
+            "D. 经贸往来"
+          ]
+        }
       ],
-      "solution": [{ "type": "paragraph", "content": "张骞第一次出使西域（前138年）的目的是联络大月氏夹击匈奴，虽然没有达到军事目的，但开辟了通往西域的道路。正确答案为B。" }],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "张骞第一次出使西域（前138年）的目的是联络大月氏夹击匈奴，虽然没有达到军事目的，但开辟了通往西域的道路。正确答案为B。"
+        }
+      ],
       "answer": "B"
     }
   ],
   "summary": [
-    { "text": "张骞出使西域", "children": [{ "text": "两次出使（前138年、前119年）" }, { "text": "开辟通往西域的道路" }] },
-    { "text": "丝绸之路", "children": [{ "text": "长安-河西走廊-西域-中亚-欧洲" }, { "text": "东西方经济文化交流的桥梁" }] }
+    {
+      "text": "张骞出使西域",
+      "children": [
+        {
+          "text": "两次出使（前138年、前119年）"
+        },
+        {
+          "text": "开辟通往西域的道路"
+        }
+      ]
+    },
+    {
+      "text": "丝绸之路",
+      "children": [
+        {
+          "text": "长安-河西走廊-西域-中亚-欧洲"
+        },
+        {
+          "text": "东西方经济文化交流的桥梁"
+        }
+      ]
+    }
   ]
 }

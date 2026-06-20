@@ -1,0 +1,84 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-3-1",
+      "stem": "种姓制度中掌管军政大权的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "婆罗门"
+        },
+        {
+          "label": "B",
+          "text": "刹帝利"
+        },
+        {
+          "label": "C",
+          "text": "吠舍"
+        },
+        {
+          "label": "D",
+          "text": "首陀罗"
+        }
+      ],
+      "answer": "B",
+      "analysis": "刹帝利掌管军政大权。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-3-2",
+      "stem": "佛教的创始人是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "老子"
+        },
+        {
+          "label": "B",
+          "text": "孔子"
+        },
+        {
+          "label": "C",
+          "text": "乔达摩·悉达多"
+        },
+        {
+          "label": "D",
+          "text": "穆罕默德"
+        }
+      ],
+      "answer": "C",
+      "analysis": "乔达摩·悉达多创立佛教。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-3-3",
+      "stem": "佛教主张众生平等。",
+      "answer": true,
+      "analysis": "佛教主张众生平等。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-4",
+      "segments": [
+        "种姓制度中掌管神权的是",
+        "___1___",
+        "佛教创立于公元前",
+        "___2___",
+        "世纪"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "婆罗门"
+        },
+        {
+          "index": 2,
+          "answer": "6"
+        }
+      ],
+      "analysis": "婆罗门掌管神权，佛教创立于公元前6世纪。"
+    }
+  ]
+}

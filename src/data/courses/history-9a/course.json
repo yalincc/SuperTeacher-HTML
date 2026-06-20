@@ -1,0 +1,46 @@
+{
+  "id": "history-9a",
+  "course": {
+    "name": "九年级上册",
+    "icon": "📜",
+    "subtitle": "人教版九年级上册（2024版）",
+    "color": "#b45309"
+  },
+  "group": {
+    "id": "history",
+    "name": "初中历史",
+    "icon": "📜",
+    "color": "#b45309",
+    "order": 4
+  },
+  "semester": {
+    "name": "九年级上",
+    "order": 5
+  },
+  "schedule": {
+    "weeks": 6,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周", "第六周"],
+    "weekTitles": ["古代亚非文明", "古代欧洲文明", "封建时代的欧洲（上）", "封建时代的欧洲（下）", "封建时代的亚洲", "走向近代"]
+  },
+  "lessons": [
+    { "id": 1, "title": "古代埃及", "unit": "第一单元", "week": 1, "day": 1 },
+    { "id": 2, "title": "古代两河流域", "unit": "第一单元", "week": 1, "day": 2 },
+    { "id": 3, "title": "古代印度", "unit": "第一单元", "week": 1, "day": 3 },
+    { "id": 4, "title": "希腊城邦和亚历山大帝国", "unit": "第二单元", "week": 2, "day": 1 },
+    { "id": 5, "title": "罗马城邦和罗马帝国", "unit": "第二单元", "week": 2, "day": 2 },
+    { "id": 6, "title": "希腊罗马古典文化", "unit": "第二单元", "week": 2, "day": 3 },
+    { "id": 7, "title": "基督教的兴起和法兰克王国", "unit": "第三单元", "week": 3, "day": 1 },
+    { "id": 8, "title": "西欧庄园", "unit": "第三单元", "week": 3, "day": 2 },
+    { "id": 9, "title": "中世纪城市和大学的兴起", "unit": "第三单元", "week": 3, "day": 3 },
+    { "id": 10, "title": "拜占庭帝国和查士丁尼法典", "unit": "第四单元", "week": 4, "day": 1 },
+    { "id": 11, "title": "阿拉伯帝国", "unit": "第四单元", "week": 4, "day": 2 },
+    { "id": 12, "title": "日本大化改新", "unit": "第四单元", "week": 4, "day": 3 },
+    { "id": 13, "title": "欧洲文艺复兴", "unit": "第五单元", "week": 5, "day": 1 },
+    { "id": 14, "title": "新航路开辟", "unit": "第五单元", "week": 5, "day": 2 },
+    { "id": 15, "title": "早期殖民掠夺", "unit": "第五单元", "week": 5, "day": 3 }
+  ],
+  "features": {
+    "katex": false,
+    "formulaNormalize": false
+  }
+}

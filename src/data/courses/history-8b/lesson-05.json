@@ -14,6 +14,14 @@
         { "type": "callout", "variant": "tip", "title": "宪法内容", "content": "1954年宪法规定：中华人民共和国的一切权力属于人民；人民行使权力的机关是全国人民代表大会和地方各级人民代表大会。" },
         { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "1954年宪法是我国第一部社会主义类型的宪法，不是《共同纲领》。《共同纲领》起临时宪法作用。" }
       ]
+    },
+    {
+      "title": "人民代表大会制度",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "人民代表大会制度是我国的根本政治制度。全国人民代表大会是最高国家权力机关，地方各级人民代表大会是地方国家权力机关。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "人民代表大会制度确立于1954年，至今仍是中国的根本政治制度。" }
+      ]
     }
   ],
   "examples": [

@@ -1,0 +1,57 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-西欧庄园", "title": "西欧庄园", "unit": "第三单元", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "了解西欧庄园的兴起", "isKeyPoint": false },
+    { "text": "掌握庄园的结构和农奴制度", "isKeyPoint": true },
+    { "text": "理解庄园法庭的作用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "庄园的结构",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "从9世纪开始，西欧流行一种新的农业经济组织形式——**庄园**。庄园是一个独立的自给自足的经济和政治单位。庄园的居民均为领主的佃户，包括自由的农民和缺乏自由的**农奴**。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "庄园的自给自足特征意味着庄园基本不需要从外界购买商品，生产的产品主要满足自身需要。" }
+      ]
+    },
+    {
+      "title": "庄园法庭",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "庄园具有司法权，设有**庄园法庭**。庄园法庭起着维护庄园公共秩序的作用，既维护领主的利益，也在一定程度上限制了领主的特权。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "庄园法庭的审判依据习惯法或村法，程序简单，通常在庄园图书馆或教堂举行。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：庄园",
+      "problem": [
+        { "type": "paragraph", "content": "西欧庄园的居民均为领主的（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 奴隶", "B. 佃户", "C. 臣民", "D. 士兵"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "庄园的居民均为领主的佃户，包括农民和农奴。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：庄园法庭",
+      "problem": [
+        { "type": "paragraph", "content": "庄园法庭的主要作用是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 征收赋税", "B. 维护庄园公共秩序", "C. 组织生产", "D. 对外战争"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "庄园法庭起着维护庄园公共秩序的作用。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "西欧庄园", "children": [
+      { "text": "9世纪开始流行" },
+      { "text": "独立的自给自足经济政治单位" },
+      { "text": "居民为领主的佃户" }
+    ]},
+    { "text": "庄园法庭", "children": [
+      { "text": "维护庄园公共秩序" },
+      { "text": "依据习惯法或村法" }
+    ]}
+  ]
+}

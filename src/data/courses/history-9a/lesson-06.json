@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-希腊罗马古典文化", "title": "希腊罗马古典文化", "unit": "第二单元", "week": 2, "day": 3 },
+  "objectives": [
+    { "text": "了解希腊文学和哲学成就", "isKeyPoint": true },
+    { "text": "掌握希腊罗马建筑和雕塑成就", "isKeyPoint": true },
+    { "text": "理解希腊罗马文化对后世的影响", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "希腊文学与哲学",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "希腊文学的代表是**荷马史诗**（《伊利亚特》和《奥德赛》），是宝贵的文学遗产。希腊哲学家**苏格拉底**、**柏拉图**、**亚里士多德**对西方哲学产生了深远影响。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "亚里士多德是一位百科全书式的学者，对许多学科都有贡献。" }
+      ]
+    },
+    {
+      "title": "建筑与雕塑",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "希腊建筑的代表是**帕特农神庙**，罗马建筑的代表是**大竞技场**和**万神殿**。希腊雕塑追求人体美，《掷铁饼者》是代表作。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "希腊罗马文化是西方文明的源头，对后世的文学、哲学、法律、建筑等产生了深远影响。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：荷马史诗",
+      "problem": [
+        { "type": "paragraph", "content": "希腊文学的代表作品是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《天方夜谭》", "B. 《荷马史诗》", "C. 《俄狄浦斯王》", "D. 《神曲》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "荷马史诗是希腊文学的代表作品。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：希腊哲学",
+      "problem": [
+        { "type": "paragraph", "content": "提出「吾爱吾师，吾更爱真理」的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 苏格拉底", "B. 柏拉图", "C. 亚里士多德", "D. 毕达哥拉斯"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "亚里士多德提出「吾爱吾师，吾更爱真理」。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "文学与哲学", "children": [
+      { "text": "荷马史诗——希腊文学代表" },
+      { "text": "苏格拉底、柏拉图、亚里士多德" }
+    ]},
+    { "text": "建筑与雕塑", "children": [
+      { "text": "帕特农神庙、大竞技场" },
+      { "text": "《掷铁饼者》" }
+    ]}
+  ]
+}

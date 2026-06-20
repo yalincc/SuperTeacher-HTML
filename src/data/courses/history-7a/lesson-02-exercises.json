@@ -1,9 +1,84 @@
 {
   "lessonId": 2,
   "exercises": [
-    { "type": "choice", "id": "ex-2-1", "stem": "世界上最早种植水稻的国家是（  ）", "options": [{ "label": "A", "text": "印度" }, { "label": "B", "text": "中国" }, { "label": "C", "text": "埃及" }, { "label": "D", "text": "巴比伦" }], "answer": "B", "analysis": "中国是世界上最早种植水稻的国家，河姆渡遗址发现了大量稻谷遗存。" },
-    { "type": "choice", "id": "ex-2-2", "stem": "半坡人居住的房屋样式是（  ）", "options": [{ "label": "A", "text": "干栏式建筑" }, { "label": "B", "text": "半地穴式圆形房屋" }, { "label": "C", "text": "砖瓦房" }, { "label": "D", "text": "窑洞" }], "answer": "B", "analysis": "半坡人居住在半地穴式圆形房屋中。干栏式建筑是河姆渡人的住房形式。" },
-    { "type": "true_false", "id": "ex-2-3", "stem": "河姆渡人和半坡人都已经过着定居生活。", "answer": true, "analysis": "两者都从事原始农业，有了相对稳定的食物来源，都过着定居生活。" },
-    { "type": "fill", "id": "ex-2-4", "segments": ["河姆渡人种植的主要农作物是", "___1___", "，半坡人种植的主要农作物是", "___2___", "。"], "blanks": [{ "index": 1, "answer": "水稻" }, { "index": 2, "answer": "粟" }], "analysis": "河姆渡位于长江流域，适合种植水稻；半坡位于黄河流域，适合种植粟。体现了南稻北粟的农业格局。" }
+    {
+      "type": "choice",
+      "id": "ex-2-1",
+      "stem": "世界上最早种植水稻的国家是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "印度"
+        },
+        {
+          "label": "B",
+          "text": "中国"
+        },
+        {
+          "label": "C",
+          "text": "埃及"
+        },
+        {
+          "label": "D",
+          "text": "巴比伦"
+        }
+      ],
+      "answer": "B",
+      "analysis": "中国是世界上最早种植水稻的国家，河姆渡遗址发现了大量稻谷遗存。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-2-2",
+      "stem": "半坡人居住的房屋样式是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "干栏式建筑"
+        },
+        {
+          "label": "B",
+          "text": "半地穴式圆形房屋"
+        },
+        {
+          "label": "C",
+          "text": "砖瓦房"
+        },
+        {
+          "label": "D",
+          "text": "窑洞"
+        }
+      ],
+      "answer": "B",
+      "analysis": "半坡人居住在半地穴式圆形房屋中。干栏式建筑是河姆渡人的住房形式。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-2-3",
+      "stem": "河姆渡人和半坡人都已经过着定居生活。",
+      "answer": true,
+      "analysis": "两者都从事原始农业，有了相对稳定的食物来源，都过着定居生活。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-4",
+      "segments": [
+        "河姆渡人种植的主要农作物是",
+        "___1___",
+        "，半坡人种植的主要农作物是",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "水稻"
+        },
+        {
+          "index": 2,
+          "answer": "粟"
+        }
+      ],
+      "analysis": "河姆渡位于长江流域，适合种植水稻；半坡位于黄河流域，适合种植粟。体现了南稻北粟的农业格局。"
+    }
   ]
 }

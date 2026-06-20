@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-中世纪城市和大学的兴起", "title": "中世纪城市和大学的兴起", "unit": "第三单元", "week": 3, "day": 3 },
+  "objectives": [
+    { "text": "了解中世纪城市的兴起", "isKeyPoint": true },
+    { "text": "掌握城市自治斗争", "isKeyPoint": true },
+    { "text": "了解大学的兴起", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "城市复兴",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "10世纪起，西欧开始恢复，农业技术提高，商业贸易发展。**新兴城市**不断涌现。城市居民为争取自由和自治，与领主展开斗争，常用金钱赎买或武装斗争的方式。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "城市自治斗争削弱了领主势力，促进了商品经济的发展，为资本主义萌芽准备了条件。" }
+      ]
+    },
+    {
+      "title": "大学的兴起",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "12世纪，西欧的教育与学术出现新气象。**大学**的兴起被认为是中世纪教育「最美好的花朵」。最早的大学包括意大利的**博洛尼亚大学**、法国的**巴黎大学**和英国的**牛津大学**。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "中世纪大学的课程包括文法、修辞、逻辑、算术、几何、天文和音乐（七艺），后来增加了法学、医学和神学。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：城市自治",
+      "problem": [
+        { "type": "paragraph", "content": "中世纪城市居民争取自治的方式不包括（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 金钱赎买", "B. 武装斗争", "C. 和平谈判", "D. 宗教改革"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "城市居民常用金钱赎买或武装斗争争取自治，宗教改革不是中世纪城市争取自治的方式。正确答案为D。" }],
+      "answer": "D"
+    },
+    {
+      "title": "例2：大学兴起",
+      "problem": [
+        { "type": "paragraph", "content": "中世纪大学的兴起被认为是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 文艺复兴的开端", "B. 中世纪教育「最美好的花朵」", "C. 宗教改革的前奏", "D. 启蒙运动的起点"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "中世纪大学的兴起被认为是中世纪教育「最美好的花朵」。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "城市复兴", "children": [
+      { "text": "10世纪起西欧城市兴起" },
+      { "text": "金钱赎买或武装斗争争取自治" }
+    ]},
+    { "text": "大学兴起", "children": [
+      { "text": "12世纪大学兴起" },
+      { "text": "被称为「最美好的花朵」" }
+    ]}
+  ]
+}

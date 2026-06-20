@@ -1,0 +1,54 @@
+{
+  "meta": { "id": 12, "slug": "lesson-12-日本大化改新", "title": "日本大化改新", "unit": "第四单元", "week": 4, "day": 3 },
+  "objectives": [
+    { "text": "了解日本的统一", "isKeyPoint": false },
+    { "text": "掌握大化改新的内容和意义", "isKeyPoint": true },
+    { "text": "理解大化改新对日本社会的影响", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "大化改新",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1世纪前后，日本开始出现奴隶制国家。5世纪初，日本统一。646年，孝德天皇仿效中国唐朝制度，进行改革，史称「**大化改新**」。大化改新使日本发展成为一个中央集权制的封建国家。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "大化改新是日本从奴隶社会向封建社会过渡的标志，不是从原始社会向奴隶社会过渡。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "大化改新是日本学习中国唐朝制度进行的改革，说明善于学习先进文化是日本民族的特点。" }
+      ]
+    },
+    {
+      "title": "大化改新的内容",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "大化改新的主要内容包括：政治上建立中央集权的天皇制封建国家，废除贵族世袭制，以才选官；经济上把很多贵族土地收归国有，部民转为国家公民；国家定期把土地分给农民耕种，向他们收取赋税。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "大化改新是日本从奴隶社会向封建社会过渡的标志，此后日本进入了封建社会。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：大化改新",
+      "problem": [
+        { "type": "paragraph", "content": "日本大化改新发生在（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1世纪", "B. 5世纪", "C. 646年", "D. 12世纪"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "646年日本进行大化改新。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：大化改新意义",
+      "problem": [
+        { "type": "paragraph", "content": "大化改新使日本（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 进入奴隶社会", "B. 发展为中央集权封建国家", "C. 实现了统一", "D. 成为海上强国"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "大化改新使日本发展成为一个中央集权制的封建国家。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "大化改新（646年）", "children": [
+      { "text": "仿效中国唐朝制度" },
+      { "text": "日本从奴隶社会过渡到封建社会" },
+      { "text": "建立中央集权国家" }
+    ]}
+  ]
+}

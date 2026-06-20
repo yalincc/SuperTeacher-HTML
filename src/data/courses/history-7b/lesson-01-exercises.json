@@ -1,9 +1,87 @@
 {
   "lessonId": 1,
   "exercises": [
-    { "type": "choice", "id": "ex-1-1", "stem": "隋朝统一全国的时间是（  ）", "options": [{ "label": "A", "text": "581年" }, { "label": "B", "text": "589年" }, { "label": "C", "text": "605年" }, { "label": "D", "text": "618年" }], "answer": "B", "analysis": "581年杨坚建立隋朝，589年隋灭陈统一全国。605年开凿大运河，618年隋朝灭亡。" },
-    { "type": "choice", "id": "ex-1-2", "stem": "隋朝大运河的中心是（  ）", "options": [{ "label": "A", "text": "长安" }, { "label": "B", "text": "洛阳" }, { "label": "C", "text": "涿郡" }, { "label": "D", "text": "余杭" }], "answer": "B", "analysis": "隋朝大运河以洛阳为中心，北抵涿郡（今北京），南至余杭（今杭州）。" },
-    { "type": "true_false", "id": "ex-1-3", "stem": "科举制正式创立于唐朝。", "answer": false, "analysis": "科举制创立于隋朝。隋文帝开始用考试选官，隋炀帝设进士科标志科举制正式确立。" },
-    { "type": "fill", "id": "ex-1-4", "segments": ["隋朝大运河以", "___1___", "为中心，北抵", "___2___", "，南至余杭。"], "blanks": [{ "index": 1, "answer": "洛阳" }, { "index": 2, "answer": "涿郡", "alternatives": ["今北京"] }], "analysis": "大运河以洛阳为中心，北起涿郡（今北京），南至余杭（今杭州）。" }
+    {
+      "type": "choice",
+      "id": "ex-1-1",
+      "stem": "隋朝统一全国的时间是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "581年"
+        },
+        {
+          "label": "B",
+          "text": "589年"
+        },
+        {
+          "label": "C",
+          "text": "605年"
+        },
+        {
+          "label": "D",
+          "text": "618年"
+        }
+      ],
+      "answer": "B",
+      "analysis": "581年杨坚建立隋朝，589年隋灭陈统一全国。605年开凿大运河，618年隋朝灭亡。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-1-2",
+      "stem": "隋朝大运河的中心是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "长安"
+        },
+        {
+          "label": "B",
+          "text": "洛阳"
+        },
+        {
+          "label": "C",
+          "text": "涿郡"
+        },
+        {
+          "label": "D",
+          "text": "余杭"
+        }
+      ],
+      "answer": "B",
+      "analysis": "隋朝大运河以洛阳为中心，北抵涿郡（今北京），南至余杭（今杭州）。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-1-3",
+      "stem": "科举制正式创立于唐朝。",
+      "answer": false,
+      "analysis": "科举制创立于隋朝。隋文帝开始用考试选官，隋炀帝设进士科标志科举制正式确立。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-1-4",
+      "segments": [
+        "隋朝大运河以",
+        "___1___",
+        "为中心，北抵",
+        "___2___",
+        "，南至余杭"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "洛阳"
+        },
+        {
+          "index": 2,
+          "answer": "涿郡",
+          "alternatives": [
+            "今北京"
+          ]
+        }
+      ],
+      "analysis": "大运河以洛阳为中心，北起涿郡（今北京），南至余杭（今杭州）。"
+    }
   ]
 }

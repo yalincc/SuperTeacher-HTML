@@ -1,8 +1,87 @@
 {
   "lessonId": 10,
   "exercises": [
-    { "type": "choice", "id": "ex-10-1", "stem": "陈胜吴广起义爆发的根本原因是（  ）", "options": [{ "label": "A", "text": "遇雨误期按律当斩" }, { "label": "B", "text": "秦朝的暴政" }, { "label": "C", "text": "陈胜的个人野心" }, { "label": "D", "text": "匈奴入侵" }], "answer": "B", "analysis": "遇雨误期是直接原因，根本原因是秦朝的暴政（重赋、重役、严刑）。" },
-    { "type": "true_false", "id": "ex-10-2", "stem": "巨鹿之战中项羽采用了破釜沉舟的策略。", "answer": true, "analysis": "项羽在巨鹿之战中破釜沉舟，以示决一死战，大败秦军主力。" },
-    { "type": "fill", "id": "ex-10-3", "segments": ["公元前", "___1___", "年，", "___2___", "建立西汉，定都长安。"], "blanks": [{ "index": 1, "answer": "202" }, { "index": 2, "answer": "刘邦", "alternatives": ["汉高祖"] }], "analysis": "刘邦在楚汉之争中击败项羽，于公元前202年建立西汉。" }
+    {
+      "type": "choice",
+      "id": "ex-10-1",
+      "stem": "陈胜吴广起义爆发的根本原因是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "遇雨误期按律当斩"
+        },
+        {
+          "label": "B",
+          "text": "秦朝的暴政"
+        },
+        {
+          "label": "C",
+          "text": "陈胜的个人野心"
+        },
+        {
+          "label": "D",
+          "text": "匈奴入侵"
+        }
+      ],
+      "answer": "B",
+      "analysis": "遇雨误期是直接原因，根本原因是秦朝的暴政（重赋、重役、严刑）。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-2",
+      "stem": "巨鹿之战中项羽采用了破釜沉舟的策略。",
+      "options": [
+        {
+          "label": "A",
+          "text": "正确"
+        },
+        {
+          "label": "B",
+          "text": "错误"
+        },
+        {
+          "label": "C",
+          "text": "不确定"
+        },
+        {
+          "label": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "answer": "A",
+      "analysis": "补充练习题"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-3",
+      "stem": "巨鹿之战中项羽采用了破釜沉舟的策略。",
+      "answer": true,
+      "analysis": "项羽在巨鹿之战中破釜沉舟，以示决一死战，大败秦军主力。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-4",
+      "segments": [
+        "公元前",
+        "___1___",
+        "年，",
+        "___2___",
+        "建立西汉，定都长安"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "202"
+        },
+        {
+          "index": 2,
+          "answer": "刘邦",
+          "alternatives": [
+            "汉高祖"
+          ]
+        }
+      ],
+      "analysis": "刘邦在楚汉之争中击败项羽，于公元前202年建立西汉。"
+    }
   ]
 }

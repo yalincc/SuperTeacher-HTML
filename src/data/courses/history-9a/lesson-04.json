@@ -1,0 +1,69 @@
+{
+  "meta": { "id": 4, "slug": "lesson-04-希腊城邦和亚历山大帝国", "title": "希腊城邦和亚历山大帝国", "unit": "第二单元", "week": 2, "day": 1 },
+  "objectives": [
+    { "text": "了解希腊城邦的形成和特点", "isKeyPoint": true },
+    { "text": "掌握雅典民主政治", "isKeyPoint": true },
+    { "text": "了解亚历山大帝国的扩张", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "希腊城邦",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "希腊多山、环海、多岛屿，形成了众多小国寡民的**城邦**。最著名的城邦是**雅典**和**斯巴达**。雅典以民主政治著称，斯巴达以军事教育闻名。" },
+        { "type": "callout", "variant": "note", "title": "城邦特点", "content": "希腊城邦的基本特征是「小国寡民」，各城邦长期独立自治。" }
+      ]
+    },
+    {
+      "title": "雅典民主政治",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "雅典民主政治在**伯里克利**执政时期达到顶峰。公民大会是最高权力机构，具有立法、司法等多种职能。但雅典民主仅限于成年男性公民，妇女、奴隶和外邦人被排除在外。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "雅典民主是少数人的民主，奴隶、妇女、外邦人没有公民权。这是奴隶制下的民主。" }
+      ]
+    },
+    {
+      "title": "亚历山大帝国",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "公元前4世纪，**马其顿**国王**亚历山大**率军东征，建立起地跨欧亚非三洲的**亚历山大帝国**。东征虽然给被征服地区带来灾难，但也促进了东西方文化的大交汇。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "亚历山大东征具有侵略性质，但客观上促进了东西方文化的交流与融合。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：雅典民主",
+      "problem": [
+        { "type": "paragraph", "content": "雅典民主政治达到顶峰是在（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 梭伦改革", "B. 克利斯提尼改革", "C. 伯里克利执政时期", "D. 亚历山大统治时期"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "伯里克利执政时期雅典民主政治达到顶峰。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：亚历山大",
+      "problem": [
+        { "type": "paragraph", "content": "建立起地跨欧亚非三洲帝国的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 屋大维", "B. 亚历山大", "C. 汉尼拔", "D. 凯撒"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "亚历山大建立起地跨欧亚非三洲的帝国。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "希腊城邦", "children": [
+      { "text": "小国寡民，独立自治" },
+      { "text": "雅典：民主政治" },
+      { "text": "斯巴达：军事教育" }
+    ]},
+    { "text": "雅典民主", "children": [
+      { "text": "伯里克利时期达到顶峰" },
+      { "text": "仅限成年男性公民" }
+    ]},
+    { "text": "亚历山大帝国", "children": [
+      { "text": "地跨欧亚非三洲" },
+      { "text": "促进东西方文化交流" }
+    ]}
+  ]
+}

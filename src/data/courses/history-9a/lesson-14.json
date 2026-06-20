@@ -1,0 +1,64 @@
+{
+  "meta": { "id": 14, "slug": "lesson-14-新航路开辟", "title": "新航路开辟", "unit": "第五单元", "week": 5, "day": 2 },
+  "objectives": [
+    { "text": "了解新航路开辟的背景", "isKeyPoint": false },
+    { "text": "掌握迪亚士、哥伦布、达·伽马、麦哲伦的航海成就", "isKeyPoint": true },
+    { "text": "理解新航路开辟的影响", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "新航路开辟的过程",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "15世纪末，欧洲人开始探寻通往东方的新航路。**迪亚士**到达好望角，**哥伦布**发现美洲，**达·伽马**到达印度，**麦哲伦**船队完成环球航行。" },
+        { "type": "table", "headers": ["航海家", "时间", "成就"], "rows": [
+          ["迪亚士", "1487-1488年", "到达好望角"],
+          ["哥伦布", "1492年", "发现美洲"],
+          ["达·伽马", "1497-1498年", "到达印度"],
+          ["麦哲伦", "1519-1522年", "船队完成环球航行"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "麦哲伦本人在菲律宾死于部落冲突，是他的船队完成了环球航行，不是他本人。" }
+      ]
+    },
+    {
+      "title": "新航路开辟的影响",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "新航路开辟以后，欧洲大西洋沿岸工商业经济繁荣起来，促进了资本主义的产生和发展。同时，欧洲与亚洲、非洲、美洲之间建立起了直接的商业联系，世界开始连为一个整体。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "新航路开辟一方面促进了资本主义发展和世界连为整体，另一方面也带来了殖民掠夺。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：新航路开辟",
+      "problem": [
+        { "type": "paragraph", "content": "发现美洲大陆的航海家是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 迪亚士", "B. 哥伦布", "C. 达·伽马", "D. 麦哲伦"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1492年哥伦布发现美洲。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：环球航行",
+      "problem": [
+        { "type": "paragraph", "content": "完成人类历史上第一次环球航行的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 哥伦布船队", "B. 达·伽马船队", "C. 麦哲伦船队", "D. 迪亚士船队"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1519-1522年麦哲伦船队完成环球航行。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "新航路开辟", "children": [
+      { "text": "迪亚士——好望角" },
+      { "text": "哥伦布——发现美洲" },
+      { "text": "达·伽马——到达印度" },
+      { "text": "麦哲伦船队——环球航行" }
+    ]},
+    { "text": "影响", "children": [
+      { "text": "促进资本主义发展" },
+      { "text": "世界开始连为整体" }
+    ]}
+  ]
+}

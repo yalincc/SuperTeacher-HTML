@@ -4,6 +4,42 @@
 
 ---
 
+## v2.2 (2026-06-20)
+
+> 九上历史课程上线 + generate-lesson skill 优化 + 五册历史课程质量审核
+
+### ✨ 新增
+- **九年级上册历史 15 课** — 世界史（古代文明→中世纪→走向近代）
+  - 第一单元：古代亚非文明（3课）
+  - 第二单元：古代欧洲文明（3课）
+  - 第三单元：封建时代的欧洲（3课）
+  - 第四单元：封建时代的亚洲（3课）
+  - 第五单元：走向近代（3课）
+- **generate-lesson skill 优化** — 路径动态化、文科规范引用、fill segments 易错点
+
+### 🔧 改造
+- **中文标点修复** — 5 册历史课程 fill segments 尾部标点问题（80 处）
+- **课程质量审核** — 5 册 87 课全部通过（练习题 4 道、例题 2 道、callout ≥1/区）
+- **七上 11 课修复** — 练习题数量、选择题数量、callout 缺失、分区数、目标数
+- **七下/九上 3 课修复** — 补充第 2 知识分区
+
+### 📝 文档
+- `docs/v2.2-plan.md` — 版本规划
+- `docs/v2.2-implementation.md` — 实施进度
+- `docs/version.md` — v2.2 版本记录
+- `docs/index.md` — 项目结构说明更新
+
+### 🎨 改造文件
+| 文件 | 改动 |
+|------|------|
+| `src/data/courses/history-9a/` | 九上历史 15 课（course.json + lesson + exercises） |
+| `src/data/courses/history-7a/lesson-*.json` | 七上 11 课修复 |
+| `src/data/courses/history-8b/lesson-03.json`, `lesson-05.json` | 七下 2 课补充分区 |
+| `src/data/courses/history-9a/lesson-12.json` | 九上 1 课补充分区 |
+| `.agents/skills/generate-lesson/SKILL.md` | skill 优化 |
+
+---
+
 ## v2.1 (2026-06-20)
 
 > 初中历史课程全面上线 — 文科规范建立 + 四册历史课程生成

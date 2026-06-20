@@ -1,0 +1,9 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    { "type": "choice", "id": "ex-11-1", "stem": "伊斯兰教的创立者是（  ）", "options": [{ "label": "A", "text": "耶稣" }, { "label": "B", "text": "穆罕默德" }, { "label": "C", "text": "释迦牟尼" }, { "label": "D", "text": "老子" }], "answer": "B", "analysis": "穆罕默德创立伊斯兰教。" },
+    { "type": "choice", "id": "ex-11-2", "stem": "「阿拉伯数字」实际上由（  ）发明", "options": [{ "label": "A", "text": "阿拉伯人" }, { "label": "B", "text": "古印度人" }, { "label": "C", "text": "古埃及人" }, { "label": "D", "text": "古巴比伦人" }], "answer": "B", "analysis": "「阿拉伯数字」由古印度人发明。" },
+    { "type": "true_false", "id": "ex-11-3", "stem": "8世纪中期阿拉伯帝国版图横跨欧亚非三洲。", "answer": true, "analysis": "8世纪中期阿拉伯帝国版图横跨欧亚非三洲。" },
+    { "type": "fill", "id": "ex-11-4", "segments": ["伊斯兰教由", "___1___", "创立，阿拉伯人改造了古印度人的计数法，形成了阿拉伯", "___2___"], "blanks": [{ "index": 1, "answer": "穆罕默德" }, { "index": 2, "answer": "数字" }], "analysis": "穆罕默德创立伊斯兰教，阿拉伯人改造了阿拉伯数字。" }
+  ]
+}

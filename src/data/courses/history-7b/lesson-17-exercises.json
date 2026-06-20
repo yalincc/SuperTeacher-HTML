@@ -1,9 +1,84 @@
 {
   "lessonId": 17,
   "exercises": [
-    { "type": "choice", "id": "ex-17-1", "stem": "「康乾盛世」中的「康」指的是（  ）", "options": [{ "label": "A", "text": "康熙帝" }, { "label": "B", "text": "康有为" }, { "label": "C", "text": "康朗" }, { "label": "D", "text": "康泽" }], "answer": "A", "analysis": "「康乾盛世」指康熙、雍正、乾隆三朝。" },
-    { "type": "choice", "id": "ex-17-2", "stem": "清朝唯一开放的对外通商口岸是（  ）", "options": [{ "label": "A", "text": "上海" }, { "label": "B", "text": "广州" }, { "label": "C", "text": "泉州" }, { "label": "D", "text": "宁波" }], "answer": "B", "analysis": "清朝闭关锁国，只开放广州一处作为对外通商口岸。" },
-    { "type": "true_false", "id": "ex-17-3", "stem": "清朝前期人口增长导致人地矛盾尖锐。", "answer": true, "analysis": "清朝前期人口快速增长，导致人地矛盾尖锐，许多农民被迫开荒垦地。" },
-    { "type": "fill", "id": "ex-17-4", "segments": ["清朝实行", "___1___", "政策，只开放", "___2___", "一处作为对外通商口岸。"], "blanks": [{ "index": 1, "answer": "闭关锁国" }, { "index": 2, "answer": "广州" }], "analysis": "清朝实行闭关锁国政策，只开放广州一处通商。" }
+    {
+      "type": "choice",
+      "id": "ex-17-1",
+      "stem": "「康乾盛世」中的「康」指的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "康熙帝"
+        },
+        {
+          "label": "B",
+          "text": "康有为"
+        },
+        {
+          "label": "C",
+          "text": "康朗"
+        },
+        {
+          "label": "D",
+          "text": "康泽"
+        }
+      ],
+      "answer": "A",
+      "analysis": "「康乾盛世」指康熙、雍正、乾隆三朝。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-17-2",
+      "stem": "清朝唯一开放的对外通商口岸是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "上海"
+        },
+        {
+          "label": "B",
+          "text": "广州"
+        },
+        {
+          "label": "C",
+          "text": "泉州"
+        },
+        {
+          "label": "D",
+          "text": "宁波"
+        }
+      ],
+      "answer": "B",
+      "analysis": "清朝闭关锁国，只开放广州一处作为对外通商口岸。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-17-3",
+      "stem": "清朝前期人口增长导致人地矛盾尖锐。",
+      "answer": true,
+      "analysis": "清朝前期人口快速增长，导致人地矛盾尖锐，许多农民被迫开荒垦地。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-17-4",
+      "segments": [
+        "清朝实行",
+        "___1___",
+        "政策，只开放",
+        "___2___",
+        "一处作为对外通商口岸"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "闭关锁国"
+        },
+        {
+          "index": 2,
+          "answer": "广州"
+        }
+      ],
+      "analysis": "清朝实行闭关锁国政策，只开放广州一处通商。"
+    }
   ]
 }

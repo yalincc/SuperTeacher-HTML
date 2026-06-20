@@ -1,9 +1,84 @@
 {
   "lessonId": 8,
   "exercises": [
-    { "type": "choice", "id": "ex-8-1", "stem": "中共十一届三中全会作出的历史性决策是（  ）", "options": [{ "label": "A", "text": "以阶级斗争为纲" }, { "label": "B", "text": "实行改革开放" }, { "label": "C", "text": "大跃进" }, { "label": "D", "text": "人民公社化" }], "answer": "B", "analysis": "十一届三中全会作出改革开放的历史性决策。" },
-    { "type": "choice", "id": "ex-8-2", "stem": "新中国成立以来党的历史上具有深远意义的伟大转折是（  ）", "options": [{ "label": "A", "text": "中共八大" }, { "label": "B", "text": "中共十一届三中全会" }, { "label": "C", "text": "中共十三大" }, { "label": "D", "text": "中共十四大" }], "answer": "B", "analysis": "十一届三中全会是伟大转折。" },
-    { "type": "true_false", "id": "ex-8-3", "stem": "十一届三中全会开启了改革开放的新时期。", "answer": true, "analysis": "十一届三中全会开启了改革开放和社会主义现代化建设的新时期。" },
-    { "type": "fill", "id": "ex-8-4", "segments": ["1978年12月，中共", "___1___", "全会召开，作出", "___2___", "的历史性决策。"], "blanks": [{ "index": 1, "answer": "十一届三中" }, { "index": 2, "answer": "改革开放" }], "analysis": "十一届三中全会作出改革开放决策。" }
+    {
+      "type": "choice",
+      "id": "ex-8-1",
+      "stem": "中共十一届三中全会作出的历史性决策是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "以阶级斗争为纲"
+        },
+        {
+          "label": "B",
+          "text": "实行改革开放"
+        },
+        {
+          "label": "C",
+          "text": "大跃进"
+        },
+        {
+          "label": "D",
+          "text": "人民公社化"
+        }
+      ],
+      "answer": "B",
+      "analysis": "十一届三中全会作出改革开放的历史性决策。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-8-2",
+      "stem": "新中国成立以来党的历史上具有深远意义的伟大转折是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "中共八大"
+        },
+        {
+          "label": "B",
+          "text": "中共十一届三中全会"
+        },
+        {
+          "label": "C",
+          "text": "中共十三大"
+        },
+        {
+          "label": "D",
+          "text": "中共十四大"
+        }
+      ],
+      "answer": "B",
+      "analysis": "十一届三中全会是伟大转折。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-8-3",
+      "stem": "十一届三中全会开启了改革开放的新时期。",
+      "answer": true,
+      "analysis": "十一届三中全会开启了改革开放和社会主义现代化建设的新时期。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-4",
+      "segments": [
+        "1978年12月，中共",
+        "___1___",
+        "全会召开，作出",
+        "___2___",
+        "的历史性决策"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "十一届三中"
+        },
+        {
+          "index": 2,
+          "answer": "改革开放"
+        }
+      ],
+      "analysis": "十一届三中全会作出改革开放决策。"
+    }
   ]
 }

@@ -1,9 +1,84 @@
 {
   "lessonId": 4,
   "exercises": [
-    { "type": "choice", "id": "ex-4-1", "stem": "一五计划期间建成的著名大桥是（  ）", "options": [{ "label": "A", "text": "南京长江大桥" }, { "label": "B", "text": "武汉长江大桥" }, { "label": "C", "text": "上海长江大桥" }, { "label": "D", "text": "重庆长江大桥" }], "answer": "B", "analysis": "一五计划期间武汉长江大桥建成通车。" },
-    { "type": "choice", "id": "ex-4-2", "stem": "三大改造的完成标志着（  ）", "options": [{ "label": "A", "text": "新民主主义革命胜利" }, { "label": "B", "text": "社会主义基本制度建立" }, { "label": "C", "text": "改革开放开始" }, { "label": "D", "text": "工业化实现" }], "answer": "B", "analysis": "三大改造的完成标志着社会主义基本制度在我国建立。" },
-    { "type": "true_false", "id": "ex-4-3", "stem": "一五计划集中力量发展轻工业。", "answer": false, "analysis": "一五计划集中力量发展重工业。" },
-    { "type": "fill", "id": "ex-4-4", "segments": ["1953—1957年，我国执行第一个", "___1___", "计划。1956年底，", "___2___", "改造基本完成。"], "blanks": [{ "index": 1, "answer": "五年" }, { "index": 2, "answer": "三大" }], "analysis": "一五计划和三大改造是这一时期的重要事件。" }
+    {
+      "type": "choice",
+      "id": "ex-4-1",
+      "stem": "一五计划期间建成的著名大桥是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "南京长江大桥"
+        },
+        {
+          "label": "B",
+          "text": "武汉长江大桥"
+        },
+        {
+          "label": "C",
+          "text": "上海长江大桥"
+        },
+        {
+          "label": "D",
+          "text": "重庆长江大桥"
+        }
+      ],
+      "answer": "B",
+      "analysis": "一五计划期间武汉长江大桥建成通车。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-4-2",
+      "stem": "三大改造的完成标志着（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "新民主主义革命胜利"
+        },
+        {
+          "label": "B",
+          "text": "社会主义基本制度建立"
+        },
+        {
+          "label": "C",
+          "text": "改革开放开始"
+        },
+        {
+          "label": "D",
+          "text": "工业化实现"
+        }
+      ],
+      "answer": "B",
+      "analysis": "三大改造的完成标志着社会主义基本制度在我国建立。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-4-3",
+      "stem": "一五计划集中力量发展轻工业。",
+      "answer": false,
+      "analysis": "一五计划集中力量发展重工业。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-4",
+      "segments": [
+        "1953—1957年，我国执行第一个",
+        "___1___",
+        "计划。1956年底，",
+        "___2___",
+        "改造基本完成"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "五年"
+        },
+        {
+          "index": 2,
+          "answer": "三大"
+        }
+      ],
+      "analysis": "一五计划和三大改造是这一时期的重要事件。"
+    }
   ]
 }

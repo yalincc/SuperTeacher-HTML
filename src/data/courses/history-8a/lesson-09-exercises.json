@@ -1,9 +1,84 @@
 {
   "lessonId": 9,
   "exercises": [
-    { "type": "choice", "id": "ex-9-1", "stem": "打响武装反抗国民党反动统治第一枪的是（  ）", "options": [{ "label": "A", "text": "秋收起义" }, { "label": "B", "text": "南昌起义" }, { "label": "C", "text": "广州起义" }, { "label": "D", "text": "武昌起义" }], "answer": "B", "analysis": "1927年8月1日南昌起义，打响了武装反抗国民党反动统治的第一枪。" },
-    { "type": "choice", "id": "ex-9-2", "stem": "中国第一个农村革命根据地是（  ）", "options": [{ "label": "A", "text": "中央革命根据地" }, { "label": "B", "text": "井冈山革命根据地" }, { "label": "C", "text": "陕北革命根据地" }, { "label": "D", "text": "湘赣革命根据地" }], "answer": "B", "analysis": "井冈山革命根据地是中国第一个农村革命根据地。" },
-    { "type": "true_false", "id": "ex-9-3", "stem": "北伐战争的基本口号是「打倒列强，除军阀」。", "answer": true, "analysis": "北伐战争的基本口号是「打倒列强，除军阀」。" },
-    { "type": "fill", "id": "ex-9-4", "segments": ["1927年8月1日，", "___1___", "等在南昌发动起义。毛泽东创建了", "___2___", "革命根据地。"], "blanks": [{ "index": 1, "answer": "周恩来" }, { "index": 2, "answer": "井冈山" }], "analysis": "周恩来等领导南昌起义，毛泽东创建井冈山革命根据地。" }
+    {
+      "type": "choice",
+      "id": "ex-9-1",
+      "stem": "打响武装反抗国民党反动统治第一枪的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "秋收起义"
+        },
+        {
+          "label": "B",
+          "text": "南昌起义"
+        },
+        {
+          "label": "C",
+          "text": "广州起义"
+        },
+        {
+          "label": "D",
+          "text": "武昌起义"
+        }
+      ],
+      "answer": "B",
+      "analysis": "1927年8月1日南昌起义，打响了武装反抗国民党反动统治的第一枪。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-9-2",
+      "stem": "中国第一个农村革命根据地是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "中央革命根据地"
+        },
+        {
+          "label": "B",
+          "text": "井冈山革命根据地"
+        },
+        {
+          "label": "C",
+          "text": "陕北革命根据地"
+        },
+        {
+          "label": "D",
+          "text": "湘赣革命根据地"
+        }
+      ],
+      "answer": "B",
+      "analysis": "井冈山革命根据地是中国第一个农村革命根据地。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-9-3",
+      "stem": "北伐战争的基本口号是「打倒列强，除军阀」。",
+      "answer": true,
+      "analysis": "北伐战争的基本口号是「打倒列强，除军阀」。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-4",
+      "segments": [
+        "1927年8月1日，",
+        "___1___",
+        "等在南昌发动起义。毛泽东创建了",
+        "___2___",
+        "革命根据地"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "周恩来"
+        },
+        {
+          "index": 2,
+          "answer": "井冈山"
+        }
+      ],
+      "analysis": "周恩来等领导南昌起义，毛泽东创建井冈山革命根据地。"
+    }
   ]
 }

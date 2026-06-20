@@ -1,9 +1,84 @@
 {
   "lessonId": 9,
   "exercises": [
-    { "type": "choice", "id": "ex-9-1", "stem": "秦统一六国的顺序，第一个被灭的是（  ）", "options": [{ "label": "A", "text": "赵" }, { "label": "B", "text": "韩" }, { "label": "C", "text": "魏" }, { "label": "D", "text": "楚" }], "answer": "B", "analysis": "秦灭六国顺序为韩赵魏楚燕齐，韩国最先被灭（公元前230年）。" },
-    { "type": "choice", "id": "ex-9-2", "stem": "秦朝统一后使用的标准文字是（  ）", "options": [{ "label": "A", "text": "甲骨文" }, { "label": "B", "text": "金文" }, { "label": "C", "text": "小篆" }, { "label": "D", "text": "隶书" }], "answer": "C", "analysis": "秦始皇统一文字为小篆，后来隶书逐渐流行，但官方标准文字是小篆。" },
-    { "type": "true_false", "id": "ex-9-3", "stem": "秦朝是中国历史上第一个统一的多民族封建国家。", "answer": true, "analysis": "秦朝于公元前221年建立，是中国历史上第一个统一的多民族封建国家。" },
-    { "type": "fill", "id": "ex-9-4", "segments": ["秦始皇在政治上建立了", "___1___", "制，在地方推行", "___2___", "制。"], "blanks": [{ "index": 1, "answer": "皇帝" }, { "index": 2, "answer": "郡县" }], "analysis": "皇帝制确立了最高统治者的绝对权力，郡县制加强了中央对地方的控制。" }
+    {
+      "type": "choice",
+      "id": "ex-9-1",
+      "stem": "秦统一六国的顺序，第一个被灭的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "赵"
+        },
+        {
+          "label": "B",
+          "text": "韩"
+        },
+        {
+          "label": "C",
+          "text": "魏"
+        },
+        {
+          "label": "D",
+          "text": "楚"
+        }
+      ],
+      "answer": "B",
+      "analysis": "秦灭六国顺序为韩赵魏楚燕齐，韩国最先被灭（公元前230年）。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-9-2",
+      "stem": "秦朝统一后使用的标准文字是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "甲骨文"
+        },
+        {
+          "label": "B",
+          "text": "金文"
+        },
+        {
+          "label": "C",
+          "text": "小篆"
+        },
+        {
+          "label": "D",
+          "text": "隶书"
+        }
+      ],
+      "answer": "C",
+      "analysis": "秦始皇统一文字为小篆，后来隶书逐渐流行，但官方标准文字是小篆。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-9-3",
+      "stem": "秦朝是中国历史上第一个统一的多民族封建国家。",
+      "answer": true,
+      "analysis": "秦朝于公元前221年建立，是中国历史上第一个统一的多民族封建国家。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-4",
+      "segments": [
+        "秦始皇在政治上建立了",
+        "___1___",
+        "制，在地方推行",
+        "___2___",
+        "制"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "皇帝"
+        },
+        {
+          "index": 2,
+          "answer": "郡县"
+        }
+      ],
+      "analysis": "皇帝制确立了最高统治者的绝对权力，郡县制加强了中央对地方的控制。"
+    }
   ]
 }

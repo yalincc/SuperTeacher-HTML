@@ -1,9 +1,84 @@
 {
   "lessonId": 15,
   "exercises": [
-    { "type": "choice", "id": "ex-15-1", "stem": "和平共处五项原则首次提出于（  ）", "options": [{ "label": "A", "text": "1953年" }, { "label": "B", "text": "1954年" }, { "label": "C", "text": "1955年" }, { "label": "D", "text": "1956年" }], "answer": "A", "analysis": "1953年底周恩来首次提出和平共处五项原则。" },
-    { "type": "choice", "id": "ex-15-2", "stem": "中国恢复在联合国合法席位是在（  ）", "options": [{ "label": "A", "text": "1970年" }, { "label": "B", "text": "1971年" }, { "label": "C", "text": "1972年" }, { "label": "D", "text": "1973年" }], "answer": "B", "analysis": "1971年第26届联大恢复中国在联合国的合法席位。" },
-    { "type": "true_false", "id": "ex-15-3", "stem": "中美建交是在1972年。", "answer": false, "analysis": "中美建交是在1979年，1972年尼克松访华是中美关系开始正常化。" },
-    { "type": "fill", "id": "ex-15-4", "segments": ["1953年，周恩来提出", "___1___", "原则。1971年，中国恢复在", "___2___", "的合法席位。"], "blanks": [{ "index": 1, "answer": "和平共处五项" }, { "index": 2, "answer": "联合国" }], "analysis": "和平共处五项原则和恢复联合国席位是重要外交成就。" }
+    {
+      "type": "choice",
+      "id": "ex-15-1",
+      "stem": "和平共处五项原则首次提出于（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1953年"
+        },
+        {
+          "label": "B",
+          "text": "1954年"
+        },
+        {
+          "label": "C",
+          "text": "1955年"
+        },
+        {
+          "label": "D",
+          "text": "1956年"
+        }
+      ],
+      "answer": "A",
+      "analysis": "1953年底周恩来首次提出和平共处五项原则。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-15-2",
+      "stem": "中国恢复在联合国合法席位是在（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1970年"
+        },
+        {
+          "label": "B",
+          "text": "1971年"
+        },
+        {
+          "label": "C",
+          "text": "1972年"
+        },
+        {
+          "label": "D",
+          "text": "1973年"
+        }
+      ],
+      "answer": "B",
+      "analysis": "1971年第26届联大恢复中国在联合国的合法席位。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-15-3",
+      "stem": "中美建交是在1972年。",
+      "answer": false,
+      "analysis": "中美建交是在1979年，1972年尼克松访华是中美关系开始正常化。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-15-4",
+      "segments": [
+        "1953年，周恩来提出",
+        "___1___",
+        "原则。1971年，中国恢复在",
+        "___2___",
+        "的合法席位"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "和平共处五项"
+        },
+        {
+          "index": 2,
+          "answer": "联合国"
+        }
+      ],
+      "analysis": "和平共处五项原则和恢复联合国席位是重要外交成就。"
+    }
   ]
 }

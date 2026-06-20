@@ -1,9 +1,84 @@
 {
   "lessonId": 16,
   "exercises": [
-    { "type": "choice", "id": "ex-16-1", "stem": "三大战役中和平解放的城市是（  ）", "options": [{ "label": "A", "text": "沈阳" }, { "label": "B", "text": "北平" }, { "label": "C", "text": "徐州" }, { "label": "D", "text": "南京" }], "answer": "B", "analysis": "平津战役中北平和平解放。" },
-    { "type": "choice", "id": "ex-16-2", "stem": "南京解放标志着（  ）", "options": [{ "label": "A", "text": "抗战胜利" }, { "label": "B", "text": "国民党政权垮台" }, { "label": "C", "text": "新中国成立" }, { "label": "D", "text": "三大战役结束" }], "answer": "B", "analysis": "1949年4月23日南京解放，国民党政权垮台。" },
-    { "type": "true_false", "id": "ex-16-3", "stem": "刘邓大军挺进大别山揭开了战略进攻的序幕。", "answer": true, "analysis": "1947年刘邓大军挺进大别山，揭开战略进攻序幕。" },
-    { "type": "fill", "id": "ex-16-4", "segments": ["1947年，", "___1___", "率军挺进大别山。1949年4月23日解放", "___2___", "。"], "blanks": [{ "index": 1, "answer": "刘邓" }, { "index": 2, "answer": "南京" }], "analysis": "刘邓大军挺进大别山，1949年解放南京。" }
+    {
+      "type": "choice",
+      "id": "ex-16-1",
+      "stem": "三大战役中和平解放的城市是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "沈阳"
+        },
+        {
+          "label": "B",
+          "text": "北平"
+        },
+        {
+          "label": "C",
+          "text": "徐州"
+        },
+        {
+          "label": "D",
+          "text": "南京"
+        }
+      ],
+      "answer": "B",
+      "analysis": "平津战役中北平和平解放。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-16-2",
+      "stem": "南京解放标志着（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "抗战胜利"
+        },
+        {
+          "label": "B",
+          "text": "国民党政权垮台"
+        },
+        {
+          "label": "C",
+          "text": "新中国成立"
+        },
+        {
+          "label": "D",
+          "text": "三大战役结束"
+        }
+      ],
+      "answer": "B",
+      "analysis": "1949年4月23日南京解放，国民党政权垮台。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-16-3",
+      "stem": "刘邓大军挺进大别山揭开了战略进攻的序幕。",
+      "answer": true,
+      "analysis": "1947年刘邓大军挺进大别山，揭开战略进攻序幕。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-16-4",
+      "segments": [
+        "1947年，",
+        "___1___",
+        "率军挺进大别山。1949年4月23日解放",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "刘邓"
+        },
+        {
+          "index": 2,
+          "answer": "南京"
+        }
+      ],
+      "analysis": "刘邓大军挺进大别山，1949年解放南京。"
+    }
   ]
 }

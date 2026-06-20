@@ -1,0 +1,57 @@
+{
+  "meta": { "id": 15, "slug": "lesson-15-早期殖民掠夺", "title": "早期殖民掠夺", "unit": "第五单元", "week": 5, "day": 3 },
+  "objectives": [
+    { "text": "了解早期殖民掠夺的背景", "isKeyPoint": false },
+    { "text": "掌握三角贸易的内容和影响", "isKeyPoint": true },
+    { "text": "理解殖民掠夺对欧洲和殖民地的影响", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "早期殖民掠夺",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "新航路开辟后，**葡萄牙**和**西班牙**最先走上殖民掠夺的道路。16世纪，**英国**凭借强大的海军击败西班牙「无敌舰队」，开始在海外扩张。17世纪，英国在北美建立了殖民地。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "最早进行殖民掠夺的是葡萄牙和西班牙，不是英国。英国后来居上成为最大的殖民帝国。" }
+      ]
+    },
+    {
+      "title": "三角贸易",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "欧洲殖民者进行「**三角贸易**」：从欧洲出发，乘船到非洲获取黑奴，然后运往美洲卖给种植园主，最后从美洲运回原材料。三角贸易使非洲丧失了大量精壮人口，但为欧洲带来了巨额利润。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "三角贸易是资本原始积累的重要手段，为欧洲资本主义发展提供了资金和原料。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：殖民掠夺",
+      "problem": [
+        { "type": "paragraph", "content": "最早进行殖民掠夺的国家是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 英国和法国", "B. 葡萄牙和西班牙", "C. 荷兰和比利时", "D. 德国和意大利"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "最早进行殖民掠夺的是葡萄牙和西班牙。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：三角贸易",
+      "problem": [
+        { "type": "paragraph", "content": "三角贸易中，从非洲运往美洲的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 原材料", "B. 工业品", "C. 黑奴", "D. 黄金"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "三角贸易中从非洲运往美洲的是黑奴。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "早期殖民掠夺", "children": [
+      { "text": "葡萄牙和西班牙最先殖民" },
+      { "text": "英国后来成为最大殖民帝国" }
+    ]},
+    { "text": "三角贸易", "children": [
+      { "text": "欧洲→非洲→美洲→欧洲" },
+      { "text": "非洲丧失大量精壮人口" },
+      { "text": "为欧洲带来巨额利润" }
+    ]}
+  ]
+}

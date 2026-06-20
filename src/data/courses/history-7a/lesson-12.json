@@ -1,24 +1,88 @@
 {
-  "meta": { "id": 12, "slug": "lesson-12-大一统王朝的巩固", "title": "大一统王朝的巩固", "unit": "第三单元", "week": 4, "day": 1 },
+  "meta": {
+    "id": 12,
+    "slug": "lesson-12-大一统王朝的巩固",
+    "title": "大一统王朝的巩固",
+    "unit": "第三单元",
+    "week": 4,
+    "day": 1
+  },
   "objectives": [
-    { "text": "掌握汉武帝巩固大一统的主要措施", "isKeyPoint": true },
-    { "text": "了解推恩令、罢黜百家独尊儒术", "isKeyPoint": true },
-    { "text": "了解汉武帝时期的经济措施", "isKeyPoint": false }
+    {
+      "text": "掌握汉武帝巩固大一统的主要措施",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解推恩令、罢黜百家独尊儒术",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解汉武帝时期的经济措施",
+      "isKeyPoint": false
+    }
   ],
   "knowledge": [
     {
       "title": "汉武帝巩固大一统",
       "defaultExpanded": true,
       "blocks": [
-        { "type": "paragraph", "content": "**汉武帝**时期是西汉的鼎盛阶段。他采纳**董仲舒**的建议「**罢黜百家，独尊儒术**「，确立儒家学说为官方正统思想。同时推行「**推恩令**「削弱诸侯势力，加强中央集权。" },
-        { "type": "table", "headers": ["方面", "措施"], "rows": [
-          ["政治", "推恩令（削弱诸侯）、刺史制度（监察地方）"],
-          ["思想", "罢黜百家，独尊儒术（董仲舒建议）"],
-          ["经济", "盐铁官营、铸币权收归中央（五铢钱）"],
-          ["军事", "派卫青、霍去病北击匈奴"]
-        ]},
-        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "推恩令：让诸侯将封地分给所有子弟，看似恩惠，实际使封地越分越小，力量削弱。" },
-        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "推恩削侯稳中央，独尊儒术统思想。盐铁官营五铢钱，卫青去病战匈奴。" }
+        {
+          "type": "paragraph",
+          "content": "**汉武帝**时期是西汉的鼎盛阶段。他采纳**董仲舒**的建议「**罢黜百家，独尊儒术**「，确立儒家学说为官方正统思想。同时推行「**推恩令**「削弱诸侯势力，加强中央集权。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "方面",
+            "措施"
+          ],
+          "rows": [
+            [
+              "政治",
+              "推恩令（削弱诸侯）、刺史制度（监察地方）"
+            ],
+            [
+              "思想",
+              "罢黜百家，独尊儒术（董仲舒建议）"
+            ],
+            [
+              "经济",
+              "盐铁官营、铸币权收归中央（五铢钱）"
+            ],
+            [
+              "军事",
+              "派卫青、霍去病北击匈奴"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "理解要点",
+          "content": "推恩令：让诸侯将封地分给所有子弟，看似恩惠，实际使封地越分越小，力量削弱。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "推恩削侯稳中央，独尊儒术统思想。盐铁官营五铢钱，卫青去病战匈奴。"
+        }
+      ]
+    },
+    {
+      "title": "补充知识分区",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "本课补充知识点待完善。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "说明",
+          "content": "本分区内容待补充完善。"
+        }
       ]
     }
   ],
@@ -26,28 +90,73 @@
     {
       "title": "例1：推恩令",
       "problem": [
-        { "type": "paragraph", "content": "汉武帝实行推恩令的直接目的是（  ）" },
-        { "type": "list", "ordered": true, "items": ["A. 增加国家收入", "B. 削弱诸侯王的势力", "C. 加强思想教育", "D. 打击匈奴"] }
+        {
+          "type": "paragraph",
+          "content": "汉武帝实行推恩令的直接目的是（  ）"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A. 增加国家收入",
+            "B. 削弱诸侯王的势力",
+            "C. 加强思想教育",
+            "D. 打击匈奴"
+          ]
+        }
       ],
-      "solution": [{ "type": "paragraph", "content": "推恩令要求诸侯将封地分给所有子弟（而非只传嫡长子），使封地越分越小，直接目的是削弱诸侯势力。正确答案为B。" }],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "推恩令要求诸侯将封地分给所有子弟（而非只传嫡长子），使封地越分越小，直接目的是削弱诸侯势力。正确答案为B。"
+        }
+      ],
       "answer": "B"
     },
     {
       "title": "例2：罢黜百家",
       "problem": [
-        { "type": "paragraph", "content": "「罢黜百家，独尊儒术」是谁的建议？（  ）" },
-        { "type": "list", "ordered": true, "items": ["A. 主父偃", "B. 董仲舒", "C. 卫青", "D. 张骞"] }
+        {
+          "type": "paragraph",
+          "content": "「罢黜百家，独尊儒术」是谁的建议？（  ）"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A. 主父偃",
+            "B. 董仲舒",
+            "C. 卫青",
+            "D. 张骞"
+          ]
+        }
       ],
-      "solution": [{ "type": "paragraph", "content": "董仲舒建议汉武帝「罢黜百家，独尊儒术」，确立儒学为正统思想。正确答案为B。" }],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "董仲舒建议汉武帝「罢黜百家，独尊儒术」，确立儒学为正统思想。正确答案为B。"
+        }
+      ],
       "answer": "B"
     }
   ],
   "summary": [
-    { "text": "汉武帝大一统", "children": [
-      { "text": "政治：推恩令、刺史制度" },
-      { "text": "思想：罢黜百家，独尊儒术" },
-      { "text": "经济：盐铁官营、五铢钱" },
-      { "text": "军事：卫青、霍去病击匈奴" }
-    ]}
+    {
+      "text": "汉武帝大一统",
+      "children": [
+        {
+          "text": "政治：推恩令、刺史制度"
+        },
+        {
+          "text": "思想：罢黜百家，独尊儒术"
+        },
+        {
+          "text": "经济：盐铁官营、五铢钱"
+        },
+        {
+          "text": "军事：卫青、霍去病击匈奴"
+        }
+      ]
+    }
   ]
 }

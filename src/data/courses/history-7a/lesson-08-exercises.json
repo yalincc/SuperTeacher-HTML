@@ -1,9 +1,84 @@
 {
   "lessonId": 8,
   "exercises": [
-    { "type": "choice", "id": "ex-8-1", "stem": "甲骨文最早被发现于（  ）", "options": [{ "label": "A", "text": "1899年" }, { "label": "B", "text": "1900年" }, { "label": "C", "text": "1921年" }, { "label": "D", "text": "1929年" }], "answer": "A", "analysis": "1899年，清朝人王懿荣首次发现甲骨文。" },
-    { "type": "choice", "id": "ex-8-2", "stem": "世界上最重的青铜器是（  ）", "options": [{ "label": "A", "text": "四羊方尊" }, { "label": "B", "text": "司母戊鼎" }, { "label": "C", "text": "毛公鼎" }, { "label": "D", "text": "大盂鼎" }], "answer": "B", "analysis": "司母戊鼎重832.84千克，是世界上最重的青铜器。" },
-    { "type": "true_false", "id": "ex-8-3", "stem": "中国有文字可考的历史从夏朝开始。", "answer": false, "analysis": "中国有文字可考的历史从商朝开始，因为甲骨文是商朝的文字记录。" },
-    { "type": "fill", "id": "ex-8-4", "segments": ["甲骨文是刻在", "___1___", "和兽骨上的文字，已具备象形、", "___2___", "、会意、形声等造字方法。"], "blanks": [{ "index": 1, "answer": "龟甲" }, { "index": 2, "answer": "指事" }], "analysis": "甲骨文刻在龟甲和兽骨上，已具备象形、指事、会意、形声四种造字方法。" }
+    {
+      "type": "choice",
+      "id": "ex-8-1",
+      "stem": "甲骨文最早被发现于（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1899年"
+        },
+        {
+          "label": "B",
+          "text": "1900年"
+        },
+        {
+          "label": "C",
+          "text": "1921年"
+        },
+        {
+          "label": "D",
+          "text": "1929年"
+        }
+      ],
+      "answer": "A",
+      "analysis": "1899年，清朝人王懿荣首次发现甲骨文。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-8-2",
+      "stem": "世界上最重的青铜器是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "四羊方尊"
+        },
+        {
+          "label": "B",
+          "text": "司母戊鼎"
+        },
+        {
+          "label": "C",
+          "text": "毛公鼎"
+        },
+        {
+          "label": "D",
+          "text": "大盂鼎"
+        }
+      ],
+      "answer": "B",
+      "analysis": "司母戊鼎重832.84千克，是世界上最重的青铜器。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-8-3",
+      "stem": "中国有文字可考的历史从夏朝开始。",
+      "answer": false,
+      "analysis": "中国有文字可考的历史从商朝开始，因为甲骨文是商朝的文字记录。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-4",
+      "segments": [
+        "甲骨文是刻在",
+        "___1___",
+        "和兽骨上的文字，已具备象形、",
+        "___2___",
+        "、会意、形声等造字方法"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "龟甲"
+        },
+        {
+          "index": 2,
+          "answer": "指事"
+        }
+      ],
+      "analysis": "甲骨文刻在龟甲和兽骨上，已具备象形、指事、会意、形声四种造字方法。"
+    }
   ]
 }

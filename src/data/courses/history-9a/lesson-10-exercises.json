@@ -1,0 +1,84 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-10-1",
+      "stem": "拜占庭帝国灭亡的时间是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "476年"
+        },
+        {
+          "label": "B",
+          "text": "1054年"
+        },
+        {
+          "label": "C",
+          "text": "1453年"
+        },
+        {
+          "label": "D",
+          "text": "1492年"
+        }
+      ],
+      "answer": "C",
+      "analysis": "1453年拜占庭帝国灭亡。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-2",
+      "stem": "奠定欧洲民法基础的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "《汉谟拉比法典》"
+        },
+        {
+          "label": "B",
+          "text": "《十二铜表法》"
+        },
+        {
+          "label": "C",
+          "text": "《罗马民法大全》"
+        },
+        {
+          "label": "D",
+          "text": "《拿破仑法典》"
+        }
+      ],
+      "answer": "C",
+      "analysis": "《罗马民法大全》奠定欧洲民法基础。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-3",
+      "stem": "东罗马帝国又称拜占庭帝国。",
+      "answer": true,
+      "analysis": "东罗马帝国又称拜占庭帝国。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-4",
+      "segments": [
+        "拜占庭帝国灭亡于",
+        "___1___",
+        "年，查士丁尼编纂的",
+        "___2___",
+        "奠定欧洲民法基础"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "1453"
+        },
+        {
+          "index": 2,
+          "answer": "罗马民法大全"
+        }
+      ],
+      "analysis": "拜占庭1453年灭亡，罗马民法大全奠定欧洲民法基础。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 10, "slug": "lesson-10-拜占庭帝国和查士丁尼法典", "title": "拜占庭帝国和查士丁尼法典", "unit": "第四单元", "week": 4, "day": 1 },
+  "objectives": [
+    { "text": "了解拜占庭帝国的兴衰", "isKeyPoint": true },
+    { "text": "掌握《查士丁尼法典》的内容和意义", "isKeyPoint": true },
+    { "text": "理解拜占庭文化对后世的影响", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "拜占庭帝国",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "东罗马帝国又称「**拜占庭帝国**」。395年罗马帝国分裂后，东罗马帝国继续存在。6世纪查士丁尼在位时，帝国版图横跨欧亚非三洲。1453年，奥斯曼帝国攻破君士坦丁堡，拜占庭帝国灭亡。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "西罗马帝国476年灭亡，东罗马帝国（拜占庭）延续到1453年。两者灭亡时间相差近1000年。" }
+      ]
+    },
+    {
+      "title": "《查士丁尼法典》",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "529年起，**查士丁尼**组织编纂《**查士丁尼法典**》《法学汇纂》《法理概要》《新法典》，统称为《**罗马民法大全**》。它奠定了欧洲民法的基础。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "《罗马民法大全》是对罗马法的系统总结，对后世欧洲各国的法律制度产生了深远影响。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：拜占庭帝国",
+      "problem": [
+        { "type": "paragraph", "content": "拜占庭帝国灭亡的时间是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 476年", "B. 1054年", "C. 1453年", "D. 1492年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1453年奥斯曼帝国攻破君士坦丁堡，拜占庭帝国灭亡。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：罗马民法大全",
+      "problem": [
+        { "type": "paragraph", "content": "奠定了欧洲民法基础的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《汉谟拉比法典》", "B. 《十二铜表法》", "C. 《罗马民法大全》", "D. 《拿破仑法典》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "《罗马民法大全》奠定了欧洲民法的基础。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "拜占庭帝国", "children": [
+      { "text": "395年罗马帝国分裂后继续存在" },
+      { "text": "1453年灭亡" }
+    ]},
+    { "text": "《罗马民法大全》", "children": [
+      { "text": "查士丁尼组织编纂" },
+      { "text": "奠定欧洲民法基础" }
+    ]}
+  ]
+}

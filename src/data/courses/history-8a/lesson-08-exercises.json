@@ -1,9 +1,84 @@
 {
   "lessonId": 8,
   "exercises": [
-    { "type": "choice", "id": "ex-8-1", "stem": "中国共产党第一次全国代表大会召开于（  ）", "options": [{ "label": "A", "text": "1919年" }, { "label": "B", "text": "1920年" }, { "label": "C", "text": "1921年" }, { "label": "D", "text": "1922年" }], "answer": "C", "analysis": "中共一大于1921年7月召开。" },
-    { "type": "choice", "id": "ex-8-2", "stem": "中国共产党的诞生是中国历史上（  ）", "options": [{ "label": "A", "text": "开天辟地的大事" }, { "label": "B", "text": "新民主主义革命胜利" }, { "label": "C", "text": "国共合作标志" }, { "label": "D", "text": "结束封建帝制" }], "answer": "A", "analysis": "中国共产党的诞生是中国历史上开天辟地的大事。" },
-    { "type": "true_false", "id": "ex-8-3", "stem": "李大钊是中国最早传播马克思主义的人之一。", "answer": true, "analysis": "李大钊发表《我的马克思主义观》，系统介绍马克思主义。" },
-    { "type": "fill", "id": "ex-8-4", "segments": ["1921年7月，中共一大在", "___1___", "召开，后转移到嘉兴", "___2___", "。"], "blanks": [{ "index": 1, "answer": "上海" }, { "index": 2, "answer": "南湖" }], "analysis": "中共一大在上海召开，后转移到嘉兴南湖。" }
+    {
+      "type": "choice",
+      "id": "ex-8-1",
+      "stem": "中国共产党第一次全国代表大会召开于（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1919年"
+        },
+        {
+          "label": "B",
+          "text": "1920年"
+        },
+        {
+          "label": "C",
+          "text": "1921年"
+        },
+        {
+          "label": "D",
+          "text": "1922年"
+        }
+      ],
+      "answer": "C",
+      "analysis": "中共一大于1921年7月召开。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-8-2",
+      "stem": "中国共产党的诞生是中国历史上（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "开天辟地的大事"
+        },
+        {
+          "label": "B",
+          "text": "新民主主义革命胜利"
+        },
+        {
+          "label": "C",
+          "text": "国共合作标志"
+        },
+        {
+          "label": "D",
+          "text": "结束封建帝制"
+        }
+      ],
+      "answer": "A",
+      "analysis": "中国共产党的诞生是中国历史上开天辟地的大事。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-8-3",
+      "stem": "李大钊是中国最早传播马克思主义的人之一。",
+      "answer": true,
+      "analysis": "李大钊发表《我的马克思主义观》，系统介绍马克思主义。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-4",
+      "segments": [
+        "1921年7月，中共一大在",
+        "___1___",
+        "召开，后转移到嘉兴",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "上海"
+        },
+        {
+          "index": 2,
+          "answer": "南湖"
+        }
+      ],
+      "analysis": "中共一大在上海召开，后转移到嘉兴南湖。"
+    }
   ]
 }

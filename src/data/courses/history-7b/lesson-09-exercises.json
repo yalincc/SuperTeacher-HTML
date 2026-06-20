@@ -1,9 +1,84 @@
 {
   "lessonId": 9,
   "exercises": [
-    { "type": "choice", "id": "ex-9-1", "stem": "导致北宋灭亡的事件是（  ）", "options": [{ "label": "A", "text": "澶渊之盟" }, { "label": "B", "text": "靖康之变" }, { "label": "C", "text": "陈桥兵变" }, { "label": "D", "text": "土木之变" }], "answer": "B", "analysis": "1127年金军攻破东京，掳走徽钦二帝，北宋灭亡，史称「靖康之变」。" },
-    { "type": "choice", "id": "ex-9-2", "stem": "南宋与金对峙的分界线是（  ）", "options": [{ "label": "A", "text": "长城一线" }, { "label": "B", "text": "黄河一线" }, { "label": "C", "text": "淮水至大散关一线" }, { "label": "D", "text": "长江一线" }], "answer": "C", "analysis": "绍兴和议规定宋金以淮水至大散关一线为界。" },
-    { "type": "true_false", "id": "ex-9-3", "stem": "岳飞抗金是正义的自卫战争。", "answer": true, "analysis": "岳飞抗金是南宋人民反抗金军掠夺的正义自卫战争。" },
-    { "type": "fill", "id": "ex-9-4", "segments": ["金的建立者是", "___1___", "。南宋抗金名将是", "___2___", "。"], "blanks": [{ "index": 1, "answer": "完颜阿骨打" }, { "index": 2, "answer": "岳飞" }], "analysis": "完颜阿骨打建立金，岳飞是南宋抗金名将。" }
+    {
+      "type": "choice",
+      "id": "ex-9-1",
+      "stem": "导致北宋灭亡的事件是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "澶渊之盟"
+        },
+        {
+          "label": "B",
+          "text": "靖康之变"
+        },
+        {
+          "label": "C",
+          "text": "陈桥兵变"
+        },
+        {
+          "label": "D",
+          "text": "土木之变"
+        }
+      ],
+      "answer": "B",
+      "analysis": "1127年金军攻破东京，掳走徽钦二帝，北宋灭亡，史称「靖康之变」。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-9-2",
+      "stem": "南宋与金对峙的分界线是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "长城一线"
+        },
+        {
+          "label": "B",
+          "text": "黄河一线"
+        },
+        {
+          "label": "C",
+          "text": "淮水至大散关一线"
+        },
+        {
+          "label": "D",
+          "text": "长江一线"
+        }
+      ],
+      "answer": "C",
+      "analysis": "绍兴和议规定宋金以淮水至大散关一线为界。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-9-3",
+      "stem": "岳飞抗金是正义的自卫战争。",
+      "answer": true,
+      "analysis": "岳飞抗金是南宋人民反抗金军掠夺的正义自卫战争。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-4",
+      "segments": [
+        "金的建立者是",
+        "___1___",
+        "。南宋抗金名将是",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "完颜阿骨打"
+        },
+        {
+          "index": 2,
+          "answer": "岳飞"
+        }
+      ],
+      "analysis": "完颜阿骨打建立金，岳飞是南宋抗金名将。"
+    }
   ]
 }

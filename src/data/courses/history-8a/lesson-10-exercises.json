@@ -1,9 +1,84 @@
 {
   "lessonId": 10,
   "exercises": [
-    { "type": "choice", "id": "ex-10-1", "stem": "遵义会议确立了谁的领导地位？（  ）", "options": [{ "label": "A", "text": "博古" }, { "label": "B", "text": "李德" }, { "label": "C", "text": "毛泽东" }, { "label": "D", "text": "周恩来" }], "answer": "C", "analysis": "遵义会议确立了以毛泽东为代表的马克思主义正确路线的领导地位。" },
-    { "type": "choice", "id": "ex-10-2", "stem": "红军三大主力会师的地点是（  ）", "options": [{ "label": "A", "text": "吴起镇" }, { "label": "B", "text": "会宁" }, { "label": "C", "text": "遵义" }, { "label": "D", "text": "瑞金" }], "answer": "B", "analysis": "1936年10月红军三大主力在会宁会师。" },
-    { "type": "true_false", "id": "ex-10-3", "stem": "遵义会议是中国共产党历史上生死攸关的转折点。", "answer": true, "analysis": "遵义会议在极端危急时刻挽救了党、挽救了红军、挽救了中国革命。" },
-    { "type": "fill", "id": "ex-10-4", "segments": ["1935年1月，中共中央在", "___1___", "召开会议。1936年10月，三大主力在", "___2___", "会师。"], "blanks": [{ "index": 1, "answer": "遵义" }, { "index": 2, "answer": "会宁" }], "analysis": "遵义会议和会宁会师是长征中的重要事件。" }
+    {
+      "type": "choice",
+      "id": "ex-10-1",
+      "stem": "遵义会议确立了谁的领导地位？（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "博古"
+        },
+        {
+          "label": "B",
+          "text": "李德"
+        },
+        {
+          "label": "C",
+          "text": "毛泽东"
+        },
+        {
+          "label": "D",
+          "text": "周恩来"
+        }
+      ],
+      "answer": "C",
+      "analysis": "遵义会议确立了以毛泽东为代表的马克思主义正确路线的领导地位。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-2",
+      "stem": "红军三大主力会师的地点是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "吴起镇"
+        },
+        {
+          "label": "B",
+          "text": "会宁"
+        },
+        {
+          "label": "C",
+          "text": "遵义"
+        },
+        {
+          "label": "D",
+          "text": "瑞金"
+        }
+      ],
+      "answer": "B",
+      "analysis": "1936年10月红军三大主力在会宁会师。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-3",
+      "stem": "遵义会议是中国共产党历史上生死攸关的转折点。",
+      "answer": true,
+      "analysis": "遵义会议在极端危急时刻挽救了党、挽救了红军、挽救了中国革命。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-4",
+      "segments": [
+        "1935年1月，中共中央在",
+        "___1___",
+        "召开会议。1936年10月，三大主力在",
+        "___2___",
+        "会师"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "遵义"
+        },
+        {
+          "index": 2,
+          "answer": "会宁"
+        }
+      ],
+      "analysis": "遵义会议和会宁会师是长征中的重要事件。"
+    }
   ]
 }

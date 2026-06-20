@@ -1,9 +1,84 @@
 {
   "lessonId": 5,
   "exercises": [
-    { "type": "choice", "id": "ex-5-1", "stem": "春秋时期开始的标志是（  ）", "options": [{ "label": "A", "text": "武王伐纣" }, { "label": "B", "text": "平王东迁" }, { "label": "C", "text": "管仲改革" }, { "label": "D", "text": "城濮之战" }], "answer": "B", "analysis": "公元前770年，周平王将都城东迁至洛邑，标志着春秋时期的开始。" },
-    { "type": "choice", "id": "ex-5-2", "stem": "齐桓公称霸的重要策略是（  ）", "options": [{ "label": "A", "text": "远交近攻" }, { "label": "B", "text": "尊王攘夷" }, { "label": "C", "text": "合纵连横" }, { "label": "D", "text": "围魏救赵" }], "answer": "B", "analysis": "齐桓公任用管仲改革，以「尊王攘夷「为旗号，成为春秋第一个霸主。" },
-    { "type": "true_false", "id": "ex-5-3", "stem": "铁制农具和牛耕最早出现在战国时期。", "answer": false, "analysis": "铁制农具和牛耕最早出现在春秋时期，战国时期才广泛使用。" },
-    { "type": "fill", "id": "ex-5-4", "segments": ["春秋时期，", "___1___", "的出现和", "___2___", "的推广是农业生产发展的重要标志。"], "blanks": [{ "index": 1, "answer": "铁制农具" }, { "index": 2, "answer": "牛耕" }], "analysis": "铁制农具和牛耕的出现是春秋时期农业生产力发展的革命性变化。" }
+    {
+      "type": "choice",
+      "id": "ex-5-1",
+      "stem": "春秋时期开始的标志是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "武王伐纣"
+        },
+        {
+          "label": "B",
+          "text": "平王东迁"
+        },
+        {
+          "label": "C",
+          "text": "管仲改革"
+        },
+        {
+          "label": "D",
+          "text": "城濮之战"
+        }
+      ],
+      "answer": "B",
+      "analysis": "公元前770年，周平王将都城东迁至洛邑，标志着春秋时期的开始。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-5-2",
+      "stem": "齐桓公称霸的重要策略是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "远交近攻"
+        },
+        {
+          "label": "B",
+          "text": "尊王攘夷"
+        },
+        {
+          "label": "C",
+          "text": "合纵连横"
+        },
+        {
+          "label": "D",
+          "text": "围魏救赵"
+        }
+      ],
+      "answer": "B",
+      "analysis": "齐桓公任用管仲改革，以「尊王攘夷「为旗号，成为春秋第一个霸主。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-5-3",
+      "stem": "铁制农具和牛耕最早出现在战国时期。",
+      "answer": false,
+      "analysis": "铁制农具和牛耕最早出现在春秋时期，战国时期才广泛使用。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-4",
+      "segments": [
+        "春秋时期，",
+        "___1___",
+        "的出现和",
+        "___2___",
+        "的推广是农业生产发展的重要标志"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "铁制农具"
+        },
+        {
+          "index": 2,
+          "answer": "牛耕"
+        }
+      ],
+      "analysis": "铁制农具和牛耕的出现是春秋时期农业生产力发展的革命性变化。"
+    }
   ]
 }

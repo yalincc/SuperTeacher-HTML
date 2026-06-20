@@ -1,9 +1,84 @@
 {
   "lessonId": 15,
   "exercises": [
-    { "type": "choice", "id": "ex-15-1", "stem": "灭亡明朝的农民起义军领袖是（  ）", "options": [{ "label": "A", "text": "黄巢" }, { "label": "B", "text": "李自成" }, { "label": "C", "text": "洪秀全" }, { "label": "D", "text": "李秀成" }], "answer": "B", "analysis": "李自成率起义军攻入北京，明朝灭亡。" },
-    { "type": "choice", "id": "ex-15-2", "stem": "引清军入关的明朝将领是（  ）", "options": [{ "label": "A", "text": "袁崇焕" }, { "label": "B", "text": "吴三桂" }, { "label": "C", "text": "史可法" }, { "label": "D", "text": "郑成功" }], "answer": "B", "analysis": "1644年吴三桂引清军入关。" },
-    { "type": "true_false", "id": "ex-15-3", "stem": "明朝是被清朝灭亡的。", "answer": false, "analysis": "明朝是被李自成起义灭亡的，清军入关是在明朝灭亡之后。" },
-    { "type": "fill", "id": "ex-15-4", "segments": ["1644年，", "___1___", "率起义军攻入北京，明朝灭亡。清朝建立者是", "___2___", "。"], "blanks": [{ "index": 1, "answer": "李自成" }, { "index": 2, "answer": "努尔哈赤" }], "analysis": "李自成攻入北京灭亡明朝，努尔哈赤建立后金（清朝前身）。" }
+    {
+      "type": "choice",
+      "id": "ex-15-1",
+      "stem": "灭亡明朝的农民起义军领袖是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "黄巢"
+        },
+        {
+          "label": "B",
+          "text": "李自成"
+        },
+        {
+          "label": "C",
+          "text": "洪秀全"
+        },
+        {
+          "label": "D",
+          "text": "李秀成"
+        }
+      ],
+      "answer": "B",
+      "analysis": "李自成率起义军攻入北京，明朝灭亡。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-15-2",
+      "stem": "引清军入关的明朝将领是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "袁崇焕"
+        },
+        {
+          "label": "B",
+          "text": "吴三桂"
+        },
+        {
+          "label": "C",
+          "text": "史可法"
+        },
+        {
+          "label": "D",
+          "text": "郑成功"
+        }
+      ],
+      "answer": "B",
+      "analysis": "1644年吴三桂引清军入关。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-15-3",
+      "stem": "明朝是被清朝灭亡的。",
+      "answer": false,
+      "analysis": "明朝是被李自成起义灭亡的，清军入关是在明朝灭亡之后。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-15-4",
+      "segments": [
+        "1644年，",
+        "___1___",
+        "率起义军攻入北京，明朝灭亡。清朝建立者是",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "李自成"
+        },
+        {
+          "index": 2,
+          "answer": "努尔哈赤"
+        }
+      ],
+      "analysis": "李自成攻入北京灭亡明朝，努尔哈赤建立后金（清朝前身）。"
+    }
   ]
 }

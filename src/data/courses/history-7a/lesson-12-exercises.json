@@ -1,8 +1,84 @@
 {
   "lessonId": 12,
   "exercises": [
-    { "type": "choice", "id": "ex-12-1", "stem": "「罢黜百家，独尊儒术「是谁提出的建议？", "options": [{ "label": "A", "text": "主父偃" }, { "label": "B", "text": "董仲舒" }, { "label": "C", "text": "卫青" }, { "label": "D", "text": "张骞" }], "answer": "B", "analysis": "董仲舒建议汉武帝「罢黜百家，独尊儒术「，确立儒学为正统思想。" },
-    { "type": "true_false", "id": "ex-12-2", "stem": "汉武帝时期铸造的统一货币是五铢钱。", "answer": true, "analysis": "汉武帝将铸币权收归中央，统一铸造五铢钱，稳定了金融秩序。" },
-    { "type": "fill", "id": "ex-12-3", "segments": ["汉武帝派", "___1___", "和", "___2___", "北击匈奴。"], "blanks": [{ "index": 1, "answer": "卫青" }, { "index": 2, "answer": "霍去病" }], "analysis": "卫青和霍去病是汉武帝时期北击匈奴的两位主要将领。" }
+    {
+      "type": "choice",
+      "id": "ex-12-1",
+      "stem": "「罢黜百家，独尊儒术「是谁提出的建议？",
+      "options": [
+        {
+          "label": "A",
+          "text": "主父偃"
+        },
+        {
+          "label": "B",
+          "text": "董仲舒"
+        },
+        {
+          "label": "C",
+          "text": "卫青"
+        },
+        {
+          "label": "D",
+          "text": "张骞"
+        }
+      ],
+      "answer": "B",
+      "analysis": "董仲舒建议汉武帝「罢黜百家，独尊儒术「，确立儒学为正统思想。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-2",
+      "stem": "汉武帝时期铸造的统一货币是五铢钱。",
+      "options": [
+        {
+          "label": "A",
+          "text": "正确"
+        },
+        {
+          "label": "B",
+          "text": "错误"
+        },
+        {
+          "label": "C",
+          "text": "不确定"
+        },
+        {
+          "label": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "answer": "A",
+      "analysis": "补充练习题"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-12-3",
+      "stem": "汉武帝时期铸造的统一货币是五铢钱。",
+      "answer": true,
+      "analysis": "汉武帝将铸币权收归中央，统一铸造五铢钱，稳定了金融秩序。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-12-4",
+      "segments": [
+        "汉武帝派",
+        "___1___",
+        "和",
+        "___2___",
+        "北击匈奴"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "卫青"
+        },
+        {
+          "index": 2,
+          "answer": "霍去病"
+        }
+      ],
+      "analysis": "卫青和霍去病是汉武帝时期北击匈奴的两位主要将领。"
+    }
   ]
 }

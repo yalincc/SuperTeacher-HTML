@@ -1,9 +1,84 @@
 {
   "lessonId": 3,
   "exercises": [
-    { "type": "choice", "id": "ex-3-1", "stem": "被北方各族尊称为「天可汗」的是（  ）", "options": [{ "label": "A", "text": "唐太宗" }, { "label": "B", "text": "唐玄宗" }, { "label": "C", "text": "武则天" }, { "label": "D", "text": "松赞干布" }], "answer": "A", "analysis": "唐太宗实行开明的民族政策，被北方各族尊称为「天可汗」。" },
-    { "type": "choice", "id": "ex-3-2", "stem": "唐朝时期，被称为「诗仙」的诗人是（  ）", "options": [{ "label": "A", "text": "杜甫" }, { "label": "B", "text": "李白" }, { "label": "C", "text": "白居易" }, { "label": "D", "text": "苏轼" }], "answer": "B", "analysis": "李白被称为「诗仙」，杜甫被称为「诗圣」，白居易以通俗著称。苏轼是宋朝诗人。" },
-    { "type": "true_false", "id": "ex-3-3", "stem": "文成公主入藏嫁给的是唐太宗。", "answer": false, "analysis": "文成公主入藏嫁给的是吐蕃赞普松赞干布，不是唐太宗。唐太宗将文成公主嫁给松赞干布。" },
-    { "type": "fill", "id": "ex-3-4", "segments": ["唐朝发明并推广的农业工具有", "___1___", "和筒车。被称为「画圣」的画家是", "___2___", "。"], "blanks": [{ "index": 1, "answer": "曲辕犁" }, { "index": 2, "answer": "吴道子" }], "analysis": "曲辕犁和筒车是唐朝重要的农业发明。吴道子被尊为「画圣」。" }
+    {
+      "type": "choice",
+      "id": "ex-3-1",
+      "stem": "被北方各族尊称为「天可汗」的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "唐太宗"
+        },
+        {
+          "label": "B",
+          "text": "唐玄宗"
+        },
+        {
+          "label": "C",
+          "text": "武则天"
+        },
+        {
+          "label": "D",
+          "text": "松赞干布"
+        }
+      ],
+      "answer": "A",
+      "analysis": "唐太宗实行开明的民族政策，被北方各族尊称为「天可汗」。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-3-2",
+      "stem": "唐朝时期，被称为「诗仙」的诗人是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "杜甫"
+        },
+        {
+          "label": "B",
+          "text": "李白"
+        },
+        {
+          "label": "C",
+          "text": "白居易"
+        },
+        {
+          "label": "D",
+          "text": "苏轼"
+        }
+      ],
+      "answer": "B",
+      "analysis": "李白被称为「诗仙」，杜甫被称为「诗圣」，白居易以通俗著称。苏轼是宋朝诗人。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-3-3",
+      "stem": "文成公主入藏嫁给的是唐太宗。",
+      "answer": false,
+      "analysis": "文成公主入藏嫁给的是吐蕃赞普松赞干布，不是唐太宗。唐太宗将文成公主嫁给松赞干布。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-4",
+      "segments": [
+        "唐朝发明并推广的农业工具有",
+        "___1___",
+        "和筒车。被称为「画圣」的画家是",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "曲辕犁"
+        },
+        {
+          "index": 2,
+          "answer": "吴道子"
+        }
+      ],
+      "analysis": "曲辕犁和筒车是唐朝重要的农业发明。吴道子被尊为「画圣」。"
+    }
   ]
 }

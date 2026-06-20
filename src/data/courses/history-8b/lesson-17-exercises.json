@@ -1,9 +1,78 @@
 {
   "lessonId": 17,
   "exercises": [
-    { "type": "choice", "id": "ex-17-1", "stem": "改革开放以来，人们出行方式变化最大的是（  ）", "options": [{ "label": "A", "text": "从步行到骑自行车" }, { "label": "B", "text": "从自行车到私家车、高铁" }, { "label": "C", "text": "从马车到汽车" }, { "label": "D", "text": "从火车到飞机" }], "answer": "B", "analysis": "改革开放后出行方式从自行车发展到私家车、高铁。" },
-    { "type": "choice", "id": "ex-17-2", "stem": "深刻改变人们生活方式的技术是（  ）", "options": [{ "label": "A", "text": "电视" }, { "label": "B", "text": "电话" }, { "label": "C", "text": "互联网" }, { "label": "D", "text": "收音机" }], "answer": "C", "analysis": "互联网的普及深刻改变了人们的生活方式。" },
-    { "type": "true_false", "id": "ex-17-3", "stem": "社会生活的变化是改革开放成就的直接体现。", "answer": true, "analysis": "社会生活的变化反映了改革开放以来人民生活水平的显著提高。" },
-    { "type": "fill", "id": "ex-17-4", "segments": ["改革开放以来，人们衣食住行发生了翻天覆地的变化。", "___1___", "的普及深刻改变了人们的生活方式。"], "blanks": [{ "index": 1, "answer": "互联网" }], "analysis": "互联网的普及深刻改变了人们的生活方式。" }
+    {
+      "type": "choice",
+      "id": "ex-17-1",
+      "stem": "改革开放以来，人们出行方式变化最大的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "从步行到骑自行车"
+        },
+        {
+          "label": "B",
+          "text": "从自行车到私家车、高铁"
+        },
+        {
+          "label": "C",
+          "text": "从马车到汽车"
+        },
+        {
+          "label": "D",
+          "text": "从火车到飞机"
+        }
+      ],
+      "answer": "B",
+      "analysis": "改革开放后出行方式从自行车发展到私家车、高铁。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-17-2",
+      "stem": "深刻改变人们生活方式的技术是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "电视"
+        },
+        {
+          "label": "B",
+          "text": "电话"
+        },
+        {
+          "label": "C",
+          "text": "互联网"
+        },
+        {
+          "label": "D",
+          "text": "收音机"
+        }
+      ],
+      "answer": "C",
+      "analysis": "互联网的普及深刻改变了人们的生活方式。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-17-3",
+      "stem": "社会生活的变化是改革开放成就的直接体现。",
+      "answer": true,
+      "analysis": "社会生活的变化反映了改革开放以来人民生活水平的显著提高。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-17-4",
+      "segments": [
+        "改革开放以来，人们衣食住行发生了翻天覆地的变化。",
+        "___1___",
+        "的普及深刻改变了人们的生活方式"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "互联网"
+        }
+      ],
+      "analysis": "互联网的普及深刻改变了人们的生活方式。"
+    }
   ]
 }

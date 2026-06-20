@@ -1,9 +1,84 @@
 {
   "lessonId": 10,
   "exercises": [
-    { "type": "choice", "id": "ex-10-1", "stem": "1980年设立的经济特区不包括（  ）", "options": [{ "label": "A", "text": "深圳" }, { "label": "B", "text": "珠海" }, { "label": "C", "text": "上海" }, { "label": "D", "text": "厦门" }], "answer": "C", "analysis": "1980年设立的经济特区是深圳、珠海、汕头、厦门。" },
-    { "type": "choice", "id": "ex-10-2", "stem": "中国加入世界贸易组织的时间是（  ）", "options": [{ "label": "A", "text": "1997年" }, { "label": "B", "text": "1999年" }, { "label": "C", "text": "2001年" }, { "label": "D", "text": "2003年" }], "answer": "C", "analysis": "2001年中国加入世界贸易组织。" },
-    { "type": "true_false", "id": "ex-10-3", "stem": "深圳是经济特区的代表和对外开放的窗口。", "answer": true, "analysis": "深圳从边陲小渔村发展为现代化大都市，是对外开放的象征。" },
-    { "type": "fill", "id": "ex-10-4", "segments": ["1980年，我国设立深圳、珠海、汕头、", "___1___", "4个经济特区。2001年加入", "___2___", "。"], "blanks": [{ "index": 1, "answer": "厦门" }, { "index": 2, "answer": "世界贸易组织" }], "analysis": "1980年设立4个经济特区，2001年加入WTO。" }
+    {
+      "type": "choice",
+      "id": "ex-10-1",
+      "stem": "1980年设立的经济特区不包括（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "深圳"
+        },
+        {
+          "label": "B",
+          "text": "珠海"
+        },
+        {
+          "label": "C",
+          "text": "上海"
+        },
+        {
+          "label": "D",
+          "text": "厦门"
+        }
+      ],
+      "answer": "C",
+      "analysis": "1980年设立的经济特区是深圳、珠海、汕头、厦门。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-2",
+      "stem": "中国加入世界贸易组织的时间是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1997年"
+        },
+        {
+          "label": "B",
+          "text": "1999年"
+        },
+        {
+          "label": "C",
+          "text": "2001年"
+        },
+        {
+          "label": "D",
+          "text": "2003年"
+        }
+      ],
+      "answer": "C",
+      "analysis": "2001年中国加入世界贸易组织。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-3",
+      "stem": "深圳是经济特区的代表和对外开放的窗口。",
+      "answer": true,
+      "analysis": "深圳从边陲小渔村发展为现代化大都市，是对外开放的象征。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-4",
+      "segments": [
+        "1980年，我国设立深圳、珠海、汕头、",
+        "___1___",
+        "4个经济特区。2001年加入",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "厦门"
+        },
+        {
+          "index": 2,
+          "answer": "世界贸易组织"
+        }
+      ],
+      "analysis": "1980年设立4个经济特区，2001年加入WTO。"
+    }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    { "type": "choice", "id": "ex-13-1", "stem": "文艺复兴的核心思想是（  ）", "options": [{ "label": "A", "text": "理性主义" }, { "label": "B", "text": "人文主义" }, { "label": "C", "text": "神权至上" }, { "label": "D", "text": "君权神授" }], "answer": "B", "analysis": "文艺复兴核心思想是人文主义。" },
+    { "type": "choice", "id": "ex-13-2", "stem": "文艺复兴的先驱是（  ）", "options": [{ "label": "A", "text": "达·芬奇" }, { "label": "B", "text": "但丁" }, { "label": "C", "text": "莎士比亚" }, { "label": "D", "text": "哥白尼" }], "answer": "B", "analysis": "但丁是文艺复兴的先驱。" },
+    { "type": "true_false", "id": "ex-13-3", "stem": "文艺复兴起源于意大利。", "answer": true, "analysis": "文艺复兴14世纪起源于意大利。" },
+    { "type": "fill", "id": "ex-13-4", "segments": ["文艺复兴核心思想是", "___1___", "但丁代表作是", "___2___"], "blanks": [{ "index": 1, "answer": "人文主义" }, { "index": 2, "answer": "神曲" }], "analysis": "文艺复兴核心是人文主义，但丁代表作是《神曲》。" }
+  ]
+}

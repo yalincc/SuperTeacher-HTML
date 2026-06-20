@@ -1,9 +1,84 @@
 {
   "lessonId": 13,
   "exercises": [
-    { "type": "choice", "id": "ex-13-1", "stem": "明朝的建立者是（  ）", "options": [{ "label": "A", "text": "朱棣" }, { "label": "B", "text": "朱元璋" }, { "label": "C", "text": "朱高炽" }, { "label": "D", "text": "朱瞻基" }], "answer": "B", "analysis": "朱元璋（明太祖）1368年建立明朝。" },
-    { "type": "choice", "id": "ex-13-2", "stem": "废除丞相制度的皇帝是（  ）", "options": [{ "label": "A", "text": "唐太宗" }, { "label": "B", "text": "宋太祖" }, { "label": "C", "text": "朱元璋" }, { "label": "D", "text": "朱棣" }], "answer": "C", "analysis": "朱元璋废除丞相制度和中书省，权分六部。" },
-    { "type": "true_false", "id": "ex-13-3", "stem": "明朝科举考试实行八股取士。", "answer": true, "analysis": "明朝科举考试实行八股取士，考试内容限于四书五经，文体必须是八股文。" },
-    { "type": "fill", "id": "ex-13-4", "segments": ["明太祖", "___1___", "废除丞相制度。明成祖", "___2___", "设立东厂特务机构。"], "blanks": [{ "index": 1, "answer": "朱元璋" }, { "index": 2, "answer": "朱棣" }], "analysis": "朱元璋废除丞相，朱棣设立东厂。" }
+    {
+      "type": "choice",
+      "id": "ex-13-1",
+      "stem": "明朝的建立者是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "朱棣"
+        },
+        {
+          "label": "B",
+          "text": "朱元璋"
+        },
+        {
+          "label": "C",
+          "text": "朱高炽"
+        },
+        {
+          "label": "D",
+          "text": "朱瞻基"
+        }
+      ],
+      "answer": "B",
+      "analysis": "朱元璋（明太祖）1368年建立明朝。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-2",
+      "stem": "废除丞相制度的皇帝是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "唐太宗"
+        },
+        {
+          "label": "B",
+          "text": "宋太祖"
+        },
+        {
+          "label": "C",
+          "text": "朱元璋"
+        },
+        {
+          "label": "D",
+          "text": "朱棣"
+        }
+      ],
+      "answer": "C",
+      "analysis": "朱元璋废除丞相制度和中书省，权分六部。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-13-3",
+      "stem": "明朝科举考试实行八股取士。",
+      "answer": true,
+      "analysis": "明朝科举考试实行八股取士，考试内容限于四书五经，文体必须是八股文。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-13-4",
+      "segments": [
+        "明太祖",
+        "___1___",
+        "废除丞相制度。明成祖",
+        "___2___",
+        "设立东厂特务机构"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "朱元璋"
+        },
+        {
+          "index": 2,
+          "answer": "朱棣"
+        }
+      ],
+      "analysis": "朱元璋废除丞相，朱棣设立东厂。"
+    }
   ]
 }

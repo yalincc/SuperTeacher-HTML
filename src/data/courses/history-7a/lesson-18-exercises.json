@@ -1,8 +1,87 @@
 {
   "lessonId": 18,
   "exercises": [
-    { "type": "choice", "id": "ex-18-1", "stem": "东晋的都城是（  ）", "options": [{ "label": "A", "text": "洛阳" }, { "label": "B", "text": "长安" }, { "label": "C", "text": "建康" }, { "label": "D", "text": "成都" }], "answer": "C", "analysis": "东晋定都建康（今南京）。洛阳是西晋和北魏的都城，长安是西汉和唐朝的都城。" },
-    { "type": "true_false", "id": "ex-18-2", "stem": "「草木皆兵「「风声鹤唳「等典故出自淝水之战。", "answer": true, "analysis": "这些典故均出自383年的淝水之战，描述前秦军队溃败时的惊慌状态。" },
-    { "type": "fill", "id": "ex-18-3", "segments": ["江南地区开发的重要原因之一是北方战乱导致大量", "___1___", "南迁，带来了充足的", "___2___", "和先进的生产技术。"], "blanks": [{ "index": 1, "answer": "人口", "alternatives": ["劳动力"] }, { "index": 2, "answer": "劳动力" }], "analysis": "北人南迁是江南开发的最重要原因，带来了大量劳动力和先进生产技术。" }
+    {
+      "type": "choice",
+      "id": "ex-18-1",
+      "stem": "东晋的都城是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "洛阳"
+        },
+        {
+          "label": "B",
+          "text": "长安"
+        },
+        {
+          "label": "C",
+          "text": "建康"
+        },
+        {
+          "label": "D",
+          "text": "成都"
+        }
+      ],
+      "answer": "C",
+      "analysis": "东晋定都建康（今南京）。洛阳是西晋和北魏的都城，长安是西汉和唐朝的都城。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-18-2",
+      "stem": "「草木皆兵「「风声鹤唳「等典故出自淝水之战。",
+      "options": [
+        {
+          "label": "A",
+          "text": "正确"
+        },
+        {
+          "label": "B",
+          "text": "错误"
+        },
+        {
+          "label": "C",
+          "text": "不确定"
+        },
+        {
+          "label": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "answer": "A",
+      "analysis": "补充练习题"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-18-3",
+      "stem": "「草木皆兵「「风声鹤唳「等典故出自淝水之战。",
+      "answer": true,
+      "analysis": "这些典故均出自383年的淝水之战，描述前秦军队溃败时的惊慌状态。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-18-4",
+      "segments": [
+        "江南地区开发的重要原因之一是北方战乱导致大量",
+        "___1___",
+        "南迁，带来了充足的",
+        "___2___",
+        "和先进的生产技术"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "人口",
+          "alternatives": [
+            "劳动力"
+          ]
+        },
+        {
+          "index": 2,
+          "answer": "劳动力"
+        }
+      ],
+      "analysis": "北人南迁是江南开发的最重要原因，带来了大量劳动力和先进生产技术。"
+    }
   ]
 }

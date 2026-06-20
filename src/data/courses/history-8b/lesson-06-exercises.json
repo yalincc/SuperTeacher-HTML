@@ -1,9 +1,84 @@
 {
   "lessonId": 6,
   "exercises": [
-    { "type": "choice", "id": "ex-6-1", "stem": "中共八大指出党和人民的主要任务是（  ）", "options": [{ "label": "A", "text": "阶级斗争" }, { "label": "B", "text": "发展社会生产力" }, { "label": "C", "text": "大跃进" }, { "label": "D", "text": "人民公社化" }], "answer": "B", "analysis": "中共八大指出主要任务是集中力量发展社会生产力。" },
-    { "type": "choice", "id": "ex-6-2", "stem": "被称为「铁人」的是（  ）", "options": [{ "label": "A", "text": "焦裕禄" }, { "label": "B", "text": "王进喜" }, { "label": "C", "text": "雷锋" }, { "label": "D", "text": "邓稼先" }], "answer": "B", "analysis": "王进喜被称为「铁人」。" },
-    { "type": "true_false", "id": "ex-6-3", "stem": "大跃进和人民公社化运动忽视了客观经济规律。", "answer": true, "analysis": "大跃进和人民公社化运动急于求成，忽视了客观经济规律。" },
-    { "type": "fill", "id": "ex-6-4", "segments": ["1956年，", "___1___", "召开，指出主要任务是发展生产力。1958年掀起", "___2___", "运动。"], "blanks": [{ "index": 1, "answer": "中共八大" }, { "index": 2, "answer": "大跃进" }], "analysis": "中共八大和大跃进是这一时期的重要事件。" }
+    {
+      "type": "choice",
+      "id": "ex-6-1",
+      "stem": "中共八大指出党和人民的主要任务是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "阶级斗争"
+        },
+        {
+          "label": "B",
+          "text": "发展社会生产力"
+        },
+        {
+          "label": "C",
+          "text": "大跃进"
+        },
+        {
+          "label": "D",
+          "text": "人民公社化"
+        }
+      ],
+      "answer": "B",
+      "analysis": "中共八大指出主要任务是集中力量发展社会生产力。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-6-2",
+      "stem": "被称为「铁人」的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "焦裕禄"
+        },
+        {
+          "label": "B",
+          "text": "王进喜"
+        },
+        {
+          "label": "C",
+          "text": "雷锋"
+        },
+        {
+          "label": "D",
+          "text": "邓稼先"
+        }
+      ],
+      "answer": "B",
+      "analysis": "王进喜被称为「铁人」。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-6-3",
+      "stem": "大跃进和人民公社化运动忽视了客观经济规律。",
+      "answer": true,
+      "analysis": "大跃进和人民公社化运动急于求成，忽视了客观经济规律。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-4",
+      "segments": [
+        "1956年，",
+        "___1___",
+        "召开，指出主要任务是发展生产力。1958年掀起",
+        "___2___",
+        "运动"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "中共八大"
+        },
+        {
+          "index": 2,
+          "answer": "大跃进"
+        }
+      ],
+      "analysis": "中共八大和大跃进是这一时期的重要事件。"
+    }
   ]
 }

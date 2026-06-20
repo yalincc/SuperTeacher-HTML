@@ -1,9 +1,84 @@
 {
   "lessonId": 1,
   "exercises": [
-    { "type": "choice", "id": "ex-1-1", "stem": "中国近代史上第一个不平等条约是（  ）", "options": [{ "label": "A", "text": "《北京条约》" }, { "label": "B", "text": "《南京条约》" }, { "label": "C", "text": "《马关条约》" }, { "label": "D", "text": "《辛丑条约》" }], "answer": "B", "analysis": "1842年签订的《南京条约》是中国近代史上第一个不平等条约。" },
-    { "type": "choice", "id": "ex-1-2", "stem": "《南京条约》中割让给英国的领土是（  ）", "options": [{ "label": "A", "text": "澳门" }, { "label": "B", "text": "香港岛" }, { "label": "C", "text": "台湾" }, { "label": "D", "text": "九龙司" }], "answer": "B", "analysis": "《南京条约》割让香港岛给英国。" },
-    { "type": "true_false", "id": "ex-1-3", "stem": "鸦片战争是中国近代史的开端。", "answer": true, "analysis": "鸦片战争后中国开始沦为半殖民地半封建社会，是中国近代史的开端。" },
-    { "type": "fill", "id": "ex-1-4", "segments": ["1839年，", "___1___", "在虎门销烟。1842年签订", "___2___", "。"], "blanks": [{ "index": 1, "answer": "林则徐" }, { "index": 2, "answer": "南京条约" }], "analysis": "林则徐虎门销烟，1842年签订《南京条约》。" }
+    {
+      "type": "choice",
+      "id": "ex-1-1",
+      "stem": "中国近代史上第一个不平等条约是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "《北京条约》"
+        },
+        {
+          "label": "B",
+          "text": "《南京条约》"
+        },
+        {
+          "label": "C",
+          "text": "《马关条约》"
+        },
+        {
+          "label": "D",
+          "text": "《辛丑条约》"
+        }
+      ],
+      "answer": "B",
+      "analysis": "1842年签订的《南京条约》是中国近代史上第一个不平等条约。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-1-2",
+      "stem": "《南京条约》中割让给英国的领土是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "澳门"
+        },
+        {
+          "label": "B",
+          "text": "香港岛"
+        },
+        {
+          "label": "C",
+          "text": "台湾"
+        },
+        {
+          "label": "D",
+          "text": "九龙司"
+        }
+      ],
+      "answer": "B",
+      "analysis": "《南京条约》割让香港岛给英国。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-1-3",
+      "stem": "鸦片战争是中国近代史的开端。",
+      "answer": true,
+      "analysis": "鸦片战争后中国开始沦为半殖民地半封建社会，是中国近代史的开端。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-1-4",
+      "segments": [
+        "1839年，",
+        "___1___",
+        "在虎门销烟。1842年签订",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "林则徐"
+        },
+        {
+          "index": 2,
+          "answer": "南京条约"
+        }
+      ],
+      "analysis": "林则徐虎门销烟，1842年签订《南京条约》。"
+    }
   ]
 }

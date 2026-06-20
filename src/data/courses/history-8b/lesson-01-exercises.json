@@ -1,9 +1,84 @@
 {
   "lessonId": 1,
   "exercises": [
-    { "type": "choice", "id": "ex-1-1", "stem": "中华人民共和国成立于（  ）", "options": [{ "label": "A", "text": "1949年9月" }, { "label": "B", "text": "1949年10月1日" }, { "label": "C", "text": "1950年1月" }, { "label": "D", "text": "1951年1月" }], "answer": "B", "analysis": "1949年10月1日开国大典，中华人民共和国成立。" },
-    { "type": "choice", "id": "ex-1-2", "stem": "《共同纲领》的作用是（  ）", "options": [{ "label": "A", "text": "正式宪法" }, { "label": "B", "text": "临时宪法" }, { "label": "C", "text": "党纲" }, { "label": "D", "text": "军令" }], "answer": "B", "analysis": "《共同纲领》起临时宪法作用。" },
-    { "type": "true_false", "id": "ex-1-3", "stem": "新中国的成立开辟了中国历史的新纪元。", "answer": true, "analysis": "新中国的成立开辟了中国历史的新纪元。" },
-    { "type": "fill", "id": "ex-1-4", "segments": ["1949年9月，中国人民政治协商会议通过", "___1___", "。10月1日举行", "___2___", "。"], "blanks": [{ "index": 1, "answer": "共同纲领" }, { "index": 2, "answer": "开国大典" }], "analysis": "政协会议通过《共同纲领》，10月1日举行开国大典。" }
+    {
+      "type": "choice",
+      "id": "ex-1-1",
+      "stem": "中华人民共和国成立于（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1949年9月"
+        },
+        {
+          "label": "B",
+          "text": "1949年10月1日"
+        },
+        {
+          "label": "C",
+          "text": "1950年1月"
+        },
+        {
+          "label": "D",
+          "text": "1951年1月"
+        }
+      ],
+      "answer": "B",
+      "analysis": "1949年10月1日开国大典，中华人民共和国成立。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-1-2",
+      "stem": "《共同纲领》的作用是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "正式宪法"
+        },
+        {
+          "label": "B",
+          "text": "临时宪法"
+        },
+        {
+          "label": "C",
+          "text": "党纲"
+        },
+        {
+          "label": "D",
+          "text": "军令"
+        }
+      ],
+      "answer": "B",
+      "analysis": "《共同纲领》起临时宪法作用。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-1-3",
+      "stem": "新中国的成立开辟了中国历史的新纪元。",
+      "answer": true,
+      "analysis": "新中国的成立开辟了中国历史的新纪元。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-1-4",
+      "segments": [
+        "1949年9月，中国人民政治协商会议通过",
+        "___1___",
+        "。10月1日举行",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "共同纲领"
+        },
+        {
+          "index": 2,
+          "answer": "开国大典"
+        }
+      ],
+      "analysis": "政协会议通过《共同纲领》，10月1日举行开国大典。"
+    }
   ]
 }

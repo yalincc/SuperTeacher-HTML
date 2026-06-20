@@ -1,9 +1,84 @@
 {
   "lessonId": 14,
   "exercises": [
-    { "type": "choice", "id": "ex-14-1", "stem": "日本宣布无条件投降的时间是（  ）", "options": [{ "label": "A", "text": "1945年8月15日" }, { "label": "B", "text": "1945年9月2日" }, { "label": "C", "text": "1945年10月25日" }, { "label": "D", "text": "1946年1月1日" }], "answer": "A", "analysis": "1945年8月15日日本宣布无条件投降。" },
-    { "type": "choice", "id": "ex-14-2", "stem": "中共七大确立的党的指导思想是（  ）", "options": [{ "label": "A", "text": "马克思列宁主义" }, { "label": "B", "text": "毛泽东思想" }, { "label": "C", "text": "邓小平理论" }, { "label": "D", "text": "三个代表" }], "answer": "B", "analysis": "中共七大确立毛泽东思想为党的指导思想。" },
-    { "type": "true_false", "id": "ex-14-3", "stem": "抗日战争胜利的根本原因是国际援助。", "answer": false, "analysis": "抗日战争胜利的根本原因是中国人民的全民族抗战。" },
-    { "type": "fill", "id": "ex-14-4", "segments": ["1945年8月15日，日本宣布", "___1___", "投降。10月25日，", "___2___", "回到祖国怀抱。"], "blanks": [{ "index": 1, "answer": "无条件" }, { "index": 2, "answer": "台湾" }], "analysis": "日本无条件投降，台湾光复回到祖国怀抱。" }
+    {
+      "type": "choice",
+      "id": "ex-14-1",
+      "stem": "日本宣布无条件投降的时间是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1945年8月15日"
+        },
+        {
+          "label": "B",
+          "text": "1945年9月2日"
+        },
+        {
+          "label": "C",
+          "text": "1945年10月25日"
+        },
+        {
+          "label": "D",
+          "text": "1946年1月1日"
+        }
+      ],
+      "answer": "A",
+      "analysis": "1945年8月15日日本宣布无条件投降。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-14-2",
+      "stem": "中共七大确立的党的指导思想是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "马克思列宁主义"
+        },
+        {
+          "label": "B",
+          "text": "毛泽东思想"
+        },
+        {
+          "label": "C",
+          "text": "邓小平理论"
+        },
+        {
+          "label": "D",
+          "text": "三个代表"
+        }
+      ],
+      "answer": "B",
+      "analysis": "中共七大确立毛泽东思想为党的指导思想。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-14-3",
+      "stem": "抗日战争胜利的根本原因是国际援助。",
+      "answer": false,
+      "analysis": "抗日战争胜利的根本原因是中国人民的全民族抗战。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-14-4",
+      "segments": [
+        "1945年8月15日，日本宣布",
+        "___1___",
+        "投降。10月25日，",
+        "___2___",
+        "回到祖国怀抱"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "无条件"
+        },
+        {
+          "index": 2,
+          "answer": "台湾"
+        }
+      ],
+      "analysis": "日本无条件投降，台湾光复回到祖国怀抱。"
+    }
   ]
 }

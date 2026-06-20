@@ -1,0 +1,84 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-6-1",
+      "stem": "希腊文学的代表作品是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "《天方夜谭》"
+        },
+        {
+          "label": "B",
+          "text": "《荷马史诗》"
+        },
+        {
+          "label": "C",
+          "text": "《俄狄浦斯王》"
+        },
+        {
+          "label": "D",
+          "text": "《神曲》"
+        }
+      ],
+      "answer": "B",
+      "analysis": "荷马史诗是希腊文学的代表作品。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-6-2",
+      "stem": "提出「吾爱吾师，吾更爱真理」的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "苏格拉底"
+        },
+        {
+          "label": "B",
+          "text": "柏拉图"
+        },
+        {
+          "label": "C",
+          "text": "亚里士多德"
+        },
+        {
+          "label": "D",
+          "text": "毕达哥拉斯"
+        }
+      ],
+      "answer": "C",
+      "analysis": "亚里士多德提出「吾爱吾师，吾更爱真理」。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-6-3",
+      "stem": "希腊罗马文化是西方文明的源头。",
+      "answer": true,
+      "analysis": "希腊罗马文化对后世文学、哲学、法律、建筑等产生了深远影响。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-4",
+      "segments": [
+        "希腊文学的代表是",
+        "___1___",
+        "。希腊建筑的代表是",
+        "___2___",
+        "神庙"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "荷马史诗"
+        },
+        {
+          "index": 2,
+          "answer": "帕特农"
+        }
+      ],
+      "analysis": "荷马史诗是希腊文学代表，帕特农神庙是希腊建筑代表。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "lessonId": 14,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-14-1",
+      "stem": "发现美洲大陆的航海家是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "迪亚士"
+        },
+        {
+          "label": "B",
+          "text": "哥伦布"
+        },
+        {
+          "label": "C",
+          "text": "达·伽马"
+        },
+        {
+          "label": "D",
+          "text": "麦哲伦"
+        }
+      ],
+      "answer": "B",
+      "analysis": "1492年哥伦布发现美洲。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-14-2",
+      "stem": "完成环球航行的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "哥伦布船队"
+        },
+        {
+          "label": "B",
+          "text": "达·伽马船队"
+        },
+        {
+          "label": "C",
+          "text": "麦哲伦船队"
+        },
+        {
+          "label": "D",
+          "text": "迪亚士船队"
+        }
+      ],
+      "answer": "C",
+      "analysis": "麦哲伦船队完成环球航行。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-14-3",
+      "stem": "新航路开辟使世界开始连为整体。",
+      "answer": true,
+      "analysis": "新航路开辟后世界开始连为整体。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-14-4",
+      "segments": [
+        "1492年",
+        "___1___",
+        "发现美洲，麦哲伦船队完成",
+        "___2___",
+        "航行"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "哥伦布"
+        },
+        {
+          "index": 2,
+          "answer": "环球"
+        }
+      ],
+      "analysis": "哥伦布发现美洲，麦哲伦船队完成环球航行。"
+    }
+  ]
+}

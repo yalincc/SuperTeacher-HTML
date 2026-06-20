@@ -1,9 +1,84 @@
 {
   "lessonId": 2,
   "exercises": [
-    { "type": "choice", "id": "ex-2-1", "stem": "火烧圆明园的是（  ）", "options": [{ "label": "A", "text": "英军" }, { "label": "B", "text": "法军" }, { "label": "C", "text": "英法联军" }, { "label": "D", "text": "八国联军" }], "answer": "C", "analysis": "1860年英法联军攻入北京，火烧圆明园。" },
-    { "type": "choice", "id": "ex-2-2", "stem": "太平天国运动的领导人是（  ）", "options": [{ "label": "A", "text": "林则徐" }, { "label": "B", "text": "洪秀全" }, { "label": "C", "text": "康有为" }, { "label": "D", "text": "孙中山" }], "answer": "B", "analysis": "洪秀全发动金田起义，建立太平天国。" },
-    { "type": "true_false", "id": "ex-2-3", "stem": "太平天国运动是中国历史上规模最宏大的农民战争。", "answer": true, "analysis": "太平天国运动是中国历史上规模最宏大的农民战争。" },
-    { "type": "fill", "id": "ex-2-4", "segments": ["1851年，", "___1___", "发动金田起义。1853年太平天国定都", "___2___", "。"], "blanks": [{ "index": 1, "answer": "洪秀全" }, { "index": 2, "answer": "天京" }], "analysis": "洪秀全发动金田起义，1853年太平天国定都天京（南京）。" }
+    {
+      "type": "choice",
+      "id": "ex-2-1",
+      "stem": "火烧圆明园的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "英军"
+        },
+        {
+          "label": "B",
+          "text": "法军"
+        },
+        {
+          "label": "C",
+          "text": "英法联军"
+        },
+        {
+          "label": "D",
+          "text": "八国联军"
+        }
+      ],
+      "answer": "C",
+      "analysis": "1860年英法联军攻入北京，火烧圆明园。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-2-2",
+      "stem": "太平天国运动的领导人是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "林则徐"
+        },
+        {
+          "label": "B",
+          "text": "洪秀全"
+        },
+        {
+          "label": "C",
+          "text": "康有为"
+        },
+        {
+          "label": "D",
+          "text": "孙中山"
+        }
+      ],
+      "answer": "B",
+      "analysis": "洪秀全发动金田起义，建立太平天国。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-2-3",
+      "stem": "太平天国运动是中国历史上规模最宏大的农民战争。",
+      "answer": true,
+      "analysis": "太平天国运动是中国历史上规模最宏大的农民战争。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-4",
+      "segments": [
+        "1851年，",
+        "___1___",
+        "发动金田起义。1853年太平天国定都",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "洪秀全"
+        },
+        {
+          "index": 2,
+          "answer": "天京"
+        }
+      ],
+      "analysis": "洪秀全发动金田起义，1853年太平天国定都天京（南京）。"
+    }
   ]
 }

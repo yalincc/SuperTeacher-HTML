@@ -1,55 +1,157 @@
 {
-  "meta": { "id": 15, "slug": "lesson-15-秦汉时期的科技与文化", "title": "秦汉时期的科技与文化", "unit": "第三单元", "week": 4, "day": 4 },
+  "meta": {
+    "id": 15,
+    "slug": "lesson-15-秦汉时期的科技与文化",
+    "title": "秦汉时期的科技与文化",
+    "unit": "第三单元",
+    "week": 4,
+    "day": 4
+  },
   "objectives": [
-    { "text": "了解造纸术的发明和改进", "isKeyPoint": true },
-    { "text": "了解张仲景和华佗的医学成就", "isKeyPoint": true },
-    { "text": "了解司马迁和《史记》", "isKeyPoint": false }
+    {
+      "text": "了解造纸术的发明和改进",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解张仲景和华佗的医学成就",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解司马迁和《史记》",
+      "isKeyPoint": false
+    }
   ],
   "knowledge": [
     {
       "title": "造纸术",
       "defaultExpanded": true,
       "blocks": [
-        { "type": "paragraph", "content": "西汉时期已经出现了纸。东汉**蔡伦**改进造纸术（105年），用树皮、破布、麻头和旧鱼网做原料，使纸的质量大大提高，价格降低，逐渐普遍使用。造纸术是中国对世界文明的伟大贡献。" },
-        { "type": "callout", "variant": "note", "title": "注意区分", "content": "蔡伦是「改进」造纸术而非「发明」。西汉已有纸，但质量差、价格贵。蔡伦改进后纸才大量使用。" }
+        {
+          "type": "paragraph",
+          "content": "西汉时期已经出现了纸。东汉**蔡伦**改进造纸术（105年），用树皮、破布、麻头和旧鱼网做原料，使纸的质量大大提高，价格降低，逐渐普遍使用。造纸术是中国对世界文明的伟大贡献。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "注意区分",
+          "content": "蔡伦是「改进」造纸术而非「发明」。西汉已有纸，但质量差、价格贵。蔡伦改进后纸才大量使用。"
+        }
       ]
     },
     {
       "title": "医学与史学",
       "defaultExpanded": true,
       "blocks": [
-        { "type": "table", "headers": ["人物", "朝代", "成就"], "rows": [
-          ["张仲景", "东汉", "《伤寒杂病论》，「医圣」，奠定中医治疗学基础"],
-          ["华佗", "东汉", "发明「麻沸散」（世界最早全身麻醉药），创编「五禽戏」"],
-          ["司马迁", "西汉", "《史记》，中国第一部纪传体通史"]
-        ]},
-        { "type": "callout", "variant": "quote", "title": "司马迁", "content": "人固有一死，或重于泰山，或轻于鸿毛。" }
+        {
+          "type": "table",
+          "headers": [
+            "人物",
+            "朝代",
+            "成就"
+          ],
+          "rows": [
+            [
+              "张仲景",
+              "东汉",
+              "《伤寒杂病论》，「医圣」，奠定中医治疗学基础"
+            ],
+            [
+              "华佗",
+              "东汉",
+              "发明「麻沸散」（世界最早全身麻醉药），创编「五禽戏」"
+            ],
+            [
+              "司马迁",
+              "西汉",
+              "《史记》，中国第一部纪传体通史"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "quote",
+          "title": "司马迁",
+          "content": "人固有一死，或重于泰山，或轻于鸿毛。"
+        }
       ]
     }
   ],
   "examples": [
     {
       "title": "例1：科技成就",
-      "problem": [{ "type": "paragraph", "content": "改进造纸术的是（  ）" }, { "type": "list", "ordered": true, "items": ["A. 蔡伦", "B. 毕昇", "C. 张衡", "D. 张仲景"] }],
-      "solution": [{ "type": "paragraph", "content": "东汉蔡伦改进造纸术。毕昇发明活字印刷，张衡发明地动仪。正确答案为A。" }],
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "改进造纸术的是（  ）"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A. 蔡伦",
+            "B. 毕昇",
+            "C. 张衡",
+            "D. 张仲景"
+          ]
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "东汉蔡伦改进造纸术。毕昇发明活字印刷，张衡发明地动仪。正确答案为A。"
+        }
+      ],
       "answer": "A"
     },
     {
       "title": "例2：史记",
       "problem": [
-        { "type": "paragraph", "content": "中国第一部纪传体通史是（  ）" },
-        { "type": "list", "ordered": true, "items": ["A. 《资治通鉴》", "B. 《史记》", "C. 《汉书》", "D. 《战国策》"] }
+        {
+          "type": "paragraph",
+          "content": "中国第一部纪传体通史是（  ）"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A. 《资治通鉴》",
+            "B. 《史记》",
+            "C. 《汉书》",
+            "D. 《战国策》"
+          ]
+        }
       ],
-      "solution": [{ "type": "paragraph", "content": "《史记》由司马迁编写，是中国第一部纪传体通史。《资治通鉴》是编年体通史，《汉书》是断代史。正确答案为B。" }],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "《史记》由司马迁编写，是中国第一部纪传体通史。《资治通鉴》是编年体通史，《汉书》是断代史。正确答案为B。"
+        }
+      ],
       "answer": "B"
     }
   ],
   "summary": [
-    { "text": "科技成就", "children": [
-      { "text": "蔡伦改进造纸术（105年）" },
-      { "text": "张仲景《伤寒杂病论》" },
-      { "text": "华佗：麻沸散、五禽戏" }
-    ]},
-    { "text": "文化成就", "children": [{ "text": "司马迁《史记》：第一部纪传体通史" }] }
+    {
+      "text": "科技成就",
+      "children": [
+        {
+          "text": "蔡伦改进造纸术（105年）"
+        },
+        {
+          "text": "张仲景《伤寒杂病论》"
+        },
+        {
+          "text": "华佗：麻沸散、五禽戏"
+        }
+      ]
+    },
+    {
+      "text": "文化成就",
+      "children": [
+        {
+          "text": "司马迁《史记》：第一部纪传体通史"
+        }
+      ]
+    }
   ]
 }

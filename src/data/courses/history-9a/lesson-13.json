@@ -1,0 +1,63 @@
+{
+  "meta": { "id": 13, "slug": "lesson-13-欧洲文艺复兴", "title": "欧洲文艺复兴", "unit": "第五单元", "week": 5, "day": 1 },
+  "objectives": [
+    { "text": "了解文艺复兴的背景", "isKeyPoint": false },
+    { "text": "掌握文艺复兴的核心思想和代表人物", "isKeyPoint": true },
+    { "text": "理解文艺复兴的历史意义", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "文艺复兴",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "14世纪中叶，意大利出现了资本主义萌芽。一些资产阶级知识分子通过弘扬古希腊罗马文化的方式，发起了一场反对教会「神权至上」的新文化运动，称为「**文艺复兴**」。核心思想是**人文主义**。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "文艺复兴不是简单的复古，而是资产阶级反封建的新文化运动。人文主义强调人的价值和尊严。" }
+      ]
+    },
+    {
+      "title": "代表人物",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**但丁**是文艺复兴的先驱，代表作《**神曲**》。**达·芬奇**是文艺复兴「美术三杰」之一，代表作《**蒙娜丽莎**》《**最后的晚餐**》。**莎士比亚**是英国文艺复兴时期的文学巨匠，代表作《**哈姆雷特**》《**罗密欧与朱丽叶**》。" },
+        { "type": "table", "headers": ["人物", "国别", "代表作"], "rows": [
+          ["但丁", "意大利", "《神曲》"],
+          ["达·芬奇", "意大利", "《蒙娜丽莎》《最后的晚餐》"],
+          ["莎士比亚", "英国", "《哈姆雷特》《罗密欧与朱丽叶》"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "文艺复兴起源于意大利，后扩展到欧洲其他国家。不要与中国的文艺复兴混淆。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：文艺复兴",
+      "problem": [
+        { "type": "paragraph", "content": "文艺复兴的核心思想是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 理性主义", "B. 人文主义", "C. 神权至上", "D. 君权神授"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "文艺复兴的核心思想是人文主义。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：代表人物",
+      "problem": [
+        { "type": "paragraph", "content": "文艺复兴的先驱是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 达·芬奇", "B. 但丁", "C. 莎士比亚", "D. 哥白尼"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "但丁是文艺复兴的先驱。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "文艺复兴", "children": [
+      { "text": "14世纪起源于意大利" },
+      { "text": "核心思想：人文主义" },
+      { "text": "资产阶级反封建的新文化运动" }
+    ]},
+    { "text": "代表人物", "children": [
+      { "text": "但丁——《神曲》" },
+      { "text": "达·芬奇——《蒙娜丽莎》" },
+      { "text": "莎士比亚——《哈姆雷特》" }
+    ]}
+  ]
+}

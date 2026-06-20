@@ -1,0 +1,9 @@
+{
+  "lessonId": 15,
+  "exercises": [
+    { "type": "choice", "id": "ex-15-1", "stem": "最早殖民的国家是（  ）", "options": [{ "label": "A", "text": "英国和法国" }, { "label": "B", "text": "葡萄牙和西班牙" }, { "label": "C", "text": "荷兰和比利时" }, { "label": "D", "text": "德国和意大利" }], "answer": "B", "analysis": "最早殖民的是葡萄牙和西班牙。" },
+    { "type": "choice", "id": "ex-15-2", "stem": "三角贸易中从非洲运往美洲的是（  ）", "options": [{ "label": "A", "text": "原材料" }, { "label": "B", "text": "工业品" }, { "label": "C", "text": "黑奴" }, { "label": "D", "text": "黄金" }], "answer": "C", "analysis": "三角贸易中从非洲运往美洲的是黑奴。" },
+    { "type": "true_false", "id": "ex-15-3", "stem": "三角贸易使非洲丧失大量精壮人口。", "answer": true, "analysis": "三角贸易使非洲丧失大量精壮人口。" },
+    { "type": "fill", "id": "ex-15-4", "segments": ["最早殖民的是葡萄牙和", "___1___", "三角贸易中从欧洲运往非洲的是", "___2___"], "blanks": [{ "index": 1, "answer": "西班牙" }, { "index": 2, "answer": "工业品" }], "analysis": "葡萄牙和西班牙最早殖民，三角贸易中从欧洲运往非洲的是工业品。" }
+  ]
+}

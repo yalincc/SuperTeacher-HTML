@@ -1,0 +1,68 @@
+{
+  "meta": { "id": 1, "slug": "lesson-01-古代埃及", "title": "古代埃及", "unit": "第一单元", "week": 1, "day": 1 },
+  "objectives": [
+    { "text": "了解古埃及的地理位置和自然环境", "isKeyPoint": false },
+    { "text": "掌握古埃及文明的主要成就（金字塔、象形文字、太阳历）", "isKeyPoint": true },
+    { "text": "理解尼罗河对古埃及文明的影响", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "尼罗河与古埃及文明",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "古埃及位于非洲东北部，**尼罗河**贯穿全境。尼罗河每年定期泛滥，带来肥沃的淤泥，使农业得以发展。古埃及文明被称为「**尼罗河的赠礼**」。" },
+        { "type": "timeline", "items": [
+          { "time": "约公元前3500年", "title": "出现小国", "content": "尼罗河下游出现若干小国" },
+          { "time": "约公元前3100年", "title": "统一", "content": "美尼斯统一上下埃及" },
+          { "time": "约公元前2686年", "title": "古王国时期", "content": "金字塔时代" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "尼罗河的定期泛滥既带来了肥沃的土壤，也促使古埃及人发展出天文历法来预测泛滥时间。" }
+      ]
+    },
+    {
+      "title": "古埃及文明成就",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "古埃及文明成就辉煌。**金字塔**是法老的陵墓，最著名的是**胡夫金字塔**，是古代世界七大奇迹之一。古埃及人还发明了**象形文字**，制定了**太阳历**。" },
+        { "type": "table", "headers": ["成就", "说明"], "rows": [
+          ["金字塔", "法老陵墓，胡夫金字塔最大"],
+          ["象形文字", "世界上最早的文字之一"],
+          ["太阳历", "世界上最早的太阳历"],
+          ["木乃伊", "高超的防腐技术"]
+        ]},
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "金字塔的修建反映了古埃及国王的无限权力，也体现了古埃及劳动人民的智慧。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：古埃及文明",
+      "problem": [
+        { "type": "paragraph", "content": "古埃及文明被称为「尼罗河的赠礼」，这说明（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 尼罗河定期泛滥带来肥沃土壤", "B. 尼罗河是世界上最长的河流", "C. 古埃及人善于航海", "D. 尼罗河盛产鱼类"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "尼罗河定期泛滥带来肥沃淤泥，使农业发展，因此说古埃及文明是「尼罗河的赠礼」。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：金字塔",
+      "problem": [
+        { "type": "paragraph", "content": "古代世界七大奇迹中，位于埃及的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 空中花园", "B. 胡夫金字塔", "C. 宙斯神像", "D. 罗马斗兽场"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "胡夫金字塔位于埃及，是古代世界七大奇迹之一。空中花园在巴比伦，正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "尼罗河与古埃及", "children": [
+      { "text": "尼罗河定期泛滥，带来肥沃土壤" },
+      { "text": "被称为「尼罗河的赠礼」" }
+    ]},
+    { "text": "文明成就", "children": [
+      { "text": "金字塔——法老陵墓" },
+      { "text": "象形文字——最早文字之一" },
+      { "text": "太阳历——最早太阳历" }
+    ]}
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 2, "slug": "lesson-02-古代两河流域", "title": "古代两河流域", "unit": "第一单元", "week": 1, "day": 2 },
+  "objectives": [
+    { "text": "了解两河流域的地理位置", "isKeyPoint": false },
+    { "text": "掌握古巴比伦王国的《汉谟拉比法典》", "isKeyPoint": true },
+    { "text": "理解两河流域文明的主要成就", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "两河流域文明",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "「两河」指**幼发拉底河**和**底格里斯河**，位于今伊拉克境内。两河流域又称「美索不达米亚」，是人类文明的发源地之一。" },
+        { "type": "timeline", "items": [
+          { "time": "约公元前3500年", "title": "出现城市", "content": "两河流域出现最早的城市国家" },
+          { "time": "约公元前24世纪", "title": "阿卡德王国", "content": "第一次统一两河流域" },
+          { "time": "约公元前18世纪", "title": "古巴比伦王国", "content": "汉谟拉比统一两河流域" }
+        ]},
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "两河流域文明创造了楔形文字、太阴历、60进制等成就，对后世影响深远。" }
+      ]
+    },
+    {
+      "title": "《汉谟拉比法典》",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "约公元前18世纪，**汉谟拉比**统一两河流域，建立古巴比伦王国。他制定了《**汉谟拉比法典**》，刻在黑色石柱上，是迄今已知世界上第一部较为完整的成文法典。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "《汉谟拉比法典》是「第一部较为完整的成文法典」，不是「第一部法典」。之前已有更早的法典片段。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "法典实质上维护奴隶主阶级的利益，但它的制定表明人类社会的法制传统源远流长。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：汉谟拉比法典",
+      "problem": [
+        { "type": "paragraph", "content": "迄今已知世界上第一部较为完整的成文法典是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《汉谟拉比法典》", "B. 《十二铜表法》", "C. 《查士丁尼法典》", "D. 《权利法案》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "《汉谟拉比法典》是迄今已知世界上第一部较为完整的成文法典。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：两河流域",
+      "problem": [
+        { "type": "paragraph", "content": "「两河」指的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 尼罗河和恒河", "B. 幼发拉底河和底格里斯河", "C. 黄河和长江", "D. 印度河和恒河"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "两河指幼发拉底河和底格里斯河。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "两河流域文明", "children": [
+      { "text": "幼发拉底河和底格里斯河" },
+      { "text": "人类文明发源地之一" }
+    ]},
+    { "text": "《汉谟拉比法典》", "children": [
+      { "text": "约公元前18世纪，汉谟拉比制定" },
+      { "text": "第一部较为完整的成文法典" }
+    ]}
+  ]
+}

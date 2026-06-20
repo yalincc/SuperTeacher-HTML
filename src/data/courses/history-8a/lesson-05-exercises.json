@@ -1,9 +1,84 @@
 {
   "lessonId": 5,
   "exercises": [
-    { "type": "choice", "id": "ex-5-1", "stem": "戊戌变法的领导人是（  ）", "options": [{ "label": "A", "text": "李鸿章" }, { "label": "B", "text": "康有为、梁启超" }, { "label": "C", "text": "孙中山" }, { "label": "D", "text": "陈独秀" }], "answer": "B", "analysis": "戊戌变法由康有为、梁启超等维新派领导。" },
-    { "type": "choice", "id": "ex-5-2", "stem": "《辛丑条约》的影响是（  ）", "options": [{ "label": "A", "text": "中国开始沦为半殖民地半封建社会" }, { "label": "B", "text": "中国半殖民地化大大加深" }, { "label": "C", "text": "中国完全沦为半殖民地半封建社会" }, { "label": "D", "text": "中国近代化开始" }], "answer": "C", "analysis": "《辛丑条约》使中国完全沦为半殖民地半封建社会。" },
-    { "type": "true_false", "id": "ex-5-3", "stem": "戊戌变法虽然失败了，但起到了思想启蒙的作用。", "answer": true, "analysis": "戊戌变法在思想文化方面产生了广泛而持久的影响。" },
-    { "type": "fill", "id": "ex-5-4", "segments": ["1900年，", "___1___", "运动兴起。1901年签订", "___2___", "。"], "blanks": [{ "index": 1, "answer": "义和团" }, { "index": 2, "answer": "辛丑条约" }], "analysis": "义和团运动兴起，1901年签订《辛丑条约》。" }
+    {
+      "type": "choice",
+      "id": "ex-5-1",
+      "stem": "戊戌变法的领导人是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "李鸿章"
+        },
+        {
+          "label": "B",
+          "text": "康有为、梁启超"
+        },
+        {
+          "label": "C",
+          "text": "孙中山"
+        },
+        {
+          "label": "D",
+          "text": "陈独秀"
+        }
+      ],
+      "answer": "B",
+      "analysis": "戊戌变法由康有为、梁启超等维新派领导。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-5-2",
+      "stem": "《辛丑条约》的影响是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "中国开始沦为半殖民地半封建社会"
+        },
+        {
+          "label": "B",
+          "text": "中国半殖民地化大大加深"
+        },
+        {
+          "label": "C",
+          "text": "中国完全沦为半殖民地半封建社会"
+        },
+        {
+          "label": "D",
+          "text": "中国近代化开始"
+        }
+      ],
+      "answer": "C",
+      "analysis": "《辛丑条约》使中国完全沦为半殖民地半封建社会。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-5-3",
+      "stem": "戊戌变法虽然失败了，但起到了思想启蒙的作用。",
+      "answer": true,
+      "analysis": "戊戌变法在思想文化方面产生了广泛而持久的影响。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-4",
+      "segments": [
+        "1900年，",
+        "___1___",
+        "运动兴起。1901年签订",
+        "___2___",
+        ""
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "义和团"
+        },
+        {
+          "index": 2,
+          "answer": "辛丑条约"
+        }
+      ],
+      "analysis": "义和团运动兴起，1901年签订《辛丑条约》。"
+    }
   ]
 }

@@ -1,9 +1,84 @@
 {
   "lessonId": 13,
   "exercises": [
-    { "type": "choice", "id": "ex-13-1", "stem": "抗战以来正面战场取得的最大胜利是（  ）", "options": [{ "label": "A", "text": "淞沪会战" }, { "label": "B", "text": "台儿庄战役" }, { "label": "C", "text": "武汉会战" }, { "label": "D", "text": "百团大战" }], "answer": "B", "analysis": "台儿庄战役是抗战以来正面战场取得的最大胜利。" },
-    { "type": "choice", "id": "ex-13-2", "stem": "百团大战的指挥者是（  ）", "options": [{ "label": "A", "text": "毛泽东" }, { "label": "B", "text": "朱德" }, { "label": "C", "text": "彭德怀" }, { "label": "D", "text": "叶挺" }], "answer": "C", "analysis": "百团大战由彭德怀指挥。" },
-    { "type": "true_false", "id": "ex-13-3", "stem": "战略相持阶段后，敌后战场逐渐成为抗战的主战场。", "answer": true, "analysis": "战略相持阶段后，敌后战场逐渐成为抗战的主战场。" },
-    { "type": "fill", "id": "ex-13-4", "segments": ["1938年，", "___1___", "指挥台儿庄战役。1940年，", "___2___", "指挥百团大战。"], "blanks": [{ "index": 1, "answer": "李宗仁" }, { "index": 2, "answer": "彭德怀" }], "analysis": "李宗仁指挥台儿庄战役，彭德怀指挥百团大战。" }
+    {
+      "type": "choice",
+      "id": "ex-13-1",
+      "stem": "抗战以来正面战场取得的最大胜利是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "淞沪会战"
+        },
+        {
+          "label": "B",
+          "text": "台儿庄战役"
+        },
+        {
+          "label": "C",
+          "text": "武汉会战"
+        },
+        {
+          "label": "D",
+          "text": "百团大战"
+        }
+      ],
+      "answer": "B",
+      "analysis": "台儿庄战役是抗战以来正面战场取得的最大胜利。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-2",
+      "stem": "百团大战的指挥者是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "毛泽东"
+        },
+        {
+          "label": "B",
+          "text": "朱德"
+        },
+        {
+          "label": "C",
+          "text": "彭德怀"
+        },
+        {
+          "label": "D",
+          "text": "叶挺"
+        }
+      ],
+      "answer": "C",
+      "analysis": "百团大战由彭德怀指挥。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-13-3",
+      "stem": "战略相持阶段后，敌后战场逐渐成为抗战的主战场。",
+      "answer": true,
+      "analysis": "战略相持阶段后，敌后战场逐渐成为抗战的主战场。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-13-4",
+      "segments": [
+        "1938年，",
+        "___1___",
+        "指挥台儿庄战役。1940年，",
+        "___2___",
+        "指挥百团大战"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "李宗仁"
+        },
+        {
+          "index": 2,
+          "answer": "彭德怀"
+        }
+      ],
+      "analysis": "李宗仁指挥台儿庄战役，彭德怀指挥百团大战。"
+    }
   ]
 }
