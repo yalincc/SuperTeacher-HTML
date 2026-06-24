@@ -1,0 +1,113 @@
+{
+  "meta": { "id": 3, "slug": "lesson-03-articles", "title": "冠词：a/an/the/零冠词", "unit": "名词与冠词", "week": 1, "day": 3 },
+  "objectives": [
+    { "text": "掌握不定冠词 a/an 的用法", "isKeyPoint": true },
+    { "text": "掌握定冠词 the 的用法", "isKeyPoint": true },
+    { "text": "了解零冠词的用法", "isKeyPoint": false },
+    { "text": "能区分 a 和 an 的使用条件", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "不定冠词 a/an",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**a** 用于辅音**音素**开头的词前，**an** 用于元音**音素**开头的词前。注意：看的是发音，不是字母！" },
+        {
+          "type": "table",
+          "headers": ["用 a", "用 an", "说明"],
+          "rows": [
+            ["a book", "an apple", "元音字母开头"],
+            ["a university", "an hour", "u 发 /juː/，h 不发音"],
+            ["a European", "an honest boy", "E 发 /jʊ/，h 不发音"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "判断 a/an 看的是第一个音素的发音，不是字母！university 以辅音 /j/ 开头用 a，hour 以元音 /aʊ/ 开头用 an。" }
+      ]
+    },
+    {
+      "title": "不定冠词的用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "list", "ordered": false, "items": [
+          "**泛指**一类事物中的一个：I want **a** book.（我想要一本书。）",
+          "**第一次提到**：I saw **a** dog in the street.（我看到街上有一只狗。）",
+          "**固定搭配**：a lot of, a few, a little, a pair of, a number of"
+        ]},
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "a few 和 a little 表示「一些」（肯定），few 和 little 表示「几乎没有」（否定）。a few + 可数复数，a little + 不可数。" }
+      ]
+    },
+    {
+      "title": "定冠词 the",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["用法", "例句", "说明"],
+          "rows": [
+            ["特指", "the book on the desk", "桌上那本书（特指）"],
+            ["上文提过", "I saw a dog. The dog was black.", "第二次提到"],
+            ["独一无二", "the sun, the moon, the earth", "世上唯一的"],
+            ["最高级前", "the tallest boy", "最高级前必须加 the"],
+            ["序数词前", "the first lesson", "序数词前必须加 the"],
+            ["乐器前", "play the piano", "西洋乐器前加 the"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "特指双熟悉，上文已提及。世上独无二，序数最高级。某些专有名，习语和乐器。" }
+      ]
+    },
+    {
+      "title": "零冠词（不用冠词的情况）",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "list", "ordered": false, "items": [
+          "**三餐/球类/学科**前：have breakfast, play football, study English",
+          "**节日/月份/星期**前：on Monday, in January, at Christmas",
+          "**专有名词**前：China, Beijing, Grade 7",
+          "**某些固定搭配**：at home, at school, by bus, go to bed"
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "乐器前加 the（play the piano），球类前不加 the（play basketball）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：a 还是 an",
+      "problem": [
+        { "type": "paragraph", "content": "There is ___ university near my home." },
+        { "type": "list", "ordered": true, "items": ["A. a", "B. an", "C. the", "D. /"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "university 虽然以元音字母 u 开头，但发音是 /juːnɪˈvɜːsɪti/，第一个音素是辅音 /j/，所以用 a。答案选 A。" }
+      ],
+      "answer": "A"
+    },
+    {
+      "title": "例2：the 的用法",
+      "problem": [
+        { "type": "paragraph", "content": "___ sun rises in ___ east." },
+        { "type": "list", "ordered": true, "items": ["A. A; the", "B. The; the", "C. The; /", "D. /; the"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "sun 是世上独一无二的事物，必须加 the。east 是方位名词，前面也加 the。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "a/an（不定冠词）", "children": [
+      { "text": "a 用于辅音音素开头" },
+      { "text": "an 用于元音音素开头" },
+      { "text": "泛指一类事物中的一个" }
+    ]},
+    { "text": "the（定冠词）", "children": [
+      { "text": "特指/上文提过/独一无二" },
+      { "text": "最高级/序数词前" },
+      { "text": "西洋乐器前" }
+    ]},
+    { "text": "零冠词", "children": [
+      { "text": "三餐/球类/学科前" },
+      { "text": "节日/月份/星期前" },
+      { "text": "专有名词前" }
+    ]}
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "meta": { "id": 12, "slug": "lesson-12-prepositions", "title": "介词：时间/地点/固定搭配", "unit": "副词与介词", "week": 4, "day": 3 },
+  "objectives": [
+    { "text": "掌握时间介词 at/on/in 的用法", "isKeyPoint": true },
+    { "text": "掌握地点介词 in/on/under/behind/next to 的用法", "isKeyPoint": true },
+    { "text": "了解常见介词固定搭配", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "时间介词 at / on / in",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "英语中三个最常用的时间介词是 **at**、**on** 和 **in**，它们的用法各有不同。" },
+        {
+          "type": "table",
+          "headers": ["介词", "用法", "例句"],
+          "rows": [
+            ["at", "具体时间点", "at 7:00, at noon, at night, at the moment"],
+            ["on", "具体某一天/日期", "on Monday, on June 1st, on my birthday, on a sunny day"],
+            ["in", "月/年/季节/较长时间", "in May, in 2024, in summer, in the morning"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "at 点、on 天、in 长时间。at 精确到点，on 精确到天，in 覆盖较长时段。" }
+      ]
+    },
+    {
+      "title": "地点介词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "常用的地点介词表示物体之间的空间关系：" },
+        {
+          "type": "table",
+          "headers": ["介词", "含义", "例句"],
+          "rows": [
+            ["in", "在……里面", "The book is in the bag. 书在书包里。"],
+            ["on", "在……上面（接触）", "The cup is on the table. 杯子在桌上。"],
+            ["under", "在……下面", "The cat is under the bed. 猫在床下。"],
+            ["behind", "在……后面", "The tree is behind the house. 树在房子后面。"],
+            ["in front of", "在……前面", "The car is in front of the building. 车在楼前面。"],
+            ["next to", "在……旁边", "She sits next to me. 她坐在我旁边。"],
+            ["between", "在……之间", "The park is between the bank and the school. 公园在银行和学校之间。"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "常见介词固定搭配",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "英语中有许多**介词固定搭配**（短语动词/介词短语），需要整体记忆。" },
+        {
+          "type": "table",
+          "headers": ["搭配", "含义", "例句"],
+          "rows": [
+            ["look at", "看", "Look at the blackboard. 看黑板。"],
+            ["listen to", "听", "Listen to the music. 听音乐。"],
+            ["good at", "擅长", "She is good at math. 她擅长数学。"],
+            ["interested in", "对……感兴趣", "I am interested in science. 我对科学感兴趣。"],
+            ["because of", "因为", "He stayed home because of the rain. 他因为下雨待在家。"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "注意区分 because（连词，后接句子）和 because of（介词短语，后接名词/代词）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：时间介词选择",
+      "problem": [
+        { "type": "paragraph", "content": "We have a meeting _____ 3 o'clock _____ Tuesday." },
+        { "type": "list", "ordered": true, "items": ["A. at; in", "B. on; at", "C. at; on", "D. in; on"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "3 o'clock 是具体时间点用 at，Tuesday 是具体某天用 on。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：介词固定搭配",
+      "problem": [
+        { "type": "paragraph", "content": "She is interested _____ playing the piano." },
+        { "type": "list", "ordered": true, "items": ["A. at", "B. in", "C. on", "D. for"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "interested in 是固定搭配，表示「对……感兴趣」。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "时间介词", "children": [
+      { "text": "at + 时间点（at 7:00, at noon）" },
+      { "text": "on + 具体某天（on Monday）" },
+      { "text": "in + 月/年/季节（in May, in summer）" }
+    ]},
+    { "text": "地点介词", "children": [
+      { "text": "in 在里面，on 在上面" },
+      { "text": "under 在下面，behind 在后面" },
+      { "text": "next to 在旁边，between 在之间" }
+    ]},
+    { "text": "固定搭配", "children": [
+      { "text": "look at, listen to, good at" },
+      { "text": "interested in, because of" },
+      { "text": "because + 句子，because of + 名词" }
+    ]}
+  ]
+}

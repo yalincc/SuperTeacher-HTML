@@ -1,0 +1,72 @@
+{
+  "lessonId": 26,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-26-1",
+      "stem": "Which of the following verbs is usually followed by an infinitive?",
+      "options": [
+        { "label": "A", "text": "enjoy" },
+        { "label": "B", "text": "want" },
+        { "label": "C", "text": "finish" },
+        { "label": "D", "text": "mind" }
+      ],
+      "answer": "B",
+      "analysis": "want 后面接不定式作宾语（want to do）。enjoy、finish、mind 后面通常接动名词 doing。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-26-2",
+      "stem": "I went to the library ___ some books.",
+      "options": [
+        { "label": "A", "text": "borrow" },
+        { "label": "B", "text": "borrowing" },
+        { "label": "C", "text": "to borrow" },
+        { "label": "D", "text": "borrowed" }
+      ],
+      "answer": "C",
+      "analysis": "此处表示「为了借一些书」，不定式 to borrow 作目的状语。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-26-3",
+      "stem": "My parents encouraged me ___ hard.",
+      "options": [
+        { "label": "A", "text": "study" },
+        { "label": "B", "text": "studying" },
+        { "label": "C", "text": "to study" },
+        { "label": "D", "text": "studied" }
+      ],
+      "answer": "C",
+      "analysis": "encourage sb. to do sth. 是固定搭配，不定式 to study 作宾补。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-26-4",
+      "stem": "The infinitive form of the verb in a sentence always functions as the predicate.",
+      "answer": false,
+      "analysis": "动词不定式在句中不能单独作谓语，它可以作宾语、宾补、目的状语、主语等。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-26-5",
+      "segments": ["She decided ___1___ (not go) to the party.", "He worked hard ___2___ (pass) the exam."],
+      "blanks": [
+        { "index": 1, "answer": "not to go", "alternatives": [] },
+        { "index": 2, "answer": "to pass", "alternatives": [] }
+      ],
+      "analysis": "decide not to do sth. 表示「决定不做某事」；to pass 作目的状语，表示「为了通过考试」。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-26-6",
+      "question": "用不定式改写下列句子，使其表示目的：She saved money. (为了买一台电脑)",
+      "referenceAnswer": "She saved money to buy a computer. / She saved money in order to buy a computer.",
+      "scoringPoints": [
+        "正确使用不定式 to buy a computer",
+        "不定式表示目的",
+        "句子结构正确"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "lessonId": 21,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-21-1",
+      "stem": "I ___ already ___ my homework.",
+      "options": [
+        { "label": "A", "text": "have, finished" },
+        { "label": "B", "text": "had, finished" },
+        { "label": "C", "text": "did, finish" },
+        { "label": "D", "text": "do, finish" }
+      ],
+      "answer": "A",
+      "analysis": "already 是现在完成时的标志词，结构为 have/has + done。答案选 A。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-21-2",
+      "stem": "Look! The children ___ in the park.",
+      "options": [
+        { "label": "A", "text": "play" },
+        { "label": "B", "text": "played" },
+        { "label": "C", "text": "are playing" },
+        { "label": "D", "text": "have played" }
+      ],
+      "answer": "C",
+      "analysis": "Look! 提示现在正在进行的动作，应该用现在进行时 be + doing。答案选 C。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-21-3",
+      "stem": "She ___ to this school since 2020.",
+      "options": [
+        { "label": "A", "text": "comes" },
+        { "label": "B", "text": "came" },
+        { "label": "C", "text": "has come" },
+        { "label": "D", "text": "has been coming" }
+      ],
+      "answer": "C",
+      "analysis": "since 2020 是现在完成时的标志，表示从2020年到现在。has come 表示「来」这个动作发生在过去并持续到现在。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-21-4",
+      "stem": "The sentence \"I have went to Beijing\" uses the present perfect tense correctly.",
+      "answer": false,
+      "analysis": "现在完成时的结构是 have/has + 过去分词，go 的过去分词是 gone 不是 went。正确形式是 I have gone to Beijing。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-21-5",
+      "segments": ["He ___1___ (work) in this company since 2018.", "At this time yesterday, she ___2___ (study) English."],
+      "blanks": [
+        { "index": 1, "answer": "has worked", "alternatives": ["has been working"] },
+        { "index": 2, "answer": "was studying", "alternatives": [] }
+      ],
+      "analysis": "第一句有 since 2018，用现在完成时 has worked。第二句有 at this time yesterday，表示过去某时正在进行，用过去进行时 was studying。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-21-6",
+      "question": "用正确时态填空并说明理由：I ___ (visit) Beijing three times.",
+      "referenceAnswer": "have visited。理由：three times 表示经历，强调「去过几次」，这是现在完成时的典型用法，结构为 have/has + done。",
+      "scoringPoints": [
+        "正确使用现在完成时 have visited",
+        "能解释 three times 表示经历",
+        "能说明现在完成时的结构"
+      ]
+    }
+  ]
+}

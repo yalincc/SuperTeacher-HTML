@@ -1,0 +1,9 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    { "type": "choice", "id": "ex-10-1", "stem": "欧洲共同体成立于（  ）", "options": [{ "label": "A", "text": "1951年" }, { "label": "B", "text": "1958年" }, { "label": "C", "text": "1967年" }, { "label": "D", "text": "1993年" }], "answer": "C", "analysis": "1967年欧洲共同体成立。" },
+    { "type": "choice", "id": "ex-10-2", "stem": "20世纪60年代末，日本成为资本主义世界（  ）", "options": [{ "label": "A", "text": "第一经济大国" }, { "label": "B", "text": "第二经济大国" }, { "label": "C", "text": "第三经济大国" }, { "label": "D", "text": "最大债权国" }], "answer": "B", "analysis": "60年代末日本成为第二经济大国。" },
+    { "type": "true_false", "id": "ex-10-3", "stem": "欧盟成立于1993年。", "answer": true, "analysis": "1993年欧盟成立。" },
+    { "type": "fill", "id": "ex-10-4", "segments": ["1967年", "___1___", "成立。日本到20世纪60年代末成为第", "___2___", "经济大国。"], "blanks": [{ "index": 1, "answer": "欧共体" }, { "index": 2, "answer": "二" }], "analysis": "1967年欧共体成立，日本60年代末成为第二经济大国。" }
+  ]
+}

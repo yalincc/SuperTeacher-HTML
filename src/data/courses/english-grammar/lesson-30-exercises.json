@@ -1,0 +1,72 @@
+{
+  "lessonId": 30,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-30-1",
+      "stem": "There ___ many trees around the house.",
+      "options": [
+        { "label": "A", "text": "is" },
+        { "label": "B", "text": "are" },
+        { "label": "C", "text": "has" },
+        { "label": "D", "text": "have" }
+      ],
+      "answer": "B",
+      "analysis": "many trees 是复数名词，there be 句型中 be 动词用 are。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-30-2",
+      "stem": "There ___ an apple and two oranges on the table.",
+      "options": [
+        { "label": "A", "text": "is" },
+        { "label": "B", "text": "are" },
+        { "label": "C", "text": "has" },
+        { "label": "D", "text": "have" }
+      ],
+      "answer": "A",
+      "analysis": "就近原则：最近的主语是 an apple（单数），所以 be 动词用 is。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-30-3",
+      "stem": "Which sentence is correct?",
+      "options": [
+        { "label": "A", "text": "There have a park near my home." },
+        { "label": "B", "text": "There is a park near my home." },
+        { "label": "C", "text": "There has a park near my home." },
+        { "label": "D", "text": "There are a park near my home." }
+      ],
+      "answer": "B",
+      "analysis": "表示「某处有某物」用 there be 句型，不能用 there have/has。a park 是单数，用 is。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-30-4",
+      "stem": "In a there-be sentence with multiple subjects, the verb agrees with the subject closest to it.",
+      "answer": true,
+      "analysis": "这就是就近原则：there be 句型中，be 的形式与最近的主语保持一致。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-30-5",
+      "segments": ["___1___ (有) a library in our school.", "___2___ (有) two cats and a dog in the garden."],
+      "blanks": [
+        { "index": 1, "answer": "There is", "alternatives": [] },
+        { "index": 2, "answer": "There are", "alternatives": [] }
+      ],
+      "analysis": "第一句 a library 是单数，用 There is。第二句就近的主语是 two cats（复数），用 There are。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-30-6",
+      "question": "用 there be 句型描述你的房间：房间里有一张床、两把椅子和一个书架。",
+      "referenceAnswer": "There is a bed, two chairs and a bookshelf in my room. 或 There are two chairs, a bed and a bookshelf in my room.",
+      "scoringPoints": [
+        "正确使用 there be 句型",
+        "be 的形式与最近的主语一致",
+        "包含地点状语 in my room"
+      ]
+    }
+  ]
+}

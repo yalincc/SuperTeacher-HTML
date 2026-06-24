@@ -1,0 +1,9 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    { "type": "choice", "id": "ex-7-1", "stem": "第二次世界大战全面爆发的标志是（  ）", "options": [{ "label": "A", "text": "珍珠港事件" }, { "label": "B", "text": "德国闪击波兰" }, { "label": "C", "text": "德国突袭苏联" }, { "label": "D", "text": "七七事变" }], "answer": "B", "analysis": "1939年德国闪击波兰标志二战全面爆发。" },
+    { "type": "choice", "id": "ex-7-2", "stem": "世界反法西斯同盟正式形成的标志是（  ）", "options": [{ "label": "A", "text": "《联合国家宣言》" }, { "label": "B", "text": "《开罗宣言》" }, { "label": "C", "text": "《雅尔塔协定》" }, { "label": "D", "text": "《波茨坦公告》" }], "answer": "A", "analysis": "1942年《联合国家宣言》标志反法西斯同盟形成。" },
+    { "type": "true_false", "id": "ex-7-3", "stem": "1941年日本偷袭珍珠港导致太平洋战争爆发。", "answer": true, "analysis": "1941年12月日本偷袭珍珠港，太平洋战争爆发。" },
+    { "type": "fill", "id": "ex-7-4", "segments": ["1939年德国闪击", "___1___", "二战全面爆发。1942年", "___2___", "标志着反法西斯同盟形成。"], "blanks": [{ "index": 1, "answer": "波兰" }, { "index": 2, "answer": "联合国家宣言" }], "analysis": "德国闪击波兰标志二战爆发，联合国家宣言标志反法西斯同盟形成。" }
+  ]
+}

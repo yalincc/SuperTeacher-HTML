@@ -1,0 +1,72 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-11-1",
+      "stem": "Which of the following is the correct adverb form of \"gentle\"?",
+      "options": [
+        { "label": "A", "text": "gentlely" },
+        { "label": "B", "text": "gently" },
+        { "label": "C", "text": "gentily" },
+        { "label": "D", "text": "gentle" }
+      ],
+      "answer": "B",
+      "analysis": "gentle 以 -le 结尾，变 e 为 y，得到 gently。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-2",
+      "stem": "She speaks _____ than her sister. (quiet)",
+      "options": [
+        { "label": "A", "text": "quiet" },
+        { "label": "B", "text": "quieter" },
+        { "label": "C", "text": "more quietly" },
+        { "label": "D", "text": "most quietly" }
+      ],
+      "answer": "C",
+      "analysis": "quiet 的副词形式是 quietly，多音节词比较级用 more + 原级，即 more quietly。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-3",
+      "stem": "He runs very _____.",
+      "options": [
+        { "label": "A", "text": "quick" },
+        { "label": "B", "text": "quickly" },
+        { "label": "C", "text": "quickness" },
+        { "label": "D", "text": "quicker" }
+      ],
+      "answer": "B",
+      "analysis": "修饰动词 runs 需要用副词 quickly。quick 是形容词，不能修饰动词。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-11-4",
+      "stem": "\"He worked hardly yesterday.\" 这句话语法正确。",
+      "answer": false,
+      "analysis": "hardly 表示「几乎不」，不是 hard 的副词形式。hard 本身既是形容词也是副词，表示「努力地」应该说 He worked hard yesterday."
+    },
+    {
+      "type": "fill",
+      "id": "ex-11-5",
+      "segments": ["This is the _____1_____ (good) restaurant in town.", "She drives _____2_____ (careful) than I do."],
+      "blanks": [
+        { "index": 1, "answer": "best", "alternatives": [] },
+        { "index": 2, "answer": "more carefully", "alternatives": [] }
+      ],
+      "analysis": "第一个空有 the...in town，用最高级，good 的最高级是 best。第二个空有 than，用比较级，careful 的副词是 carefully，多音节比较级用 more carefully。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-11-6",
+      "question": "用正确的词填空并说明理由：The child is walking _____. (slow / slowly)",
+      "referenceAnswer": "应该填 slowly。理由：walking 是动词，修饰动词要用副词 slowly，而 slow 是形容词，只能修饰名词。",
+      "scoringPoints": [
+        "正确填入 slowly",
+        "能区分形容词 slow 和副词 slowly",
+        "能解释修饰动词需要用副词"
+      ]
+    }
+  ]
+}

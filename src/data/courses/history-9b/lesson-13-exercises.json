@@ -1,0 +1,9 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    { "type": "choice", "id": "ex-13-1", "stem": "苏联解体后，世界格局呈现（  ）", "options": [{ "label": "A", "text": "单极格局" }, { "label": "B", "text": "两极格局" }, { "label": "C", "text": "一超多强" }, { "label": "D", "text": "三足鼎立" }], "answer": "C", "analysis": "苏联解体后世界呈现一超多强局面。" },
+    { "type": "choice", "id": "ex-13-2", "stem": "当今世界格局的发展趋势是（  ）", "options": [{ "label": "A", "text": "单极化" }, { "label": "B", "text": "两极化" }, { "label": "C", "text": "多极化" }, { "label": "D", "text": "全球化" }], "answer": "C", "analysis": "当今世界格局趋势是多极化。" },
+    { "type": "true_false", "id": "ex-13-3", "stem": "两极格局结束的标志是苏联解体。", "answer": true, "analysis": "1991年苏联解体，两极格局结束。" },
+    { "type": "fill", "id": "ex-13-4", "segments": ["二战后世界格局从", "___1___", "演变到多极化趋势。当今世界特点是", "___2___"], "blanks": [{ "index": 1, "answer": "两极格局" }, { "index": 2, "answer": "一超多强" }], "analysis": "从两极格局演变到多极化趋势。" }
+  ]
+}

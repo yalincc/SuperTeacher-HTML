@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 15, "slug": "lesson-15-走向和平与发展的世界", "title": "走向和平与发展的世界", "unit": "第四单元", "week": 5, "day": 3 },
+  "objectives": [
+    { "text": "了解联合国的作用", "isKeyPoint": true },
+    { "text": "掌握经济全球化的表现", "isKeyPoint": true },
+    { "text": "理解人类面临的共同问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "联合国与和平发展",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1945年10月，**联合国**成立，宗旨是维护国际和平与安全，促进国际合作与发展。联合国在维护世界和平、缓和国际紧张局势、解决地区冲突方面发挥了重要作用。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "联合国总部设在美国纽约，现有190多个成员国。安理会是维护和平的主要机构。" }
+      ]
+    },
+    {
+      "title": "经济全球化与人类共同问题",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "20世纪90年代以来，**经济全球化**加速发展，各国经济联系日益紧密。同时，人类也面临恐怖主义、环境恶化、资源短缺、人口膨胀等共同问题，需要各国携手应对。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "和平与发展是当今时代的主题。各国应加强合作，共同应对全球性挑战，构建人类命运共同体。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：联合国",
+      "problem": [
+        { "type": "paragraph", "content": "联合国成立于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1942年", "B. 1945年", "C. 1949年", "D. 1955年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1945年10月联合国成立。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：经济全球化",
+      "problem": [
+        { "type": "paragraph", "content": "当今时代的主题是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 战争与革命", "B. 和平与发展", "C. 独立与解放", "D. 封闭与保守"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "和平与发展是当今时代的主题。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "联合国", "children": [
+      { "text": "1945年成立" },
+      { "text": "维护国际和平与安全" }
+    ]},
+    { "text": "经济全球化", "children": [
+      { "text": "各国经济联系日益紧密" },
+      { "text": "和平与发展是时代主题" }
+    ]}
+  ]
+}

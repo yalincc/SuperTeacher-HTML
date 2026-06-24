@@ -1,0 +1,72 @@
+{
+  "lessonId": 20,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-20-1",
+      "stem": "I ___ a shower when the telephone rang.",
+      "options": [
+        { "label": "A", "text": "take" },
+        { "label": "B", "text": "took" },
+        { "label": "C", "text": "was taking" },
+        { "label": "D", "text": "am taking" }
+      ],
+      "answer": "C",
+      "analysis": "when 引导的时间状语从句中，主句用过去进行时表示正在进行的动作。I 用 was。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-20-2",
+      "stem": "While she ___ dinner, her father was reading the newspaper.",
+      "options": [
+        { "label": "A", "text": "cooked" },
+        { "label": "B", "text": "was cooking" },
+        { "label": "C", "text": "cooks" },
+        { "label": "D", "text": "is cooking" }
+      ],
+      "answer": "B",
+      "analysis": "while 引导的从句用过去进行时，表示同时进行的动作。she 用 was。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-20-3",
+      "stem": "What ___ they ___ at 10:00 yesterday morning?",
+      "options": [
+        { "label": "A", "text": "did; do" },
+        { "label": "B", "text": "were; doing" },
+        { "label": "C", "text": "are; doing" },
+        { "label": "D", "text": "have; done" }
+      ],
+      "answer": "B",
+      "analysis": "at 10:00 yesterday morning 表示过去某时刻，用过去进行时。they 用 were。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-20-4",
+      "stem": "The sentence \"While I was sleeping, the phone rings.\" is correct.",
+      "answer": false,
+      "analysis": "while 引导的从句用过去进行时，主句也应该用过去时态。正确句子是：While I was sleeping, the phone rang."
+    },
+    {
+      "type": "fill",
+      "id": "ex-20-5",
+      "segments": ["At this time yesterday, I ___1___ (read) a book.", "While he ___2___ (watch) TV, his wife was cooking."],
+      "blanks": [
+        { "index": 1, "answer": "was reading", "alternatives": [] },
+        { "index": 2, "answer": "was watching", "alternatives": [] }
+      ],
+      "analysis": "at this time yesterday 表示过去某时刻，用过去进行时。while 引导的从句也用过去进行时。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-20-6",
+      "question": "用 when 或 while 填空，并说明区别：___ I was walking to school, I saw an old friend. / ___ I was reading, my brother was playing games.",
+      "referenceAnswer": "When I was walking to school, I saw an old friend. / While I was reading, my brother was playing games. 区别：when 引导的从句用一般过去时（saw），while 引导的从句用过去进行时（was playing），表示同时进行的动作。",
+      "scoringPoints": [
+        "正确使用 When + 过去进行时，主句用一般过去时",
+        "正确使用 While + 过去进行时",
+        "能解释 when 和 while 的区别"
+      ]
+    }
+  ]
+}

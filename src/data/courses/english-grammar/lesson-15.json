@@ -1,0 +1,104 @@
+{
+  "meta": { "id": 15, "slug": "lesson-15-simple-past-regular", "title": "一般过去时（规则动词）", "unit": "动词时态（中）", "week": 5, "day": 3 },
+  "objectives": [
+    { "text": "掌握一般过去时的构成方式", "isKeyPoint": true },
+    { "text": "掌握规则动词过去式的变化规则", "isKeyPoint": true },
+    { "text": "了解一般过去时的标志词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "一般过去时的构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**一般过去时**表示过去某个时间发生的动作或存在的状态。" },
+        {
+          "type": "table",
+          "headers": ["句型", "构成", "例句"],
+          "rows": [
+            ["肯定句", "主语 + 动词过去式", "I watched TV yesterday. 我昨天看电视了。"],
+            ["否定句", "主语 + didn't + 动词原形", "I didn't watch TV yesterday. 我昨天没看电视。"],
+            ["疑问句", "Did + 主语 + 动词原形?", "Did you watch TV yesterday? 你昨天看电视了吗？"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "否定句和疑问句中，动词要恢复原形！不能说 I didn't watched，应该是 I didn't watch。" }
+      ]
+    },
+    {
+      "title": "规则动词过去式的变化规则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "大多数动词的过去式由词尾加 -ed 构成，但有以下变化规则：" },
+        {
+          "type": "table",
+          "headers": ["规则", "动词原形", "过去式", "例句"],
+          "rows": [
+            ["一般加 -ed", "walk, play, clean", "walked, played, cleaned", "She cleaned the room."],
+            ["以 e 结尾只加 -d", "like, live, hope", "liked, lived, hoped", "He lived in Beijing."],
+            ["辅音 + y 结尾，变 y 为 i 加 -ed", "study, carry, worry", "studied, carried, worried", "I studied English."],
+            ["重读闭音节，双写末字母加 -ed", "stop, plan, drop", "stopped, planned, dropped", "They stopped talking."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "一般加 ed，e 结尾只加 d，辅音 y 结尾变 i 加 ed，重读闭音节双写再加 ed。" }
+      ]
+    },
+    {
+      "title": "一般过去时的标志词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "看到以下时间状语，通常用一般过去时：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "含义", "例句"],
+          "rows": [
+            ["yesterday", "昨天", "I went to school yesterday."],
+            ["last week/month/year", "上周/月/年", "She visited her grandma last Sunday."],
+            ["... ago", "……以前", "He left home two hours ago."],
+            ["in 2020", "在某一年", "I graduated in 2020."],
+            ["just now", "刚才", "He just finished his homework."]
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：过去式变化",
+      "problem": [
+        { "type": "paragraph", "content": "We _____ (visit) the museum last Sunday." },
+        { "type": "list", "ordered": true, "items": ["A. visit", "B. visits", "C. visited", "D. visiting"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "last Sunday 是过去时间，用一般过去时。visit 以 t 结尾，直接加 -ed 得到 visited。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：否定句中的动词形式",
+      "problem": [
+        { "type": "paragraph", "content": "He _____ (not go) to school yesterday." },
+        { "type": "list", "ordered": true, "items": ["A. didn't go", "B. didn't went", "C. doesn't go", "D. wasn't go"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "yesterday 是过去时间，否定用 didn't + 动词原形 go。答案选 A。注意 didn't 后面动词要恢复原形。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "构成", "children": [
+      { "text": "肯定句：主语 + 动词过去式" },
+      { "text": "否定句：didn't + 动词原形" },
+      { "text": "疑问句：Did + 主语 + 动词原形?" }
+    ]},
+    { "text": "规则变化", "children": [
+      { "text": "一般加 -ed（walk→walked）" },
+      { "text": "以 e 结尾只加 -d（like→liked）" },
+      { "text": "辅音+y 结尾变 i 加 -ed（study→studied）" },
+      { "text": "双写末字母加 -ed（stop→stopped）" }
+    ]},
+    { "text": "标志词", "children": [
+      { "text": "yesterday, last week/month/year" },
+      { "text": "... ago, in 2020, just now" }
+    ]}
+  ]
+}

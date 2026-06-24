@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 14, "slug": "lesson-14-不断发展的现代社会", "title": "不断发展的现代社会", "unit": "第四单元", "week": 5, "day": 2 },
+  "objectives": [
+    { "text": "了解第三次科技革命", "isKeyPoint": true },
+    { "text": "掌握计算机网络技术的发展", "isKeyPoint": true },
+    { "text": "理解现代社会的变化", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "第三次科技革命",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "20世纪四五十年代以来，人类在原子能、电子计算机、航天技术、生物工程等领域取得了重大突破，开始了**第三次科技革命**。电子计算机的广泛使用是第三次科技革命的核心。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "第三次科技革命极大地推动了社会生产力的发展，人类进入「信息时代」。" }
+      ]
+    },
+    {
+      "title": "互联网与信息时代",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1969年，美国建立了**互联网**的前身——阿帕网。20世纪90年代以来，互联网在全球迅速普及，人类社会进入了「**信息时代**」。互联网深刻改变了人们的生活方式和社会交往方式。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "互联网的普及推动了经济全球化，也带来了网络安全、信息泄露等新问题。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：第三次科技革命",
+      "problem": [
+        { "type": "paragraph", "content": "第三次科技革命的核心是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 原子能", "B. 电子计算机", "C. 航天技术", "D. 生物工程"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "电子计算机的广泛使用是第三次科技革命的核心。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：信息时代",
+      "problem": [
+        { "type": "paragraph", "content": "人类社会进入「信息时代」的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 原子弹爆炸", "B. 互联网的普及", "C. 航天飞机升空", "D. 克隆技术"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "互联网的普及使人类进入信息时代。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "第三次科技革命", "children": [
+      { "text": "20世纪四五十年代开始" },
+      { "text": "核心是电子计算机" }
+    ]},
+    { "text": "信息时代", "children": [
+      { "text": "互联网全球普及" },
+      { "text": "深刻改变生活方式" }
+    ]}
+  ]
+}

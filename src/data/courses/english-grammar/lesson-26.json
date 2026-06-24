@@ -1,0 +1,96 @@
+{
+  "meta": { "id": 26, "slug": "lesson-26-infinitive", "title": "动词不定式 to do", "unit": "非谓语与被动语态", "week": 9, "day": 2 },
+  "objectives": [
+    { "text": "掌握动词不定式的构成（to + 动词原形）", "isKeyPoint": true },
+    { "text": "掌握不定式作宾语、宾补和目的状语", "isKeyPoint": true },
+    { "text": "了解常接不定式的动词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "动词不定式的构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**动词不定式**是由「to + 动词原形」构成的一种非谓语动词形式，在句中不能单独作谓语。" },
+        { "type": "paragraph", "content": "**否定形式**：not to do，在 to 前面加 not。例如：He decided **not to go**.（他决定不去。）" },
+        {
+          "type": "table",
+          "headers": ["形式", "构成", "例句"],
+          "rows": [
+            ["肯定式", "to + 动词原形", "I want to study English."],
+            ["否定式", "not + to + 动词原形", "She told me not to be late."]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "不定式作宾语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "许多动词后面可以接不定式作宾语，表示「要做某事」：" },
+        {
+          "type": "table",
+          "headers": ["动词", "例句"],
+          "rows": [
+            ["want", "I want to buy a new car."],
+            ["decide", "He decided to study abroad."],
+            ["hope", "We hope to see you soon."],
+            ["plan", "They plan to travel next month."],
+            ["learn", "She is learning to play the piano."],
+            ["agree", "I agree to help you."],
+            ["refuse", "He refused to answer the question."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "常见的接不定式作宾语的动词可以记为「想（want）决（decide）希（hope）计（plan）学（learn）同（agree）拒（refuse）」。" }
+      ]
+    },
+    {
+      "title": "不定式作目的状语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "不定式可以放在句子末尾表示**目的**，相当于「为了……」：" },
+        { "type": "paragraph", "content": "I came here **to study**.（我来这里**学习**。）" },
+        { "type": "paragraph", "content": "She works hard **to make her parents happy**.（她努力工作**为了让父母开心**。）" },
+        { "type": "paragraph", "content": "**in order to** 和 **so as to** 也是表示目的的常用结构，意义相同，语气更正式。" },
+        { "type": "callout", "variant": "warning", "title": "注意区分", "content": "不定式作目的状语时，其逻辑主语是句子的主语。如果主语不同，不能用不定式作目的状语。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：不定式作宾语",
+      "problem": [
+        { "type": "paragraph", "content": "She decided ___ abroad next year." },
+        { "type": "list", "ordered": true, "items": ["A. study", "B. studying", "C. to study", "D. studied"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "decide 后面接不定式作宾语，固定搭配为 decide to do sth.。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：不定式作目的状语",
+      "problem": [
+        { "type": "paragraph", "content": "He got up early ___ the first bus." },
+        { "type": "list", "ordered": true, "items": ["A. catch", "B. to catch", "C. catching", "D. caught"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "表示「为了赶上第一班公交车」，用不定式 to catch 作目的状语。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "构成", "children": [
+      { "text": "to + 动词原形" },
+      { "text": "否定：not to do" }
+    ]},
+    { "text": "作宾语", "children": [
+      { "text": "want/decide/hope/plan/learn + to do" },
+      { "text": "表示「要做某事」" }
+    ]},
+    { "text": "作目的状语", "children": [
+      { "text": "表示「为了……」" },
+      { "text": "可用 in order to / so as to 强调" }
+    ]}
+  ]
+}

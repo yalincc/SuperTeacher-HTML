@@ -1,0 +1,9 @@
+{
+  "lessonId": 15,
+  "exercises": [
+    { "type": "choice", "id": "ex-15-1", "stem": "联合国成立于（  ）", "options": [{ "label": "A", "text": "1942年" }, { "label": "B", "text": "1945年" }, { "label": "C", "text": "1949年" }, { "label": "D", "text": "1955年" }], "answer": "B", "analysis": "1945年10月联合国成立。" },
+    { "type": "choice", "id": "ex-15-2", "stem": "当今时代的主题是（  ）", "options": [{ "label": "A", "text": "战争与革命" }, { "label": "B", "text": "和平与发展" }, { "label": "C", "text": "独立与解放" }, { "label": "D", "text": "封闭与保守" }], "answer": "B", "analysis": "和平与发展是当今时代的主题。" },
+    { "type": "true_false", "id": "ex-15-3", "stem": "联合国在维护世界和平方面发挥了重要作用。", "answer": true, "analysis": "联合国在维护和平方面发挥了重要作用。" },
+    { "type": "fill", "id": "ex-15-4", "segments": ["联合国成立于", "___1___", "年。当今时代的主题是", "___2___", "与发展。"], "blanks": [{ "index": 1, "answer": "1945" }, { "index": 2, "answer": "和平" }], "analysis": "联合国1945年成立，和平与发展是时代主题。" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    { "type": "choice", "id": "ex-4-1", "stem": "领导印度非暴力不合作运动的是（  ）", "options": [{ "label": "A", "text": "尼赫鲁" }, { "label": "B", "text": "甘地" }, { "label": "C", "text": "真纳" }, { "label": "D", "text": "泰戈尔" }], "answer": "B", "analysis": "甘地领导印度非暴力不合作运动。" },
+    { "type": "choice", "id": "ex-4-2", "stem": "土耳其共和国成立于（  ）", "options": [{ "label": "A", "text": "1918年" }, { "label": "B", "text": "1920年" }, { "label": "C", "text": "1922年" }, { "label": "D", "text": "1923年" }], "answer": "D", "analysis": "1923年土耳其共和国成立。" },
+    { "type": "true_false", "id": "ex-4-3", "stem": "甘地被称为「圣雄」。", "answer": true, "analysis": "甘地因领导非暴力不合作运动被称为「圣雄」。" },
+    { "type": "fill", "id": "ex-4-4", "segments": ["印度非暴力不合作运动的领导人是", "___1___", "土耳其共和国成立于", "___2___", "年。"], "blanks": [{ "index": 1, "answer": "甘地" }, { "index": 2, "answer": "1923" }], "analysis": "甘地领导非暴力不合作运动，土耳其1923年成立共和国。" }
+  ]
+}

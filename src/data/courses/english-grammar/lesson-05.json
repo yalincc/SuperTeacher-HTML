@@ -1,0 +1,103 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-reflexive-demonstrative-pronouns", "title": "反身代词与指示代词", "unit": "代词", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "掌握反身代词的构成和用法", "isKeyPoint": true },
+    { "text": "掌握指示代词 this/that/these/those", "isKeyPoint": true },
+    { "text": "了解常见反身代词短语", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "反身代词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "反身代词表示「……自己」，由形容词性物主代词或宾格 + self/selves 构成：" },
+        {
+          "type": "table",
+          "headers": ["人称", "单数", "复数"],
+          "rows": [
+            ["第一人称", "myself", "ourselves"],
+            ["第二人称", "yourself", "yourselves"],
+            ["第三人称", "himself/herself/itself", "themselves"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "用法", "content": "反身代词在句中作宾语或同位语：I hurt myself.（宾语）I myself did it.（同位语）" }
+      ]
+    },
+    {
+      "title": "常见反身代词短语",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["短语", "含义", "例句"],
+          "rows": [
+            ["enjoy oneself", "玩得开心", "We enjoyed ourselves at the party."],
+            ["help oneself", "自便/请随便吃", "Help yourself to some fruit."],
+            ["teach oneself", "自学", "She teaches herself English."],
+            ["by oneself", "独自", "He went there by himself."],
+            ["hurt oneself", "受伤", "Be careful! Don't hurt yourself."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆技巧", "content": "反身代词常与 by/enjoy/help/teach/hurt 等动词搭配，表示「亲自/独自」做某事。" }
+      ]
+    },
+    {
+      "title": "指示代词 this/that/these/those",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["近指", "远指", "说明"],
+          "rows": [
+            ["this（这个）", "that（那个）", "单数"],
+            ["these（这些）", "those（那些）", "复数"]
+          ]
+        },
+        { "type": "paragraph", "content": "**用法要点**：" },
+        { "type": "list", "ordered": false, "items": [
+          "this/these 指近处，that/those 指远处",
+          "回答 What's this? 用 It's a/an...",
+          "回答 What are these/those? 用 They're...",
+          "电话用语：this 表示自己，that 表示对方"
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "回答 What's this/that? 时不能用 This/That is...，必须用 It is...。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：反身代词",
+      "problem": [
+        { "type": "paragraph", "content": "The children enjoyed ___ at the camp." },
+        { "type": "list", "ordered": true, "items": ["A. they", "B. them", "C. their", "D. themselves"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "enjoy oneself 表示「玩得开心」，主语 The children 是复数，所以用 themselves。答案选 D。" }
+      ],
+      "answer": "D"
+    },
+    {
+      "title": "例2：指示代词",
+      "problem": [
+        { "type": "paragraph", "content": "— What's that? — ___ is a bird." },
+        { "type": "list", "ordered": true, "items": ["A. That", "B. This", "C. It", "D. Those"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "回答 What's that? 时，不能用 That is...，必须用 It is...。答案选 C。" }
+      ],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "反身代词", "children": [
+      { "text": "构成：myself, yourself, himself, herself, itself, ourselves, yourselves, themselves" },
+      { "text": "用法：作宾语或同位语" },
+      { "text": "常见搭配：enjoy oneself, help oneself, teach oneself" }
+    ]},
+    { "text": "指示代词", "children": [
+      { "text": "this/these（近指）vs that/those（远指）" },
+      { "text": "单复数对应" },
+      { "text": "回答时用 It/They，不用 This/That/These/Those" }
+    ]}
+  ]
+}

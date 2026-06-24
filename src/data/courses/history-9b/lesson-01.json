@@ -1,0 +1,61 @@
+{
+  "meta": { "id": 1, "slug": "lesson-01-第一次世界大战", "title": "第一次世界大战", "unit": "第一单元", "week": 1, "day": 1 },
+  "objectives": [
+    { "text": "了解一战爆发的原因", "isKeyPoint": true },
+    { "text": "掌握一战的主要经过和结果", "isKeyPoint": true },
+    { "text": "理解一战的影响", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "一战的爆发",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "19世纪末20世纪初，帝国主义国家之间政治经济发展不平衡，形成了**三国同盟**（德国、奥匈帝国、意大利）和**三国协约**（英国、法国、俄国）两大军事集团。1914年6月，**萨拉热窝事件**成为一战的导火索。" },
+        { "type": "timeline", "items": [
+          { "time": "1914年6月", "title": "萨拉热窝事件", "content": "奥匈帝国皇储被刺杀，成为一战导火索" },
+          { "time": "1914年7月", "title": "一战爆发", "content": "奥匈帝国向塞尔维亚宣战" },
+          { "time": "1918年11月", "title": "一战结束", "content": "德国投降" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "萨拉热窝事件是一战的导火索（直接原因），根本原因是帝国主义国家政治经济发展不平衡。" }
+      ]
+    },
+    {
+      "title": "一战的结果与影响",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1918年11月，德国投降，一战结束。1919年，战胜国召开**巴黎和会**，签订《**凡尔赛条约**》。一战给人类带来巨大灾难，参战国家达30多个，伤亡约3000万人。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "一战是人类历史上第一次世界性战争，它削弱了帝国主义力量，促进了殖民地半殖民地国家的民族觉醒。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：一战导火索",
+      "problem": [
+        { "type": "paragraph", "content": "第一次世界大战的导火索是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 萨拉热窝事件", "B. 萨拉托加战役", "C. 来克星顿枪声", "D. 攻占巴士底狱"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1914年萨拉热窝事件是一战的导火索。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：一战结果",
+      "problem": [
+        { "type": "paragraph", "content": "一战结束后，战胜国召开的会议是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 维也纳会议", "B. 巴黎和会", "C. 雅尔塔会议", "D. 开罗会议"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "一战后召开巴黎和会，签订《凡尔赛条约》。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "一战爆发", "children": [
+      { "text": "1914年萨拉热窝事件是导火索" },
+      { "text": "三国同盟 vs 三国协约" }
+    ]},
+    { "text": "一战结果", "children": [
+      { "text": "1918年德国投降" },
+      { "text": "巴黎和会签订《凡尔赛条约》" }
+    ]}
+  ]
+}

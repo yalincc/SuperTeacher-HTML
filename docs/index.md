@@ -119,11 +119,25 @@ src/data/
 │   ├── history-7a/          ← 七年级上册历史（20 课，2024人教版）
 │   ├── history-7b/          ← 七年级下册历史（18 课，2024人教版）
 │   ├── history-8a/          ← 八年级上册历史（17 课，2024人教版）
-│   └── history-8b/          ← 八年级下册历史（17 课，2024人教版）
+│   ├── history-8b/          ← 八年级下册历史（17 课，2024人教版）
+│   ├── history-9a/          ← 九年级上册历史（15 课，2024人教版）
+│   ├── history-9b/          ← 九年级下册历史（15 课，2024人教版）
+│   └── english-grammar/     ← 英语语法专题（30 课，沪教版七八年级）
 ├── index.ts                 ← import.meta.glob 自动扫描，聚合导出
 ```
 
 **加新学科**：在 `courses/` 下新建目录 + 放入文件，首页自动出现，无需改代码。
+
+### `src/engines/` — 物理画图引擎
+
+```
+src/engines/physics/
+├── index.ts              ← 引擎入口
+├── types.ts              ← 全局类型
+├── circuit/              ← 电路图引擎（builder + renderer + types）
+├── force/                ← 力学图引擎（engine + renderer + scenes）
+└── optics/               ← 光学图引擎（engine + renderer + types）
+```
 
 ### `src/pages/` — 页面组件
 
@@ -163,6 +177,14 @@ src/data/
 | `ListBlock.tsx` | 列表块：自定义标记 |
 | `AnimationBlock.tsx` | GIF 动画块 |
 | `TimelineBlock.tsx` | 时间线块（历史事件、朝代更替等） |
+
+#### `components/physics/`
+
+| 文件 | 说明 |
+|------|------|
+| `CircuitBoard.tsx` | 电路图画板组件 |
+| `ForceBoard.tsx` | 力学图画板组件 |
+| `OpticsBoard.tsx` | 光学图画板组件 |
 
 #### `components/exercises/`
 

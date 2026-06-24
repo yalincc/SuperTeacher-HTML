@@ -1,0 +1,9 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    { "type": "choice", "id": "ex-5-1", "stem": "1929年经济大危机始于（  ）", "options": [{ "label": "A", "text": "英国" }, { "label": "B", "text": "美国" }, { "label": "C", "text": "德国" }, { "label": "D", "text": "法国" }], "answer": "B", "analysis": "1929年经济大危机从美国开始。" },
+    { "type": "choice", "id": "ex-5-2", "stem": "罗斯福新政的特点是（  ）", "options": [{ "label": "A", "text": "自由放任" }, { "label": "B", "text": "国家干预经济" }, { "label": "C", "text": "计划经济" }, { "label": "D", "text": "闭关锁国" }], "answer": "B", "analysis": "罗斯福新政特点是国家干预经济。" },
+    { "type": "true_false", "id": "ex-5-3", "stem": "罗斯福新政取消了市场经济。", "answer": false, "analysis": "罗斯福新政是在维护资本主义制度前提下的改革，不是取消市场经济。" },
+    { "type": "fill", "id": "ex-5-4", "segments": ["1933年，", "___1___", "就任美国总统，实施新政。新政的特点是", "___2___", "经济。"], "blanks": [{ "index": 1, "answer": "罗斯福" }, { "index": 2, "answer": "国家干预" }], "analysis": "罗斯福实施新政，特点是国家干预经济。" }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "lessonId": 28,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-28-1",
+      "stem": "The Great Wall ___ thousands of years ago.",
+      "options": [
+        { "label": "A", "text": "built" },
+        { "label": "B", "text": "was built" },
+        { "label": "C", "text": "is built" },
+        { "label": "D", "text": "has been built" }
+      ],
+      "answer": "B",
+      "analysis": "长城是「被建造」的，需用被动语态。thousands of years ago 表示过去时间，用一般过去时的被动语态 was built。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-28-2",
+      "stem": "English ___ in many countries around the world.",
+      "options": [
+        { "label": "A", "text": "speaks" },
+        { "label": "B", "text": "spoke" },
+        { "label": "C", "text": "is spoken" },
+        { "label": "D", "text": "was spoken" }
+      ],
+      "answer": "C",
+      "analysis": "英语是「被说」的，需用被动语态。in many countries 表示一般性事实，用一般现在时的被动语态 is spoken。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-28-3",
+      "stem": "The work must ___ before Friday.",
+      "options": [
+        { "label": "A", "text": "finish" },
+        { "label": "B", "text": "be finished" },
+        { "label": "C", "text": "finishing" },
+        { "label": "D", "text": "finished" }
+      ],
+      "answer": "B",
+      "analysis": "含情态动词的被动语态构成：情态动词 + be + done。work 是「被完成」的，用 must be finished。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-28-4",
+      "stem": "Intransitive verbs like happen and disappear can be used in the passive voice.",
+      "answer": false,
+      "analysis": "不及物动词（如 happen、disappear）没有宾语，因此没有被动语态。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-28-5",
+      "segments": ["The letter ___1___ (write) by my friend yesterday.", "The house ___2___ (build) next year."],
+      "blanks": [
+        { "index": 1, "answer": "was written", "alternatives": [] },
+        { "index": 2, "answer": "will be built", "alternatives": [] }
+      ],
+      "analysis": "第一句用一般过去时被动语态 was written。第二句用一般将来时被动语态 will be built。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-28-6",
+      "question": "将下列主动语态句子改为被动语态：People speak Chinese in China.",
+      "referenceAnswer": "Chinese is spoken in China.",
+      "scoringPoints": [
+        "正确将宾语 Chinese 变为主语",
+        "使用一般现在时被动语态 is spoken",
+        "可以省略 by people"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 4, "slug": "lesson-04-亚非拉民族民主运动的高涨", "title": "亚非拉民族民主运动的高涨", "unit": "第一单元", "week": 2, "day": 1 },
+  "objectives": [
+    { "text": "了解甘地领导的非暴力不合作运动", "isKeyPoint": true },
+    { "text": "掌握土耳其凯末尔革命", "isKeyPoint": true },
+    { "text": "理解亚非拉民族民主运动的特点", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "印度非暴力不合作运动",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "一战后，印度人民在**甘地**领导下，开展了**非暴力不合作运动**。运动主张通过和平方式争取民族独立，打击了英国的殖民统治，增强了印度人民的民族自尊心和自信心。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "非暴力不合作运动是印度民族解放运动的重要组成部分，甘地因此被称为「圣雄」。" }
+      ]
+    },
+    {
+      "title": "土耳其凯末尔革命",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1922年，**凯末尔**领导土耳其人民击败外国侵略者，赢得了民族独立。1923年，土耳其共和国成立。凯末尔推行了一系列世俗化改革，使土耳其走上了现代化道路。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "凯末尔革命是第一次世界大战后殖民地半殖民地国家民族民主运动中取得胜利的典型。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：非暴力不合作运动",
+      "problem": [
+        { "type": "paragraph", "content": "领导印度非暴力不合作运动的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 尼赫鲁", "B. 甘地", "C. 真纳", "D. 泰戈尔"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "甘地领导印度非暴力不合作运动。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：凯末尔革命",
+      "problem": [
+        { "type": "paragraph", "content": "土耳其共和国成立于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1918年", "B. 1920年", "C. 1922年", "D. 1923年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1923年土耳其共和国成立。正确答案为D。" }],
+      "answer": "D"
+    }
+  ],
+  "summary": [
+    { "text": "印度非暴力不合作", "children": [
+      { "text": "甘地领导" },
+      { "text": "和平方式争取独立" }
+    ]},
+    { "text": "土耳其凯末尔革命", "children": [
+      { "text": "1923年土耳其共和国成立" },
+      { "text": "推行世俗化改革" }
+    ]}
+  ]
+}

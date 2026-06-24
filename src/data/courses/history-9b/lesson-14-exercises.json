@@ -1,0 +1,9 @@
+{
+  "lessonId": 14,
+  "exercises": [
+    { "type": "choice", "id": "ex-14-1", "stem": "第三次科技革命的核心是（  ）", "options": [{ "label": "A", "text": "原子能" }, { "label": "B", "text": "电子计算机" }, { "label": "C", "text": "航天技术" }, { "label": "D", "text": "生物工程" }], "answer": "B", "analysis": "电子计算机的广泛使用是第三次科技革命的核心。" },
+    { "type": "choice", "id": "ex-14-2", "stem": "人类社会进入「信息时代」的标志是（  ）", "options": [{ "label": "A", "text": "原子弹爆炸" }, { "label": "B", "text": "互联网的普及" }, { "label": "C", "text": "航天飞机升空" }, { "label": "D", "text": "克隆技术" }], "answer": "B", "analysis": "互联网的普及使人类进入信息时代。" },
+    { "type": "true_false", "id": "ex-14-3", "stem": "第三次科技革命开始于20世纪四五十年代。", "answer": true, "analysis": "第三次科技革命开始于20世纪四五十年代。" },
+    { "type": "fill", "id": "ex-14-4", "segments": ["第三次科技革命的核心是", "___1___", "的广泛使用。互联网的普及使人类进入", "___2___", "时代。"], "blanks": [{ "index": 1, "answer": "电子计算机" }, { "index": 2, "answer": "信息" }], "analysis": "电子计算机是核心，互联网使人类进入信息时代。" }
+  ]
+}

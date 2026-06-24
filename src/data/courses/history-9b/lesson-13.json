@@ -1,0 +1,49 @@
+{
+  "meta": { "id": 13, "slug": "lesson-13-战后世界格局的演变", "title": "战后世界格局的演变", "unit": "第四单元", "week": 5, "day": 1 },
+  "objectives": [
+    { "text": "了解战后世界格局的演变过程", "isKeyPoint": true },
+    { "text": "掌握多极化趋势的发展", "isKeyPoint": true },
+    { "text": "理解当今世界格局的特点", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "世界格局演变",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "二战后世界格局经历了从**两极格局**到**多极化趋势**的演变。1991年苏联解体后，两极格局结束，世界暂时形成「一超多强」的局面，多极化趋势不可逆转。" },
+        { "type": "timeline", "items": [
+          { "time": "1945-1991年", "title": "两极格局", "content": "美苏冷战对峙" },
+          { "time": "1991年", "title": "两极格局结束", "content": "苏联解体" },
+          { "time": "1991年至今", "title": "多极化趋势", "content": "一超多强，多极化发展" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "当今世界格局的特点是「一超多强」，美国是唯一超级大国，但欧盟、日本、中国、俄罗斯等力量中心不断发展，多极化趋势不可逆转。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：世界格局",
+      "problem": [
+        { "type": "paragraph", "content": "苏联解体后，世界格局呈现（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 单极格局", "B. 两极格局", "C. 一超多强", "D. 三足鼎立"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "苏联解体后世界呈现一超多强局面。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：多极化",
+      "problem": [
+        { "type": "paragraph", "content": "当今世界格局的发展趋势是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 单极化", "B. 两极化", "C. 多极化", "D. 全球化"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "当今世界格局的发展趋势是多极化。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "世界格局演变", "children": [
+      { "text": "两极格局（1945-1991年）" },
+      { "text": "一超多强，多极化趋势" }
+    ]}
+  ]
+}

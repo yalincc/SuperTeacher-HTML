@@ -1,0 +1,67 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-10-1",
+      "stem": "Which is the superlative form of \"bad\"?",
+      "options": [
+        { "label": "A", "text": "bader" },
+        { "label": "B", "text": "more bad" },
+        { "label": "C", "text": "worse" },
+        { "label": "D", "text": "worst" }
+      ],
+      "answer": "D",
+      "analysis": "bad 的最高级是不规则变化 worst。bader 和 more bad 都是错误的，worse 是比较级。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-2",
+      "stem": "This bag is ___ heavy ___ that one.",
+      "options": [
+        { "label": "A", "text": "as; as" },
+        { "label": "B", "text": "so; as" },
+        { "label": "C", "text": "as; than" },
+        { "label": "D", "text": "more; than" }
+      ],
+      "answer": "A",
+      "analysis": "表示「和……一样」用 as...as 句型，中间用形容词原级。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-3",
+      "stem": "She is one of ___ students in our class.",
+      "options": [
+        { "label": "A", "text": "good" },
+        { "label": "B", "text": "better" },
+        { "label": "C", "text": "best" },
+        { "label": "D", "text": "the best" }
+      ],
+      "answer": "D",
+      "analysis": "one of the + 最高级 + 复数名词，最高级前面必须加 the。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-4",
+      "stem": "\"He runs more fast than his brother.\" is correct.",
+      "answer": false,
+      "analysis": "fast 是单音节词，比较级是 faster，不是 more fast。多音节词才用 more + 原级。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-5",
+      "segments": ["This is ___1___ (最好的) movie I have ever seen.", "My English is not ___2___ (和……一样好) his."],
+      "blanks": [
+        { "index": 1, "answer": "the best", "alternatives": [] },
+        { "index": 2, "answer": "as good as", "alternatives": [] }
+      ],
+      "analysis": "最高级 the best 前面加 the。同级比较 not as good as，中间用原级。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-10-6",
+      "question": "请用正确的形式填空并说明理由：The weather is getting ___ (bad).",
+      "referenceAnswer": "The weather is getting worse and worse. 理由：bad 的比较级是 worse，「越来越糟」用比较级 + and + 比较级句型。"
+    }
+  ]
+}

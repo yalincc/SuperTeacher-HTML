@@ -1,0 +1,115 @@
+{
+  "meta": { "id": 16, "slug": "lesson-16-simple-past-irregular", "title": "一般过去时（不规则动词）", "unit": "动词时态（中）", "week": 6, "day": 1 },
+  "objectives": [
+    { "text": "掌握常见不规则动词的过去式", "isKeyPoint": true },
+    { "text": "了解不规则动词的分类规律", "isKeyPoint": true },
+    { "text": "能正确运用一般过去时造句", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "不规则动词表格",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**不规则动词**的过去式没有固定变化规则，需要逐个记忆。以下是常见不规则动词的原形和过去式：" },
+        {
+          "type": "table",
+          "headers": ["原形", "过去式", "中文"],
+          "rows": [
+            ["go", "went", "去"],
+            ["see", "saw", "看见"],
+            ["eat", "ate", "吃"],
+            ["take", "took", "拿"],
+            ["come", "came", "来"],
+            ["make", "made", "制作"],
+            ["give", "gave", "给"],
+            ["write", "wrote", "写"],
+            ["read", "read", "读"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "可以将不规则动词按变化规律分组记忆，比如 go-went, see-saw 等。" }
+      ]
+    },
+    {
+      "title": "不规则动词分类规律",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "不规则动词的变化虽然不规则，但可以按一定的规律分类：" },
+        {
+          "type": "table",
+          "headers": ["类型", "变化规律", "例子"],
+          "rows": [
+            ["AAA型", "原形、过去式、过去分词相同", "read-read-read, cut-cut-cut"],
+            ["ABA型", "原形和过去分词相同", "come-came-come, go-went-gone"],
+            ["ABB型", "过去式和过去分词相同", "make-made-made, give-gave-given"],
+            ["ABC型", "三者各不相同", "eat-ate-eaten, write-wrote-written"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "AAA型不变，ABA型首尾同，ABB型后两同，ABC型全不同。" }
+      ]
+    },
+    {
+      "title": "否定句和疑问句",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "在一般过去时的否定句和疑问句中，要用助动词 **did**，动词恢复原形：" },
+        { "type": "paragraph", "content": "**否定句**：主语 + didn't + 动词原形" },
+        { "type": "paragraph", "content": "**疑问句**：Did + 主语 + 动词原形 + ...?" },
+        {
+          "type": "table",
+          "headers": ["句型", "例句"],
+          "rows": [
+            ["肯定句", "She went to school yesterday."],
+            ["否定句", "She didn't go to school yesterday."],
+            ["疑问句", "Did she go to school yesterday?"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "用了 did/didn't 后，动词必须用原形！不能说 She didn't went。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：不规则动词选择",
+      "problem": [
+        { "type": "paragraph", "content": "选出不规则动词 go 的正确过去式：（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. goed", "B. went", "C. gone", "D. going"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "go 是不规则动词，过去式是 went，不是 goed。gone 是过去分词，going 是现在分词。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：否定句转换",
+      "problem": [
+        { "type": "paragraph", "content": "将肯定句改为否定句：He ate breakfast this morning." },
+        { "type": "paragraph", "content": "A. He didn't ate breakfast this morning." },
+        { "type": "paragraph", "content": "B. He didn't eat breakfast this morning." },
+        { "type": "paragraph", "content": "C. He doesn't eat breakfast this morning." },
+        { "type": "paragraph", "content": "D. He ate not breakfast this morning." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "一般过去时的否定句用 didn't + 动词原形。eat 是原形，所以选 B。A 用了 didn't 后还用过去式，错误。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "不规则动词过去式", "children": [
+      { "text": "go-went, see-saw, eat-ate, take-took" },
+      { "text": "come-came, make-made, give-gave, write-wrote" },
+      { "text": "read-read（发音变化）" }
+    ]},
+    { "text": "分类规律", "children": [
+      { "text": "AAA型：read-read-read" },
+      { "text": "ABA型：come-came-come" },
+      { "text": "ABB型：make-made-made" },
+      { "text": "ABC型：eat-ate-eaten" }
+    ]},
+    { "text": "否定句和疑问句", "children": [
+      { "text": "否定句：主语 + didn't + 动词原形" },
+      { "text": "疑问句：Did + 主语 + 动词原形 + ...?" },
+      { "text": "用了 did/didn't 后动词必须用原形" }
+    ]}
+  ]
+}

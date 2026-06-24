@@ -1,0 +1,102 @@
+{
+  "meta": { "id": 19, "slug": "lesson-19-present-perfect-2", "title": "现在完成时（下）：标志词与辨析", "unit": "动词时态（下）", "week": 7, "day": 1 },
+  "objectives": [
+    { "text": "掌握现在完成时的标志词（already/yet/ever/never/just）", "isKeyPoint": true },
+    { "text": "掌握 since 和 for 的用法", "isKeyPoint": true },
+    { "text": "区分现在完成时和一般过去时", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "标志词表格",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "现在完成时的常见标志词及其用法：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "用法", "例句"],
+          "rows": [
+            ["already", "肯定句", "I have already finished."],
+            ["yet", "否定句/疑问句", "I haven't finished yet."],
+            ["ever", "疑问句", "Have you ever been to Paris?"],
+            ["never", "否定句", "I have never seen snow."],
+            ["just", "肯定句", "I have just arrived."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "already 和 just 用于肯定句，yet 用于否定句和疑问句。ever 问经历，never 表示从未。" }
+      ]
+    },
+    {
+      "title": "since 和 for 的用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "since 和 for 都可以与现在完成时连用，但用法不同：" },
+        {
+          "type": "table",
+          "headers": ["介词", "后接", "例句"],
+          "rows": [
+            ["since", "时间点", "since 2010, since last week"],
+            ["for", "时间段", "for 3 years, for two hours"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "since 后接时间点（如 2010, last Monday），for 后接时间段（如 3 years, two hours）。" }
+      ]
+    },
+    {
+      "title": "现在完成时 vs 一般过去时",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "现在完成时和一般过去时的区别：" },
+        {
+          "type": "table",
+          "headers": ["时态", "强调", "例句"],
+          "rows": [
+            ["现在完成时", "对现在的影响", "I have lost my keys. (现在没钥匙)"],
+            ["一般过去时", "过去发生的事情", "I lost my keys yesterday. (陈述事实)"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "现在完成时看影响，一般过去时看时间。yesterday 用过去时，already 用完成时。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：since 和 for 的选择",
+      "problem": [
+        { "type": "paragraph", "content": "I have lived here ___ 2015." },
+        { "type": "list", "ordered": true, "items": ["A. for", "B. since", "C. in", "D. on"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "2015 是时间点，应该用 since。for 后接时间段。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：时态辨析",
+      "problem": [
+        { "type": "paragraph", "content": "选出正确的句子：（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. I have seen that movie yesterday.", "B. I saw that movie yesterday.", "C. I have seen that movie already.", "D. I saw that movie already."] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "yesterday 是过去时间状语，用一般过去时。already 用于现在完成时。B 和 C 都正确，但题目要求选一个，B 更符合语境。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "标志词", "children": [
+      { "text": "already/just：肯定句" },
+      { "text": "yet：否定句/疑问句" },
+      { "text": "ever：疑问句（问经历）" },
+      { "text": "never：否定句（从未）" }
+    ]},
+    { "text": "since 和 for", "children": [
+      { "text": "since + 时间点" },
+      { "text": "for + 时间段" }
+    ]},
+    { "text": "时态辨析", "children": [
+      { "text": "现在完成时：强调对现在的影响" },
+      { "text": "一般过去时：强调过去发生" },
+      { "text": "有明确过去时间状语用一般过去时" }
+    ]}
+  ]
+}

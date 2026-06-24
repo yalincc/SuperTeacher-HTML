@@ -1,0 +1,57 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-第二次世界大战的转折与胜利", "title": "第二次世界大战的转折与胜利", "unit": "第二单元", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "掌握二战的主要转折点", "isKeyPoint": true },
+    { "text": "了解二战的结束过程", "isKeyPoint": true },
+    { "text": "理解二战的历史意义", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "二战转折点",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1942年7月—1943年2月的**斯大林格勒保卫战**是第二次世界大战的转折点。此后，苏军转入反攻。1944年6月，美英盟军在法国**诺曼底**登陆，开辟了欧洲第二战场。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "斯大林格勒保卫战是二战转折点，不是诺曼底登陆。诺曼底登陆加速了德国法西斯的灭亡。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "1945年4月，美苏军队在德国易北河会师。5月8日，德国正式签署投降书，欧洲战事结束。" }
+      ]
+    },
+    {
+      "title": "二战结束",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1945年7月，美、英、中三国发表《**波茨坦公告**》，敦促日本投降。8月6日和9日，美国分别在广岛和长崎投下原子弹。8月15日，日本宣布无条件投降。9月2日，日本正式签署投降书，第二次世界大战结束。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "二战是人类历史上规模空前的战争，也是人类正义战胜邪恶的伟大胜利。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：二战转折点",
+      "problem": [
+        { "type": "paragraph", "content": "第二次世界大战的转折点是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 诺曼底登陆", "B. 斯大林格勒保卫战", "C. 中途岛战役", "D. 阿拉曼战役"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "斯大林格勒保卫战是二战转折点。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：二战结束",
+      "problem": [
+        { "type": "paragraph", "content": "第二次世界大战结束的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 德国投降", "B. 日本投降", "C. 意大利投降", "D. 原子弹投掷"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1945年9月2日日本签署投降书，二战结束。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "二战转折", "children": [
+      { "text": "斯大林格勒保卫战" },
+      { "text": "诺曼底登陆开辟第二战场" }
+    ]},
+    { "text": "二战结束", "children": [
+      { "text": "1945年5月德国投降" },
+      { "text": "1945年9月日本投降" }
+    ]}
+  ]
+}

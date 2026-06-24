@@ -1,0 +1,72 @@
+{
+  "lessonId": 1,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-1-1",
+      "stem": "Which of the following is an uncountable noun?",
+      "options": [
+        { "label": "A", "text": "apple" },
+        { "label": "B", "text": "news" },
+        { "label": "C", "text": "book" },
+        { "label": "D", "text": "student" }
+      ],
+      "answer": "B",
+      "analysis": "news 是不可数名词，不能加 a/an 或复数。其他三个都是可数名词。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-1-2",
+      "stem": "I need ___ to write a letter.",
+      "options": [
+        { "label": "A", "text": "a paper" },
+        { "label": "B", "text": "a piece of paper" },
+        { "label": "C", "text": "papers" },
+        { "label": "D", "text": "an paper" }
+      ],
+      "answer": "B",
+      "analysis": "paper 作为「纸」时是不可数名词，不能加 a 或复数，应该用量词 a piece of paper。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-1-3",
+      "stem": "There are many ___ on the farm.",
+      "options": [
+        { "label": "A", "text": "sheep" },
+        { "label": "B", "text": "sheeps" },
+        { "label": "C", "text": "a sheep" },
+        { "label": "D", "text": "an sheep" }
+      ],
+      "answer": "A",
+      "analysis": "sheep 是单复数同形的可数名词，复数还是 sheep，不能加 -s。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-1-4",
+      "stem": "We can say \"an information\" to mean a piece of information.",
+      "answer": false,
+      "analysis": "information 是不可数名词，永远不能加 a/an。正确用法是 a piece of information。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-1-5",
+      "segments": ["Could you give me ___1___ (一杯) tea?", "I need two ___2___ (瓶) of water."],
+      "blanks": [
+        { "index": 1, "answer": "a cup of", "alternatives": [] },
+        { "index": 2, "answer": "bottles", "alternatives": [] }
+      ],
+      "analysis": "tea 是不可数名词，用量词 a cup of。bottle 是可数名词，前面有 two，用复数 bottles。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-1-6",
+      "question": "用正确的形式填空并说明理由：Give me three ___ (advice).",
+      "referenceAnswer": "应该改为 three pieces of advice。理由：advice 是不可数名词，不能直接加复数，需要用量词 pieces of 来表示数量。",
+      "scoringPoints": [
+        "正确改为 pieces of advice",
+        "能解释 advice 是不可数名词",
+        "能说明不可数名词不能直接加复数"
+      ]
+    }
+  ]
+}

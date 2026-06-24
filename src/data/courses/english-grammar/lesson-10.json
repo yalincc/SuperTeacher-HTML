@@ -1,0 +1,106 @@
+{
+  "meta": { "id": 10, "slug": "lesson-10-irregular-comparison", "title": "形容词：不规则变化与同级比较", "unit": "数词与形容词", "week": 4, "day": 1 },
+  "objectives": [
+    { "text": "掌握不规则比较级和最高级（good/bad/far）", "isKeyPoint": true },
+    { "text": "掌握同级比较 as...as", "isKeyPoint": true },
+    { "text": "了解比较级的特殊句型", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "不规则变化",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "以下形容词的比较级和最高级是不规则变化，需要特别记忆：" },
+        {
+          "type": "table",
+          "headers": ["原级", "比较级", "最高级", "说明"],
+          "rows": [
+            ["good/well", "better", "best", "好"],
+            ["bad/badly/ill", "worse", "worst", "坏"],
+            ["many/much", "more", "most", "多"],
+            ["little", "less", "least", "少"],
+            ["far", "farther/further", "farthest/furthest", "远"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "good→better→best 是最常见的不规则变化，必须记住。far 有两种形式：farther/farthest 表示物理距离，further/furthest 表示抽象程度。" }
+      ]
+    },
+    {
+      "title": "同级比较 as...as",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**同级比较**表示「和……一样」，用 as...as 句型：" },
+        {
+          "type": "table",
+          "headers": ["句型", "例句", "说明"],
+          "rows": [
+            ["as + 原级 + as", "Tom is as tall as Jerry.", "A 和 B 一样……"],
+            ["not as + 原级 + as", "Tom is not as tall as Jerry.", "A 不如 B……"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "as...as 中间用形容词原级，不是比较级！不能说 as taller as。" }
+      ]
+    },
+    {
+      "title": "比较级特殊句型",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "比较级还有一些特殊句型，需要注意：" },
+        {
+          "type": "table",
+          "headers": ["句型", "例句", "说明"],
+          "rows": [
+            ["the + 比较级, the + 比较级", "The more you read, the more you learn.", "越……就越……"],
+            ["比较级 + and + 比较级", "It's getting colder and colder.", "越来越……"],
+            ["one of the + 最高级 + 复数", "He is one of the best students.", "最……之一"],
+            ["the + 序数词 + 最高级", "This is the second largest city.", "第几最……"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "the more the more 越来越，比较级 and 比较级 也是越来越，one of 后面用复数，序数词前用最高级。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：不规则比较级",
+      "problem": [
+        { "type": "paragraph", "content": "Which is the comparative form of \"good\"?" },
+        { "type": "list", "ordered": true, "items": ["A. gooder", "B. more good", "C. better", "D. best"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "good 的比较级是不规则变化 better，不是 gooder 或 more good。best 是最高级。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：同级比较",
+      "problem": [
+        { "type": "paragraph", "content": "This book is ___ interesting ___ that one." },
+        { "type": "list", "ordered": true, "items": ["A. as; as", "B. so; as", "C. as; than", "D. more; than"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "表示「和……一样」用 as...as 句型，中间用形容词原级。答案选 A。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "不规则变化", "children": [
+      { "text": "good→better→best" },
+      { "text": "bad→worse→worst" },
+      { "text": "many/much→more→most" },
+      { "text": "little→less→least" },
+      { "text": "far→farther/further→farthest/furthest" }
+    ]},
+    { "text": "同级比较", "children": [
+      { "text": "as + 原级 + as（和……一样）" },
+      { "text": "not as + 原级 + as（不如……）" },
+      { "text": "中间用形容词原级，不是比较级" }
+    ]},
+    { "text": "特殊句型", "children": [
+      { "text": "the + 比较级, the + 比较级" },
+      { "text": "比较级 + and + 比较级" },
+      { "text": "one of the + 最高级 + 复数名词" }
+    ]}
+  ]
+}

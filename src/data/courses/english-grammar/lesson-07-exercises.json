@@ -1,0 +1,73 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-7-1",
+      "stem": "Which is the correct spelling of 13?",
+      "options": [
+        { "label": "A", "text": "thirteen" },
+        { "label": "B", "text": "thirten" },
+        { "label": "C", "text": "thrteen" },
+        { "label": "D", "text": "thirteen" }
+      ],
+      "answer": "A",
+      "analysis": "13 的正确拼写是 thirteen，以 -teen 结尾。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-7-2",
+      "stem": "We live on the ___ floor.",
+      "options": [
+        { "label": "A", "text": "two" },
+        { "label": "B", "text": "twice" },
+        { "label": "C", "text": "second" },
+        { "label": "D", "text": "twelve" }
+      ],
+      "answer": "C",
+      "analysis": "表示楼层用序数词，the second floor 表示「二楼」。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-7-3",
+      "stem": "The year 2024 is read as ___.",
+      "options": [
+        { "label": "A", "text": "two thousand and twenty-four" },
+        { "label": "B", "text": "twenty twenty-four" },
+        { "label": "C", "text": "two thousand twenty-four" },
+        { "label": "D", "text": "twenty and twenty-four" }
+      ],
+      "answer": "B",
+      "analysis": "年份通常按两位数读出，2024 读作 twenty twenty-four。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-7-4",
+      "stem": "The ordinal number of 9 is \"nineth\".",
+      "answer": false,
+      "analysis": "nine 的序数词是 ninth，去掉 e 加 -th，不是 nineth。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-5",
+      "segments": ["My birthday is on March ___1___ (12th).", "There are ___2___ (20) students in the class."],
+      "blanks": [
+        { "index": 1, "answer": "twelfth", "alternatives": [] },
+        { "index": 2, "answer": "twenty", "alternatives": [] }
+      ],
+      "analysis": "日期用序数词，12 的序数词是 twelfth（以 ve 结尾变 f 加 -th）。数量用基数词 twenty。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-7-6",
+      "question": "请用英语写出以下数字：(1) 5的序数词 (2) 30的序数词 (3) 1/3 的分数表达",
+      "referenceAnswer": "(1) fifth (2) thirtieth (3) one third。理由：five 的序数词是 fifth（变 ve 为 f 加 -th），thirty 以 y 结尾变 y 为 i 加 -eth，分数分子用基数词，分母用序数词。",
+      "scoringPoints": [
+        "正确写出 fifth",
+        "正确写出 thirtieth",
+        "正确写出 one third",
+        "能解释序数词构成规则"
+      ]
+    }
+  ]
+}

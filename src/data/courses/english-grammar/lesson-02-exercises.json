@@ -1,0 +1,74 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-2-1",
+      "stem": "There are many ___ in the basket.",
+      "options": [
+        { "label": "A", "text": "potato" },
+        { "label": "B", "text": "potatos" },
+        { "label": "C", "text": "potatoes" },
+        { "label": "D", "text": "potatoies" }
+      ],
+      "answer": "C",
+      "analysis": "potato 以 o 结尾且是有生命的名词，复数加 -es→potatoes。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-2-2",
+      "stem": "The ___ shoes are under the bed.",
+      "options": [
+        { "label": "A", "text": "child" },
+        { "label": "B", "text": "children" },
+        { "label": "C", "text": "childrens" },
+        { "label": "D", "text": "children's" }
+      ],
+      "answer": "D",
+      "analysis": "表示「孩子们的」，应该用 children's。children 已经是复数，所有格加 's。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-2-3",
+      "stem": "The teacher asked ___ to hand in the homework.",
+      "options": [
+        { "label": "A", "text": "Lucy and Lily" },
+        { "label": "B", "text": "Lucy's and Lily's" },
+        { "label": "C", "text": "Lucy and Lily's" },
+        { "label": "D", "text": "Lucy's and Lily" }
+      ],
+      "answer": "C",
+      "analysis": "老师要求的是两个人各自交作业，但这里不需要所有格，直接用人名 Lucy and Lily 作宾语。但题目考的是所有格用法，如果是「Lucy 和 Lily 的作业」（共有）用 Lucy and Lily's。答案选 C。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-2-4",
+      "stem": "The plural of \"man\" is \"mens\".",
+      "answer": false,
+      "analysis": "man 的复数是 men，属于不规则变化，不是 mens。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-5",
+      "segments": ["There are three ___1___ (box) on the desk.", "This is ___2___ (Tom and Jerry) room."],
+      "blanks": [
+        { "index": 1, "answer": "boxes", "alternatives": [] },
+        { "index": 2, "answer": "Tom and Jerry's", "alternatives": [] }
+      ],
+      "analysis": "box 以 x 结尾，复数加 -es→boxes。两人共有一个房间，用 Tom and Jerry's。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-2-6",
+      "question": "写出下列名词的复数形式：wolf, wife, child, tooth, sheep",
+      "referenceAnswer": "wolf→wolves, wife→wives, child→children, tooth→teeth, sheep→sheep",
+      "scoringPoints": [
+        "wolf 正确变为 wolves（以 f 结尾变 v 加 -es）",
+        "wife 正确变为 wives（以 fe 结尾变 v 加 -es）",
+        "child 正确变为 children（不规则变化）",
+        "tooth 正确变为 teeth（元音变化）",
+        "sheep 保持不变（单复同形）"
+      ]
+    }
+  ]
+}

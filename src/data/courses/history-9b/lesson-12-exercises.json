@@ -1,0 +1,9 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    { "type": "choice", "id": "ex-12-1", "stem": "万隆会议召开于（  ）", "options": [{ "label": "A", "text": "1945年" }, { "label": "B", "text": "1950年" }, { "label": "C", "text": "1955年" }, { "label": "D", "text": "1960年" }], "answer": "C", "analysis": "1955年万隆会议召开。" },
+    { "type": "choice", "id": "ex-12-2", "stem": "被称为「非洲年」的是（  ）", "options": [{ "label": "A", "text": "1955年" }, { "label": "B", "text": "1960年" }, { "label": "C", "text": "1990年" }, { "label": "D", "text": "1999年" }], "answer": "B", "analysis": "1960年有17个非洲国家独立。" },
+    { "type": "true_false", "id": "ex-12-3", "stem": "万隆会议提出了「求同存异」的方针。", "answer": true, "analysis": "万隆会议提出求同存异方针。" },
+    { "type": "fill", "id": "ex-12-4", "segments": ["万隆会议提出", "___1___", "方针。1999年底巴拿马收回", "___2___", "全部主权。"], "blanks": [{ "index": 1, "answer": "求同存异" }, { "index": 2, "answer": "运河" }], "analysis": "万隆会议提出求同存异，巴拿马收回运河主权。" }
+  ]
+}

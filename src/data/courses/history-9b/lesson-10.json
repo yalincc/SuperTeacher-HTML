@@ -1,0 +1,58 @@
+{
+  "meta": { "id": 10, "slug": "lesson-10-战后资本主义世界的演变", "title": "战后资本主义世界的演变", "unit": "第三单元", "week": 4, "day": 1 },
+  "objectives": [
+    { "text": "了解战后美国经济的发展", "isKeyPoint": true },
+    { "text": "掌握欧洲的联合和日本的崛起", "isKeyPoint": true },
+    { "text": "理解战后资本主义的新变化", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "美国经济发展",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "二战后，美国成为资本主义世界的霸主。20世纪50—70年代，美国经济持续发展，被称为「**黄金时代**」。70年代后，美国经济进入调整期。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "美国经济发展的原因包括：战后国际地位提高、第三次科技革命的推动、政府宏观调控等。" }
+      ]
+    },
+    {
+      "title": "欧洲联合与日本崛起",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "20世纪60年代，**欧洲共同体**成立，促进了西欧国家经济的发展和国际地位的提高。1993年，**欧盟**成立。日本在战后经济迅速恢复和发展，到20世纪60年代末成为资本主义世界第二经济大国。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "欧洲联合和日本崛起冲击了美国的霸主地位，资本主义世界逐渐形成美、日、西欧三足鼎立的局面。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：欧洲联合",
+      "problem": [
+        { "type": "paragraph", "content": "欧洲共同体成立于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1951年", "B. 1958年", "C. 1967年", "D. 1993年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1967年欧洲共同体成立。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：日本崛起",
+      "problem": [
+        { "type": "paragraph", "content": "20世纪60年代末，日本成为资本主义世界（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 第一经济大国", "B. 第二经济大国", "C. 第三经济大国", "D. 最大债权国"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "20世纪60年代末日本成为资本主义世界第二经济大国。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "美国经济", "children": [
+      { "text": "50-70年代黄金时代" }
+    ]},
+    { "text": "欧洲联合", "children": [
+      { "text": "1967年欧共体成立" },
+      { "text": "1993年欧盟成立" }
+    ]},
+    { "text": "日本崛起", "children": [
+      { "text": "60年代末成为第二经济大国" }
+    ]}
+  ]
+}

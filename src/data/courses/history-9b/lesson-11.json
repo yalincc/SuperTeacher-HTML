@@ -1,0 +1,57 @@
+{
+  "meta": { "id": 11, "slug": "lesson-11-社会主义的发展与挫折", "title": "社会主义的发展与挫折", "unit": "第三单元", "week": 4, "day": 2 },
+  "objectives": [
+    { "text": "了解苏联的改革", "isKeyPoint": true },
+    { "text": "掌握东欧剧变和苏联解体", "isKeyPoint": true },
+    { "text": "理解社会主义发展的曲折性", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "苏联改革",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1953年**斯大林**逝世后，**赫鲁晓夫**进行改革，但改革没有从根本上突破斯大林模式。1964年**勃列日涅夫**上台，改革停滞。1985年**戈尔巴乔夫**上台，改革偏离了社会主义方向。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "赫鲁晓夫改革和勃列日涅夫改革都没有从根本上突破斯大林模式，只是局部调整。" }
+      ]
+    },
+    {
+      "title": "东欧剧变与苏联解体",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1989年，东欧各国共产党政权相继垮台，史称「**东欧剧变**」。1991年底，**苏联解体**，两极格局结束。苏联解体标志着冷战结束和两极格局的终结。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "苏联解体的原因是多方面的：斯大林模式的僵化、戈尔巴乔夫改革的失误、西方和平演变等。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：苏联解体",
+      "problem": [
+        { "type": "paragraph", "content": "苏联解体于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1989年", "B. 1990年", "C. 1991年", "D. 1992年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1991年底苏联解体。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：东欧剧变",
+      "problem": [
+        { "type": "paragraph", "content": "「东欧剧变」发生在（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1985年", "B. 1989年", "C. 1991年", "D. 1993年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1989年东欧各国共产党政权相继垮台。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "苏联改革", "children": [
+      { "text": "赫鲁晓夫改革未突破斯大林模式" },
+      { "text": "戈尔巴乔夫改革偏离方向" }
+    ]},
+    { "text": "东欧剧变与苏联解体", "children": [
+      { "text": "1989年东欧剧变" },
+      { "text": "1991年苏联解体" },
+      { "text": "两极格局结束" }
+    ]}
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-13-1",
+      "stem": "She _____ to school every day.",
+      "options": [
+        { "label": "A", "text": "go" },
+        { "label": "B", "text": "goes" },
+        { "label": "C", "text": "going" },
+        { "label": "D", "text": "goed" }
+      ],
+      "answer": "B",
+      "analysis": "主语 She 是第三人称单数，go 以 o 结尾加 -es，得到 goes。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-2",
+      "stem": "My father _____ (not read) newspapers in the morning.",
+      "options": [
+        { "label": "A", "text": "doesn't reads" },
+        { "label": "B", "text": "don't read" },
+        { "label": "C", "text": "doesn't read" },
+        { "label": "D", "text": "isn't read" }
+      ],
+      "answer": "C",
+      "analysis": "主语 My father 是第三人称单数，否定用 doesn't + 动词原形 read。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-3",
+      "stem": "Which sentence uses simple present tense correctly?",
+      "options": [
+        { "label": "A", "text": "He play basketball every weekend." },
+        { "label": "B", "text": "She washes her hands before meals." },
+        { "label": "C", "text": "They goes to school by bus." },
+        { "label": "D", "text": "It run very fast." }
+      ],
+      "answer": "B",
+      "analysis": "She 是三单，wash 以 sh 结尾加 -es 得到 washes，正确。A 应为 plays，C 应为 go，D 应为 runs。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-13-4",
+      "stem": "\"She doesn't likes music.\" 这句话语法正确。",
+      "answer": false,
+      "analysis": "doesn't 后面动词要用原形，应该是 She doesn't like music. 不能在动词后加 s。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-13-5",
+      "segments": ["He _____1_____ (have) two cats.", "The children _____2_____ (not watch) TV on weekdays."],
+      "blanks": [
+        { "index": 1, "answer": "has", "alternatives": [] },
+        { "index": 2, "answer": "don't watch", "alternatives": [] }
+      ],
+      "analysis": "He 是三单，have 的三单形式是 has。The children 是复数，否定用 don't + 动词原形 watch。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-13-6",
+      "question": "用所给动词的正确形式填空并说明理由：Tom and his sister _____ (play) computer games on Sundays.",
+      "referenceAnswer": "应该填 play。理由：Tom and his sister 是两个人，属于复数主语（相当于 they），不用三单变化，动词用原形 play。",
+      "scoringPoints": [
+        "正确填入 play（原形）",
+        "能解释 Tom and his sister 是复数主语",
+        "能说明只有第三人称单数才需要加 s/es"
+      ]
+    }
+  ]
+}

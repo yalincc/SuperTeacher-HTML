@@ -1,0 +1,72 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-6-1",
+      "stem": "Which of the following is correct?",
+      "options": [
+        { "label": "A", "text": "important something" },
+        { "label": "B", "text": "something important" },
+        { "label": "C", "text": "important anything" },
+        { "label": "D", "text": "anything important" }
+      ],
+      "answer": "B",
+      "analysis": "修饰复合不定代词的形容词必须后置，所以应该是 something important。D 语法正确但语义不同，anything 用于否定句或疑问句。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-6-2",
+      "stem": "Would you like ___ to drink?",
+      "options": [
+        { "label": "A", "text": "anything" },
+        { "label": "B", "text": "something" },
+        { "label": "C", "text": "nothing" },
+        { "label": "D", "text": "everything" }
+      ],
+      "answer": "B",
+      "analysis": "这是表示邀请或建议的疑问句，通常用 something 而不是 anything。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-6-3",
+      "stem": "I looked everywhere, but I could find ___.",
+      "options": [
+        { "label": "A", "text": "something" },
+        { "label": "B", "text": "everything" },
+        { "label": "C", "text": "nothing" },
+        { "label": "D", "text": "anything" }
+      ],
+      "answer": "D",
+      "analysis": "这是一个否定句（could not find），否定句中用 anything。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-6-4",
+      "stem": "\"He has important something to tell us.\" is correct.",
+      "answer": false,
+      "analysis": "形容词修饰复合不定代词时必须后置，正确说法是 He has something important to tell us."
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-5",
+      "segments": ["Is there ___1___ (任何人) in the room?", "I have ___2___ (重要的事) to discuss with you."],
+      "blanks": [
+        { "index": 1, "answer": "anyone/anybody", "alternatives": ["anyone", "anybody"] },
+        { "index": 2, "answer": "something important", "alternatives": [] }
+      ],
+      "analysis": "疑问句用 anyone/anybody。肯定句用 something，形容词 important 后置。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-6-6",
+      "question": "请用复合不定代词完成句子并说明理由：I don't have ___ (任何东西) to eat.",
+      "referenceAnswer": "I don't have anything to eat. 理由：否定句中用 anything，不用 something。复合不定代词在否定句中用 any- 开头的形式。",
+      "scoringPoints": [
+        "正确使用 anything",
+        "能说明否定句用 any-",
+        "能解释复合不定代词的用法"
+      ]
+    }
+  ]
+}

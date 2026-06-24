@@ -1,0 +1,53 @@
+{
+  "meta": { "id": 2, "slug": "lesson-02-俄国十月革命", "title": "俄国十月革命", "unit": "第一单元", "week": 1, "day": 2 },
+  "objectives": [
+    { "text": "了解俄国二月革命", "isKeyPoint": false },
+    { "text": "掌握十月革命的经过和意义", "isKeyPoint": true },
+    { "text": "理解苏维埃政权的建立", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "十月革命",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1917年3月（俄历2月），俄国爆发**二月革命**，推翻了沙皇专制统治。11月（俄历10月），在**列宁**领导下，彼得格勒武装起义取得胜利，建立了世界上第一个社会主义国家——**苏维埃俄国**。" },
+        { "type": "timeline", "items": [
+          { "time": "1917年3月", "title": "二月革命", "content": "推翻沙皇专制" },
+          { "time": "1917年11月", "title": "十月革命", "content": "彼得格勒武装起义胜利" },
+          { "time": "1922年", "title": "苏联成立", "content": "苏维埃社会主义共和国联盟成立" }
+        ]},
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "十月革命是人类历史上第一次胜利的社会主义革命，建立了第一个无产阶级专政的国家。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：十月革命",
+      "problem": [
+        { "type": "paragraph", "content": "十月革命发生在（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 法国", "B. 英国", "C. 俄国", "D. 德国"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "十月革命发生在俄国。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：十月革命意义",
+      "problem": [
+        { "type": "paragraph", "content": "十月革命是人类历史上（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 第一次资产阶级革命", "B. 第一次胜利的社会主义革命", "C. 第一次世界大战的开端", "D. 第一次工业革命"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "十月革命是人类历史上第一次胜利的社会主义革命。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "十月革命", "children": [
+      { "text": "1917年11月彼得格勒武装起义" },
+      { "text": "建立第一个社会主义国家" }
+    ]},
+    { "text": "历史意义", "children": [
+      { "text": "第一次胜利的社会主义革命" },
+      { "text": "建立第一个无产阶级专政国家" }
+    ]}
+  ]
+}

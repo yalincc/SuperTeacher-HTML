@@ -1,0 +1,103 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-adjectives-usage", "title": "形容词：用法与位置", "unit": "数词与形容词", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "掌握形容词作定语和表语的用法", "isKeyPoint": true },
+    { "text": "了解形容词的位置规则", "isKeyPoint": true },
+    { "text": "掌握常见形容词辨析", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "形容词作定语和表语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**形容词**在句子中可以作定语（修饰名词）或表语（说明主语状态）。" },
+        {
+          "type": "table",
+          "headers": ["用法", "位置", "例句"],
+          "rows": [
+            ["作定语", "名词前", "a beautiful girl, an interesting book"],
+            ["作表语", "系动词后", "The girl is beautiful. The book is interesting."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "判断技巧", "content": "作定语时形容词在名词前，作表语时在系动词（be/look/feel/seem/become）后。" }
+      ]
+    },
+    {
+      "title": "多个形容词排列顺序",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "当多个形容词修饰同一个名词时，有固定的排列顺序：" },
+        {
+          "type": "table",
+          "headers": ["顺序", "类别", "例词"],
+          "rows": [
+            ["1", "限定词", "a, the, my, this"],
+            ["2", "观点", "beautiful, nice, interesting"],
+            ["3", "大小", "big, small, tall"],
+            ["4", "形状", "round, square, flat"],
+            ["5", "年龄", "old, new, young"],
+            ["6", "颜色", "red, blue, white"],
+            ["7", "产地", "Chinese, American"],
+            ["8", "材料", "wooden, silk, cotton"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "限定观点大形状，年龄颜色和产地，材料放最后。" }
+      ]
+    },
+    {
+      "title": "常见形容词辨析",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "以下几组形容词容易混淆，需要特别注意它们的区别：" },
+        {
+          "type": "table",
+          "headers": ["词组", "区别", "例句"],
+          "rows": [
+            ["big/large/huge", "big 口语化，large 正式，huge 巨大", "a big house / a large building / a huge dinosaur"],
+            ["interesting/interested", "interesting 修饰物，interested 修饰人", "This book is interesting. I am interested in it."],
+            ["boring/bored", "boring 修饰物，bored 修饰人", "The movie is boring. I feel bored."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "-ing 结尾的形容词修饰物或事，-ed 结尾的形容词修饰人。这是最常见的混淆点！" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：形容词作定语和表语",
+      "problem": [
+        { "type": "paragraph", "content": "The flower is ___. (用 beautiful 的正确形式)" },
+        { "type": "list", "ordered": true, "items": ["A. beauty", "B. beautifully", "C. beautiful", "D. beautify"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "形容词作表语放在系动词 is 后面，应该用形容词形式 beautiful。beauty 是名词，beautifully 是副词，be动词是动词。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：-ing 和 -ed 形容词辨析",
+      "problem": [
+        { "type": "paragraph", "content": "I am ___ in this ___ story." },
+        { "type": "list", "ordered": true, "items": ["A. interesting; interested", "B. interested; interesting", "C. interesting; interesting", "D. interested; interested"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "人用 -ed 形容词 interested，物用 -ing 形容词 interesting。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "形容词用法", "children": [
+      { "text": "作定语：放在名词前（a beautiful girl）" },
+      { "text": "作表语：放在系动词后（The girl is beautiful）" }
+    ]},
+    { "text": "多个形容词顺序", "children": [
+      { "text": "限定词→观点→大小→形状→年龄→颜色→产地→材料" },
+      { "text": "例：a beautiful small red Chinese silk dress" }
+    ]},
+    { "text": "常见辨析", "children": [
+      { "text": "-ing 形容词修饰物，-ed 形容词修饰人" },
+      { "text": "big/large/huge：口语/正式/强调巨大" }
+    ]}
+  ]
+}

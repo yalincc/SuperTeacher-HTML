@@ -1,0 +1,63 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-经济大危机和罗斯福新政", "title": "经济大危机和罗斯福新政", "unit": "第二单元", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "了解经济大危机的原因和影响", "isKeyPoint": true },
+    { "text": "掌握罗斯福新政的内容和特点", "isKeyPoint": true },
+    { "text": "理解国家干预经济模式", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "1929—1933年经济大危机",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1929年10月，美国**纽约股市崩溃**，引发了席卷整个资本主义世界的经济大危机。危机持续到1933年，工业产量下降，银行倒闭，失业人数激增。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "经济大危机的根本原因是资本主义制度的基本矛盾，直接原因是生产过剩。" }
+      ]
+    },
+    {
+      "title": "罗斯福新政",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1933年，**罗斯福**就任美国总统，宣布实施「**新政**」。新政的特点是**国家干预经济**，采用国家干预手段来扭转经济形势。新政增强了美国政府的宏观调控能力，恢复了美国人民的信心。" },
+        { "type": "table", "headers": ["领域", "主要措施"], "rows": [
+          ["金融", "整顿银行，恢复银行信用"],
+          ["工业", "通过《全国工业复兴法》"],
+          ["农业", "限制产量，稳定农产品价格"],
+          ["社会", "推行「以工代赈」，兴建公共工程"]
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "罗斯福新政的特点是国家干预经济，不是取消市场经济。新政是在维护资本主义制度前提下的改革。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：经济大危机",
+      "problem": [
+        { "type": "paragraph", "content": "1929年经济大危机始于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 英国", "B. 美国", "C. 德国", "D. 法国"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1929年经济大危机从美国开始。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：罗斯福新政",
+      "problem": [
+        { "type": "paragraph", "content": "罗斯福新政的特点是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 自由放任", "B. 国家干预经济", "C. 计划经济", "D. 闭关锁国"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "罗斯福新政的特点是国家干预经济。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "经济大危机", "children": [
+      { "text": "1929年从美国开始" },
+      { "text": "持续到1933年" }
+    ]},
+    { "text": "罗斯福新政", "children": [
+      { "text": "1933年开始实施" },
+      { "text": "特点是国家干预经济" },
+      { "text": "增强政府宏观调控能力" }
+    ]}
+  ]
+}

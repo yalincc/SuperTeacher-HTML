@@ -1,0 +1,99 @@
+{
+  "meta": { "id": 24, "slug": "lesson-24-time-clauses", "title": "时间状语从句 when/while", "unit": "从句", "week": 8, "day": 3 },
+  "objectives": [
+    { "text": "掌握 when 和 while 的区别", "isKeyPoint": true },
+    { "text": "掌握时间状语从句的时态", "isKeyPoint": true },
+    { "text": "了解 before/after/until 的用法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "when 和 while 区别",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "when 和 while 都可以引导时间状语从句，但用法不同："},
+        {
+          "type": "table",
+          "headers": ["连词", "从句动作", "例句"],
+          "rows": [
+            ["when", "短暂动作或延续动作", "When I got home, my mom was cooking."],
+            ["while", "延续动作（强调持续）", "While I was reading, the phone rang."],
+            ["when + 短动作", "主句用过去进行时", "When the bell rang, we were having class."],
+            ["while + 长动作", "从句用过去进行时", "While she was sleeping, he was watching TV."]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "从句时态规则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "时间状语从句和条件状语从句一样，遵循**主将从现**规则："},
+        { "type": "callout", "variant": "tip", "title": "规则", "content": "当主句用一般将来时，时间状语从句用一般现在时代替将来时。when/while/before/after/as soon as 引导的从句都遵循此规则。" },
+        {
+          "type": "table",
+          "headers": ["正确", "错误"],
+          "rows": [
+            ["I will call you when I arrive.", "I will call you when I will arrive."],
+            ["She will wait while I eat lunch.", "She will wait while I will eat lunch."]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "before/after/until 用法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["连词", "含义", "例句"],
+          "rows": [
+            ["before", "在...之前", "Wash your hands before you eat."],
+            ["after", "在...之后", "I will call you after I finish work."],
+            ["until", "直到...为止", "I will wait until you come back."],
+            ["as soon as", "一...就...", "I will tell him as soon as he arrives."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "until 的否定", "content": "not...until 表示「直到...才」：I didn't go to bed until midnight.（我直到午夜才睡觉）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：when 和 while 的选择",
+      "problem": [
+        { "type": "paragraph", "content": "___ I was walking in the park, I saw a beautiful bird." },
+        { "type": "list", "ordered": true, "items": ["A. When", "B. While", "C. Before", "D. After"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "walking 是延续性动作，while 强调「在...期间」，用 while 引导延续性动作的从句更恰当。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：主将从现在时间从句中的应用",
+      "problem": [
+        { "type": "paragraph", "content": "I will tell him the news when he ___ back." },
+        { "type": "list", "ordered": true, "items": ["A. will come", "B. comes", "C. came", "D. has come"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "主句 will tell 是将来时，when 引导的时间从句用一般现在时 comes，遵循主将从现原则。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "when 和 while", "children": [
+      { "text": "when + 短动作或延续动作" },
+      { "text": "while + 延续动作（强调持续）" }
+    ]},
+    { "text": "时态规则", "children": [
+      { "text": "主将从现：主句将来，从句现在" },
+      { "text": "when/while/before/after 都遵循" }
+    ]},
+    { "text": "其他连词", "children": [
+      { "text": "before（在...之前）" },
+      { "text": "after（在...之后）" },
+      { "text": "until（直到...为止）" }
+    ]}
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "lessonId": 15,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-15-1",
+      "stem": "What did you _____ yesterday?",
+      "options": [
+        { "label": "A", "text": "do" },
+        { "label": "B", "text": "did" },
+        { "label": "C", "text": "doing" },
+        { "label": "D", "text": "does" }
+      ],
+      "answer": "A",
+      "analysis": "did 后面动词要用原形 do。这是过去时的疑问句，did 已经表示过去，动词恢复原形。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-15-2",
+      "stem": "She _____ (study) English for two hours last night.",
+      "options": [
+        { "label": "A", "text": "study" },
+        { "label": "B", "text": "studys" },
+        { "label": "C", "text": "studied" },
+        { "label": "D", "text": "studing" }
+      ],
+      "answer": "C",
+      "analysis": "last night 是过去时间，用一般过去时。study 以辅音 + y 结尾，变 y 为 i 加 -ed 得到 studied。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-15-3",
+      "stem": "They _____ (not finish) their homework yesterday.",
+      "options": [
+        { "label": "A", "text": "don't finish" },
+        { "label": "B", "text": "didn't finished" },
+        { "label": "C", "text": "didn't finish" },
+        { "label": "D", "text": "doesn't finish" }
+      ],
+      "answer": "C",
+      "analysis": "yesterday 是过去时间，否定用 didn't + 动词原形 finish。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-15-4",
+      "stem": "\"He didn't played football last weekend.\" 这句话语法正确。",
+      "answer": false,
+      "analysis": "didn't 后面动词要用原形，应该是 He didn't play football last weekend."
+    },
+    {
+      "type": "fill",
+      "id": "ex-15-5",
+      "segments": ["They _____1_____ (live) in Shanghai in 2019.", "I _____2_____ (not see) him yesterday."],
+      "blanks": [
+        { "index": 1, "answer": "lived", "alternatives": [] },
+        { "index": 2, "answer": "didn't see", "alternatives": [] }
+      ],
+      "analysis": "in 2019 是过去时间，live 以 e 结尾只加 -d 得到 lived。yesterday 是过去时间，否定用 didn't + 原形 see。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-15-6",
+      "question": "写出下列动词的过去式并说明变化规则：stop, like, carry, walk",
+      "referenceAnswer": "stop→stopped（重读闭音节，双写末字母 p 加 -ed）；like→liked（以 e 结尾只加 -d）；carry→carried（辅音 + y 结尾，变 y 为 i 加 -ed）；walked（一般加 -ed）。",
+      "scoringPoints": [
+        "四个动词的过去式都正确",
+        "能说明各自的变化规则",
+        "能区分双写规则和去 e 规则"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-comparative-superlative", "title": "形容词比较级与最高级", "unit": "数词与形容词", "week": 3, "day": 3 },
+  "objectives": [
+    { "text": "掌握比较级和最高级的构成规则", "isKeyPoint": true },
+    { "text": "掌握比较级和最高级的句型", "isKeyPoint": true },
+    { "text": "了解比较级和最高级的标志词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "比较级和最高级构成规则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**比较级**表示「更……」，**最高级**表示「最……」。构成规则如下：" },
+        {
+          "type": "table",
+          "headers": ["规则", "比较级", "最高级", "例词"],
+          "rows": [
+            ["单音节词", "加 -er", "加 -est", "tall→taller→tallest"],
+            ["以 e 结尾", "加 -r", "加 -st", "nice→nicer→nicest"],
+            ["辅音+y 结尾", "变 y 为 i 加 -er", "变 y 为 i 加 -est", "happy→happier→happiest"],
+            ["重读闭音节", "双写末字母加 -er", "双写末字母加 -est", "big→bigger→biggest"],
+            ["多音节词", "前面加 more", "前面加 most", "beautiful→more beautiful→most beautiful"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "双写规则只用于重读闭音节：big, hot, thin, fat。不是所有短词都双写！" }
+      ]
+    },
+    {
+      "title": "比较级用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**比较级**用于两者之间的比较，常用句型：" },
+        {
+          "type": "table",
+          "headers": ["句型", "例句", "说明"],
+          "rows": [
+            ["A is + 比较级 + than B", "Tom is taller than Jerry.", "A 比 B 更……"],
+            ["A is + 比较级 + and + 比较级", "The weather is getting colder and colder.", "越来越……"],
+            ["the + 比较级, the + 比较级", "The more you read, the more you learn.", "越……就越……"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "标志词", "content": "比较级常见标志词：than, much, even, far, a little, a lot。" }
+      ]
+    },
+    {
+      "title": "最高级用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**最高级**用于三者或三者以上的比较，常用句型：" },
+        {
+          "type": "table",
+          "headers": ["句型", "例句", "说明"],
+          "rows": [
+            ["A is + the + 最高级 + in/of", "Tom is the tallest in the class.", "A 是……中最……的"],
+            ["one of the + 最高级 + 复数名词", "She is one of the best students.", "最……之一"],
+            ["the + 序数词 + 最高级", "This is the second largest city.", "第几最……"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "最高级前面必须加 the！one of the 后面用名词复数。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：比较级构成",
+      "problem": [
+        { "type": "paragraph", "content": "Which is the comparative form of \"happy\"?" },
+        { "type": "list", "ordered": true, "items": ["A. happyer", "B. happier", "C. more happy", "D. happyiest"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "happy 以辅音+y 结尾，变 y 为 i 加 -er，比较级是 happier。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：最高级用法",
+      "problem": [
+        { "type": "paragraph", "content": "She is ___ student in our class." },
+        { "type": "list", "ordered": true, "items": ["A. good", "B. better", "C. best", "D. the best"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "最高级前面必须加 the，所以是 the best。答案选 D。" }
+      ],
+      "answer": "D"
+    }
+  ],
+  "summary": [
+    { "text": "构成规则", "children": [
+      { "text": "单音节：加 -er/-est" },
+      { "text": "辅音+y：变 y 为 i 加 -er/-est" },
+      { "text": "重读闭音节：双写末字母加 -er/-est" },
+      { "text": "多音节：加 more/most" }
+    ]},
+    { "text": "比较级", "children": [
+      { "text": "A is + 比较级 + than B" },
+      { "text": "比较级 + and + 比较级（越来越……）" },
+      { "text": "标志词：than, much, even, far" }
+    ]},
+    { "text": "最高级", "children": [
+      { "text": "A is + the + 最高级 + in/of" },
+      { "text": "one of the + 最高级 + 复数名词" },
+      { "text": "最高级前面必须加 the" }
+    ]}
+  ]
+}

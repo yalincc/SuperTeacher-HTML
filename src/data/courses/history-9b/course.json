@@ -1,0 +1,46 @@
+{
+  "id": "history-9b",
+  "course": {
+    "name": "九年级下册",
+    "icon": "📜",
+    "subtitle": "人教版九年级下册（2024版）",
+    "color": "#b45309"
+  },
+  "group": {
+    "id": "history",
+    "name": "初中历史",
+    "icon": "📜",
+    "color": "#b45309",
+    "order": 4
+  },
+  "semester": {
+    "name": "九年级下",
+    "order": 6
+  },
+  "schedule": {
+    "weeks": 6,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周", "第六周"],
+    "weekTitles": ["一战与战后世界", "经济危机与二战", "二战后的世界变化（上）", "二战后的世界变化（下）", "走向和平与发展", "现代科技与文化"]
+  },
+  "lessons": [
+    { "id": 1, "title": "第一次世界大战", "unit": "第一单元", "week": 1, "day": 1 },
+    { "id": 2, "title": "俄国十月革命", "unit": "第一单元", "week": 1, "day": 2 },
+    { "id": 3, "title": "凡尔赛—华盛顿体系", "unit": "第一单元", "week": 1, "day": 3 },
+    { "id": 4, "title": "亚非拉民族民主运动的高涨", "unit": "第一单元", "week": 2, "day": 1 },
+    { "id": 5, "title": "经济大危机和罗斯福新政", "unit": "第二单元", "week": 2, "day": 2 },
+    { "id": 6, "title": "法西斯国家的侵略扩张", "unit": "第二单元", "week": 2, "day": 3 },
+    { "id": 7, "title": "第二次世界大战的全面爆发", "unit": "第二单元", "week": 3, "day": 1 },
+    { "id": 8, "title": "第二次世界大战的转折与胜利", "unit": "第二单元", "week": 3, "day": 2 },
+    { "id": 9, "title": "冷战", "unit": "第三单元", "week": 3, "day": 3 },
+    { "id": 10, "title": "战后资本主义世界的演变", "unit": "第三单元", "week": 4, "day": 1 },
+    { "id": 11, "title": "社会主义的发展与挫折", "unit": "第三单元", "week": 4, "day": 2 },
+    { "id": 12, "title": "亚非拉国家的新发展", "unit": "第三单元", "week": 4, "day": 3 },
+    { "id": 13, "title": "战后世界格局的演变", "unit": "第四单元", "week": 5, "day": 1 },
+    { "id": 14, "title": "不断发展的现代社会", "unit": "第四单元", "week": 5, "day": 2 },
+    { "id": 15, "title": "走向和平与发展的世界", "unit": "第四单元", "week": 5, "day": 3 }
+  ],
+  "features": {
+    "katex": false,
+    "formulaNormalize": false
+  }
+}

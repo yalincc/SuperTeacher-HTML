@@ -1,0 +1,95 @@
+{
+  "meta": { "id": 28, "slug": "lesson-28-passive-voice", "title": "被动语态", "unit": "非谓语与被动语态", "week": 10, "day": 1 },
+  "objectives": [
+    { "text": "掌握被动语态的构成（be + 过去分词）", "isKeyPoint": true },
+    { "text": "掌握各时态的被动语态", "isKeyPoint": true },
+    { "text": "了解主动语态变被动语态的方法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "被动语态的构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**被动语态**的构成是「**be + 过去分词（done）**」，表示主语是动作的承受者。" },
+        { "type": "paragraph", "content": "主动语态：The teacher **teaches** us English.（老师教我们英语。）" },
+        { "type": "paragraph", "content": "被动语态：We **are taught** English by the teacher.（我们被老师教英语。）" },
+        { "type": "callout", "variant": "tip", "title": "什么时候用被动语态", "content": "当动作的承受者比执行者更重要，或不知道动作的执行者是谁时，常用被动语态。" }
+      ]
+    },
+    {
+      "title": "各时态的被动语态",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "不同时态的被动语态通过改变 be 动词的形式来实现：" },
+        {
+          "type": "table",
+          "headers": ["时态", "被动语态构成", "例句"],
+          "rows": [
+            ["一般现在时", "am/is/are + done", "English is spoken worldwide."],
+            ["一般过去时", "was/were + done", "The letter was sent yesterday."],
+            ["一般将来时", "will be + done", "The meeting will be held next week."],
+            ["现在进行时", "am/is/are being + done", "The bridge is being built now."],
+            ["过去进行时", "was/were being + done", "The car was being repaired."],
+            ["现在完成时", "have/has been + done", "The work has been finished."],
+            ["含情态动词", "can/must/should + be + done", "The problem can be solved."]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "主动变被动的步骤",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "将主动语态变为被动语态的三个步骤：" },
+        { "type": "paragraph", "content": "**第一步**：主动句的宾语 → 被动句的主语" },
+        { "type": "paragraph", "content": "**第二步**：主动句的谓语 → be + 过去分词（be 的形式与时态一致）" },
+        { "type": "paragraph", "content": "**第三步**：主动句的主语 → by + 宾格（可省略）" },
+        { "type": "paragraph", "content": "例：Tom **cleans** the room every day." },
+        { "type": "paragraph", "content": "→ The room **is cleaned** by Tom every day." },
+        { "type": "callout", "variant": "warning", "title": "注意", "content": "不及物动词没有被动语态，因为没有宾语可以变成主语。如 happen、appear、disappear 等。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：一般过去时的被动语态",
+      "problem": [
+        { "type": "paragraph", "content": "The bridge ___ in 2020." },
+        { "type": "list", "ordered": true, "items": ["A. built", "B. was built", "C. is built", "D. builds"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "桥是「被建」的，需用被动语态。in 2020 表示过去时间，用一般过去时的被动语态 was built。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：主动变被动",
+      "problem": [
+        { "type": "paragraph", "content": "The students clean the classroom every day.（改为被动语态）" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "第一步：宾语 the classroom → 主语" },
+        { "type": "paragraph", "content": "第二步：谓语 clean → is cleaned（一般现在时）" },
+        { "type": "paragraph", "content": "第三步：主语 the students → by the students" },
+        { "type": "paragraph", "content": "结果：The classroom is cleaned by the students every day." }
+      ],
+      "answer": "The classroom is cleaned by the students every day."
+    }
+  ],
+  "summary": [
+    { "text": "构成", "children": [
+      { "text": "be + 过去分词（done）" },
+      { "text": "be 的形式与时态保持一致" }
+    ]},
+    { "text": "各时态被动", "children": [
+      { "text": "一般现在：am/is/are + done" },
+      { "text": "一般过去：was/were + done" },
+      { "text": "含情态动词：can/must/should + be + done" }
+    ]},
+    { "text": "主动变被动", "children": [
+      { "text": "宾语 → 主语" },
+      { "text": "谓语 → be + done" },
+      { "text": "主语 → by + 宾格（可省略）" }
+    ]}
+  ]
+}

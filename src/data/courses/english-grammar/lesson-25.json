@@ -1,0 +1,98 @@
+{
+  "meta": { "id": 25, "slug": "lesson-25-reason-clauses", "title": "原因状语从句 because/as/since", "unit": "从句", "week": 9, "day": 1 },
+  "objectives": [
+    { "text": "掌握 because/as/since 的区别", "isKeyPoint": true },
+    { "text": "掌握 because of 的用法", "isKeyPoint": true },
+    { "text": "了解原因状语从句的位置", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "because/since/as 区别",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "三个连词都表示原因，但语气强弱和使用场景不同："},
+        {
+          "type": "table",
+          "headers": ["连词", "语气", "用法", "例句"],
+          "rows": [
+            ["because", "最强", "直接原因，回答 why", "I stayed home because I was sick."],
+            ["since", "较弱", "已知原因，双方都知道", "Since you are busy, I will go alone."],
+            ["as", "最弱", "显而易见的原因", "As it is late, let's go home."]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "because of 的用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "because of 后面接**名词短语**，because 后面接**句子**："},
+        {
+          "type": "table",
+          "headers": ["结构", "例句"],
+          "rows": [
+            ["because + 句子", "I stayed home because I was sick."],
+            ["because of + 名词短语", "I stayed home because of the rain."],
+            ["because of + 动名词", "He was late because of getting up late."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "转换公式", "content": "because + 句子 = because of + 名词短语。例如：Because it rained, I stayed home. = Because of the rain, I stayed home." }
+      ]
+    },
+    {
+      "title": "原因从句的位置",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "原因状语从句可以放在主句**前面或后面**："},
+        {
+          "type": "table",
+          "headers": ["位置", "例句", "说明"],
+          "rows": [
+            ["从句在前", "Because I was tired, I went to bed early.", "从句在前，主句在后，中间用逗号"],
+            ["从句在后", "I went to bed early because I was tired.", "从句在后，主句和从句之间不加逗号"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "注意", "code": "because", "content": "不能与 so 连用。因为它们都表示因果关系，连用会造成重复。错误：Because I was tired, so I went to bed early." }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：选择正确的连词",
+      "problem": [
+        { "type": "paragraph", "content": "___ you are here, could you help me with this?" },
+        { "type": "list", "ordered": true, "items": ["A. Because", "B. Since", "C. But", "D. Although"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "「你在这里」是双方都知道的事实，用 since 表示已知原因比较恰当。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：because 和 because of 的转换",
+      "problem": [
+        { "type": "paragraph", "content": "He was late ___ the heavy traffic." },
+        { "type": "list", "ordered": true, "items": ["A. because", "B. because of", "C. since", "D. as"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "the heavy traffic 是名词短语，不能用 because（because 后接句子），应该用 because of。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "because/since/as", "children": [
+      { "text": "because 语气最强，直接原因" },
+      { "text": "since 已知原因，双方都知道" },
+      { "text": "as 显而易见的原因" }
+    ]},
+    { "text": "because of", "children": [
+      { "text": "后接名词短语" },
+      { "text": "because + 句子 = because of + 名词" }
+    ]},
+    { "text": "注意事项", "children": [
+      { "text": "从句可在主句前或后" },
+      { "text": "because 不与 so 连用" }
+    ]}
+  ]
+}

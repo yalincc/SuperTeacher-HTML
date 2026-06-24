@@ -1,0 +1,67 @@
+{
+  "lessonId": 9,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-9-1",
+      "stem": "The ___ you work, the ___ grades you will get.",
+      "options": [
+        { "label": "A", "text": "hard; good" },
+        { "label": "B", "text": "harder; better" },
+        { "label": "C", "text": "hardest; best" },
+        { "label": "D", "text": "harder; good" }
+      ],
+      "answer": "B",
+      "analysis": "the + 比较级, the + 比较级句型表示「越……就越……」。hard 的比较级是 harder，good 的比较级是 better。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-9-2",
+      "stem": "This is the ___ building in the city.",
+      "options": [
+        { "label": "A", "text": "tall" },
+        { "label": "B", "text": "taller" },
+        { "label": "C", "text": "tallest" },
+        { "label": "D", "text": "the tallest" }
+      ],
+      "answer": "D",
+      "analysis": "最高级前面必须加 the，所以是 the tallest。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-9-3",
+      "stem": "My sister is two years ___ than me.",
+      "options": [
+        { "label": "A", "text": "old" },
+        { "label": "B", "text": "older" },
+        { "label": "C", "text": "oldest" },
+        { "label": "D", "text": "elder" }
+      ],
+      "answer": "B",
+      "analysis": "比较级句型 A is + 比较级 + than B。old 的比较级是 older。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-9-4",
+      "stem": "\"This book is more better than that one.\" is correct.",
+      "answer": false,
+      "analysis": "good 的比较级是 better，不能说 more better。多音节词才用 more + 原级。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-5",
+      "segments": ["This is ___1___ (最有趣) book I have ever read.", "The weather is getting ___2___ (越来越冷)."],
+      "blanks": [
+        { "index": 1, "answer": "the most interesting", "alternatives": [] },
+        { "index": 2, "answer": "colder and colder", "alternatives": [] }
+      ],
+      "analysis": "interesting 是多音节词，最高级是 the most interesting。cold 是单音节词，比较级+and+比较级表示越来越冷。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-9-6",
+      "question": "请用比较级和最高级完成句子并说明理由：Yangtze River is ___ (long) river in China.",
+      "referenceAnswer": "Yangtze River is the longest river in China. 理由：表示「中国最长的河」，用最高级 longest，最高级前面必须加 the。"
+    }
+  ]
+}

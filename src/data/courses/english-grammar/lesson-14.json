@@ -1,0 +1,106 @@
+{
+  "meta": { "id": 14, "slug": "lesson-14-present-continuous", "title": "现在进行时", "unit": "动词时态（上）", "week": 5, "day": 2 },
+  "objectives": [
+    { "text": "掌握现在进行时的构成（be + doing）", "isKeyPoint": true },
+    { "text": "掌握动词 -ing 的变形规则", "isKeyPoint": true },
+    { "text": "了解现在进行时的标志词和用法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "现在进行时的构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**现在进行时**表示此时此刻正在进行的动作，或当前一段时间内持续进行的活动。" },
+        {
+          "type": "table",
+          "headers": ["主语", "be 动词", "构成", "例句"],
+          "rows": [
+            ["I", "am", "I am doing", "I am reading a book now."],
+            ["He / She / It", "is", "He is doing", "She is cooking dinner."],
+            ["You / We / They", "are", "They are doing", "They are playing football."],
+            ["否定句", "am/is/are + not", "He is not working.", "He isn't working today."],
+            ["疑问句", "Am/Is/Are + 主语 + doing?", "Are you listening?", "Is she sleeping?"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "缩写形式", "content": "am not 常缩写为 I'm not。is not = isn't，are not = aren't。美式英语中口语常用缩写。" }
+      ]
+    },
+    {
+      "title": "动词 -ing 的变形规则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "大多数动词直接加 -ing，但有些需要特殊变化：" },
+        {
+          "type": "table",
+          "headers": ["规则", "动词原形", "-ing 形式", "例句"],
+          "rows": [
+            ["直接加 -ing", "read, play, eat", "reading, playing, eating", "She is reading now."],
+            ["以不发音 e 结尾，去 e 加 -ing", "make, write, take", "making, writing, taking", "He is making a cake."],
+            ["重读闭音节，双写末字母加 -ing", "run, sit, swim", "running, sitting, swimming", "They are swimming."],
+            ["以 ie 结尾，变 ie 为 y 加 -ing", "die, lie, tie", "dying, lying, tying", "The leaf is dying."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "注意区分：see→seeing（直接加），但 die→dying（去 e 加 y）。read 不是闭音节，直接加 -ing。" }
+      ]
+    },
+    {
+      "title": "现在进行时的标志词和用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "现在进行时通常与以下标志词连用，表示动作正在发生：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "含义", "例句"],
+          "rows": [
+            ["now", "现在", "I am doing homework now."],
+            ["look", "看", "Look! The bird is flying."],
+            ["listen", "听", "Listen! Someone is singing."],
+            ["at the moment", "此刻", "She is studying at the moment."],
+            ["these days", "这几天", "He is learning Chinese these days."]
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：-ing 变形",
+      "problem": [
+        { "type": "paragraph", "content": "Look! The children _____ (run) in the park." },
+        { "type": "list", "ordered": true, "items": ["A. run", "B. runs", "C. are running", "D. is running"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "Look! 提示用现在进行时。主语 The children 是复数，用 are + running。run 是重读闭音节，双写 n 加 -ing。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：去 e 加 -ing",
+      "problem": [
+        { "type": "paragraph", "content": "She is _____ a letter to her friend. (write)" },
+        { "type": "list", "ordered": true, "items": ["A. writing", "B. writeing", "C. writeing", "D. writting"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "write 以不发音 e 结尾，去 e 加 -ing，得到 writing。答案选 A。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "构成", "children": [
+      { "text": "I + am + doing" },
+      { "text": "He/She/It + is + doing" },
+      { "text": "You/We/They + are + doing" }
+    ]},
+    { "text": "-ing 变形规则", "children": [
+      { "text": "直接加 -ing（read→reading）" },
+      { "text": "去 e 加 -ing（make→making）" },
+      { "text": "双写加 -ing（run→running）" },
+      { "text": "ie→y+ing（die→dying）" }
+    ]},
+    { "text": "标志词", "children": [
+      { "text": "now, look, listen" },
+      { "text": "at the moment, these days" }
+    ]}
+  ]
+}

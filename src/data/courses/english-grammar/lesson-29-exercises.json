@@ -1,0 +1,72 @@
+{
+  "lessonId": 29,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-29-1",
+      "stem": "___ beautiful the sunset is!",
+      "options": [
+        { "label": "A", "text": "What" },
+        { "label": "B", "text": "How" },
+        { "label": "C", "text": "What a" },
+        { "label": "D", "text": "How a" }
+      ],
+      "answer": "B",
+      "analysis": "beautiful 是形容词，后面直接跟主谓 the sunset is，用 How 引导感叹句。How + adj + 主谓！"
+    },
+    {
+      "type": "choice",
+      "id": "ex-29-2",
+      "stem": "___ interesting book he is reading!",
+      "options": [
+        { "label": "A", "text": "How" },
+        { "label": "B", "text": "What" },
+        { "label": "C", "text": "What an" },
+        { "label": "D", "text": "How an" }
+      ],
+      "answer": "C",
+      "analysis": "interesting 以元音开头，book 是可数名词单数，用 What an 引导感叹句。What + an + adj + n + 主谓！"
+    },
+    {
+      "type": "choice",
+      "id": "ex-29-3",
+      "stem": "___ in the classroom! The students are having a test.",
+      "options": [
+        { "label": "A", "text": "Talk" },
+        { "label": "B", "text": "Talking" },
+        { "label": "C", "text": "Don't talk" },
+        { "label": "D", "text": "Not talk" }
+      ],
+      "answer": "C",
+      "analysis": "学生正在考试，需要制止说话，用否定祈使句 Don't talk。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-29-4",
+      "stem": "In an exclamation beginning with 'What', the word what is always followed by a noun.",
+      "answer": true,
+      "analysis": "What 引导的感叹句中，What 后面必须接名词短语（a/an + adj + n 或 adj + n）。如果后面是形容词或副词，则用 How。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-29-5",
+      "segments": ["___1___ (多好的天气) it is today!", "___2___ (不要在这里游泳)! It's dangerous."],
+      "blanks": [
+        { "index": 1, "answer": "What good weather", "alternatives": ["What nice weather"] },
+        { "index": 2, "answer": "Don't swim here", "alternatives": ["Don't swim"] }
+      ],
+      "analysis": "weather 是不可数名词，用 What + adj + n + 主谓！祈使句否定用 Don't + 动词原形。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-29-6",
+      "question": "将下列句子改为感叹句：The children are very happy today.",
+      "referenceAnswer": "How happy the children are today! / What happy children they are today!",
+      "scoringPoints": [
+        "正确使用 How + adj + 主谓 结构",
+        "或正确使用 What + adj + n + 主谓 结构",
+        "句子结构完整"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-3-1",
+      "stem": "He is ___ honest boy.",
+      "options": [
+        { "label": "A", "text": "a" },
+        { "label": "B", "text": "an" },
+        { "label": "C", "text": "the" },
+        { "label": "D", "text": "/" }
+      ],
+      "answer": "B",
+      "analysis": "honest 的 h 不发音，第一个音素是元音 /ɒ/，所以用 an。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-3-2",
+      "stem": "I play ___ piano every day.",
+      "options": [
+        { "label": "A", "text": "a" },
+        { "label": "B", "text": "an" },
+        { "label": "C", "text": "the" },
+        { "label": "D", "text": "/" }
+      ],
+      "answer": "C",
+      "analysis": "西洋乐器前必须加 the，play the piano 弹钢琴。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-3-3",
+      "stem": "We have no classes on ___.",
+      "options": [
+        { "label": "A", "text": "a Sunday" },
+        { "label": "B", "text": "the Sunday" },
+        { "label": "C", "text": "Sunday" },
+        { "label": "D", "text": "an Sunday" }
+      ],
+      "answer": "C",
+      "analysis": "星期前不用冠词（零冠词），on Sunday 在星期天。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-3-4",
+      "stem": "We should say \"play the basketball\" instead of \"play basketball\".",
+      "answer": false,
+      "analysis": "球类运动前不用冠词，应该说 play basketball，不是 play the basketball。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-5",
+      "segments": ["I have ___1___ (一只) apple and ___2___ (一些) bread for breakfast."],
+      "blanks": [
+        { "index": 1, "answer": "an", "alternatives": [] },
+        { "index": 2, "answer": "some", "alternatives": [] }
+      ],
+      "analysis": "apple 以元音音素开头用 an。bread 是不可数名词，用 some 修饰。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-3-6",
+      "question": "用 a/an/the 或 /（零冠词）填空：I like playing ___ football, but I can't play ___ violin.",
+      "referenceAnswer": "第一个空填 /（零冠词），第二个空填 the。理由：球类运动前不用冠词，play football；西洋乐器前加 the，play the violin。",
+      "scoringPoints": [
+        "第一个空正确填 /（零冠词）",
+        "第二个空正确填 the",
+        "能解释球类前不加冠词",
+        "能解释乐器前加 the"
+      ]
+    }
+  ]
+}

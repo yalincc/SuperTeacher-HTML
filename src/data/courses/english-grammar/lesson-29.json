@@ -1,0 +1,88 @@
+{
+  "meta": { "id": 29, "slug": "lesson-29-exclamations-imperatives", "title": "感叹句与祈使句", "unit": "综合复习", "week": 10, "day": 2 },
+  "objectives": [
+    { "text": "掌握 what 和 how 引导的感叹句", "isKeyPoint": true },
+    { "text": "掌握肯定和否定祈使句", "isKeyPoint": true },
+    { "text": "了解感叹句和祈使句的用法场景", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "What 引导的感叹句",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**What** 引导的感叹句，what 后面接名词短语：" },
+        { "type": "paragraph", "content": "**What + a/an + 形容词 + 可数名词单数 + 主谓！**" },
+        { "type": "paragraph", "content": "What **a beautiful flower** it is!（多漂亮的花啊！）" },
+        { "type": "paragraph", "content": "**What + 形容词 + 不可数名词/复数名词 + 主谓！**" },
+        { "type": "paragraph", "content": "**What nice weather** it is!（多好的天气啊！）" },
+        { "type": "paragraph", "content": "**What interesting stories** he told!（他讲了多有趣的故事啊！）" },
+        { "type": "callout", "variant": "tip", "title": "判断方法", "content": "如果 what 后面是名词，就用 What 引导；如果 what 后面直接是形容词或副词，就用 How 引导。" }
+      ]
+    },
+    {
+      "title": "How 引导的感叹句",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**How** 引导的感叹句，how 后面接形容词或副词：" },
+        { "type": "paragraph", "content": "**How + 形容词/副词 + 主谓！**" },
+        { "type": "paragraph", "content": "**How beautiful** the flower is!（这花多漂亮啊！）" },
+        { "type": "paragraph", "content": "**How fast** he runs!（他跑得多快啊！）" },
+        { "type": "paragraph", "content": "**How + 主谓！**（省略形容词）" },
+        { "type": "paragraph", "content": "**How time flies!**（时间过得真快！）" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "How 后面不能接名词，What 后面必须接名词。两者不能混用。" }
+      ]
+    },
+    {
+      "title": "祈使句",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**祈使句**用来表示命令、请求、建议或禁止，主语 you 通常省略。" },
+        { "type": "paragraph", "content": "**肯定祈使句**：动词原形开头" },
+        { "type": "paragraph", "content": "**Open** the door!（开门！）" },
+        { "type": "paragraph", "content": "**Be** quiet!（安静！）" },
+        { "type": "paragraph", "content": "**否定祈使句**：Don't + 动词原形" },
+        { "type": "paragraph", "content": "**Don't** run in the hallway!（不要在走廊里跑！）" },
+        { "type": "paragraph", "content": "**Don't be** late!（不要迟到！）" },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "祈使句，无主语，动词原形打头阵。否定句，Don't 加，请求命令都能行。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：选择正确的感叹句",
+      "problem": [
+        { "type": "paragraph", "content": "___ nice day it is!" },
+        { "type": "list", "ordered": true, "items": ["A. How", "B. What", "C. What a", "D. How a"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "nice 是形容词，day 是可数名词单数，需要加 a。What 引导的感叹句结构为 What + a/an + adj + n + 主谓！答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：祈使句的否定形式",
+      "problem": [
+        { "type": "paragraph", "content": "___ late for school!" },
+        { "type": "list", "ordered": true, "items": ["A. Not be", "B. Don't be", "C. Isn't", "D. No be"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "祈使句的否定形式用 Don't + 动词原形。be 动词的否定祈使句为 Don't be。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "What 感叹句", "children": [
+      { "text": "What + a/an + adj + n + 主谓！" },
+      { "text": "What + adj + n（不可数/复数）+ 主谓！" }
+    ]},
+    { "text": "How 感叹句", "children": [
+      { "text": "How + adj/adv + 主谓！" },
+      { "text": "How + 主谓！" }
+    ]},
+    { "text": "祈使句", "children": [
+      { "text": "肯定：动词原形！" },
+      { "text": "否定：Don't + 动词原形！" }
+    ]}
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "english-grammar",
+  "course": {
+    "name": "语法专题",
+    "icon": "📘",
+    "subtitle": "沪教版牛津英语 七八年级语法全覆盖",
+    "color": "#2563eb"
+  },
+  "group": {
+    "id": "english",
+    "name": "初中英语",
+    "icon": "🔤",
+    "color": "#2563eb",
+    "order": 5
+  },
+  "semester": {
+    "name": "语法专题",
+    "order": 1
+  },
+  "schedule": {
+    "weeks": 10,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周", "第六周", "第七周", "第八周", "第九周", "第十周"],
+    "weekTitles": ["名词与冠词", "代词", "数词与形容词", "副词与介词", "动词时态（上）", "动词时态（中）", "动词时态（下）", "从句", "非谓语与被动语态", "综合复习"]
+  },
+  "lessons": [
+    { "id": 1, "title": "名词：可数与不可数", "unit": "名词与冠词", "week": 1, "day": 1 },
+    { "id": 2, "title": "名词：复数规则与名词所有格", "unit": "名词与冠词", "week": 1, "day": 2 },
+    { "id": 3, "title": "冠词：a/an/the/零冠词", "unit": "名词与冠词", "week": 1, "day": 3 },
+    { "id": 4, "title": "人称代词与物主代词", "unit": "代词", "week": 2, "day": 1 },
+    { "id": 5, "title": "反身代词与指示代词", "unit": "代词", "week": 2, "day": 2 },
+    { "id": 6, "title": "不定代词：some/any/no/every", "unit": "代词", "week": 2, "day": 3 },
+    { "id": 7, "title": "基数词与序数词", "unit": "数词与形容词", "week": 3, "day": 1 },
+    { "id": 8, "title": "形容词：用法与位置", "unit": "数词与形容词", "week": 3, "day": 2 },
+    { "id": 9, "title": "形容词比较级与最高级", "unit": "数词与形容词", "week": 3, "day": 3 },
+    { "id": 10, "title": "形容词：不规则变化与同级比较", "unit": "数词与形容词", "week": 4, "day": 1 },
+    { "id": 11, "title": "副词：用法与比较级最高级", "unit": "副词与介词", "week": 4, "day": 2 },
+    { "id": 12, "title": "介词：时间/地点/固定搭配", "unit": "副词与介词", "week": 4, "day": 3 },
+    { "id": 13, "title": "一般现在时", "unit": "动词时态（上）", "week": 5, "day": 1 },
+    { "id": 14, "title": "现在进行时", "unit": "动词时态（上）", "week": 5, "day": 2 },
+    { "id": 15, "title": "一般过去时（规则动词）", "unit": "动词时态（中）", "week": 5, "day": 3 },
+    { "id": 16, "title": "一般过去时（不规则动词）", "unit": "动词时态（中）", "week": 6, "day": 1 },
+    { "id": 17, "title": "一般将来时", "unit": "动词时态（中）", "week": 6, "day": 2 },
+    { "id": 18, "title": "现在完成时（上）", "unit": "动词时态（下）", "week": 6, "day": 3 },
+    { "id": 19, "title": "现在完成时（下）：标志词与辨析", "unit": "动词时态（下）", "week": 7, "day": 1 },
+    { "id": 20, "title": "过去进行时", "unit": "动词时态（下）", "week": 7, "day": 2 },
+    { "id": 21, "title": "时态综合辨析", "unit": "动词时态（下）", "week": 7, "day": 3 },
+    { "id": 22, "title": "并列连词与从属连词", "unit": "从句", "week": 8, "day": 1 },
+    { "id": 23, "title": "条件状语从句 if/unless", "unit": "从句", "week": 8, "day": 2 },
+    { "id": 24, "title": "时间状语从句 when/while", "unit": "从句", "week": 8, "day": 3 },
+    { "id": 25, "title": "原因状语从句 because/as/since", "unit": "从句", "week": 9, "day": 1 },
+    { "id": 26, "title": "动词不定式 to do", "unit": "非谓语与被动语态", "week": 9, "day": 2 },
+    { "id": 27, "title": "动名词 doing", "unit": "非谓语与被动语态", "week": 9, "day": 3 },
+    { "id": 28, "title": "被动语态", "unit": "非谓语与被动语态", "week": 10, "day": 1 },
+    { "id": 29, "title": "感叹句与祈使句", "unit": "综合复习", "week": 10, "day": 2 },
+    { "id": 30, "title": "There be 句型", "unit": "综合复习", "week": 10, "day": 3 }
+  ],
+  "features": {
+    "katex": false,
+    "formulaNormalize": false
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "meta": { "id": 17, "slug": "lesson-17-simple-future", "title": "一般将来时", "unit": "动词时态（中）", "week": 6, "day": 2 },
+  "objectives": [
+    { "text": "掌握 will 和 be going to 的用法和区别", "isKeyPoint": true },
+    { "text": "掌握一般将来时的否定句和疑问句", "isKeyPoint": true },
+    { "text": "了解一般将来时的标志词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "will 的用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**will** 用于表示将来的动作或状态，常用于以下场景：" },
+        {
+          "type": "table",
+          "headers": ["用法", "例句", "说明"],
+          "rows": [
+            ["临时决定", "I'll have a coffee.", "说话时才决定的"],
+            ["预测", "It will rain tomorrow.", "对未来的预测"],
+            ["承诺", "I will help you.", "承诺或意愿"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "will 常用于口语中的临时决定，比如在餐厅点餐时说 I'll have..." }
+      ]
+    },
+    {
+      "title": "be going to 的用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**be going to** 用于表示计划、打算或根据迹象预测：" },
+        {
+          "type": "table",
+          "headers": ["用法", "例句", "说明"],
+          "rows": [
+            ["计划", "I'm going to study abroad next year.", "事先计划好的"],
+            ["打算", "She is going to visit her grandma.", "有明确意图"],
+            ["迹象预测", "Look at the clouds. It's going to rain.", "根据迹象判断"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "be going to 中的 be 动词要根据主语变化：I am, you are, he/she/it is, we/they are。" }
+      ]
+    },
+    {
+      "title": "标志词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "一般将来时的常见标志词：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "例句"],
+          "rows": [
+            ["tomorrow", "I will go to the park tomorrow."],
+            ["next week", "We are going to have a meeting next week."],
+            ["in the future", "People will live on Mars in the future."],
+            ["soon", "The bus will arrive soon."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "tomorrow, next week 是将来时的好朋友。in the future, soon 别忘掉。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：will 与 be going to 的区别",
+      "problem": [
+        { "type": "paragraph", "content": "选出正确的句子：（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. Look! It is going to rain.", "B. Look! It will rain.", "C. Look! It is raining.", "D. Look! It rains."] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "Look! 表示现在能看到的迹象（乌云），根据迹象预测用 be going to。答案选 A。" }
+      ],
+      "answer": "A"
+    },
+    {
+      "title": "例2：否定句和疑问句",
+      "problem": [
+        { "type": "paragraph", "content": "将肯定句改为否定句和疑问句：He will come to the party." },
+        { "type": "paragraph", "content": "否定句：He ___ come to the party." },
+        { "type": "paragraph", "content": "疑问句：___ he ___ to the party?" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "will 的否定句直接加 not：He will not (won't) come to the party. 疑问句将 will 提前：Will he come to the party?" }
+      ],
+      "answer": "won't; Will; come"
+    }
+  ],
+  "summary": [
+    { "text": "will 的用法", "children": [
+      { "text": "临时决定：I'll have a coffee." },
+      { "text": "预测：It will rain tomorrow." },
+      { "text": "承诺：I will help you." }
+    ]},
+    { "text": "be going to 的用法", "children": [
+      { "text": "计划：I'm going to study abroad." },
+      { "text": "打算：She is going to visit her grandma." },
+      { "text": "迹象预测：Look! It's going to rain." }
+    ]},
+    { "text": "标志词", "children": [
+      { "text": "tomorrow, next week, in the future, soon" }
+    ]}
+  ]
+}

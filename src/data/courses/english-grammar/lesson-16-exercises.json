@@ -1,0 +1,73 @@
+{
+  "lessonId": 16,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-16-1",
+      "stem": "Which is the correct past tense of \"see\"?",
+      "options": [
+        { "label": "A", "text": "seed" },
+        { "label": "B", "text": "saw" },
+        { "label": "C", "text": "seen" },
+        { "label": "D", "text": "seeing" }
+      ],
+      "answer": "B",
+      "analysis": "see 是不规则动词，过去式是 saw。seed 是名词「种子」，seen 是过去分词，seeing 是现在分词。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-16-2",
+      "stem": "She ___ to the park yesterday.",
+      "options": [
+        { "label": "A", "text": "go" },
+        { "label": "B", "text": "goes" },
+        { "label": "C", "text": "went" },
+        { "label": "D", "text": "gone" }
+      ],
+      "answer": "C",
+      "analysis": "yesterday 表示过去时间，动词要用过去式。go 的过去式是 went。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-16-3",
+      "stem": "They ___ dinner at 7 o'clock last night.",
+      "options": [
+        { "label": "A", "text": "eat" },
+        { "label": "B", "text": "ate" },
+        { "label": "C", "text": "eaten" },
+        { "label": "D", "text": "eating" }
+      ],
+      "answer": "B",
+      "analysis": "last night 表示过去时间，动词要用过去式。eat 的过去式是 ate。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-16-4",
+      "stem": "The correct sentence is: \"She didn't went to school.\"",
+      "answer": false,
+      "analysis": "用了 didn't 后，动词必须用原形。正确句子是：She didn't go to school."
+    },
+    {
+      "type": "fill",
+      "id": "ex-16-5",
+      "segments": ["He ___1___ (write) a letter yesterday.", "We ___2___ (not see) the movie last week."],
+      "blanks": [
+        { "index": 1, "answer": "wrote", "alternatives": [] },
+        { "index": 2, "answer": "didn't see", "alternatives": ["did not see"] }
+      ],
+      "analysis": "yesterday 表示过去，write 的过去式是 wrote。否定句用 didn't + 动词原形。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-16-6",
+      "question": "用不规则动词的正确形式填空并说明理由：I ___ (take) the bus to school yesterday, but my brother ___ (not come) with me.",
+      "referenceAnswer": "I took the bus to school yesterday, but my brother didn't come with me. 理由：take 是不规则动词，过去式是 took。否定句用 didn't + 动词原形 come。",
+      "scoringPoints": [
+        "正确写出 took",
+        "正确写出 didn't come",
+        "能解释 take 是不规则动词，过去式是 took",
+        "能解释否定句用 didn't + 动词原形"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    { "type": "choice", "id": "ex-3-1", "stem": "巴黎和会主要针对的国家是（  ）", "options": [{ "label": "A", "text": "奥匈帝国" }, { "label": "B", "text": "德国" }, { "label": "C", "text": "俄国" }, { "label": "D", "text": "土耳其" }], "answer": "B", "analysis": "巴黎和会主要针对德国。" },
+    { "type": "choice", "id": "ex-3-2", "stem": "华盛顿会议上签订的《九国公约》涉及的国家是（  ）", "options": [{ "label": "A", "text": "9个欧洲国家" }, { "label": "B", "text": "9个亚洲国家" }, { "label": "C", "text": "美英日法中等9国" }, { "label": "D", "text": "只有中国" }], "answer": "C", "analysis": "华盛顿会议有美英日法中等九国参加。" },
+    { "type": "true_false", "id": "ex-3-3", "stem": "凡尔赛—华盛顿体系消除了帝国主义国家之间的矛盾。", "answer": false, "analysis": "凡尔赛—华盛顿体系只是暂时缓和矛盾。" },
+    { "type": "fill", "id": "ex-3-4", "segments": ["1919年巴黎和会签订了", "___1___", "，1921年华盛顿会议签订了", "___2___"], "blanks": [{ "index": 1, "answer": "凡尔赛条约" }, { "index": 2, "answer": "九国公约" }], "analysis": "巴黎和会签《凡尔赛条约》，华盛顿会议签《九国公约》。" }
+  ]
+}

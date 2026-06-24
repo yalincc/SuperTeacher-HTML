@@ -1,0 +1,9 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    { "type": "choice", "id": "ex-2-1", "stem": "十月革命发生在（  ）", "options": [{ "label": "A", "text": "法国" }, { "label": "B", "text": "英国" }, { "label": "C", "text": "俄国" }, { "label": "D", "text": "德国" }], "answer": "C", "analysis": "十月革命发生在俄国。" },
+    { "type": "choice", "id": "ex-2-2", "stem": "十月革命是人类历史上（  ）", "options": [{ "label": "A", "text": "第一次资产阶级革命" }, { "label": "B", "text": "第一次胜利的社会主义革命" }, { "label": "C", "text": "第一次世界大战的开端" }, { "label": "D", "text": "第一次工业革命" }], "answer": "B", "analysis": "十月革命是第一次胜利的社会主义革命。" },
+    { "type": "true_false", "id": "ex-2-3", "stem": "十月革命建立了世界上第一个社会主义国家。", "answer": true, "analysis": "十月革命建立了苏维埃俄国。" },
+    { "type": "fill", "id": "ex-2-4", "segments": ["十月革命发生在", "___1___", "年，领导人是", "___2___"], "blanks": [{ "index": 1, "answer": "1917" }, { "index": 2, "answer": "列宁" }], "analysis": "十月革命1917年发生，领导人是列宁。" }
+  ]
+}

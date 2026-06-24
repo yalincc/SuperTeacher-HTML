@@ -1,0 +1,9 @@
+{
+  "lessonId": 9,
+  "exercises": [
+    { "type": "choice", "id": "ex-9-1", "stem": "标志着冷战开始的事件是（  ）", "options": [{ "label": "A", "text": "杜鲁门主义" }, { "label": "B", "text": "马歇尔计划" }, { "label": "C", "text": "北约成立" }, { "label": "D", "text": "朝鲜战争" }], "answer": "A", "analysis": "杜鲁门主义标志冷战开始。" },
+    { "type": "choice", "id": "ex-9-2", "stem": "两极格局正式形成的标志是（  ）", "options": [{ "label": "A", "text": "北约成立" }, { "label": "B", "text": "华约成立" }, { "label": "C", "text": "北约和华约同时成立" }, { "label": "D", "text": "冷战开始" }], "answer": "B", "analysis": "1955年华约成立，标志两极格局正式形成。" },
+    { "type": "true_false", "id": "ex-9-3", "stem": "冷战期间美苏发生了直接大规模军事冲突。", "answer": false, "analysis": "冷战期间美苏始终未发生直接大规模军事冲突。" },
+    { "type": "fill", "id": "ex-9-4", "segments": ["1947年", "___1___", "主义标志冷战开始。1955年", "___2___", "成立，两极格局形成。"], "blanks": [{ "index": 1, "answer": "杜鲁门" }, { "index": 2, "answer": "华约" }], "analysis": "杜鲁门主义标志冷战开始，华约成立标志两极格局形成。" }
+  ]
+}

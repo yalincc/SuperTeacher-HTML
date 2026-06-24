@@ -1,0 +1,67 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-8-1",
+      "stem": "The food smells ___.",
+      "options": [
+        { "label": "A", "text": "well" },
+        { "label": "B", "text": "good" },
+        { "label": "C", "text": "nicely" },
+        { "label": "D", "text": "beautifully" }
+      ],
+      "answer": "B",
+      "analysis": "smell 是系动词，后面用形容词 good 作表语。well 和 nicely 是副词。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-8-2",
+      "stem": "This is a ___ wooden table.",
+      "options": [
+        { "label": "A", "text": "round big" },
+        { "label": "B", "text": "big round" },
+        { "label": "C", "text": "wooden big round" },
+        { "label": "D", "text": "round big wooden" }
+      ],
+      "answer": "B",
+      "analysis": "多个形容词排列顺序：大小(big)在形状(round)前面。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-8-3",
+      "stem": "The news is very ___. I feel ___.",
+      "options": [
+        { "label": "A", "text": "surprised; surprising" },
+        { "label": "B", "text": "surprising; surprised" },
+        { "label": "C", "text": "surprised; surprised" },
+        { "label": "D", "text": "surprising; surprising" }
+      ],
+      "answer": "B",
+      "analysis": "news 是物，用 -ing 形容词 surprising；人用 -ed 形容词 surprised。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-8-4",
+      "stem": "\"She is a happily girl.\" is correct.",
+      "answer": false,
+      "analysis": "happily 是副词，不能修饰名词。应该用形容词 happy：She is a happy girl."
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-5",
+      "segments": ["The movie is very ___1___ (感兴趣的).", "I am very ___2___ (感兴趣的) in it."],
+      "blanks": [
+        { "index": 1, "answer": "interesting", "alternatives": [] },
+        { "index": 2, "answer": "interested", "alternatives": [] }
+      ],
+      "analysis": "movie 是物，用 -ing 形容词 interesting；人用 -ed 形容词 interested。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-8-6",
+      "question": "请用正确的形容词形式填空并说明理由：The children are ___ (excite) about the trip.",
+      "referenceAnswer": "The children are excited about the trip. 理由：children 是人，应该用 -ed 结尾的形容词 excited，表示「感到兴奋的」。-ing 形容词修饰物或事。"
+    }
+  ]
+}

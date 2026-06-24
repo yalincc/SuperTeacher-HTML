@@ -1,0 +1,9 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    { "type": "choice", "id": "ex-8-1", "stem": "第二次世界大战的转折点是（  ）", "options": [{ "label": "A", "text": "诺曼底登陆" }, { "label": "B", "text": "斯大林格勒保卫战" }, { "label": "C", "text": "中途岛战役" }, { "label": "D", "text": "阿拉曼战役" }], "answer": "B", "analysis": "斯大林格勒保卫战是二战转折点。" },
+    { "type": "choice", "id": "ex-8-2", "stem": "第二次世界大战结束的标志是（  ）", "options": [{ "label": "A", "text": "德国投降" }, { "label": "B", "text": "日本投降" }, { "label": "C", "text": "意大利投降" }, { "label": "D", "text": "原子弹投掷" }], "answer": "B", "analysis": "1945年9月2日日本签署投降书，二战结束。" },
+    { "type": "true_false", "id": "ex-8-3", "stem": "诺曼底登陆开辟了欧洲第二战场。", "answer": true, "analysis": "1944年诺曼底登陆开辟了欧洲第二战场。" },
+    { "type": "fill", "id": "ex-8-4", "segments": ["二战转折点是", "___1___", "保卫战。1945年", "___2___", "月日本投降，二战结束。"], "blanks": [{ "index": 1, "answer": "斯大林格勒" }, { "index": 2, "answer": "9" }], "analysis": "斯大林格勒保卫战是转折点，1945年9月二战结束。" }
+  ]
+}

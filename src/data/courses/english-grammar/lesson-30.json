@@ -1,0 +1,104 @@
+{
+  "meta": { "id": 30, "slug": "lesson-30-there-be", "title": "There be 句型", "unit": "综合复习", "week": 10, "day": 3 },
+  "objectives": [
+    { "text": "掌握 there be 句型的结构", "isKeyPoint": true },
+    { "text": "掌握 there be 的就近原则", "isKeyPoint": true },
+    { "text": "了解 there be 与 have/has 的区别", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "There be 句型的结构",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**There be 句型**用来表示「某处存在某物」，结构为：" },
+        { "type": "paragraph", "content": "**There is/are + 主语 + 地点状语**" },
+        { "type": "paragraph", "content": "There **is** a book on the desk.（桌子上有一本书。）" },
+        { "type": "paragraph", "content": "There **are** some students in the classroom.（教室里有一些学生。）" },
+        { "type": "paragraph", "content": "否定句：There **isn't** / **aren't** + 主语 + 地点" },
+        { "type": "paragraph", "content": "There **isn't** any water in the bottle.（瓶子里没有水。）" },
+        { "type": "paragraph", "content": "疑问句：**Is/Are** there + 主语 + 地点？" },
+        { "type": "paragraph", "content": "**Are there** any apples on the tree?（树上有苹果吗？）" },
+        { "type": "callout", "variant": "tip", "title": "判断 be 的形式", "content": "there be 句型中，be 的形式由后面最近的主语决定。" }
+      ]
+    },
+    {
+      "title": "就近原则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "当 there be 后面有多个主语时，be 的形式与**最近的主语**保持一致，这就是**就近原则**。" },
+        { "type": "paragraph", "content": "There **is** a book and two pens on the desk.（最近的主语是 a book，用 is）" },
+        { "type": "paragraph", "content": "There **are** two pens and a book on the desk.（最近的主语是 two pens，用 are）" },
+        {
+          "type": "table",
+          "headers": ["情况", "例句", "说明"],
+          "rows": [
+            ["单数 + 单数", "There is a cat and a dog.", "用 is"],
+            ["单数 + 复数", "There is a book and two pens.", "最近的是单数，用 is"],
+            ["复数 + 单数", "There are two pens and a book.", "最近的是复数，用 are"],
+            ["复数 + 复数", "There are books and pens.", "用 are"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "就近原则只影响 be 的形式，不影响句子的意思。不管 be 用 is 还是 are，都表示「有」。" }
+      ]
+    },
+    {
+      "title": "There be vs Have/Has",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**There be** 和 **have/has** 都可以表示「有」，但用法不同：" },
+        {
+          "type": "table",
+          "headers": ["句型", "含义", "例句"],
+          "rows": [
+            ["There be", "客观存在：某处有某物", "There is a clock on the wall."],
+            ["have/has", "主观拥有：某人有某物", "I have a clock."]
+          ]
+        },
+        { "type": "paragraph", "content": "**简单判断**：如果能加「在某处」，用 there be；如果能加「某人的」，用 have/has。" },
+        { "type": "paragraph", "content": "There is a book **on the desk**.（桌子上有一本书。）→ 用 there be" },
+        { "type": "paragraph", "content": "**I** have a book.（我有一本书。）→ 用 have" },
+        { "type": "callout", "variant": "warning", "title": "常见错误", "content": "不能说 There have a book on the desk.（×）正确的说法是 There is a book on the desk.（✓）" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：就近原则",
+      "problem": [
+        { "type": "paragraph", "content": "There ___ a pen and three books on the desk." },
+        { "type": "list", "ordered": true, "items": ["A. is", "B. are", "C. has", "D. have"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "there be 句型中，be 的形式与最近的主语一致。最近的主语是 a pen（单数），用 is。答案选 A。" }
+      ],
+      "answer": "A"
+    },
+    {
+      "title": "例2：There be vs Have",
+      "problem": [
+        { "type": "paragraph", "content": "选出正确的句子：" },
+        { "type": "list", "ordered": true, "items": ["A. There have a computer on the desk.", "B. There is a computer on the desk.", "C. There has a computer on the desk.", "D. There are a computer on the desk."] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "there be 句型表示某处有某物，be 的形式由最近的主语决定。a computer 是单数，用 is。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "基本结构", "children": [
+      { "text": "There is/are + 主语 + 地点" },
+      { "text": "否定：There isn't/aren't" },
+      { "text": "疑问：Is/Are there...?" }
+    ]},
+    { "text": "就近原则", "children": [
+      { "text": "be 的形式与最近的主语一致" },
+      { "text": "There is a book and two pens." },
+      { "text": "There are two pens and a book." }
+    ]},
+    { "text": "There be vs Have", "children": [
+      { "text": "There be：客观存在（某处有某物）" },
+      { "text": "Have/has：主观拥有（某人有某物）" }
+    ]}
+  ]
+}

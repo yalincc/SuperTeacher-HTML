@@ -1,0 +1,57 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-法西斯国家的侵略扩张", "title": "法西斯国家的侵略扩张", "unit": "第二单元", "week": 2, "day": 3 },
+  "objectives": [
+    { "text": "了解德日意法西斯政权的建立", "isKeyPoint": true },
+    { "text": "掌握法西斯国家的侵略扩张", "isKeyPoint": true },
+    { "text": "理解绥靖政策的影响", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "法西斯政权建立",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1922年，**墨索里尼**在意大利建立法西斯政权。1933年，**希特勒**出任德国总理，建立法西斯专政。1936年，**广田弘毅**组阁，建立日本法西斯政权。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "德日意三国轴心形成于1937年，不是1936年。1936年是日本法西斯政权建立。" }
+      ]
+    },
+    {
+      "title": "绥靖政策",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "20世纪30年代，英法等国对法西斯国家的侵略扩张采取**绥靖政策**，企图将祸水引向苏联。1938年《**慕尼黑协定**》是绥靖政策达到顶峰的标志。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "绥靖政策助长了法西斯的侵略气焰，加速了第二次世界大战的爆发。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：法西斯政权",
+      "problem": [
+        { "type": "paragraph", "content": "希特勒出任德国总理的时间是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1922年", "B. 1931年", "C. 1933年", "D. 1936年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1933年希特勒出任德国总理。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：绥靖政策",
+      "problem": [
+        { "type": "paragraph", "content": "绥靖政策达到顶峰的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《凡尔赛条约》", "B. 《慕尼黑协定》", "C. 《九国公约》", "D. 《开罗宣言》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1938年《慕尼黑协定》是绥靖政策达到顶峰的标志。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "法西斯政权", "children": [
+      { "text": "1922年意大利" },
+      { "text": "1933年德国" },
+      { "text": "1936年日本" }
+    ]},
+    { "text": "绥靖政策", "children": [
+      { "text": "《慕尼黑协定》达到顶峰" },
+      { "text": "加速二战爆发" }
+    ]}
+  ]
+}

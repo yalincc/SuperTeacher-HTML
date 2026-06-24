@@ -1,0 +1,72 @@
+{
+  "lessonId": 27,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-27-1",
+      "stem": "Which of the following verbs is usually followed by a gerund?",
+      "options": [
+        { "label": "A", "text": "want" },
+        { "label": "B", "text": "decide" },
+        { "label": "C", "text": "enjoy" },
+        { "label": "D", "text": "hope" }
+      ],
+      "answer": "C",
+      "analysis": "enjoy 后面接动名词 doing 作宾语。want、decide、hope 后面接不定式 to do。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-27-2",
+      "stem": "___ is a good way to stay healthy.",
+      "options": [
+        { "label": "A", "text": "Swim" },
+        { "label": "B", "text": "Swimming" },
+        { "label": "C", "text": "Swims" },
+        { "label": "D", "text": "To swims" }
+      ],
+      "answer": "B",
+      "analysis": "动名词 Swimming 作主语，谓语动词 is 用单数。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-27-3",
+      "stem": "I am interested in ___ French.",
+      "options": [
+        { "label": "A", "text": "learn" },
+        { "label": "B", "text": "to learn" },
+        { "label": "C", "text": "learning" },
+        { "label": "D", "text": "learned" }
+      ],
+      "answer": "C",
+      "analysis": "be interested in 中的 in 是介词，后面必须接动名词 learning。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-27-4",
+      "stem": "The gerund and the present participle have the same form (-ing) but different functions in sentences.",
+      "answer": true,
+      "analysis": "动名词和现在分词形式相同（都是 -ing），但动名词起名词作用，现在分词起形容词或副词作用。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-27-5",
+      "segments": ["He finished ___1___ (do) his homework.", "She is good at ___2___ (cook)."],
+      "blanks": [
+        { "index": 1, "answer": "doing", "alternatives": [] },
+        { "index": 2, "answer": "cooking", "alternatives": [] }
+      ],
+      "analysis": "finish 后面接动名词 doing。be good at 后面接动名词 cooking。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-27-6",
+      "question": "用动名词改写下列句子：I suggested that we should go for a walk.",
+      "referenceAnswer": "I suggested going for a walk.",
+      "scoringPoints": [
+        "正确将从句改为动名词短语 going for a walk",
+        "suggested 后面接动名词",
+        "句意不变"
+      ]
+    }
+  ]
+}

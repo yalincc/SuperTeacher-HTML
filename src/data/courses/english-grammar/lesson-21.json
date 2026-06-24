@@ -1,0 +1,97 @@
+{
+  "meta": { "id": 21, "slug": "lesson-21-tenses-comparison", "title": "时态综合辨析", "unit": "动词时态（下）", "week": 7, "day": 3 },
+  "objectives": [
+    { "text": "能区分六种时态的用法", "isKeyPoint": true },
+    { "text": "掌握时态辨析的解题方法", "isKeyPoint": true },
+    { "text": "了解时态混合使用的语境", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "六种时态对比表格",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "掌握六种基本时态的**结构、用法和标志词**是解题的关键："},
+        {
+          "type": "table",
+          "headers": ["时态", "结构", "用法", "标志词"],
+          "rows": [
+            ["一般现在时", "do/does", "习惯、事实、真理", "always, usually, every day"],
+            ["现在进行时", "be + doing", "正在进行", "now, look, listen"],
+            ["一般过去时", "did", "过去发生", "yesterday, last week, ago"],
+            ["一般将来时", "will/be going to", "将来发生", "tomorrow, next week, soon"],
+            ["现在完成时", "have/has + done", "已完成/经验/持续", "already, yet, since, for"],
+            ["过去进行时", "was/were + doing", "过去某时正在进行", "at that time, when"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "标志词速查表",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "看到这些词时，应优先考虑对应的时态："},
+        {
+          "type": "table",
+          "headers": ["时态", "常见标志词"],
+          "rows": [
+            ["一般现在时", "always, usually, often, sometimes, every day, on Sundays"],
+            ["现在进行时", "now, right now, at the moment, look!, listen!"],
+            ["一般过去时", "yesterday, last night/week/year, ... ago, in 2020"],
+            ["一般将来时", "tomorrow, next day/week, in the future, soon"],
+            ["现在完成时", "already, yet, ever, never, since, for, so far"],
+            ["过去进行时", "at that time, at 8:00 last night, when, while"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "解题三步法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "遇到时态选择题时，按以下三步解题："},
+        { "type": "callout", "variant": "tip", "title": "第一步：看时间状语", "content": "时间状语是最重要的线索，根据标志词直接锁定时态。例如：看到 yesterday 选一般过去时，看到 every day 选一般现在时。" },
+        { "type": "callout", "variant": "tip", "title": "第二步：看上下文", "content": "如果没有明确的时间状语，通过上下文判断动作发生的时间。例如：前后句子用过去时，这个句子很可能也是过去时。" },
+        { "type": "callout", "variant": "tip", "title": "第三步：看动词形式", "content": "根据动词形式反推时态。例如：had done 是过去完成时，will be doing 是将来进行时。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：根据标志词选择时态",
+      "problem": [
+        { "type": "paragraph", "content": "I ___ to Beijing twice." },
+        { "type": "list", "ordered": true, "items": ["A. went", "B. have been", "C. go", "D. was going"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "关键词 twice 表示「两次」，强调经历，这是现在完成时的典型用法。现在完成时的结构是 have/has + done，所以选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：根据语境判断时态",
+      "problem": [
+        { "type": "paragraph", "content": "When I got home, my mother ___ dinner." },
+        { "type": "list", "ordered": true, "items": ["A. cooks", "B. cooked", "C. was cooking", "D. has cooked"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "got home 是一般过去时，说明过去的时间点。when 引导的从句用一般过去时，主句表示「过去某时正在做饭」，应该用过去进行时。答案选 C。" }
+      ],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "六种时态", "children": [
+      { "text": "一般现在/现在进行/一般过去" },
+      { "text": "一般将来/现在完成/过去进行" }
+    ]},
+    { "text": "解题方法", "children": [
+      { "text": "先找时间状语/标志词" },
+      { "text": "再看上下文语境" },
+      { "text": "最后验证动词形式" }
+    ]},
+    { "text": "重点区分", "children": [
+      { "text": "一般过去 vs 现在完成" },
+      { "text": "现在进行 vs 过去进行" }
+    ]}
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "lessonId": 22,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-22-1",
+      "stem": "He is tired ___ he keeps working.",
+      "options": [
+        { "label": "A", "text": "and" },
+        { "label": "B", "text": "but" },
+        { "label": "C", "text": "or" },
+        { "label": "D", "text": "so" }
+      ],
+      "answer": "B",
+      "analysis": "「他累了」和「他继续工作」是转折关系，应该用 but。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-22-2",
+      "stem": "Not only she but also I ___ interested in music.",
+      "options": [
+        { "label": "A", "text": "is" },
+        { "label": "B", "text": "are" },
+        { "label": "C", "text": "am" },
+        { "label": "D", "text": "be" }
+      ],
+      "answer": "C",
+      "analysis": "not only...but also 连接时遵循就近原则，靠近谓语的是 I，所以用 am。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-22-3",
+      "stem": "___ my parents ___ my sister has been to the Great Wall.",
+      "options": [
+        { "label": "A", "text": "Both...and" },
+        { "label": "B", "text": "Either...or" },
+        { "label": "C", "text": "Neither...nor" },
+        { "label": "D", "text": "Not only...but also" }
+      ],
+      "answer": "C",
+      "analysis": "根据 has（单数），主语是单数或表否定。Neither...nor 表示「两者都不」，连接单数主语时谓语用单数。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-22-4",
+      "stem": "In the sentence \"I like cats and dogs\", \"and\" is a coordinating conjunction.",
+      "answer": true,
+      "analysis": "and 连接两个对等的名词 cats 和 dogs，是典型的并列连词（coordinating conjunction）。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-22-5",
+      "segments": ["Hurry up, ___1___ you will miss the bus.", "She likes music ___2___ she doesn't play any instrument."],
+      "blanks": [
+        { "index": 1, "answer": "or", "alternatives": [] },
+        { "index": 2, "answer": "but", "alternatives": [] }
+      ],
+      "analysis": "第一句是「否则」的含义，用 or。第二句是转折关系「喜欢但不演奏」，用 but。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-22-6",
+      "question": "用正确的连词填空并说明理由：___ it rained heavily, we still went hiking.",
+      "referenceAnswer": "Although / Though。理由：前后是让步关系「虽然下大雨，但我们还是去了」，需要用让步状语从句的从属连词 although 或 though。",
+      "scoringPoints": [
+        "正确使用 although 或 though",
+        "能解释前后是让步关系",
+        "能区分从属连词和并列连词"
+      ]
+    }
+  ]
+}

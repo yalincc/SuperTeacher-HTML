@@ -1,0 +1,59 @@
+{
+  "meta": { "id": 12, "slug": "lesson-12-亚非拉国家的新发展", "title": "亚非拉国家的新发展", "unit": "第三单元", "week": 4, "day": 3 },
+  "objectives": [
+    { "text": "了解万隆会议", "isKeyPoint": true },
+    { "text": "掌握非洲独立运动", "isKeyPoint": true },
+    { "text": "理解巴拿马收回运河主权", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "万隆会议",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1955年，亚非29个国家和地区在印度尼西亚**万隆**召开会议，这是第一次没有西方殖民国家参加的亚非国际会议。会议提出了「**求同存异**」的方针，促进了亚非国家的团结合作。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "周恩来率中国代表团参加万隆会议，提出「求同存异」方针，推动会议取得圆满成功。" }
+      ]
+    },
+    {
+      "title": "非洲独立与巴拿马收回运河",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1960年，非洲有17个国家独立，被称为「**非洲年**」。1990年**纳米比亚**独立，标志着欧洲殖民者入侵和奴役非洲五个世纪历史的结束。1999年底，**巴拿马**从美国手中收回了运河区的全部主权。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "二战后亚非拉国家的独立运动，标志着世界殖民体系的逐渐瓦解。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：万隆会议",
+      "problem": [
+        { "type": "paragraph", "content": "万隆会议召开于（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1945年", "B. 1950年", "C. 1955年", "D. 1960年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1955年万隆会议召开。正确答案为C。" }],
+      "answer": "C"
+    },
+    {
+      "title": "例2：非洲独立",
+      "problem": [
+        { "type": "paragraph", "content": "被称为「非洲年」的是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 1955年", "B. 1960年", "C. 1990年", "D. 1999年"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1960年有17个非洲国家独立，被称为「非洲年」。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "万隆会议", "children": [
+      { "text": "1955年第一次亚非会议" },
+      { "text": "求同存异方针" }
+    ]},
+    { "text": "非洲独立", "children": [
+      { "text": "1960年非洲年" },
+      { "text": "1990年纳米比亚独立" }
+    ]},
+    { "text": "巴拿马收回运河", "children": [
+      { "text": "1999年底收回全部主权" }
+    ]}
+  ]
+}

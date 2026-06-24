@@ -1,0 +1,72 @@
+{
+  "lessonId": 18,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-18-1",
+      "stem": "She ___ already ___ her homework.",
+      "options": [
+        { "label": "A", "text": "has; finish" },
+        { "label": "B", "text": "has; finished" },
+        { "label": "C", "text": "have; finished" },
+        { "label": "D", "text": "have; finish" }
+      ],
+      "answer": "B",
+      "analysis": "she 是第三人称单数，用 has。already 用于现在完成时，finish 的过去分词是 finished。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-18-2",
+      "stem": "Which is the correct past participle of \"go\"?",
+      "options": [
+        { "label": "A", "text": "goed" },
+        { "label": "B", "text": "went" },
+        { "label": "C", "text": "gone" },
+        { "label": "D", "text": "going" }
+      ],
+      "answer": "C",
+      "analysis": "go 是不规则动词，过去分词是 gone。goed 是错误形式，went 是过去式，going 是现在分词。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-18-3",
+      "stem": "I ___ never ___ to Japan.",
+      "options": [
+        { "label": "A", "text": "have; been" },
+        { "label": "B", "text": "has; been" },
+        { "label": "C", "text": "have; be" },
+        { "label": "D", "text": "has; be" }
+      ],
+      "answer": "A",
+      "analysis": "I 用 have。be 的过去分词是 been。never 用于现在完成时。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-18-4",
+      "stem": "The past participle of \"write\" is \"writed\".",
+      "answer": false,
+      "analysis": "write 是不规则动词，过去分词是 written，不是 writed。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-18-5",
+      "segments": ["They ___1___ (visit) the museum twice.", "He ___2___ (not see) that movie yet."],
+      "blanks": [
+        { "index": 1, "answer": "have visited", "alternatives": [] },
+        { "index": 2, "answer": "hasn't seen", "alternatives": ["has not seen"] }
+      ],
+      "analysis": "twice 表示多次，用现在完成时。they 用 have。yet 用于现在完成时的否定句，he 用 hasn't。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-18-6",
+      "question": "用现在完成时描述以下场景：我学英语三年了。",
+      "referenceAnswer": "I have learned English for three years. 理由：从过去持续到现在的动作用现在完成时。I 用 have，learn 的过去分词是 learned。",
+      "scoringPoints": [
+        "正确使用 have learned",
+        "能解释这是从过去持续到现在的动作",
+        "能正确使用 for + 时间段"
+      ]
+    }
+  ]
+}

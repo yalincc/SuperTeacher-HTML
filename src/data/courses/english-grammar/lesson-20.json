@@ -1,0 +1,101 @@
+{
+  "meta": { "id": 20, "slug": "lesson-20-past-continuous", "title": "过去进行时", "unit": "动词时态（下）", "week": 7, "day": 2 },
+  "objectives": [
+    { "text": "掌握过去进行时的构成（was/were + doing）", "isKeyPoint": true },
+    { "text": "了解过去进行时的用法和标志词", "isKeyPoint": true },
+    { "text": "掌握 when 和 while 的用法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "过去进行时的构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "过去进行时由 **was/were + 动词-ing** 构成：" },
+        {
+          "type": "table",
+          "headers": ["主语", "be动词", "例句"],
+          "rows": [
+            ["I/He/She/It", "was", "I was reading a book."],
+            ["You/We/They", "were", "They were playing football."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "was 用于 I/he/she/it，were 用于 you/we/they。与 am/is/was 的对应关系一致。" }
+      ]
+    },
+    {
+      "title": "过去进行时的用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "过去进行时主要用于以下场景：" },
+        {
+          "type": "table",
+          "headers": ["用法", "例句", "说明"],
+          "rows": [
+            ["过去某时刻正在进行", "At 8:00 last night, I was studying.", "强调过去某时刻的动作"],
+            ["when 引导的时间状语从句", "When I arrived, he was sleeping.", "when 从句用一般过去时"],
+            ["while 引导的时间状语从句", "While I was cooking, the phone rang.", "while 从句用过去进行时"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "when 引导的从句用一般过去时，while 引导的从句用过去进行时。" }
+      ]
+    },
+    {
+      "title": "标志词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "过去进行时的常见标志词：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "例句"],
+          "rows": [
+            ["at that time", "At that time, I was working."],
+            ["at 8:00 last night", "At 8:00 last night, she was watching TV."],
+            ["when", "When he came in, I was reading."],
+            ["while", "While I was sleeping, it started to rain."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "at that time, at + 过去时间点，when 和 while 是好朋友。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：过去进行时选择",
+      "problem": [
+        { "type": "paragraph", "content": "What ___ you ___ at 9:00 last night?" },
+        { "type": "list", "ordered": true, "items": ["A. did; do", "B. were; doing", "C. are; doing", "D. have; done"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "at 9:00 last night 表示过去某时刻，用过去进行时。you 用 were，do 的现在分词是 doing。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：when 和 while 的区别",
+      "problem": [
+        { "type": "paragraph", "content": "___ I was watching TV, my mother came home." },
+        { "type": "list", "ordered": true, "items": ["A. When", "B. While", "C. If", "D. Because"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "my mother came home 是短暂动作，用 when 引导。while 引导的从句用过去进行时，表示较长的动作。答案选 A。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "构成", "children": [
+      { "text": "was/were + 动词-ing" },
+      { "text": "I/he/she/it + was" },
+      { "text": "you/we/they + were" }
+    ]},
+    { "text": "用法", "children": [
+      { "text": "过去某时刻正在进行的动作" },
+      { "text": "when 引导的时间状语从句" },
+      { "text": "while 引导的时间状语从句" }
+    ]},
+    { "text": "标志词", "children": [
+      { "text": "at that time, at + 过去时间点" },
+      { "text": "when, while" }
+    ]}
+  ]
+}

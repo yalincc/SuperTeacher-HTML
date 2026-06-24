@@ -1,0 +1,62 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-冷战", "title": "冷战", "unit": "第三单元", "week": 3, "day": 3 },
+  "objectives": [
+    { "text": "了解冷战的背景和含义", "isKeyPoint": true },
+    { "text": "掌握杜鲁门主义、马歇尔计划、北约和华约", "isKeyPoint": true },
+    { "text": "理解冷战对世界格局的影响", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "冷战开始",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "二战后，美国和苏联由战时盟友转变为对手。1947年3月，**杜鲁门主义**的出台，标志着冷战开始。冷战是指二战后美苏之间除直接军事进攻外的一切敌对行动。" },
+        { "type": "timeline", "items": [
+          { "time": "1947年3月", "title": "杜鲁门主义", "content": "标志冷战开始" },
+          { "time": "1947年6月", "title": "马歇尔计划", "content": "美国援助欧洲经济复兴" },
+          { "time": "1949年", "title": "北约成立", "content": "美国等12国签署《北大西洋公约》" },
+          { "time": "1955年", "title": "华约成立", "content": "苏联等国签署《华沙条约》" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "杜鲁门主义是冷战开始的标志，不是马歇尔计划。马歇尔计划是经济援助计划。" }
+      ]
+    },
+    {
+      "title": "两极格局",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1949年北约成立，1955年华约成立。两大军事政治集团对峙局面形成，标志着**两极格局**正式形成。冷战期间，美苏两国在全球范围内展开争夺，但始终未发生直接大规模军事冲突。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "冷战的实质是美苏两国争夺世界霸权。两极格局维持了近半个世纪。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：冷战开始",
+      "problem": [
+        { "type": "paragraph", "content": "标志着冷战开始的事件是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 杜鲁门主义", "B. 马歇尔计划", "C. 北约成立", "D. 朝鲜战争"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "杜鲁门主义标志冷战开始。正确答案为A。" }],
+      "answer": "A"
+    },
+    {
+      "title": "例2：两极格局",
+      "problem": [
+        { "type": "paragraph", "content": "两极格局正式形成的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 北约成立", "B. 华约成立", "C. 北约和华约同时成立", "D. 冷战开始"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1955年华约成立，与北约对峙，标志两极格局正式形成。正确答案为B。" }],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "冷战", "children": [
+      { "text": "1947年杜鲁门主义标志冷战开始" },
+      { "text": "美苏除直接军事冲突外的一切敌对行动" }
+    ]},
+    { "text": "两极格局", "children": [
+      { "text": "北约（1949年）vs 华约（1955年）" },
+      { "text": "两大集团对峙近半个世纪" }
+    ]}
+  ]
+}

@@ -4,6 +4,54 @@
 
 ---
 
+## v2.4 (2026-06-24)
+
+> 物理画图引擎 + 英语语法专题上线
+
+### ✨ 新增
+- **物理画图引擎** — 电路图 / 力学图 / 光学图三种物理画板
+  - `src/engines/physics/` — 引擎核心（builder + renderer + types）
+  - `src/components/physics/` — 画板组件（CircuitBoard / ForceBoard / OpticsBoard）
+- **英语语法专题 30 课** — `english-grammar/`，沪教版牛津英语七八年级语法全覆盖
+
+### 🎨 改造文件
+| 文件 | 改动 |
+|------|------|
+| `src/engines/physics/` | 物理画图引擎（12 文件） |
+| `src/components/physics/` | 物理画板组件（3 文件） |
+| `src/data/courses/english-grammar/` | 英语语法专题（60 文件） |
+
+---
+
+## v2.3 (2026-06-21)
+
+> 九下历史课程上线 — 初中历史六册全部覆盖（102 课）
+
+### ✨ 新增
+- **九年级下册历史 15 课** — 世界近现代史（一战→二战→冷战→多极化→全球化）
+  - 第一单元：一战与战后世界（4课）
+  - 第二单元：经济危机与二战（4课）
+  - 第三单元：二战后的世界变化（4课）
+  - 第四单元：走向和平与发展（3课）
+
+### 🔧 改造
+- **初中历史六册全覆盖** — 七上20课 + 七下18课 + 八上17课 + 八下17课 + 九上15课 + 九下15课 = 102课
+- **JSON 语法修复** — 九下 10 课练习题 fill segments 标点问题
+
+### 📝 文档
+- `docs/version.md` — v2.3 版本记录
+- `docs/v2.3-plan.md` — 版本规划
+- `docs/v2.3-implementation.md` — 实施进度
+
+### 🎨 改造文件
+| 文件 | 改动 |
+|------|------|
+| `src/data/courses/history-9b/course.json` | 九下历史课程配置 |
+| `src/data/courses/history-9b/lesson-01.json` ~ `lesson-15.json` | 九下历史 15 课知识点 |
+| `src/data/courses/history-9b/lesson-01-exercises.json` ~ `lesson-15-exercises.json` | 九下历史 15 课练习题 |
+
+---
+
 ## v2.2 (2026-06-20)
 
 > 九上历史课程上线 + generate-lesson skill 优化 + 五册历史课程质量审核

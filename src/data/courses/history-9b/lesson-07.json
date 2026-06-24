@@ -1,0 +1,61 @@
+{
+  "meta": { "id": 7, "slug": "lesson-07-第二次世界大战的全面爆发", "title": "第二次世界大战的全面爆发", "unit": "第二单元", "week": 3, "day": 1 },
+  "objectives": [
+    { "text": "了解二战全面爆发的标志", "isKeyPoint": true },
+    { "text": "掌握苏德战争和太平洋战争", "isKeyPoint": true },
+    { "text": "理解世界反法西斯同盟的建立", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "二战全面爆发",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1939年9月1日，德国闪击**波兰**，英法对德宣战，第二次世界大战全面爆发。1941年6月，德国突袭苏联（**巴巴罗萨计划**），苏德战争爆发。1941年12月，日本偷袭**珍珠港**，太平洋战争爆发。" },
+        { "type": "timeline", "items": [
+          { "time": "1939年9月", "title": "二战全面爆发", "content": "德国闪击波兰" },
+          { "time": "1941年6月", "title": "苏德战争", "content": "德国突袭苏联" },
+          { "time": "1941年12月", "title": "太平洋战争", "content": "日本偷袭珍珠港" }
+        ]},
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "二战全面爆发的标志是1939年德国闪击波兰，不是1941年珍珠港事件。" }
+      ]
+    },
+    {
+      "title": "世界反法西斯同盟",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1942年1月，美、英、苏、中等26国在华盛顿签署《**联合国家宣言**》，标志着世界反法西斯同盟正式形成。各国协同作战，逐渐扭转了战争形势。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "世界反法西斯同盟的建立壮大了反法西斯力量，是二战胜利的重要保证。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：二战爆发",
+      "problem": [
+        { "type": "paragraph", "content": "第二次世界大战全面爆发的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 珍珠港事件", "B. 德国闪击波兰", "C. 德国突袭苏联", "D. 七七事变"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1939年德国闪击波兰标志二战全面爆发。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：反法西斯同盟",
+      "problem": [
+        { "type": "paragraph", "content": "世界反法西斯同盟正式形成的标志是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 《联合国家宣言》", "B. 《开罗宣言》", "C. 《雅尔塔协定》", "D. 《波茨坦公告》"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "1942年《联合国家宣言》标志反法西斯同盟形成。正确答案为A。" }],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "二战爆发", "children": [
+      { "text": "1939年德国闪击波兰" },
+      { "text": "1941年苏德战争、太平洋战争" }
+    ]},
+    { "text": "反法西斯同盟", "children": [
+      { "text": "1942年《联合国家宣言》" },
+      { "text": "26国签署，协同作战" }
+    ]}
+  ]
+}

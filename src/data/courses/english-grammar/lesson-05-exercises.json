@@ -1,0 +1,76 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-5-1",
+      "stem": "Tom taught ___ how to swim.",
+      "options": [
+        { "label": "A", "text": "he" },
+        { "label": "B", "text": "him" },
+        { "label": "C", "text": "his" },
+        { "label": "D", "text": "himself" }
+      ],
+      "answer": "D",
+      "analysis": "Tom 教他自己游泳，主语和宾语是同一个人，用反身代词 himself。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-5-2",
+      "stem": "— What are those? — ___ are boxes.",
+      "options": [
+        { "label": "A", "text": "Those" },
+        { "label": "B", "text": "These" },
+        { "label": "C", "text": "They" },
+        { "label": "D", "text": "It" }
+      ],
+      "answer": "C",
+      "analysis": "回答 What are those? 时用 They，不能用 Those。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-5-3",
+      "stem": "Please help ___ to some cake.",
+      "options": [
+        { "label": "A", "text": "you" },
+        { "label": "B", "text": "your" },
+        { "label": "C", "text": "yourself" },
+        { "label": "D", "text": "yours" }
+      ],
+      "answer": "C",
+      "analysis": "help yourself 意为「请自便/请随便吃」，是固定搭配。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-5-4",
+      "stem": "We can say \"That is a book.\" to answer \"What's this?\"",
+      "answer": false,
+      "analysis": "回答 What's this/that? 时必须用 It is...，不能用 This is... 或 That is...。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-5",
+      "segments": ["Look! ___1___ (这) is my new car.", "The students enjoyed ___2___ (他们自己) at the picnic."],
+      "blanks": [
+        { "index": 1, "answer": "This", "alternatives": [] },
+        { "index": 2, "answer": "themselves", "alternatives": [] }
+      ],
+      "analysis": "近处的事物用 This。enjoy oneself 玩得开心，主语是复数用 themselves。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-5-6",
+      "question": "写出反身代词的单复数形式：I, you, he, she, it, we, they",
+      "referenceAnswer": "myself, yourself, himself, herself, itself, ourselves, themselves",
+      "scoringPoints": [
+        "正确写出 myself",
+        "正确写出 yourself",
+        "正确写出 himself",
+        "正确写出 herself",
+        "正确写出 itself",
+        "正确写出 ourselves",
+        "正确写出 themselves"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "meta": { "id": 4, "slug": "lesson-04-personal-possessive-pronouns", "title": "人称代词与物主代词", "unit": "代词", "week": 2, "day": 1 },
+  "objectives": [
+    { "text": "掌握人称代词的主格和宾格", "isKeyPoint": true },
+    { "text": "掌握形容词性物主代词和名词性物主代词", "isKeyPoint": true },
+    { "text": "能区分主格和宾格的使用位置", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "人称代词的主格和宾格",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["人称", "主格", "宾格", "用法"],
+          "rows": [
+            ["第一人称单数", "I", "me", "主格作主语，宾格作宾语"],
+            ["第二人称", "you", "you", "主格和宾格相同"],
+            ["第三人称单数", "he/she/it", "him/her/it", "区分性别"],
+            ["第一人称复数", "we", "us", "我们"],
+            ["第三人称复数", "they", "them", "他们/她们/它们"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "主格用在动词前作主语（I like...），宾格用在动词或介词后作宾语（Give me... / for him...）。" }
+      ]
+    },
+    {
+      "title": "物主代词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "物主代词表示「……的」，分为**形容词性**和**名词性**两种：" },
+        {
+          "type": "table",
+          "headers": ["人称", "形容词性物主代词", "名词性物主代词", "例句"],
+          "rows": [
+            ["第一人称单数", "my", "mine", "This is my book. / This book is mine."],
+            ["第二人称", "your", "yours", "Is this your pen? / Is this pen yours?"],
+            ["第三人称单数", "his/her/its", "his/hers/its", "his room / His is on the desk."],
+            ["第一人称复数", "our", "ours", "our school / Ours is big."],
+            ["第三人称复数", "their", "theirs", "their house / Theirs is new."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "形容词性物主代词后必须接名词（my book），名词性物主代词后不接名词（mine = my book）。" }
+      ]
+    },
+    {
+      "title": "it 的特殊用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "list", "ordered": false, "items": [
+          "**天气/时间/距离**：It is sunny. / It is 8 o'clock. / It is 5 km from here.",
+          "**形式主语**：It is important to study hard.",
+          "**形式宾语**：I find it difficult to learn English."
+        ]},
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "it 在英语中用途很广，可以指天气、时间、距离，也可以作形式主语和形式宾语，是初中英语的重点。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：主格与宾格",
+      "problem": [
+        { "type": "paragraph", "content": "___ is a teacher. She teaches ___ English." },
+        { "type": "list", "ordered": true, "items": ["A. She; we", "B. Her; us", "C. She; us", "D. Her; we"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "第一空在动词前作主语，用主格 She。第二空在动词 teaches 后作宾语，用宾格 us。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：形容词性与名词性物主代词",
+      "problem": [
+        { "type": "paragraph", "content": "This is not my pen. ___ is ___." },
+        { "type": "list", "ordered": true, "items": ["A. My; your", "B. Mine; yours", "C. My; yours", "D. Mine; your"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "第一空在句首作主语，用名词性物主代词 Mine。第二空在系动词 is 后，用名词性物主代词 yours。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "人称代词", "children": [
+      { "text": "主格（I/you/he/she/it/we/they）作主语" },
+      { "text": "宾格（me/you/him/her/it/us/them）作宾语" }
+    ]},
+    { "text": "物主代词", "children": [
+      { "text": "形容词性（my/your/his/her/its/our/their）+ 名词" },
+      { "text": "名词性（mine/yours/his/hers/its/ours/theirs）独立使用" }
+    ]},
+    { "text": "it 的特殊用法", "children": [
+      { "text": "指天气/时间/距离" },
+      { "text": "形式主语 / 形式宾语" }
+    ]}
+  ]
+}

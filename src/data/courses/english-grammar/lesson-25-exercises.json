@@ -1,0 +1,72 @@
+{
+  "lessonId": 25,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-25-1",
+      "stem": "I didn't go to school ___ I was ill.",
+      "options": [
+        { "label": "A", "text": "because" },
+        { "label": "B", "text": "because of" },
+        { "label": "C", "text": "so" },
+        { "label": "D", "text": "but" }
+      ],
+      "answer": "A",
+      "analysis": "I was ill 是句子，需要用 because 引导原因状语从句。because of 后面只能接名词短语。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-25-2",
+      "stem": "He couldn't come to the party ___ his illness.",
+      "options": [
+        { "label": "A", "text": "because" },
+        { "label": "B", "text": "because of" },
+        { "label": "C", "text": "since" },
+        { "label": "D", "text": "as" }
+      ],
+      "answer": "B",
+      "analysis": "his illness 是名词短语，需要用 because of。because/since/as 后面接句子。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-25-3",
+      "stem": "___ everyone knows the answer, I won't explain it again.",
+      "options": [
+        { "label": "A", "text": "Because" },
+        { "label": "B", "text": "Since" },
+        { "label": "C", "text": "But" },
+        { "label": "D", "text": "So" }
+      ],
+      "answer": "B",
+      "analysis": "「每个人都知道答案」是双方都知道的事实，用 since 表示已知原因比较恰当。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-25-4",
+      "stem": "We can say: \"Because it rained, so I stayed home.\"",
+      "answer": false,
+      "analysis": "because 和 so 都表示因果关系，不能同时使用。正确形式：Because it rained, I stayed home. 或 It rained, so I stayed home."
+    },
+    {
+      "type": "fill",
+      "id": "ex-25-5",
+      "segments": ["She was absent ___1___ she had a fever.", "He got the job ___2___ his excellent performance."],
+      "blanks": [
+        { "index": 1, "answer": "because", "alternatives": [] },
+        { "index": 2, "answer": "because of", "alternatives": [] }
+      ],
+      "analysis": "第一句 she had a fever 是句子，用 because。第二句 his excellent performance 是名词短语，用 because of。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-25-6",
+      "question": "用 because 或 because of 填空并说明理由：The game was cancelled ___ the bad weather.",
+      "referenceAnswer": "because of。理由：the bad weather 是名词短语，不能用 because（because 后接句子），应该用 because of + 名词短语。",
+      "scoringPoints": [
+        "正确使用 because of",
+        "能解释 the bad weather 是名词短语",
+        "能区分 because 和 because of 的用法"
+      ]
+    }
+  ]
+}

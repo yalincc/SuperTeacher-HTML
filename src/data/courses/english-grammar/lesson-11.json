@@ -1,0 +1,107 @@
+{
+  "meta": { "id": 11, "slug": "lesson-11-adverbs", "title": "副词：用法与比较级最高级", "unit": "副词与介词", "week": 4, "day": 2 },
+  "objectives": [
+    { "text": "掌握副词的构成方式（形容词加 -ly）", "isKeyPoint": true },
+    { "text": "掌握副词比较级和最高级的用法", "isKeyPoint": true },
+    { "text": "了解形容词和副词的区别", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "副词的构成方式",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**副词**用来修饰动词、形容词或其他副词，描述动作的方式、时间、地点等。大多数副词由形容词加 -ly 构成。" },
+        {
+          "type": "table",
+          "headers": ["变化规则", "形容词", "副词", "例句"],
+          "rows": [
+            ["直接加 -ly", "slow", "slowly", "He drives slowly. 他开车很慢。"],
+            ["以 y 结尾，变 y 为 i 加 -ly", "happy", "happily", "She sings happily. 她快乐地唱歌。"],
+            ["以 le 结尾，变 e 为 y", "gentle", "gently", "He speaks gently. 他说话很温和。"],
+            ["以 -ic 结尾加 -ally", "basic", "basically", "This is basically correct. 这基本正确。"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "特殊副词", "content": "有些副词和形容词同形：fast, hard, early, late, high, low。例如：He runs fast.（fast 既是形容词也是副词）" }
+      ]
+    },
+    {
+      "title": "副词的比较级和最高级",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "副词的比较级和最高级变化规则与形容词类似：单音节加 -er/-est，多音节用 more/most。" },
+        {
+          "type": "table",
+          "headers": ["原级", "比较级", "最高级", "用法"],
+          "rows": [
+            ["fast", "faster", "fastest", "单音节加 -er/-est"],
+            ["carefully", "more carefully", "most carefully", "多音节用 more/most"],
+            ["well", "better", "best", "不规则变化"],
+            ["badly", "worse", "worst", "不规则变化"],
+            ["early", "earlier", "earliest", "以 -ly 结尾加 -er/-est"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "注意：hard 的副词形式还是 hard（不加 -ly）。hardly 意思完全不同，表示「几乎不」！" }
+      ]
+    },
+    {
+      "title": "形容词 vs 副词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**形容词**修饰名词，**副词**修饰动词、形容词或副词。这是区分两者的关键。" },
+        {
+          "type": "table",
+          "headers": ["词性", "修饰对象", "例句"],
+          "rows": [
+            ["形容词", "名词", "She is a careful driver.（careful 修饰 driver）"],
+            ["副词", "动词", "She drives carefully.（carefully 修饰 drives）"],
+            ["副词", "形容词", "He is very careful.（very 修饰 careful）"],
+            ["副词", "副词", "She drives very carefully.（very 修饰 carefully）"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "形容词修饰名词，副词修饰动词。「形修名，副修动」。be 动词和感官动词后用形容词，实义动词后用副词。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：副词的比较级",
+      "problem": [
+        { "type": "paragraph", "content": "Tom runs _____ than Jerry.（fast）" },
+        { "type": "list", "ordered": true, "items": ["A. fast", "B. faster", "C. more fast", "D. fastest"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "这里有 than，需要用比较级。fast 是单音节词，比较级加 -er，即 faster。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：形容词与副词的区分",
+      "problem": [
+        { "type": "paragraph", "content": "She sings _____ and dances _____.（beautiful）" },
+        { "type": "list", "ordered": true, "items": ["A. beautiful; beautifully", "B. beautifully; beautiful", "C. beautifully; beautifully", "D. beautiful; beautiful"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "sings 和 dances 都是动词，修饰动词要用副词 beautifully。两个空都填 beautifully。答案选 C。" }
+      ],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "副词构成", "children": [
+      { "text": "大多数形容词加 -ly 变副词" },
+      { "text": "以 y 结尾变 y 为 i 加 -ly" },
+      { "text": "以 le 结尾变 e 为 y" },
+      { "text": "特殊词：fast, hard, early 等同形" }
+    ]},
+    { "text": "比较级最高级", "children": [
+      { "text": "单音节加 -er/-est" },
+      { "text": "多音节用 more/most" },
+      { "text": "不规则：well→better, badly→worse" }
+    ]},
+    { "text": "形容词 vs 副词", "children": [
+      { "text": "形容词修饰名词" },
+      { "text": "副词修饰动词/形容词/副词" },
+      { "text": "be 动词后用形容词" }
+    ]}
+  ]
+}

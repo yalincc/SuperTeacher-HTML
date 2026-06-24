@@ -1,0 +1,106 @@
+{
+  "meta": { "id": 13, "slug": "lesson-13-simple-present", "title": "一般现在时", "unit": "动词时态（上）", "week": 5, "day": 1 },
+  "objectives": [
+    { "text": "掌握一般现在时的构成方式", "isKeyPoint": true },
+    { "text": "掌握第三人称单数的变化规则", "isKeyPoint": true },
+    { "text": "了解一般现在时的标志词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "一般现在时的构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**一般现在时**表示经常发生的动作、习惯、客观事实或现在的状态。" },
+        {
+          "type": "table",
+          "headers": ["主语", "构成", "例句"],
+          "rows": [
+            ["I / You / We / They", "主语 + 动词原形", "I like apples. 我喜欢苹果。"],
+            ["He / She / It（三单）", "主语 + 动词三单形式", "She likes apples. 她喜欢苹果。"],
+            ["否定句", "主语 + don't/doesn't + 动词原形", "He doesn't like apples. 他不喜欢苹果。"],
+            ["疑问句", "Do/Does + 主语 + 动词原形?", "Does she like apples? 她喜欢苹果吗？"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "否定句和疑问句中，动词要恢复原形！不能说 He doesn't likes apples，应该是 He doesn't like apples。" }
+      ]
+    },
+    {
+      "title": "第三人称单数变化规则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "当主语是第三人称单数（he / she / it）时，动词需要做相应变化：" },
+        {
+          "type": "table",
+          "headers": ["规则", "动词原形", "三单形式", "例句"],
+          "rows": [
+            ["一般加 -s", "like, play, read", "likes, plays, reads", "He plays football every day."],
+            ["以 s/x/ch/sh/o 结尾加 -es", "watch, go, pass", "watches, goes, passes", "She watches TV every night."],
+            ["辅音 + y 结尾，变 y 为 i 加 -es", "study, carry, fly", "studies, carries, flies", "He studies English every morning."],
+            ["特殊变化", "have", "has", "She has a cat."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "三单加 s 是常态，s/x/ch/sh 加 es，辅音 y 结尾变 i 再加 es，have 变 has 要记牢。" }
+      ]
+    },
+    {
+      "title": "一般现在时的标志词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "看到以下频率副词或时间状语，通常用一般现在时：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "含义", "例句"],
+          "rows": [
+            ["always", "总是", "He always gets up early."],
+            ["usually", "通常", "I usually have lunch at 12."],
+            ["often", "经常", "She often reads books."],
+            ["sometimes", "有时", "We sometimes go swimming."],
+            ["never", "从不", "He never eats fish."],
+            ["every day", "每天", "I exercise every day."]
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：三单变化",
+      "problem": [
+        { "type": "paragraph", "content": "My mother _____ (watch) TV after dinner every day." },
+        { "type": "list", "ordered": true, "items": ["A. watch", "B. watches", "C. watchs", "D. watching"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "主语 My mother 是第三人称单数，watch 以 ch 结尾加 -es，得到 watches。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：否定句中的动词形式",
+      "problem": [
+        { "type": "paragraph", "content": "He _____ (not like) coffee." },
+        { "type": "list", "ordered": true, "items": ["A. doesn't likes", "B. doesn't like", "C. don't like", "D. isn't like"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "主语 He 是第三人称单数，否定用 doesn't + 动词原形。答案选 B。注意 doesn't 后面动词要恢复原形 like，不能加 s。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "构成", "children": [
+      { "text": "I/You/We/They + 动词原形" },
+      { "text": "He/She/It + 动词三单形式" },
+      { "text": "否定句：don't/doesn't + 原形" }
+    ]},
+    { "text": "三单变化", "children": [
+      { "text": "一般加 -s" },
+      { "text": "s/x/ch/sh/o 结尾加 -es" },
+      { "text": "辅音+y 结尾变 y 为 i 加 -es" },
+      { "text": "have → has" }
+    ]},
+    { "text": "标志词", "children": [
+      { "text": "always, usually, often, sometimes" },
+      { "text": "never, every day" }
+    ]}
+  ]
+}

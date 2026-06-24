@@ -1,0 +1,9 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    { "type": "choice", "id": "ex-6-1", "stem": "希特勒出任德国总理的时间是（  ）", "options": [{ "label": "A", "text": "1922年" }, { "label": "B", "text": "1931年" }, { "label": "C", "text": "1933年" }, { "label": "D", "text": "1936年" }], "answer": "C", "analysis": "1933年希特勒出任德国总理。" },
+    { "type": "choice", "id": "ex-6-2", "stem": "绥靖政策达到顶峰的标志是（  ）", "options": [{ "label": "A", "text": "《凡尔赛条约》" }, { "label": "B", "text": "《慕尼黑协定》" }, { "label": "C", "text": "《九国公约》" }, { "label": "D", "text": "《开罗宣言》" }], "answer": "B", "analysis": "《慕尼黑协定》是绥靖政策达到顶峰的标志。" },
+    { "type": "true_false", "id": "ex-6-3", "stem": "绥靖政策加速了二战的爆发。", "answer": true, "analysis": "绥靖政策助长了法西斯侵略气焰。" },
+    { "type": "fill", "id": "ex-6-4", "segments": ["1933年", "___1___", "出任德国总理，绥靖政策达到顶峰的标志是", "___2___"], "blanks": [{ "index": 1, "answer": "希特勒" }, { "index": 2, "answer": "慕尼黑协定" }], "analysis": "希特勒1933年出任德国总理，慕尼黑协定标志绥靖政策达到顶峰。" }
+  ]
+}

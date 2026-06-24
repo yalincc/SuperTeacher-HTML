@@ -1,0 +1,72 @@
+{
+  "lessonId": 24,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-24-1",
+      "stem": "___ she was cooking, the doorbell rang.",
+      "options": [
+        { "label": "A", "text": "When" },
+        { "label": "B", "text": "While" },
+        { "label": "C", "text": "Before" },
+        { "label": "D", "text": "After" }
+      ],
+      "answer": "B",
+      "analysis": "cooking 是延续性动作，while 强调「在...期间」，更适合引导延续性动作的从句。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-24-2",
+      "stem": "I will wait here until you ___ back.",
+      "options": [
+        { "label": "A", "text": "will come" },
+        { "label": "B", "text": "come" },
+        { "label": "C", "text": "came" },
+        { "label": "D", "text": "coming" }
+      ],
+      "answer": "B",
+      "analysis": "until 引导的时间从句遵循主将从现原则，用一般现在时 come。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-24-3",
+      "stem": "Please wash your hands ___ you eat dinner.",
+      "options": [
+        { "label": "A", "text": "before" },
+        { "label": "B", "text": "after" },
+        { "label": "C", "text": "until" },
+        { "label": "D", "text": "while" }
+      ],
+      "answer": "A",
+      "analysis": "句意是「吃饭前洗手」，before 表示「在...之前」，符合语境。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-24-4",
+      "stem": "We can say: \"I will call you when I will arrive.\"",
+      "answer": false,
+      "analysis": "when 引导的时间从句不能用 will，应该用一般现在时代替将来时。正确形式：I will call you when I arrive."
+    },
+    {
+      "type": "fill",
+      "id": "ex-24-5",
+      "segments": ["I didn't go to bed ___1___ I finished my homework.", "She was listening to music ___2___ she was doing her homework."],
+      "blanks": [
+        { "index": 1, "answer": "until", "alternatives": ["till"] },
+        { "index": 2, "answer": "while", "alternatives": [] }
+      ],
+      "analysis": "第一句 not...until 表示「直到...才」，用 until。第二句 doing homework 是延续性动作，用 while 表示「在...期间」。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-24-6",
+      "question": "用正确的时态填空并说明理由：I will send you the photo as soon as I ___ (get) home.",
+      "referenceAnswer": "get。理由：as soon as 引导的时间状语从句遵循「主将从现」原则，主句用一般将来时 will send，从句用一般现在时 get。",
+      "scoringPoints": [
+        "正确使用一般现在时 get",
+        "能解释主将从现原则",
+        "能说明 as soon as 的含义"
+      ]
+    }
+  ]
+}

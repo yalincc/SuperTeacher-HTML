@@ -1,0 +1,103 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-indefinite-pronouns", "title": "不定代词：some/any/no/every", "unit": "代词", "week": 2, "day": 3 },
+  "objectives": [
+    { "text": "掌握 some/any/no/every + body/thing/where 的用法", "isKeyPoint": true },
+    { "text": "理解复合不定代词的修饰规则", "isKeyPoint": true },
+    { "text": "了解 some 在疑问句、any 在肯定句的特殊用法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "复合不定代词构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**复合不定代词**由 some/any/no/every + body/thing/where 构成，表示「一些/任何/没有/每个……的人/物/地方」。" },
+        {
+          "type": "table",
+          "headers": ["", "body（人）", "thing（物）", "where（地点）"],
+          "rows": [
+            ["some-", "someone/somebody", "something", "somewhere"],
+            ["any-", "anyone/anybody", "anything", "anywhere"],
+            ["no-", "no one/nobody", "nothing", "nowhere"],
+            ["every-", "everyone/everybody", "everything", "everywhere"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "some- 用于肯定句，any- 用于否定句和疑问句，no- 表示「没有」，every- 表示「每个」。" }
+      ]
+    },
+    {
+      "title": "复合不定代词的修饰规则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "修饰复合不定代词的**形容词必须后置**，放在不定代词后面，而不是前面。" },
+        {
+          "type": "table",
+          "headers": ["正确用法", "错误用法", "说明"],
+          "rows": [
+            ["something important", "important something", "形容词后置"],
+            ["nothing new", "new nothing", "形容词后置"],
+            ["anyone special", "special anyone", "形容词后置"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "复合不定代词被形容词修饰时，形容词必须后置！这是英语中少数形容词后置的情况。" }
+      ]
+    },
+    {
+      "title": "特殊用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**some** 在疑问句中表示「请求、建议或期望肯定回答」；**any** 在肯定句中表示「任何一个」。" },
+        {
+          "type": "table",
+          "headers": ["用法", "例句", "说明"],
+          "rows": [
+            ["some 在疑问句", "Would you like something to drink?", "表示请求或建议"],
+            ["any 在肯定句", "Any student can answer this question.", "表示「任何一个」"],
+            ["some 在否定句", "I don't have something to say.", "❌ 错误，应用 anything"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "判断技巧", "content": "当疑问句表示请求、建议或邀请时用 some；当 any 表示「任意一个」时用肯定句。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：复合不定代词选择",
+      "problem": [
+        { "type": "paragraph", "content": "Is there ___ in the classroom?" },
+        { "type": "list", "ordered": true, "items": ["A. someone", "B. anyone", "C. everyone", "D. no one"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "这是一个疑问句，通常用 any- 开头的不定代词。someone 用于肯定句，everyone 表示「每个人」，no one 表示「没有人」。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：形容词修饰复合不定代词",
+      "problem": [
+        { "type": "paragraph", "content": "I have ___ to tell you." },
+        { "type": "list", "ordered": true, "items": ["A. important something", "B. something important", "C. important anything", "D. anything important"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "这是一个肯定句，用 something。修饰复合不定代词的形容词必须后置，所以应该是 something important。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "复合不定代词构成", "children": [
+      { "text": "some- + body/thing/where" },
+      { "text": "any- + body/thing/where" },
+      { "text": "no- + body/thing/where" },
+      { "text": "every- + body/thing/where" }
+    ]},
+    { "text": "修饰规则", "children": [
+      { "text": "形容词后置：something important（不是 important something）" },
+      { "text": "这是英语中少数形容词后置的情况" }
+    ]},
+    { "text": "特殊用法", "children": [
+      { "text": "some 用于肯定句，也用于表示请求、建议的疑问句" },
+      { "text": "any 用于否定句和疑问句，也用于肯定句表示「任何一个」" },
+      { "text": "no- 表示否定，相当于 not any" }
+    ]}
+  ]
+}

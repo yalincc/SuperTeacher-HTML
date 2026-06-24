@@ -1,0 +1,72 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-12-1",
+      "stem": "We usually have breakfast _____ 7:00 _____ the morning.",
+      "options": [
+        { "label": "A", "text": "on; in" },
+        { "label": "B", "text": "at; in" },
+        { "label": "C", "text": "in; on" },
+        { "label": "D", "text": "at; on" }
+      ],
+      "answer": "B",
+      "analysis": "7:00 是具体时间点用 at，in the morning 是固定搭配。答案选 B。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-2",
+      "stem": "The ball is _____ the desk. You can see it clearly.",
+      "options": [
+        { "label": "A", "text": "in" },
+        { "label": "B", "text": "under" },
+        { "label": "C", "text": "behind" },
+        { "label": "D", "text": "between" }
+      ],
+      "answer": "B",
+      "analysis": "句意说「你能清楚地看到它」，说明球在桌子上面或下面。ball 通常在桌子下方用 under。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-3",
+      "stem": "My birthday is _____ May 15th.",
+      "options": [
+        { "label": "A", "text": "in" },
+        { "label": "B", "text": "at" },
+        { "label": "C", "text": "on" },
+        { "label": "D", "text": "for" }
+      ],
+      "answer": "C",
+      "analysis": "May 15th 是具体某一天，用介词 on。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-12-4",
+      "stem": "\"because of\" 后面可以接一个完整的句子。",
+      "answer": false,
+      "analysis": "because of 是介词短语，后面只能接名词或代词，不能接完整句子。要接句子应该用 because。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-12-5",
+      "segments": ["The cat is sleeping _____1_____ the sofa. （在沙发下面）", "She is good _____2_____ English. （擅长）"],
+      "blanks": [
+        { "index": 1, "answer": "under", "alternatives": [] },
+        { "index": 2, "answer": "at", "alternatives": [] }
+      ],
+      "analysis": "「在沙发下面」用 under。good at 是固定搭配，表示「擅长」。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-12-6",
+      "question": "用 at / on / in 填空并说明选择理由：He was born _____ 2000 _____ a cold winter morning.",
+      "referenceAnswer": "第一个空填 in，因为 2000 是年份，用 in。第二个空填 on，因为 a cold winter morning 是具体某一天的早晨，用 on。即：He was born in 2000 on a cold winter morning.",
+      "scoringPoints": [
+        "第一个空正确填 in",
+        "第二个空正确填 on",
+        "能解释年份用 in，具体某天用 on"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "meta": { "id": 1, "slug": "lesson-01-countable-uncountable-nouns", "title": "名词：可数与不可数", "unit": "名词与冠词", "week": 1, "day": 1 },
+  "objectives": [
+    { "text": "区分可数名词与不可数名词", "isKeyPoint": true },
+    { "text": "掌握不可数名词的量化表达", "isKeyPoint": true },
+    { "text": "了解常见不可数名词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "可数名词 Countable Nouns",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**可数名词**是可以用具体数字来计数的名词，有单数和复数形式。" },
+        {
+          "type": "table",
+          "headers": ["单数", "复数", "说明"],
+          "rows": [
+            ["a book", "books", "直接加 -s"],
+            ["a box", "boxes", "以 s/x/ch/sh 结尾加 -es"],
+            ["a baby", "babies", "辅音+y 结尾变 y 为 i 加 -es"],
+            ["a knife", "knives", "以 f/fe 结尾变 f 为 v 加 -es"],
+            ["a child", "children", "不规则变化"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "判断技巧", "content": "能在前面加 a/an 的通常是可数名词：a dog, an apple。不能加 a/an 的通常是不可数名词：不能说 a water。" }
+      ]
+    },
+    {
+      "title": "不可数名词 Uncountable Nouns",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**不可数名词**无法用具体数字计数，没有复数形式，不能直接加 a/an。" },
+        {
+          "type": "table",
+          "headers": ["类别", "常见词", "例句"],
+          "rows": [
+            ["液体", "water, milk, juice, tea", "I drank some water."],
+            ["食物", "rice, bread, meat, cheese", "We need some bread."],
+            ["材料", "paper, wood, glass, gold", "This table is made of wood."],
+            ["抽象", "information, advice, news, work", "Thanks for your advice."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "information, advice, news, work 这些词虽然是抽象名词，但永远不可数！不能说 an information 或 two advices。" }
+      ]
+    },
+    {
+      "title": "不可数名词的量化表达",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "不可数名词虽然不能直接加数词，但可以用**量词短语**来表示数量：" },
+        {
+          "type": "table",
+          "headers": ["量词", "搭配", "例句"],
+          "rows": [
+            ["a piece of", "paper, advice, news", "a piece of paper 一张纸"],
+            ["a glass of", "water, milk, juice", "a glass of water 一杯水"],
+            ["a cup of", "tea, coffee", "a cup of tea 一杯茶"],
+            ["a bottle of", "water, milk, juice", "a bottle of milk 一瓶牛奶"],
+            ["a bag of", "rice, flour", "a bag of rice 一袋米"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "不可数名词不加 s，量词短语来帮忙。a piece of 加 advice，a glass of 加 water。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断可数与不可数",
+      "problem": [
+        { "type": "paragraph", "content": "选出不可数名词：（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. book", "B. information", "C. apple", "D. student"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "book、apple、student 都是可数名词，可以加 a/an 或复数。information 是不可数名词，永远不能加 a/an 或复数。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：量词搭配",
+      "problem": [
+        { "type": "paragraph", "content": "Can you give me ___ advice?" },
+        { "type": "list", "ordered": true, "items": ["A. a", "B. an", "C. a piece of", "D. some pieces"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "advice 是不可数名词，不能直接加 a/an。应该用量词 a piece of 来修饰。答案选 C。" }
+      ],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "可数名词", "children": [
+      { "text": "有单复数形式" },
+      { "text": "可直接加 a/an" },
+      { "text": "复数变化规则：加-s/-es/变y为i/不规则" }
+    ]},
+    { "text": "不可数名词", "children": [
+      { "text": "没有复数形式" },
+      { "text": "不能直接加 a/an" },
+      { "text": "常见词：water, information, advice, news" }
+    ]},
+    { "text": "量化表达", "children": [
+      { "text": "a piece of + paper/advice/news" },
+      { "text": "a glass/cup of + water/tea/coffee" },
+      { "text": "a bag/bottle of + rice/milk" }
+    ]}
+  ]
+}

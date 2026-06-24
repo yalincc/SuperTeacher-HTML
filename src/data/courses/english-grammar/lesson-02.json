@@ -1,0 +1,110 @@
+{
+  "meta": { "id": 2, "slug": "lesson-02-plural-rules-possessive", "title": "名词：复数规则与名词所有格", "unit": "名词与冠词", "week": 1, "day": 2 },
+  "objectives": [
+    { "text": "掌握名词复数的规则变化", "isKeyPoint": true },
+    { "text": "掌握名词复数的不规则变化", "isKeyPoint": true },
+    { "text": "掌握名词所有格的用法", "isKeyPoint": true },
+    { "text": "了解常见单复数同形的名词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "名词复数规则变化",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["规则", "变化方式", "例词"],
+          "rows": [
+            ["一般情况", "加 -s", "book→books, dog→dogs"],
+            ["以 s/x/ch/sh 结尾", "加 -es", "box→boxes, watch→watches"],
+            ["辅音+y 结尾", "变 y 为 i 加 -es", "baby→babies, city→cities"],
+            ["元音+y 结尾", "直接加 -s", "boy→boys, day→days"],
+            ["以 f/fe 结尾", "变 f/fe 为 v 加 -es", "knife→knives, wife→wives"],
+            ["以 o 结尾", "有生命的加 -es，无生命的加 -s", "potato→potatoes, photo→photos"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "以 o 结尾的名词复数：有生命的加 -es（potato→potatoes, tomato→tomatoes, hero→heroes），无生命的加 -s（photo→photos, piano→pianos, zoo→zoos）。" }
+      ]
+    },
+    {
+      "title": "名词复数不规则变化",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["单数", "复数", "记忆方法"],
+          "rows": [
+            ["man", "men", "元音变化"],
+            ["woman", "women", "元音变化"],
+            ["child", "children", "特殊变化"],
+            ["foot", "feet", "元音变化"],
+            ["tooth", "teeth", "元音变化"],
+            ["mouse", "mice", "元音变化"],
+            ["sheep", "sheep", "单复同形"],
+            ["deer", "deer", "单复同形"],
+            ["fish", "fish", "单复同形"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "男人女人 a 变 e，鹅足牙 oo 变 ee，老鼠虱子也好记，mouse→mice，louse→lice。" }
+      ]
+    },
+    {
+      "title": "名词所有格",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "名词所有格表示「……的」，有两种构成方式：" },
+        {
+          "type": "table",
+          "headers": ["类型", "构成方式", "用法", "例句"],
+          "rows": [
+            ["'s 所有格", "名词 + 's", "有生命的名词", "Tom's book 汤姆的书"],
+            ["'s 所有格", "s 结尾 + '", "以 s 结尾的复数", "the students' classroom"],
+            ["of 所有格", "名词 + of + 名词", "无生命的名词", "the door of the room"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "两人共有 A and B's，两人各有 A's and B's。例如：Tom and Jerry's room（共有一个房间）vs Tom's and Jerry's rooms（各有房间）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：复数变化",
+      "problem": [
+        { "type": "paragraph", "content": "选出复数形式正确的选项：（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. boxs", "B. babys", "C. knives", "D. photoes"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "box 以 x 结尾，应加 -es→boxes。baby 以辅音+y 结尾，应变 y 为 i 加 -es→babies。knife 以 fe 结尾，应变 f 为 v 加 -es→knives。photo 以 o 结尾且无生命，直接加 -s→photos。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：名词所有格",
+      "problem": [
+        { "type": "paragraph", "content": "This is ___ room. They share it." },
+        { "type": "list", "ordered": true, "items": ["A. Tom and Jerry's", "B. Tom's and Jerry's", "C. Tom and Jerry", "D. Tom's and Jerry"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "They share it 说明是共有一个房间，应该用 Tom and Jerry's（两人共有）。答案选 A。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "复数规则变化", "children": [
+      { "text": "加 -s / -es" },
+      { "text": "辅音+y → 变 y 为 i 加 -es" },
+      { "text": "f/fe → 变 f 为 v 加 -es" }
+    ]},
+    { "text": "复数不规则变化", "children": [
+      { "text": "man→men, woman→women" },
+      { "text": "child→children, foot→feet" },
+      { "text": "单复同形：sheep, deer, fish" }
+    ]},
+    { "text": "名词所有格", "children": [
+      { "text": "有生命：'s 所有格（Tom's book）" },
+      { "text": "无生命：of 所有格（the door of the room）" },
+      { "text": "两人共有 vs 两人各有" }
+    ]}
+  ]
+}

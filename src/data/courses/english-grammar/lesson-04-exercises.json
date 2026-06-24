@@ -1,0 +1,72 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-4-1",
+      "stem": "___ is a student. ___ name is Tom.",
+      "options": [
+        { "label": "A", "text": "He; His" },
+        { "label": "B", "text": "His; He" },
+        { "label": "C", "text": "He; Him" },
+        { "label": "D", "text": "Him; His" }
+      ],
+      "answer": "A",
+      "analysis": "第一空作主语用主格 He，第二空修饰名词 name 用形容词性物主代词 His。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-4-2",
+      "stem": "This book is not yours. It's ___.",
+      "options": [
+        { "label": "A", "text": "my" },
+        { "label": "B", "text": "mine" },
+        { "label": "C", "text": "me" },
+        { "label": "D", "text": "I" }
+      ],
+      "answer": "B",
+      "analysis": "在系动词 is 后作表语，用名词性物主代词 mine（= my book）。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-4-3",
+      "stem": "Please give ___ the book.",
+      "options": [
+        { "label": "A", "text": "I" },
+        { "label": "B", "text": "my" },
+        { "label": "C", "text": "me" },
+        { "label": "D", "text": "mine" }
+      ],
+      "answer": "C",
+      "analysis": "give 是动词，后面接宾格 me 作宾语。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-4-4",
+      "stem": "We can say \"This is my.\" to mean \"This is my book.\"",
+      "answer": false,
+      "analysis": "形容词性物主代词 my 后面必须接名词，不能单独使用。应该说 This is my book 或 This is mine。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-5",
+      "segments": ["___1___ (我) am a student. ___2___ (我的) school is big."],
+      "blanks": [
+        { "index": 1, "answer": "I", "alternatives": [] },
+        { "index": 2, "answer": "My", "alternatives": [] }
+      ],
+      "analysis": "第一空作主语用主格 I，第二空修饰名词 school 用形容词性物主代词 My。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-4-6",
+      "question": "用正确的代词填空：___ (she) likes ___ (she) new dress. The dress is ___ (she).",
+      "referenceAnswer": "She likes her new dress. The dress is hers. 理由：第一空作主语用主格 She，第二空修饰名词 dress 用形容词性物主代词 her，第三空在系动词 is 后独立使用名词性物主代词 hers。",
+      "scoringPoints": [
+        "第一空正确填 She（主格）",
+        "第二空正确填 her（形容词性物主代词）",
+        "第三空正确填 hers（名词性物主代词）"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    { "type": "choice", "id": "ex-11-1", "stem": "苏联解体于（  ）", "options": [{ "label": "A", "text": "1989年" }, { "label": "B", "text": "1990年" }, { "label": "C", "text": "1991年" }, { "label": "D", "text": "1992年" }], "answer": "C", "analysis": "1991年底苏联解体。" },
+    { "type": "choice", "id": "ex-11-2", "stem": "「东欧剧变」发生在（  ）", "options": [{ "label": "A", "text": "1985年" }, { "label": "B", "text": "1989年" }, { "label": "C", "text": "1991年" }, { "label": "D", "text": "1993年" }], "answer": "B", "analysis": "1989年东欧剧变。" },
+    { "type": "true_false", "id": "ex-11-3", "stem": "苏联解体标志着两极格局结束。", "answer": true, "analysis": "1991年苏联解体，两极格局结束。" },
+    { "type": "fill", "id": "ex-11-4", "segments": ["1989年", "___1___", "剧变，1991年底", "___2___", "解体。"], "blanks": [{ "index": 1, "answer": "东欧" }, { "index": 2, "answer": "苏联" }], "analysis": "1989年东欧剧变，1991年苏联解体。" }
+  ]
+}

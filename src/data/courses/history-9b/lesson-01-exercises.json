@@ -1,0 +1,9 @@
+{
+  "lessonId": 1,
+  "exercises": [
+    { "type": "choice", "id": "ex-1-1", "stem": "第一次世界大战的导火索是（  ）", "options": [{ "label": "A", "text": "萨拉热窝事件" }, { "label": "B", "text": "萨拉托加战役" }, { "label": "C", "text": "来克星顿枪声" }, { "label": "D", "text": "攻占巴士底狱" }], "answer": "A", "analysis": "1914年萨拉热窝事件是一战导火索。" },
+    { "type": "choice", "id": "ex-1-2", "stem": "一战结束后，战胜国召开的会议是（  ）", "options": [{ "label": "A", "text": "维也纳会议" }, { "label": "B", "text": "巴黎和会" }, { "label": "C", "text": "雅尔塔会议" }, { "label": "D", "text": "开罗会议" }], "answer": "B", "analysis": "一战后召开巴黎和会。" },
+    { "type": "true_false", "id": "ex-1-3", "stem": "一战的根本原因是帝国主义国家政治经济发展不平衡。", "answer": true, "analysis": "一战根本原因是帝国主义国家政治经济发展不平衡。" },
+    { "type": "fill", "id": "ex-1-4", "segments": ["一战爆发于", "___1___", "年，结束于", "___2___", "年。"], "blanks": [{ "index": 1, "answer": "1914" }, { "index": 2, "answer": "1918" }], "analysis": "一战1914年爆发，1918年结束。" }
+  ]
+}

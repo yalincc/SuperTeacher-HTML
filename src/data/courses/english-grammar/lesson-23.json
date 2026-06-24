@@ -1,0 +1,97 @@
+{
+  "meta": { "id": 23, "slug": "lesson-23-conditional-sentences", "title": "条件状语从句 if/unless", "unit": "从句", "week": 8, "day": 2 },
+  "objectives": [
+    { "text": "掌握 if 引导的条件状语从句", "isKeyPoint": true },
+    { "text": "掌握主将从现原则", "isKeyPoint": true },
+    { "text": "了解 unless 的用法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "if 从句结构",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "if 引导的条件状语从句表示**假设或条件**，是初中阶段最重要的从句之一："},
+        {
+          "type": "table",
+          "headers": ["从句时态", "主句时态", "例句"],
+          "rows": [
+            ["一般现在时", "一般将来时", "If it rains tomorrow, I will stay home."],
+            ["一般现在时", "含情态动词", "If you study hard, you can pass the exam."],
+            ["一般过去时", "would/could + 动词原形", "If I were rich, I would travel the world."]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "主将从现原则详解",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**主将从现**是条件状语从句最重要的时态规则："},
+        { "type": "callout", "variant": "tip", "title": "主将从现", "content": "主句用一般将来时（will + 动词原形），从句用一般现在时代替将来时。这是英语中「时间/条件从句不用将来时」的规则。" },
+        { "type": "callout", "variant": "warning", "title": "易错点", "content": "从句中即使表示将来，也不能用 will。正确：If it rains... 错误：If it will rain..." },
+        {
+          "type": "table",
+          "headers": ["正确", "错误"],
+          "rows": [
+            ["If you come, I will wait for you.", "If you will come, I will wait for you."],
+            ["When she arrives, call me.", "When she will arrive, call me."]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "unless 的用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "unless = if...not，意思是「除非，如果不」："},
+        { "type": "callout", "variant": "tip", "title": "转换公式", "content": "You will fail unless you study hard. = You will fail if you don't study hard. 两个句子意思相同。" },
+        {
+          "type": "table",
+          "headers": ["句子", "转换"],
+          "rows": [
+            ["Unless you hurry, you will be late.", "If you don't hurry, you will be late."],
+            ["I won't go unless you go with me.", "I won't go if you don't go with me."]
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：主将从现原则",
+      "problem": [
+        { "type": "paragraph", "content": "If it ___ sunny tomorrow, we will go to the beach." },
+        { "type": "list", "ordered": true, "items": ["A. will be", "B. is", "C. was", "D. would be"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "这是 if 引导的条件状语从句，遵循「主将从现」原则。主句 will go 是将来时，从句应该用一般现在时 is。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：unless 的转换",
+      "problem": [
+        { "type": "paragraph", "content": "You can't succeed ___ you work hard. 选择正确选项。" },
+        { "type": "list", "ordered": true, "items": ["A. if", "B. unless", "C. because", "D. when"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "句意是「除非你努力，否则你不能成功」。unless = if...not，用在这里正好表达「如果不努力就不能成功」。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "if 条件句", "children": [
+      { "text": "If + 一般现在时，主句用一般将来时" },
+      { "text": "从句不用 will，用一般现在时" }
+    ]},
+    { "text": "主将从现", "children": [
+      { "text": "主句将来，从句现在" },
+      { "text": "适用于 if/when/before/after 等从句" }
+    ]},
+    { "text": "unless", "children": [
+      { "text": "unless = if...not" },
+      { "text": "表示「除非，如果不」" }
+    ]}
+  ]
+}

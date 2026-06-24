@@ -1,0 +1,72 @@
+{
+  "lessonId": 19,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-19-1",
+      "stem": "I have ___ finished my homework. You can check it now.",
+      "options": [
+        { "label": "A", "text": "yet" },
+        { "label": "B", "text": "already" },
+        { "label": "C", "text": "never" },
+        { "label": "D", "text": "ever" }
+      ],
+      "answer": "B",
+      "analysis": "already 用于肯定句，表示「已经」。yet 用于否定句和疑问句，never 表示从未，ever 用于疑问句。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-19-2",
+      "stem": "She has worked here ___ 2018.",
+      "options": [
+        { "label": "A", "text": "for" },
+        { "label": "B", "text": "since" },
+        { "label": "C", "text": "in" },
+        { "label": "D", "text": "at" }
+      ],
+      "answer": "B",
+      "analysis": "2018 是时间点，用 since。for 后接时间段，如 for 5 years。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-19-3",
+      "stem": "Have you ___ visited the Great Wall?",
+      "options": [
+        { "label": "A", "text": "yet" },
+        { "label": "B", "text": "already" },
+        { "label": "C", "text": "never" },
+        { "label": "D", "text": "ever" }
+      ],
+      "answer": "D",
+      "analysis": "疑问句中用 ever 询问经历。yet 用于否定句和疑问句但表示「还」，already 用于肯定句，never 用于否定句。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-19-4",
+      "stem": "The sentence \"I have seen that movie yesterday.\" is correct.",
+      "answer": false,
+      "analysis": "yesterday 是过去时间状语，应该用一般过去时：I saw that movie yesterday. 现在完成时不能与明确的过去时间状语连用。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-19-5",
+      "segments": ["I ___1___ (never/see) a real elephant.", "We have been friends ___2___ ten years."],
+      "blanks": [
+        { "index": 1, "answer": "have never seen", "alternatives": ["never have seen"] },
+        { "index": 2, "answer": "for", "alternatives": [] }
+      ],
+      "analysis": "never 用于现在完成时的否定句，I 用 have。ten years 是时间段，用 for。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-19-6",
+      "question": "用 since 或 for 填空，并说明区别：I have studied English ___ 2020. / I have studied English ___ four years.",
+      "referenceAnswer": "I have studied English since 2020. / I have studied English for four years. 区别：since 后接时间点（2020），for 后接时间段（four years）。",
+      "scoringPoints": [
+        "正确使用 since 2020",
+        "正确使用 for four years",
+        "能解释 since 和 for 的区别"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": { "id": 3, "slug": "lesson-03-凡尔赛—华盛顿体系", "title": "凡尔赛—华盛顿体系", "unit": "第一单元", "week": 1, "day": 3 },
+  "objectives": [
+    { "text": "了解巴黎和会与《凡尔赛条约》", "isKeyPoint": true },
+    { "text": "掌握华盛顿会议与《九国公约》", "isKeyPoint": true },
+    { "text": "理解凡尔赛—华盛顿体系的实质", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "巴黎和会与凡尔赛体系",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1919年，战胜国在巴黎召开和会，签订《**凡尔赛条约**》等一系列和约，构成了「凡尔赛体系」。条约规定德国承担战争罪责，割地赔款，限制军备。中国代表的合理要求被拒绝，引发了**五四运动**。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "《凡尔赛条约》是针对德国的条约，不是针对奥匈帝国或其他国家。" }
+      ]
+    },
+    {
+      "title": "华盛顿会议",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "1921—1922年，美、英、日、法、中等九国在华盛顿召开会议，签订了《**九国公约**》等条约。华盛顿会议调整了帝国主义在东亚和太平洋地区的关系，构成了「华盛顿体系」。" },
+        { "type": "callout", "variant": "tip", "title": "理解要点", "content": "凡尔赛—华盛顿体系暂时缓和了帝国主义国家之间的矛盾，但不可能消除根本矛盾，反而埋下了新的战争种子。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：凡尔赛条约",
+      "problem": [
+        { "type": "paragraph", "content": "巴黎和会主要针对的国家是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 奥匈帝国", "B. 德国", "C. 俄国", "D. 土耳其"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "巴黎和会主要针对德国，签订了《凡尔赛条约》。正确答案为B。" }],
+      "answer": "B"
+    },
+    {
+      "title": "例2：华盛顿会议",
+      "problem": [
+        { "type": "paragraph", "content": "华盛顿会议上签订的《九国公约》涉及的国家是（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. 9个欧洲国家", "B. 9个亚洲国家", "C. 美英日法中等9国", "D. 只有中国"] }
+      ],
+      "solution": [{ "type": "paragraph", "content": "华盛顿会议有美英日法中等九国参加。正确答案为C。" }],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "凡尔赛体系", "children": [
+      { "text": "1919年巴黎和会" },
+      { "text": "《凡尔赛条约》针对德国" }
+    ]},
+    { "text": "华盛顿体系", "children": [
+      { "text": "1921-1922年华盛顿会议" },
+      { "text": "《九国公约》调整东亚格局" }
+    ]}
+  ]
+}

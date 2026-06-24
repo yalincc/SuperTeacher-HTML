@@ -1,0 +1,112 @@
+{
+  "meta": { "id": 27, "slug": "lesson-27-gerund", "title": "动名词 doing", "unit": "非谓语与被动语态", "week": 9, "day": 3 },
+  "objectives": [
+    { "text": "掌握动名词的构成（V+ing）", "isKeyPoint": true },
+    { "text": "掌握常接动名词的动词", "isKeyPoint": true },
+    { "text": "了解动名词作主语和宾语的用法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "动名词的构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**动名词**是由动词加 -ing 构成的一种非谓语动词形式，与现在分词同形，但用法不同。" },
+        { "type": "paragraph", "content": "动名词在句中起**名词**的作用，可以作主语、宾语、表语等。" },
+        { "type": "callout", "variant": "tip", "title": "动名词 vs 现在分词", "content": "动名词相当于名词，表示「做某事这件事」；现在分词相当于形容词或副词，表示「正在做某事」或「令人……的」。" }
+      ]
+    },
+    {
+      "title": "动名词作宾语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "许多动词后面只能接动名词作宾语，不能接不定式：" },
+        {
+          "type": "table",
+          "headers": ["动词", "例句"],
+          "rows": [
+            ["enjoy", "I enjoy reading books."],
+            ["finish", "She finished doing her homework."],
+            ["mind", "Do you mind opening the window?"],
+            ["keep", "Keep trying and you will succeed."],
+            ["practice", "He practices speaking English every day."],
+            ["consider", "I considered moving to another city."],
+            ["suggest", "He suggested going to the park."],
+            ["avoid", "You should avoid making the same mistake."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "「享（enjoy）完（finish）介（mind）持（keep）练（practice）考（consider）建（suggest）避（avoid）」—— 这些词后面都要接 doing。" }
+      ]
+    },
+    {
+      "title": "动名词作主语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "动名词可以直接放在句首作主语：" },
+        { "type": "paragraph", "content": "**Swimming** is good exercise.（游泳是很好的运动。）" },
+        { "type": "paragraph", "content": "**Reading** books can help you learn new words.（读书可以帮助你学习新单词。）" },
+        { "type": "paragraph", "content": "常用形式：It is + adj. + doing sth.（做某事是……的）" },
+        { "type": "paragraph", "content": "It is **useful** learning English.（学英语是有用的。）" },
+        { "type": "callout", "variant": "warning", "title": "注意", "content": "动名词作主语时，谓语动词用单数形式。" }
+      ]
+    },
+    {
+      "title": "固定搭配 + doing",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "以下介词短语后面必须接动名词：" },
+        {
+          "type": "table",
+          "headers": ["搭配", "例句"],
+          "rows": [
+            ["be good at", "She is good at dancing."],
+            ["be interested in", "I am interested in learning Chinese."],
+            ["look forward to", "We look forward to seeing you."],
+            ["be used to", "He is used to getting up early."],
+            ["pay attention to", "Pay attention to spelling this word correctly."],
+            ["instead of", "I stayed home instead of going out."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "look forward to、be used to、pay attention to 中的 to 是介词，不是不定式的 to，后面必须接 doing。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：动名词作宾语",
+      "problem": [
+        { "type": "paragraph", "content": "She enjoys ___ music in her free time." },
+        { "type": "list", "ordered": true, "items": ["A. listen to", "B. to listen to", "C. listening to", "D. listened to"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "enjoy 后面只能接动名词作宾语，正确形式为 enjoy listening to。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：固定搭配 + doing",
+      "problem": [
+        { "type": "paragraph", "content": "He is looking forward to ___ from you." },
+        { "type": "list", "ordered": true, "items": ["A. hear", "B. to hear", "C. hearing", "D. heard"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "look forward to 中的 to 是介词，后面必须接动名词 hearing。答案选 C。" }
+      ],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "构成", "children": [
+      { "text": "动词 + ing（与现在分词同形）" },
+      { "text": "起名词作用" }
+    ]},
+    { "text": "作宾语", "children": [
+      { "text": "enjoy/finish/mind/keep + doing" },
+      { "text": "practice/consider/suggest/avoid + doing" }
+    ]},
+    { "text": "固定搭配", "children": [
+      { "text": "be good at / be interested in + doing" },
+      { "text": "look forward to / be used to + doing" },
+      { "text": "注意：这里的 to 是介词，不是不定式的 to" }
+    ]}
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lessonId": 14,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-14-1",
+      "stem": "What _____ you _____ right now?",
+      "options": [
+        { "label": "A", "text": "do; do" },
+        { "label": "B", "text": "are; doing" },
+        { "label": "C", "text": "is; doing" },
+        { "label": "D", "text": "are; do" }
+      ],
+      "answer": "B",
+      "analysis": "right now 表示「现在」，用现在进行时。主语 you 搭配 are + doing。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-14-2",
+      "stem": "The baby is _____ in the bedroom.",
+      "options": [
+        { "label": "A", "text": "sleep" },
+        { "label": "B", "text": "sleeps" },
+        { "label": "C", "text": "sleeping" },
+        { "label": "D", "text": "slept" }
+      ],
+      "answer": "C",
+      "analysis": "is 后面需要 -ing 形式，sleep 直接加 -ing 得到 sleeping。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-14-3",
+      "stem": "Listen! Someone _____ the piano.",
+      "options": [
+        { "label": "A", "text": "play" },
+        { "label": "B", "text": "plays" },
+        { "label": "C", "text": "is playing" },
+        { "label": "D", "text": "are playing" }
+      ],
+      "answer": "C",
+      "analysis": "Listen! 提示动作正在进行，用现在进行时。someone 是单数，用 is playing。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-14-4",
+      "stem": "\"He is siting on the chair.\" 这句话拼写正确。",
+      "answer": false,
+      "analysis": "sit 是重读闭音节，需要双写末字母 t 再加 -ing，应该是 sitting，不是 siting。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-14-5",
+      "segments": ["Look! The bird _____1_____ (fly) in the sky.", "She _____2_____ (not watch) TV now."],
+      "blanks": [
+        { "index": 1, "answer": "is flying", "alternatives": [] },
+        { "index": 2, "answer": "is not watching", "alternatives": ["isn't watching"] }
+      ],
+      "analysis": "Look! 提示现在进行时，bird 是单数用 is flying。fly 直接加 -ing。now 提示现在进行时，否定用 is not watching。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-14-6",
+      "question": "写出动词的 -ing 形式并说明变形规则：make, run, die",
+      "referenceAnswer": "make→making（以不发音 e 结尾，去 e 加 -ing）；run→running（重读闭音节，双写末字母 n 加 -ing）；die→dying（以 ie 结尾，变 ie 为 y 加 -ing）。",
+      "scoringPoints": [
+        "make 的 -ing 形式正确",
+        "run 的 -ing 形式正确",
+        "die 的 -ing 形式正确",
+        "能解释各自的变形规则"
+      ]
+    }
+  ]
+}

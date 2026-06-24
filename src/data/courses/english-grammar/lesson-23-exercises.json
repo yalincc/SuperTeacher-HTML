@@ -1,0 +1,72 @@
+{
+  "lessonId": 23,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-23-1",
+      "stem": "If you ___ hard, you will pass the exam.",
+      "options": [
+        { "label": "A", "text": "study" },
+        { "label": "B", "text": "will study" },
+        { "label": "C", "text": "studied" },
+        { "label": "D", "text": "studying" }
+      ],
+      "answer": "A",
+      "analysis": "if 引导的条件状语从句遵循「主将从现」原则，从句用一般现在时 study。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-23-2",
+      "stem": "I will not forgive you ___ you apologize.",
+      "options": [
+        { "label": "A", "text": "if" },
+        { "label": "B", "text": "unless" },
+        { "label": "C", "text": "because" },
+        { "label": "D", "text": "although" }
+      ],
+      "answer": "B",
+      "analysis": "句意是「除非你道歉，否则我不会原谅你」。unless = if...not，符合语境。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-23-3",
+      "stem": "We will go hiking if it ___ tomorrow.",
+      "options": [
+        { "label": "A", "text": "won't rain" },
+        { "label": "B", "text": "doesn't rain" },
+        { "label": "C", "text": "didn't rain" },
+        { "label": "D", "text": "hasn't rained" }
+      ],
+      "answer": "B",
+      "analysis": "if 从句用一般现在时的否定形式 doesn't rain，不能用 will。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-23-4",
+      "stem": "In the sentence \"If it will rain, we will stay home\", the tense usage is correct.",
+      "answer": false,
+      "analysis": "if 条件句中从句不能用 will，应该用一般现在时。正确形式：If it rains, we will stay home."
+    },
+    {
+      "type": "fill",
+      "id": "ex-23-5",
+      "segments": ["You will fail ___1___ you don't study for the test.", "I will call you when I ___2___ (arrive) at the airport."],
+      "blanks": [
+        { "index": 1, "answer": "unless", "alternatives": ["if"] },
+        { "index": 2, "answer": "arrive", "alternatives": [] }
+      ],
+      "analysis": "第一句可以用 unless（= if...not）或 if（但需要加 not）。第二句 when 引导的时间从句也遵循主将从现，用一般现在时 arrive。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-23-6",
+      "question": "用正确时态填空并解释原因：If I ___ (be) you, I ___ (accept) the offer.",
+      "referenceAnswer": "If I were you, I would accept the offer。理由：这是虚拟条件句，表示与现在事实相反的假设，从句用一般过去时（be 动词用 were），主句用 would + 动词原形。",
+      "scoringPoints": [
+        "正确使用 were（虚拟语气 be 动词用 were）",
+        "正确使用 would accept",
+        "能解释这是虚拟条件句"
+      ]
+    }
+  ]
+}

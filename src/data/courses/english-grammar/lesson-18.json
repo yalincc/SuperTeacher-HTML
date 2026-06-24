@@ -1,0 +1,103 @@
+{
+  "meta": { "id": 18, "slug": "lesson-18-present-perfect-1", "title": "现在完成时（上）", "unit": "动词时态（下）", "week": 6, "day": 3 },
+  "objectives": [
+    { "text": "掌握现在完成时的构成（have/has + 过去分词）", "isKeyPoint": true },
+    { "text": "掌握规则动词过去分词的变化", "isKeyPoint": true },
+    { "text": "了解现在完成时的基本用法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "现在完成时的构成",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "现在完成时由 **have/has + 过去分词** 构成：" },
+        {
+          "type": "table",
+          "headers": ["主语", "助动词", "例句"],
+          "rows": [
+            ["I/You/We/They", "have", "I have finished my homework."],
+            ["He/She/It", "has", "She has visited Paris."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "has 用于第三人称单数（he/she/it），其他用 have。" }
+      ]
+    },
+    {
+      "title": "过去分词的变化",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "规则动词的过去分词变化与过去式相同，遵循相同规则：" },
+        {
+          "type": "table",
+          "headers": ["规则", "原形", "过去式/过去分词"],
+          "rows": [
+            ["加 -ed", "work", "worked"],
+            ["以 e 结尾加 -d", "live", "lived"],
+            ["辅音+y 变 i 加 -ed", "study", "studied"],
+            ["重读闭音节双写加 -ed", "stop", "stopped"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "不规则动词的过去分词需要单独记忆，如 go-gone, see-seen, eat-eaten。" }
+      ]
+    },
+    {
+      "title": "现在完成时的基本用法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "现在完成时有两种基本用法：" },
+        {
+          "type": "table",
+          "headers": ["用法", "例句", "说明"],
+          "rows": [
+            ["过去的动作对现在的影响", "I have lost my keys.", "现在还没有钥匙"],
+            ["从过去持续到现在的动作", "I have lived here for 10 years.", "现在还住在这里"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "现在完成时，过去发生在现在。影响还在用完成，持续到现在也用它。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：过去分词选择",
+      "problem": [
+        { "type": "paragraph", "content": "选出单词 write 的正确过去分词：（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. writed", "B. wrote", "C. written", "D. writing"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "write 是不规则动词，过去分词是 written。writed 是错误形式，wrote 是过去式，writing 是现在分词。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：现在完成时造句",
+      "problem": [
+        { "type": "paragraph", "content": "用现在完成时描述：她已经完成作业了。" },
+        { "type": "paragraph", "content": "A. She has finished her homework." },
+        { "type": "paragraph", "content": "B. She has finish her homework." },
+        { "type": "paragraph", "content": "C. She have finished her homework." },
+        { "type": "paragraph", "content": "D. She finished her homework." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "she 是第三人称单数，用 has。finish 的过去分词是 finished。答案选 A。B 用了原形，C 用了 have，D 是一般过去时。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "构成", "children": [
+      { "text": "have/has + 过去分词" },
+      { "text": "I/You/We/They + have" },
+      { "text": "He/She/It + has" }
+    ]},
+    { "text": "过去分词变化", "children": [
+      { "text": "规则动词：与过去式相同" },
+      { "text": "不规则动词：需单独记忆" },
+      { "text": "常见不规则：go-gone, see-seen, eat-eaten" }
+    ]},
+    { "text": "基本用法", "children": [
+      { "text": "过去的动作对现在的影响" },
+      { "text": "从过去持续到现在的动作" }
+    ]}
+  ]
+}
