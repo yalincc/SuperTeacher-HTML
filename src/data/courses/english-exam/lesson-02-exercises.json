@@ -1,0 +1,95 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    {
+      "type": "fill",
+      "id": "ex-2-1",
+      "segments": ["I want", "___1___", "a doctor when I grow up."],
+      "blanks": [
+        { "index": 1, "answer": "to be" }
+      ],
+      "analysis": "want 后面接不定式 to do，所以填 to be。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-2",
+      "segments": ["She enjoys", "___1___", "in the river."],
+      "blanks": [
+        { "index": 1, "answer": "swimming" }
+      ],
+      "analysis": "enjoy 后面接动名词 doing，所以填 swimming。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-3",
+      "segments": ["He decided", "___1___", "hard from now on."],
+      "blanks": [
+        { "index": 1, "answer": "to study" }
+      ],
+      "analysis": "decide 后面接不定式 to do，所以填 to study。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-4",
+      "segments": ["They finished", "___1___", "the house yesterday."],
+      "blanks": [
+        { "index": 1, "answer": "cleaning" }
+      ],
+      "analysis": "finish 后面接动名词 doing，所以填 cleaning。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-5",
+      "segments": ["Would you mind", "___1___", "the window?"],
+      "blanks": [
+        { "index": 1, "answer": "opening" }
+      ],
+      "analysis": "mind 后面接动名词 doing，所以填 opening。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-6",
+      "segments": ["I am interested in", "___1___", "Chinese history."],
+      "blanks": [
+        { "index": 1, "answer": "studying" }
+      ],
+      "analysis": "in 是介词，介词后接动词用 doing 形式，所以填 studying。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-7",
+      "segments": ["She hopes", "___1___", "to the party tonight."],
+      "blanks": [
+        { "index": 1, "answer": "to go" }
+      ],
+      "analysis": "hope 后面接不定式 to do，所以填 to go。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-8",
+      "segments": ["Keep", "___1___", "and you will make progress."],
+      "blanks": [
+        { "index": 1, "answer": "trying" }
+      ],
+      "analysis": "keep 后面接动名词 doing，所以填 trying。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-9",
+      "segments": ["She is good at", "___1___", "the piano."],
+      "blanks": [
+        { "index": 1, "answer": "playing" }
+      ],
+      "analysis": "at 是介词，介词后接动词用 doing 形式，所以填 playing。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-10",
+      "segments": ["We plan", "___1___", "to Hainan this summer."],
+      "blanks": [
+        { "index": 1, "answer": "to travel" }
+      ],
+      "analysis": "plan 后面接不定式 to do，所以填 to travel。"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-pronouns-conjunctions", "title": "无提示词：代词与连词", "unit": "无提示词", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "掌握无提示词代词填空的规律", "isKeyPoint": true },
+    { "text": "掌握常见连词的用法", "isKeyPoint": true },
+    { "text": "能根据语境判断填什么代词或连词", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "填代词的情况",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "无提示词填空中，空格处可能需要填入代词，具体填哪种形式取决于代词在句中的语法功能：" },
+        {
+          "type": "table",
+          "headers": ["代词类型", "用法", "例句"],
+          "rows": [
+            ["主格 I/you/he/she/it/we/they", "作主语", "___ is a student.（He）"],
+            ["宾格 me/you/him/her/it/us/them", "作宾语", "Please give ___ the book.（me）"],
+            ["形容词性物主代词 my/your/his/her/its/our/their", "修饰名词", "This is ___ book.（my）"],
+            ["名词性物主代词 mine/yours/his/hers/its/ours/theirs", "独立使用", "The book is ___.（mine）"],
+            ["反身代词 myself/yourself", "强调或反身", "I can do it ___.（myself）"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "判断技巧", "content": "空格在动词前→填主格；空格在动词或介词后→填宾格；空格后有名词→填形容词性物主代词。" }
+      ]
+    },
+    {
+      "title": "填连词的情况",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "当句子中出现两个并列成分或两个分句时，需要填入连词来表示逻辑关系：" },
+        {
+          "type": "table",
+          "headers": ["连词", "逻辑关系", "例句"],
+          "rows": [
+            ["and", "并列、顺承", "I like English ___ math."],
+            ["but", "转折", "He is short ___ strong."],
+            ["or", "选择、否则", "Would you like tea ___ coffee?"],
+            ["so", "因果", "It rained, ___ we stayed at home."],
+            ["because", "原因", "I stayed home ___ I was sick."],
+            ["although/though", "让步", "___ it was cold, we went out."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "判断技巧", "content": "两个意思相近或并列的词填 and；意思相反填 but；二选一填 or；前因后果填 so；前果后因填 because。" }
+      ]
+    },
+    {
+      "title": "常见连词搭配",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "以下固定搭配在考试中经常出现，需要整体记忆：" },
+        {
+          "type": "table",
+          "headers": ["搭配", "含义", "例句"],
+          "rows": [
+            ["both...and", "两者都", "Both Tom ___ Jerry are my friends."],
+            ["either...or", "要么…要么", "Either you ___ he is wrong."],
+            ["neither...nor", "既不…也不", "Neither she ___ I like coffee."],
+            ["not only...but also", "不但…而且", "Not only he ___ also I passed."],
+            ["whether...or", "无论…还是", "Whether you come ___ not, I will go."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "both...and 用复数动词，either...or 和 neither...nor 遵循就近原则（动词与最近的主语一致）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：填代词",
+      "problem": [
+        { "type": "paragraph", "content": "___ am very happy today." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "空格在动词 am 前作主语，用主格代词 I。" }
+      ],
+      "answer": "I"
+    },
+    {
+      "title": "例2：填连词",
+      "problem": [
+        { "type": "paragraph", "content": "He is tired, ___ he keeps working." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "「累」和「继续工作」是转折关系，填 but。" }
+      ],
+      "answer": "but"
+    }
+  ],
+  "summary": [
+    { "text": "代词填空", "children": [
+      { "text": "动词前用主格" },
+      { "text": "动词/介词后用宾格" },
+      { "text": "名词前用形容词性物主代词" }
+    ]},
+    { "text": "连词选择", "children": [
+      { "text": "并列→and，转折→but" },
+      { "text": "选择→or，因果→so/because" }
+    ]},
+    { "text": "固定搭配", "children": [
+      { "text": "both...and 用复数" },
+      { "text": "either...or / neither...nor 就近原则" }
+    ]}
+  ]
+}

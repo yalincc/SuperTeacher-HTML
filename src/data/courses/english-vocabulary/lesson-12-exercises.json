@@ -1,0 +1,66 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-12-1",
+      "stem": "___ is changing the way we live and work.",
+      "options": [
+        { "label": "A", "text": "Robot" },
+        { "label": "B", "text": "Internet" },
+        { "label": "C", "text": "Artificial intelligence" },
+        { "label": "D", "text": "Smartphone" }
+      ],
+      "answer": "C",
+      "analysis": "根据句意「正在改变我们生活和工作方式」，artificial intelligence（人工智能）是当今最具变革性的技术。robot（机器人）和 smartphone（智能手机）都是具体产品。"
+    },
+    {
+      "type": "choice", "id": "ex-12-2",
+      "stem": "Spring Festival is one of the most important ___ in China.",
+      "options": [
+        { "label": "A", "text": "traditions" },
+        { "label": "B", "text": "festivals" },
+        { "label": "C", "text": "customs" },
+        { "label": "D", "text": "ceremonies" }
+      ],
+      "answer": "B",
+      "analysis": "Spring Festival（春节）是一个节日，应该用 festivals。traditions（传统）、customs（习俗）、ceremonies（仪式）不用于描述春节这个节日。"
+    },
+    {
+      "type": "choice", "id": "ex-12-3",
+      "stem": "This cup ___ glass.",
+      "options": [
+        { "label": "A", "text": "is made of" },
+        { "label": "B", "text": "is made from" },
+        { "label": "C", "text": "comes from" },
+        { "label": "D", "text": "is used for" }
+      ],
+      "answer": "A",
+      "analysis": "杯子是由玻璃制成的，而且能看出玻璃的原材料，应该用 be made of（可见材料）。be made from 用于不可见材料。"
+    },
+    {
+      "type": "true_false", "id": "ex-12-4",
+      "stem": "be made of 和 be made from 的用法完全相同，可以互换使用。",
+      "answer": false,
+      "analysis": "be made of 用于可见材料（能看出原材料），be made from 用于不可见材料（看不出原材料）。a wooden table is made of wood（木头可见）；paper is made from wood（木头不可见）。"
+    },
+    {
+      "type": "fill", "id": "ex-12-5",
+      "segments": ["Technology is ___1___ ___2___ in recent years."],
+      "blanks": [
+        { "index": 1, "answer": "developing", "alternatives": [] },
+        { "index": 2, "answer": "quickly", "alternatives": [] }
+      ],
+      "analysis": "develop quickly 意为「快速发展」，是科技话题的常用表达。is developing 是现在进行时，表示正在发生的变化。"
+    },
+    {
+      "type": "short_answer", "id": "ex-12-6",
+      "question": "请用以下词汇写一段关于科技与文化的文章：internet, artificial intelligence, tradition, festival, be used for。写一段话（至少3句话）。",
+      "referenceAnswer": "The internet and artificial intelligence are changing our lives. They are used for many things in daily life. However, we should still keep our traditions. During festivals like Spring Festival, families get together to celebrate.",
+      "scoringPoints": [
+        "正确使用至少5个给定词汇",
+        "语句通顺，语法正确",
+        "内容合理，涉及科技与文化"
+      ]
+    }
+  ]
+}

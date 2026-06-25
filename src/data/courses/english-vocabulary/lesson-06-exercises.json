@@ -1,0 +1,61 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-6-1",
+      "stem": "频率副词在句子中的位置通常是：",
+      "options": [
+        { "label": "A", "text": "be 动词之前" },
+        { "label": "B", "text": "be 动词之后，实义动词之前" },
+        { "label": "C", "text": "句首" },
+        { "label": "D", "text": "句末" }
+      ],
+      "answer": "B",
+      "analysis": "频率副词放在 be 动词之后（He is always late.）、助动词之后（I can never forget it.）、实义动词之前（She often goes shopping.）。"
+    },
+    {
+      "type": "choice", "id": "ex-6-2",
+      "stem": "hard 和 hardly 的区别是：",
+      "options": [
+        { "label": "A", "text": "意思相同" },
+        { "label": "B", "text": "hard 意为「努力地」，hardly 意为「几乎不」" },
+        { "label": "C", "text": "hard 意为「几乎不」，hardly 意为「努力地」" },
+        { "label": "D", "text": "hard 是形容词，hardly 是副词" }
+      ],
+      "answer": "B",
+      "analysis": "hard 作副词时意为「努力地」（He works hard.），hardly 意为「几乎不」（I can hardly hear you.），两者意思完全不同。"
+    },
+    {
+      "type": "choice", "id": "ex-6-3",
+      "stem": "He came to school late ___ the heavy rain.",
+      "options": [
+        { "label": "A", "text": "because" },
+        { "label": "B", "text": "because of" },
+        { "label": "C", "text": "so" },
+        { "label": "D", "text": "but" }
+      ],
+      "answer": "B",
+      "analysis": "the heavy rain 是名词短语，because of 后接名词/代词/动名词。because 后接句子。答案选 B。"
+    },
+    {
+      "type": "true_false", "id": "ex-6-4",
+      "stem": "seldom 和 never 都是否定频率副词，表示「很少」或「从不」。",
+      "answer": true,
+      "analysis": "seldom 意为「很少、 seldom」，never 意为「从不」，两者都是否定频率副词。在反意疑问句中，它们会使句子变为否定含义。"
+    },
+    {
+      "type": "fill", "id": "ex-5-5",
+      "segments": ["She spoke ___ so that everyone could hear her clearly."],
+      "blanks": [
+        { "index": 1, "answer": "loudly" }
+      ],
+      "analysis": "根据句意「她说话很大声以便每个人都能听清楚」，需要一个方式副词。loudly（大声地）符合语境。"
+    },
+    {
+      "type": "short_answer", "id": "ex-6-6",
+      "question": "请写出三个频率副词，并说明它们在句子中的位置规则。各写一个例句。",
+      "referenceAnswer": "频率副词如 always（总是）、usually（通常）、sometimes（有时）。位置规则：be 动词之后（He is always late.）、实义动词之前（She usually gets up early.）、助动词/情态动词之后（I can sometimes help you.）。",
+      "scoringPoints": ["写出至少三个频率副词", "说明位置规则", "例句语法正确"]
+    }
+  ]
+}

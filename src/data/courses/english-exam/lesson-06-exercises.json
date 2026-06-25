@@ -1,0 +1,96 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "fill",
+      "id": "ex-6-1",
+      "segments": ["She ___1___ (go) to school by bus every day."],
+      "blanks": [
+        { "index": 1, "answer": "goes" }
+      ],
+      "analysis": "every day 是一般现在时标志词，主语 she 是第三人称单数，go 加 es。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-2",
+      "segments": ["I ___1___ (visit) my grandparents last Sunday."],
+      "blanks": [
+        { "index": 1, "answer": "visited" }
+      ],
+      "analysis": "last Sunday 是过去时间，visit 的过去式加 ed。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-3",
+      "segments": ["He always ___1___ (get) up at six in the morning."],
+      "blanks": [
+        { "index": 1, "answer": "gets" }
+      ],
+      "analysis": "always 表示一般现在时，主语 he 是第三人称单数，get 加 s。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-4",
+      "segments": ["We ___1___ (not see) the movie yesterday."],
+      "blanks": [
+        { "index": 1, "answer": "didn't see" }
+      ],
+      "analysis": "yesterday 是过去时，否定句用 didn't + 动词原形。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-5",
+      "segments": ["They often ___1___ (play) football after school."],
+      "blanks": [
+        { "index": 1, "answer": "play" }
+      ],
+      "analysis": "often 表示一般现在时，主语 they 是复数，动词用原形。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-6",
+      "segments": ["The teacher ___1___ (teach) us English last term."],
+      "blanks": [
+        { "index": 1, "answer": "taught" }
+      ],
+      "analysis": "last term 是过去时间，teach 的过去式是 taught。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-7",
+      "segments": ["My mother ___1___ (cook) dinner every evening."],
+      "blanks": [
+        { "index": 1, "answer": "cooks" }
+      ],
+      "analysis": "every evening 表示一般现在时，主语 mother 是第三人称单数，cook 加 s。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-8",
+      "segments": ["She ___1___ (write) a letter to her friend two days ago."],
+      "blanks": [
+        { "index": 1, "answer": "wrote" }
+      ],
+      "analysis": "two days ago 是过去时间，write 的过去式是 wrote。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-9",
+      "segments": ["The sun ___1___ (rise) in the east."],
+      "blanks": [
+        { "index": 1, "answer": "rises" }
+      ],
+      "analysis": "客观事实用一般现在时，主语 the sun 是第三人称单数，rise 加 s。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-6-10",
+      "segments": ["I ___1___ (buy) a new book yesterday and I ___2___ (read) it last night."],
+      "blanks": [
+        { "index": 1, "answer": "bought" },
+        { "index": 2, "answer": "read" }
+      ],
+      "analysis": "yesterday 和 last night 都是过去时间，buy 的过去式是 bought，read 的过去式仍为 read（读音变化）。"
+    }
+  ]
+}

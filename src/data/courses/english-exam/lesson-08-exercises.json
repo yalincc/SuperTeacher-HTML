@@ -1,0 +1,95 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    {
+      "type": "fill",
+      "id": "ex-8-1",
+      "segments": ["If it ___1___ (rain) tomorrow, we will stay at home."],
+      "blanks": [
+        { "index": 1, "answer": "rains" }
+      ],
+      "analysis": "条件从句用一般现在时，主语 it 是第三人称单数，rain 加 s。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-2",
+      "segments": ["English ___1___ (speak) in many countries."],
+      "blanks": [
+        { "index": 1, "answer": "is spoken" }
+      ],
+      "analysis": "English 是动作承受者，用一般现在时的被动语态 is spoken。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-3",
+      "segments": ["When I ___1___ (be) a child, I lived in the countryside."],
+      "blanks": [
+        { "index": 1, "answer": "was" }
+      ],
+      "analysis": "when 引导时间从句，描述过去的状况，用一般过去时 was。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-4",
+      "segments": ["The letter ___1___ (write) by my sister yesterday."],
+      "blanks": [
+        { "index": 1, "answer": "was written" }
+      ],
+      "analysis": "The letter 是承受者，yesterday 表示过去时，被动语态为 was written。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-5",
+      "segments": ["Please wash your hands before you ___1___ (eat)."],
+      "blanks": [
+        { "index": 1, "answer": "eat" }
+      ],
+      "analysis": "before 引导时间从句，从句中不用将来时，用一般现在时 eat。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-6",
+      "segments": ["The work ___1___ (finish) by next week."],
+      "blanks": [
+        { "index": 1, "answer": "will be finished" }
+      ],
+      "analysis": "by next week 表示将来时间，用一般将来时的被动语态 will be finished。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-7",
+      "segments": ["While she ___1___ (cook), her son was doing homework."],
+      "blanks": [
+        { "index": 1, "answer": "was cooking" }
+      ],
+      "analysis": "while 引导时间从句，强调两个动作同时进行，用过去进行时 was cooking。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-8",
+      "segments": ["The window ___1___ (break) by Tom. It needs to be repaired."],
+      "blanks": [
+        { "index": 1, "answer": "was broken" }
+      ],
+      "analysis": "The window 是承受者，根据语境描述已发生的事件，用一般过去时被动 was broken。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-9",
+      "segments": ["I will call you as soon as I ___1___ (arrive) there."],
+      "blanks": [
+        { "index": 1, "answer": "arrive" }
+      ],
+      "analysis": "as soon as 引导时间从句，从句中不用将来时，用一般现在时 arrive。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-8-10",
+      "segments": ["The homework must ___1___ (finish) before tomorrow."],
+      "blanks": [
+        { "index": 1, "answer": "be finished" }
+      ],
+      "analysis": "must 是情态动词，含情态动词的被动语态为 must be + 过去分词。"
+    }
+  ]
+}

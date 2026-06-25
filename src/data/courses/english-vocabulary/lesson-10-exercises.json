@@ -1,0 +1,66 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-10-1",
+      "stem": "Students often play basketball in the ___.",
+      "options": [
+        { "label": "A", "text": "library" },
+        { "label": "B", "text": "canteen" },
+        { "label": "C", "text": "gym" },
+        { "label": "D", "text": "lab" }
+      ],
+      "answer": "C",
+      "analysis": "play basketball（打篮球）通常在体育馆（gym）进行。library（图书馆）用于阅读，canteen（食堂）用于用餐，lab（实验室）用于做实验。"
+    },
+    {
+      "type": "choice", "id": "ex-10-2",
+      "stem": "We have a lot of ___ to finish tonight.",
+      "options": [
+        { "label": "A", "text": "homeworks" },
+        { "label": "B", "text": "homework" },
+        { "label": "C", "text": "a homework" },
+        { "label": "D", "text": "the homework" }
+      ],
+      "answer": "B",
+      "analysis": "homework 是不可数名词，不能加 -s，不能用 a 修饰，也不需要加 the。直接用 homework 即可。"
+    },
+    {
+      "type": "choice", "id": "ex-10-3",
+      "stem": "She ___ the school basketball team last year.",
+      "options": [
+        { "label": "A", "text": "took part in" },
+        { "label": "B", "text": "joined" },
+        { "label": "C", "text": "took up" },
+        { "label": "D", "text": "got along with" }
+      ],
+      "answer": "B",
+      "analysis": "join 表示「加入某个组织或团体」，join the team 意为「加入球队」。take part in 侧重参加活动，不用于加入组织。"
+    },
+    {
+      "type": "true_false", "id": "ex-10-4",
+      "stem": "homework 是可数名词，可以说 homeworks。",
+      "answer": false,
+      "analysis": "homework 是不可数名词，不能加 -s 变复数，也不能用 a 修饰。正确用法是 homework 或 some homework。"
+    },
+    {
+      "type": "fill", "id": "ex-10-5",
+      "segments": ["We need to ___1___ ___2___ the final exam."],
+      "blanks": [
+        { "index": 1, "answer": "prepare", "alternatives": [] },
+        { "index": 2, "answer": "for", "alternatives": [] }
+      ],
+      "analysis": "prepare for 意为「为……做准备」，prepare for the exam 表示「为考试做准备」。"
+    },
+    {
+      "type": "short_answer", "id": "ex-10-6",
+      "question": "请用以下词汇描述你的学校生活：library, homework, take part in, get along with。写一段话（至少3句话）。",
+      "referenceAnswer": "I often read books in the library after class. Every day, I do homework carefully. I take part in many school activities. I get along well with my classmates.",
+      "scoringPoints": [
+        "正确使用至少4个给定词汇",
+        "语句通顺，语法正确",
+        "内容合理，描述学校生活"
+      ]
+    }
+  ]
+}

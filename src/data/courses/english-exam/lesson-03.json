@@ -1,0 +1,119 @@
+{
+  "meta": { "id": 3, "slug": "lesson-03-word-formation", "title": "有提示词：词性转换", "unit": "有提示词", "week": 1, "day": 3 },
+  "objectives": [
+    { "text": "掌握常见词性转换规律", "isKeyPoint": true },
+    { "text": "能根据句子成分判断词性", "isKeyPoint": true },
+    { "text": "正确运用前缀后缀", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "名词后缀",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "常见的名词后缀，可将动词或形容词转换为名词：" },
+        {
+          "type": "table",
+          "headers": ["后缀", "功能", "示例"],
+          "rows": [
+            ["-tion/-sion", "动词→名词", "educate→education, decide→decision"],
+            ["-ment", "动词→名词", "develop→development, agree→agreement"],
+            ["-ness", "形容词→名词", "happy→happiness, kind→kindness"],
+            ["-ity", "形容词→名词", "safe→safety, popular→popularity"],
+            ["-er/-or", "动词→名词（人）", "teach→teacher, visit→visitor"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "形容词后缀",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "常见的形容词后缀，可将名词或动词转换为形容词：" },
+        {
+          "type": "table",
+          "headers": ["后缀", "功能", "示例"],
+          "rows": [
+            ["-ful", "名词→形容词（有…的）", "care→careful, help→helpful"],
+            ["-less", "名词→形容词（没有…的）", "care→careless, hope→hopeless"],
+            ["-ous/-ious", "名词→形容词（具有…的）", "danger→dangerous, courage→courageous"],
+            ["-able/-ible", "动词→形容词（能…的）", "enjoy→enjoyable, possible→possible"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "副词后缀",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "形容词加 -ly 变为副词，修饰动词、形容词或其他副词：" },
+        {
+          "type": "table",
+          "headers": ["形容词", "副词", "例句"],
+          "rows": [
+            ["careful", "carefully", "He drives carefully."],
+            ["quick", "quickly", "She runs quickly."],
+            ["happy", "happily", "They live happily."],
+            ["slow", "slowly", "The snail moves slowly."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "以辅音字母 + y 结尾的形容词，变 y 为 i 再加 -ly：happy→happily, easy→easily。" }
+      ]
+    },
+    {
+      "title": "判断词性的方法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "根据空格在句子中的位置和作用，判断需要填什么词性：" },
+        {
+          "type": "table",
+          "headers": ["位置", "需要的词性", "示例"],
+          "rows": [
+            ["冠词（a/an/the）或形容词后", "名词", "an ___ (educate) → an education"],
+            ["系动词（be/look/feel）后", "形容词", "is ___ (care) → is careful"],
+            ["动词或句子后", "副词", "runs ___ (quick) → runs quickly"],
+            ["主语或宾语位置", "名词", "The ___ (important) is... → The importance"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "万能判断法", "content": "先看空格前后是什么词，再决定填什么词性。冠词/形容词后一定是名词，系动词后一定是形容词，修饰动词一定是副词。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：动词变名词",
+      "problem": [
+        { "type": "paragraph", "content": "The ___ (develop) of our city is very fast." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "The 后面需要名词，develop 是动词，加 -ment 变为名词 development。" }
+      ],
+      "answer": "development"
+    },
+    {
+      "title": "例2：形容词变副词",
+      "problem": [
+        { "type": "paragraph", "content": "She speaks English ___ (fluent)." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "修饰动词 speaks 需要副词，fluent 加 -ly 变为 fluently。" }
+      ],
+      "answer": "fluently"
+    }
+  ],
+  "summary": [
+    { "text": "名词后缀", "children": [
+      { "text": "-tion/-sion, -ment, -ness, -ity, -er/-or" }
+    ]},
+    { "text": "形容词后缀", "children": [
+      { "text": "-ful, -less, -ous/-ious, -able/-ible" }
+    ]},
+    { "text": "副词后缀", "children": [
+      { "text": "形容词 + -ly → 副词" }
+    ]},
+    { "text": "判断方法", "children": [
+      { "text": "冠词/形容词后 → 名词" },
+      { "text": "系动词后 → 形容词" },
+      { "text": "修饰动词 → 副词" }
+    ]}
+  ]
+}

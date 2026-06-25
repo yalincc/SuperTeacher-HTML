@@ -1,0 +1,61 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-5-1",
+      "stem": "选出下列形容词中属于描述外观的一组：",
+      "options": [
+        { "label": "A", "text": "happy, sad, angry" },
+        { "label": "B", "text": "big, long, thin" },
+        { "label": "C", "text": "kind, brave, honest" },
+        { "label": "D", "text": "worried, excited, tired" }
+      ],
+      "answer": "B",
+      "analysis": "big（大的）、long（长的）、thin（瘦的）都是描述外观的形容词。A 项是情感形容词，C 项是品质形容词，D 项是情感形容词。"
+    },
+    {
+      "type": "choice", "id": "ex-5-2",
+      "stem": "She is ___ enough to carry the heavy box.",
+      "options": [
+        { "label": "A", "text": "lazy" },
+        { "label": "B", "text": "brave" },
+        { "label": "C", "text": "stupid" },
+        { "label": "D", "text": "sad" }
+      ],
+      "answer": "B",
+      "analysis": "根据句意「她能搬起重箱子」，说明她很勇敢。brave 意为「勇敢的」，符合语境。"
+    },
+    {
+      "type": "choice", "id": "ex-5-3",
+      "stem": "下列哪个形容词只能作表语，不能放在名词前？",
+      "options": [
+        { "label": "A", "text": "tall" },
+        { "label": "B", "text": "kind" },
+        { "label": "C", "text": "afraid" },
+        { "label": "D", "text": "clever" }
+      ],
+      "answer": "C",
+      "analysis": "afraid 只能作表语（The boy is afraid.），不能说 an afraid boy。其他三个形容词既可以作定语也可以作表语。"
+    },
+    {
+      "type": "true_false", "id": "ex-5-4",
+      "stem": "「a old book」这个表达是正确的。",
+      "answer": false,
+      "analysis": "old 的发音以元音开头，前面应该用 an 而不是 a。正确表达是 an old book。"
+    },
+    {
+      "type": "fill", "id": "ex-5-5",
+      "segments": ["My grandmother is very ___. She always tells us stories."],
+      "blanks": [
+        { "index": 1, "answer": "kind" }
+      ],
+      "analysis": "根据后半句「她总是给我们讲故事」，说明祖母很善良。kind 意为「善良的」，符合语境。"
+    },
+    {
+      "type": "short_answer", "id": "ex-5-6",
+      "question": "请用三个不同的描述类形容词（外观、情感、品质各一个）分别造句，说明形容词作定语和表语的区别。",
+      "referenceAnswer": "作定语（放在名词前）：She is a happy girl. / He is a brave soldier. / This is a big house. 作表语（放在 be 动词后）：The girl is happy. / The soldier is brave. / The house is big. 定语修饰名词，表语说明主语状态。",
+      "scoringPoints": ["用到三个不同类别的形容词", "正确区分定语和表语的用法", "句子语法正确"]
+    }
+  ]
+}

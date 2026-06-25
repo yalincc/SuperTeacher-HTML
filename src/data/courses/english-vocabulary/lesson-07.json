@@ -1,0 +1,110 @@
+{
+  "meta": { "id": 7, "slug": "lesson-07-verb-phrases-1", "title": "常考动词短语（上）", "unit": "短语与辨析", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "掌握中考常考动词短语", "isKeyPoint": true },
+    { "text": "了解动词+介词/副词的搭配规律", "isKeyPoint": true },
+    { "text": "能在语境中正确使用动词短语", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "look 系列短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**look** 是中考高频动词，搭配不同的介词/副词构成不同含义的短语。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["look at", "/lʊk æt/", "phr.v.", "看", "Look at the blackboard."],
+            ["look for", "/lʊk fɔːr/", "phr.v.", "寻找", "I am looking for my pen."],
+            ["look after", "/lʊk ˈɑːftər/", "phr.v.", "照顾", "Who looks after you?"],
+            ["look up", "/lʊk ʌp/", "phr.v.", "查阅", "Look up the word in the dictionary."],
+            ["look forward to", "/lʊk ˈfɔːwərd tuː/", "phr.v.", "期待", "I look forward to hearing from you."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "注意搭配", "content": "look forward to 中的 to 是介词，后面要接名词或动名词，不能接动词原形。正确：I look forward to seeing you. 错误：I look forward to see you." }
+      ]
+    },
+    {
+      "title": "get 系列短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**get** 是英语中最常用的动词之一，搭配不同的介词/副词含义丰富。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["get up", "/ɡet ʌp/", "phr.v.", "起床", "I get up at six every day."],
+            ["get on", "/ɡet ɒn/", "phr.v.", "上车；进展", "Let's get on the bus."],
+            ["get off", "/ɡet ɒf/", "phr.v.", "下车", "We get off at the next stop."],
+            ["get along with", "/ɡet əˈlɒŋ wɪð/", "phr.v.", "与……相处", "I get along well with my classmates."],
+            ["get ready for", "/ɡet ˈredi fɔːr/", "phr.v.", "为……做准备", "We are getting ready for the exam."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "get on 和 get off 是一对反义词。get on 表示「上车」，get off 表示「下车」。同理 get in 和 get out 也是反义词。" }
+      ]
+    },
+    {
+      "title": "take 系列短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**take** 搭配不同介词构成常用短语，在中考中频繁出现。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["take part in", "/teɪk pɑːrt ɪn/", "phr.v.", "参加", "She took part in the competition."],
+            ["take care of", "/teɪk keər ɒv/", "phr.v.", "照顾", "Take care of yourself."],
+            ["take off", "/teɪk ɒf/", "phr.v.", "起飞；脱下", "The plane will take off soon."],
+            ["take place", "/teɪk pleɪs/", "phr.v.", "发生", "The meeting took place yesterday."],
+            ["take photos", "/teɪk ˈfəʊtəʊz/", "phr.v.", "拍照", "Let's take photos here."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "辨析", "content": "take place 只能用于事件「发生」，不能用于事故（accident）。The sports meeting took place.（正确）The accident took place.（错误，应用 happened）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：look 系列辨析",
+      "problem": [
+        { "type": "paragraph", "content": "— What are you doing? — I am ___ my key. I can't find it." },
+        { "type": "list", "ordered": true, "items": ["A. looking at", "B. looking for", "C. looking after", "D. looking up"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "根据句意「我在找我的钥匙，找不到」，look for 意为「寻找」，符合语境。look at（看）、look after（照顾）、look up（查阅）都不合适。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：take 短语辨析",
+      "problem": [
+        { "type": "paragraph", "content": "The sports meeting will ___ next Friday." },
+        { "type": "list", "ordered": true, "items": ["A. take off", "B. take place", "C. take part in", "D. take care of"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "句意是「运动会将在下周五举行」。take place 意为「发生、举行」，符合语境。take off（起飞/脱下）、take part in（参加）、take care of（照顾）都不合适。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "look 系列", "children": [
+      { "text": "look at（看）" },
+      { "text": "look for（寻找）" },
+      { "text": "look after（照顾）" },
+      { "text": "look up（查阅）" }
+    ]},
+    { "text": "get 系列", "children": [
+      { "text": "get up（起床）" },
+      { "text": "get on/off（上/下车）" },
+      { "text": "get along with（与……相处）" }
+    ]},
+    { "text": "take 系列", "children": [
+      { "text": "take part in（参加）" },
+      { "text": "take care of（照顾）" },
+      { "text": "take off（起飞/脱下）" },
+      { "text": "take place（发生）" }
+    ]}
+  ]
+}

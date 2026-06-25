@@ -1,0 +1,96 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    {
+      "type": "fill",
+      "id": "ex-7-1",
+      "segments": ["I have ___1___ (ever) been to Shanghai."],
+      "blanks": [
+        { "index": 1, "answer": "ever" }
+      ],
+      "analysis": "ever 表示「曾经」，用于现在完成时的一般疑问句或肯定句中。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-2",
+      "segments": ["She is ___1___ (tall) than her sister."],
+      "blanks": [
+        { "index": 1, "answer": "taller" }
+      ],
+      "analysis": "than 是比较级标志词，tall 是短音节词，加 er 变比较级 taller。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-3",
+      "segments": ["He has lived here ___1___ ten years."],
+      "blanks": [
+        { "index": 1, "answer": "for" }
+      ],
+      "analysis": "ten years 是时间段，现在完成时中表示持续用 for。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-4",
+      "segments": ["This question is ___1___ (difficult) than the last one."],
+      "blanks": [
+        { "index": 1, "answer": "more difficult" }
+      ],
+      "analysis": "than 表示比较级，difficult 是多音节词，比较级用 more difficult。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-5",
+      "segments": ["I ___1___ (not finish) my work yet."],
+      "blanks": [
+        { "index": 1, "answer": "haven't finished" }
+      ],
+      "analysis": "yet 用于现在完成时的否定句，结构为 haven't/hasn't + 过去分词。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-6",
+      "segments": ["She is ___1___ (old) student in our class."],
+      "blanks": [
+        { "index": 1, "answer": "the oldest" }
+      ],
+      "analysis": "in our class 表示范围，三者以上比较用最高级，最高级前加 the。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-7",
+      "segments": ["We have known each other ___1___ 2015."],
+      "blanks": [
+        { "index": 1, "answer": "since" }
+      ],
+      "analysis": "2015 是时间点，现在完成时中表示「自从」用 since。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-8",
+      "segments": ["This movie is ___1___ (good) than that one."],
+      "blanks": [
+        { "index": 1, "answer": "better" }
+      ],
+      "analysis": "than 表示比较级，good 的比较级是不规则变化 better。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-9",
+      "segments": ["She has ___1___ (never) been abroad."],
+      "blanks": [
+        { "index": 1, "answer": "never" }
+      ],
+      "analysis": "never 表示「从不」，用于现在完成时中，放在 have/has 之后、过去分词之前。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-7-10",
+      "segments": ["He is ___1___ (strong) boy of ___2___ three."],
+      "blanks": [
+        { "index": 1, "answer": "the strongest" },
+        { "index": 2, "answer": "the" }
+      ],
+      "analysis": "of the three 表示三者中比较，用最高级 the strongest；最高级前加 the。"
+    }
+  ]
+}

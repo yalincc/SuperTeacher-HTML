@@ -1,0 +1,87 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-tense-comprehensive", "title": "综合：六大时态混合填空", "unit": "综合训练", "week": 4, "day": 2 },
+  "objectives": [
+    { "text": "能在混合语境中准确判断时态", "isKeyPoint": true },
+    { "text": "掌握六大时态的标志词快速定位法", "isKeyPoint": true },
+    { "text": "提高时态综合填空的正确率", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "六大时态速查表",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "语法填空最常考六大时态，关键是**找标志词**。看到标志词就能秒定时态：" },
+        {
+          "type": "table",
+          "headers": ["时态", "标志词", "动词形式", "例句"],
+          "rows": [
+            ["一般现在时", "every day / often / usually / always", "V-s / V原形", "He plays basketball every day."],
+            ["一般过去时", "yesterday / last week / ago / in 2020", "V-ed / 不规则", "She visited Beijing last year."],
+            ["现在进行时", "now / look / listen / at the moment", "be + V-ing", "Look! They are running."],
+            ["现在完成时", "already / yet / ever / never / since / for", "have/has + V-ed", "I have finished my homework."],
+            ["一般将来时", "tomorrow / next week / in the future", "will + V原形", "We will meet tomorrow."],
+            ["过去进行时", "at 8:00 last night / when + 过去时", "was/were + V-ing", "I was reading at 9:00 last night."]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "快速判断口诀",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "callout", "variant": "mnemonic", "title": "时态判断口诀", "content": "一看标志定时态，二看主语定形式。过去标志用过去，现在标志用现在。进行记得加 be，完成 have/has 别忘记。将来 will 或 be going to，过去进行 was/were + ing。" },
+        { "type": "callout", "variant": "warning", "title": "易错陷阱", "content": "since 和 for 用现在完成时！看到 since 2020 / for three years 必须用 have/has + done，不能用一般过去时。" }
+      ]
+    },
+    {
+      "title": "混合填空解题策略",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "混合时态填空的难点在于：每道题的时态可能不同。解题时要**逐题判断**，不能凭感觉。" },
+        { "type": "list", "ordered": true, "items": [
+          "**逐句扫描**：每道题独立判断，不要受前后题影响",
+          "**锁定标志词**：先找时间状语，这是最可靠的线索",
+          "**验证主语**：确认主语人称，决定是否需要三单变化",
+          "**检查形式**：写出动词后检查拼写和形式是否正确"
+        ]}
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：混合时态判断",
+      "problem": [
+        { "type": "paragraph", "content": "My mother ___ (cook) dinner every evening. But yesterday she ___ (not cook) because she ___ (be) ill." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "第一空：every evening → 一般现在时，主语三单 → cooks。第二空：yesterday → 一般过去时，否定用 didn't cook。第三空：yesterday → 过去时，be 的过去式 → was。" }
+      ],
+      "answer": "cooks; didn't cook; was"
+    },
+    {
+      "title": "例2：since 触发完成时",
+      "problem": [
+        { "type": "paragraph", "content": "I ___ (know) him since we ___ (be) children." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "第一空：since → 现在完成时 → have known。第二空：since 从句用一般过去时 → were。" }
+      ],
+      "answer": "have known; were"
+    }
+  ],
+  "summary": [
+    { "text": "六大时态标志词", "children": [
+      { "text": "一般现在：every day / often / usually" },
+      { "text": "一般过去：yesterday / last / ago" },
+      { "text": "现在进行：now / look / listen" },
+      { "text": "现在完成：since / for / already / yet" },
+      { "text": "一般将来：tomorrow / next / will" },
+      { "text": "过去进行：at + 过去时间 / when" }
+    ]},
+    { "text": "解题策略", "children": [
+      { "text": "逐题判断，不要受前后题影响" },
+      { "text": "先找标志词，再定时态" },
+      { "text": "注意主语人称和三单变化" }
+    ]}
+  ]
+}

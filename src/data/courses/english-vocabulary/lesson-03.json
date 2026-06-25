@@ -1,0 +1,123 @@
+{
+  "meta": { "id": 3, "slug": "lesson-03-nouns-daily-life", "title": "名词：生活类", "unit": "名词与形容词", "week": 2, "day": 1 },
+  "objectives": [
+    { "text": "掌握日常生活类核心名词", "isKeyPoint": true },
+    { "text": "了解名词的常见搭配", "isKeyPoint": true },
+    { "text": "能在语境中正确使用名词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "家庭与人物名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "家庭与人物类名词是日常交际的基础词汇。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["family", "/ˈfæməli/", "n.", "家庭", "There are four people in my family."],
+            ["parent", "/ˈpeərənt/", "n.", "父/母亲", "My parents are teachers."],
+            ["brother", "/ˈbrʌðər/", "n.", "兄弟", "I have a younger brother."],
+            ["sister", "/ˈsɪstər/", "n.", "姐妹", "My sister likes reading."],
+            ["friend", "/frend/", "n.", "朋友", "She is my best friend."],
+            ["neighbor", "/ˈneɪbər/", "n.", "邻居", "Our neighbors are very kind."],
+            ["student", "/ˈstjuːdnt/", "n.", "学生", "I am a student."],
+            ["teacher", "/ˈtiːtʃər/", "n.", "老师", "Our teacher is very nice."],
+            ["child", "/tʃaɪld/", "n.", "孩子", "The child is playing."],
+            ["people", "/ˈpiːpl/", "n.", "人们", "Many people live here."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "复数变化", "content": "family → families, child → children, people 是复数形式，单数用 person。" }
+      ]
+    },
+    {
+      "title": "食物与衣物名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "食物和衣物是生活中最常用的名词类别。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["food", "/fuːd/", "n.", "食物", "We need some food."],
+            ["rice", "/raɪs/", "n.", "米饭（不可数）", "I eat rice every day."],
+            ["bread", "/bred/", "n.", "面包（不可数）", "Would you like some bread?"],
+            ["water", "/ˈwɔːtər/", "n.", "水（不可数）", "I drink water every day."],
+            ["clothes", "/kləʊðz/", "n.", "衣服（复数）", "These clothes are mine."],
+            ["shoes", "/ʃuːz/", "n.", "鞋子（复数）", "My shoes are old."],
+            ["shirt", "/ʃɜːt/", "n.", "衬衫", "He is wearing a white shirt."],
+            ["jacket", "/ˈdʒækɪt/", "n.", "夹克", "Put on your jacket."],
+            ["hat", "/hæt/", "n.", "帽子", "She has a red hat."],
+            ["dress", "/dres/", "n.", "连衣裙", "This dress is beautiful."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "rice, bread, water 是不可数名词，没有复数形式，不能加 a。clothes, shoes 永远用复数形式。" }
+      ]
+    },
+    {
+      "title": "时间与地点名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "时间和地点名词帮助我们描述事件发生的时间和位置。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["time", "/taɪm/", "n.", "时间", "What time is it?"],
+            ["day", "/deɪ/", "n.", "天；日子", "Today is a nice day."],
+            ["week", "/wiːk/", "n.", "周", "I have English every week."],
+            ["month", "/mʌnθ/", "n.", "月", "There are twelve months in a year."],
+            ["school", "/skuːl/", "n.", "学校", "I go to school every day."],
+            ["hospital", "/ˈhɒspɪtl/", "n.", "医院", "My mother works at a hospital."],
+            ["park", "/pɑːk/", "n.", "公园", "Let's go to the park."],
+            ["library", "/ˈlaɪbrəri/", "n.", "图书馆", "We read books in the library."],
+            ["market", "/ˈmɑːkɪt/", "n.", "市场", "My mother goes to the market."],
+            ["home", "/həʊm/", "n.", "家", "I usually get home at 6."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "介词搭配", "content": "at home（在家），at school（在学校），at the hospital（在医院），in the park（在公园里）" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：可数与不可数名词",
+      "problem": [
+        { "type": "paragraph", "content": "I'd like to have some ___ for breakfast." },
+        { "type": "list", "ordered": true, "items": ["A. rices", "B. breads", "C. water", "D. an apple"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "rice 和 bread 是不可数名词，没有复数形式，排除 A、B。some 后接不可数名词不加 a/an，排除 D。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：名词搭配",
+      "problem": [
+        { "type": "paragraph", "content": "My sister goes to ___ every morning." },
+        { "type": "list", "ordered": true, "items": ["A. school", "B. a school", "C. the school", "D. schools"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "go to school 是固定搭配，表示「去上学」，不加冠词。答案选 A。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "家庭与人物名词", "children": [
+      { "text": "family, parent, brother, sister" },
+      { "text": "friend, neighbor, student, teacher" },
+      { "text": "child → children, people 为复数" }
+    ]},
+    { "text": "食物与衣物名词", "children": [
+      { "text": "rice, bread, water 为不可数名词" },
+      { "text": "clothes, shoes 永远用复数" },
+      { "text": "shirt, jacket, hat, dress 为可数名词" }
+    ]},
+    { "text": "时间与地点名词", "children": [
+      { "text": "time, day, week, month" },
+      { "text": "school, hospital, park, library" },
+      { "text": "at home, at school, in the park" }
+    ]}
+  ]
+}

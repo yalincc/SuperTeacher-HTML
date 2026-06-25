@@ -1,0 +1,96 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    {
+      "type": "fill",
+      "id": "ex-5-1",
+      "segments": ["___1___ is my mother. She is a teacher."],
+      "blanks": [
+        { "index": 1, "answer": "This" }
+      ],
+      "analysis": "介绍某人时，句首用指示代词 This。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-2",
+      "segments": ["Please give ___1___ a glass of water."],
+      "blanks": [
+        { "index": 1, "answer": "me" }
+      ],
+      "analysis": "give 是动词，后面用宾格代词 me 作间接宾语。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-3",
+      "segments": ["___1___ parents are very kind."],
+      "blanks": [
+        { "index": 1, "answer": "His" }
+      ],
+      "analysis": "空格后有名词 parents，用形容词性物主代词 His 修饰。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-4",
+      "segments": ["The book on the desk is ___."],
+      "blanks": [
+        { "index": 1, "answer": "mine" }
+      ],
+      "analysis": "空格处独立使用表示「我的（书）」，用名词性物主代词 mine。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-5",
+      "segments": ["I like apples ___1___ bananas."],
+      "blanks": [
+        { "index": 1, "answer": "and" }
+      ],
+      "analysis": "apples 和 bananas 是并列关系，填 and。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-6",
+      "segments": ["The weather is cold ___1___ dry."],
+      "blanks": [
+        { "index": 1, "answer": "but" }
+      ],
+      "analysis": "cold（冷）和 dry（干燥）是并列的两种天气特征，两个形容词并列用 and，但此处语境为转折「冷但干」，填 but。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-7",
+      "segments": ["Would you like milk ___1___ coffee?"],
+      "blanks": [
+        { "index": 1, "answer": "or" }
+      ],
+      "analysis": "在牛奶和咖啡之间二选一，填 or。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-8",
+      "segments": ["He was tired, ___1___ he went to bed early."],
+      "blanks": [
+        { "index": 1, "answer": "so" }
+      ],
+      "analysis": "「累了」导致「早睡」，前因后果，填 so。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-9",
+      "segments": ["I didn't go to school ___1___ I was ill."],
+      "blanks": [
+        { "index": 1, "answer": "because" }
+      ],
+      "analysis": "「没去上学」的原因是「生病了」，填 because。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-10",
+      "segments": ["___1___ Tom ___2___ Jerry is coming to the party."],
+      "blanks": [
+        { "index": 1, "answer": "Either" },
+        { "index": 2, "answer": "or" }
+      ],
+      "analysis": "Either...or 表示「要么…要么」，表示两人中来一个。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-8-1",
+      "stem": "Turn it on. 中的 it 放在 turn on 的什么位置？",
+      "options": [
+        { "label": "A", "text": "turn on it" },
+        { "label": "B", "text": "turn it on" },
+        { "label": "C", "text": "it turn on" },
+        { "label": "D", "text": "on turn it" }
+      ],
+      "answer": "B",
+      "analysis": "turn on/off 等短语动词，当宾语是代词时，必须放在动词和副词中间。正确：Turn it on. 错误：Turn on it."
+    },
+    {
+      "type": "choice", "id": "ex-8-2",
+      "stem": "She ___ a good idea to solve the problem.",
+      "options": [
+        { "label": "A", "text": "put up" },
+        { "label": "B", "text": "came up with" },
+        { "label": "C", "text": "turned on" },
+        { "label": "D", "text": "gave up" }
+      ],
+      "answer": "B",
+      "analysis": "根据句意「她想出了一个好办法来解决这个问题」，come up with 意为「想出」，符合语境。"
+    },
+    {
+      "type": "choice", "id": "ex-8-3",
+      "stem": "Don't ___ until tomorrow what you can do today.",
+      "options": [
+        { "label": "A", "text": "put on" },
+        { "label": "B", "text": "put off" },
+        { "label": "C", "text": "put away" },
+        { "label": "D", "text": "put up" }
+      ],
+      "answer": "B",
+      "analysis": "这是一句谚语「今日事今日毕」。put off 意为「推迟」，Don't put off until tomorrow 意为「不要推迟到明天」。"
+    },
+    {
+      "type": "true_false", "id": "ex-8-4",
+      "stem": "put on 指「穿上」（状态），wear 指「穿上」（动作）。",
+      "answer": false,
+      "analysis": "刚好说反了。put on 指「穿上」（动作），wear 指「穿着」（状态）。Put on your coat.（穿上外套，强调动作）vs. He is wearing a coat.（他穿着外套，强调状态）。"
+    },
+    {
+      "type": "fill", "id": "ex-8-5",
+      "segments": ["He has ___ smoking for two years."],
+      "blanks": [
+        { "index": 1, "answer": "given up" }
+      ],
+      "analysis": "根据句意「他已经戒烟两年了」，give up 意为「放弃」，用于戒烟等语境。for two years 表示持续一段时间，用现在完成时 has given up。"
+    },
+    {
+      "type": "short_answer", "id": "ex-8-6",
+      "question": "请写出 turn 系列的四个短语（turn on/turn off/turn up/turn down），并说明当宾语是代词时，这些短语的语序有什么特殊要求。各写一个例句。",
+      "referenceAnswer": "turn on（打开）：Turn on the light. turn off（关闭）：Turn off the TV. turn up（调大）：Turn up the music. turn down（调小）：Turn down the radio. 特殊要求：当宾语是代词时，必须放在动词和副词中间。正确：Turn it on. 错误：Turn on it.",
+      "scoringPoints": ["写出四个短语", "正确说明代词宾语的语序规则", "例句语法正确"]
+    }
+  ]
+}

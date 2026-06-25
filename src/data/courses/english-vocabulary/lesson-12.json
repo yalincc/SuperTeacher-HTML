@@ -1,0 +1,113 @@
+{
+  "meta": { "id": 12, "slug": "lesson-12-vocabulary-tech-culture", "title": "话题词汇：科技与文化", "unit": "话题词汇", "week": 5, "day": 2 },
+  "objectives": [
+    { "text": "掌握科技和文化话题核心词汇", "isKeyPoint": true },
+    { "text": "了解中西方文化差异表达", "isKeyPoint": true },
+    { "text": "能描述科技发展", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "科技名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "科技领域常用名词，是描述现代生活的基础词汇。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["computer", "/kəmˈpjuːtər/", "n.", "电脑", "I use a computer to do my homework."],
+            ["internet", "/ˈɪntənet/", "n.", "互联网", "The internet makes life easier."],
+            ["robot", "/ˈrəʊbɒt/", "n.", "机器人", "Robots can do dangerous work."],
+            ["artificial intelligence", "/ˌɑːrtɪˈfɪʃl ɪnˈtelɪdʒəns/", "n.", "人工智能", "AI is changing our lives."],
+            ["smartphone", "/ˈsmɑːrtfəʊn/", "n.", "智能手机", "Most people have a smartphone."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "用法提示", "content": "AI 是 artificial intelligence 的缩写，在口语和书面语中都常用。smartphone 也可写作 smart phone。" }
+      ]
+    },
+    {
+      "title": "文化名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "与文化和传统相关的名词，常出现在中考阅读和写作中。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["tradition", "/trəˈdɪʃn/", "n.", "传统", "It's a tradition to eat dumplings."],
+            ["festival", "/ˈfestɪvl/", "n.", "节日", "Spring Festival is the most important festival in China."],
+            ["custom", "/ˈkʌstəm/", "n.", "习俗；风俗", "Different countries have different customs."],
+            ["holiday", "/ˈhɒlədeɪ/", "n.", "假日；假期", "We have a holiday next Monday."],
+            ["ceremony", "/ˈserəməni/", "n.", "仪式；典礼", "The opening ceremony was wonderful."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "custom 作「习俗」讲是可数名词，复数 customs；作「海关」讲也是可数名词。tradition 也可用复数 traditions。" }
+      ]
+    },
+    {
+      "title": "科技文化短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "描述科技产品和文化现象的常用短语，是写作高频表达。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["be used for", "/biː juːzd fɔːr/", "phr.", "被用来", "Paper is used for writing."],
+            ["be made of", "/biː meɪd ɒv/", "phr.", "由……制成（可见材料）", "The table is made of wood."],
+            ["come from", "/kʌm frɒm/", "phr.", "来自", "This idea comes from China."],
+            ["develop quickly", "/dɪˈveləp ˈkwɪkli/", "phr.", "快速发展", "Technology is developing quickly."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "辨析", "content": "be made of（可见材料）vs. be made from（不可见材料）：a wooden table is made of wood（木头可见）；paper is made from wood（木头不可见）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：科技名词辨析",
+      "problem": [
+        { "type": "paragraph", "content": "___ is a kind of technology that can think like humans." },
+        { "type": "list", "ordered": true, "items": ["A. Computer", "B. Smartphone", "C. Artificial intelligence", "D. Internet"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "根据句意「一种能像人类一样思考的技术」，artificial intelligence（人工智能）符合描述。computer（电脑）、smartphone（智能手机）、internet（互联网）不能「像人类一样思考」。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：科技文化短语",
+      "problem": [
+        { "type": "paragraph", "content": "This kind of paper ___ wood." },
+        { "type": "list", "ordered": true, "items": ["A. is made of", "B. is made from", "C. comes from", "D. is used for"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "纸是由木头制成的，但制成纸后看不出木头的原材料，应该用 be made from（不可见材料）。be made of 用于可见材料（如木桌子能看出木头）。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "科技名词", "children": [
+      { "text": "computer（电脑）" },
+      { "text": "internet（互联网）" },
+      { "text": "robot（机器人）" },
+      { "text": "artificial intelligence / AI（人工智能）" },
+      { "text": "smartphone（智能手机）" }
+    ]},
+    { "text": "文化名词", "children": [
+      { "text": "tradition（传统）" },
+      { "text": "festival（节日）" },
+      { "text": "custom（习俗）" },
+      { "text": "holiday（假日）" },
+      { "text": "ceremony（仪式）" }
+    ]},
+    { "text": "科技文化短语", "children": [
+      { "text": "be used for（被用来）" },
+      { "text": "be made of（由……制成，可见）" },
+      { "text": "be made from（由……制成，不可见）" },
+      { "text": "come from（来自）" },
+      { "text": "develop quickly（快速发展）" }
+    ]}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "english-exam",
+  "course": {
+    "name": "语法填空专练",
+    "icon": "✏️",
+    "subtitle": "中考语法填空题型突破",
+    "color": "#dc2626"
+  },
+  "group": {
+    "id": "english",
+    "name": "初中英语",
+    "icon": "🔤",
+    "color": "#2563eb",
+    "order": 5
+  },
+  "semester": {
+    "name": "语法填空专练",
+    "order": 3
+  },
+  "schedule": {
+    "weeks": 4,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周"],
+    "weekTitles": ["有提示词", "无提示词", "综合训练", "综合训练"]
+  },
+  "lessons": [
+    { "id": 1, "title": "有提示词：动词时态", "unit": "有提示词", "week": 1, "day": 1 },
+    { "id": 2, "title": "有提示词：非谓语动词", "unit": "有提示词", "week": 1, "day": 2 },
+    { "id": 3, "title": "有提示词：词性转换", "unit": "有提示词", "week": 1, "day": 3 },
+    { "id": 4, "title": "无提示词：冠词与介词", "unit": "无提示词", "week": 2, "day": 1 },
+    { "id": 5, "title": "无提示词：代词与连词", "unit": "无提示词", "week": 2, "day": 2 },
+    { "id": 6, "title": "综合：一般现在时+一般过去时", "unit": "综合训练", "week": 3, "day": 1 },
+    { "id": 7, "title": "综合：现在完成时+比较级", "unit": "综合训练", "week": 3, "day": 2 },
+    { "id": 8, "title": "综合：从句+被动语态", "unit": "综合训练", "week": 4, "day": 1 },
+    { "id": 9, "title": "综合：六大时态混合填空", "unit": "综合训练", "week": 4, "day": 2 }
+  ],
+  "features": {
+    "katex": false,
+    "formulaNormalize": false
+  }
+}

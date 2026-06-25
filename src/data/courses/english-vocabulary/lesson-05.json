@@ -1,0 +1,117 @@
+{
+  "meta": { "id": 5, "slug": "lesson-05-adjectives-descriptive", "title": "形容词：描述类", "unit": "名词与形容词", "week": 2, "day": 3 },
+  "objectives": [
+    { "text": "掌握中考高频描述类形容词", "isKeyPoint": true },
+    { "text": "了解形容词作定语和表语的用法", "isKeyPoint": true },
+    { "text": "能在语境中正确使用形容词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "描述外观的形容词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**描述外观的形容词**用来形容人或物的大小、长短、胖瘦、年龄等外在特征。形容词放在名词前作定语，或放在 be 动词后作表语。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["big", "/bɪɡ/", "adj.", "大的", "This is a big house."],
+            ["small", "/smɔːl/", "adj.", "小的", "I have a small dog."],
+            ["long", "/lɒŋ/", "adj.", "长的", "She has long hair."],
+            ["short", "/ʃɔːt/", "adj.", "短的；矮的", "The boy is short."],
+            ["tall", "/tɔːl/", "adj.", "高的", "He is very tall."],
+            ["thin", "/θɪn/", "adj.", "瘦的", "She is thin and pretty."],
+            ["fat", "/fæt/", "adj.", "胖的", "The cat is too fat."],
+            ["young", "/jʌŋ/", "adj.", "年轻的", "My mother is still young."],
+            ["old", "/əʊld/", "adj.", "年老的；旧的", "This is an old book."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "用法区分", "content": "short 有两个意思：「矮的」（形容身高）和「短的」（形容长度）。The boy is short.（这个男孩很矮）vs. a short story（一个短篇故事）。" }
+      ]
+    },
+    {
+      "title": "描述情感的形容词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**描述情感的形容词**用来表达人的心理状态和情绪感受。常与 be 动词连用作表语。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["happy", "/ˈhæpi/", "adj.", "开心的", "I am very happy today."],
+            ["sad", "/sæd/", "adj.", "悲伤的", "She looks sad."],
+            ["angry", "/ˈæŋɡri/", "adj.", "生气的", "Don't be angry with me."],
+            ["worried", "/ˈwʌrid/", "adj.", "担心的", "She is worried about the exam."],
+            ["afraid", "/əˈfreɪd/", "adj.", "害怕的", "I am afraid of dogs."],
+            ["surprised", "/sərˈpraɪzd/", "adj.", "惊讶的", "He is surprised at the news."],
+            ["excited", "/ɪkˈsaɪtɪd/", "adj.", "兴奋的", "The children are excited."],
+            ["tired", "/ˈtaɪəd/", "adj.", "疲惫的", "I am too tired to walk."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "afraid 只能作表语，不能放在名词前。不能说 an afraid boy，应该说 a boy who is afraid。" }
+      ]
+    },
+    {
+      "title": "描述品质的形容词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**描述品质的形容词**用来评价人的性格、品德或事物的好坏。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["good", "/ɡʊd/", "adj.", "好的", "She is a good student."],
+            ["bad", "/bæd/", "adj.", "坏的", "The weather is bad today."],
+            ["kind", "/kaɪnd/", "adj.", "善良的", "My teacher is very kind."],
+            ["honest", "/ˈɒnɪst/", "adj.", "诚实的", "He is an honest boy."],
+            ["brave", "/breɪv/", "adj.", "勇敢的", "The soldier is very brave."],
+            ["lazy", "/ˈleɪzi/", "adj.", "懒惰的", "Don't be lazy."],
+            ["clever", "/ˈklevər/", "adj.", "聪明的", "She is clever enough to solve it."],
+            ["stupid", "/ˈstjuːpɪd/", "adj.", "愚蠢的", "That was a stupid idea."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆技巧", "content": "honest 开头的 h 不发音，所以前面用 an 而不是 a：an honest boy。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：形容词作定语",
+      "problem": [
+        { "type": "paragraph", "content": "选出正确的句子：（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. She is a happy girl.", "B. She is a girl happy.", "C. Happy she is a girl.", "D. A girl she is happy."] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "形容词作定语时放在名词前面，即「形容词 + 名词」。a happy girl 是正确的搭配。答案选 A。" }
+      ],
+      "answer": "A"
+    },
+    {
+      "title": "例2：形容词作表语",
+      "problem": [
+        { "type": "paragraph", "content": "The boy is very ___. He can carry the heavy box." },
+        { "type": "list", "ordered": true, "items": ["A. lazy", "B. brave", "C. sad", "D. angry"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "根据后半句「他能搬起重箱子」，说明这个男孩是勇敢的。brave 意为「勇敢的」，符合语境。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "描述外观的形容词", "children": [
+      { "text": "big/small（大/小）" },
+      { "text": "long/short（长/短）" },
+      { "text": "tall/short/thin/fat/young/old" }
+    ]},
+    { "text": "描述情感的形容词", "children": [
+      { "text": "happy/sad/angry" },
+      { "text": "worried/afraid/surprised" },
+      { "text": "excited/tired" }
+    ]},
+    { "text": "描述品质的形容词", "children": [
+      { "text": "good/bad/kind/honest" },
+      { "text": "brave/lazy/clever/stupid" }
+    ]}
+  ]
+}

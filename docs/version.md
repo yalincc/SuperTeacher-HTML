@@ -4,22 +4,27 @@
 
 ---
 
-## v2.4 (2026-06-24)
+## v2.4 (2026-06-26)
 
-> 物理画图引擎 + 英语语法专题上线
+> 英语三专题 + generate-english skill + 物理画图引擎
 
 ### ✨ 新增
-- **物理画图引擎** — 电路图 / 力学图 / 光学图三种物理画板
-  - `src/engines/physics/` — 引擎核心（builder + renderer + types）
-  - `src/components/physics/` — 画板组件（CircuitBoard / ForceBoard / OpticsBoard）
 - **英语语法专题 30 课** — `english-grammar/`，沪教版牛津英语七八年级语法全覆盖
+- **英语词汇专题 12 课** — `english-vocabulary/`，中考核心词汇按词性/话题分类
+- **英语语法填空专练 9 课** — `english-exam/`，中考语法填空题型突破
+- **generate-english skill** — 英语课程专用生成技能（语法/词汇/填空三种类型）
+- **英语课程规范** — `references/english-format.md`，英语专属内容块和练习题格式
+- **物理画图引擎** — 电路图 / 力学图 / 光学图三种物理画板
 
 ### 🎨 改造文件
 | 文件 | 改动 |
 |------|------|
+| `src/data/courses/english-grammar/` | 英语语法专题（60 文件） |
+| `src/data/courses/english-vocabulary/` | 英语词汇专题（24 文件） |
+| `src/data/courses/english-exam/` | 英语语法填空专练（18 文件） |
+| `.agents/skills/generate-english/` | 英语课程生成技能（SKILL.md + 模板 + 规范） |
 | `src/engines/physics/` | 物理画图引擎（12 文件） |
 | `src/components/physics/` | 物理画板组件（3 文件） |
-| `src/data/courses/english-grammar/` | 英语语法专题（60 文件） |
 
 ---
 

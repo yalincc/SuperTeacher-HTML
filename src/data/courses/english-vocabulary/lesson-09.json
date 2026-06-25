@@ -1,0 +1,157 @@
+{
+  "meta": { "id": 9, "slug": "lesson-09-confusing-words", "title": "易混淆词辨析", "unit": "短语与辨析", "week": 4, "day": 1 },
+  "objectives": [
+    { "text": "掌握中考常考易混淆词对", "isKeyPoint": true },
+    { "text": "能区分近义词的细微差别", "isKeyPoint": true },
+    { "text": "在考试中避免词汇误用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "动词辨析 spend/cost/take/pay",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "这四个词都表示「花费」，但主语和搭配各不相同。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["spend", "/spend/", "v.", "花费（人作主语）", "I spent 200 yuan on the book."],
+            ["cost", "/kɒst/", "v.", "花费（物作主语）", "The book cost me 200 yuan."],
+            ["take", "/teɪk/", "v.", "花费（it作主语）", "It took me two hours to finish."],
+            ["pay", "/peɪ/", "v.", "付款（人作主语）", "I paid 200 yuan for the book."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "辨析技巧", "content": "spend...on / spend...doing；cost...钱；take...to do（it 作形式主语）；pay...for。记住：spend 和 pay 主语是人，cost 主语是物，take 用 it 作主语。" }
+      ]
+    },
+    {
+      "title": "动词辨析 borrow/lend",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "borrow 表示「借入」，lend 表示「借出」，方向不同。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["borrow", "/ˈbɒrəʊ/", "v.", "借入（向别人借）", "Can I borrow your pen?"],
+            ["lend", "/lend/", "v.", "借出（把东西借给别人）", "Could you lend me your pen?"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "borrow from（从……借入），lend to（把……借出）。不能说 borrow you... 或 lend me your...（lend 后可接双宾语）。" }
+      ]
+    },
+    {
+      "title": "动词辨析 bring/take/fetch/carry",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "这四个词都与「拿、带」有关，但方向和方式不同。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["bring", "/brɪŋ/", "v.", "带来（向说话者方向）", "Bring your homework tomorrow."],
+            ["take", "/teɪk/", "v.", "带走（离说话者方向）", "Take this letter to the post office."],
+            ["fetch", "/fetʃ/", "v.", "去取来（往返）", "Please fetch me a glass of water."],
+            ["carry", "/ˈkæri/", "v.", "搬运（无方向）", "He carried the heavy box upstairs."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "辨析技巧", "content": "bring = 带来（向我）；take = 带走（离我）；fetch = 去取来（去了再回来）；carry = 搬运（无方向性）。" }
+      ]
+    },
+    {
+      "title": "副词辨析 hard/hardly, late/lately, already/yet/still",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "这些副词拼写相近或相同，但含义差别很大。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["hard", "/hɑːrd/", "adv.", "努力地；猛烈地", "He works very hard."],
+            ["hardly", "/ˈhɑːrdli/", "adv.", "几乎不", "I can hardly hear you."],
+            ["late", "/leɪt/", "adv.", "迟到；晚", "He arrived late."],
+            ["lately", "/ˈleɪtli/", "adv.", "最近", "I haven't seen him lately."],
+            ["already", "/ɔːlˈredi/", "adv.", "已经（肯定句）", "I have already finished."],
+            ["yet", "/jet/", "adv.", "还；尚未（否定/疑问）", "I haven't finished yet."],
+            ["still", "/stɪl/", "adv.", "仍然（肯定句）", "He is still working."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "hard ≠ hardly！hard 是「努力地」，hardly 是「几乎不」，含义完全相反。late 指「迟到」，lately 指「最近」。" }
+      ]
+    },
+    {
+      "title": "其他辨析 other/another/others/the other, few/a few/little/a little",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "这些词涉及「另一个、其他的」和「一些」的表达，是中考高频考点。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["other", "/ˈʌðər/", "adj./pron.", "其他的", "Do you have any other questions?"],
+            ["another", "/əˈnʌðər/", "adj./pron.", "另一个（三者以上）", "Would you like another cup?"],
+            ["others", "/ˈʌðərz/", "pron.", "其他一些（非全部）", "Some students like math, others like English."],
+            ["the other", "/ðə ˈʌðər/", "pron.", "另一个（两者中的另一个）", "I have two pens. One is red, the other is blue."],
+            ["few", "/fjuː/", "adj./pron.", "几乎没有（可数）", "Few people know this."],
+            ["a few", "/ə fjuː/", "adj./pron.", "一些（可数）", "A few students passed the exam."],
+            ["little", "/ˈlɪtl/", "adj./pron.", "几乎没有（不可数）", "There is little milk left."],
+            ["a little", "/ə ˈlɪtl/", "adj./pron.", "一些（不可数）", "I have a little money."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "辨析技巧", "content": "两者之间用 one...the other；三者以上用 another；some...others 表示「一些……另一些」。few/little 表否定（几乎没有），a few/a little 表肯定（有一些）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：spend/cost/take/pay 辨析",
+      "problem": [
+        { "type": "paragraph", "content": "It ___ me two hours to finish the homework." },
+        { "type": "list", "ordered": true, "items": ["A. spent", "B. cost", "C. took", "D. paid"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "句型 It takes sb. + 时间 + to do sth. 表示「花费某人多长时间做某事」。主语是 it（形式主语），应该用 take。spend 的主语是人，cost 的主语是物，pay 的主语也是人。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：few/a few/little/a little 辨析",
+      "problem": [
+        { "type": "paragraph", "content": "We have ___ time left. We must hurry up." },
+        { "type": "list", "ordered": true, "items": ["A. few", "B. a few", "C. little", "D. a little"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "time 是不可数名词，排除 A 和 B（few/a few 用于可数名词）。根据句意「我们必须抓紧」，说明时间不多了，应该用 little（几乎没有），表示否定。a little 表示「还有一些」，不符合语境。答案选 C。" }
+      ],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "动词花费辨析", "children": [
+      { "text": "spend：人作主语，spend...on / spend...doing" },
+      { "text": "cost：物作主语，cost...钱" },
+      { "text": "take：it 作主语，It takes...to do" },
+      { "text": "pay：人作主语，pay...for" }
+    ]},
+    { "text": "借入借出辨析", "children": [
+      { "text": "borrow：借入（from）" },
+      { "text": "lend：借出（to）" }
+    ]},
+    { "text": "来去方向辨析", "children": [
+      { "text": "bring：带来（向我）" },
+      { "text": "take：带走（离我）" },
+      { "text": "fetch：去取来（往返）" },
+      { "text": "carry：搬运（无方向）" }
+    ]},
+    { "text": "副词辨析", "children": [
+      { "text": "hard（努力地）≠ hardly（几乎不）" },
+      { "text": "late（迟到）≠ lately（最近）" },
+      { "text": "already（肯定句中已经）/ yet（否定疑问句中还）/ still（仍然）" }
+    ]},
+    { "text": "其他辨析", "children": [
+      { "text": "one...the other（两者）/ another（三者以上）" },
+      { "text": "few/a few（可数）/ little/a little（不可数）" },
+      { "text": "few/little = 否定 / a few/a little = 肯定" }
+    ]}
+  ]
+}

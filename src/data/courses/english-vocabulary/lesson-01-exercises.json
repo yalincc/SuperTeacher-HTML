@@ -1,0 +1,61 @@
+{
+  "lessonId": 1,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-1-1",
+      "stem": "选出下列动词中属于系动词的一项:",
+      "options": [
+        { "label": "A", "text": "go" },
+        { "label": "B", "text": "be" },
+        { "label": "C", "text": "make" },
+        { "label": "D", "text": "take" }
+      ],
+      "answer": "B",
+      "analysis": "be 是系动词,用来连接主语和表语.go, make, take 都是实义动词."
+    },
+    {
+      "type": "choice", "id": "ex-1-2",
+      "stem": "He ___ a student",
+      "options": [
+        { "label": "A", "text": "am" },
+        { "label": "B", "text": "are" },
+        { "label": "C", "text": "is" },
+        { "label": "D", "text": "be" }
+      ],
+      "answer": "C",
+      "analysis": "He 是第三人称单数,be 动词用 is.I 用 am,you/we/they 用 are."
+    },
+    {
+      "type": "choice", "id": "ex-1-3",
+      "stem": "My sister ___ a book every night",
+      "options": [
+        { "label": "A", "text": "read" },
+        { "label": "B", "text": "reads" },
+        { "label": "C", "text": "reading" },
+        { "label": "D", "text": "to read" }
+      ],
+      "answer": "B",
+      "analysis": "My sister 是第三人称单数,实义动词要加 -s,read → reads."
+    },
+    {
+      "type": "true_false", "id": "ex-1-4",
+      "stem": "be 动词 am 可以用于 he/she/it 作主语的句子中",
+      "answer": false,
+      "analysis": "am 只能用于第一人称单数 I.he/she/it 用 is,you/we/they 用 are."
+    },
+    {
+      "type": "fill", "id": "ex-1-5",
+      "segments": ["I ___ happy today because it is my birthday."],
+      "blanks": [
+        { "index": 1, "answer": "am" }
+      ],
+      "analysis": "I 是第一人称单数,be 动词用 am.I am happy. 表示「我今天很开心」."
+    },
+    {
+      "type": "short_answer", "id": "ex-1-6",
+      "question": "请写出 be 动词的三种形式（am/is/are）,并各写一个例句说明它们的用法",
+      "referenceAnswer": "am 用于第一人称单数:I am a student. is 用于第三人称单数:She is my friend. are 用于复数/第二人称:They are teachers. / You are right",
+      "scoringPoints": ["写出 am/is/are 三种形式", "am 用于 I,is 用于 he/she/it,are 用于 you/we/they", "例句正确"]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "meta": { "id": 1, "slug": "lesson-01-high-frequency-verbs-1", "title": "高频动词（上）", "unit": "高频动词", "week": 1, "day": 1 },
+  "objectives": [
+    { "text": "掌握中考高频动词的基本含义和用法", "isKeyPoint": true },
+    { "text": "了解动词在句子中的位置", "isKeyPoint": true },
+    { "text": "能正确运用高频动词造句", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "系动词与助动词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**系动词**用来连接主语和表语，说明主语的状态或特征。**助动词**帮助构成时态、语态、否定和疑问。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["be", "/biː/", "v.", "是；成为", "I am a student."],
+            ["am", "/æm/", "v.", "是（第一人称单数）", "I am happy today."],
+            ["is", "/ɪz/", "v.", "是（第三人称单数）", "She is my friend."],
+            ["are", "/ɑːr/", "v.", "是（复数/第二人称）", "They are teachers."],
+            ["do", "/duː/", "v.", "做；助动词", "Do you like English?"],
+            ["does", "/dʌz/", "v.", "做（第三人称单数）", "He does his homework."],
+            ["have", "/hæv/", "v.", "有；拥有", "I have a new book."],
+            ["has", "/hæz/", "v.", "有（第三人称单数）", "She has a cat."],
+            ["did", "/dɪd/", "v.", "做（过去式）", "Did you go to school?"],
+            ["will", "/wɪl/", "v.", "将要；愿意", "I will help you."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "记忆技巧", "content": "be 动词有三种形式 am/is/are，根据主语选择：I 用 am，he/she/it 用 is，you/we/they 用 are。" }
+      ]
+    },
+    {
+      "title": "常用实义动词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**实义动词**是有实际意义的动词，表示动作或状态。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["go", "/ɡəʊ/", "v.", "去；走", "Let's go to the park."],
+            ["come", "/kʌm/", "v.", "来；到来", "Please come here."],
+            ["make", "/meɪk/", "v.", "制作；使得", "Can you make a cake?"],
+            ["take", "/teɪk/", "v.", "拿；花费", "Take your time."],
+            ["get", "/ɡet/", "v.", "得到；变得", "I get up at seven."],
+            ["give", "/ɡɪv/", "v.", "给予", "Give me a pen, please."],
+            ["see", "/siː/", "v.", "看见", "I can see a bird."],
+            ["know", "/nəʊ/", "v.", "知道；了解", "I know the answer."],
+            ["think", "/θɪŋk/", "v.", "想；认为", "I think it's good."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "第三人称单数（he/she/it）作主语时，实义动词要加 -s 或 -es：go → goes，make → makes。" }
+      ]
+    },
+    {
+      "title": "动词搭配",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "英语中动词常与其他词搭配使用，形成固定短语。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["look", "/lʊk/", "v.", "看；寻找", "Look at the blackboard."],
+            ["listen", "/ˈlɪsn/", "v.", "听", "Listen to the music."],
+            ["wait", "/weɪt/", "v.", "等待", "Wait for me, please."],
+            ["ask", "/ɑːsk/", "v.", "问；请求", "Can I ask a question?"],
+            ["try", "/traɪ/", "v.", "尝试", "Try your best."],
+            ["help", "/help/", "v.", "帮助", "Can you help me?"],
+            ["talk", "/tɔːk/", "v.", "交谈", "Let's talk about it."],
+            ["call", "/kɔːl/", "v.", "打电话；叫", "Call me later."],
+            ["like", "/laɪk/", "v.", "喜欢", "I like reading books."],
+            ["want", "/wɒnt/", "v.", "想要", "I want a glass of water."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "常用搭配", "content": "look at（看），listen to（听），wait for（等待），ask for（请求），call on（拜访）" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：be 动词选择",
+      "problem": [
+        { "type": "paragraph", "content": "My parents ___ teachers." },
+        { "type": "list", "ordered": true, "items": ["A. is", "B. am", "C. are", "D. be"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "parents 是复数名词，相当于 they，应该用 are。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：实义动词用法",
+      "problem": [
+        { "type": "paragraph", "content": "He ___ a new bike yesterday." },
+        { "type": "list", "ordered": true, "items": ["A. get", "B. gets", "C. got", "D. getting"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "yesterday 表示过去时态，get 的过去式是 got。答案选 C。" }
+      ],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    { "text": "系动词与助动词", "children": [
+      { "text": "be 动词：am/is/are" },
+      { "text": "助动词：do/does/did" },
+      { "text": "have/has 表示拥有" }
+    ]},
+    { "text": "常用实义动词", "children": [
+      { "text": "go/come/make/take/get" },
+      { "text": "give/see/know/think" },
+      { "text": "第三人称单数加 -s/-es" }
+    ]},
+    { "text": "动词搭配", "children": [
+      { "text": "look at / listen to" },
+      { "text": "wait for / ask for" },
+      { "text": "call on / try one's best" }
+    ]}
+  ]
+}

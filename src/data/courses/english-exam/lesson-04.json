@@ -1,0 +1,110 @@
+{
+  "meta": { "id": 4, "slug": "lesson-04-articles-prepositions", "title": "无提示词：冠词与介词", "unit": "无提示词", "week": 2, "day": 1 },
+  "objectives": [
+    { "text": "掌握无提示词冠词填空的规律", "isKeyPoint": true },
+    { "text": "掌握常见介词搭配", "isKeyPoint": true },
+    { "text": "能根据语境判断填什么", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "填 a/an 的情况",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "泛指可数名词单数时，需要填不定冠词 a 或 an：" },
+        {
+          "type": "table",
+          "headers": ["情况", "用 a", "用 an"],
+          "rows": [
+            ["辅音音素开头的词", "a book, a university, a European", "—"],
+            ["元音音素开头的词", "—", "an apple, an hour, an honest boy"],
+            ["泛指某一类中的一个", "I want to be a teacher.", "She is an engineer."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "判断技巧", "content": "看单词的发音而不是字母！university 以辅音 /juː/ 开头用 a，hour 以元音 /aʊ/ 开头用 an。" }
+      ]
+    },
+    {
+      "title": "填 the 的情况",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "特指或上文提过的名词前需要填定冠词 the：" },
+        {
+          "type": "table",
+          "headers": ["情况", "例句"],
+          "rows": [
+            ["特指某一个", "the book on the desk（桌上的那本书）"],
+            ["上文提过", "I saw a cat. The cat was black."],
+            ["独一无二", "the sun, the moon, the earth"],
+            ["序数词前", "the first, the second, the third"],
+            ["最高级前", "the best, the most beautiful"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "三餐、球类运动、学科前不加 the：have breakfast, play football, study math。" }
+      ]
+    },
+    {
+      "title": "常见介词搭配",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "介词是无提示词填空的高频考点，需要熟记以下搭配：" },
+        {
+          "type": "table",
+          "headers": ["类别", "介词", "搭配示例"],
+          "rows": [
+            ["时间", "at", "at 8 o'clock, at night, at noon"],
+            ["时间", "on", "on Monday, on May 1st, on a cold day"],
+            ["时间", "in", "in the morning, in 2025, in summer"],
+            ["地点", "in", "in the room, in Beijing, in China"],
+            ["地点", "on", "on the wall, on the desk, on the farm"],
+            ["地点", "at", "at home, at school, at the station"],
+            ["地点", "under", "under the tree, under the bed"],
+            ["地点", "between", "between A and B"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "时间介词口诀", "content": "at 用于点时间，on 用于天和日，in 用于月和年以及早中晚。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：填冠词 a/an",
+      "problem": [
+        { "type": "paragraph", "content": "She is ___ engineer." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "engineer 以元音音素 /e/ 开头，泛指一个工程师，用 an。" }
+      ],
+      "answer": "an"
+    },
+    {
+      "title": "例2：填介词",
+      "problem": [
+        { "type": "paragraph", "content": "We have no class ___ Sunday." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "Sunday 是具体的某一天，用介词 on。" }
+      ],
+      "answer": "on"
+    }
+  ],
+  "summary": [
+    { "text": "不定冠词 a/an", "children": [
+      { "text": "泛指可数名词单数" },
+      { "text": "看发音选 a 或 an" }
+    ]},
+    { "text": "定冠词 the", "children": [
+      { "text": "特指、上文提过、独一无二" },
+      { "text": "序数词和最高级前" }
+    ]},
+    { "text": "时间介词", "children": [
+      { "text": "at + 点时间（at 8 o'clock）" },
+      { "text": "on + 天/日（on Monday）" },
+      { "text": "in + 月/年/早中晚（in summer）" }
+    ]},
+    { "text": "地点介词", "children": [
+      { "text": "in + 大地点/里面" },
+      { "text": "on + 表面" },
+      { "text": "at + 小地点/位置" }
+    ]}
+  ]
+}

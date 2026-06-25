@@ -1,0 +1,96 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    {
+      "type": "fill",
+      "id": "ex-4-1",
+      "segments": ["I have ___1___ apple for breakfast every day."],
+      "blanks": [
+        { "index": 1, "answer": "an" }
+      ],
+      "analysis": "apple 以元音音素开头，泛指一个苹果，用 an。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-2",
+      "segments": ["We usually get up ___1___ six o'clock."],
+      "blanks": [
+        { "index": 1, "answer": "at" }
+      ],
+      "analysis": "six o'clock 是具体钟点时间，用 at。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-3",
+      "segments": ["The sun rises ___1___ the east."],
+      "blanks": [
+        { "index": 1, "answer": "in" }
+      ],
+      "analysis": "表示方位「在东方」用介词 in。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-4",
+      "segments": ["There is a book ___1___ the desk."],
+      "blanks": [
+        { "index": 1, "answer": "on" }
+      ],
+      "analysis": "书在桌子上面，表示表面用 on。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-5",
+      "segments": ["___1___ earth goes around ___2___ sun."],
+      "blanks": [
+        { "index": 1, "answer": "The" },
+        { "index": 2, "answer": "the" }
+      ],
+      "analysis": "earth 和 sun 都是独一无二的事物，用定冠词 the。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-6",
+      "segments": ["I was born ___1___ July."],
+      "blanks": [
+        { "index": 1, "answer": "in" }
+      ],
+      "analysis": "月份前用介词 in。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-7",
+      "segments": ["She is ___1___ honest girl."],
+      "blanks": [
+        { "index": 1, "answer": "an" }
+      ],
+      "analysis": "honest 的 h 不发音，以元音音素 /ɒ/ 开头，用 an。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-8",
+      "segments": ["The cat is hiding ___1___ the bed."],
+      "blanks": [
+        { "index": 1, "answer": "under" }
+      ],
+      "analysis": "猫躲在床下面，表示「在…下面」用 under。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-9",
+      "segments": ["We have a meeting ___1___ Monday morning."],
+      "blanks": [
+        { "index": 1, "answer": "on" }
+      ],
+      "analysis": "具体某一天的上午用 on Monday morning。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-10",
+      "segments": ["He is ___1___ best student in our class."],
+      "blanks": [
+        { "index": 1, "answer": "the" }
+      ],
+      "analysis": "最高级 best 前面要用定冠词 the。"
+    }
+  ]
+}

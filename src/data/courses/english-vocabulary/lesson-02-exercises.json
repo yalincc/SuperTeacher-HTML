@@ -1,0 +1,61 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-2-1",
+      "stem": "选出下列动词中属于感官动词的一项:",
+      "options": [
+        { "label": "A", "text": "start" },
+        { "label": "B", "text": "hear" },
+        { "label": "C", "text": "keep" },
+        { "label": "D", "text": "show" }
+      ],
+      "answer": "B",
+      "analysis": "hear（听到）是感官动词,表示感觉.start, keep, show 是行为动词."
+    },
+    {
+      "type": "choice", "id": "ex-2-2",
+      "stem": "I ___ TV every evening",
+      "options": [
+        { "label": "A", "text": "look" },
+        { "label": "B", "text": "see" },
+        { "label": "C", "text": "watch" },
+        { "label": "D", "text": "listen" }
+      ],
+      "answer": "C",
+      "analysis": "watch TV 是固定搭配,表示「看电视」.look 强调动作,see 强调结果,listen 后要加 to."
+    },
+    {
+      "type": "choice", "id": "ex-2-3",
+      "stem": "Let me ___ you with your homework",
+      "options": [
+        { "label": "A", "text": "to help" },
+        { "label": "B", "text": "help" },
+        { "label": "C", "text": "helps" },
+        { "label": "D", "text": "helping" }
+      ],
+      "answer": "B",
+      "analysis": "let 后接动词原形,不加 to.Let me help you. 表示「让我帮助你」."
+    },
+    {
+      "type": "true_false", "id": "ex-2-4",
+      "stem": "say 和 speak 都可以表示「说某种语言」",
+      "answer": false,
+      "analysis": "speak 可以表示「说某种语言」（speak English）,say 侧重说的内容（say hello）."
+    },
+    {
+      "type": "fill", "id": "ex-2-5",
+      "segments": ["Can you ___ me the answer to this question?"],
+      "blanks": [
+        { "index": 1, "answer": "tell" }
+      ],
+      "analysis": "tell 表示「告诉」,tell sb. sth. 是固定搭配,表示「告诉某人某事」."
+    },
+    {
+      "type": "short_answer", "id": "ex-2-6",
+      "question": "请简述 see, look, watch 三个词的区别,并各写一个例句",
+      "referenceAnswer": "see 强调「看见」的结果,如 I saw a bird in the tree. look 强调「看」的动作,常与 at 搭配,如 Look at the picture. watch 强调「观看」持续的事物,如 I like watching movies",
+      "scoringPoints": ["see 强调结果,look 强调动作,watch 强调持续观看", "例句正确", "说明了 look 要与 at 搭配"]
+    }
+  ]
+}

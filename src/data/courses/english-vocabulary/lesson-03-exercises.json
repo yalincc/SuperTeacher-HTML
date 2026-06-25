@@ -1,0 +1,61 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-3-1",
+      "stem": "选出下列名词中不可数名词的一项:",
+      "options": [
+        { "label": "A", "text": "family" },
+        { "label": "B", "text": "shoes" },
+        { "label": "C", "text": "water" },
+        { "label": "D", "text": "brother" }
+      ],
+      "answer": "C",
+      "analysis": "water 是不可数名词,没有复数形式.family, shoes, brother 都是可数名词."
+    },
+    {
+      "type": "choice", "id": "ex-3-2",
+      "stem": "There are many ___ in the park",
+      "options": [
+        { "label": "A", "text": "child" },
+        { "label": "B", "text": "childs" },
+        { "label": "C", "text": "children" },
+        { "label": "D", "text": "childrens" }
+      ],
+      "answer": "C",
+      "analysis": "child 的复数形式是不规则变化 children,不是 childs 或 childrens."
+    },
+    {
+      "type": "choice", "id": "ex-3-3",
+      "stem": "I usually go to ___ at 7:30 in the morning",
+      "options": [
+        { "label": "A", "text": "a school" },
+        { "label": "B", "text": "school" },
+        { "label": "C", "text": "the school" },
+        { "label": "D", "text": "schools" }
+      ],
+      "answer": "B",
+      "analysis": "go to school 是固定搭配,表示「去上学」,不加冠词."
+    },
+    {
+      "type": "true_false", "id": "ex-3-4",
+      "stem": "rice 是可数名词,可以说 two rices",
+      "answer": false,
+      "analysis": "rice 是不可数名词,没有复数形式,不能加 s.可以说 some rice 或 a bowl of rice."
+    },
+    {
+      "type": "fill", "id": "ex-3-5",
+      "segments": ["There are twelve ___ in a year."],
+      "blanks": [
+        { "index": 1, "answer": "months" }
+      ],
+      "analysis": "month 的复数是 months.一年有十二个月."
+    },
+    {
+      "type": "short_answer", "id": "ex-3-6",
+      "question": "请写出 5 个日常生活类名词（家庭、食物、地点各至少一个）,并写出它们的中文意思",
+      "referenceAnswer": "示例:family（家庭）、brother（兄弟）、bread（面包）、water（水）、school（学校）、park（公园）.只要包含家庭、食物、地点三类名词即可",
+      "scoringPoints": ["写出 5 个名词", "包含家庭、食物、地点三类", "中文意思正确"]
+    }
+  ]
+}

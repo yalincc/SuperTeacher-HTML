@@ -1,0 +1,43 @@
+{
+  "id": "english-vocabulary",
+  "course": {
+    "name": "词汇专题",
+    "icon": "📖",
+    "subtitle": "沪教版牛津英语 中考核心词汇",
+    "color": "#059669"
+  },
+  "group": {
+    "id": "english",
+    "name": "初中英语",
+    "icon": "🔤",
+    "color": "#2563eb",
+    "order": 5
+  },
+  "semester": {
+    "name": "词汇专题",
+    "order": 2
+  },
+  "schedule": {
+    "weeks": 6,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周", "第五周", "第六周"],
+    "weekTitles": ["高频动词", "名词与形容词", "短语与辨析", "话题词汇", "话题词汇", "综合复习"]
+  },
+  "lessons": [
+    { "id": 1, "title": "高频动词（上）", "unit": "高频动词", "week": 1, "day": 1 },
+    { "id": 2, "title": "高频动词（下）", "unit": "高频动词", "week": 1, "day": 2 },
+    { "id": 3, "title": "名词：生活类", "unit": "名词与形容词", "week": 2, "day": 1 },
+    { "id": 4, "title": "名词：学科与职业", "unit": "名词与形容词", "week": 2, "day": 2 },
+    { "id": 5, "title": "形容词：描述类", "unit": "名词与形容词", "week": 2, "day": 3 },
+    { "id": 6, "title": "副词与介词短语", "unit": "名词与形容词", "week": 3, "day": 1 },
+    { "id": 7, "title": "常考动词短语（上）", "unit": "短语与辨析", "week": 3, "day": 2 },
+    { "id": 8, "title": "常考动词短语（下）", "unit": "短语与辨析", "week": 3, "day": 3 },
+    { "id": 9, "title": "易混淆词辨析", "unit": "短语与辨析", "week": 4, "day": 1 },
+    { "id": 10, "title": "话题词汇：学校与生活", "unit": "话题词汇", "week": 4, "day": 2 },
+    { "id": 11, "title": "话题词汇：健康与社会", "unit": "话题词汇", "week": 5, "day": 1 },
+    { "id": 12, "title": "话题词汇：科技与文化", "unit": "话题词汇", "week": 5, "day": 2 }
+  ],
+  "features": {
+    "katex": false,
+    "formulaNormalize": false
+  }
+}

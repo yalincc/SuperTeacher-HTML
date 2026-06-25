@@ -1,0 +1,96 @@
+{
+  "lessonId": 9,
+  "exercises": [
+    {
+      "type": "fill",
+      "id": "ex-9-1",
+      "segments": ["She", "___1___", "to school by bus every day."],
+      "blanks": [
+        { "index": 1, "answer": "goes" }
+      ],
+      "analysis": "every day 表示习惯性动作，用一般现在时。主语 She 是三单，go 加 -es 变为 goes。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-2",
+      "segments": ["We", "___1___", "a picnic last Sunday."],
+      "blanks": [
+        { "index": 1, "answer": "had" }
+      ],
+      "analysis": "last Sunday 是过去时间，用一般过去时。have 的过去式是 had。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-3",
+      "segments": ["Listen! Someone", "___1___", "outside."],
+      "blanks": [
+        { "index": 1, "answer": "is singing" }
+      ],
+      "analysis": "Listen! 提示正在发生的动作，用现在进行时。someone 用 is singing。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-4",
+      "segments": ["I", "___1___", "this movie before. It was great."],
+      "blanks": [
+        { "index": 1, "answer": "have seen" }
+      ],
+      "analysis": "before 表示「曾经」，用现在完成时。I 用 have seen。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-5",
+      "segments": ["There", "___1___", "a meeting tomorrow afternoon."],
+      "blanks": [
+        { "index": 1, "answer": "will be" }
+      ],
+      "analysis": "tomorrow afternoon 是将来时间，用一般将来时。there will be 表示「将会有」。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-6",
+      "segments": ["At 7:00 last night, my father", "___1___", "a newspaper."],
+      "blanks": [
+        { "index": 1, "answer": "was reading" }
+      ],
+      "analysis": "at 7:00 last night 表示过去某个时间正在进行的动作，用过去进行时 was reading。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-7",
+      "segments": ["She", "___1___", "English for five years."],
+      "blanks": [
+        { "index": 1, "answer": "has learned" }
+      ],
+      "analysis": "for five years 表示从过去持续到现在的时间段，用现在完成时 has learned。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-8",
+      "segments": ["My brother", "___1___", "his bike to school yesterday."],
+      "blanks": [
+        { "index": 1, "answer": "rode" }
+      ],
+      "analysis": "yesterday 是过去时间，用一般过去时。ride 的过去式是 rode。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-9",
+      "segments": ["The students", "___1___", "a test now. Please be quiet."],
+      "blanks": [
+        { "index": 1, "answer": "are having" }
+      ],
+      "analysis": "now 表示现在正在进行，用现在进行时 are having。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-9-10",
+      "segments": ["He", "___1___", "already", "___2___", "his lunch."],
+      "blanks": [
+        { "index": 1, "answer": "has" },
+        { "index": 2, "answer": "finished" }
+      ],
+      "analysis": "already 是现在完成时的标志词，用 has finished。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-clauses-passive", "title": "综合：从句+被动语态", "unit": "综合训练", "week": 4, "day": 1 },
+  "objectives": [
+    { "text": "能在综合语境中运用从句和被动语态", "isKeyPoint": true },
+    { "text": "掌握从句引导词的选择", "isKeyPoint": true },
+    { "text": "正确运用被动语态", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "条件从句",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "条件从句由 if 引导，表示假设条件。主句和从句的时态需遵循「主将从现」原则：" },
+        {
+          "type": "table",
+          "headers": ["结构", "从句时态", "主句时态", "例句"],
+          "rows": [
+            ["真实条件句", "一般现在时", "一般将来时", "If it rains, I will stay at home."],
+            ["虚拟条件句（与现在事实相反）", "一般过去时", "would/could + 动词原形", "If I were you, I would study harder."],
+            ["虚拟条件句（与过去事实相反）", "过去完成时", "would/could have + 过去分词", "If I had studied, I would have passed."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "判断技巧", "content": "看到 if 就想到「主将从现」：从句用一般现在时，主句用一般将来时（will/can/may + 动词原形）。" }
+      ]
+    },
+    {
+      "title": "时间从句",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "时间从句由 when/while/before/after 等引导，表示动作发生的时间：" },
+        {
+          "type": "table",
+          "headers": ["引导词", "含义", "从句时态", "例句"],
+          "rows": [
+            ["when", "当…时", "一般现在时/过去时", "When I was young, I liked swimming."],
+            ["while", "当…期间（强调持续）", "一般过去时/过去进行时", "While I was reading, she was cooking."],
+            ["before", "在…之前", "一般现在时/过去时", "Wash your hands before you eat."],
+            ["after", "在…之后", "一般现在时/过去时", "I will call you after I arrive."],
+            ["as soon as", "一…就…", "一般现在时表将来", "I will tell him as soon as he comes."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "时间从句中不用一般将来时！即使表示将来的动作，从句也用一般现在时替代。" }
+      ]
+    },
+    {
+      "title": "被动语态",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "当强调动作的承受者而非执行者时，使用被动语态。基本结构为 be + 过去分词：" },
+        {
+          "type": "table",
+          "headers": ["时态", "被动结构", "例句"],
+          "rows": [
+            ["一般现在时", "am/is/are + 过去分词", "English is spoken worldwide."],
+            ["一般过去时", "was/were + 过去分词", "The window was broken yesterday."],
+            ["一般将来时", "will be + 过去分词", "The work will be finished soon."],
+            ["现在完成时", "have/has been + 过去分词", "The book has been read by many people."],
+            ["含情态动词", "can/must/should + be + 过去分词", "The work must be done on time."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "被动语态口诀", "content": "宾语提前做主语，be 加过去分词记。时态看 be 的变化，by 后跟执行者。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：条件从句",
+      "problem": [
+        { "type": "paragraph", "content": "If it ___1___ (rain) tomorrow, we ___2___ (not go) hiking." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "条件从句遵循「主将从现」：从句用一般现在时 rains，主句用 will not go（will not 缩写为 won't）。" }
+      ],
+      "answer": "rains; won't go"
+    },
+    {
+      "title": "例2：被动语态",
+      "problem": [
+        { "type": "paragraph", "content": "The window ___1___ (break) by the naughty boy." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "window 是动作承受者，用被动语态。根据语境用一般过去时的被动：was broken。" }
+      ],
+      "answer": "was broken"
+    }
+  ],
+  "summary": [
+    { "text": "条件从句", "children": [
+      { "text": "if 引导，「主将从现」" },
+      { "text": "从句用一般现在时，主句用一般将来时" }
+    ]},
+    { "text": "时间从句", "children": [
+      { "text": "when/while/before/after/as soon as" },
+      { "text": "从句中不用一般将来时" }
+    ]},
+    { "text": "被动语态", "children": [
+      { "text": "be + 过去分词" },
+      { "text": "各时态的被动：is spoken, was broken, will be done" }
+    ]}
+  ]
+}

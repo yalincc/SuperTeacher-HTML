@@ -1,0 +1,123 @@
+{
+  "meta": { "id": 4, "slug": "lesson-04-nouns-subjects-jobs", "title": "名词：学科与职业", "unit": "名词与形容词", "week": 2, "day": 2 },
+  "objectives": [
+    { "text": "掌握学科和职业类名词", "isKeyPoint": true },
+    { "text": "了解职业相关的动词搭配", "isKeyPoint": true },
+    { "text": "能描述人物职业", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "学科名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "学科名词是学生日常接触最多的名词类别之一。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["math", "/mæθ/", "n.", "数学", "I am good at math."],
+            ["science", "/ˈsaɪəns/", "n.", "科学", "We have science class today."],
+            ["history", "/ˈhɪstri/", "n.", "历史", "History is very interesting."],
+            ["geography", "/dʒiˈɒɡrəfi/", "n.", "地理", "I like learning geography."],
+            ["music", "/ˈmjuːzɪk/", "n.", "音乐", "She plays music every day."],
+            ["art", "/ɑːt/", "n.", "美术", "We draw pictures in art class."],
+            ["PE", "/ˌpiː ˈiː/", "n.", "体育", "PE class is on Friday."],
+            ["English", "/ˈɪŋɡlɪʃ/", "n.", "英语", "English is important."],
+            ["Chinese", "/ˌtʃaɪˈniːz/", "n.", "语文", "Chinese is my favorite subject."],
+            ["physics", "/ˈfɪzɪks/", "n.", "物理", "Physics is difficult but fun."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "学科搭配", "content": "学科学科名词前一般不加冠词：have math class（上数学课），be good at English（擅长英语）。" }
+      ]
+    },
+    {
+      "title": "职业名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "职业名词表示人们从事的工作。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["teacher", "/ˈtiːtʃər/", "n.", "老师", "My mother is a teacher."],
+            ["doctor", "/ˈdɒktər/", "n.", "医生", "He wants to be a doctor."],
+            ["engineer", "/ˌendʒɪˈnɪr/", "n.", "工程师", "My father is an engineer."],
+            ["artist", "/ˈɑːtɪst/", "n.", "艺术家", "She is a famous artist."],
+            ["scientist", "/ˈsaɪəntɪst/", "n.", "科学家", "The scientist made a discovery."],
+            ["driver", "/ˈdraɪvər/", "n.", "司机", "The bus driver is very kind."],
+            ["cook", "/kʊk/", "n.", "厨师", "He works as a cook."],
+            ["nurse", "/nɜːs/", "n.", "护士", "The nurse takes care of patients."],
+            ["farmer", "/ˈfɑːmər/", "n.", "农民", "My grandfather is a farmer."],
+            ["police", "/pəˈliːs/", "n.", "警察", "The police keep us safe."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "冠词用法", "content": "职业名词前通常用 a/an：a teacher, an engineer。表示「职业」时用 a/an，不加 the。" }
+      ]
+    },
+    {
+      "title": "职业搭配",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "不同职业有各自的工作内容和动词搭配。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["doctor", "/ˈdɒktər/", "n.", "医生→治病救人", "Doctors help the sick."],
+            ["teacher", "/ˈtiːtʃər/", "n.", "老师→教书育人", "Teachers teach students."],
+            ["driver", "/ˈdraɪvər/", "n.", "司机→驾驶车辆", "Drivers drive cars."],
+            ["cook", "/kʊk/", "n.", "厨师→烹饪美食", "Cooks make delicious food."],
+            ["farmer", "/ˈfɑːmər/", "n.", "农民→种植作物", "Farmers grow rice."],
+            ["nurse", "/nɜːs/", "n.", "护士→照顾病人", "Nurses look after patients."],
+            ["artist", "/ˈɑːtɪst/", "n.", "艺术家→创作作品", "Artists create paintings."],
+            ["scientist", "/ˈsaɪəntɪst/", "n.", "科学家→做研究", "Scientists do experiments."],
+            ["pilot", "/ˈpaɪlət/", "n.", "飞行员→驾驶飞机", "Pilots fly planes."],
+            ["singer", "/ˈsɪŋər/", "n.", "歌手→唱歌", "Singers sing songs."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "医生治病救病人，老师教书育学生。司机开车上路行，厨师做饭香喷喷。农民种田收庄稼，护士护理暖人心。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：学科名词用法",
+      "problem": [
+        { "type": "paragraph", "content": "My favorite subject is ___." },
+        { "type": "list", "ordered": true, "items": ["A. a math", "B. math", "C. the math", "D. maths"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "学科名词前一般不加冠词，直接说 math 或 English。math 和 maths 都可以，但 B 选项格式更常见。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：职业描述",
+      "problem": [
+        { "type": "paragraph", "content": "My uncle works in a hospital. He is ___." },
+        { "type": "list", "ordered": true, "items": ["A. a doctor", "B. doctor", "C. the doctor", "D. doctors"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "表示职业时，名词前用 a/an。He is a doctor 表示「他是一名医生」。答案选 A。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "学科名词", "children": [
+      { "text": "math, science, history, geography" },
+      { "text": "music, art, PE, English, Chinese" },
+      { "text": "学科名词前不加冠词" }
+    ]},
+    { "text": "职业名词", "children": [
+      { "text": "teacher, doctor, engineer, artist" },
+      { "text": "scientist, driver, cook, nurse, farmer" },
+      { "text": "职业前用 a/an" }
+    ]},
+    { "text": "职业搭配", "children": [
+      { "text": "doctor → help the sick" },
+      { "text": "teacher → teach students" },
+      { "text": "driver → drive cars" }
+    ]}
+  ]
+}

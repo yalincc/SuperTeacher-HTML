@@ -1,0 +1,61 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-4-1",
+      "stem": "选出下列名词中属于学科名词的一项:",
+      "options": [
+        { "label": "A", "text": "driver" },
+        { "label": "B", "text": "geography" },
+        { "label": "C", "text": "nurse" },
+        { "label": "D", "text": "cook" }
+      ],
+      "answer": "B",
+      "analysis": "geography（地理）是学科名词.driver, nurse, cook 都是职业名词."
+    },
+    {
+      "type": "choice", "id": "ex-4-2",
+      "stem": "My father is ___. He works in a hospital",
+      "options": [
+        { "label": "A", "text": "a doctor" },
+        { "label": "B", "text": "doctor" },
+        { "label": "C", "text": "the doctor" },
+        { "label": "D", "text": "doctors" }
+      ],
+      "answer": "A",
+      "analysis": "表示职业时,名词前用 a/an.He is a doctor 表示「他是一名医生」."
+    },
+    {
+      "type": "choice", "id": "ex-4-3",
+      "stem": "I am good at ___",
+      "options": [
+        { "label": "A", "text": "a math" },
+        { "label": "B", "text": "the math" },
+        { "label": "C", "text": "math" },
+        { "label": "D", "text": "maths a" }
+      ],
+      "answer": "C",
+      "analysis": "学科名词前一般不加冠词,直接说 math 或 English.be good at math 表示「擅长数学」."
+    },
+    {
+      "type": "true_false", "id": "ex-4-4",
+      "stem": "Teachers teach students. 这句话中 teacher 和 student 都是职业名词",
+      "answer": true,
+      "analysis": "teacher（老师）和 student（学生）都是表示人的名词,teacher 是职业名词."
+    },
+    {
+      "type": "fill", "id": "ex-4-5",
+      "segments": ["Farmers grow ___ on the farm."],
+      "blanks": [
+        { "index": 1, "answer": "rice" }
+      ],
+      "analysis": "farmer 是农民,农民在农场种植 rice（水稻）."
+    },
+    {
+      "type": "short_answer", "id": "ex-4-6",
+      "question": "请写出 3 个职业名词,并写出每个职业的主要工作内容（用英语或中文均可）",
+      "referenceAnswer": "示例:doctor（治病救人）、teacher（教书育人）、driver（驾驶车辆）.答案不唯一,只要写出职业名称和对应的工作内容即可",
+      "scoringPoints": ["写出 3 个职业名词", "工作内容描述正确", "拼写正确"]
+    }
+  ]
+}

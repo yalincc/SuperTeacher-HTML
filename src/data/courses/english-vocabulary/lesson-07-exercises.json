@@ -1,0 +1,61 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-7-1",
+      "stem": "look forward to 中的 to 后面应该接什么形式？",
+      "options": [
+        { "label": "A", "text": "动词原形" },
+        { "label": "B", "text": "名词或动名词" },
+        { "label": "C", "text": "过去式" },
+        { "label": "D", "text": "任何词都可以" }
+      ],
+      "answer": "B",
+      "analysis": "look forward to 中的 to 是介词，不是不定式符号，后面接名词或动名词。正确：I look forward to hearing from you."
+    },
+    {
+      "type": "choice", "id": "ex-7-2",
+      "stem": "The plane will ___ at 3 o'clock this afternoon.",
+      "options": [
+        { "label": "A", "text": "take off" },
+        { "label": "B", "text": "take place" },
+        { "label": "C", "text": "take part in" },
+        { "label": "D", "text": "take care of" }
+      ],
+      "answer": "A",
+      "analysis": "句意是「飞机将在下午3点起飞」。take off 意为「起飞」，符合语境。"
+    },
+    {
+      "type": "choice", "id": "ex-7-3",
+      "stem": "— Could you ___ my cat while I am away? — Sure, no problem.",
+      "options": [
+        { "label": "A", "text": "look at" },
+        { "label": "B", "text": "look for" },
+        { "label": "C", "text": "look after" },
+        { "label": "D", "text": "look up" }
+      ],
+      "answer": "C",
+      "analysis": "根据句意「我不在的时候你能照顾我的猫吗」，look after 意为「照顾」，符合语境。"
+    },
+    {
+      "type": "true_false", "id": "ex-7-4",
+      "stem": "get on 和 get off 是一对反义词，分别表示「上车」和「下车」。",
+      "answer": true,
+      "analysis": "get on 表示「上车」，get off 表示「下车」，它们是一对反义词。类似地，get in 和 get out 也是反义词。"
+    },
+    {
+      "type": "fill", "id": "ex-7-5",
+      "segments": ["I want to ___ the English competition next week."],
+      "blanks": [
+        { "index": 1, "answer": "take part in" }
+      ],
+      "analysis": "根据句意「我想参加下周的英语比赛」，take part in 意为「参加」，符合语境。"
+    },
+    {
+      "type": "short_answer", "id": "ex-7-6",
+      "question": "请写出 look 系列的五个短语（look at/look for/look after/look up/look forward to），并各写一个例句说明它们的用法。",
+      "referenceAnswer": "look at（看）：Look at the blackboard. look for（寻找）：I am looking for my pen. look after（照顾）：She looks after her little brother. look up（查阅）：Look up the word in the dictionary. look forward to（期待）：I look forward to seeing you.",
+      "scoringPoints": ["写出五个短语", "每个短语意思正确", "例句语法正确且符合短语含义"]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "meta": { "id": 7, "slug": "lesson-07-present-perfect-comparative", "title": "综合：现在完成时+比较级", "unit": "综合训练", "week": 3, "day": 2 },
+  "objectives": [
+    { "text": "能在综合语境中运用现在完成时和比较级", "isKeyPoint": true },
+    { "text": "掌握两种语法点的填空判断", "isKeyPoint": true },
+    { "text": "提高综合运用能力", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "现在完成时标志词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "现在完成时表示过去发生、对现在有影响的动作，或从过去持续到现在的状态：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "含义", "例句"],
+          "rows": [
+            ["already", "已经", "I have already finished my homework."],
+            ["yet", "还/尚未", "Have you finished yet?"],
+            ["ever", "曾经", "Have you ever been to Beijing?"],
+            ["never", "从不", "I have never seen a panda."],
+            ["since", "自从", "I have lived here since 2010."],
+            ["for", "持续（时间段）", "She has studied English for 5 years."],
+            ["so far", "到目前为止", "So far, we have learned 200 words."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "结构公式", "content": "现在完成时 = have/has + 过去分词。第三人称单数用 has，其他人称用 have。" }
+      ]
+    },
+    {
+      "title": "比较级标志词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "比较级用于两者之间的比较，常见标志词和结构如下：" },
+        {
+          "type": "table",
+          "headers": ["标志词/结构", "用法", "例句"],
+          "rows": [
+            ["than", "比", "Tom is taller than Jerry."],
+            ["much/even/a lot", "修饰比较级（…得多）", "This one is much better."],
+            ["a little/a bit", "修饰比较级（稍微）", "She is a little older than me."],
+            ["the + 比较级, the + 比较级", "越…越…", "The more you read, the smarter you get."],
+            ["比较级 + and + 比较级", "越来越…", "It is getting colder and colder."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "比较级前不加 the！the 只用于最高级。比较级变化：短词加 -er，长词前加 more。" }
+      ]
+    },
+    {
+      "title": "最高级标志词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "最高级用于三者或以上的比较，表示「最…」：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "用法", "例句"],
+          "rows": [
+            ["the + 最高级", "最高级前必须加 the", "She is the tallest in our class."],
+            ["in + 范围", "在…范围内", "He is the best in the school."],
+            ["of + 群体", "在…当中", "She is the oldest of the three."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "比较级vs最高级", "content": "两者比较用比较级（加 -er/more + than），三者以上用最高级（加 the + -est/most）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：现在完成时",
+      "problem": [
+        { "type": "paragraph", "content": "I ___1___ (already / finish) my homework." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "already 是现在完成时标志词，结构为 have/has + 过去分词。主语 I 用 have，finish 的过去分词是 finished。" }
+      ],
+      "answer": "have already finished"
+    },
+    {
+      "title": "例2：比较级",
+      "problem": [
+        { "type": "paragraph", "content": "This book is ___1___ (interesting) than that one." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "than 是比较级标志词，interesting 是多音节词，比较级用 more interesting。" }
+      ],
+      "answer": "more interesting"
+    }
+  ],
+  "summary": [
+    { "text": "现在完成时", "children": [
+      { "text": "have/has + 过去分词" },
+      { "text": "标志词：already, yet, ever, never, since, for" }
+    ]},
+    { "text": "比较级", "children": [
+      { "text": "两者比较：-er/more + than" },
+      { "text": "修饰词：much, even, a little" }
+    ]},
+    { "text": "最高级", "children": [
+      { "text": "the + -est/most" },
+      { "text": "范围：in + 范围 / of + 群体" }
+    ]}
+  ]
+}

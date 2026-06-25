@@ -1,0 +1,66 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-11-1",
+      "stem": "I have a ___ and my head hurts.",
+      "options": [
+        { "label": "A", "text": "stomachache" },
+        { "label": "B", "text": "headache" },
+        { "label": "C", "text": "fever" },
+        { "label": "D", "text": "cough" }
+      ],
+      "answer": "B",
+      "analysis": "head hurts（头疼）对应 headache（头痛）。stomachache（胃痛）、fever（发烧）、cough（咳嗽）与 head 无关。"
+    },
+    {
+      "type": "choice", "id": "ex-11-2",
+      "stem": "We should do something to reduce air ___.",
+      "options": [
+        { "label": "A", "text": "traffic" },
+        { "label": "B", "text": "safety" },
+        { "label": "C", "text": "pollution" },
+        { "label": "D", "text": "environment" }
+      ],
+      "answer": "C",
+      "analysis": "air pollution 意为「空气污染」，reduce air pollution 意为「减少空气污染」。traffic（交通）、safety（安全）、environment（环境）不搭配 air。"
+    },
+    {
+      "type": "choice", "id": "ex-11-3",
+      "stem": "If you are sick, you should ___.",
+      "options": [
+        { "label": "A", "text": "take medicine" },
+        { "label": "B", "text": "eat medicine" },
+        { "label": "C", "text": "have medicine" },
+        { "label": "D", "text": "drink medicine" }
+      ],
+      "answer": "A",
+      "analysis": "take medicine 是固定搭配，意为「吃药」。不能说 eat/have/drink medicine。"
+    },
+    {
+      "type": "true_false", "id": "ex-11-4",
+      "stem": "traffic 是可数名词，可以说 two traffics。",
+      "answer": false,
+      "analysis": "traffic 是不可数名词，不能加 -s 变复数。正确用法是 some traffic 或 heavy traffic。"
+    },
+    {
+      "type": "fill", "id": "ex-11-5",
+      "segments": ["You don't look well. You'd better ___1___ ___2___."],
+      "blanks": [
+        { "index": 1, "answer": "see", "alternatives": [] },
+        { "index": 2, "answer": "a doctor", "alternatives": [] }
+      ],
+      "analysis": "see a doctor 是固定搭配，意为「看医生」。You'd better 后接动词原形。"
+    },
+    {
+      "type": "short_answer", "id": "ex-11-6",
+      "question": "请用以下词汇写一段关于健康的建议：have a rest, drink more water, take medicine, see a doctor。写一段话（至少3句话）。",
+      "referenceAnswer": "If you are not feeling well, you should have a rest. Drink more water when you are sick. If your temperature is high, you need to take medicine. If you don't feel better, you should see a doctor.",
+      "scoringPoints": [
+        "正确使用至少4个给定词汇",
+        "语句通顺，语法正确",
+        "内容合理，给出健康建议"
+      ]
+    }
+  ]
+}

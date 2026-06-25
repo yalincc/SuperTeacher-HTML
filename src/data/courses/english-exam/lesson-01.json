@@ -1,0 +1,100 @@
+{
+  "meta": { "id": 1, "slug": "lesson-01-verb-tense", "title": "有提示词：动词时态", "unit": "有提示词", "week": 1, "day": 1 },
+  "objectives": [
+    { "text": "掌握有提示词时态填空的解题思路", "isKeyPoint": true },
+    { "text": "能根据时间状语判断时态", "isKeyPoint": true },
+    { "text": "正确写出动词的正确形式", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "时态判断步骤",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "语法填空中遇到有提示词（动词），需要判断正确的时态。解题分三步走：" },
+        { "type": "callout", "variant": "tip", "title": "三步判断法", "content": "第一步：找时间状语 → 第二步：看主语人称 → 第三步：确定时态并写出动词形式" },
+        {
+          "type": "table",
+          "headers": ["步骤", "操作", "示例"],
+          "rows": [
+            ["1. 找时间状语", "看句中有没有明确的时间标志", "yesterday / every day / now"],
+            ["2. 看主语", "判断主语人称和单复数", "he（三单）/ they（非三单）"],
+            ["3. 定时态", "结合以上两步确定时态", "he + yesterday → 过去时"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "时态标志词速查表",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "时间状语是判断时态的关键线索，记住以下常见标志词：" },
+        {
+          "type": "table",
+          "headers": ["时态", "常见标志词", "动词变化"],
+          "rows": [
+            ["一般现在时", "every day, often, usually, always, sometimes", "三单加 -s/-es"],
+            ["一般过去时", "yesterday, last week, ago, in 2020, just now", "动词加 -ed 或不规则变化"],
+            ["现在进行时", "now, look, listen, at the moment", "be + doing"],
+            ["现在完成时", "already, yet, ever, never, since, for, so far", "have/has + done"],
+            ["一般将来时", "tomorrow, next week, in the future", "will + do / be going to + do"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "动词变化规则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "确定时态后，需要把动词变为正确形式。常见变化规则如下：" },
+        {
+          "type": "table",
+          "headers": ["变化类型", "规则", "示例"],
+          "rows": [
+            ["三单加 -s", "一般情况加 -s；以 s/x/ch/sh 结尾加 -es；辅音+y 结尾变 y 为 i 加 -es", "play→plays, watch→watches, study→studies"],
+            ["过去式加 -ed", "一般加 -ed；以 e 结尾加 -d；辅音+y 结尾变 y 为 i 加 -ed", "work→worked, like→liked, study→studied"],
+            ["进行时加 -ing", "一般加 -ing；以 e 结尾去 e 加 -ing；重读闭音节双写末字母加 -ing", "play→playing, make→making, run→running"],
+            ["不规则变化", "需要单独记忆", "go→went, eat→ate, write→wrote, swim→swam"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "注意不规则动词的过去式和过去分词，如 go-went-gone, eat-ate-eaten, write-wrote-written，需要熟记。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：根据时间状语判断时态",
+      "problem": [
+        { "type": "paragraph", "content": "She ___ (visit) her grandmother last Sunday." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "时间状语 last Sunday 是过去时间，所以用一般过去时。visit 加 -ed 变为 visited。" }
+      ],
+      "answer": "visited"
+    },
+    {
+      "title": "例2：三单变化",
+      "problem": [
+        { "type": "paragraph", "content": "He often ___ (read) books in the evening." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "often 表示经常，用一般现在时。主语 He 是三单，read 加 -s 变为 reads。" }
+      ],
+      "answer": "reads"
+    }
+  ],
+  "summary": [
+    { "text": "解题三步法", "children": [
+      { "text": "找时间状语 → 看主语人称 → 确定时态" }
+    ]},
+    { "text": "常见时态", "children": [
+      { "text": "一般现在时：三单加 -s/-es" },
+      { "text": "一般过去时：动词加 -ed 或不规则变化" },
+      { "text": "现在进行时：be + doing" },
+      { "text": "现在完成时：have/has + done" }
+    ]},
+    { "text": "注意事项", "children": [
+      { "text": "注意不规则动词变化需单独记忆" },
+      { "text": "主语人称决定是否需要三单变化" }
+    ]}
+  ]
+}

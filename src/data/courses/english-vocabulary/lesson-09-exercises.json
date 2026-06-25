@@ -1,0 +1,66 @@
+{
+  "lessonId": 9,
+  "exercises": [
+    {
+      "type": "choice", "id": "ex-9-1",
+      "stem": "It ___ me two hours to finish the homework.",
+      "options": [
+        { "label": "A", "text": "spent" },
+        { "label": "B", "text": "cost" },
+        { "label": "C", "text": "took" },
+        { "label": "D", "text": "paid" }
+      ],
+      "answer": "C",
+      "analysis": "句型 It takes sb. + 时间 + to do sth. 表示「花费某人多长时间做某事」。主语是 it，应该用 take。"
+    },
+    {
+      "type": "choice", "id": "ex-9-2",
+      "stem": "He works very ___. He never gives up.",
+      "options": [
+        { "label": "A", "text": "hard" },
+        { "label": "B", "text": "hardly" },
+        { "label": "C", "text": "late" },
+        { "label": "D", "text": "lately" }
+      ],
+      "answer": "A",
+      "analysis": "hard 作副词表示「努力地」，符合句意「他工作非常努力，从不放弃」。hardly 意为「几乎不」，与句意矛盾。"
+    },
+    {
+      "type": "choice", "id": "ex-9-3",
+      "stem": "Can I ___ your dictionary? I'll return it tomorrow.",
+      "options": [
+        { "label": "A", "text": "borrow" },
+        { "label": "B", "text": "lend" },
+        { "label": "C", "text": "bring" },
+        { "label": "D", "text": "take" }
+      ],
+      "answer": "A",
+      "analysis": "borrow 表示「借入」，向别人借东西用 borrow from。lend 表示「借出」，方向不同。根据句意「我能借你的字典吗」，用 borrow。"
+    },
+    {
+      "type": "true_false", "id": "ex-9-4",
+      "stem": "few 和 little 都表示否定含义，意为「几乎没有」。",
+      "answer": true,
+      "analysis": "few 修饰可数名词，little 修饰不可数名词，两者都表示「几乎没有」，含否定意义。a few 和 a little 则表示「有一些」，含肯定意义。"
+    },
+    {
+      "type": "fill", "id": "ex-9-5",
+      "segments": ["I have two brothers. One is a teacher, and ___1___ is a doctor.", "She ___2___ 100 yuan on the new dress."],
+      "blanks": [
+        { "index": 1, "answer": "the other", "alternatives": [] },
+        { "index": 2, "answer": "spent", "alternatives": [] }
+      ],
+      "analysis": "两个兄弟中「另一个」用 the other（两者中的另一个）。spend...on 表示「在某物上花费钱」，主语是人用 spend。"
+    },
+    {
+      "type": "short_answer", "id": "ex-9-6",
+      "question": "请写出 bring、take、fetch、carry 的区别，并各写一个例句。",
+      "referenceAnswer": "bring：带来（向说话者方向）Bring your homework tomorrow. take：带走（离说话者方向）Take this letter to the post office. fetch：去取来（往返）Please fetch me a glass of water. carry：搬运（无方向性）He carried the heavy box upstairs.",
+      "scoringPoints": [
+        "正确区分四个词的方向性",
+        "bring = 带来，take = 带走，fetch = 去取来，carry = 搬运",
+        "例句语法正确"
+      ]
+    }
+  ]
+}

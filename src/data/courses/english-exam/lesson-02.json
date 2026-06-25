@@ -1,0 +1,101 @@
+{
+  "meta": { "id": 2, "slug": "lesson-02-non-finite-verbs", "title": "有提示词：非谓语动词", "unit": "有提示词", "week": 1, "day": 2 },
+  "objectives": [
+    { "text": "掌握不定式和动名词的填空判断", "isKeyPoint": true },
+    { "text": "了解常接 to do 和 doing 的动词", "isKeyPoint": true },
+    { "text": "能在语境中选择正确形式", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "接 to do 的动词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "有些动词后面只能接不定式（to + 动词原形），表示「想要/打算/决定做某事」：" },
+        {
+          "type": "table",
+          "headers": ["动词", "含义", "例句"],
+          "rows": [
+            ["want", "想要", "I want to go home."],
+            ["hope", "希望", "She hopes to become a doctor."],
+            ["decide", "决定", "They decided to study abroad."],
+            ["plan", "计划", "We plan to visit the museum."],
+            ["learn", "学习", "He learned to drive a car."],
+            ["afford", "负担得起", "I can't afford to buy a new phone."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "想要希望和决定，计划学习要 afford，后面都跟 to do。" }
+      ]
+    },
+    {
+      "title": "接 doing 的动词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "有些动词后面只能接动名词（doing），表示「喜欢/享受/完成做某事」：" },
+        {
+          "type": "table",
+          "headers": ["动词", "含义", "例句"],
+          "rows": [
+            ["enjoy", "享受", "I enjoy reading books."],
+            ["finish", "完成", "She finished writing the report."],
+            ["mind", "介意", "Do you mind opening the window?"],
+            ["keep", "保持", "Keep trying and you will succeed."],
+            ["practice", "练习", "He practices playing the piano."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "介词后用 doing", "content": "所有介词后面如果接动词，一律用 doing 形式。例如：interested in learning, good at swimming, look forward to seeing。" }
+      ]
+    },
+    {
+      "title": "to do 与 doing 的区别",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "有些动词既可接 to do 也可接 doing，但含义不同：" },
+        {
+          "type": "table",
+          "headers": ["动词", "接 to do", "接 doing"],
+          "rows": [
+            ["stop", "停下来去做另一件事", "停止正在做的事"],
+            ["remember", "记得去做（未做）", "记得做过（已做）"],
+            ["forget", "忘记去做（未做）", "忘记做过（已做）"],
+            ["try", "努力去做", "尝试做做看"]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "stop to do 是「停下来去做」，stop doing 是「停止做」，两者意思完全不同！" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：接 to do 的动词",
+      "problem": [
+        { "type": "paragraph", "content": "She decided ___ (move) to Beijing." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "decide 后面接不定式，所以填 to move。" }
+      ],
+      "answer": "to move"
+    },
+    {
+      "title": "例2：介词后用 doing",
+      "problem": [
+        { "type": "paragraph", "content": "I am interested in ___ (learn) English." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "in 是介词，介词后面接动词要用 doing 形式，所以填 learning。" }
+      ],
+      "answer": "learning"
+    }
+  ],
+  "summary": [
+    { "text": "接 to do 的动词", "children": [
+      { "text": "want, hope, decide, plan, learn, afford" }
+    ]},
+    { "text": "接 doing 的动词", "children": [
+      { "text": "enjoy, finish, mind, keep, practice" }
+    ]},
+    { "text": "重要规则", "children": [
+      { "text": "介词后一律用 doing" },
+      { "text": "stop/remember/forget 后 to do 和 doing 含义不同" }
+    ]}
+  ]
+}

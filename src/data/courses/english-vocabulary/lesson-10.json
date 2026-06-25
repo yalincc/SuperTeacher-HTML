@@ -1,0 +1,116 @@
+{
+  "meta": { "id": 10, "slug": "lesson-10-vocabulary-school-life", "title": "话题词汇：学校与生活", "unit": "话题词汇", "week": 4, "day": 2 },
+  "objectives": [
+    { "text": "掌握学校生活相关核心词汇", "isKeyPoint": true },
+    { "text": "能用英语描述学校场景", "isKeyPoint": true },
+    { "text": "积累写作常用表达", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "学校设施名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "学校里常见的设施和场所，是描述校园生活的基础词汇。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["classroom", "/ˈklɑːsruːm/", "n.", "教室", "We have English in the classroom."],
+            ["library", "/ˈlaɪbrəri/", "n.", "图书馆", "I often read books in the library."],
+            ["lab", "/læb/", "n.", "实验室", "We do experiments in the lab."],
+            ["playground", "/ˈpleɪɡraʊnd/", "n.", "操场", "Students play on the playground."],
+            ["gym", "/dʒɪm/", "n.", "体育馆", "We have PE class in the gym."],
+            ["canteen", "/kænˈtiːn/", "n.", "食堂", "Lunch is served in the canteen."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "用法提示", "content": "注意 canteen 是英式英语，美式英语常用 cafeteria。gym 是 gymnasium 的缩写形式。" }
+      ]
+    },
+    {
+      "title": "学习活动名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "与学习活动相关的名词，常出现在描述学校生活的作文中。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["lesson", "/ˈlesn/", "n.", "课；功课", "We have six lessons every day."],
+            ["homework", "/ˈhəʊmwɜːk/", "n.", "家庭作业", "I have a lot of homework tonight."],
+            ["exam", "/ɪɡˈzæm/", "n.", "考试", "We will have an exam next week."],
+            ["grade", "/ɡreɪd/", "n.", "成绩；年级", "She got good grades in the exam."],
+            ["project", "/ˈprɒdʒekt/", "n.", "项目；课题", "We are doing a science project."],
+            ["presentation", "/ˌpreznˈteɪʃn/", "n.", "展示；报告", "He gave a presentation in class."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "homework 是不可数名词，不能说 homeworks。exam 也可写成 examination（缩写）。" }
+      ]
+    },
+    {
+      "title": "校园生活短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "这些短语在描述学校生活时使用频率极高，是写作必备表达。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["do homework", "/duː ˈhəʊmwɜːk/", "phr.", "做作业", "I usually do homework after dinner."],
+            ["prepare for", "/prɪˈpeə fɔːr/", "phr.", "为……做准备", "We are preparing for the exam."],
+            ["take part in", "/teɪk pɑːrt ɪn/", "phr.", "参加", "She took part in the sports meeting."],
+            ["get along with", "/ɡet əˈlɒŋ wɪð/", "phr.", "与……相处融洽", "He gets along well with his classmates."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "辨析", "content": "take part in 强调参加活动并发挥作用，join 强调加入某个组织或团体，join in 强调参加某项活动。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：学校设施词汇",
+      "problem": [
+        { "type": "paragraph", "content": "Where do you usually read books after class?" },
+        { "type": "list", "ordered": true, "items": ["A. In the classroom", "B. In the library", "C. On the playground", "D. In the gym"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "read books（读书）通常在图书馆（library）进行。classroom（教室）、playground（操场）、gym（体育馆）不是读书的主要场所。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：校园生活短语",
+      "problem": [
+        { "type": "paragraph", "content": "She ___ the English speech contest and won the first prize." },
+        { "type": "list", "ordered": true, "items": ["A. took part in", "B. took care of", "C. took the place of", "D. took up"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "根据句意「她参加了英语演讲比赛并获得一等奖」，take part in 意为「参加」，符合语境。take care of（照顾）、take the place of（代替）、take up（开始从事）都不符合。答案选 A。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "学校设施", "children": [
+      { "text": "classroom（教室）" },
+      { "text": "library（图书馆）" },
+      { "text": "lab（实验室）" },
+      { "text": "playground（操场）" },
+      { "text": "gym（体育馆）" },
+      { "text": "canteen（食堂）" }
+    ]},
+    { "text": "学习活动", "children": [
+      { "text": "lesson（课）" },
+      { "text": "homework（作业，不可数）" },
+      { "text": "exam（考试）" },
+      { "text": "grade（成绩）" },
+      { "text": "project（项目）" },
+      { "text": "presentation（展示）" }
+    ]},
+    { "text": "校园生活短语", "children": [
+      { "text": "do homework（做作业）" },
+      { "text": "prepare for（为……准备）" },
+      { "text": "take part in（参加）" },
+      { "text": "get along with（与……相处）" }
+    ]}
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    {
+      "type": "fill",
+      "id": "ex-3-1",
+      "segments": ["The", "___1___", "of this machine is very simple."],
+      "blanks": [
+        { "index": 1, "answer": "structure" }
+      ],
+      "analysis": "The 后面需要名词，structure 本身就是名词，表示「结构」。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-2",
+      "segments": ["We were all", "___1___", "at the news."],
+      "blanks": [
+        { "index": 1, "answer": "surprised" }
+      ],
+      "analysis": "were 后面需要形容词，surprise 的形容词形式是 surprised（感到惊讶的）。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-3",
+      "segments": ["He drives very", "___1___", "."],
+      "blanks": [
+        { "index": 1, "answer": "carefully" }
+      ],
+      "analysis": "修饰动词 drives 需要副词，careful 加 -ly 变为 carefully。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-4",
+      "segments": ["The", "___1___", "between the two cities is about 100 kilometers."],
+      "blanks": [
+        { "index": 1, "answer": "distance" }
+      ],
+      "analysis": "The 后面需要名词，distance 表示「距离」。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-5",
+      "segments": ["This book is very", "___1___", "."],
+      "blanks": [
+        { "index": 1, "answer": "useful" }
+      ],
+      "analysis": "is 后面需要形容词，use 加 -ful 变为 useful（有用的）。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-6",
+      "segments": ["She spoke so", "___1___", "that nobody could understand."],
+      "blanks": [
+        { "index": 1, "answer": "quickly" }
+      ],
+      "analysis": "修饰动词 spoke 需要副词，quick 加 -ly 变为 quickly。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-7",
+      "segments": ["His", "___1___", " made everyone happy."],
+      "blanks": [
+        { "index": 1, "answer": "kindness" }
+      ],
+      "analysis": "His 后面需要名词，kind 加 -ness 变为 kindness（善良）。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-8",
+      "segments": ["The movie was very", "___1___", "."],
+      "blanks": [
+        { "index": 1, "answer": "exciting" }
+      ],
+      "analysis": "was 后面需要形容词，excite 的形容词形式是 exciting（令人兴奋的）。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-9",
+      "segments": ["He has great", "___1___", "in learning languages."],
+      "blanks": [
+        { "index": 1, "answer": "confidence" }
+      ],
+      "analysis": "great 后面需要名词，confident 的名词形式是 confidence（自信）。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-10",
+      "segments": ["The children played", "___1___", "in the park."],
+      "blanks": [
+        { "index": 1, "answer": "happily" }
+      ],
+      "analysis": "修饰动词 played 需要副词，happy 变 y 为 i 加 -ly 变为 happily。"
+    }
+  ]
+}

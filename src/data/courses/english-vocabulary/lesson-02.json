@@ -1,0 +1,116 @@
+{
+  "meta": { "id": 2, "slug": "lesson-02-high-frequency-verbs-2", "title": "高频动词（下）", "unit": "高频动词", "week": 1, "day": 2 },
+  "objectives": [
+    { "text": "掌握更多高频动词", "isKeyPoint": true },
+    { "text": "了解动词的及物和不及物用法", "isKeyPoint": true },
+    { "text": "能区分近义动词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "感官与心理动词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "感官动词表示感觉，心理动词表示想法或愿望。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["see", "/siː/", "v.", "看见", "I saw a rainbow yesterday."],
+            ["hear", "/hɪr/", "v.", "听到", "I heard someone singing."],
+            ["feel", "/fiːl/", "v.", "感觉", "I feel very happy today."],
+            ["like", "/laɪk/", "v.", "喜欢", "I like playing basketball."],
+            ["love", "/lʌv/", "v.", "热爱", "I love my family."],
+            ["want", "/wɒnt/", "v.", "想要", "I want to go home."],
+            ["need", "/niːd/", "v.", "需要", "Do you need any help?"],
+            ["hope", "/həʊp/", "v.", "希望", "I hope you are happy."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "用法提示", "content": "感官动词后接宾语从句时，从句用陈述语序：I heard (that) she was singing." }
+      ]
+    },
+    {
+      "title": "行为动词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**行为动词**表示具体的动作或行为。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["try", "/traɪ/", "v.", "尝试", "Try to speak English."],
+            ["start", "/stɑːt/", "v.", "开始", "The class starts at 8."],
+            ["learn", "/lɜːn/", "v.", "学习", "We learn English every day."],
+            ["find", "/faɪnd/", "v.", "找到", "I can't find my pen."],
+            ["keep", "/kiːp/", "v.", "保持；保留", "Keep quiet, please."],
+            ["let", "/let/", "v.", "让", "Let me help you."],
+            ["help", "/help/", "v.", "帮助", "Can you help me?"],
+            ["show", "/ʃəʊ/", "v.", "展示", "Show me your book."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "let 后接动词原形：Let me go.（不说 Let me to go.）" }
+      ]
+    },
+    {
+      "title": "近义动词辨析",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "英语中有些动词含义相近，但用法不同，需要仔细辨析。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["see", "/siː/", "v.", "看见（无意中）", "I saw him in the park."],
+            ["watch", "/wɒtʃ/", "v.", "观看（持续）", "I like watching TV."],
+            ["look", "/lʊk/", "v.", "看（强调动作）", "Look at the picture."],
+            ["say", "/seɪ/", "v.", "说（内容）", "What did you say?"],
+            ["speak", "/spiːk/", "v.", "说（语言）", "Can you speak English?"],
+            ["tell", "/tel/", "v.", "告诉", "Tell me a story."],
+            ["talk", "/tɔːk/", "v.", "交谈", "Let's talk about it."],
+            ["listen", "/ˈlɪsn/", "v.", "听（强调动作）", "Listen to the teacher."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "辨析口诀", "content": "see 强调结果，look 强调动作，watch 看持续，listen 听动作。say 说内容，speak 说语言，tell 告诉人，talk 聊天。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：感官动词辨析",
+      "problem": [
+        { "type": "paragraph", "content": "I ___ someone knocking at the door just now." },
+        { "type": "list", "ordered": true, "items": ["A. heard", "B. listened", "C. sounded", "D. looked"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "just now 表示过去时，hear 表示「听到」，强调结果。listen 是不及物动词，要加 to。答案选 A。" }
+      ],
+      "answer": "A"
+    },
+    {
+      "title": "例2：近义词选择",
+      "problem": [
+        { "type": "paragraph", "content": "Please ___ the blackboard and look at the new words." },
+        { "type": "list", "ordered": true, "items": ["A. see", "B. watch", "C. look", "D. look at"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "look at 是固定搭配，表示「看某物」。see 强调结果，watch 强调观看持续的事物，look 单独使用不接宾语。答案选 D。" }
+      ],
+      "answer": "D"
+    }
+  ],
+  "summary": [
+    { "text": "感官与心理动词", "children": [
+      { "text": "see/hear/feel 表示感官" },
+      { "text": "like/love/want/need/hope 表示心理" },
+      { "text": "感官动词后接从句用陈述语序" }
+    ]},
+    { "text": "行为动词", "children": [
+      { "text": "try/start/learn/find" },
+      { "text": "keep/let/help/show" },
+      { "text": "let 后接动词原形" }
+    ]},
+    { "text": "近义动词辨析", "children": [
+      { "text": "see（结果）/ look（动作）/ watch（持续）" },
+      { "text": "say（内容）/ speak（语言）/ tell（告诉）/ talk（交谈）" }
+    ]}
+  ]
+}

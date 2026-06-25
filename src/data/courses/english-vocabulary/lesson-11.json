@@ -1,0 +1,114 @@
+{
+  "meta": { "id": 11, "slug": "lesson-11-vocabulary-health-society", "title": "话题词汇：健康与社会", "unit": "话题词汇", "week": 5, "day": 1 },
+  "objectives": [
+    { "text": "掌握健康和社会话题核心词汇", "isKeyPoint": true },
+    { "text": "了解常见疾病和健康建议表达", "isKeyPoint": true },
+    { "text": "能描述社会现象", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "健康名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "常见疾病和身体不适的表达，是健康话题的基础词汇。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["headache", "/ˈhedeɪk/", "n.", "头痛", "I have a terrible headache."],
+            ["stomachache", "/ˈstʌməkeɪk/", "n.", "胃痛；肚子痛", "She has a stomachache after lunch."],
+            ["fever", "/ˈfiːvər/", "n.", "发烧", "He has a high fever."],
+            ["cold", "/kəʊld/", "n.", "感冒", "I caught a cold yesterday."],
+            ["cough", "/kɒf/", "n./v.", "咳嗽", "The baby has a bad cough."],
+            ["temperature", "/ˈtemprətʃər/", "n.", "体温；温度", "My temperature is 38 degrees."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "用法提示", "content": "表示「患感冒」用 catch a cold 或 have a cold，不能说 catch cold（缺少冠词 a）。have a fever 中不能说 have fever。" }
+      ]
+    },
+    {
+      "title": "社会名词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "与社会现象和环境保护相关的名词，常出现在中考阅读和写作中。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["environment", "/ɪnˈvaɪrənmənt/", "n.", "环境", "We should protect the environment."],
+            ["pollution", "/pəˈluːʃn/", "n.", "污染", "Air pollution is a big problem."],
+            ["traffic", "/ˈtræfɪk/", "n.", "交通", "There is heavy traffic in the morning."],
+            ["safety", "/ˈseɪfti/", "n.", "安全", "Safety comes first."],
+            ["volunteer", "/ˌvɒlənˈtɪər/", "n./v.", "志愿者；自愿", "She works as a volunteer."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "traffic 是不可数名词，不能说 traffics。safety 的形容词形式是 safe。" }
+      ]
+    },
+    {
+      "title": "健康建议短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "给出健康建议的常用表达，在口语和写作中经常使用。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["have a rest", "/hæv ə rest/", "phr.", "休息一下", "You should have a rest."],
+            ["drink more water", "/drɪŋk mɔːr ˈwɔːtər/", "phr.", "多喝水", "Drink more water when you are sick."],
+            ["take medicine", "/teɪk ˈmedsn/", "phr.", "吃药", "You need to take medicine three times a day."],
+            ["see a doctor", "/siː ə ˈdɒktər/", "phr.", "看医生", "You should see a doctor if you feel worse."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "辨析", "content": "take medicine 是固定搭配，不能说 eat medicine。have a rest 也可以说 have a break，意思相近。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：健康名词辨析",
+      "problem": [
+        { "type": "paragraph", "content": "Tom doesn't feel well. He has a ___ and his temperature is 39°C." },
+        { "type": "list", "ordered": true, "items": ["A. headache", "B. stomachache", "C. fever", "D. cough"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "根据句意「Tom 感觉不舒服，他发烧了，体温39度」，temperature 39°C 表明发烧，fever 意为「发烧」。headache（头痛）、stomachache（胃痛）、cough（咳嗽）与体温无关。答案选 C。" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "例2：健康建议短语",
+      "problem": [
+        { "type": "paragraph", "content": "You look tired. You'd better ___." },
+        { "type": "list", "ordered": true, "items": ["A. have a rest", "B. take a rest", "C. make a rest", "D. do a rest"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "have a rest 是固定搭配，意为「休息一下」。不能说 take/make/do a rest。You'd better 后接动词原形。答案选 A。" }
+      ],
+      "answer": "A"
+    }
+  ],
+  "summary": [
+    { "text": "健康名词", "children": [
+      { "text": "headache（头痛）" },
+      { "text": "stomachache（胃痛）" },
+      { "text": "fever（发烧）" },
+      { "text": "cold（感冒）" },
+      { "text": "cough（咳嗽）" },
+      { "text": "temperature（体温）" }
+    ]},
+    { "text": "社会名词", "children": [
+      { "text": "environment（环境）" },
+      { "text": "pollution（污染）" },
+      { "text": "traffic（交通，不可数）" },
+      { "text": "safety（安全）" },
+      { "text": "volunteer（志愿者）" }
+    ]},
+    { "text": "健康建议短语", "children": [
+      { "text": "have a rest（休息一下）" },
+      { "text": "drink more water（多喝水）" },
+      { "text": "take medicine（吃药）" },
+      { "text": "see a doctor（看医生）" }
+    ]}
+  ]
+}

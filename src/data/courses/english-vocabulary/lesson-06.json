@@ -1,0 +1,109 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-adverbs-prepositions", "title": "副词与介词短语", "unit": "名词与形容词", "week": 3, "day": 1 },
+  "objectives": [
+    { "text": "掌握高频副词的用法", "isKeyPoint": true },
+    { "text": "掌握常考介词短语", "isKeyPoint": true },
+    { "text": "能区分形容词和副词", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "频率副词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**频率副词**表示动作发生的频繁程度，通常放在 be 动词之后、实义动词之前。从高到低排列：always > usually > often > sometimes > seldom > never。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["always", "/ˈɔːlweɪz/", "adv.", "总是", "He always gets up early."],
+            ["usually", "/ˈjuːʒuəli/", "adv.", "通常", "I usually go to school by bus."],
+            ["often", "/ˈɒfn/", "adv.", "经常", "She often reads books."],
+            ["sometimes", "/ˈsʌmtaɪmz/", "adv.", "有时", "Sometimes I watch TV."],
+            ["seldom", "/ˈseldəm/", "adv.", "很少", "He seldom eats breakfast."],
+            ["never", "/ˈnevər/", "adv.", "从不", "I never drink coffee."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "位置规则", "content": "频率副词在句子中的位置：be 动词之后（He is always late.）、助动词/情态动词之后（I can never forget it.）、实义动词之前（She often goes shopping.）。" }
+      ]
+    },
+    {
+      "title": "方式副词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**方式副词**用来描述动作进行的方式，通常放在动词之后或句末。大多数方式副词由形容词加 -ly 构成。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["quickly", "/ˈkwɪkli/", "adv.", "快速地", "He runs quickly."],
+            ["slowly", "/ˈsləʊli/", "adv.", "缓慢地", "She walks slowly."],
+            ["carefully", "/ˈkeəfəli/", "adv.", "仔细地", "Listen carefully."],
+            ["easily", "/ˈiːzɪli/", "adv.", "容易地", "I can finish it easily."],
+            ["hard", "/hɑːd/", "adv.", "努力地", "He works hard."],
+            ["well", "/wel/", "adv.", "好地", "She sings well."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "hard 和 well 是不规则副词：hard 的副词形式还是 hard（不是 hardly），well 的形容词形式是 good（不是 well）。hardly 意为「几乎不」，和 hard 意思完全不同！" }
+      ]
+    },
+    {
+      "title": "常考介词短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**介词短语**由介词和后面的名词/代词构成，在句中充当状语、定语或表语。中考中常考的介词短语如下：" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["in front of", "/ɪn frʌnt ɒv/", "prep.", "在……前面", "There is a tree in front of the house."],
+            ["at the end of", "/ət ði end ɒv/", "prep.", "在……末尾", "There is a park at the end of the road."],
+            ["because of", "/bɪˈkɒz ɒv/", "prep.", "因为", "He was late because of the rain."],
+            ["in order to", "/ɪn ˈɔːdər tuː/", "prep.", "为了", "I got up early in order to catch the bus."],
+            ["at least", "/ət liːst/", "adv.", "至少", "You should read at least one book a month."],
+            ["at once", "/ət wʌns/", "adv.", "立刻", "Please come here at once."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "辨析", "content": "because of + 名词/动名词（Because of the rain, I stayed home.）；because + 句子（Because it rained, I stayed home.）两者意思相同，但后接成分不同。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：频率副词位置",
+      "problem": [
+        { "type": "paragraph", "content": "选出正确的句子：（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. He always is late.", "B. He is always late.", "C. Always he is late.", "D. He is late always."] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "频率副词 always 放在 be 动词之后。He is always late. 是正确的语序。答案选 B。" }
+      ],
+      "answer": "B"
+    },
+    {
+      "title": "例2：because of 与 because 的区别",
+      "problem": [
+        { "type": "paragraph", "content": "选出正确的句子：（  ）" },
+        { "type": "list", "ordered": true, "items": ["A. He stayed home because of it rained.", "B. He stayed home because of the rain.", "C. He stayed home because the rain.", "D. He stayed home because of raining."] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "because of 后接名词或动名词，不接句子。the rain 是名词短语，符合 because of 的用法。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "频率副词", "children": [
+      { "text": "always > usually > often > sometimes > seldom > never" },
+      { "text": "位置：be 之后，实义动词之前" }
+    ]},
+    { "text": "方式副词", "children": [
+      { "text": "形容词 + ly 构成" },
+      { "text": "不规则：hard（努力地），well（好地）" }
+    ]},
+    { "text": "常考介词短语", "children": [
+      { "text": "in front of / at the end of" },
+      { "text": "because of + 名词" },
+      { "text": "in order to + 动词原形" }
+    ]}
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "meta": { "id": 8, "slug": "lesson-08-verb-phrases-2", "title": "常考动词短语（下）", "unit": "短语与辨析", "week": 3, "day": 3 },
+  "objectives": [
+    { "text": "掌握更多中考常考动词短语", "isKeyPoint": true },
+    { "text": "了解短语动词和动词+名词的搭配", "isKeyPoint": true },
+    { "text": "能在写作中运用动词短语", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "turn 系列短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**turn** 搭配不同的副词构成常用短语，表示「开关、调大调小」等含义。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["turn on", "/tɜːrn ɒn/", "phr.v.", "打开", "Turn on the light, please."],
+            ["turn off", "/tɜːrn ɒf/", "phr.v.", "关闭", "Turn off the TV."],
+            ["turn up", "/tɜːrn ʌp/", "phr.v.", "调大；出现", "Turn up the music."],
+            ["turn down", "/tɜːrn daʊn/", "phr.v.", "调小；拒绝", "Turn down the radio."],
+            ["turn into", "/tɜːrn ˈɪntuː/", "phr.v.", "变成", "The tadpole turns into a frog."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "辨析", "content": "turn on/off 的宾语是名词时，可以放在短语中间或后面：Turn on the light. = Turn the light on. 但宾语是代词时，必须放在中间：Turn it on.（不能说 Turn on it.）" }
+      ]
+    },
+    {
+      "title": "put 系列短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**put** 是中考常考动词，搭配不同介词/副词含义差异较大。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["put on", "/pʊt ɒn/", "phr.v.", "穿上；增加", "Put on your coat."],
+            ["put off", "/pʊt ɒf/", "phr.v.", "推迟", "Don't put off until tomorrow."],
+            ["put away", "/pʊt əˈweɪ/", "phr.v.", "收起来", "Put away your toys."],
+            ["put up", "/pʊt ʌp/", "phr.v.", "张贴；搭建", "Put up the poster on the wall."],
+            ["put out", "/pʊt aʊt/", "phr.v.", "扑灭", "Firefighters put out the fire."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "put on 指「穿上」（动作），wear 指「穿着」（状态）。Put on your jacket.（穿上夹克，强调动作）vs. He is wearing a jacket.（他穿着夹克，强调状态）。" }
+      ]
+    },
+    {
+      "title": "其他常考短语",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "以下短语在中考中出现频率极高，需要重点掌握。" },
+        {
+          "type": "table",
+          "headers": ["单词", "音标", "词性", "释义", "例句"],
+          "rows": [
+            ["give up", "/ɡɪv ʌp/", "phr.v.", "放弃", "Don't give up your dream."],
+            ["go on", "/ɡəʊ ɒn/", "phr.v.", "继续", "Go on, please."],
+            ["keep on", "/kiːp ɒn/", "phr.v.", "持续", "Keep on trying."],
+            ["come up with", "/kʌm ʌp wɪð/", "phr.v.", "想出", "She came up with a good idea."],
+            ["be afraid of", "/biː əˈfreɪd ɒv/", "phr.v.", "害怕", "I am afraid of snakes."],
+            ["be proud of", "/biː praʊd ɒv/", "phr.v.", "以……为荣", "We are proud of you."]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "辨析", "content": "give up + doing sth.（放弃做某事）：He gave up smoking.（他戒烟了）。注意：give up 是可分短语，代词作宾语时放在中间：Give it up.（放弃它）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：turn 短语辨析",
+      "problem": [
+        { "type": "paragraph", "content": "It's too noisy. Could you ___ the music?" },
+        { "type": "list", "ordered": true, "items": ["A. turn on", "B. turn off", "C. turn up", "D. turn down"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "根据句意「太吵了，请把音乐调小」，turn down 意为「调小」，符合语境。turn on（打开）、turn off（关闭）、turn up（调大）都不合适。答案选 D。" }
+      ],
+      "answer": "D"
+    },
+    {
+      "title": "例2：put 短语辨析",
+      "problem": [
+        { "type": "paragraph", "content": "Don't ___ until tomorrow what you can do today." },
+        { "type": "list", "ordered": true, "items": ["A. put on", "B. put off", "C. put away", "D. put up"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "这是一句谚语「今日事今日毕」。put off 意为「推迟」，Don't put off until tomorrow 意为「不要推迟到明天」，符合谚语含义。答案选 B。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    { "text": "turn 系列", "children": [
+      { "text": "turn on/off（开/关）" },
+      { "text": "turn up/down（调大/调小）" },
+      { "text": "turn into（变成）" }
+    ]},
+    { "text": "put 系列", "children": [
+      { "text": "put on（穿上）" },
+      { "text": "put off（推迟）" },
+      { "text": "put away（收起来）" },
+      { "text": "put up（张贴）" }
+    ]},
+    { "text": "其他常考短语", "children": [
+      { "text": "give up（放弃）" },
+      { "text": "go on / keep on（继续）" },
+      { "text": "come up with（想出）" },
+      { "text": "be afraid of / be proud of" }
+    ]}
+  ]
+}

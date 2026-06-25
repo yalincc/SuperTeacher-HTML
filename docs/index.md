@@ -42,7 +42,7 @@
 | `vercel.json` | Vercel 部署配置（SPA 路由回退） |
 | `netlify.toml` | Netlify 部署配置（SPA 路由 + 静态资源缓存） |
 | `public/gifs/` | 答题 GIF 动画文件（correct.gif / wrong.gif） |
-| `.agents/` | MiMoCode AI skill 目录（project-manager） |
+| `.agents/` | MiMoCode AI skill 目录（project-manager, generate-english） |
 | `.qoder/` | Qoder AI 工作目录（generate-lesson skill + repowiki） |
 
 ## 常用命令
@@ -122,7 +122,9 @@ src/data/
 │   ├── history-8b/          ← 八年级下册历史（17 课，2024人教版）
 │   ├── history-9a/          ← 九年级上册历史（15 课，2024人教版）
 │   ├── history-9b/          ← 九年级下册历史（15 课，2024人教版）
-│   └── english-grammar/     ← 英语语法专题（30 课，沪教版七八年级）
+│   ├── english-grammar/     ← 英语语法专题（30 课，沪教版七八年级）
+│   ├── english-vocabulary/  ← 英语词汇专题（12 课，中考核心词汇）
+│   └── english-exam/        ← 英语语法填空专练（8 课，中考题型）
 ├── index.ts                 ← import.meta.glob 自动扫描，聚合导出
 ```
 

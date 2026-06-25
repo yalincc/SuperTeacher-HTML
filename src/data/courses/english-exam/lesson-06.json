@@ -1,0 +1,105 @@
+{
+  "meta": { "id": 6, "slug": "lesson-06-present-past", "title": "综合：一般现在时+一般过去时", "unit": "综合训练", "week": 3, "day": 1 },
+  "objectives": [
+    { "text": "能在综合语境中区分一般现在时和一般过去时", "isKeyPoint": true },
+    { "text": "掌握两种时态的混合填空技巧", "isKeyPoint": true },
+    { "text": "提高综合运用能力", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "一般现在时标志词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "一般现在时表示经常性、习惯性的动作或客观事实，常见标志词有：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "含义", "例句"],
+          "rows": [
+            ["every day", "每天", "I get up early every day."],
+            ["usually", "通常", "She usually walks to school."],
+            ["always", "总是", "He always finishes his homework."],
+            ["often", "经常", "We often play basketball."],
+            ["sometimes", "有时", "Sometimes I read books."],
+            ["never", "从不", "I never eat breakfast late."]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "判断技巧", "content": "看到这些频率副词或 every... 时间短语，直接用一般现在时。注意第三人称单数动词加 -s/-es。" }
+      ]
+    },
+    {
+      "title": "一般过去时标志词",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "一般过去时表示过去某个时间发生的动作或状态，常见标志词有：" },
+        {
+          "type": "table",
+          "headers": ["标志词", "含义", "例句"],
+          "rows": [
+            ["yesterday", "昨天", "I went to school yesterday."],
+            ["last week/month/year", "上周/月/年", "She visited Beijing last summer."],
+            ["...ago", "……之前", "He left two hours ago."],
+            ["in 2020", "在某年", "We moved here in 2020."],
+            ["just now", "刚才", "I saw him just now."],
+            ["at that time", "那时", "I was happy at that time."]
+          ]
+        },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "动词过去式变化要注意：规则加 -ed，不规则需要单独记忆（go→went, eat→ate, see→saw）。" }
+      ]
+    },
+    {
+      "title": "混合填空解题技巧",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "综合题中两种时态交替出现，解题关键步骤如下：" },
+        {
+          "type": "table",
+          "headers": ["步骤", "操作", "说明"],
+          "rows": [
+            ["第一步", "找时间状语", "先看句中是否有 yesterday、every day 等标志词"],
+            ["第二步", "看上下文", "如果没有标志词，看前后句子的时态"],
+            ["第三步", "判断语境", "描述习惯用现在时，描述过去事件用过去时"],
+            ["第四步", "检查动词", "注意第三人称单数和过去式的拼写"]
+          ]
+        },
+        { "type": "callout", "variant": "mnemonic", "title": "解题口诀", "content": "先看标志词，再看上下文。习惯用现在，过去用过去。动词要变形，三单加 -s。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断时态",
+      "problem": [
+        { "type": "paragraph", "content": "He ___ (go) to school every day." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "every day 是一般现在时标志词，主语 He 是第三人称单数，go 加 es 变成 goes。" }
+      ],
+      "answer": "goes"
+    },
+    {
+      "title": "例2：混合时态",
+      "problem": [
+        { "type": "paragraph", "content": "Yesterday I ___ (meet) an old friend. We ___ (be) very happy." }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "yesterday 是过去时标志词，meet 的过去式是 met，be 的过去式是 were（主语 We 为复数）。" }
+      ],
+      "answer": "met; were"
+    }
+  ],
+  "summary": [
+    { "text": "一般现在时", "children": [
+      { "text": "标志词：every day, usually, always, often" },
+      { "text": "三单加 -s/-es" }
+    ]},
+    { "text": "一般过去时", "children": [
+      { "text": "标志词：yesterday, last..., ago, in+年份" },
+      { "text": "动词用过去式" }
+    ]},
+    { "text": "解题步骤", "children": [
+      { "text": "先找时间状语" },
+      { "text": "再看上下文语境" },
+      { "text": "最后检查动词变形" }
+    ]}
+  ]
+}
