@@ -1,0 +1,64 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-06-01",
+      "stem": "方程 $x^2 - 2x - 3 = 0$ 的根为（  ）",
+      "options": [
+        { "label": "A", "text": "$x_1 = 1$，$x_2 = -3$" },
+        { "label": "B", "text": "$x_1 = -1$，$x_2 = 3$" },
+        { "label": "C", "text": "$x_1 = 1$，$x_2 = 3$" },
+        { "label": "D", "text": "$x_1 = -1$，$x_2 = -3$" }
+      ],
+      "answer": "B",
+      "analysis": "$x^2 - 2x - 3 = (x - 3)(x + 1) = 0$，解得 $x_1 = 3$，$x_2 = -1$。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-06-02",
+      "stem": "一元二次方程 $x^2 - 4x + 4 = 0$ 的根的情况是（  ）",
+      "options": [
+        { "label": "A", "text": "有两个不相等的实数根" },
+        { "label": "B", "text": "有两个相等的实数根" },
+        { "label": "C", "text": "没有实数根" },
+        { "label": "D", "text": "无法确定" }
+      ],
+      "answer": "B",
+      "analysis": "$\\Delta = b^2 - 4ac = (-4)^2 - 4 \\times 1 \\times 4 = 16 - 16 = 0$，所以方程有两个相等的实数根。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-06-03",
+      "stem": "用公式法解方程 $2x^2 + 3x - 1 = 0$，正确的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$x = \\frac{-3 \\pm \\sqrt{17}}{4}$" },
+        { "label": "B", "text": "$x = \\frac{3 \\pm \\sqrt{17}}{4}$" },
+        { "label": "C", "text": "$x = \\frac{-3 \\pm \\sqrt{7}}{4}$" },
+        { "label": "D", "text": "$x = \\frac{-3 \\pm \\sqrt{17}}{2}$" }
+      ],
+      "answer": "A",
+      "analysis": "$a = 2$，$b = 3$，$c = -1$，$\\Delta = 9 + 8 = 17$，$x = \\frac{-3 \\pm \\sqrt{17}}{4}$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-06-04",
+      "stem": "若方程 $x^2 + 2x + m = 0$ 有两个不相等的实数根，则 $m < 1$。",
+      "answer": true,
+      "analysis": "$\\Delta = 4 - 4m > 0$，解得 $m < 1$。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-06-05",
+      "segments": ["方程 $x^2 - 5x + 6 = 0$ 用因式分解法解得 $x_1 = $ ___1___，$x_2 = $ ___2___。"],
+      "blanks": [
+        { "index": 1, "answer": "$2$" },
+        { "index": 2, "answer": "$3$" }
+      ],
+      "analysis": "$x^2 - 5x + 6 = (x - 2)(x - 3) = 0$，所以 $x_1 = 2$，$x_2 = 3$。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-12-01",
+      "stem": "下列方程中，是分式方程的是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\frac{x}{2} + 1 = 3$" },
+        { "label": "B", "text": "$\\frac{1}{x} = 2$" },
+        { "label": "C", "text": "$x + \\frac{1}{2} = 3$" },
+        { "label": "D", "text": "$\\frac{x+1}{3} = 2$" }
+      ],
+      "answer": "B",
+      "analysis": "分式方程的分母中含有未知数。A、C、D的分母都是常数，不是分式方程。B的分母含有未知数 $x$，是分式方程。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-02",
+      "stem": "解分式方程 $\\frac{2}{x} = \\frac{3}{x+1}$ 时，方程两边应同乘（  ）",
+      "options": [
+        { "label": "A", "text": "$x(x+1)$" },
+        { "label": "B", "text": "$x + x + 1$" },
+        { "label": "C", "text": "$x + 1$" },
+        { "label": "D", "text": "$x$" }
+      ],
+      "answer": "A",
+      "analysis": "最简公分母是 $x(x+1)$，方程两边同乘 $x(x+1)$ 可去分母。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-03",
+      "stem": "分式方程 $\\frac{1}{x-2} + 3 = 0$ 的解是（  ）",
+      "options": [
+        { "label": "A", "text": "$x = \\frac{7}{3}$" },
+        { "label": "B", "text": "$x = -\\frac{1}{3}$" },
+        { "label": "C", "text": "$x = \\frac{5}{3}$" },
+        { "label": "D", "text": "无解" }
+      ],
+      "answer": "C",
+      "analysis": "方程两边同乘 $(x-2)$：$1 + 3(x-2) = 0$，$1 + 3x - 6 = 0$，$3x = 5$，$x = \\frac{5}{3}$。验根：$\\frac{5}{3} - 2 = -\\frac{1}{3} \\neq 0$，是原方程的解。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-12-04",
+      "stem": "解分式方程时，如果求得的解使最简公分母为零，那么这个解就是增根。",
+      "answer": true,
+      "analysis": "增根是去分母后整式方程的解，但它使原方程的分母为零，使原分式方程无意义。因此使最简公分母为零的解就是增根。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-12-05",
+      "segments": ["解分式方程的基本步骤是：去分母→___1___→___2___。"],
+      "blanks": [
+        { "index": 1, "answer": "解整式方程" },
+        { "index": 2, "answer": "验根" }
+      ],
+      "analysis": "解分式方程的三步骤：①去分母化为整式方程 ②解整式方程 ③验根（代入最简公分母检验）。"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": 3,
+    "slug": "lesson-03-同底数幂的除法",
+    "title": "同底数幂的除法",
+    "unit": "第一章 整式的运算",
+    "week": 1,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "掌握同底数幂的除法法则：$a^m \\div a^n = a^{m-n}$", "isKeyPoint": true },
+    { "text": "理解零指数幂的意义：$a^0 = 1$（$a \\neq 0$）", "isKeyPoint": true },
+    { "text": "理解负整数指数幂的意义：$a^{-n} = \\frac{1}{a^n}$（$a \\neq 0$）", "isKeyPoint": true },
+    { "text": "能运用法则进行同底数幂的除法运算", "isKeyPoint": false },
+    { "text": "体会幂运算体系的完整性", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "同底数幂除法法则",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**同底数幂的除法法则**：同底数幂相除，底数不变，指数相减。即：$a^m \\div a^n = a^{m-n}$（$a \\neq 0$，$m$、$n$ 为正整数，$m > n$）。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "推导过程",
+          "content": "$a^m \\div a^n = \\frac{a^m}{a^n} = \\frac{\\overbrace{a \\cdot a \\cdots a}^{m \\text{ 个}}}{\\underbrace{a \\cdot a \\cdots a}_{n \\text{ 个}}} = \\underbrace{a \\cdot a \\cdots a}_{m-n \\text{ 个}} = a^{m-n}$"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "除法运算中指数是相减，不是相除！如 $a^8 \\div a^2 = a^{8-2} = a^6$，而非 $a^4$。"
+        }
+      ]
+    },
+    {
+      "title": "零指数幂",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**零指数幂**：任何不等于零的数的零次幂都等于 $1$。即：$a^0 = 1$（$a \\neq 0$）。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "推导过程",
+          "content": "根据同底数幂除法：$a^m \\div a^m = a^{m-m} = a^0$，而 $a^m \\div a^m = 1$，所以 $a^0 = 1$（$a \\neq 0$）。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "注意",
+          "content": "$0^0$ 无意义，因为 $0$ 不能做除数的底数。"
+        }
+      ]
+    },
+    {
+      "title": "负整数指数幂",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**负整数指数幂**：任何不等于零的数的负整数次幂，等于这个数的正整数次幂的倒数。即：$a^{-n} = \\frac{1}{a^n}$（$a \\neq 0$，$n$ 为正整数）。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "推导过程",
+          "content": "根据同底数幂除法：$a^0 \\div a^n = a^{0-n} = a^{-n}$，而 $a^0 \\div a^n = \\frac{1}{a^n}$，所以 $a^{-n} = \\frac{1}{a^n}$。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "同底除法指数减，零次幂是一不变；负指数把倒数见，运算体系全完善。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：基本运算",
+      "problem": [
+        { "type": "paragraph", "content": "计算：(1) $a^8 \\div a^3$；(2) $x^5 \\div x^5$；(3) $a^{-2}$（用正整数指数幂表示）。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "(1) $a^8 \\div a^3 = a^{8-3} = a^5$" },
+        { "type": "paragraph", "content": "(2) $x^5 \\div x^5 = x^{5-5} = x^0 = 1$" },
+        { "type": "paragraph", "content": "(3) $a^{-2} = \\frac{1}{a^2}$" }
+      ],
+      "answer": "(1) $a^5$；(2) $1$；(3) $\\frac{1}{a^2}$"
+    },
+    {
+      "title": "例2：综合运算",
+      "problem": [
+        { "type": "paragraph", "content": "计算：$(a^4)^2 \\div a^5$。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "$(a^4)^2 \\div a^5 = a^{4 \\times 2} \\div a^5 = a^8 \\div a^5 = a^{8-5} = a^3$" }
+      ],
+      "answer": "$a^3$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "同底数幂除法法则",
+      "children": [
+        { "text": "$a^m \\div a^n = a^{m-n}$（底数不变，指数相减）" }
+      ]
+    },
+    {
+      "text": "零指数幂与负整数指数幂",
+      "children": [
+        { "text": "$a^0 = 1$（$a \\neq 0$）" },
+        { "text": "$a^{-n} = \\frac{1}{a^n}$（$a \\neq 0$，$n$ 为正整数）" }
+      ]
+    },
+    {
+      "text": "幂运算法则总结",
+      "children": [
+        { "text": "同底数幂乘法：$a^m \\cdot a^n = a^{m+n}$" },
+        { "text": "幂的乘方：$(a^m)^n = a^{mn}$" },
+        { "text": "积的乘方：$(ab)^n = a^n b^n$" },
+        { "text": "同底数幂除法：$a^m \\div a^n = a^{m-n}$" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "id": 11,
+    "slug": "lesson-11-三角形的三边关系",
+    "title": "三角形的三边关系",
+    "unit": "第四章 三角形",
+    "week": 4,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "掌握三角形两边之和大于第三边的定理", "isKeyPoint": true },
+    { "text": "掌握三角形两边之差小于第三边的定理", "isKeyPoint": true },
+    { "text": "能判断三条线段能否构成三角形", "isKeyPoint": true },
+    { "text": "了解三角形三边关系在实际问题中的应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "三角形三边关系定理",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**定理**：三角形任意两边之和大于第三边。"
+        },
+        {
+          "type": "paragraph",
+          "content": "即在 $\\triangle ABC$ 中："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "$AB + BC > AC$",
+            "$AB + AC > BC$",
+            "$AC + BC > AB$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "证明思路",
+          "content": "利用「两点之间线段最短」。从点 $A$ 到点 $C$，直接走线段 $AC$ 最短；如果经过点 $B$ 走折线 $AB + BC$，路程更长，所以 $AB + BC > AC$。"
+        }
+      ]
+    },
+    {
+      "title": "三边关系的推论",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**推论**：三角形任意两边之差小于第三边。即："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "$|AB - BC| < AC$",
+            "$|AB - AC| < BC$",
+            "$|AC - BC| < AB$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "等价关系",
+          "content": "两边之和大于第三边和两边之差小于第三边是等价的，都是由「两点之间线段最短」推出的。判断三边关系时，只需验证最短的两条边之和是否大于最长边即可。"
+        }
+      ]
+    },
+    {
+      "title": "判断能否构成三角形",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "已知三条线段 $a$、$b$、$c$，判断能否构成三角形的简便方法："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "将三条线段按从小到大排列：$a \\leq b \\leq c$",
+            "只需验证 $a + b > c$ 是否成立",
+            "若成立，则能构成三角形；若不成立，则不能构成三角形"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "不能只验证一组关系。例如 $1 + 3 > 5$ 不成立，但 $1 + 5 > 3$ 成立，$3 + 5 > 1$ 也成立。正确的做法是检查较小两边之和是否大于最大边。"
+        }
+      ]
+    },
+    {
+      "title": "三边关系的应用",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "确定第三边的取值范围",
+            "判断三角形的类型（等腰、等边）",
+            "解决最短路径问题",
+            "实际问题中的距离判断"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "两边之和大于差，两边之差小于和；判断三边能否成，最短两边比最大。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断三边能否构成三角形",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "以下列各组线段为边，能否构成三角形？\n（1）$3$，$4$，$5$；（2）$1$，$2$，$5$；（3）$5$，$5$，$8$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**（1）** $3$，$4$，$5$：$3 + 4 = 7 > 5$，能构成三角形。\n\n**（2）** $1$，$2$，$5$：$1 + 2 = 3 < 5$，不能构成三角形。\n\n**（3）** $5$，$5$，$8$：$5 + 5 = 10 > 8$，能构成三角形。"
+        }
+      ],
+      "answer": "（1）能；（2）不能；（3）能"
+    },
+    {
+      "title": "例2：求第三边的范围",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知三角形两边长分别为 $3$ 和 $7$，求第三边 $x$ 的取值范围。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "由三边关系：\n\n$3 + 7 > x$，即 $x < 10$\n\n$3 + x > 7$，即 $x > 4$\n\n$7 + x > 3$，即 $x > -4$（自然成立）\n\n综合得 $4 < x < 10$。"
+        }
+      ],
+      "answer": "$4 < x < 10$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "三边关系定理",
+      "children": [
+        { "text": "两边之和大于第三边" },
+        { "text": "两边之差小于第三边" }
+      ]
+    },
+    {
+      "text": "判断方法",
+      "children": [
+        { "text": "将三边从小到大排列" },
+        { "text": "只需验证较短两边之和是否大于最长边" }
+      ]
+    },
+    {
+      "text": "主要应用",
+      "children": [
+        { "text": "判断三边能否构成三角形" },
+        { "text": "确定第三边的取值范围" }
+      ]
+    }
+  ]
+}

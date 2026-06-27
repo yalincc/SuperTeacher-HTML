@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": 11,
+    "slug": "lesson-11-分式的运算",
+    "title": "分式的运算",
+    "unit": "第五章 分式与分式方程",
+    "week": 5,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "掌握分式的乘除法运算法则", "isKeyPoint": true },
+    { "text": "掌握分式的加减法运算法则（同分母和异分母）", "isKeyPoint": true },
+    { "text": "能进行分式的混合运算", "isKeyPoint": true },
+    { "text": "能正确进行分式的约分和通分", "isKeyPoint": false },
+    { "text": "体会分式运算与分数运算的类比", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "分式的乘除法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**分式乘法法则**：两个分式相乘，把分子相乘的积作为积的分子，分母相乘的积作为积的分母。\n$\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "**分式除法法则**：两个分式相除，把除式的分子和分母颠倒位置后再与被除式相乘。\n$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{ad}{bc}$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "运算技巧",
+          "content": "乘除运算前先约分，可以简化计算。遇到除法先转化为乘法。"
+        }
+      ]
+    },
+    {
+      "title": "分式的加减法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**同分母分式加减法**：分母不变，分子相加减。\n$\\frac{a}{c} \\pm \\frac{b}{c} = \\frac{a \\pm b}{c}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "**异分母分式加减法**：先通分，化为同分母分式，再加减。\n$\\frac{a}{b} \\pm \\frac{c}{d} = \\frac{ad \\pm bc}{bd}$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "通分要点",
+          "content": "通分的关键是确定**最简公分母**：取各分母系数的最小公倍数和所有字母的最高次幂的积。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "常见错误",
+          "content": "$\\frac{a}{b} + \\frac{c}{d} \\neq \\frac{a+c}{b+d}$。加减法不能将分子分母分别相加！"
+        }
+      ]
+    },
+    {
+      "title": "分式的混合运算",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "分式的混合运算顺序与整式相同：先算乘除，后算加减，有括号先算括号内的。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "运算步骤",
+          "content": "① 有括号先去括号 → ② 将除法转化为乘法 → ③ 分子分母分别分解因式 → ④ 约分 → ⑤ 加减运算"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：分式的乘除法",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "计算：$\\frac{x^2 - 1}{x^2 + 2x + 1} \\div \\frac{x-1}{x+1}$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "原式 $= \\frac{(x+1)(x-1)}{(x+1)^2} \\times \\frac{x+1}{x-1} = \\frac{(x+1)(x-1)}{(x+1)^2} \\times \\frac{x+1}{x-1} = 1$"
+        }
+      ],
+      "answer": "$1$"
+    },
+    {
+      "title": "例2：分式的加减法",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "计算：$\\frac{1}{x-1} - \\frac{1}{x+1}$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "通分，最简公分母为 $(x-1)(x+1)$：\n原式 $= \\frac{x+1}{(x-1)(x+1)} - \\frac{x-1}{(x-1)(x+1)} = \\frac{(x+1) - (x-1)}{(x-1)(x+1)} = \\frac{2}{(x-1)(x+1)} = \\frac{2}{x^2 - 1}$"
+        }
+      ],
+      "answer": "$\\frac{2}{x^2 - 1}$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "分式的乘除法",
+      "children": [
+        { "text": "乘法：分子乘分子，分母乘分母" },
+        { "text": "除法：除以一个分式等于乘以它的倒数" }
+      ]
+    },
+    {
+      "text": "分式的加减法",
+      "children": [
+        { "text": "同分母：分母不变，分子加减" },
+        { "text": "异分母：先通分，再加减" }
+      ]
+    },
+    {
+      "text": "混合运算",
+      "children": [
+        { "text": "先乘除后加减，有括号先算括号" },
+        { "text": "运算前先分解因式，运算后要约分" }
+      ]
+    }
+  ]
+}

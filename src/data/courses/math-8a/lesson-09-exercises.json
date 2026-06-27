@@ -1,0 +1,60 @@
+{
+  "lessonId": 9,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-09-01",
+      "stem": "下列函数中，是一次函数的是（  ）",
+      "options": [
+        { "label": "A", "text": "$y = x^2 + 1$" },
+        { "label": "B", "text": "$y = \\frac{1}{x}$" },
+        { "label": "C", "text": "$y = 2x + 3$" },
+        { "label": "D", "text": "$y = 2x^2 + x$" }
+      ],
+      "answer": "C",
+      "analysis": "一次函数的标准形式是 $y = kx + b$（$k \\neq 0$），只有 C 选项符合。A 和 D 中 $x$ 的最高次数是 $2$，B 中 $x$ 在分母上。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-09-02",
+      "stem": "正比例函数 $y = -2x$ 的图象经过（  ）",
+      "options": [
+        { "label": "A", "text": "第一、二象限" },
+        { "label": "B", "text": "第一、三象限" },
+        { "label": "C", "text": "第二、三象限" },
+        { "label": "D", "text": "第二、四象限" }
+      ],
+      "answer": "D",
+      "analysis": "正比例函数 $y = kx$ 中，当 $k < 0$ 时，图象经过第二、四象限。这里 $k = -2 < 0$，所以经过第二、四象限。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-09-03",
+      "stem": "一次函数 $y = 3x - 4$ 的图象与 $y$ 轴的交点坐标是（  ）",
+      "options": [
+        { "label": "A", "text": "$(0, 4)$" },
+        { "label": "B", "text": "$(0, -4)$" },
+        { "label": "C", "text": "$(\\frac{4}{3}, 0)$" },
+        { "label": "D", "text": "$(-\\frac{4}{3}, 0)$" }
+      ],
+      "answer": "B",
+      "analysis": "一次函数 $y = kx + b$ 与 $y$ 轴的交点是 $(0, b)$。这里 $b = -4$，所以交点是 $(0, -4)$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-09-04",
+      "stem": "正比例函数是一次函数的特殊情况。",
+      "answer": true,
+      "analysis": "正比例函数 $y = kx$ 可以看作一次函数 $y = kx + b$ 当 $b = 0$ 时的特殊情况，所以正比例函数是一次函数。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-09-05",
+      "segments": ["若一次函数 $y = (m-2)x + 3$ 中，$y$ 随 $x$ 的增大而减小，则 $m$ 的取值范围是___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$m < 2$" }
+      ],
+      "analysis": "一次函数 $y = kx + b$ 中，当 $k < 0$ 时，$y$ 随 $x$ 的增大而减小。这里 $k = m - 2$，所以 $m - 2 < 0$，解得 $m < 2$。"
+    }
+  ]
+}

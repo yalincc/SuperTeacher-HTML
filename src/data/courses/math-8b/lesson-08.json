@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "id": 8,
+    "slug": "lesson-08-因式分解的概念",
+    "title": "因式分解的概念",
+    "unit": "第四章 因式分解",
+    "week": 4,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解因式分解的概念：把一个多项式化为几个整式的积的形式", "isKeyPoint": true },
+    { "text": "理解因式分解与整式乘法的互逆关系", "isKeyPoint": true },
+    { "text": "能判断一个变形是否为因式分解", "isKeyPoint": true },
+    { "text": "知道因式分解的对象是多项式", "isKeyPoint": false },
+    { "text": "体会逆向思维在数学中的应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "因式分解的定义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "把一个**多项式**化为几个**整式的积**的形式，叫做把这个多项式**因式分解**，也叫做把这个多项式分解因式。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "关键词解读",
+          "content": "因式分解的对象是**多项式**（不是单项式），结果必须是**整式的积**（不能含有分式），且每个因式都是整式。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$x^2 + 2x + 1 = (x+1)^2$ 是因式分解；但 $x^2 + 2x + 1 = x^2 + 2x + 1$ 不是（右边不是积的形式）。"
+        }
+      ]
+    },
+    {
+      "title": "因式分解与整式乘法的关系",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "因式分解与整式乘法是**互逆变形**："
+        },
+        {
+          "type": "paragraph",
+          "content": "整式乘法：$m(a+b+c) = ma + mb + mc$（展开）\n因式分解：$ma + mb + mc = m(a+b+c)$（合并）"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "理解要点",
+          "content": "整式乘法是'积→和'，因式分解是'和→积'。它们是相反的运算过程，可以互相验证。"
+        }
+      ]
+    },
+    {
+      "title": "因式分解的判断方法",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "判断一个变形是否为因式分解，需同时满足以下条件："
+        },
+        {
+          "type": "paragraph",
+          "content": "① 左边必须是**多项式**\n② 右边必须是**整式的积**\n③ 左右两边必须**相等**"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "快速判断",
+          "content": "看右边是否为\"积\"的形式。如果是\"和\"的形式（如 $x^2 + 3x + 2 = x(x+3) + 2$），就不是因式分解。"
+        }
+      ]
+    },
+    {
+      "title": "因式分解的意义",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "因式分解在数学中有广泛应用，是后续学习分式运算、解方程、代数式化简的重要基础。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "类比记忆",
+          "content": "因式分解之于多项式，就像因数分解之于整数。$12 = 3 \\times 4$ 是整数的因数分解，$x^2 - 1 = (x+1)(x-1)$ 是多项式的因式分解。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断因式分解",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "下列变形中，哪些是因式分解？\n① $x^2 - 4 = (x+2)(x-2)$\n② $2x(x-3) = 2x^2 - 6x$\n③ $x^2 + 3x - 4 = x(x+3) - 4$\n④ $a^2 - b^2 + 1 = (a+b)(a-b) + 1$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "① 左边是多项式，右边是两个整式的积，且相等，**是因式分解**。\n② 左边不是多项式（是积的形式），右边是展开结果，这是整式乘法，**不是因式分解**。\n③ 右边最后一项 $-4$ 不在括号内，不是纯粹的积的形式，**不是因式分解**。\n④ 右边还有 $+1$，不是积的形式，**不是因式分解**。"
+        }
+      ],
+      "answer": "只有①是因式分解"
+    },
+    {
+      "title": "例2：利用整式乘法验证因式分解",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "利用整式乘法验证 $x^2 + 5x + 6 = (x+2)(x+3)$ 是否正确。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "用整式乘法展开右边：$(x+2)(x+3) = x^2 + 3x + 2x + 6 = x^2 + 5x + 6$。左边等于右边，验证正确。"
+        }
+      ],
+      "answer": "验证正确，该因式分解成立"
+    }
+  ],
+  "summary": [
+    {
+      "text": "因式分解的定义",
+      "children": [
+        { "text": "把一个多项式化为几个整式的积的形式" },
+        { "text": "对象是多项式，结果是整式的积" }
+      ]
+    },
+    {
+      "text": "因式分解与整式乘法的关系",
+      "children": [
+        { "text": "二者是互逆变形" },
+        { "text": "整式乘法：积→和；因式分解：和→积" }
+      ]
+    },
+    {
+      "text": "判断因式分解",
+      "children": [
+        { "text": "左边是多项式，右边是整式的积" },
+        { "text": "可用整式乘法验证" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "lessonId": 15,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-15-01",
+      "stem": "在 $\\triangle ABC$ 中，$D$、$E$ 分别是 $AB$、$AC$ 的中点，$BC = 12$，则 $DE$ 等于（  ）",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "24" }
+      ],
+      "answer": "B",
+      "analysis": "$DE$ 是 $\\triangle ABC$ 的中位线，由中位线定理：$DE = \\frac{1}{2}BC = \\frac{1}{2} \\times 12 = 6$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-15-02",
+      "stem": "三角形的中位线（  ）第三边。",
+      "options": [
+        { "label": "A", "text": "平行且等于" },
+        { "label": "B", "text": "平行且等于一半" },
+        { "label": "C", "text": "垂直且等于" },
+        { "label": "D", "text": "垂直且等于一半" }
+      ],
+      "answer": "B",
+      "analysis": "三角形中位线定理：中位线平行于第三边，且等于第三边的一半。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-15-03",
+      "stem": "若 $\\triangle ABC$ 的三边长分别为 6、8、10，则连接三边中点所得三角形的周长为（  ）",
+      "options": [
+        { "label": "A", "text": "12" },
+        { "label": "B", "text": "15" },
+        { "label": "C", "text": "24" },
+        { "label": "D", "text": "30" }
+      ],
+      "answer": "A",
+      "analysis": "连接三边中点所得的三角形，每条边都是原三角形对应边的一半（中位线定理）。所以新三角形的周长 $= \\frac{1}{2}(6 + 8 + 10) = \\frac{1}{2} \\times 24 = 12$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-15-04",
+      "stem": "三角形的中位线将三角形分成一个三角形和一个梯形。",
+      "answer": true,
+      "analysis": "三角形的中位线平行于第三边，所以中位线与第三边之间的部分是梯形，另一部分是小三角形。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-15-05",
+      "segments": ["在 $\\triangle ABC$ 中，$D$、$E$、$F$ 分别是 $AB$、$BC$、$AC$ 的中点，若 $DE = 5$，则 $AC = ___1___$。"],
+      "blanks": [
+        { "index": 1, "answer": "10" }
+      ],
+      "analysis": "$D$、$E$ 分别是 $AB$、$BC$ 的中点，所以 $DE$ 是 $\\triangle ABC$ 的中位线，$DE = \\frac{1}{2}AC$，所以 $AC = 2DE = 2 \\times 5 = 10$。"
+    }
+  ]
+}

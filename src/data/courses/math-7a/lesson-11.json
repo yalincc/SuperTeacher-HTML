@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "id": 11,
+    "slug": "lesson-11-角",
+    "title": "角",
+    "unit": "第四章 基本平面图形",
+    "week": 4,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解角的概念，掌握角的表示方法", "isKeyPoint": true },
+    { "text": "掌握角的度量单位（度、分、秒）及其换算", "isKeyPoint": true },
+    { "text": "掌握角的和差运算", "isKeyPoint": true },
+    { "text": "理解余角和补角的概念，掌握其性质", "isKeyPoint": false },
+    { "text": "能运用角的知识解决简单的几何问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "角的概念与表示方法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "角是由两条有公共端点的射线组成的图形。这个公共端点叫做角的顶点，两条射线叫做角的边。" },
+        { "type": "callout", "variant": "tip", "title": "表示方法", "content": "角可以用三个大写字母表示（顶点字母在中间），如 $\\angle AOB$；用一个大写字母表示（顶点处只有一个角），如 $\\angle O$；用数字或希腊字母表示，如 $\\angle 1$ 或 $\\angle \\alpha$。" },
+        { "type": "callout", "variant": "warning", "title": "易错点", "content": "当顶点处有多个角时，不能用一个大写字母表示，必须用三个大写字母表示。" }
+      ]
+    },
+    {
+      "title": "角的度量",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "角的度量单位有度（$\\circ$）、分（$'$）、秒（$''$）。1度 = 60分，1分 = 60秒。" },
+        { "type": "callout", "variant": "mnemonic", "title": "度分秒换算", "content": "度分秒是60进制：1度 = 60分，1分 = 60秒。换算时注意进率是60。" },
+        { "type": "table", "headers": ["角度", "换算"], "rows": [["$1^\\circ$", "$60'$"], ["$1'$", "$60''$"], ["$30^\\circ 30'$", "$30.5^\\circ$"], ["$0.5^\\circ$", "$30'$"]] },
+        { "type": "paragraph", "content": "直角 = $90^\\circ$，平角 = $180^\\circ$，周角 = $360^\\circ$。" }
+      ]
+    },
+    {
+      "title": "角的和差运算",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "角可以像数一样进行加减运算。角的和差运算要统一单位后进行。" },
+        { "type": "callout", "variant": "tip", "title": "运算技巧", "content": "进行角的加减运算时，先统一单位，然后分别将度与度、分与分、秒与秒相加减，最后进位或借位。" },
+        { "type": "paragraph", "content": "例如：$35^\\circ 20' + 42^\\circ 40' = 77^\\circ 60' = 78^\\circ$" }
+      ]
+    },
+    {
+      "title": "余角和补角",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "如果两个角的和等于 $90^\\circ$，那么这两个角互为余角。如果两个角的和等于 $180^\\circ$，那么这两个角互为补角。" },
+        { "type": "callout", "variant": "note", "title": "性质", "content": "同角（或等角）的余角相等；同角（或等角）的补角相等。" },
+        { "type": "paragraph", "content": "如果 $\\angle \\alpha + \\angle \\beta = 90^\\circ$，则 $\\angle \\alpha$ 与 $\\angle \\beta$ 互余；如果 $\\angle \\alpha + \\angle \\beta = 180^\\circ$，则 $\\angle \\alpha$ 与 $\\angle \\beta$ 互补。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：角度换算",
+      "problem": [
+        { "type": "paragraph", "content": "把 $35.5^\\circ$ 化为度分秒的形式。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "$35.5^\\circ = 35^\\circ + 0.5 \\times 60' = 35^\\circ 30'$" }
+      ],
+      "answer": "$35.5^\\circ = 35^\\circ 30'$"
+    },
+    {
+      "title": "例2：余角和补角的计算",
+      "problem": [
+        { "type": "paragraph", "content": "已知 $\\angle \\alpha = 35^\\circ$，求 $\\angle \\alpha$ 的余角和补角。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "$\\angle \\alpha$ 的余角 $= 90^\\circ - 35^\\circ = 55^\\circ$" },
+        { "type": "paragraph", "content": "$\\angle \\alpha$ 的补角 $= 180^\\circ - 35^\\circ = 145^\\circ$" }
+      ],
+      "answer": "$\\angle \\alpha$ 的余角是 $55^\\circ$，补角是 $145^\\circ$。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "角的概念",
+      "children": [
+        { "text": "由两条有公共端点的射线组成" },
+        { "text": "顶点和边是角的基本要素" }
+      ]
+    },
+    {
+      "text": "角的度量",
+      "children": [
+        { "text": "度、分、秒是60进制" },
+        { "text": "直角 $90^\\circ$，平角 $180^\\circ$，周角 $360^\\circ$" }
+      ]
+    },
+    {
+      "text": "余角和补角",
+      "children": [
+        { "text": "两角和为 $90^\\circ$ 互余" },
+        { "text": "两角和为 $180^\\circ$ 互补" },
+        { "text": "同角（等角）的余角（补角）相等" }
+      ]
+    }
+  ]
+}

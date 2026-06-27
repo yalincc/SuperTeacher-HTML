@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "id": 3,
+    "slug": "lesson-03-三角函数的应用",
+    "title": "三角函数的应用",
+    "unit": "第一章 直角三角形的边角关系",
+    "week": 1,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "理解仰角与俯角的概念，能解决仰角与俯角问题", "isKeyPoint": true },
+    { "text": "理解坡度（坡比）的概念，能利用三角函数解决坡度问题", "isKeyPoint": true },
+    { "text": "理解方位角的概念，能利用三角函数解决方位角问题", "isKeyPoint": false },
+    { "text": "能将实际问题转化为直角三角形问题求解", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "仰角与俯角问题",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**仰角**：在水平视线的**上方**，视线与水平线所成的角叫做仰角。**俯角**：在水平视线的**下方**，视线与水平线所成的角叫做俯角。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题步骤",
+          "content": "解决仰角、俯角问题的关键是：①画出水平线；②找出视线与水平线所成的角；③构建直角三角形求解。"
+        }
+      ]
+    },
+    {
+      "title": "坡度问题",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**坡度**（坡比）：坡面的铅直高度与水平距离的比，记作 $i$。即 $i = \\frac{h}{l} = \\tan \\alpha$，其中 $\\alpha$ 为坡角。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "坡度是铅直高度与水平距离的比，不是斜坡长度与水平距离的比。坡度 $i$ 等于坡角 $\\alpha$ 的正切值。"
+        }
+      ]
+    },
+    {
+      "title": "方位角问题",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**方位角**：从正北或正南方向线起，顺时针或逆时针旋转到目标方向线所成的角。通常表示为北偏东 $\\alpha$°、南偏西 $\\beta$° 等形式。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "方位角通常以正北或正南为基准，角度范围在 $0°$ 到 $90°$ 之间。例如北偏东 $30°$ 表示从正北方向向东旋转 $30°$。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：仰角问题",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，从地面 $A$ 处测得楼顶 $B$ 处的仰角为 $30°$，向前走 $20\\text{m}$ 到 $C$ 处，测得仰角为 $60°$，求楼高 $BH$（结果保留根号）。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 设 $CH = x\\text{m}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle BCH$ 中，$\\tan 60° = \\frac{BH}{CH}$，$BH = x\\sqrt{3}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle BAH$ 中，$\\tan 30° = \\frac{BH}{AH}$，$BH = (20 + x) \\cdot \\frac{\\sqrt{3}}{3}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "联立方程：$x\\sqrt{3} = (20 + x) \\cdot \\frac{\\sqrt{3}}{3}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "解得 $x = 10$，所以 $BH = 10\\sqrt{3}\\text{m}$"
+        }
+      ],
+      "answer": "$BH = 10\\sqrt{3}\\text{m}$"
+    },
+    {
+      "title": "例2：坡度问题",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "一段斜坡的坡度 $i = 1:2.4$，若沿坡面走 $130\\text{m}$，求上升的铅直高度。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 设铅直高度为 $h$，水平距离为 $2.4h$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "由勾股定理：$h^2 + (2.4h)^2 = 130^2$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$h^2 + 5.76h^2 = 16900$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$6.76h^2 = 16900$，$h^2 = 2500$，$h = 50\\text{m}$"
+        }
+      ],
+      "answer": "上升的铅直高度为 $50\\text{m}$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "仰角与俯角",
+      "children": [
+        { "text": "仰角：视线在水平线上方的角" },
+        { "text": "俯角：视线在水平线下方的角" },
+        { "text": "关键：构建直角三角形求解" }
+      ]
+    },
+    {
+      "text": "坡度问题",
+      "children": [
+        { "text": "坡度 $i = \\frac{h}{l} = \\tan \\alpha$" },
+        { "text": "坡度是铅直高度与水平距离的比" }
+      ]
+    },
+    {
+      "text": "方位角问题",
+      "children": [
+        { "text": "以正北或正南为基准方向" },
+        { "text": "表示为\"北偏东/西 $\\alpha$°\"" }
+      ]
+    }
+  ]
+}

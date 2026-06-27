@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "id": 7,
+    "slug": "lesson-07-圆的认识",
+    "title": "圆的认识",
+    "unit": "第三章 圆",
+    "week": 3,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解圆的定义：到定点距离等于定长的点的集合", "isKeyPoint": true },
+    { "text": "理解圆心、半径、直径、弦、弧等基本概念", "isKeyPoint": true },
+    { "text": "了解等圆、等弧的概念", "isKeyPoint": false },
+    { "text": "能利用圆的基本性质解决简单问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "圆的定义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "平面内到定点的距离等于定长的点的集合叫做**圆**。定点称为圆心，定长称为半径。"
+        },
+        {
+          "type": "paragraph",
+          "content": "以点 $O$ 为圆心，$r$ 为半径的圆，记作 $\\odot O$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "定义要点",
+          "content": "圆上的点到圆心的距离都等于半径；不在圆上的点到圆心的距离不等于半径。"
+        }
+      ]
+    },
+    {
+      "title": "圆的基本概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["概念", "定义"],
+          "rows": [
+            ["圆心", "圆的中心点，确定圆的位置"],
+            ["半径", "连接圆心和圆上任意一点的线段，确定圆的大小"],
+            ["直径", "经过圆心的弦，长度为半径的 $2$ 倍"],
+            ["弦", "连接圆上任意两点的线段"],
+            ["弧", "圆上任意两点间的部分"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "直径是最长的弦，但弦不一定是直径。直径必须经过圆心。"
+        }
+      ]
+    },
+    {
+      "title": "等圆与等弧",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**等圆**：半径相等的两个圆叫做等圆。**等弧**：在同圆或等圆中，能够互相重合的弧叫做等弧。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "等弧的前提是在同圆或等圆中。不同圆中的弧即使长度相等，也不一定是等弧。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断点与圆的位置关系",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知 $\\odot O$ 的半径为 $5$，点 $P$ 到圆心 $O$ 的距离 $OP = 3$，判断点 $P$ 与 $\\odot O$ 的位置关系。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $OP = 3 < 5 = r$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以点 $P$ 在 $\\odot O$ 的**内部**。"
+        }
+      ],
+      "answer": "点 $P$ 在 $\\odot O$ 的内部"
+    },
+    {
+      "title": "例2：求弦长",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\odot O$ 中，半径 $OA = 5$，弦 $AB = 8$，求圆心 $O$ 到弦 $AB$ 的距离。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 过 $O$ 作 $OC \\perp AB$ 于 $C$，则 $AC = \\frac{AB}{2} = 4$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle OAC$ 中，$OC = \\sqrt{OA^2 - AC^2} = \\sqrt{25 - 16} = 3$。"
+        }
+      ],
+      "answer": "圆心到弦的距离为 $3$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "圆的定义",
+      "children": [
+        { "text": "到定点距离等于定长的点的集合" },
+        { "text": "圆心确定位置，半径确定大小" }
+      ]
+    },
+    {
+      "text": "基本概念",
+      "children": [
+        { "text": "圆心、半径、直径、弦、弧" },
+        { "text": "直径是最长的弦" }
+      ]
+    },
+    {
+      "text": "等圆与等弧",
+      "children": [
+        { "text": "等圆：半径相等的两个圆" },
+        { "text": "等弧：同圆或等圆中能重合的弧" }
+      ]
+    }
+  ]
+}

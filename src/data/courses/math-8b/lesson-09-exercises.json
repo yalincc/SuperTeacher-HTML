@@ -1,0 +1,60 @@
+{
+  "lessonId": 9,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-09-01",
+      "stem": "分解因式 $x^2 - 9$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$(x - 3)^2$" },
+        { "label": "B", "text": "$(x + 3)^2$" },
+        { "label": "C", "text": "$(x + 3)(x - 3)$" },
+        { "label": "D", "text": "$x(x - 9)$" }
+      ],
+      "answer": "C",
+      "analysis": "$x^2 - 9 = x^2 - 3^2 = (x+3)(x-3)$，利用平方差公式。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-09-02",
+      "stem": "分解因式 $2x^2 - 8$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$2(x^2 - 4)$" },
+        { "label": "B", "text": "$2(x + 2)(x - 2)$" },
+        { "label": "C", "text": "$(2x + 4)(x - 2)$" },
+        { "label": "D", "text": "$2(x - 2)^2$" }
+      ],
+      "answer": "B",
+      "analysis": "先提公因式 2：$2x^2 - 8 = 2(x^2 - 4)$，再用平方差公式：$= 2(x+2)(x-2)$。注意要分解彻底。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-09-03",
+      "stem": "下列多项式中，能用完全平方公式分解的是（  ）",
+      "options": [
+        { "label": "A", "text": "$x^2 + 2x + 4$" },
+        { "label": "B", "text": "$x^2 - 4x + 4$" },
+        { "label": "C", "text": "$x^2 + 4x + 2$" },
+        { "label": "D", "text": "$x^2 - 6x + 8$" }
+      ],
+      "answer": "B",
+      "analysis": "完全平方公式要求首尾都是平方项，第三项为 $\\pm 2ab$。B中 $x^2 - 4x + 4 = x^2 - 2 \\cdot x \\cdot 2 + 2^2 = (x-2)^2$，符合条件。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-09-04",
+      "stem": "$-a^2 + 2ab - b^2$ 可以用完全平方公式分解因式。",
+      "answer": true,
+      "analysis": "$-a^2 + 2ab - b^2 = -(a^2 - 2ab + b^2) = -(a - b)^2$，先提取负号，再用完全平方公式。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-09-05",
+      "segments": ["分解因式：$3x^2 - 12 = ___1___$。"],
+      "blanks": [
+        { "index": 1, "answer": "$3(x+2)(x-2)$" }
+      ],
+      "analysis": "先提公因式 3：$3x^2 - 12 = 3(x^2 - 4)$，再用平方差公式：$= 3(x+2)(x-2)$。"
+    }
+  ]
+}

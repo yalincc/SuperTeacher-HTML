@@ -1,0 +1,61 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-08-01",
+      "stem": "在匀速直线运动中，路程 $s$、速度 $v$ 和时间 $t$ 的关系为 $s = vt$，其中常量是（  ）",
+      "options": [
+        { "label": "A", "text": "路程 $s$" },
+        { "label": "B", "text": "速度 $v$" },
+        { "label": "C", "text": "时间 $t$" },
+        { "label": "D", "text": "路程 $s$ 和时间 $t$" }
+      ],
+      "answer": "B",
+      "analysis": "在匀速直线运动中，速度 $v$ 保持不变，是常量；路程 $s$ 和时间 $t$ 是变量。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-08-02",
+      "stem": "下列关系中，$y$ 不是 $x$ 的函数的是（  ）",
+      "options": [
+        { "label": "A", "text": "$y = 2x + 1$" },
+        { "label": "B", "text": "$y = x^2$" },
+        { "label": "C", "text": "$y = \\pm\\sqrt{x}$" },
+        { "label": "D", "text": "$y = \\frac{1}{x}$" }
+      ],
+      "answer": "C",
+      "analysis": "在 $y = \\pm\\sqrt{x}$ 中，当 $x = 4$ 时，$y$ 可以是 $2$ 或 $-2$，即一个 $x$ 值对应两个 $y$ 值，不满足函数定义中「唯一确定」的要求。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-08-03",
+      "stem": "已知函数 $y = x^2 - 1$，当 $x = 3$ 时，$y$ 的值为（  ）",
+      "options": [
+        { "label": "A", "text": "8" },
+        { "label": "B", "text": "9" },
+        { "label": "C", "text": "10" },
+        { "label": "D", "text": "2" }
+      ],
+      "answer": "A",
+      "analysis": "当 $x = 3$ 时，$y = 3^2 - 1 = 9 - 1 = 8$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-08-04",
+      "stem": "函数 $y = |x|$ 中，对于 $x$ 的每一个值，$y$ 都有唯一确定的值与之对应，所以 $y$ 是 $x$ 的函数。",
+      "answer": true,
+      "analysis": "函数定义要求对于自变量的每一个值，因变量都有唯一确定的值与之对应。$y = |x|$ 满足这个条件，所以 $y$ 是 $x$ 的函数。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-08-05",
+      "segments": ["已知函数 $y = 2x + 3$，当 $x = -2$ 时，$y = $___1___；当 $y = 7$ 时，$x = $___2___。"],
+      "blanks": [
+        { "index": 1, "answer": "-1" },
+        { "index": 2, "answer": "2" }
+      ],
+      "analysis": "当 $x = -2$ 时，$y = 2 \\times (-2) + 3 = -4 + 3 = -1$；当 $y = 7$ 时，$7 = 2x + 3$，解得 $x = 2$。"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "id": 4,
+    "slug": "lesson-04-解一元一次不等式",
+    "title": "解一元一次不等式",
+    "unit": "第二章 一元一次不等式与一元一次不等式组",
+    "week": 2,
+    "day": 2
+  },
+  "objectives": [
+    {
+      "text": "理解一元一次不等式的概念",
+      "isKeyPoint": false
+    },
+    {
+      "text": "掌握解一元一次不等式的步骤",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能在数轴上表示不等式的解集",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能根据实际问题列一元一次不等式并求解",
+      "isKeyPoint": true
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "一元一次不等式的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "只含有一个未知数，并且未知数的最高次数是 $1$ 的不等式，叫做**一元一次不等式**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "判断方法",
+          "content": "判断一个不等式是否为一元一次不等式，需要满足三个条件：①只含一个未知数；②未知数的最高次数是 $1$；③未知数的系数不为 $0$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "一元一次不等式的一般形式是 $ax+b>0$（或 $ax+b<0$，$ax+b≥0$，$ax+b≤0$），其中 $a≠0$。"
+        }
+      ]
+    },
+    {
+      "title": "解一元一次不等式的步骤",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "解一元一次不等式的步骤与解一元一次方程类似，但要注意不等号的方向。"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**去分母**：不等式两边同时乘分母的最小公倍数",
+            "**去括号**：运用乘法分配律去括号",
+            "**移项**：把含未知数的项移到不等式的一边，常数项移到另一边",
+            "**合并同类项**：将不等式化为 $ax>b$ 或 $ax<b$ 的形式",
+            "**系数化为1**：不等式两边同时除以 $a$（注意 $a$ 的正负对不等号方向的影响）"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "在\"系数化为1\"这一步，如果 $a>0$，不等号方向不变；如果 $a<0$，不等号方向要改变！这是解一元一次不等式最容易出错的地方。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "与方程的区别",
+          "content": "解一元一次不等式与解一元一次方程的步骤基本相同，但解不等式时，两边同乘或除以负数，不等号方向要改变。"
+        }
+      ]
+    },
+    {
+      "title": "在数轴上表示解集",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在数轴上表示不等式的解集时，需要注意两点："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**空心圆圈**：表示不包含该点，用于 $>$ 或 $<$",
+            "**实心圆点**：表示包含该点，用于 $≥$ 或 $≤$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "表示方法",
+          "content": "例如，$x>2$ 在数轴上表示为：在 $2$ 处画空心圆圈，向右画线；$x≤2$ 在数轴上表示为：在 $2$ 处画实心圆点，向左画线。"
+        },
+        {
+          "type": "paragraph",
+          "content": "数轴表示可以直观地看出不等式的解集，也可以用来验证解集是否正确。"
+        }
+      ]
+    },
+    {
+      "title": "实际应用",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一元一次不等式在实际生活中有广泛的应用，例如：比较价格、计算折扣、确定范围等。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题步骤",
+          "content": "解决实际问题的步骤：①设未知数；②根据题意列出不等式；③解不等式；④检验并写出答案。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在实际问题中，解集往往需要根据实际情况进行调整。例如，人数必须是正整数，商品数量不能是负数等。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：解一元一次不等式",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "解不等式 $\\frac{2x-1}{3}>\\frac{x+2}{2}$，并在数轴上表示解集。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 不等式两边同时乘 $6$（最小公倍数），得"
+        },
+        {
+          "type": "paragraph",
+          "content": "$2(2x-1)>3(x+2)$"
+        },
+        {
+          "type": "paragraph",
+          "content": "去括号，得 $4x-2>3x+6$"
+        },
+        {
+          "type": "paragraph",
+          "content": "移项，得 $4x-3x>6+2$"
+        },
+        {
+          "type": "paragraph",
+          "content": "合并同类项，得 $x>8$"
+        },
+        {
+          "type": "paragraph",
+          "content": "在数轴上表示：在 $8$ 处画空心圆圈，向右画线。"
+        }
+      ],
+      "answer": "$x>8$"
+    },
+    {
+      "title": "例2：实际应用",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "某班有 $45$ 名同学去划船，每条船最多坐 $6$ 人。至少需要租几条船？"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 设需要租 $x$ 条船。"
+        },
+        {
+          "type": "paragraph",
+          "content": "根据题意，得 $6x≥45$"
+        },
+        {
+          "type": "paragraph",
+          "content": "解这个不等式，两边同时除以 $6$，得 $x≥7.5$"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为 $x$ 必须是正整数，所以 $x≥8$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**答：** 至少需要租 $8$ 条船。"
+        }
+      ],
+      "answer": "至少需要租 $8$ 条船"
+    }
+  ],
+  "summary": [
+    {
+      "text": "一元一次不等式的概念",
+      "children": [
+        {
+          "text": "只含一个未知数，未知数最高次数是 $1$"
+        },
+        {
+          "text": "一般形式：$ax+b>0$（$a≠0$）"
+        }
+      ]
+    },
+    {
+      "text": "解一元一次不等式的步骤",
+      "children": [
+        {
+          "text": "去分母 → 去括号 → 移项 → 合并同类项 → 系数化为1"
+        }
+      ]
+    },
+    {
+      "text": "在数轴上表示解集",
+      "children": [
+        {
+          "text": "空心圆圈：不包含该点（$>$ 或 $<$）"
+        },
+        {
+          "text": "实心圆点：包含该点（$≥$ 或 $≤$）"
+        }
+      ]
+    }
+  ]
+}

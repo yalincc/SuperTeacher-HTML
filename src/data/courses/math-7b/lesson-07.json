@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": 7,
+    "slug": "lesson-07-用表格表示变量关系",
+    "title": "用表格表示变量关系",
+    "unit": "第三章 变量之间的关系",
+    "week": 3,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解变量、自变量和因变量的概念", "isKeyPoint": true },
+    { "text": "能从实际问题中识别出自变量和因变量", "isKeyPoint": true },
+    { "text": "能用表格表示两个变量之间的对应关系", "isKeyPoint": true },
+    { "text": "能从表格中获取变量变化的信息和规律", "isKeyPoint": false },
+    { "text": "体会变量之间关系在实际生活中的应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "变量的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在某一变化过程中，可以取不同数值的量叫做**变量**。在变量之间的关系中，通常有一个量是主动变化的，另一个量是随之变化的。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**自变量**：在变化过程中主动变化的量（通常用 $x$ 表示）",
+            "**因变量**：随着自变量变化而变化的量（通常用 $y$ 表示）"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "判断方法",
+          "content": "问自己：\"谁先变？谁跟着变？\"先变的是自变量，跟着变的是因变量。例如：时间变了，路程跟着变，所以时间是自变量，路程是因变量。"
+        }
+      ]
+    },
+    {
+      "title": "用表格表示变量关系",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "用表格可以清楚地表示两个变量之间的对应关系。表格的第一行（或第一列）通常表示自变量，第二行（或第二列）表示对应的因变量。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "表格的优点",
+          "content": "表格可以直观地展示变量的对应值，便于查找特定自变量对应的因变量值，以及观察变量的变化趋势。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "表格中的数据是离散的，不代表所有值。例如表格中列出了 $x = 1, 2, 3$ 对应的 $y$ 值，但不能直接得到 $x = 1.5$ 对应的 $y$ 值。"
+        }
+      ]
+    },
+    {
+      "title": "从表格中获取信息",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "从表格中可以获取以下信息："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "特定自变量值对应的因变量值",
+            "因变量随自变量变化的趋势（增大或减小）",
+            "变量之间的变化规律（是否均匀变化）"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "变量关系用表装，自变因变列两行。先变自变后因变，对应关系要记牢。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：识别变量",
+      "problem": [
+        { "type": "paragraph", "content": "小明骑自行车去学校，速度为 $15\\text{km/h}$。写出时间 $t$（小时）和路程 $s$（千米）之间的关系，并指出自变量和因变量。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "路程 $s$ 与时间 $t$ 的关系为：$s = 15t$。" },
+        { "type": "paragraph", "content": "其中，时间 $t$ 是**自变量**（主动变化），路程 $s$ 是**因变量**（随时间变化）。" }
+      ],
+      "answer": "$s = 15t$，自变量为 $t$，因变量为 $s$"
+    },
+    {
+      "title": "例2：从表格获取信息",
+      "problem": [
+        { "type": "paragraph", "content": "下表是某地一天中不同时刻的气温记录：\n| 时刻 | 6:00 | 9:00 | 12:00 | 15:00 | 18:00 |\n|------|------|------|-------|-------|-------|\n| 气温(°C) | 15 | 20 | 26 | 28 | 22 |\n\n(1) 哪个是自变量？哪个是因变量？\n(2) 12:00 时的气温是多少？\n(3) 从 6:00 到 15:00，气温如何变化？" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "(1) 时刻是自变量，气温是因变量。" },
+        { "type": "paragraph", "content": "(2) 12:00 时的气温是 $26^\\circ\\text{C}$。" },
+        { "type": "paragraph", "content": "(3) 从 6:00 到 15:00，气温从 $15^\\circ\\text{C}$ 上升到 $28^\\circ\\text{C}$，呈上升趋势。" }
+      ],
+      "answer": "(1) 时刻为自变量，气温为因变量；(2) $26^\\circ\\text{C}$；(3) 气温逐渐上升"
+    }
+  ],
+  "summary": [
+    {
+      "text": "变量的基本概念",
+      "children": [
+        { "text": "变量：变化过程中可以取不同值的量" },
+        { "text": "自变量：主动变化的量" },
+        { "text": "因变量：随自变量变化而变化的量" }
+      ]
+    },
+    {
+      "text": "表格表示法",
+      "children": [
+        { "text": "表格可直观展示变量的对应关系" },
+        { "text": "便于查找和比较数据" },
+        { "text": "可观察变量的变化趋势" }
+      ]
+    }
+  ]
+}

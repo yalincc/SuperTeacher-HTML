@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "id": 7,
+    "slug": "lesson-07-图形的旋转",
+    "title": "图形的旋转",
+    "unit": "第三章 图形的平移与旋转",
+    "week": 3,
+    "day": 2
+  },
+  "objectives": [
+    {
+      "text": "理解旋转的概念",
+      "isKeyPoint": true
+    },
+    {
+      "text": "掌握旋转的三要素：旋转中心、旋转角、方向",
+      "isKeyPoint": true
+    },
+    {
+      "text": "掌握旋转的性质",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能画出旋转后的图形",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能利用旋转解决实际问题",
+      "isKeyPoint": false
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "旋转的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在平面内，将一个图形绕一个定点沿某个方向转动一个角度，这样的图形运动称为**旋转**。旋转不改变图形的形状和大小。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "旋转的三要素",
+          "content": "旋转的三要素是：**旋转中心**、**旋转角**、**方向**。其中旋转中心是定点，旋转角是转动的角度，方向是顺时针或逆时针。"
+        },
+        {
+          "type": "paragraph",
+          "content": "旋转可以绕任意点进行，可以是图形的一个顶点、边的中点、图形的中心等。"
+        }
+      ]
+    },
+    {
+      "title": "旋转的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "旋转具有以下重要性质："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "旋转不改变图形的形状和大小",
+            "旋转前后，对应点到旋转中心的距离相等",
+            "旋转前后，对应点与旋转中心所连线段的夹角等于旋转角",
+            "旋转前后，对应线段相等，对应角相等"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "对应点",
+          "content": "在旋转中，原图形上的每个点都绕旋转中心转动相同的角度，这些点称为对应点。对应点到旋转中心的距离相等。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "旋转不改变图形的形状和大小，只改变图形的位置。旋转前后的图形是全等的。但旋转会改变图形的方向。"
+        }
+      ]
+    },
+    {
+      "title": "画旋转后的图形",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "画旋转后的图形，可以按照以下步骤进行："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "确定旋转中心、旋转角和旋转方向",
+            "找出原图形的关键点（顶点）",
+            "将每个关键点绕旋转中心旋转指定角度，得到对应点",
+            "连接对应点，得到旋转后的图形"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "作图技巧",
+          "content": "画旋转后的图形时，可以先画出旋转中心到各关键点的连线，再绕旋转中心旋转这些连线，最后确定对应点的位置。"
+        },
+        {
+          "type": "paragraph",
+          "content": "画完旋转后的图形后，可以验证对应点到旋转中心的距离是否相等，对应点与旋转中心所连线段的夹角是否等于旋转角。"
+        }
+      ]
+    },
+    {
+      "title": "旋转的应用",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "旋转在实际生活中有广泛的应用，例如："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "钟表指针的运动",
+            "风车的转动",
+            "旋转门",
+            "方向盘的转动"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "数学应用",
+          "content": "在数学中，旋转可以用来构造全等图形，解决几何证明问题，研究图形的对称性。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：画旋转后的图形",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "将三角形 $ABC$ 绕点 $A$ 逆时针旋转 $90°$，画出旋转后的三角形 $AB'C'$。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "1. 确定旋转中心为点 $A$，旋转角为 $90°$，旋转方向为逆时针。"
+        },
+        {
+          "type": "paragraph",
+          "content": "2. 找出三角形 $ABC$ 的三个顶点 $A$、$B$、$C$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "3. 点 $A$ 是旋转中心，所以 $A'$ 与 $A$ 重合。"
+        },
+        {
+          "type": "paragraph",
+          "content": "4. 将点 $B$ 绕点 $A$ 逆时针旋转 $90°$，得到对应点 $B'$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "5. 将点 $C$ 绕点 $A$ 逆时针旋转 $90°$，得到对应点 $C'$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "6. 连接 $AB'$、$B'C'$、$C'A$，得到旋转后的三角形 $AB'C'$。"
+        }
+      ],
+      "answer": "旋转后的三角形 $AB'C'$ 如图所示"
+    },
+    {
+      "title": "例2：利用旋转解决实际问题",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，将正方形 $ABCD$ 绕点 $A$ 逆时针旋转 $90°$，得到正方形 $AB'C'D'$。已知正方形的边长为 $2\\text{ cm}$，求点 $D$ 到点 $D'$ 的距离。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为正方形 $ABCD$ 绕点 $A$ 逆时针旋转 $90°$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $AD=AD'=2\\text{ cm}$，$\\angle DAD'=90°$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在直角三角形 $ADD'$ 中，根据勾股定理："
+        },
+        {
+          "type": "paragraph",
+          "content": "$DD'=\\sqrt{AD^2+AD'^2}=\\sqrt{2^2+2^2}=\\sqrt{8}=2\\sqrt{2}\\text{ cm}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**答：** 点 $D$ 到点 $D'$ 的距离为 $2\\sqrt{2}\\text{ cm}$。"
+        }
+      ],
+      "answer": "点 $D$ 到点 $D'$ 的距离为 $2\\sqrt{2}\\text{ cm}$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "旋转的概念",
+      "children": [
+        {
+          "text": "在平面内，将一个图形绕一个定点沿某个方向转动一个角度"
+        },
+        {
+          "text": "旋转不改变图形的形状和大小"
+        }
+      ]
+    },
+    {
+      "text": "旋转的三要素",
+      "children": [
+        {
+          "text": "旋转中心"
+        },
+        {
+          "text": "旋转角"
+        },
+        {
+          "text": "方向"
+        }
+      ]
+    },
+    {
+      "text": "旋转的性质",
+      "children": [
+        {
+          "text": "旋转不改变图形的形状和大小"
+        },
+        {
+          "text": "对应点到旋转中心的距离相等"
+        },
+        {
+          "text": "对应点与旋转中心所连线段的夹角等于旋转角"
+        },
+        {
+          "text": "对应线段相等，对应角相等"
+        }
+      ]
+    }
+  ]
+}

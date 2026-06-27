@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "id": 6,
+    "slug": "lesson-06-平行线的性质",
+    "title": "平行线的性质",
+    "unit": "第二章 相交线与平行线",
+    "week": 2,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "掌握平行线的性质：两直线平行，同位角相等", "isKeyPoint": true },
+    { "text": "掌握平行线的性质：两直线平行，内错角相等", "isKeyPoint": true },
+    { "text": "掌握平行线的性质：两直线平行，同旁内角互补", "isKeyPoint": true },
+    { "text": "能区分平行线的判定与性质的条件和结论", "isKeyPoint": false },
+    { "text": "能综合运用平行线的性质进行角度计算", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "平行线的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**性质一**：两直线平行，同位角相等。即若 $a \\parallel b$，则 $\\angle 1 = \\angle 2$（同位角）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**性质二**：两直线平行，内错角相等。即若 $a \\parallel b$，则 $\\angle 1 = \\angle 2$（内错角）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**性质三**：两直线平行，同旁内角互补。即若 $a \\parallel b$，则 $\\angle 1 + \\angle 2 = 180^\\circ$（同旁内角）。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "性质与判定的条件和结论刚好相反！判定是由角的关系推平行（角相等 → 平行），性质是由平行推角的关系（平行 → 角相等）。"
+        }
+      ]
+    },
+    {
+      "title": "判定与性质的区别",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["", "判定（由角到平行）", "性质（由平行到角）"],
+          "rows": [
+            ["同位角", "同位角相等 → 两直线平行", "两直线平行 → 同位角相等"],
+            ["内错角", "内错角相等 → 两直线平行", "两直线平行 → 内错角相等"],
+            ["同旁内角", "同旁内角互补 → 两直线平行", "两直线平行 → 同旁内角互补"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆方法",
+          "content": "判定：\"角关系 → 平行\"；性质：\"平行 → 角关系\"。箭头方向相反！"
+        }
+      ]
+    },
+    {
+      "title": "角度计算",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "利用平行线的性质，可以求出图中未知角的度数。常用步骤：先确定两直线平行，再找到相关的角（同位角、内错角或同旁内角），利用性质求解。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "平行线，性质三：同位角等内错等，同旁内角必互补。判定性质要分清，条件结论互交换。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：利用性质求角",
+      "problem": [
+        { "type": "paragraph", "content": "如图，$a \\parallel b$，$\\angle 1 = 50^\\circ$，求 $\\angle 2$ 的度数。（$\\angle 1$ 和 $\\angle 2$ 是内错角）" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "因为 $a \\parallel b$，$\\angle 1$ 和 $\\angle 2$ 是内错角，根据\"两直线平行，内错角相等\"，所以 $\\angle 2 = \\angle 1 = 50^\\circ$。" }
+      ],
+      "answer": "$\\angle 2 = 50^\\circ$"
+    },
+    {
+      "title": "例2：综合计算",
+      "problem": [
+        { "type": "paragraph", "content": "如图，$a \\parallel b$，$\\angle 1 = 60^\\circ$，求 $\\angle 3$ 的度数。（$\\angle 1$ 和 $\\angle 2$ 是同位角，$\\angle 2$ 和 $\\angle 3$ 是邻补角）" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "因为 $a \\parallel b$，$\\angle 1$ 和 $\\angle 2$ 是同位角，根据\"两直线平行，同位角相等\"，所以 $\\angle 2 = \\angle 1 = 60^\\circ$。" },
+        { "type": "paragraph", "content": "因为 $\\angle 2$ 和 $\\angle 3$ 是邻补角，所以 $\\angle 3 = 180^\\circ - 60^\\circ = 120^\\circ$。" }
+      ],
+      "answer": "$\\angle 3 = 120^\\circ$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "平行线的性质",
+      "children": [
+        { "text": "两直线平行，同位角相等" },
+        { "text": "两直线平行，内错角相等" },
+        { "text": "两直线平行，同旁内角互补" }
+      ]
+    },
+    {
+      "text": "判定与性质的关系",
+      "children": [
+        { "text": "判定：角的关系 → 平行" },
+        { "text": "性质：平行 → 角的关系" },
+        { "text": "两者互为逆命题" }
+      ]
+    }
+  ]
+}

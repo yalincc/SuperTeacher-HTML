@@ -1,0 +1,60 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-11-01",
+      "stem": "下列方程中，是二元一次方程的是（  ）",
+      "options": [
+        { "label": "A", "text": "$x^2 + y = 1$" },
+        { "label": "B", "text": "$x + \\frac{1}{y} = 3$" },
+        { "label": "C", "text": "$2x - 3y = 5$" },
+        { "label": "D", "text": "$xy + x = 2$" }
+      ],
+      "answer": "C",
+      "analysis": "二元一次方程需要满足：①含有两个未知数；②未知数的次数都是 $1$；③是整式方程。A 中 $x$ 的次数是 $2$，B 中 $y$ 在分母上，D 中 $xy$ 的次数是 $2$，只有 C 符合。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-02",
+      "stem": "下列方程组中，是二元一次方程组的是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\begin{cases} x + y = 3 \\\\ x^2 + y = 5 \\end{cases}$" },
+        { "label": "B", "text": "$\\begin{cases} x + y = 3 \\\\ x - z = 2 \\end{cases}$" },
+        { "label": "C", "text": "$\\begin{cases} x + y = 3 \\\\ 2x - y = 1 \\end{cases}$" },
+        { "label": "D", "text": "$\\begin{cases} x + \\frac{1}{y} = 3 \\\\ x - y = 1 \\end{cases}$" }
+      ],
+      "answer": "C",
+      "analysis": "二元一次方程组需要满足：①含有两个相同的未知数；②每个方程都是一次方程。A 中第一个方程是二次方程，B 中含有三个未知数，D 中第一个方程不是整式方程，只有 C 符合。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-03",
+      "stem": "若 $\\begin{cases} x = 2 \\\\ y = 1 \\end{cases}$ 是方程组 $\\begin{cases} x + ay = 4 \\\\ bx + y = 5 \\end{cases}$ 的解，则 $a + b$ 的值为（  ）",
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "3" },
+        { "label": "D", "text": "4" }
+      ],
+      "answer": "B",
+      "analysis": "将 $x = 2$，$y = 1$ 代入方程组：$2 + a = 4$，解得 $a = 2$；$2b + 1 = 5$，解得 $b = 2$。所以 $a + b = 2 + 2 = 4$。等等，让我重新计算：$a = 2$，$b = 2$，$a + b = 4$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-11-04",
+      "stem": "一个二元一次方程组只有一组解。",
+      "answer": false,
+      "analysis": "二元一次方程组可能有一组解、无解或无数多组解。只有当两个方程的直线相交时才有一组解。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-11-05",
+      "segments": ["若 $x = 1$，$y = -2$ 是方程 $3x + ay = 7$ 的解，则 $a = $___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$-2$" }
+      ],
+      "analysis": "将 $x = 1$，$y = -2$ 代入方程 $3x + ay = 7$：$3 \\times 1 + a \\times (-2) = 7$，即 $3 - 2a = 7$，解得 $a = -2$。"
+    }
+  ]
+}

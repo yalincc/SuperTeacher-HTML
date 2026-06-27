@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "id": 15,
+    "slug": "lesson-15-三角形的中位线",
+    "title": "三角形的中位线",
+    "unit": "第六章 平行四边形",
+    "week": 6,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "理解三角形中位线的概念：连接三角形两边中点的线段", "isKeyPoint": true },
+    { "text": "掌握三角形中位线定理：中位线平行于第三边且等于第三边的一半", "isKeyPoint": true },
+    { "text": "能利用中位线定理进行计算和证明", "isKeyPoint": true },
+    { "text": "了解三角形中位线与平行四边形的联系", "isKeyPoint": false },
+    { "text": "体会倍长中线等辅助线方法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "三角形中位线的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "连接三角形两边**中点**的线段叫做三角形的**中位线**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "注意区分",
+          "content": "中位线 ≠ 中线。中位线连接**两边中点**，中线连接**顶点和对边中点**。一个三角形有3条中位线，3条中线。"
+        }
+      ]
+    },
+    {
+      "title": "三角形中位线定理",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**三角形中位线定理**：三角形的中位线**平行于第三边**，并且**等于第三边的一半**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "即：若 $D$、$E$ 分别是 $\\triangle ABC$ 的边 $AB$、$AC$ 的中点，则 $DE \\parallel BC$ 且 $DE = \\frac{1}{2}BC$。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "定理的两个结论",
+          "content": "① 位置关系：$DE \\parallel BC$（平行）\n② 数量关系：$DE = \\frac{1}{2}BC$（一半）\n这两个结论可以单独使用，也可以一起使用。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "逆定理",
+          "content": "经过三角形一边的中点且平行于另一边的直线，必平分第三边。"
+        }
+      ]
+    },
+    {
+      "title": "中位线定理的应用",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "三角形中位线定理常用于：\n① 证明线段平行\n② 证明线段的倍分关系\n③ 求线段的长度"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "构造中位线",
+          "content": "当题目中有中点条件时，可以考虑构造中位线。常用方法：取另一边的中点，连接构成中位线。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求中位线的长度",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\triangle ABC$ 中，$D$、$E$ 分别是 $AB$、$AC$ 的中点。若 $BC = 10$，求 $DE$ 的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "因为 $D$、$E$ 分别是 $AB$、$AC$ 的中点，所以 $DE$ 是 $\\triangle ABC$ 的中位线。\n由三角形中位线定理：$DE = \\frac{1}{2}BC = \\frac{1}{2} \\times 10 = 5$。"
+        }
+      ],
+      "answer": "$DE = 5$"
+    },
+    {
+      "title": "例2：利用中位线定理证明平行",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，在 $\\triangle ABC$ 中，$D$ 是 $AB$ 的中点，$E$ 是 $BC$ 的中点，$F$ 是 $AC$ 的中点。求证：四边形 $DEFB$ 是平行四边形。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "证明：因为 $D$、$F$ 分别是 $AB$、$AC$ 的中点，所以 $DF$ 是 $\\triangle ABC$ 的中位线。\n由中位线定理：$DF \\parallel BC$ 且 $DF = \\frac{1}{2}BC$。\n因为 $E$ 是 $BC$ 的中点，所以 $BE = \\frac{1}{2}BC$。\n所以 $DF = BE$ 且 $DF \\parallel BE$。\n由平行四边形的判定（一组对边平行且相等），四边形 $DEFB$ 是平行四边形。"
+        }
+      ],
+      "answer": "证明完毕"
+    }
+  ],
+  "summary": [
+    {
+      "text": "三角形中位线的概念",
+      "children": [
+        { "text": "连接三角形两边中点的线段" },
+        { "text": "中位线 ≠ 中线" }
+      ]
+    },
+    {
+      "text": "三角形中位线定理",
+      "children": [
+        { "text": "中位线平行于第三边" },
+        { "text": "中位线等于第三边的一半" }
+      ]
+    },
+    {
+      "text": "定理的应用",
+      "children": [
+        { "text": "证明线段平行" },
+        { "text": "证明线段的倍分关系" },
+        { "text": "求线段的长度" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-13-01",
+      "stem": "下列各式中，是方程的是（  ）",
+      "options": [
+        { "label": "A", "text": "$2+3=5$" },
+        { "label": "B", "text": "$x+1$" },
+        { "label": "C", "text": "$2x+1=3$" },
+        { "label": "D", "text": "$x>1$" }
+      ],
+      "answer": "C",
+      "analysis": "方程是含有未知数的等式。A是等式但不含未知数；B含未知数但不是等式；C既含未知数又是等式；D不是等式。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-02",
+      "stem": "下列方程中，是一元一次方程的是（  ）",
+      "options": [
+        { "label": "A", "text": "$x^2+1=0$" },
+        { "label": "B", "text": "$2x+3y=5$" },
+        { "label": "C", "text": "$\\frac{1}{x}=2$" },
+        { "label": "D", "text": "$3x-1=2x+1$" }
+      ],
+      "answer": "D",
+      "analysis": "A是二次方程；B含有两个未知数；C未知数在分母中，不是整式方程；D只含一个未知数x，次数为1，是一元一次方程。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-13-03",
+      "stem": "方程 $2x+1=2x+1$ 有无数个解。",
+      "answer": true,
+      "analysis": "化简 $2x+1=2x+1$ 得 $1=1$，这是恒等式，对任意 $x$ 值都成立，所以有无数个解。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-13-04",
+      "segments": ["若 $x=2$ 是方程 $3x-a=4$ 的解，则 $a$ 的值为___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "2" }
+      ],
+      "analysis": "把 $x=2$ 代入方程 $3x-a=4$，得 $3\\times2-a=4$，即 $6-a=4$，解得 $a=2$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-05",
+      "stem": "关于 $x$ 的方程 $ax+b=0$（$a\\neq0$）的解是（  ）",
+      "options": [
+        { "label": "A", "text": "$x=\\frac{b}{a}$" },
+        { "label": "B", "text": "$x=-\\frac{b}{a}$" },
+        { "label": "C", "text": "$x=\\frac{a}{b}$" },
+        { "label": "D", "text": "$x=-\\frac{a}{b}$" }
+      ],
+      "answer": "B",
+      "analysis": "移项得 $ax=-b$，系数化为1得 $x=-\\frac{b}{a}$（$a\\neq0$）。"
+    }
+  ]
+}

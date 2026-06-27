@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "id": 2,
+    "slug": "lesson-02-勾股定理的逆定理",
+    "title": "勾股定理的逆定理",
+    "unit": "第一章 勾股定理",
+    "week": 1,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解勾股定理的逆定理的内容", "isKeyPoint": true },
+    { "text": "能用勾股定理的逆定理判断三角形是否为直角三角形", "isKeyPoint": true },
+    { "text": "理解勾股定理与其逆定理的关系", "isKeyPoint": false },
+    { "text": "能综合运用勾股定理和逆定理解决问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "勾股定理的逆定理",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "如果三角形的三边长 $a$、$b$、$c$ 满足 $a^2 + b^2 = c^2$，那么这个三角形是**直角三角形**，且 $c$ 所对的角是直角。这就是**勾股定理的逆定理**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "正定理与逆定理",
+          "content": "勾股定理：直角三角形 → $a^2 + b^2 = c^2$（已知直角三角形，得边的关系）\n逆定理：$a^2 + b^2 = c^2$ → 直角三角形（已知边的关系，判定直角三角形）"
+        }
+      ]
+    },
+    {
+      "title": "判断直角三角形的方法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "判断一个三角形是否为直角三角形，可以按以下步骤："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "找出三角形的三条边中**最长的边**，设为 $c$",
+            "计算 $a^2 + b^2$ 与 $c^2$ 的值",
+            "若 $a^2 + b^2 = c^2$，则为直角三角形；若 $a^2 + b^2 \\neq c^2$，则不是直角三角形"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "验证时一定要用最长边作为 $c$。如果 $a^2 + b^2 > c^2$，则为锐角三角形；如果 $a^2 + b^2 < c^2$，则为钝角三角形。"
+        }
+      ]
+    },
+    {
+      "title": "勾股定理与逆定理的综合应用",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在实际问题中，常需要先用逆定理判断三角形是否为直角三角形，再用勾股定理求未知边长，或者反过来。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "应用思路",
+          "content": "①先观察题目中的边长关系 ②用逆定理判定三角形类型 ③再根据需要使用正定理或逆定理求解。"
+        }
+      ]
+    },
+    {
+      "title": "直角三角形的判定练习",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["三边长", "验证", "结论"],
+          "rows": [
+            ["5, 12, 13", "$5^2 + 12^2 = 25 + 144 = 169 = 13^2$", "是直角三角形"],
+            ["6, 8, 10", "$6^2 + 8^2 = 36 + 64 = 100 = 10^2$", "是直角三角形"],
+            ["3, 5, 7", "$3^2 + 5^2 = 9 + 25 = 34 < 49 = 7^2$", "不是直角三角形"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "勾股逆定理，三边来验证；最长边平方，等于另两边平方和，直角三角形。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断三角形是否为直角三角形",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "判断边长为 8、15、17 的三角形是否为直角三角形。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "最长边为 17。计算：$8^2 + 15^2 = 64 + 225 = 289 = 17^2$。满足 $a^2 + b^2 = c^2$，所以该三角形是直角三角形。"
+        }
+      ],
+      "answer": "该三角形是直角三角形"
+    },
+    {
+      "title": "例2：综合应用",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在三角形 $ABC$ 中，$AB = 5$，$BC = 12$，$AC = 13$。求 $\\triangle ABC$ 的面积。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "先判断三角形类型：$5^2 + 12^2 = 25 + 144 = 169 = 13^2$，所以 $\\triangle ABC$ 是直角三角形，$\\angle B = 90°$。面积为 $\\frac{1}{2} \\times 5 \\times 12 = 30$。"
+        }
+      ],
+      "answer": "$\\triangle ABC$ 的面积为 30"
+    }
+  ],
+  "summary": [
+    {
+      "text": "勾股定理的逆定理",
+      "children": [
+        { "text": "若 $a^2 + b^2 = c^2$，则三角形为直角三角形" },
+        { "text": "$c$ 为最长边，对应直角" }
+      ]
+    },
+    {
+      "text": "判断直角三角形",
+      "children": [
+        { "text": "先找最长边，再验证 $a^2 + b^2 = c^2$" },
+        { "text": "$a^2 + b^2 > c^2$ 为锐角三角形，$a^2 + b^2 < c^2$ 为钝角三角形" }
+      ]
+    },
+    {
+      "text": "综合应用",
+      "children": [
+        { "text": "逆定理判定三角形类型 + 正定理求边长" },
+        { "text": "常用于求三角形面积等实际问题" }
+      ]
+    }
+  ]
+}

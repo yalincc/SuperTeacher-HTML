@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "id": 2,
+    "slug": "lesson-02-30°45°60°角的三角函数",
+    "title": "30°45°60°角的三角函数",
+    "unit": "第一章 直角三角形的边角关系",
+    "week": 1,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "熟记 $30°$、$45°$、$60°$ 角的正弦、余弦、正切值", "isKeyPoint": true },
+    { "text": "能利用特殊角的三角函数值进行计算", "isKeyPoint": true },
+    { "text": "了解特殊角三角函数值的推导过程", "isKeyPoint": false },
+    { "text": "能利用特殊角的三角函数值解决简单问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "$30°$ 角的三角函数值",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在含 $30°$ 角的直角三角形中，设 $30°$ 角所对的直角边为 $1$，则斜边为 $2$，另一直角边为 $\\sqrt{3}$。"
+        },
+        {
+          "type": "table",
+          "headers": ["三角函数", "公式", "值"],
+          "rows": [
+            ["$\\sin 30°$", "$\\frac{\\text{对边}}{\\text{斜边}}$", "$\\frac{1}{2}$"],
+            ["$\\cos 30°$", "$\\frac{\\text{邻边}}{\\text{斜边}}$", "$\\frac{\\sqrt{3}}{2}$"],
+            ["$\\tan 30°$", "$\\frac{\\text{对边}}{\\text{邻边}}$", "$\\frac{\\sqrt{3}}{3}$"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆技巧",
+          "content": "$\\tan 30° = \\frac{\\sin 30°}{\\cos 30°} = \\frac{1/2}{\\sqrt{3}/2} = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}$"
+        }
+      ]
+    },
+    {
+      "title": "$45°$ 角的三角函数值",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在等腰直角三角形中，两直角边相等。设直角边为 $1$，则斜边为 $\\sqrt{2}$。"
+        },
+        {
+          "type": "table",
+          "headers": ["三角函数", "公式", "值"],
+          "rows": [
+            ["$\\sin 45°$", "$\\frac{\\text{对边}}{\\text{斜边}}$", "$\\frac{\\sqrt{2}}{2}$"],
+            ["$\\cos 45°$", "$\\frac{\\text{邻边}}{\\text{斜边}}$", "$\\frac{\\sqrt{2}}{2}$"],
+            ["$\\tan 45°$", "$\\frac{\\text{对边}}{\\text{邻边}}$", "$1$"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "由于等腰直角三角形的两锐角相等（均为 $45°$），所以 $\\sin 45° = \\cos 45°$。"
+        }
+      ]
+    },
+    {
+      "title": "$60°$ 角的三角函数值",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在含 $60°$ 角的直角三角形中，$60°$ 角所对的直角边为 $\\sqrt{3}$，邻边为 $1$，斜边为 $2$。"
+        },
+        {
+          "type": "table",
+          "headers": ["三角函数", "公式", "值"],
+          "rows": [
+            ["$\\sin 60°$", "$\\frac{\\text{对边}}{\\text{斜边}}$", "$\\frac{\\sqrt{3}}{2}$"],
+            ["$\\cos 60°$", "$\\frac{\\text{邻边}}{\\text{斜边}}$", "$\\frac{1}{2}$"],
+            ["$\\tan 60°$", "$\\frac{\\text{对边}}{\\text{邻边}}$", "$\\sqrt{3}$"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "注意 $\\cos 60° = \\frac{1}{2}$，不要与 $\\sin 30° = \\frac{1}{2}$ 混淆。互余的两个角，正弦和余弦值相等：$\\sin A = \\cos(90° - A)$。"
+        }
+      ]
+    },
+    {
+      "title": "特殊角三角函数值的互余关系",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "若 $A + B = 90°$，则 $\\sin A = \\cos B$，$\\cos A = \\sin B$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "例如：$\\sin 30° = \\cos 60° = \\frac{1}{2}$，$\\sin 60° = \\cos 30° = \\frac{\\sqrt{3}}{2}$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆口诀",
+          "content": "30-60-90 三角形，边长比为 $1:\\sqrt{3}:2$；45-45-90 三角形，边长比为 $1:1:\\sqrt{2}$。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：利用特殊角求值",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "计算：$\\sin 60° + \\cos 45° - \\tan 30°$ 的值。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 原式 $= \\frac{\\sqrt{3}}{2} + \\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{3}}{3}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$= \\frac{3\\sqrt{3}}{6} + \\frac{3\\sqrt{2}}{6} - \\frac{2\\sqrt{3}}{6}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$= \\frac{\\sqrt{3} + 3\\sqrt{2}}{6}$"
+        }
+      ],
+      "answer": "$\\frac{\\sqrt{3} + 3\\sqrt{2}}{6}$"
+    },
+    {
+      "title": "例2：利用特殊角求边长",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle ABC$ 中，$\\angle C = 90°$，$\\angle A = 30°$，$BC = 5$，求 $AB$ 和 $AC$ 的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $\\angle A = 30°$，所以 $\\sin A = \\sin 30° = \\frac{1}{2}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "由 $\\sin A = \\frac{BC}{AB}$，得 $\\frac{5}{AB} = \\frac{1}{2}$，解得 $AB = 10$"
+        },
+        {
+          "type": "paragraph",
+          "content": "由 $\\cos A = \\cos 30° = \\frac{\\sqrt{3}}{2}$，得 $\\frac{AC}{10} = \\frac{\\sqrt{3}}{2}$，解得 $AC = 5\\sqrt{3}$"
+        }
+      ],
+      "answer": "$AB = 10$，$AC = 5\\sqrt{3}$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "$30°$ 角的三角函数值",
+      "children": [
+        { "text": "$\\sin 30° = \\frac{1}{2}$，$\\cos 30° = \\frac{\\sqrt{3}}{2}$，$\\tan 30° = \\frac{\\sqrt{3}}{3}$" }
+      ]
+    },
+    {
+      "text": "$45°$ 角的三角函数值",
+      "children": [
+        { "text": "$\\sin 45° = \\cos 45° = \\frac{\\sqrt{2}}{2}$，$\\tan 45° = 1$" }
+      ]
+    },
+    {
+      "text": "$60°$ 角的三角函数值",
+      "children": [
+        { "text": "$\\sin 60° = \\frac{\\sqrt{3}}{2}$，$\\cos 60° = \\frac{1}{2}$，$\\tan 60° = \\sqrt{3}$" }
+      ]
+    },
+    {
+      "text": "互余关系",
+      "children": [
+        { "text": "$\\sin A = \\cos(90° - A)$，$\\cos A = \\sin(90° - A)$" }
+      ]
+    }
+  ]
+}

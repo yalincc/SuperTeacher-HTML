@@ -1,0 +1,61 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-08-01",
+      "stem": "下列各式中，从左到右的变形是因式分解的是（  ）",
+      "options": [
+        { "label": "A", "text": "$a(x+y) = ax + ay$" },
+        { "label": "B", "text": "$x^2 - 4 + 4x = (x+2)(x-2) + 4x$" },
+        { "label": "C", "text": "$x^2 - 4 = (x+2)(x-2)$" },
+        { "label": "D", "text": "$x^2 - 1 + x = (x+1)(x-1) + x$" }
+      ],
+      "answer": "C",
+      "analysis": "因式分解必须把多项式化为整式的积的形式。A是整式乘法，B和D右边不是纯粹的积的形式，只有C符合因式分解的定义。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-08-02",
+      "stem": "因式分解 $x^2 - 3x$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$x(x - 3)$" },
+        { "label": "B", "text": "$x^2(1 - \\frac{3}{x})$" },
+        { "label": "C", "text": "$x(x - 3) + 0$" },
+        { "label": "D", "text": "$x \\cdot x - 3 \\cdot x$" }
+      ],
+      "answer": "A",
+      "analysis": "提取公因式 $x$，得 $x^2 - 3x = x(x - 3)$。B中含分式不是整式，C和D右边不是积的形式。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-08-03",
+      "stem": "下列变形中，与 $x^2 - 4 = (x+2)(x-2)$ 互逆的是（  ）",
+      "options": [
+        { "label": "A", "text": "$(x+2)(x-2) = x^2 - 4$" },
+        { "label": "B", "text": "$x^2 + 4 = (x+2)^2 - 4x$" },
+        { "label": "C", "text": "$(x+2)(x+2) = x^2 + 4x + 4$" },
+        { "label": "D", "text": "$x^2 - 4x + 4 = (x-2)^2$" }
+      ],
+      "answer": "A",
+      "analysis": "$x^2 - 4 = (x+2)(x-2)$ 是因式分解，其逆运算是整式乘法 $(x+2)(x-2) = x^2 - 4$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-08-04",
+      "stem": "把 $6x^2y + 9xy^2$ 分解因式的结果是 $3xy(2x + 3y)$，这是一个因式分解。",
+      "answer": true,
+      "analysis": "左边是多项式，右边 $3xy(2x + 3y)$ 是两个整式的积，且 $3xy(2x+3y) = 6x^2y + 9xy^2$，符合因式分解的定义。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-08-05",
+      "segments": ["因式分解是整式乘法的___1___运算。将 $m(a+b+c)$ 展开得 $ma+mb+mc$，将 $ma+mb+mc$ 分解因式得___2___。"],
+      "blanks": [
+        { "index": 1, "answer": "逆" },
+        { "index": 2, "answer": "$m(a+b+c)$" }
+      ],
+      "analysis": "因式分解与整式乘法互逆。$m(a+b+c) = ma+mb+mc$ 是整式乘法，反过来 $ma+mb+mc = m(a+b+c)$ 是因式分解。"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "id": 9,
+    "slug": "lesson-09-提公因式法与公式法",
+    "title": "提公因式法与公式法",
+    "unit": "第四章 因式分解",
+    "week": 4,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "掌握提公因式法分解因式", "isKeyPoint": true },
+    { "text": "掌握用平方差公式分解因式：$a^2 - b^2 = (a+b)(a-b)$", "isKeyPoint": true },
+    { "text": "掌握用完全平方公式分解因式：$a^2 \\pm 2ab + b^2 = (a \\pm b)^2$", "isKeyPoint": true },
+    { "text": "能综合运用提公因式法和公式法分解因式", "isKeyPoint": false },
+    { "text": "能根据多项式特征选择合适的分解方法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "提公因式法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "如果多项式的各项含有公因式，可以提取这个公因式，再用多项式除以公因式，这种因式分解的方法叫做**提公因式法**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "一般地，$ma + mb + mc = m(a + b + c)$，其中 $m$ 是公因式。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "确定公因式",
+          "content": "公因式取各项系数的**最大公约数**与各项都含有的**字母的最低次幂**的积。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "注意符号",
+          "content": "如果首项为负，通常先提取负号。例如 $-2x^2 + 4x = -2x(x - 2)$。"
+        }
+      ]
+    },
+    {
+      "title": "平方差公式法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**平方差公式**：$a^2 - b^2 = (a + b)(a - b)$"
+        },
+        {
+          "type": "paragraph",
+          "content": "即两个数的平方差，等于这两个数的和与差的积。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "使用条件",
+          "content": "多项式必须是**两项**，且两项都能写成**平方**的形式，中间是**减号**。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "常见变形",
+          "content": "$4x^2 - 9 = (2x)^2 - 3^2 = (2x+3)(2x-3)$\n$16a^2 - 25b^2 = (4a)^2 - (5b)^2 = (4a+5b)(4a-5b)$"
+        }
+      ]
+    },
+    {
+      "title": "完全平方公式法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**完全平方公式**：$a^2 + 2ab + b^2 = (a + b)^2$\n$a^2 - 2ab + b^2 = (a - b)^2$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "识别特征",
+          "content": "三项式中，有两项是平方项且为正，第三项是这两项底数之积的2倍。口诀：**首平方，尾平方，首尾二倍在中央**。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "注意符号",
+          "content": "第三项为 $+2ab$ 时分解为 $(a+b)^2$；第三项为 $-2ab$ 时分解为 $(a-b)^2$。"
+        }
+      ]
+    },
+    {
+      "title": "综合运用",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "因式分解时，应**先提公因式，再用公式法**，即遵循'一提二套'的原则。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "分解步骤",
+          "content": "①看是否有公因式 → ②看能否用平方差公式 → ③看能否用完全平方公式 → ④检查是否分解彻底"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：提公因式法",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "分解因式：$6x^3y - 9x^2y^2 + 3x^2y$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "各项的公因式为 $3x^2y$。\n$6x^3y - 9x^2y^2 + 3x^2y = 3x^2y(2x - 3y + 1)$"
+        }
+      ],
+      "answer": "$3x^2y(2x - 3y + 1)$"
+    },
+    {
+      "title": "例2：公式法",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "分解因式：$4x^2 - 12x + 9$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "$4x^2 - 12x + 9 = (2x)^2 - 2 \\times 2x \\times 3 + 3^2 = (2x - 3)^2$"
+        }
+      ],
+      "answer": "$(2x - 3)^2$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "提公因式法",
+      "children": [
+        { "text": "$ma + mb + mc = m(a + b + c)$" },
+        { "text": "公因式取系数最大公约数和字母最低次幂的积" }
+      ]
+    },
+    {
+      "text": "平方差公式法",
+      "children": [
+        { "text": "$a^2 - b^2 = (a + b)(a - b)$" },
+        { "text": "适用于两项且都为平方、中间为减号" }
+      ]
+    },
+    {
+      "text": "完全平方公式法",
+      "children": [
+        { "text": "$a^2 \\pm 2ab + b^2 = (a \\pm b)^2$" },
+        { "text": "首平方、尾平方、首尾二倍在中央" }
+      ]
+    },
+    {
+      "text": "综合步骤",
+      "children": [
+        { "text": "先提公因式，再用公式法" },
+        { "text": "分解后检查是否彻底" }
+      ]
+    }
+  ]
+}

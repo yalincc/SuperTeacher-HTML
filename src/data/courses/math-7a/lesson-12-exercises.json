@@ -1,0 +1,58 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-12-01",
+      "stem": "下列图形中，是多边形的是（    ）",
+      "options": [
+        { "label": "A", "text": "圆" },
+        { "label": "B", "text": "由曲线围成的图形" },
+        { "label": "C", "text": "三角形" },
+        { "label": "D", "text": "扇形" }
+      ],
+      "answer": "C",
+      "analysis": "多边形是由线段首尾顺次连接组成的封闭图形。三角形是多边形，故选C。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-02",
+      "stem": "正五边形的每个内角是（    ）",
+      "options": [
+        { "label": "A", "text": "$72^\\circ$" },
+        { "label": "B", "text": "$90^\\circ$" },
+        { "label": "C", "text": "$108^\\circ$" },
+        { "label": "D", "text": "$120^\\circ$" }
+      ],
+      "answer": "C",
+      "analysis": "正五边形的内角和 $= (5 - 2) \\times 180^\\circ = 540^\\circ$，每个内角 $= 540^\\circ \\div 5 = 108^\\circ$，故选C。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-03",
+      "stem": "已知圆的直径 $d = 8$ cm，则半径 $r$ 是（    ）",
+      "options": [
+        { "label": "A", "text": "$16$ cm" },
+        { "label": "B", "text": "$8$ cm" },
+        { "label": "C", "text": "$4$ cm" },
+        { "label": "D", "text": "$2$ cm" }
+      ],
+      "answer": "C",
+      "analysis": "根据 $d = 2r$，所以 $r = \\frac{d}{2} = \\frac{8}{2} = 4$ cm，故选C。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-12-04",
+      "stem": "直径是圆中最长的弦。",
+      "answer": true,
+      "analysis": "在圆中，直径是通过圆心的弦，是圆中最长的弦。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-12-05",
+      "segments": ["一个四边形的内角和是", "___1___", "$^\\circ$。"],
+      "blanks": [{ "index": 1, "answer": "$360$" }],
+      "analysis": "四边形的内角和 $= (4 - 2) \\times 180^\\circ = 360^\\circ$。"
+    }
+  ]
+}

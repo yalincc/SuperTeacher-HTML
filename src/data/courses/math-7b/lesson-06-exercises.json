@@ -1,0 +1,60 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-06-01",
+      "stem": "如图，$a \\parallel b$，$\\angle 1 = 70^\\circ$，则 $\\angle 2$ 的度数是（  ）（$\\angle 1$ 和 $\\angle 2$ 是同位角）",
+      "options": [
+        { "label": "A", "text": "$70^\\circ$" },
+        { "label": "B", "text": "$110^\\circ$" },
+        { "label": "C", "text": "$20^\\circ$" },
+        { "label": "D", "text": "$180^\\circ$" }
+      ],
+      "answer": "A",
+      "analysis": "两直线平行，同位角相等。因为 $a \\parallel b$，所以 $\\angle 2 = \\angle 1 = 70^\\circ$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-06-02",
+      "stem": "如图，$a \\parallel b$，$\\angle 1 = 120^\\circ$，则 $\\angle 2$ 的度数是（  ）（$\\angle 1$ 和 $\\angle 2$ 是同旁内角）",
+      "options": [
+        { "label": "A", "text": "$120^\\circ$" },
+        { "label": "B", "text": "$60^\\circ$" },
+        { "label": "C", "text": "$30^\\circ$" },
+        { "label": "D", "text": "$150^\\circ$" }
+      ],
+      "answer": "B",
+      "analysis": "两直线平行，同旁内角互补。$\\angle 1 + \\angle 2 = 180^\\circ$，所以 $\\angle 2 = 180^\\circ - 120^\\circ = 60^\\circ$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-06-03",
+      "stem": "下列说法中，属于平行线性质的是（  ）",
+      "options": [
+        { "label": "A", "text": "同位角相等，两直线平行" },
+        { "label": "B", "text": "两直线平行，内错角相等" },
+        { "label": "C", "text": "内错角相等，两直线平行" },
+        { "label": "D", "text": "同旁内角互补，两直线平行" }
+      ],
+      "answer": "B",
+      "analysis": "A、C、D 都是平行线的判定（由角推平行）。B 是平行线的性质（由平行推角）。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-06-04",
+      "stem": "如果两直线平行，那么同旁内角相等。",
+      "answer": false,
+      "analysis": "两直线平行时，同旁内角互补（和为 $180^\\circ$），而不是相等。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-06-05",
+      "segments": ["两直线平行，被第三条直线所截，如果一组同位角中有一个是 $65^\\circ$，则另一个同位角为___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$65^\\circ$" }
+      ],
+      "analysis": "两直线平行，同位角相等。所以另一个同位角也是 $65^\\circ$。"
+    }
+  ]
+}

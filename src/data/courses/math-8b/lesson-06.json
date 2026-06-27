@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "id": 6,
+    "slug": "lesson-06-图形的平移",
+    "title": "图形的平移",
+    "unit": "第三章 图形的平移与旋转",
+    "week": 3,
+    "day": 1
+  },
+  "objectives": [
+    {
+      "text": "理解平移的概念",
+      "isKeyPoint": true
+    },
+    {
+      "text": "掌握平移的三要素：方向、距离、图形",
+      "isKeyPoint": true
+    },
+    {
+      "text": "掌握平移的性质",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能画出平移后的图形",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能利用平移解决实际问题",
+      "isKeyPoint": false
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "平移的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在平面内，将一个图形沿某个方向移动一定的距离，这样的图形运动称为**平移**。平移不改变图形的形状和大小。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "平移的三要素",
+          "content": "平移的三要素是：**方向**、**距离**、**图形**。其中方向和距离决定了平移的位置。"
+        },
+        {
+          "type": "paragraph",
+          "content": "平移可以沿任意方向进行，常见的有上下、左右、斜向等。"
+        }
+      ]
+    },
+    {
+      "title": "平移的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "平移具有以下重要性质："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "平移不改变图形的形状和大小",
+            "平移前后，对应线段平行且相等",
+            "平移前后，对应角相等",
+            "平移前后，对应点所连的线段平行且相等"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "对应点",
+          "content": "在平移中，原图形上的每个点都沿相同的方向移动相同的距离，这些点称为对应点。对应点所连的线段平行且相等。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "平移不改变图形的形状和大小，只改变图形的位置。平移前后的图形是全等的。"
+        }
+      ]
+    },
+    {
+      "title": "画平移后的图形",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "画平移后的图形，可以按照以下步骤进行："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "确定平移的方向和距离",
+            "找出原图形的关键点（顶点）",
+            "将每个关键点沿平移方向移动指定距离，得到对应点",
+            "连接对应点，得到平移后的图形"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "作图技巧",
+          "content": "对于复杂的图形，可以先画出图形的轮廓线，再确定关键点的位置。对于对称图形，可以利用对称性简化作图。"
+        },
+        {
+          "type": "paragraph",
+          "content": "画完平移后的图形后，可以验证对应线段是否平行且相等，对应角是否相等。"
+        }
+      ]
+    },
+    {
+      "title": "平移的应用",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "平移在实际生活中有广泛的应用，例如："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "电梯的运动",
+            "滑动窗户",
+            "推拉门",
+            "物体在传送带上的运动"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "数学应用",
+          "content": "在数学中，平移可以用来简化图形，构造全等图形，解决几何证明问题。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：画平移后的图形",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "将三角形 $ABC$ 沿 $AB$ 方向平移 $2\text{ cm}$，画出平移后的三角形 $A'B'C'$。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "1. 确定平移方向为 $AB$ 方向，平移距离为 $2\text{ cm}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "2. 找出三角形 $ABC$ 的三个顶点 $A$、$B$、$C$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "3. 将点 $A$ 沿 $AB$ 方向移动 $2\text{ cm}$，得到对应点 $A'$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "4. 将点 $B$ 沿 $AB$ 方向移动 $2\text{ cm}$，得到对应点 $B'$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "5. 将点 $C$ 沿 $AB$ 方向移动 $2\text{ cm}$，得到对应点 $C'$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "6. 连接 $A'B'$、$B'C'$、$C'A'$，得到平移后的三角形 $A'B'C'$。"
+        }
+      ],
+      "answer": "平移后的三角形 $A'B'C'$ 如图所示"
+    },
+    {
+      "title": "例2：利用平移解决实际问题",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，将矩形 $ABCD$ 沿 $AD$ 方向平移 $3\text{ cm}$，得到矩形 $A'B'C'D'$。已知 $AB=4\text{ cm}$，$BC=5\text{ cm}$，求阴影部分的面积。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为矩形 $ABCD$ 沿 $AD$ 方向平移 $3\text{ cm}$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $AA'=3\text{ cm}$，$DD'=3\text{ cm}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "阴影部分是一个矩形，长为 $BC=5\text{ cm}$，宽为 $AA'=3\text{ cm}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以阴影部分的面积为 $5×3=15\text{ cm}^2$。"
+        }
+      ],
+      "answer": "阴影部分的面积为 $15\text{ cm}^2$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "平移的概念",
+      "children": [
+        {
+          "text": "在平面内，将一个图形沿某个方向移动一定的距离"
+        },
+        {
+          "text": "平移不改变图形的形状和大小"
+        }
+      ]
+    },
+    {
+      "text": "平移的三要素",
+      "children": [
+        {
+          "text": "方向"
+        },
+        {
+          "text": "距离"
+        },
+        {
+          "text": "图形"
+        }
+      ]
+    },
+    {
+      "text": "平移的性质",
+      "children": [
+        {
+          "text": "平移不改变图形的形状和大小"
+        },
+        {
+          "text": "对应线段平行且相等"
+        },
+        {
+          "text": "对应角相等"
+        },
+        {
+          "text": "对应点所连的线段平行且相等"
+        }
+      ]
+    }
+  ]
+}

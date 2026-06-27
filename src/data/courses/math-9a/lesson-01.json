@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "id": 1,
+    "slug": "lesson-01-菱形",
+    "title": "菱形",
+    "unit": "第一章 特殊四边形",
+    "week": 1,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解菱形的定义：一组邻边相等的平行四边形", "isKeyPoint": true },
+    { "text": "掌握菱形的性质：四边相等、对角线互相垂直平分", "isKeyPoint": true },
+    { "text": "掌握菱形的面积公式 $S = \\frac{1}{2} d_1 d_2$", "isKeyPoint": true },
+    { "text": "能利用菱形的性质解决相关几何问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "菱形的定义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一组邻边相等的平行四边形叫做**菱形**。菱形是特殊的平行四边形，它具有平行四边形的所有性质，同时还有自己独特的性质。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "定义要点",
+          "content": "菱形必须满足两个条件：①是平行四边形；②有一组邻边相等。"
+        }
+      ]
+    },
+    {
+      "title": "菱形的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "菱形具有以下性质："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**四边相等**：菱形的四条边都相等",
+            "**对角线互相垂直平分**：菱形的对角线互相垂直，且互相平分",
+            "**对角相等**：菱形的对角相等（继承平行四边形性质）",
+            "**对角线平分对角**：菱形的每条对角线平分一组对角"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "菱形的对角线**不一定相等**，只有正方形的对角线才相等。"
+        }
+      ]
+    },
+    {
+      "title": "菱形的面积",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "菱形的面积有两种计算方法："
+        },
+        {
+          "type": "paragraph",
+          "content": "方法一：$S = \\text{底} \\times \\text{高}$（与平行四边形相同）"
+        },
+        {
+          "type": "paragraph",
+          "content": "方法二：$S = \\frac{1}{2} d_1 d_2$（其中 $d_1$、$d_2$ 为两条对角线的长度）"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "面积公式推导",
+          "content": "菱形的对角线互相垂直，将菱形分成四个全等的直角三角形。每个直角三角形的面积为 $\\frac{1}{2} \\times \\frac{d_1}{2} \\times \\frac{d_2}{2} = \\frac{d_1 d_2}{8}$，四个三角形的面积之和为 $\\frac{1}{2} d_1 d_2$。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求菱形的对角线长度",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知菱形 $ABCD$ 的对角线 $AC = 8\\text{cm}$，$BD = 6\\text{cm}$，求菱形的边长和面积。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 设对角线交点为 $O$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为菱形的对角线互相垂直平分，所以 $AO = \\frac{AC}{2} = 4\\text{cm}$，$BO = \\frac{BD}{2} = 3\\text{cm}$，且 $\\angle AOB = 90°$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle AOB$ 中，由勾股定理得："
+        },
+        {
+          "type": "paragraph",
+          "content": "$AB = \\sqrt{AO^2 + BO^2} = \\sqrt{4^2 + 3^2} = \\sqrt{25} = 5\\text{cm}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "菱形的面积为：$S = \\frac{1}{2} \\times AC \\times BD = \\frac{1}{2} \\times 8 \\times 6 = 24\\text{cm}^2$"
+        }
+      ],
+      "answer": "边长为 $5\\text{cm}$，面积为 $24\\text{cm}^2$"
+    },
+    {
+      "title": "例2：利用菱形性质证明",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，菱形 $ABCD$ 中，$E$ 是 $AB$ 的中点，且 $DE \\perp AB$。求菱形各内角的度数。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 连接 $BD$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为菱形 $ABCD$，所以 $AB = AD$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "又因为 $E$ 是 $AB$ 的中点，且 $DE \\perp AB$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $DE$ 是 $AB$ 的垂直平分线，故 $AD = BD$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "因此 $AB = AD = BD$，即 $\\triangle ABD$ 是等边三角形。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle A = 60°$，从而 $\\angle ABC = 180° - 60° = 120°$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "菱形各内角为：$\\angle A = \\angle C = 60°$，$\\angle ABC = \\angle ADC = 120°$。"
+        }
+      ],
+      "answer": "$\\angle A = \\angle C = 60°$，$\\angle ABC = \\angle ADC = 120°$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "菱形的定义",
+      "children": [
+        { "text": "一组邻边相等的平行四边形叫做菱形" }
+      ]
+    },
+    {
+      "text": "菱形的性质",
+      "children": [
+        { "text": "四边相等" },
+        { "text": "对角线互相垂直平分" },
+        { "text": "对角线平分对角" }
+      ]
+    },
+    {
+      "text": "菱形的面积",
+      "children": [
+        { "text": "$S = \\frac{1}{2} d_1 d_2$（对角线乘积的一半）" },
+        { "text": "$S = \\text{底} \\times \\text{高}$" }
+      ]
+    }
+  ]
+}

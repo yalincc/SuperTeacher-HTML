@@ -1,0 +1,62 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-10-01",
+      "stem": "三角形的三个内角之和为（  ）",
+      "options": [
+        { "label": "A", "text": "$90°$" },
+        { "label": "B", "text": "$180°$" },
+        { "label": "C", "text": "$270°$" },
+        { "label": "D", "text": "$360°$" }
+      ],
+      "answer": "B",
+      "analysis": "三角形内角和定理：三角形三个内角之和等于 $180°$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-02",
+      "stem": "在 $\\triangle ABC$ 中，$\\angle A = 40°$，$\\angle B = 60°$，则外角 $\\angle ACD$ 的度数为（  ）",
+      "options": [
+        { "label": "A", "text": "$100°$" },
+        { "label": "B", "text": "$80°$" },
+        { "label": "C", "text": "$120°$" },
+        { "label": "D", "text": "$140°$" }
+      ],
+      "answer": "A",
+      "analysis": "由外角定理，$\\angle ACD = \\angle A + \\angle B = 40° + 60° = 100°$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-03",
+      "stem": "一个三角形的一个外角等于 $130°$，则与它不相邻的两个内角的度数之和为（  ）",
+      "options": [
+        { "label": "A", "text": "$50°$" },
+        { "label": "B", "text": "$130°$" },
+        { "label": "C", "text": "$180°$" },
+        { "label": "D", "text": "$230°$" }
+      ],
+      "answer": "B",
+      "analysis": "由外角定理，三角形的一个外角等于与它不相邻的两个内角之和。所以这两个内角之和为 $130°$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-04",
+      "stem": "三角形的一个外角一定大于任意一个内角。",
+      "answer": false,
+      "analysis": "错误。三角形的外角大于与它不相邻的内角，但不一定大于与它相邻的内角（即该外角的补角）。例如外角为 $60°$ 时，相邻的内角为 $120°$，外角小于该内角。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-05",
+      "segments": ["在 $\\triangle ABC$ 中，$\\angle A : \\angle B : \\angle C = 2 : 3 : 4$，则 $\\angle A = $___1___，$\\angle B = $___2___，$\\angle C = $___3___。"],
+      "blanks": [
+        { "index": 1, "answer": "40°" },
+        { "index": 2, "answer": "60°" },
+        { "index": 3, "answer": "80°" }
+      ],
+      "analysis": "设 $\\angle A = 2k$，$\\angle B = 3k$，$\\angle C = 4k$。由内角和定理 $2k + 3k + 4k = 180°$，解得 $k = 20°$。所以 $\\angle A = 40°$，$\\angle B = 60°$，$\\angle C = 80°$。"
+    }
+  ]
+}

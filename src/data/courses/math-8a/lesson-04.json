@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "id": 4,
+    "slug": "lesson-04-平方根",
+    "title": "平方根",
+    "unit": "第二章 实数",
+    "week": 2,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解平方根和算术平方根的概念", "isKeyPoint": true },
+    { "text": "掌握 $\\sqrt{a}$ 的意义和性质", "isKeyPoint": true },
+    { "text": "能用计算器求一个数的平方根", "isKeyPoint": false },
+    { "text": "知道一个正数有两个平方根，它们互为相反数", "isKeyPoint": false },
+    { "text": "了解0的平方根是0，负数没有平方根", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "平方根的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "如果一个数的平方等于 $a$，即 $x^2 = a$，那么这个数 $x$ 叫做 $a$ 的**平方根**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "关键理解",
+          "content": "平方根是\\\"谁的平方等于 $a\\\"这个问题的答案。例如 $3^2 = 9$，所以 3 是 9 的平方根；同时 $(-3)^2 = 9$，所以 -3 也是 9 的平方根。"
+        }
+      ]
+    },
+    {
+      "title": "平方根的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "关于平方根，有以下重要性质："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**正数**有两个平方根，它们互为相反数（如 9 的平方根是 $\\pm 3$）",
+            "**0** 的平方根是 0",
+            "**负数**没有平方根（因为任何数的平方都不会是负数）"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$\\sqrt{9} = 3$（只取正值），而 9 的平方根是 $\\pm 3$。$\\sqrt{a}$ 表示 $a$ 的**算术平方根**，即非负的那个。"
+        }
+      ]
+    },
+    {
+      "title": "算术平方根",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "正数 $a$ 的**算术平方根**记作 $\\sqrt{a}$，表示 $a$ 的平方根中非负的那个。即若 $x \\geq 0$ 且 $x^2 = a$，则 $x = \\sqrt{a}$。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "$\\sqrt{a}$ 的性质",
+          "content": "$\\sqrt{a}$ 有意义的条件是 $a \\geq 0$；$\\sqrt{a} \\geq 0$（算术平方根是非负的）；$(\\sqrt{a})^2 = a$。"
+        }
+      ]
+    },
+    {
+      "title": "用计算器求平方根",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "对于不能直接开方的数，可以用计算器求近似值。例如 $\\sqrt{2} \\approx 1.414$，$\\sqrt{3} \\approx 1.732$。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "常用近似值",
+          "content": "$\\sqrt{2} \\approx 1.414$，$\\sqrt{3} \\approx 1.732$，$\\sqrt{5} \\approx 2.236$。记住这些常用近似值很有用。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求平方根和算术平方根",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "求下列各数的平方根和算术平方根：(1) 25  (2) $\\frac{9}{16}$  (3) 0.01"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "(1) 25 的平方根为 $\\pm 5$，算术平方根为 5。\n(2) $\\frac{9}{16}$ 的平方根为 $\\pm \\frac{3}{4}$，算术平方根为 $\\frac{3}{4}$。\n(3) 0.01 的平方根为 $\\pm 0.1$，算术平方根为 0.1。"
+        }
+      ],
+      "answer": "(1) 平方根 $\\pm 5$，算术平方根 5；(2) 平方根 $\\pm \\frac{3}{4}$，算术平方根 $\\frac{3}{4}$；(3) 平方根 $\\pm 0.1$，算术平方根 0.1"
+    },
+    {
+      "title": "例2：用计算器求近似值",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "用计算器求 $\\sqrt{7}$ 的近似值（精确到 0.01）。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "在计算器上输入 $\\sqrt{7}$，得到 $\\sqrt{7} \\approx 2.64575\\cdots$，精确到 0.01 为 $\\sqrt{7} \\approx 2.65$。"
+        }
+      ],
+      "answer": "$\\sqrt{7} \\approx 2.65$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "平方根的概念",
+      "children": [
+        { "text": "若 $x^2 = a$，则 $x$ 是 $a$ 的平方根" },
+        { "text": "正数有两个平方根，互为相反数" },
+        { "text": "0 的平方根是 0，负数没有平方根" }
+      ]
+    },
+    {
+      "text": "算术平方根",
+      "children": [
+        { "text": "$\\sqrt{a}$ 表示 $a$ 的算术平方根（$a \\geq 0$）" },
+        { "text": "$\\sqrt{a} \\geq 0$，$(\\sqrt{a})^2 = a$" }
+      ]
+    },
+    {
+      "text": "常用近似值",
+      "children": [
+        { "text": "$\\sqrt{2} \\approx 1.414$，$\\sqrt{3} \\approx 1.732$，$\\sqrt{5} \\approx 2.236$" }
+      ]
+    }
+  ]
+}

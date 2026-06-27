@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "id": 14,
+    "slug": "lesson-14-平行四边形的判定",
+    "title": "平行四边形的判定",
+    "unit": "第六章 平行四边形",
+    "week": 6,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "掌握平行四边形的5种判定方法", "isKeyPoint": true },
+    { "text": "能根据条件选择合适的判定方法证明四边形是平行四边形", "isKeyPoint": true },
+    { "text": "理解判定方法与性质的互逆关系", "isKeyPoint": false },
+    { "text": "能综合运用判定方法和性质解决几何问题", "isKeyPoint": false },
+    { "text": "体会分类讨论的数学思想", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "平行四边形的判定方法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "判定一个四边形是平行四边形，有以下五种方法："
+        },
+        {
+          "type": "paragraph",
+          "content": "**判定1**：两组对边分别**平行**的四边形是平行四边形（定义法）\n**判定2**：两组对边分别**相等**的四边形是平行四边形\n**判定3**：一组对边**平行且相等**的四边形是平行四边形\n**判定4**：对角线**互相平分**的四边形是平行四边形\n**判定5**：两组对角分别**相等**的四边形是平行四边形"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "选择策略",
+          "content": "已知对边平行 → 用判定1或3\n已知对边相等 → 用判定2\n已知对角线关系 → 用判定4\n已知角的关系 → 用判定5"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "常见错误",
+          "content": "一组对边平行，另一组对边相等，**不能**判定为平行四边形（可能是等腰梯形）。"
+        }
+      ]
+    },
+    {
+      "title": "判定方法与性质的互逆关系",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "平行四边形的**性质**：已知是平行四边形 → 得到边、角、对角线的关系\n平行四边形的**判定**：已知边、角、对角线的关系 → 判定是平行四边形"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "互逆关系",
+          "content": "性质和判定是互逆的。性质是'已知平行四边形得结论'，判定是'已知条件得平行四边形'。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：用一组对边平行且相等判定",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，在四边形 $ABCD$ 中，$AB \\parallel CD$ 且 $AB = CD$。求证：四边形 $ABCD$ 是平行四边形。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "证明：连接 $AC$。\n因为 $AB \\parallel CD$，所以 $\\angle BAC = \\angle DCA$（内错角相等）。\n在 $\\triangle ABC$ 和 $\\triangle CDA$ 中：\n$AB = CD$，$\\angle BAC = \\angle DCA$，$AC = CA$（公共边）。\n所以 $\\triangle ABC \\cong \\triangle CDA$（SAS）。\n所以 $AD = BC$（全等三角形对应边相等）。\n又因为 $AB = CD$，所以四边形 $ABCD$ 的两组对边分别相等。\n由判定2，四边形 $ABCD$ 是平行四边形。"
+        }
+      ],
+      "answer": "证明完毕"
+    },
+    {
+      "title": "例2：用对角线互相平分判定",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，四边形 $ABCD$ 的对角线 $AC$ 和 $BD$ 相交于点 $O$，且 $OA = OC$，$OB = OD$。求证：四边形 $ABCD$ 是平行四边形。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "证明：在 $\\triangle AOB$ 和 $\\triangle COD$ 中：\n$OA = OC$，$\\angle AOB = \\angle COD$（对顶角相等），$OB = OD$。\n所以 $\\triangle AOB \\cong \\triangle COD$（SAS）。\n所以 $AB = CD$，$\\angle ABO = \\angle CDO$。\n由 $\\angle ABO = \\angle CDO$ 得 $AB \\parallel CD$（内错角相等，两直线平行）。\n因为 $AB \\parallel CD$ 且 $AB = CD$，由判定3，四边形 $ABCD$ 是平行四边形。"
+        }
+      ],
+      "answer": "证明完毕"
+    }
+  ],
+  "summary": [
+    {
+      "text": "平行四边形的判定方法",
+      "children": [
+        { "text": "判定1：两组对边分别平行（定义法）" },
+        { "text": "判定2：两组对边分别相等" },
+        { "text": "判定3：一组对边平行且相等" },
+        { "text": "判定4：对角线互相平分" },
+        { "text": "判定5：两组对角分别相等" }
+      ]
+    },
+    {
+      "text": "判定与性质的关系",
+      "children": [
+        { "text": "性质：已知平行四边形 → 得到边角关系" },
+        { "text": "判定：已知条件 → 得到平行四边形" }
+      ]
+    }
+  ]
+}

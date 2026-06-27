@@ -1,0 +1,58 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-07-01",
+      "stem": "用字母表示'a与b的差的平方'，下列正确的是（    ）",
+      "options": [
+        { "label": "A", "text": "$a^2 - b^2$" },
+        { "label": "B", "text": "$(a - b)^2$" },
+        { "label": "C", "text": "$a - b^2$" },
+        { "label": "D", "text": "$a^2 - b$" }
+      ],
+      "answer": "B",
+      "analysis": "a与b的差是 $a - b$，差的平方是 $(a - b)^2$，故选B。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-07-02",
+      "stem": "下列各式中，是代数式的是（    ）",
+      "options": [
+        { "label": "A", "text": "$x + y = 5$" },
+        { "label": "B", "text": "$a > 0$" },
+        { "label": "C", "text": "$3x^2 - 1$" },
+        { "label": "D", "text": "$2 + 3 = 5$" }
+      ],
+      "answer": "C",
+      "analysis": "代数式中不含有等号或不等号，$3x^2 - 1$ 是代数式，故选C。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-07-03",
+      "stem": "如果 $a = 2$，$b = 3$，那么 $a^2 + b^2$ 的值是（    ）",
+      "options": [
+        { "label": "A", "text": "$10$" },
+        { "label": "B", "text": "$13$" },
+        { "label": "C", "text": "$25$" },
+        { "label": "D", "text": "$36$" }
+      ],
+      "answer": "B",
+      "analysis": "当 $a = 2$，$b = 3$ 时，$a^2 + b^2 = 2^2 + 3^2 = 4 + 9 = 13$，故选B。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-07-04",
+      "stem": "单独一个数或一个字母也叫做代数式。",
+      "answer": true,
+      "analysis": "根据代数式的定义，单独一个数或字母也是代数式，所以这句话是正确的。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-07-05",
+      "segments": ["用含字母的式子表示：比 $x$ 的2倍大1的数是", "___1___", "。"],
+      "blanks": [{ "index": 1, "answer": "$2x + 1$" }],
+      "analysis": "比 $x$ 的2倍大1的数，就是 $x$ 的2倍加上1，即 $2x + 1$。"
+    }
+  ]
+}

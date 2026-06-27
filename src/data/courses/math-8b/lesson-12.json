@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "id": 12,
+    "slug": "lesson-12-分式方程",
+    "title": "分式方程",
+    "unit": "第五章 分式与分式方程",
+    "week": 5,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "理解分式方程的概念：分母中含有未知数的方程", "isKeyPoint": true },
+    { "text": "掌握解分式方程的基本步骤：去分母→解整式方程→验根", "isKeyPoint": true },
+    { "text": "理解增根的概念并能检验增根", "isKeyPoint": true },
+    { "text": "能利用分式方程解决实际问题", "isKeyPoint": false },
+    { "text": "体会转化思想在解分式方程中的应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "分式方程的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "分母中含有**未知数**的方程叫做**分式方程**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "判断方法",
+          "content": "看方程中是否含有未知数在分母上。例如 $\frac{1}{x} = 2$ 是分式方程，$\\frac{x}{2} = 1$ 不是分式方程（分母是常数）。"
+        }
+      ]
+    },
+    {
+      "title": "解分式方程的步骤",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "解分式方程的基本思路是**去分母**，将分式方程转化为整式方程求解。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**步骤**：\n① **去分母**：方程两边同乘以各分母的最简公分母，化为整式方程\n② **解整式方程**：解所得的一元一次方程或一元二次方程\n③ **验根**：将解代入最简公分母，检验是否使分母为零"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "必须验根",
+          "content": "去分母的过程可能产生增根，因此**必须验根**。若解使最简公分母为零，则为增根，应舍去。"
+        }
+      ]
+    },
+    {
+      "title": "增根的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在将分式方程化为整式方程的过程中，由于方程两边同乘了一个含有未知数的整式，可能产生不适合原方程的解，这个解叫做**增根**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "增根的特征",
+          "content": "增根是去分母后整式方程的解，但它使原方程的分母为零，使原分式方程无意义。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "验根方法",
+          "content": "将解代入**最简公分母**：若最简公分母 $\neq 0$，则是原方程的解；若最简公分母 $= 0$，则是增根，舍去。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：解分式方程",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "解方程：$\\frac{2}{x-1} = \\frac{3}{x}$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "方程两边同乘 $x(x-1)$：$2x = 3(x-1)$\n展开：$2x = 3x - 3$\n解得：$x = 3$\n验根：当 $x = 3$ 时，$x(x-1) = 3 \\times 2 = 6 \\neq 0$，所以 $x = 3$ 是原方程的解。"
+        }
+      ],
+      "answer": "$x = 3$"
+    },
+    {
+      "title": "例2：含增根的分式方程",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "解方程：$\\frac{x}{x-2} - 1 = \\frac{4}{x^2 - 4}$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "方程两边同乘 $(x+2)(x-2)$：$x(x+2) - (x+2)(x-2) = 4$\n展开：$x^2 + 2x - x^2 + 4 = 4$\n化简：$2x + 4 = 4$，$2x = 0$，$x = 0$\n验根：当 $x = 0$ 时，$(x+2)(x-2) = -4 \\neq 0$，所以 $x = 0$ 是原方程的解。"
+        }
+      ],
+      "answer": "$x = 0$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "分式方程的概念",
+      "children": [
+        { "text": "分母中含有未知数的方程" }
+      ]
+    },
+    {
+      "text": "解分式方程的步骤",
+      "children": [
+        { "text": "去分母→解整式方程→验根" },
+        { "text": "去分母：两边同乘最简公分母" },
+        { "text": "验根：代入最简公分母检验" }
+      ]
+    },
+    {
+      "text": "增根",
+      "children": [
+        { "text": "去分母过程中产生的不合适的解" },
+        { "text": "使原方程分母为零的解" },
+        { "text": "验根后发现是增根则舍去" }
+      ]
+    }
+  ]
+}

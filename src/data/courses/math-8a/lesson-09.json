@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "id": 9,
+    "slug": "lesson-09-一次函数",
+    "title": "一次函数",
+    "unit": "第四章 一次函数",
+    "week": 4,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解正比例函数的概念和图象特征", "isKeyPoint": true },
+    { "text": "理解一次函数的概念和图象特征", "isKeyPoint": true },
+    { "text": "掌握一次函数 $y = kx + b$ 中 $k$ 和 $b$ 对图象的影响", "isKeyPoint": true },
+    { "text": "能根据条件求一次函数的解析式", "isKeyPoint": false },
+    { "text": "理解正比例函数是一次函数的特殊情况", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "正比例函数",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一般地，形如 $y = kx$（$k$ 为常数，$k \\neq 0$）的函数称为**正比例函数**，其中 $k$ 称为比例系数。"
+        },
+        {
+          "type": "paragraph",
+          "content": "正比例函数的图象是经过原点 $(0, 0)$ 的一条直线。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "图象特征",
+          "content": "当 $k > 0$ 时，直线经过第一、三象限，$y$ 随 $x$ 的增大而增大；当 $k < 0$ 时，直线经过第二、四象限，$y$ 随 $x$ 的增大而减小。"
+        }
+      ]
+    },
+    {
+      "title": "一次函数",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一般地，形如 $y = kx + b$（$k$、$b$ 为常数，$k \\neq 0$）的函数称为**一次函数**。当 $b = 0$ 时，一次函数就是正比例函数。"
+        },
+        {
+          "type": "paragraph",
+          "content": "一次函数的图象也是一条直线。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "与坐标轴的交点",
+          "content": "一次函数 $y = kx + b$ 的图象与 $y$ 轴交于点 $(0, b)$，与 $x$ 轴交于点 $(-\\frac{b}{k}, 0)$。"
+        }
+      ]
+    },
+    {
+      "title": "一次函数图象的平移",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一次函数 $y = kx + b$ 的图象可以看作是由正比例函数 $y = kx$ 的图象沿 $y$ 轴平移 $|b|$ 个单位得到的。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "当 $b > 0$ 时，图象向上平移 $b$ 个单位",
+            "当 $b < 0$ 时，图象向下平移 $|b|$ 个单位"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "平移只改变图象的位置，不改变图象的倾斜程度（即 $k$ 不变）。"
+        }
+      ]
+    },
+    {
+      "title": "一次函数与正比例函数的关系",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "正比例函数 $y = kx$ 是一次函数 $y = kx + b$ 当 $b = 0$ 时的特殊情况。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆要点",
+          "content": "正比例函数一定是一次函数，但一次函数不一定是正比例函数。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断函数类型",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "判断下列函数是否为一次函数？如果是，指出 $k$ 和 $b$ 的值。\n(1) $y = 3x + 2$　(2) $y = -\\frac{1}{2}x$　(3) $y = x^2 + 1$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**分析**：一次函数的标准形式是 $y = kx + b$（$k \\neq 0$）。\n(1) $y = 3x + 2$ 符合 $y = kx + b$ 的形式，其中 $k = 3$，$b = 2$，是一次函数。\n(2) $y = -\\frac{1}{2}x$ 符合 $y = kx$ 的形式，其中 $k = -\\frac{1}{2}$，$b = 0$，是一次函数（也是正比例函数）。\n(3) $y = x^2 + 1$ 中 $x$ 的次数是 $2$，不是一次函数。"
+        }
+      ],
+      "answer": "(1) 是一次函数，$k = 3$，$b = 2$；(2) 是一次函数，$k = -\\frac{1}{2}$，$b = 0$；(3) 不是一次函数。"
+    },
+    {
+      "title": "例2：求一次函数解析式",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知一次函数的图象经过点 $(1, 3)$ 和点 $(2, 5)$，求这个一次函数的解析式。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "设一次函数的解析式为 $y = kx + b$（$k \\neq 0$）。\n将点 $(1, 3)$ 和 $(2, 5)$ 代入得：\n$\\begin{cases} k + b = 3 \\\\ 2k + b = 5 \\end{cases}$\n解得 $k = 2$，$b = 1$。"
+        }
+      ],
+      "answer": "一次函数的解析式为 $y = 2x + 1$。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "正比例函数",
+      "children": [
+        { "text": "形式：$y = kx$（$k \\neq 0$）" },
+        { "text": "图象：经过原点的直线" },
+        { "text": "$k > 0$ 时经过第一、三象限；$k < 0$ 时经过第二、四象限" }
+      ]
+    },
+    {
+      "text": "一次函数",
+      "children": [
+        { "text": "形式：$y = kx + b$（$k \\neq 0$）" },
+        { "text": "图象：一条直线" },
+        { "text": "与 $y$ 轴交于 $(0, b)$，与 $x$ 轴交于 $(-\\frac{b}{k}, 0)$" }
+      ]
+    },
+    {
+      "text": "$k$ 和 $b$ 的作用",
+      "children": [
+        { "text": "$k$ 决定直线的倾斜方向和程度" },
+        { "text": "$b$ 决定直线与 $y$ 轴的交点位置" }
+      ]
+    }
+  ]
+}

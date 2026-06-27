@@ -1,0 +1,43 @@
+{
+  "id": "math-9b",
+  "order": 15,
+  "course": {
+    "name": "九年级下册",
+    "icon": "📐",
+    "subtitle": "北师大版九年级下册",
+    "color": "#6d28d9"
+  },
+  "group": {
+    "id": "math-bnu",
+    "name": "北师大版初中数学",
+    "icon": "📐",
+    "color": "#10b981",
+    "order": 5
+  },
+  "semester": {
+    "name": "九年级下",
+    "order": 6
+  },
+  "schedule": {
+    "weeks": 4,
+    "weekLabels": ["第一周", "第二周", "第三周", "第四周"],
+    "weekTitles": ["直角三角形的边角关系", "二次函数", "圆", "统计与概率"]
+  },
+  "lessons": [
+    { "id": 1, "title": "锐角三角函数", "unit": "第一章 直角三角形的边角关系", "week": 1, "day": 1 },
+    { "id": 2, "title": "30°45°60°角的三角函数", "unit": "第一章 直角三角形的边角关系", "week": 1, "day": 2 },
+    { "id": 3, "title": "三角函数的应用", "unit": "第一章 直角三角形的边角关系", "week": 1, "day": 3 },
+    { "id": 4, "title": "二次函数的概念", "unit": "第二章 二次函数", "week": 2, "day": 1 },
+    { "id": 5, "title": "二次函数的图象与性质", "unit": "第二章 二次函数", "week": 2, "day": 2 },
+    { "id": 6, "title": "二次函数的应用", "unit": "第二章 二次函数", "week": 2, "day": 3 },
+    { "id": 7, "title": "圆的认识", "unit": "第三章 圆", "week": 3, "day": 1 },
+    { "id": 8, "title": "垂径定理", "unit": "第三章 圆", "week": 3, "day": 2 },
+    { "id": 9, "title": "圆周角与圆心角", "unit": "第三章 圆", "week": 3, "day": 3 },
+    { "id": 10, "title": "统计图的选择", "unit": "第四章 统计与概率", "week": 4, "day": 1 },
+    { "id": 11, "title": "用样本估计总体", "unit": "第四章 统计与概率", "week": 4, "day": 2 }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  }
+}

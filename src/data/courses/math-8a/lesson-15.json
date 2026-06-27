@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "id": 15,
+    "slug": "lesson-15-众数与方差",
+    "title": "众数与方差",
+    "unit": "第六章 数据的分析",
+    "week": 5,
+    "day": 5
+  },
+  "objectives": [
+    { "text": "理解众数的概念", "isKeyPoint": true },
+    { "text": "理解方差的概念和计算方法", "isKeyPoint": true },
+    { "text": "能用方差衡量数据的波动大小", "isKeyPoint": true },
+    { "text": "能根据数据选择合适的代表值", "isKeyPoint": false },
+    { "text": "理解平均数、中位数、众数、方差的综合应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "众数",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一组数据中出现次数最多的那个数据叫做这组数据的**众数**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "众数反映了一组数据的集中趋势，表示出现次数最多的数据。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "特点",
+          "content": "众数一定是一组数据中的某个数；一组数据的众数可能不止一个，也可能没有众数（当每个数据出现的次数都相同时）。"
+        }
+      ]
+    },
+    {
+      "title": "方差",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "设有 $n$ 个数据 $x_1, x_2, \\ldots, x_n$，它们的平均数为 $\\bar{x}$，则这组数据的**方差**为："
+        },
+        {
+          "type": "paragraph",
+          "content": "$s^2 = \\frac{1}{n}[(x_1 - \\bar{x})^2 + (x_2 - \\bar{x})^2 + \\cdots + (x_n - \\bar{x})^2]$"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "方差的意义",
+          "content": "方差反映了一组数据的波动大小。方差越大，数据的波动越大；方差越小，数据的波动越小，数据越稳定。"
+        }
+      ]
+    },
+    {
+      "title": "标准差",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "方差的算术平方根叫做**标准差**，即 $s = \\sqrt{s^2}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "标准差与方差的意义相同，但标准差的单位与原数据的单位相同。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "计算方差时，要先求平均数，再求每个数据与平均数的差的平方，最后求这些平方的平均数。"
+        }
+      ]
+    },
+    {
+      "title": "平均数、中位数、众数的比较",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**平均数**：反映数据的平均水平，受极端值影响较大。\n**中位数**：反映数据的中间水平，不受极端值影响。\n**众数**：反映数据的集中趋势，适合描述分类数据。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "选择建议",
+          "content": "数据分布均匀时用平均数；有极端值时用中位数；需要知道出现最多的数据时用众数。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求众数",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "求数据 $2, 3, 3, 5, 7, 3, 8$ 的众数。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "在这组数据中，$3$ 出现了 $3$ 次，出现次数最多，所以众数是 $3$。"
+        }
+      ],
+      "answer": "这组数据的众数是 $3$。"
+    },
+    {
+      "title": "例2：求方差",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "求数据 $2, 4, 6, 8, 10$ 的方差。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "首先求平均数：$\\bar{x} = \\frac{2 + 4 + 6 + 8 + 10}{5} = \\frac{30}{5} = 6$\n然后求方差：\n$s^2 = \\frac{1}{5}[(2-6)^2 + (4-6)^2 + (6-6)^2 + (8-6)^2 + (10-6)^2]$\n$= \\frac{1}{5}[(-4)^2 + (-2)^2 + 0^2 + 2^2 + 4^2]$\n$= \\frac{1}{5}[16 + 4 + 0 + 4 + 16]$\n$= \\frac{40}{5} = 8$"
+        }
+      ],
+      "answer": "这组数据的方差是 $8$。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "众数",
+      "children": [
+        { "text": "一组数据中出现次数最多的数" },
+        { "text": "可能不止一个，也可能没有" }
+      ]
+    },
+    {
+      "text": "方差",
+      "children": [
+        { "text": "各数据与平均数差的平方的平均数" },
+        { "text": "反映数据的波动大小" },
+        { "text": "方差越大，波动越大；方差越小，越稳定" }
+      ]
+    },
+    {
+      "text": "数据代表值的选择",
+      "children": [
+        { "text": "平均数：反映平均水平" },
+        { "text": "中位数：反映中间水平" },
+        { "text": "众数：反映集中趋势" }
+      ]
+    }
+  ]
+}

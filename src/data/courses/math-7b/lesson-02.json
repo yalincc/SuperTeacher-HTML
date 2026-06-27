@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": 2,
+    "slug": "lesson-02-幂的乘方与积的乘方",
+    "title": "幂的乘方与积的乘方",
+    "unit": "第一章 整式的运算",
+    "week": 1,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解幂的乘方法则的推导过程", "isKeyPoint": true },
+    { "text": "掌握幂的乘方法则：$(a^m)^n = a^{mn}$", "isKeyPoint": true },
+    { "text": "掌握积的乘方法则：$(ab)^n = a^n b^n$", "isKeyPoint": true },
+    { "text": "能综合运用幂的乘方与积的乘方法则进行运算", "isKeyPoint": false },
+    { "text": "体会幂运算中的转化思想", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "幂的乘方法则",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**幂的乘方法则**：幂的乘方，底数不变，指数相乘。即：$(a^m)^n = a^{mn}$（$m$、$n$ 为正整数）。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "推导过程",
+          "content": "$(a^m)^n = \\underbrace{a^m \\cdot a^m \\cdots a^m}_{n \\text{ 个}} = a^{m+m+\\cdots+m} = a^{mn}$（利用同底数幂乘法法则）"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$(a^m)^n = a^{mn}$，指数是相乘，不是相加！例如 $(a^2)^3 = a^{2 \\times 3} = a^6$，而非 $a^5$。"
+        }
+      ]
+    },
+    {
+      "title": "积的乘方法则",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**积的乘方法则**：积的乘方，等于把积中的每一个因式分别乘方，再把所得的幂相乘。即：$(ab)^n = a^n b^n$（$n$ 为正整数）。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "推广形式",
+          "content": "多个因式积的乘方：$(abc)^n = a^n b^n c^n$。推广到一般：$(a_1 a_2 \\cdots a_n)^k = a_1^k a_2^k \\cdots a_n^k$。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$(a+b)^n \\neq a^n + b^n$，即和的乘方不等于乘方的和！这是最常见的错误。"
+        }
+      ]
+    },
+    {
+      "title": "综合运算",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在进行幂的综合运算时，运算顺序为：先乘方，再乘除，最后加减。同级运算从左到右进行。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "幂的乘方：$(a^m)^n = a^{mn}$",
+            "积的乘方：$(ab)^n = a^n b^n$",
+            "同底数幂乘法：$a^m \\cdot a^n = a^{m+n}$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "乘方再乘方，指数要相乘；积的乘方，各自乘方再相乘；运算有顺序，乘方先执行。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：幂的乘方",
+      "problem": [
+        { "type": "paragraph", "content": "计算：(1) $(x^3)^4$；(2) $(a^2)^5 \\cdot a^3$。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "(1) $(x^3)^4 = x^{3 \\times 4} = x^{12}$" },
+        { "type": "paragraph", "content": "(2) $(a^2)^5 \\cdot a^3 = a^{2 \\times 5} \\cdot a^3 = a^{10} \\cdot a^3 = a^{10+3} = a^{13}$" }
+      ],
+      "answer": "(1) $x^{12}$；(2) $a^{13}$"
+    },
+    {
+      "title": "例2：积的乘方",
+      "problem": [
+        { "type": "paragraph", "content": "计算：$(2a^3b^2)^3$。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "$(2a^3b^2)^3 = 2^3 \\cdot (a^3)^3 \\cdot (b^2)^3 = 8a^9b^6$" }
+      ],
+      "answer": "$8a^9b^6$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "幂的乘方法则",
+      "children": [
+        { "text": "$(a^m)^n = a^{mn}$（底数不变，指数相乘）" }
+      ]
+    },
+    {
+      "text": "积的乘方法则",
+      "children": [
+        { "text": "$(ab)^n = a^n b^n$（各因式分别乘方再相乘）" },
+        { "text": "注意：$(a+b)^n \\neq a^n + b^n$" }
+      ]
+    },
+    {
+      "text": "综合运算",
+      "children": [
+        { "text": "先乘方，再乘除，最后加减" },
+        { "text": "灵活结合多种幂运算法则" }
+      ]
+    }
+  ]
+}

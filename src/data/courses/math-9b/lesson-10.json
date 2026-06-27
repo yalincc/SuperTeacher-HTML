@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "id": 10,
+    "slug": "lesson-10-统计图的选择",
+    "title": "统计图的选择",
+    "unit": "第四章 统计与概率",
+    "week": 4,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "了解条形统计图、折线统计图、扇形统计图的特点", "isKeyPoint": true },
+    { "text": "能根据数据特点选择合适的统计图", "isKeyPoint": true },
+    { "text": "能读懂各种统计图中蕴含的信息", "isKeyPoint": false },
+    { "text": "了解统计图的综合运用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "三种统计图的特点",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["统计图类型", "特点", "适用场景"],
+          "rows": [
+            ["条形统计图", "用直条的长短表示数据大小", "比较各类别数据的多少"],
+            ["折线统计图", "用点的位置和连线表示数据变化趋势", "反映数据的变化趋势"],
+            ["扇形统计图", "用扇形面积表示各部分占总体的百分比", "表示各部分与总体的关系"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "选择口诀",
+          "content": "比较多少用条形，看趋势变化用折线，看比例关系用扇形。"
+        }
+      ]
+    },
+    {
+      "title": "条形统计图",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "条形统计图用直条的高度或长度表示数据的大小。优点是能清楚地看出各类别数据的多少，便于比较。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "条形统计图的各直条宽度相同，间距均匀，起点一般从 $0$ 开始。"
+        }
+      ]
+    },
+    {
+      "title": "折线统计图",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "折线统计图用点的位置表示数据，用连线表示数据的变化趋势。优点是能清楚地反映数据的增减变化。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "分析折线统计图时，注意观察：①数据是上升还是下降；②变化快还是慢（斜率大小）。"
+        }
+      ]
+    },
+    {
+      "title": "扇形统计图",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "扇形统计图用扇形的面积表示各部分占总体的百分比。整个圆表示总体（$100\\%$），各扇形表示各部分。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "扇形统计图只表示各部分占总体的百分比，不表示各部分的具体数量。要计算具体数量，需要知道总体的数量。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：选择合适的统计图",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "要表示某校七、八、九三个年级的学生人数，应选择什么统计图？"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 应选择**条形统计图**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为需要比较三个年级的学生人数（多少），条形统计图能直观地比较各类别数据的大小。"
+        }
+      ],
+      "answer": "条形统计图"
+    },
+    {
+      "title": "例2：读取统计图信息",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "某班学生最喜爱的球类运动统计如下：足球 $40\\%$，篮球 $30\\%$，乒乓球 $20\\%$，其他 $10\\%$。若该班有 $50$ 人，最喜爱足球的有多少人？"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 最喜爱足球的人数 $= 50 \\times 40\\% = 20$（人）"
+        }
+      ],
+      "answer": "最喜爱足球的有 $20$ 人"
+    }
+  ],
+  "summary": [
+    {
+      "text": "条形统计图",
+      "children": [
+        { "text": "比较各类别数据的多少" }
+      ]
+    },
+    {
+      "text": "折线统计图",
+      "children": [
+        { "text": "反映数据的变化趋势" }
+      ]
+    },
+    {
+      "text": "扇形统计图",
+      "children": [
+        { "text": "表示各部分占总体的百分比" }
+      ]
+    },
+    {
+      "text": "选择原则",
+      "children": [
+        { "text": "根据数据特点和需要表达的信息选择" }
+      ]
+    }
+  ]
+}

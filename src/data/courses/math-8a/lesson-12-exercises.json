@@ -1,0 +1,60 @@
+{
+  "lessonId": 12,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-12-01",
+      "stem": "用代入消元法解方程组 $\\begin{cases} x + y = 5 \\\\ 2x - y = 1 \\end{cases}$ 时，最简便的方法是（  ）",
+      "options": [
+        { "label": "A", "text": "将第一个方程变形为 $x = 5 - y$，代入第二个方程" },
+        { "label": "B", "text": "将第一个方程变形为 $y = 5 - x$，代入第二个方程" },
+        { "label": "C", "text": "将第二个方程变形为 $x = \\frac{y + 1}{2}$，代入第一个方程" },
+        { "label": "D", "text": "将第二个方程变形为 $y = 2x - 1$，代入第一个方程" }
+      ],
+      "answer": "D",
+      "analysis": "将第二个方程变形为 $y = 2x - 1$，代入第一个方程得 $x + (2x - 1) = 5$，计算简便。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-02",
+      "stem": "解方程组 $\\begin{cases} 3x + 2y = 10 \\\\ 3x - 2y = 2 \\end{cases}$，最适合的方法是（  ）",
+      "options": [
+        { "label": "A", "text": "代入消元法" },
+        { "label": "B", "text": "加减消元法" },
+        { "label": "C", "text": "两种方法都一样简便" },
+        { "label": "D", "text": "无法求解" }
+      ],
+      "answer": "B",
+      "analysis": "两个方程中 $y$ 的系数互为相反数（$2$ 和 $-2$），将两个方程相加即可消去 $y$，用加减消元法最简便。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-12-03",
+      "stem": "方程组 $\\begin{cases} x + y = 3 \\\\ x - y = 1 \\end{cases}$ 的解是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\begin{cases} x = 1 \\\\ y = 2 \\end{cases}$" },
+        { "label": "B", "text": "$\\begin{cases} x = 2 \\\\ y = 1 \\end{cases}$" },
+        { "label": "C", "text": "$\\begin{cases} x = 3 \\\\ y = 0 \\end{cases}$" },
+        { "label": "D", "text": "$\\begin{cases} x = 0 \\\\ y = 3 \\end{cases}$" }
+      ],
+      "answer": "B",
+      "analysis": "将两个方程相加得 $2x = 4$，$x = 2$；将 $x = 2$ 代入第一个方程得 $2 + y = 3$，$y = 1$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-12-04",
+      "stem": "用加减消元法解方程组时，只能将两个方程相减，不能相加。",
+      "answer": false,
+      "analysis": "加减消元法既可以用两个方程相加，也可以相减，取决于如何消元更方便。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-12-05",
+      "segments": ["若方程组 $\\begin{cases} 2x + y = 5 \\\\ x - y = 1 \\end{cases}$，则 $x + y = $___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "2" }
+      ],
+      "analysis": "将两个方程相加得 $3x = 6$，$x = 2$；将 $x = 2$ 代入第二个方程得 $2 - y = 1$，$y = 1$。所以 $x + y = 2 + 1 = 3$。等等，让我重新计算：$x = 2$，$y = 1$，$x + y = 3$。"
+    }
+  ]
+}

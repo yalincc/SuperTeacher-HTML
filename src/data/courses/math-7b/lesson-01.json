@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": 1,
+    "slug": "lesson-01-同底数幂的乘法",
+    "title": "同底数幂的乘法",
+    "unit": "第一章 整式的运算",
+    "week": 1,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解同底数幂乘法法则的推导过程", "isKeyPoint": true },
+    { "text": "掌握同底数幂的乘法法则：$a^m \\cdot a^n = a^{m+n}$", "isKeyPoint": true },
+    { "text": "能运用法则进行同底数幂的乘法运算", "isKeyPoint": true },
+    { "text": "了解法则可以推广到多个同底数幂相乘的情况", "isKeyPoint": false },
+    { "text": "体会从特殊到一般的数学思想方法", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "同底数幂乘法法则",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**同底数幂的乘法法则**：同底数幂相乘，底数不变，指数相加。即：$a^m \\cdot a^n = a^{m+n}$（$m$、$n$ 为正整数）。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "推导过程",
+          "content": "$a^m \\cdot a^n = \\underbrace{a \\cdot a \\cdots a}_{m \\text{ 个}} \\cdot \\underbrace{a \\cdot a \\cdots a}_{n \\text{ 个}} = \\underbrace{a \\cdot a \\cdots a}_{m+n \\text{ 个}} = a^{m+n}$"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "底数必须相同才能使用此法则！如 $a^2 \\cdot b^3$ 不能写成 $a^{2+3}$，因为底数不同，不能合并。"
+        }
+      ]
+    },
+    {
+      "title": "法则的推广",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "同底数幂的乘法法则可以推广到多个同底数幂相乘的情况：$a^m \\cdot a^n \\cdot a^p = a^{m+n+p}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "一般地，$n$ 个同底数幂相乘：$a^{m_1} \\cdot a^{m_2} \\cdots a^{m_n} = a^{m_1+m_2+\\cdots+m_n}$。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "注意",
+          "content": "当指数为字母时，法则同样适用。例如 $a^x \\cdot a^y = a^{x+y}$（$x$、$y$ 为正整数）。"
+        }
+      ]
+    },
+    {
+      "title": "运算注意事项",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "使用同底数幂乘法法则时，需要注意以下几点："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "底数相同，指数相加，底数不变",
+            "底数不同时，不能使用此法则",
+            "多个同底数幂相乘，指数全部相加",
+            "运算结果仍为幂的形式"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "同底数幂把乘算，底数不变指数加。多个相乘也一样，指数全加别犯傻。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：基本运算",
+      "problem": [
+        { "type": "paragraph", "content": "计算：(1) $a^3 \\cdot a^4$；(2) $x^2 \\cdot x^5 \\cdot x^3$。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "(1) $a^3 \\cdot a^4 = a^{3+4} = a^7$" },
+        { "type": "paragraph", "content": "(2) $x^2 \\cdot x^5 \\cdot x^3 = x^{2+5+3} = x^{10}$" }
+      ],
+      "answer": "(1) $a^7$；(2) $x^{10}$"
+    },
+    {
+      "title": "例2：含系数的运算",
+      "problem": [
+        { "type": "paragraph", "content": "计算：$3x^2 \\cdot 5x^3$。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "$3x^2 \\cdot 5x^3 = (3 \\times 5)(x^2 \\cdot x^3) = 15x^{2+3} = 15x^5$" }
+      ],
+      "answer": "$15x^5$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "同底数幂的乘法法则",
+      "children": [
+        { "text": "$a^m \\cdot a^n = a^{m+n}$（底数不变，指数相加）" },
+        { "text": "推广：$a^{m_1} \\cdot a^{m_2} \\cdots a^{m_n} = a^{m_1+m_2+\\cdots+m_n}$" }
+      ]
+    },
+    {
+      "text": "使用条件",
+      "children": [
+        { "text": "底数必须相同" },
+        { "text": "指数为正整数" }
+      ]
+    },
+    {
+      "text": "常见错误",
+      "children": [
+        { "text": "底数不同不能直接用法则" },
+        { "text": "不能把指数相乘" }
+      ]
+    }
+  ]
+}

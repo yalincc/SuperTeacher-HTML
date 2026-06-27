@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": 11,
+    "slug": "lesson-11-用样本估计总体",
+    "title": "用样本估计总体",
+    "unit": "第四章 统计与概率",
+    "week": 4,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解抽样调查的意义和必要性", "isKeyPoint": true },
+    { "text": "能用样本的平均数估计总体的平均数", "isKeyPoint": true },
+    { "text": "能用样本的方差估计总体的方差", "isKeyPoint": false },
+    { "text": "了解样本的代表性对估计结果的影响", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "抽样调查的意义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**总体**：所要考察对象的全体。**个体**：总体中的每一个考察对象。**样本**：从总体中抽取的一部分个体。**样本容量**：样本中个体的数目。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "样本容量是一个数，不带单位。例如样本容量为 $50$，不能说样本容量为 $50$ 人。"
+        }
+      ]
+    },
+    {
+      "title": "用样本平均数估计总体平均数",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "当样本具有较好的代表性时，可以用样本的平均数 $\\bar{x}$ 来估计总体的平均数 $\\mu$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "样本平均数：$\\bar{x} = \\frac{x_1 + x_2 + \\cdots + x_n}{n}$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "样本容量越大，样本对总体的估计越准确。抽样时要注意随机性，使样本具有代表性。"
+        }
+      ]
+    },
+    {
+      "title": "用样本方差估计总体方差",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "方差反映数据的**波动程度**。样本方差可以用来估计总体方差。"
+        },
+        {
+          "type": "paragraph",
+          "content": "样本方差：$s^2 = \\frac{1}{n}\\sum_{i=1}^{n}(x_i - \\bar{x})^2$"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "方差越小，数据越集中；方差越大，数据越分散。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：用样本平均数估计总体",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "某校为了解七年级 $500$ 名学生的身高情况，随机抽取了 $40$ 名学生，测得身高数据的平均数为 $160\\text{cm}$。估计该校七年级学生的平均身高。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 用样本平均数估计总体平均数。"
+        },
+        {
+          "type": "paragraph",
+          "content": "样本平均数为 $160\\text{cm}$，所以估计该校七年级学生的平均身高约为 $160\\text{cm}$。"
+        }
+      ],
+      "answer": "估计该校七年级学生的平均身高约为 $160\\text{cm}$"
+    },
+    {
+      "title": "例2：用样本方差比较稳定性",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "甲、乙两名射击运动员在相同条件下各射击 $10$ 次，成绩的平均数都是 $8$ 环，甲的方差为 $1.2$，乙的方差为 $0.8$。谁的成绩更稳定？"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为甲、乙的平均数相同，比较方差即可。"
+        },
+        {
+          "type": "paragraph",
+          "content": "乙的方差 $0.8 <$ 甲的方差 $1.2$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "方差越小，成绩越稳定，所以**乙**的成绩更稳定。"
+        }
+      ],
+      "answer": "乙的成绩更稳定"
+    }
+  ],
+  "summary": [
+    {
+      "text": "基本概念",
+      "children": [
+        { "text": "总体、个体、样本、样本容量" },
+        { "text": "样本容量不带单位" }
+      ]
+    },
+    {
+      "text": "用样本估计总体",
+      "children": [
+        { "text": "用样本平均数估计总体平均数" },
+        { "text": "用样本方差估计总体方差" }
+      ]
+    },
+    {
+      "text": "样本要求",
+      "children": [
+        { "text": "样本要具有随机性和代表性" },
+        { "text": "样本容量越大，估计越准确" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": 13,
+    "slug": "lesson-13-平行四边形的性质",
+    "title": "平行四边形的性质",
+    "unit": "第六章 平行四边形",
+    "week": 6,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解平行四边形的定义：两组对边分别平行的四边形", "isKeyPoint": true },
+    { "text": "掌握平行四边形的性质：对边相等、对角相等、对角线互相平分", "isKeyPoint": true },
+    { "text": "能利用平行四边形的性质进行计算和证明", "isKeyPoint": true },
+    { "text": "了解平行四边形的面积公式", "isKeyPoint": false },
+    { "text": "体会转化思想在几何证明中的应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "平行四边形的定义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "两组对边分别**平行**的四边形叫做**平行四边形**。平行四边形用符号 $\\square$ 表示，如平行四边形 $ABCD$ 记作 $\\square ABCD$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "定义的两层含义",
+          "content": "① 平行四边形是四边形（有四条边）\n② 两组对边分别平行（$AB \\parallel CD$ 且 $AD \\parallel BC$）"
+        }
+      ]
+    },
+    {
+      "title": "平行四边形的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**性质1**：平行四边形的**对边相等**。\n即 $AB = CD$，$AD = BC$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**性质2**：平行四边形的**对角相等**。\n即 $\\angle A = \\angle C$，$\\angle B = \\angle D$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**性质3**：平行四边形的**对角线互相平分**。\n即对角线 $AC$ 和 $BD$ 的交点 $O$ 是两条对角线的中点：$OA = OC$，$OB = OD$。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "性质的记忆",
+          "content": "对边平行且相等，对角相等，对角线互相平分。简记为'对边、对角、对角线'三组性质。"
+        }
+      ]
+    },
+    {
+      "title": "平行四边形的面积",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "平行四边形的面积 = 底 $\\times$ 高。\n$S = a \\times h$，其中 $a$ 是底边长，$h$ 是对应的高。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "面积要点",
+          "content": "高是从对边上一点向底边作垂线的长度。不同的底对应不同的高，但面积不变。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：利用对边相等求边长",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\square ABCD$ 中，$AB = 8$，$BC = 5$，求 $CD$ 和 $AD$ 的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "由平行四边形对边相等的性质：$CD = AB = 8$，$AD = BC = 5$。"
+        }
+      ],
+      "answer": "$CD = 8$，$AD = 5$"
+    },
+    {
+      "title": "例2：利用对角线互相平分求线段长",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\square ABCD$ 中，对角线 $AC$ 和 $BD$ 相交于点 $O$。若 $AC = 12$，$BD = 8$，求 $OA$ 和 $OB$ 的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "由平行四边形对角线互相平分的性质：$OA = \\frac{1}{2}AC = \\frac{1}{2} \\times 12 = 6$，$OB = \\frac{1}{2}BD = \\frac{1}{2} \\times 8 = 4$。"
+        }
+      ],
+      "answer": "$OA = 6$，$OB = 4$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "平行四边形的定义",
+      "children": [
+        { "text": "两组对边分别平行的四边形" },
+        { "text": "用符号 $\\square$ 表示" }
+      ]
+    },
+    {
+      "text": "平行四边形的性质",
+      "children": [
+        { "text": "对边相等：$AB = CD$，$AD = BC$" },
+        { "text": "对角相等：$\\angle A = \\angle C$，$\\angle B = \\angle D$" },
+        { "text": "对角线互相平分：$OA = OC$，$OB = OD$" }
+      ]
+    },
+    {
+      "text": "平行四边形的面积",
+      "children": [
+        { "text": "面积 = 底 × 高" },
+        { "text": "不同的底对应不同的高，面积不变" }
+      ]
+    }
+  ]
+}

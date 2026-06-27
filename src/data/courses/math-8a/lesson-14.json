@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": 14,
+    "slug": "lesson-14-平均数与中位数",
+    "title": "平均数与中位数",
+    "unit": "第六章 数据的分析",
+    "week": 5,
+    "day": 4
+  },
+  "objectives": [
+    { "text": "理解算术平均数的概念和计算方法", "isKeyPoint": true },
+    { "text": "理解加权平均数的概念和计算方法", "isKeyPoint": true },
+    { "text": "理解中位数的概念和求法", "isKeyPoint": true },
+    { "text": "能根据数据特点选择合适的代表值", "isKeyPoint": false },
+    { "text": "理解平均数、中位数在实际问题中的应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "算术平均数",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一般地，如果有 $n$ 个数据 $x_1, x_2, \\ldots, x_n$，那么这 $n$ 个数据的**算术平均数**（简称平均数）为："
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\bar{x} = \\frac{x_1 + x_2 + \\cdots + x_n}{n}$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "计算方法",
+          "content": "算术平均数等于所有数据之和除以数据的个数。它反映了一组数据的平均水平。"
+        }
+      ]
+    },
+    {
+      "title": "加权平均数",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在实际问题中，一组数据中各个数据的重要性可能不同。在求平均数时，可以根据各个数据的重要性赋予不同的**权**，这样求得的平均数叫做**加权平均数**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "如果 $n$ 个数据 $x_1, x_2, \\ldots, x_n$ 的权分别为 $w_1, w_2, \\ldots, w_n$，则加权平均数为：\n$\\bar{x} = \\frac{x_1w_1 + x_2w_2 + \\cdots + x_nw_n}{w_1 + w_2 + \\cdots + w_n}$"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "权的含义",
+          "content": "权表示每个数据的重要程度。权越大，这个数据对平均数的影响越大。"
+        }
+      ]
+    },
+    {
+      "title": "中位数",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "将一组数据按照从小到大（或从大到小）的顺序排列，如果数据的个数是奇数，则处于**中间位置**的数就是这组数据的中位数；如果数据的个数是偶数，则中间两个数据的**平均数**是这组数据的中位数。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "求中位数时，必须先将数据从小到大（或从大到小）排列，否则会得到错误的结果。"
+        }
+      ]
+    },
+    {
+      "title": "平均数与中位数的比较",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**平均数**能反映一组数据的平均水平，但容易受极端值（特别大或特别小的数）的影响。\n\n**中位数**不受极端值的影响，能反映数据的中间水平。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "选择建议",
+          "content": "当数据分布较均匀时，用平均数；当数据中有极端值时，用中位数更能反映实际情况。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求算术平均数",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "求数据 $3, 5, 7, 8, 12$ 的平均数。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "$\\bar{x} = \\frac{3 + 5 + 7 + 8 + 12}{5} = \\frac{35}{5} = 7$"
+        }
+      ],
+      "answer": "这组数据的平均数是 $7$。"
+    },
+    {
+      "title": "例2：求中位数",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "求数据 $5, 2, 8, 3, 7$ 的中位数。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "首先将数据从小到大排列：$2, 3, 5, 7, 8$\n数据个数为 $5$（奇数），中间位置是第 $3$ 个数，即 $5$。"
+        }
+      ],
+      "answer": "这组数据的中位数是 $5$。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "算术平均数",
+      "children": [
+        { "text": "所有数据之和除以数据个数" },
+        { "text": "反映一组数据的平均水平" }
+      ]
+    },
+    {
+      "text": "加权平均数",
+      "children": [
+        { "text": "根据数据的重要性赋予不同的权" },
+        { "text": "权越大，对平均数的影响越大" }
+      ]
+    },
+    {
+      "text": "中位数",
+      "children": [
+        { "text": "将数据排列后，中间位置的数" },
+        { "text": "不受极端值影响" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "id": 6,
+    "slug": "lesson-06-有理数的乘除与乘方",
+    "title": "有理数的乘除与乘方",
+    "unit": "第二章 有理数及其运算",
+    "week": 2,
+    "day": 4
+  },
+  "objectives": [
+    { "text": "掌握有理数乘法的运算法则", "isKeyPoint": true },
+    { "text": "掌握有理数除法的运算法则", "isKeyPoint": true },
+    { "text": "理解乘方的概念，能进行简单的乘方运算", "isKeyPoint": true },
+    { "text": "理解有理数乘法的运算律", "isKeyPoint": false },
+    { "text": "能区分底数、指数和幂的概念", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "有理数乘法法则",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "两数相乘，同号得**正**，异号得**负**，并把绝对值相乘。任何数与 $0$ 相乘，积为 $0$。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "正正得正：$(+a) \\times (+b) = +(ab)$",
+            "负负得正：$(-a) \\times (-b) = +(ab)$",
+            "正负得负：$(+a) \\times (-b) = -(ab)$",
+            "负正得负：$(-a) \\times (+b) = -(ab)$",
+            "任何数乘 $0$ 得 $0$：$a \\times 0 = 0$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆口诀",
+          "content": "同号得正，异号得负，零乘任何数都得零。"
+        }
+      ]
+    },
+    {
+      "title": "有理数乘法的运算律",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "有理数乘法满足以下运算律："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "交换律：$a \\times b = b \\times a$",
+            "结合律：$(a \\times b) \\times c = a \\times (b \\times c)$",
+            "分配律：$a \\times (b + c) = a \\times b + a \\times c$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "多个有理数相乘时，负因数的个数决定积的符号：偶数个负因数积为正，奇数个负因数积为负。"
+        }
+      ]
+    },
+    {
+      "title": "有理数除法法则",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "有理数的除法法则：除以一个不为 $0$ 的数，等于乘以这个数的**倒数**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "即 $a \\div b = a \\times \\frac{1}{b}$（$b \\neq 0$）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "两数相除，同号得正，异号得负，并把绝对值相除。$0$ 不能做除数。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "倒数",
+          "content": "如果两个数的乘积是 $1$，则这两个数互为倒数。例如 $2$ 的倒数是 $\\frac{1}{2}$，$-3$ 的倒数是 $-\\frac{1}{3}$。$0$ 没有倒数。"
+        }
+      ]
+    },
+    {
+      "title": "乘方",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**乘方**是指求 $n$ 个相同因数的积的运算。$a^n$ 表示 $n$ 个 $a$ 相乘，即："
+        },
+        {
+          "type": "paragraph",
+          "content": "$a^n = \\underbrace{a \\times a \\times a \\times \\cdots \\times a}_{n \\text{个}}$"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**底数**：$a$ 是底数（相同的那个因数）",
+            "**指数**：$n$ 是指数（因数的个数）",
+            "**幂**：$a^n$ 的结果叫做幂"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "常见乘方",
+          "content": "$a^1=a$，$a^2$ 叫做 $a$ 的平方，$a^3$ 叫做 $a$ 的立方。特别地，$1$ 的任何次幂都是 $1$，$(-1)$ 的偶数次幂是 $1$，奇数次幂是 $-1$。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$(-2)^2=4$，而 $-2^2=-4$！$(-2)^2$ 的底数是 $-2$，表示 $(-2) \\times (-2)$；$-2^2$ 的底数是 $2$，表示 $-(2 \\times 2)$。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：有理数乘法",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "计算：（1）$(-4) \\times 3$ （2）$(-3) \\times (-5)$ （3）$(-\\frac{2}{3}) \\times (-\\frac{9}{4})$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "（1）异号得负，绝对值相乘：$(-4) \\times 3 = -(4 \\times 3) = -12$\n\n（2）负负得正，绝对值相乘：$(-3) \\times (-5) = +(3 \\times 5) = 15$\n\n（3）负负得正，绝对值相乘：$(-\\frac{2}{3}) \\times (-\\frac{9}{4}) = \\frac{2 \\times 9}{3 \\times 4} = \\frac{18}{12} = \\frac{3}{2}$"
+        }
+      ],
+      "answer": "$-12$，$15$，$\\frac{3}{2}$"
+    },
+    {
+      "title": "例2：有理数乘方",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "计算：（1）$(-2)^3$ （2）$-2^3$ （3）$(-1)^{20}$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "（1）底数为 $-2$，指数为 $3$：$(-2)^3 = (-2) \\times (-2) \\times (-2) = 4 \\times (-2) = -8$\n\n（2）底数为 $2$，前面取负号：$-2^3 = -(2 \\times 2 \\times 2) = -8$\n\n（3）$(-1)$ 的偶数次幂：$(-1)^{20} = 1$（因为 $20$ 是偶数）"
+        }
+      ],
+      "answer": "$-8$，$-8$，$1$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "有理数乘法法则",
+      "children": [
+        { "text": "同号得正，异号得负" },
+        { "text": "绝对值相乘" },
+        { "text": "任何数乘 $0$ 得 $0$" }
+      ]
+    },
+    {
+      "text": "有理数除法法则",
+      "children": [
+        { "text": "除以一个数等于乘以它的倒数" },
+        { "text": "同号得正，异号得负，绝对值相除" },
+        { "text": "$0$ 不能做除数" }
+      ]
+    },
+    {
+      "text": "乘方",
+      "children": [
+        { "text": "$a^n$ 表示 $n$ 个 $a$ 相乘" },
+        { "text": "底数为 $a$，指数为 $n$，结果为幂" },
+        { "text": "注意 $(-a)^n$ 与 $-a^n$ 的区别" }
+      ]
+    }
+  ]
+}

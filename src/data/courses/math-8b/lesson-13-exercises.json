@@ -1,0 +1,60 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-13-01",
+      "stem": "在 $\\square ABCD$ 中，$\\angle A = 70°$，则 $\\angle B$ 的度数为（  ）",
+      "options": [
+        { "label": "A", "text": "$70°$" },
+        { "label": "B", "text": "$110°$" },
+        { "label": "C", "text": "$70°$ 或 $110°$" },
+        { "label": "D", "text": "$140°$" }
+      ],
+      "answer": "B",
+      "analysis": "平行四边形的邻角互补（因为对边平行，同旁内角互补）。$\\angle A + \\angle B = 180°$，所以 $\\angle B = 180° - 70° = 110°$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-02",
+      "stem": "平行四边形的两条对角线长分别为 6 和 8，则它的对角线交点到各顶点的距离分别为（  ）",
+      "options": [
+        { "label": "A", "text": "3 和 4" },
+        { "label": "B", "text": "6 和 8" },
+        { "label": "C", "text": "3 和 8" },
+        { "label": "D", "text": "6 和 4" }
+      ],
+      "answer": "A",
+      "analysis": "平行四边形对角线互相平分，所以交点到各顶点的距离分别为对角线的一半：$\\frac{6}{2} = 3$，$\\frac{8}{2} = 4$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-03",
+      "stem": "在 $\\square ABCD$ 中，$AB = 6$，$BC = 4$，则 $\\square ABCD$ 的周长为（  ）",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "20" },
+        { "label": "C", "text": "24" },
+        { "label": "D", "text": "40" }
+      ],
+      "answer": "B",
+      "analysis": "平行四边形对边相等，所以 $CD = AB = 6$，$AD = BC = 4$。周长 $= 2(AB + BC) = 2(6 + 4) = 20$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-13-04",
+      "stem": "平行四边形的对角线相等。",
+      "answer": false,
+      "analysis": "平行四边形的对角线**互相平分**，但不一定相等。对角线相等的平行四边形是矩形。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-13-05",
+      "segments": ["在 $\\square ABCD$ 中，$\\angle A = 120°$，则 $\\angle C = ___1___°$。"],
+      "blanks": [
+        { "index": 1, "answer": "120" }
+      ],
+      "analysis": "平行四边形的对角相等，所以 $\\angle C = \\angle A = 120°$。"
+    }
+  ]
+}

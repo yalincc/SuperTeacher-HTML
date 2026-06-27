@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "id": 5,
+    "slug": "lesson-05-二次函数的图象与性质",
+    "title": "二次函数的图象与性质",
+    "unit": "第二章 二次函数",
+    "week": 2,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解抛物线的概念，能画出二次函数的图象", "isKeyPoint": true },
+    { "text": "掌握抛物线的顶点坐标和对称轴公式", "isKeyPoint": true },
+    { "text": "理解 $a$ 的正负对抛物线开口方向的影响", "isKeyPoint": true },
+    { "text": "能根据图象分析二次函数的增减性", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "抛物线的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "二次函数 $y = ax^2 + bx + c$（$a \\neq 0$）的图象是一条**抛物线**。抛物线是轴对称图形，其对称轴是一条垂直于 $x$ 轴的直线。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "画图步骤",
+          "content": "画抛物线的步骤：①求顶点坐标和对称轴；②求与 $x$ 轴、$y$ 轴的交点；③列表、描点、连线。"
+        }
+      ]
+    },
+    {
+      "title": "顶点坐标与对称轴",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "对于 $y = ax^2 + bx + c$，顶点坐标为 $\\left(-\\frac{b}{2a}, \\frac{4ac - b^2}{4a}\\right)$，对称轴为 $x = -\\frac{b}{2a}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "若用顶点式 $y = a(x - h)^2 + k$，则顶点坐标为 $(h, k)$，对称轴为 $x = h$。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "顶点是抛物线的最高点（$a < 0$）或最低点（$a > 0$）。"
+        }
+      ]
+    },
+    {
+      "title": "$a$ 对抛物线的影响",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["$a$ 的符号", "开口方向", "顶点性质"],
+          "rows": [
+            ["$a > 0$", "开口向上", "顶点是最低点"],
+            ["$a < 0$", "开口向下", "顶点是最高点"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "$|a|$ 越大，抛物线开口越**窄**；$|a|$ 越小，抛物线开口越**宽**。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$a$ 的正负只影响开口方向，不影响对称轴位置。对称轴由 $-\\frac{b}{2a}$ 决定。"
+        }
+      ]
+    },
+    {
+      "title": "二次函数的增减性",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "当 $a > 0$ 时，在对称轴左侧，$y$ 随 $x$ 增大而**减小**；在对称轴右侧，$y$ 随 $x$ 增大而**增大**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "当 $a < 0$ 时，在对称轴左侧，$y$ 随 $x$ 增大而**增大**；在对称轴右侧，$y$ 随 $x$ 增大而**减小**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆技巧",
+          "content": "可以理解为：$a > 0$ 时抛物线先降后升，$a < 0$ 时先升后降。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求顶点坐标和对称轴",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "求二次函数 $y = x^2 - 4x + 3$ 的顶点坐标和对称轴。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** $a = 1$，$b = -4$，$c = 3$"
+        },
+        {
+          "type": "paragraph",
+          "content": "对称轴：$x = -\\frac{b}{2a} = -\\frac{-4}{2 \\times 1} = 2$"
+        },
+        {
+          "type": "paragraph",
+          "content": "顶点纵坐标：$\\frac{4ac - b^2}{4a} = \\frac{4 \\times 1 \\times 3 - 16}{4} = -1$"
+        },
+        {
+          "type": "paragraph",
+          "content": "或者配方：$y = (x - 2)^2 - 1$，顶点坐标为 $(2, -1)$"
+        }
+      ],
+      "answer": "顶点坐标 $(2, -1)$，对称轴 $x = 2$"
+    },
+    {
+      "title": "例2：分析增减性",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知二次函数 $y = -x^2 + 2x + 3$，写出 $y$ 随 $x$ 增大而增大的 $x$ 的取值范围。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** $a = -1 < 0$，抛物线开口向下。"
+        },
+        {
+          "type": "paragraph",
+          "content": "对称轴：$x = -\\frac{2}{2 \\times (-1)} = 1$"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为开口向下，在对称轴左侧 $y$ 随 $x$ 增大而增大。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以当 $x < 1$ 时，$y$ 随 $x$ 增大而增大。"
+        }
+      ],
+      "answer": "$x < 1$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "抛物线",
+      "children": [
+        { "text": "二次函数的图象是抛物线" },
+        { "text": "抛物线是轴对称图形" }
+      ]
+    },
+    {
+      "text": "顶点与对称轴",
+      "children": [
+        { "text": "顶点：$\\left(-\\frac{b}{2a}, \\frac{4ac - b^2}{4a}\\right)$" },
+        { "text": "对称轴：$x = -\\frac{b}{2a}$" }
+      ]
+    },
+    {
+      "text": "$a$ 的影响",
+      "children": [
+        { "text": "$a > 0$：开口向上，顶点是最低点" },
+        { "text": "$a < 0$：开口向下，顶点是最高点" },
+        { "text": "$|a|$ 越大，开口越窄" }
+      ]
+    },
+    {
+      "text": "增减性",
+      "children": [
+        { "text": "$a > 0$：先减后增" },
+        { "text": "$a < 0$：先增后减" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": 17,
+    "slug": "lesson-17-数据的表示",
+    "title": "数据的表示",
+    "unit": "第六章 数据的收集与整理",
+    "week": 6,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "掌握统计表的制作方法", "isKeyPoint": true },
+    { "text": "理解条形统计图、扇形统计图、折线统计图的特点", "isKeyPoint": true },
+    { "text": "能根据数据特点选择合适的统计图", "isKeyPoint": false },
+    { "text": "能从统计图中获取信息并进行分析", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "统计表的制作",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "统计表是整理数据的重要工具，通常包括**标题**、**项目**和**数据**三部分。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "制作要点",
+          "content": "统计表要简明扼要，项目要完整，数据要准确，必要时可加注说明。"
+        }
+      ]
+    },
+    {
+      "title": "条形统计图",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "条形统计图是用长方形的高低来表示数据大小的图形。它的特点是：**能清楚地看出各种数据的多少**。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "适用场景",
+          "content": "条形统计图适用于比较不同类别数据的大小，如不同班级的人数、不同品牌的销量等。"
+        }
+      ]
+    },
+    {
+      "title": "扇形统计图",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "扇形统计图是用整个圆表示总体，用圆中各扇形表示各部分占总体的百分比。它的特点是：**能清楚地看出各部分占总体的百分比**。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "扇形统计图中，各部分百分比之和必须等于100%（或1）。"
+        }
+      ]
+    },
+    {
+      "title": "折线统计图",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "折线统计图是用点的位置来表示数据大小，并用线段连接各点的图形。它的特点是：**不仅能看出数据的多少，还能看出数据的变化趋势**。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "选择口诀",
+          "content": "比多少用条形，看比例用扇形，看趋势用折线。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：选择合适的统计图",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "要表示以下数据，应选择什么统计图？\n① 各班学生人数\n② 某班学生中男生占全班人数的百分比\n③ 近5年某校学生人数的变化情况"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**分析**：根据各种统计图的特点选择。\n① 比较各班人数多少，适合**条形统计图**。\n② 看男生占全班的百分比，适合**扇形统计图**。\n③ 看人数随时间的变化趋势，适合**折线统计图**。"
+        }
+      ],
+      "answer": "①条形统计图；②扇形统计图；③折线统计图。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "统计表",
+      "children": [
+        { "text": "包括标题、项目、数据三部分" },
+        { "text": "要简明扼要、数据准确" }
+      ]
+    },
+    {
+      "text": "三种统计图的特点",
+      "children": [
+        { "text": "条形统计图：清楚看出数据多少" },
+        { "text": "扇形统计图：清楚看出各部分占总体的百分比" },
+        { "text": "折线统计图：看出数据多少和变化趋势" }
+      ]
+    },
+    {
+      "text": "选择统计图的原则",
+      "children": [
+        { "text": "比多少→条形统计图" },
+        { "text": "看比例→扇形统计图" },
+        { "text": "看趋势→折线统计图" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-04-01",
+      "stem": "下列函数中，是二次函数的是（  ）",
+      "options": [
+        { "label": "A", "text": "$y = x^2 + \\frac{1}{x}$" },
+        { "label": "B", "text": "$y = 2x + 1$" },
+        { "label": "C", "text": "$y = (x - 1)^2$" },
+        { "label": "D", "text": "$y = x^3 + 1$" }
+      ],
+      "answer": "C",
+      "analysis": "A 含 $\\frac{1}{x}$ 不是整式；B 是一次函数；D 最高次数为 $3$。C 展开为 $y = x^2 - 2x + 1$，符合二次函数定义。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-04-02",
+      "stem": "若函数 $y = (m - 1)x^{m^2 + 1}$ 是二次函数，则 $m$ 的值为（  ）",
+      "options": [
+        { "label": "A", "text": "$1$" },
+        { "label": "B", "text": "$-1$" },
+        { "label": "C", "text": "$\\pm 1$" },
+        { "label": "D", "text": "$2$" }
+      ],
+      "answer": "B",
+      "analysis": "由题意，$m^2 + 1 = 2$ 且 $m - 1 \\neq 0$。$m^2 = 1$，$m = \\pm 1$。又 $m - 1 \\neq 0$，所以 $m \\neq 1$，故 $m = -1$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-04-03",
+      "stem": "二次函数 $y = -2x^2 + 4x - 3$ 的二次项系数、一次项系数、常数项分别为（  ）",
+      "options": [
+        { "label": "A", "text": "$-2$、$4$、$-3$" },
+        { "label": "B", "text": "$2$、$4$、$-3$" },
+        { "label": "C", "text": "$-2$、$-4$、$3$" },
+        { "label": "D", "text": "$-2$、$4$、$3$" }
+      ],
+      "answer": "A",
+      "analysis": "对照 $y = ax^2 + bx + c$，$a = -2$，$b = 4$，$c = -3$。",
+      "source": ""
+    },
+    {
+      "type": "true_false",
+      "id": "ex-04-04",
+      "stem": "二次函数 $y = ax^2 + bx + c$ 中，$a$、$b$、$c$ 可以全为零。",
+      "answer": false,
+      "analysis": "如果 $a = 0$，则函数变为 $y = bx + c$，不再是二次函数。所以 $a \\neq 0$ 是必要条件。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-04-05",
+      "segments": ["若二次函数 $y = (a + 2)x^2 + bx + 3$，则 $a$ 的取值范围是 ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$a \\neq -2$" }
+      ],
+      "analysis": "要使函数为二次函数，二次项系数 $a + 2 \\neq 0$，所以 $a \\neq -2$。"
+    }
+  ]
+}

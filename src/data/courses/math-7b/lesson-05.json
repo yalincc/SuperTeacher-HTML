@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": 5,
+    "slug": "lesson-05-平行线的判定",
+    "title": "平行线的判定",
+    "unit": "第二章 相交线与平行线",
+    "week": 2,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解同位角、内错角、同旁内角的概念", "isKeyPoint": true },
+    { "text": "掌握平行线的判定方法：同位角相等，两直线平行", "isKeyPoint": true },
+    { "text": "掌握平行线的判定方法：内错角相等，两直线平行", "isKeyPoint": true },
+    { "text": "掌握平行线的判定方法：同旁内角互补，两直线平行", "isKeyPoint": true },
+    { "text": "能综合运用判定方法判断两直线是否平行", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "同位角、内错角、同旁内角",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "两条直线被第三条直线所截，会形成各种位置关系的角："
+        },
+        {
+          "type": "table",
+          "headers": ["角的类型", "位置特征", "形状特征"],
+          "rows": [
+            ["同位角", "在截线同旁，被截两直线的同一侧", "呈 F 形"],
+            ["内错角", "在截线两旁，被截两直线之间", "呈 Z 形"],
+            ["同旁内角", "在截线同旁，被截两直线之间", "呈 U 形"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "识别方法",
+          "content": "同位角在截线的同侧且在被截线的同方向；内错角在截线的两侧且在被截线之间；同旁内角在截线的同侧且在被截线之间。"
+        }
+      ]
+    },
+    {
+      "title": "平行线的判定方法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**判定方法一**：同位角相等，两直线平行。即若 $\\angle 1 = \\angle 2$（同位角），则 $a \\parallel b$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**判定方法二**：内错角相等，两直线平行。即若 $\\angle 1 = \\angle 2$（内错角），则 $a \\parallel b$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**判定方法三**：同旁内角互补，两直线平行。即若 $\\angle 1 + \\angle 2 = 180^\\circ$（同旁内角），则 $a \\parallel b$。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "同位角和内错角是相等关系，同旁内角是互补关系（和为 $180^\\circ$）。不要混淆！"
+        }
+      ]
+    },
+    {
+      "title": "平行公理及其推论",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**平行公理**：过直线外一点，有且只有一条直线与已知直线平行。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**平行公理的推论**：如果两条直线都与第三条直线平行，那么这两条直线也互相平行。即若 $a \\parallel c$，$b \\parallel c$，则 $a \\parallel b$。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "同位相等线平行，内错相等也能行；同旁互补也平行，三种判定记分明。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：利用同位角判定平行",
+      "problem": [
+        { "type": "paragraph", "content": "如图，$\\angle 1 = \\angle 2$，$\\angle 1$ 和 $\\angle 2$ 是同位角，试判断 $a$ 和 $b$ 是否平行。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "因为 $\\angle 1$ 和 $\\angle 2$ 是同位角，且 $\\angle 1 = \\angle 2$，根据\"同位角相等，两直线平行\"，所以 $a \\parallel b$。" }
+      ],
+      "answer": "$a \\parallel b$"
+    },
+    {
+      "title": "例2：综合判定",
+      "problem": [
+        { "type": "paragraph", "content": "如图，$\\angle 1 + \\angle 2 = 180^\\circ$，$\\angle 3 = \\angle 4$，试说明 $a \\parallel b$。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "因为 $\\angle 1 + \\angle 2 = 180^\\circ$，且 $\\angle 1$ 和 $\\angle 2$ 是同旁内角，根据\"同旁内角互补，两直线平行\"，所以 $a \\parallel b$。" },
+        { "type": "paragraph", "content": "（$\\angle 3 = \\angle 4$ 这个条件在此题中是多余条件，用于说明判定方法的灵活性。）" }
+      ],
+      "answer": "$a \\parallel b$（同旁内角互补，两直线平行）"
+    }
+  ],
+  "summary": [
+    {
+      "text": "三种角的位置关系",
+      "children": [
+        { "text": "同位角：截线同旁，被截线同一侧" },
+        { "text": "内错角：截线两旁，被截线之间" },
+        { "text": "同旁内角：截线同旁，被截线之间" }
+      ]
+    },
+    {
+      "text": "平行线的判定",
+      "children": [
+        { "text": "同位角相等，两直线平行" },
+        { "text": "内错角相等，两直线平行" },
+        { "text": "同旁内角互补，两直线平行" }
+      ]
+    }
+  ]
+}

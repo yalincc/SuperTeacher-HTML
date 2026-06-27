@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "id": 5,
+    "slug": "lesson-05-一元一次不等式组",
+    "title": "一元一次不等式组",
+    "unit": "第二章 一元一次不等式与一元一次不等式组",
+    "week": 2,
+    "day": 3
+  },
+  "objectives": [
+    {
+      "text": "理解一元一次不等式组的概念",
+      "isKeyPoint": false
+    },
+    {
+      "text": "掌握求不等式组解集的方法",
+      "isKeyPoint": true
+    },
+    {
+      "text": "理解'同大取大、同小取小、大小小大取中间、大大小小无解'的口诀",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能在数轴上表示不等式组的解集",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能根据实际问题列一元一次不等式组并求解",
+      "isKeyPoint": true
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "一元一次不等式组的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "含有相同未知数的几个一元一次不等式所组成的不等式组，叫做**一元一次不等式组**。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "不等式组的解集",
+          "content": "不等式组中所有不等式的解集的**公共部分**，叫做这个不等式组的解集。"
+        },
+        {
+          "type": "paragraph",
+          "content": "例如，不等式组 $\\begin{cases} x>2 \\ x<5 \\end{cases}$ 的解集是 $2<x<5$。"
+        }
+      ]
+    },
+    {
+      "title": "求不等式组解集的方法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "求一元一次不等式组的解集，可以按照以下步骤进行："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "分别求出不等式组中每个不等式的解集",
+            "在数轴上表示每个不等式的解集",
+            "找出所有解集的公共部分，即为不等式组的解集"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "口诀记忆",
+          "content": "**同大取大**：两个不等式都是\"大于\"，取较大的那个；**同小取小**：两个不等式都是\"小于\"，取较小的那个；**大小小大取中间**：一个\"大于\"一个小于\"，取中间部分；**大大小小无解**：一个\"大于大的\"一个小于小的\"，无解。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "求不等式组解集时，必须在数轴上画出每个不等式的解集，找出公共部分。如果没有公共部分，则不等式组无解。"
+        }
+      ]
+    },
+    {
+      "title": "在数轴上表示不等式组的解集",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在数轴上表示不等式组的解集时，需要同时表示出每个不等式的解集，然后找出它们的公共部分。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "表示方法",
+          "content": "例如，不等式组 $\\begin{cases} x>2 \\ x≤5 \\end{cases}$ 的解集在数轴上表示为：在 $2$ 处画空心圆圈向右，在 $5$ 处画实心圆点向左，公共部分为 $2<x≤5$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "用数轴表示解集可以直观地看出不等式组的解集，也可以用来验证解集是否正确。"
+        }
+      ]
+    },
+    {
+      "title": "实际应用",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一元一次不等式组在实际生活中有广泛的应用，例如：确定范围、计算折扣、选择方案等。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题步骤",
+          "content": "解决实际问题的步骤：①设未知数；②根据题意列出不等式组；③求不等式组的解集；④检验并写出答案。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在实际问题中，解集往往需要根据实际情况进行调整。例如，人数必须是正整数，商品数量不能是负数等。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求不等式组的解集",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "解不等式组 $\\begin{cases} 2x-1>3 \\ 3x+1>2x+4 \\end{cases}$，并在数轴上表示解集。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 解不等式①：$2x-1>3$，得 $2x>4$，即 $x>2$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "解不等式②：$3x+1>2x+4$，得 $x>3$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在数轴上表示两个不等式的解集，公共部分为 $x>3$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以不等式组的解集是 $x>3$。"
+        }
+      ],
+      "answer": "$x>3$"
+    },
+    {
+      "title": "例2：实际应用",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "某班有 $40$ 名同学参加植树活动，每人植树 $x$ 棵。如果每人至少植树 $3$ 棵，且总植树量不少于 $120$ 棵，求 $x$ 的取值范围。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 根据题意，得"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\begin{cases} x≥3 \\ 40x≥120 \\end{cases}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "解不等式②：$40x≥120$，得 $x≥3$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "不等式组的解集是 $x≥3$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**答：** $x$ 的取值范围是 $x≥3$。"
+        }
+      ],
+      "answer": "$x≥3$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "一元一次不等式组的概念",
+      "children": [
+        {
+          "text": "含有相同未知数的几个一元一次不等式所组成的不等式组"
+        },
+        {
+          "text": "不等式组的解集是所有不等式解集的公共部分"
+        }
+      ]
+    },
+    {
+      "text": "求不等式组解集的方法",
+      "children": [
+        {
+          "text": "同大取大"
+        },
+        {
+          "text": "同小取小"
+        },
+        {
+          "text": "大小小大取中间"
+        },
+        {
+          "text": "大大小小无解"
+        }
+      ]
+    },
+    {
+      "text": "在数轴上表示解集",
+      "children": [
+        {
+          "text": "同时表示出每个不等式的解集"
+        },
+        {
+          "text": "找出所有解集的公共部分"
+        }
+      ]
+    }
+  ]
+}

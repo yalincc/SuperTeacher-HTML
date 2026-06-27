@@ -1,0 +1,63 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-03-01",
+      "stem": "如图，从热气球 $A$ 处测得地面上 $B$ 处的俯角为 $30°$，热气球离地面的高度为 $200\\text{m}$，则 $A$、$B$ 两点间的距离为（  ）",
+      "options": [
+        { "label": "A", "text": "$200\\sqrt{3}\\text{m}$" },
+        { "label": "B", "text": "$\\frac{400\\sqrt{3}}{3}\\text{m}$" },
+        { "label": "C", "text": "$400\\text{m}$" },
+        { "label": "D", "text": "$100\\sqrt{3}\\text{m}$" }
+      ],
+      "answer": "C",
+      "analysis": "俯角为 $30°$，则 $\\angle ABH = 30°$（$H$ 为 $A$ 的垂足）。$AB = \\frac{AH}{\\sin 30°} = \\frac{200}{1/2} = 400\\text{m}$。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-03-02",
+      "stem": "某斜坡的坡度 $i = 1:\\sqrt{3}$，则该斜坡的坡角为（  ）",
+      "options": [
+        { "label": "A", "text": "$30°$" },
+        { "label": "B", "text": "$45°$" },
+        { "label": "C", "text": "$60°$" },
+        { "label": "D", "text": "$75°$" }
+      ],
+      "answer": "A",
+      "analysis": "坡度 $i = \\tan \\alpha = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}$，所以 $\\alpha = 30°$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-03-03",
+      "stem": "一艘船从 $A$ 处向正东方向航行 $20$ 海里到达 $B$ 处，再向北航行 $15$ 海里到达 $C$ 处，则 $A$、$C$ 之间的距离为（  ）",
+      "options": [
+        { "label": "A", "text": "$25$ 海里" },
+        { "label": "B", "text": "$35$ 海里" },
+        { "label": "C", "text": "$5\\sqrt{7}$ 海里" },
+        { "label": "D", "text": "$10\\sqrt{13}$ 海里" }
+      ],
+      "answer": "A",
+      "analysis": "正东和正北方向垂直，构成直角三角形。$AC = \\sqrt{20^2 + 15^2} = \\sqrt{625} = 25$ 海里。",
+      "source": ""
+    },
+    {
+      "type": "true_false",
+      "id": "ex-03-04",
+      "stem": "坡度等于坡角的正弦值。",
+      "answer": false,
+      "analysis": "坡度等于坡角的**正切**值，即 $i = \\tan \\alpha$，而不是正弦值。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-03-05",
+      "segments": ["某人从 $A$ 点出发，沿北偏东 $60°$ 方向走了 $100\\text{m}$ 到达 $B$ 点，则 $B$ 点在 $A$ 点的北偏东 $60°$ 方向，距离为 ___1___ 米。"],
+      "blanks": [
+        { "index": 1, "answer": "$100$" }
+      ],
+      "analysis": "题目已说明沿北偏东 $60°$ 方向走了 $100\\text{m}$，所以 $B$ 点在 $A$ 点北偏东 $60°$ 方向，距离为 $100$ 米。"
+    }
+  ]
+}

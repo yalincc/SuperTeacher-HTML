@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "id": 2,
+    "slug": "lesson-02-矩形",
+    "title": "矩形",
+    "unit": "第一章 特殊四边形",
+    "week": 1,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解矩形的定义：有一个角是直角的平行四边形", "isKeyPoint": true },
+    { "text": "掌握矩形的性质：四个角都是直角、对角线相等", "isKeyPoint": true },
+    { "text": "掌握矩形的判定方法", "isKeyPoint": true },
+    { "text": "能利用矩形的性质解决相关几何问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "矩形的定义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "有一个角是直角的平行四边形叫做**矩形**。矩形是特殊的平行四边形，它具有平行四边形的所有性质，同时还有自己独特的性质。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "定义要点",
+          "content": "矩形必须满足两个条件：①是平行四边形；②有一个角是直角。由于平行四边形的对角相等、邻角互补，所以只要有一个角是直角，四个角就都是直角。"
+        }
+      ]
+    },
+    {
+      "title": "矩形的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "矩形具有以下性质："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**四个角都是直角**：矩形的四个角都是 $90°$",
+            "**对角线相等**：矩形的对角线相等且互相平分",
+            "**对边平行且相等**：继承平行四边形的性质"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "矩形的对角线**不一定垂直**，只有正方形的对角线才互相垂直。"
+        }
+      ]
+    },
+    {
+      "title": "矩形的判定",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "判定一个四边形是矩形的方法："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "有一个角是直角的平行四边形是矩形",
+            "对角线相等的平行四边形是矩形",
+            "三个角是直角的四边形是矩形"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "判定方法选择",
+          "content": "若已知四边形是平行四边形，只需证明一个角是直角或对角线相等即可；若不知道是否为平行四边形，需证明三个角是直角。"
+        }
+      ]
+    },
+    {
+      "title": "矩形的面积",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "矩形的面积公式：$S = \\text{长} \\times \\text{宽}$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "面积与对角线",
+          "content": "矩形的面积也可以用对角线表示。设对角线长为 $d$，对角线与一边的夹角为 $\\theta$，则 $S = \\frac{1}{2} d^2 \\sin\\theta$。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：矩形对角线的应用",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "矩形 $ABCD$ 中，对角线 $AC$、$BD$ 相交于点 $O$，$\\angle AOB = 60°$，$AC = 8\\text{cm}$。求矩形的边长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为矩形的对角线相等且互相平分，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $OA = OB = \\frac{AC}{2} = 4\\text{cm}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "又因为 $\\angle AOB = 60°$，所以 $\\triangle AOB$ 是等边三角形。"
+        },
+        {
+          "type": "paragraph",
+          "content": "因此 $AB = OA = 4\\text{cm}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle ABC$ 中，$BC = \\sqrt{AC^2 - AB^2} = \\sqrt{64 - 16} = \\sqrt{48} = 4\\sqrt{3}\\text{cm}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以矩形的边长为 $AB = 4\\text{cm}$，$BC = 4\\sqrt{3}\\text{cm}$。"
+        }
+      ],
+      "answer": "$AB = 4\\text{cm}$，$BC = 4\\sqrt{3}\\text{cm}$"
+    },
+    {
+      "title": "例2：判定矩形",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，四边形 $ABCD$ 中，$\\angle A = \\angle B = \\angle C = 90°$。求证：四边形 $ABCD$ 是矩形。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**证明：** 因为 $\\angle A = \\angle B = \\angle C = 90°$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle D = 360° - 90° - 90° - 90° = 90°$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以四边形 $ABCD$ 的四个角都是直角。"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为 $\\angle A + \\angle B = 180°$，所以 $AD \\parallel BC$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "同理 $AB \\parallel DC$，所以四边形 $ABCD$ 是平行四边形。"
+        },
+        {
+          "type": "paragraph",
+          "content": "又因为 $\\angle A = 90°$，所以平行四边形 $ABCD$ 是矩形。"
+        }
+      ],
+      "answer": "三个角是直角的四边形是矩形"
+    }
+  ],
+  "summary": [
+    {
+      "text": "矩形的定义",
+      "children": [
+        { "text": "有一个角是直角的平行四边形叫做矩形" }
+      ]
+    },
+    {
+      "text": "矩形的性质",
+      "children": [
+        { "text": "四个角都是直角" },
+        { "text": "对角线相等且互相平分" }
+      ]
+    },
+    {
+      "text": "矩形的判定",
+      "children": [
+        { "text": "有一个角是直角的平行四边形" },
+        { "text": "对角线相等的平行四边形" },
+        { "text": "三个角是直角的四边形" }
+      ]
+    }
+  ]
+}

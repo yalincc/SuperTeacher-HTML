@@ -1,0 +1,63 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-08-01",
+      "stem": "在 $\\odot O$ 中，直径 $CD \\perp$ 弦 $AB$ 于 $E$，则下列结论错误的是（  ）",
+      "options": [
+        { "label": "A", "text": "$AE = BE$" },
+        { "label": "B", "text": "$\\overset{\\frown}{AC} = \\overset{\\frown}{BC}$" },
+        { "label": "C", "text": "$OE = DE$" },
+        { "label": "D", "text": "$\\overset{\\frown}{AD} = \\overset{\\frown}{BD}$" }
+      ],
+      "answer": "C",
+      "analysis": "由垂径定理，$AE = BE$，$\\overset{\\frown}{AC} = \\overset{\\frown}{BC}$，$\\overset{\\frown}{AD} = \\overset{\\frown}{BD}$ 都正确。但 $OE$ 和 $DE$ 不一定相等。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-08-02",
+      "stem": "$\\odot O$ 的半径为 $5$，弦 $AB = 8$，则圆心 $O$ 到弦 $AB$ 的距离为（  ）",
+      "options": [
+        { "label": "A", "text": "$3$" },
+        { "label": "B", "text": "$4$" },
+        { "label": "C", "text": "$5$" },
+        { "label": "D", "text": "$6$" }
+      ],
+      "answer": "A",
+      "analysis": "过 $O$ 作 $OC \\perp AB$，$AC = 4$，$OC = \\sqrt{5^2 - 4^2} = 3$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-08-03",
+      "stem": "$\\odot O$ 的半径为 $13$，弦心距为 $5$，则弦长为（  ）",
+      "options": [
+        { "label": "A", "text": "$12$" },
+        { "label": "B", "text": "$24$" },
+        { "label": "C", "text": "$10$" },
+        { "label": "D", "text": "$26$" }
+      ],
+      "answer": "B",
+      "analysis": "半弦长 $= \\sqrt{13^2 - 5^2} = \\sqrt{144} = 12$，弦长 $= 2 \\times 12 = 24$。",
+      "source": ""
+    },
+    {
+      "type": "true_false",
+      "id": "ex-08-04",
+      "stem": "平分弦的直径一定垂直于这条弦。",
+      "answer": false,
+      "analysis": "如果弦本身就是直径，则两条直径互相平分但不一定垂直。只有当弦不是直径时，平分弦的直径才垂直于弦。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-08-05",
+      "segments": ["在 $\\odot O$ 中，弦 $AB$ 的弦心距为 $d$，半径为 $r$，半弦长为 $a$，则它们之间的关系为 $r^2 = $ ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$d^2 + a^2$" }
+      ],
+      "analysis": "过圆心作弦的垂线，由垂径定理和勾股定理，$r^2 = d^2 + a^2$。"
+    }
+  ]
+}

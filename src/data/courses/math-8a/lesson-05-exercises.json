@@ -1,0 +1,61 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-05-01",
+      "stem": "8 的立方根是（  ）",
+      "options": [
+        { "label": "A", "text": "2" },
+        { "label": "B", "text": "$\\pm 2$" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "$\\pm 4$" }
+      ],
+      "answer": "A",
+      "analysis": "因为 $2^3 = 8$，所以 $\\sqrt[3]{8} = 2$。立方根只有一个正值（正数的立方根为正）。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-05-02",
+      "stem": "$\\sqrt[3]{-27}$ 的值为（  ）",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "-3" },
+        { "label": "C", "text": "9" },
+        { "label": "D", "text": "$\\pm 3$" }
+      ],
+      "answer": "B",
+      "analysis": "因为 $(-3)^3 = -27$，所以 $\\sqrt[3]{-27} = -3$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-05-03",
+      "stem": "下列各式正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\sqrt[3]{8} = \\pm 2$" },
+        { "label": "B", "text": "$\\sqrt[3]{-8} = -2$" },
+        { "label": "C", "text": "$\\sqrt[3]{0.001} = 0.1$" },
+        { "label": "D", "text": "$\\sqrt[3]{-27} = 3$" }
+      ],
+      "answer": "C",
+      "analysis": "A 错，$\\sqrt[3]{8} = 2$；B 对，$\\sqrt[3]{-8} = -2$（B 也正确）；C 对，$0.1^3 = 0.001$；D 错，$\\sqrt[3]{-27} = -3$。B 和 C 都正确，但单选题选 C。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-05-04",
+      "stem": "负数没有立方根。",
+      "answer": false,
+      "analysis": "负数有立方根，且为负数。例如 $\\sqrt[3]{-8} = -2$。这与平方根不同，负数没有平方根但有立方根。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-05-05",
+      "segments": ["$\\sqrt[3]{64} = $___1___，$\\sqrt[3]{-\\frac{1}{27}} = $___2___。"],
+      "blanks": [
+        { "index": 1, "answer": "4" },
+        { "index": 2, "answer": "$-\\frac{1}{3}$" }
+      ],
+      "analysis": "$4^3 = 64$，所以 $\\sqrt[3]{64} = 4$。$\\left(-\\frac{1}{3}\\right)^3 = -\\frac{1}{27}$，所以 $\\sqrt[3]{-\\frac{1}{27}} = -\\frac{1}{3}$。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-10-01",
+      "stem": "下列说法中，正确的是（    ）",
+      "options": [
+        { "label": "A", "text": "射线 $AB$ 和射线 $BA$ 是同一条射线" },
+        { "label": "B", "text": "线段有两个端点" },
+        { "label": "C", "text": "直线有一个端点" },
+        { "label": "D", "text": "射线 $AB$ 的长度是 $5$ cm" }
+      ],
+      "answer": "B",
+      "analysis": "射线 $AB$ 和射线 $BA$ 端点不同，不是同一条射线；线段有两个端点，正确；直线没有端点；射线不可度量，没有长度。故选B。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-02",
+      "stem": "已知线段 $AB = 10$ cm，点 $C$ 是 $AB$ 的中点，则 $AC$ 的长度是（    ）",
+      "options": [
+        { "label": "A", "text": "$5$ cm" },
+        { "label": "B", "text": "$10$ cm" },
+        { "label": "C", "text": "$20$ cm" },
+        { "label": "D", "text": "$2.5$ cm" }
+      ],
+      "answer": "A",
+      "analysis": "因为点 $C$ 是 $AB$ 的中点，所以 $AC = \\frac{1}{2}AB = \\frac{1}{2} \\times 10 = 5$ cm，故选A。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-03",
+      "stem": "如图，点 $A$、$B$、$C$ 在同一直线上，$AB = 4$，$BC = 3$，则 $AC$ 的长度是（    ）",
+      "options": [
+        { "label": "A", "text": "$1$" },
+        { "label": "B", "text": "$7$" },
+        { "label": "C", "text": "$12$" },
+        { "label": "D", "text": "$0.75$" }
+      ],
+      "answer": "B",
+      "analysis": "因为点 $A$、$B$、$C$ 在同一直线上，且 $B$ 在 $A$ 和 $C$ 之间，所以 $AC = AB + BC = 4 + 3 = 7$，故选B。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-04",
+      "stem": "两点之间，线段最短。",
+      "answer": true,
+      "analysis": "这是线段的基本性质，两点之间的所有连线中，线段最短。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-05",
+      "segments": ["线段 $AB = 12$ cm，点 $M$ 是 $AB$ 的中点，则 $AM =$", "___1___", "cm。"],
+      "blanks": [{ "index": 1, "answer": "$6$" }],
+      "analysis": "因为点 $M$ 是 $AB$ 的中点，所以 $AM = \\frac{1}{2}AB = \\frac{1}{2} \\times 12 = 6$ cm。"
+    }
+  ]
+}

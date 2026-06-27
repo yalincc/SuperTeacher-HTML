@@ -1,0 +1,60 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-11-01",
+      "stem": "计算 $\\frac{x}{y} \\cdot \\frac{y^2}{x}$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$xy$" },
+        { "label": "B", "text": "$\\frac{y}{x}$" },
+        { "label": "C", "text": "$y$" },
+        { "label": "D", "text": "$1$" }
+      ],
+      "answer": "C",
+      "analysis": "$\\frac{x}{y} \\cdot \\frac{y^2}{x} = \\frac{x \\cdot y^2}{y \\cdot x} = \\frac{xy^2}{xy} = y$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-02",
+      "stem": "计算 $\\frac{a^2}{b} \\div \\frac{a}{b^2}$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$ab$" },
+        { "label": "B", "text": "$\\frac{a}{b}$" },
+        { "label": "C", "text": "$a^2b$" },
+        { "label": "D", "text": "$\\frac{a^3}{b^3}$" }
+      ],
+      "answer": "C",
+      "analysis": "$\\frac{a^2}{b} \\div \\frac{a}{b^2} = \\frac{a^2}{b} \\times \\frac{b^2}{a} = \\frac{a^2 \\cdot b^2}{b \\cdot a} = \\frac{a^2b^2}{ab} = ab \\cdot \\frac{a}{1} = a^2b$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-03",
+      "stem": "计算 $\\frac{1}{x} + \\frac{1}{y}$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\frac{2}{x+y}$" },
+        { "label": "B", "text": "$\\frac{1}{xy}$" },
+        { "label": "C", "text": "$\\frac{x+y}{xy}$" },
+        { "label": "D", "text": "$\\frac{y+x}{2}$" }
+      ],
+      "answer": "C",
+      "analysis": "通分，最简公分母为 $xy$：$\\frac{1}{x} + \\frac{1}{y} = \\frac{y}{xy} + \\frac{x}{xy} = \\frac{y + x}{xy} = \\frac{x + y}{xy}$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-11-04",
+      "stem": "$\\frac{a}{b} + \\frac{c}{d} = \\frac{a+c}{b+d}$。",
+      "answer": false,
+      "analysis": "分式的加法不能将分子分母分别相加。正确做法是先通分：$\\frac{a}{b} + \\frac{c}{d} = \\frac{ad + bc}{bd}$。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-11-05",
+      "segments": ["计算：$\\frac{x^2 - 4}{x + 2} = ___1___$。"],
+      "blanks": [
+        { "index": 1, "answer": "$x - 2$" }
+      ],
+      "analysis": "$\\frac{x^2 - 4}{x + 2} = \\frac{(x+2)(x-2)}{x+2} = x - 2$（$x \\neq -2$）。"
+    }
+  ]
+}

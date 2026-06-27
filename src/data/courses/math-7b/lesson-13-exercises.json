@@ -1,0 +1,60 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-13-01",
+      "stem": "等腰三角形的对称轴是（  ）",
+      "options": [
+        { "label": "A", "text": "底边上的高" },
+        { "label": "B", "text": "顶角的平分线" },
+        { "label": "C", "text": "底边的垂直平分线" },
+        { "label": "D", "text": "腰的垂直平分线" }
+      ],
+      "answer": "C",
+      "analysis": "等腰三角形的对称轴是底边的垂直平分线，它同时也是顶角平分线和底边上的高所在的直线。A和B只是描述了这条线的一部分特征，C是最完整的描述。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-02",
+      "stem": "在 $\\triangle ABC$ 中，$AB = AC$，$\\angle B = 70°$，则 $\\angle A$ 的度数为（  ）",
+      "options": [
+        { "label": "A", "text": "$40°$" },
+        { "label": "B", "text": "$50°$" },
+        { "label": "C", "text": "$55°$" },
+        { "label": "D", "text": "$70°$" }
+      ],
+      "answer": "A",
+      "analysis": "因为 $AB = AC$，所以 $\\angle C = \\angle B = 70°$。由内角和定理 $\\angle A + 70° + 70° = 180°$，得 $\\angle A = 40°$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-03",
+      "stem": "到线段两个端点距离相等的点（  ）",
+      "options": [
+        { "label": "A", "text": "只有一个" },
+        { "label": "B", "text": "有两个" },
+        { "label": "C", "text": "有无数个" },
+        { "label": "D", "text": "不存在" }
+      ],
+      "answer": "C",
+      "analysis": "到线段两个端点距离相等的点在该线段的垂直平分线上，而垂直平分线上有无数个点。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-13-04",
+      "stem": "等边三角形是轴对称图形，它有3条对称轴。",
+      "answer": true,
+      "analysis": "正确。等边三角形三条边都相等，沿每条边的垂直平分线折叠都能重合，共有3条对称轴。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-13-05",
+      "segments": ["在等腰三角形中，若一个底角为 $65°$，则顶角为___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "50°" }
+      ],
+      "analysis": "等腰三角形两个底角相等，都是 $65°$。由内角和定理：顶角 $= 180° - 65° - 65° = 50°$。"
+    }
+  ]
+}

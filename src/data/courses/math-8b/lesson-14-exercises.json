@@ -1,0 +1,60 @@
+{
+  "lessonId": 14,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-14-01",
+      "stem": "下列条件中，能判定四边形 $ABCD$ 是平行四边形的是（  ）",
+      "options": [
+        { "label": "A", "text": "$AB \\parallel CD$，$AD = BC$" },
+        { "label": "B", "text": "$AB = CD$，$AD = BC$" },
+        { "label": "C", "text": "$AB \\parallel CD$，$\\angle A = \\angle C$" },
+        { "label": "D", "text": "$AB = AD$，$CB = CD$" }
+      ],
+      "answer": "B",
+      "analysis": "A是一组对边平行、另一组对边相等，不能判定（可能是等腰梯形）。B是两组对边分别相等，可以判定。C和D的条件不足以判定。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-14-02",
+      "stem": "在四边形 $ABCD$ 中，$AB \\parallel CD$，$AB = CD$，$E$、$F$ 分别是 $AD$、$BC$ 的中点，则四边形 $EBFD$ 是（  ）",
+      "options": [
+        { "label": "A", "text": "梯形" },
+        { "label": "B", "text": "平行四边形" },
+        { "label": "C", "text": "矩形" },
+        { "label": "D", "text": "菱形" }
+      ],
+      "answer": "B",
+      "analysis": "由 $AB \\parallel CD$ 且 $AB = CD$ 知 $ABCD$ 是平行四边形，所以 $AD \\parallel BC$ 且 $AD = BC$。$E$、$F$ 分别是中点，所以 $ED = BF$ 且 $ED \\parallel BF$，即 $EBFD$ 是平行四边形。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-14-03",
+      "stem": "不能判定四边形是平行四边形的条件是（  ）",
+      "options": [
+        { "label": "A", "text": "两组对边分别平行" },
+        { "label": "B", "text": "两组对角分别相等" },
+        { "label": "C", "text": "一组对边平行，另一组对边相等" },
+        { "label": "D", "text": "对角线互相平分" }
+      ],
+      "answer": "C",
+      "analysis": "A是定义法，B和D都可以判定。C不能判定，反例：等腰梯形满足一组对边平行、另一组对边相等，但不是平行四边形。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-14-04",
+      "stem": "两组对边分别相等的四边形是平行四边形。",
+      "answer": true,
+      "analysis": "这是平行四边形的判定方法2。两组对边分别相等，可以连接对角线，用三角形全等证明对边平行，从而判定为平行四边形。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-14-05",
+      "segments": ["已知四边形 $ABCD$ 的对角线 $AC$、$BD$ 交于点 $O$，且 $OA = OC$，$OB = OD$，则四边形 $ABCD$ 是___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "平行四边形" }
+      ],
+      "analysis": "对角线互相平分的四边形是平行四边形（判定方法4）。"
+    }
+  ]
+}

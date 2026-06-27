@@ -1,0 +1,63 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-10-01",
+      "stem": "下列条件中，能判定 $\\triangle ABC \\sim \\triangle DEF$ 的是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\angle A = \\angle D$，$\\angle B = \\angle E$" },
+        { "label": "B", "text": "$\\frac{AB}{DE} = \\frac{BC}{EF}$" },
+        { "label": "C", "text": "$\\frac{AB}{DE} = \\frac{AC}{DF}$" },
+        { "label": "D", "text": "$\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{AC}{DF}$" }
+      ],
+      "answer": "A",
+      "analysis": "AA判定定理：两角对应相等的两个三角形相似。B、C只给两组边成比例，缺少夹角相等的条件。D是SSS判定，但需要三边都对应成比例。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-02",
+      "stem": "在 $\\triangle ABC$ 中，$DE \\parallel BC$，$AD = 3$，$DB = 2$，则 $\\frac{DE}{BC}$ 的值为（  ）",
+      "options": [
+        { "label": "A", "text": "$\\frac{2}{3}$" },
+        { "label": "B", "text": "$\\frac{3}{5}$" },
+        { "label": "C", "text": "$\\frac{3}{2}$" },
+        { "label": "D", "text": "$\\frac{5}{2}$" }
+      ],
+      "answer": "B",
+      "analysis": "因为 $DE \\parallel BC$，所以 $\\triangle ADE \\sim \\triangle ABC$。$\\frac{DE}{BC} = \\frac{AD}{AB} = \\frac{3}{3+2} = \\frac{3}{5}$。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-03",
+      "stem": "已知 $\\triangle ABC \\sim \\triangle DEF$，$AB = 4$，$DE = 6$，则 $\\triangle ABC$ 与 $\\triangle DEF$ 的相似比为（  ）",
+      "options": [
+        { "label": "A", "text": "$2 : 3$" },
+        { "label": "B", "text": "$3 : 2$" },
+        { "label": "C", "text": "$4 : 6$" },
+        { "label": "D", "text": "$16 : 36$" }
+      ],
+      "answer": "A",
+      "analysis": "相似比为对应边的比，$\\frac{AB}{DE} = \\frac{4}{6} = \\frac{2}{3}$，即 $2 : 3$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-04",
+      "stem": "三边对应成比例的两个三角形相似。",
+      "answer": true,
+      "analysis": "这是SSS判定定理：三边对应成比例的两个三角形相似。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-05",
+      "segments": ["在 $\\triangle ABC$ 中，$D$、$E$ 分别是 $AB$、$AC$ 上的点，$DE \\parallel BC$，若 $AD = 2$，$AB = 5$，$DE = 3$，则 $BC = $ ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$\\frac{15}{2}$" }
+      ],
+      "analysis": "因为 $DE \\parallel BC$，所以 $\\triangle ADE \\sim \\triangle ABC$。$\\frac{DE}{BC} = \\frac{AD}{AB}$，即 $\\frac{3}{BC} = \\frac{2}{5}$，解得 $BC = \\frac{15}{2}$。"
+    }
+  ]
+}

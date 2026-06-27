@@ -1,0 +1,61 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-06-01",
+      "stem": "计算 $(-3) \\times (-4)$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$12$" },
+        { "label": "B", "text": "$-12$" },
+        { "label": "C", "text": "$7$" },
+        { "label": "D", "text": "$-7$" }
+      ],
+      "answer": "A",
+      "analysis": "负负得正，绝对值相乘：$(-3) \\times (-4) = 12$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-06-02",
+      "stem": "$(-2)^4$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$8$" },
+        { "label": "B", "text": "$-8$" },
+        { "label": "C", "text": "$16$" },
+        { "label": "D", "text": "$-16$" }
+      ],
+      "answer": "C",
+      "analysis": "$(-2)^4 = (-2) \\times (-2) \\times (-2) \\times (-2) = 4 \\times 4 = 16$。底数为 $-2$，指数为 $4$（偶数），结果为正。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-06-03",
+      "stem": "下列说法正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$0$ 的倒数是 $0$" },
+        { "label": "B", "text": "$(-1)^{100}=-1$" },
+        { "label": "C", "text": "两个有理数相乘，同号得正" },
+        { "label": "D", "text": "$-3^2=9$" }
+      ],
+      "answer": "C",
+      "analysis": "A 错误，$0$ 没有倒数；B 错误，$(-1)$ 的偶数次幂是 $1$；C 正确，同号得正是乘法法则；D 错误，$-3^2=-(3 \\times 2)=-9$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-06-04",
+      "stem": "若 $a \\times b = 0$，则 $a=0$ 或 $b=0$。",
+      "answer": true,
+      "analysis": "正确。有理数乘法中，积为 $0$ 的条件是至少有一个因数为 $0$。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-06-05",
+      "segments": ["$-3$ 的倒数是___1___，$(-2)^3=$___2___。"],
+      "blanks": [
+        { "index": 1, "answer": "$-\\frac{1}{3}$" },
+        { "index": 2, "answer": "$-8$" }
+      ],
+      "analysis": "$-3$ 的倒数是 $\\frac{1}{-3}=-\\frac{1}{3}$；$(-2)^3=(-2) \\times (-2) \\times (-2)=4 \\times (-2)=-8$。"
+    }
+  ]
+}

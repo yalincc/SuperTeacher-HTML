@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "id": 5,
+    "slug": "lesson-05-用配方法求解",
+    "title": "用配方法求解",
+    "unit": "第二章 一元二次方程",
+    "week": 2,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解配方法的原理：将方程转化为 $(x + a)^2 = b$ 的形式", "isKeyPoint": true },
+    { "text": "掌握配方法解一元二次方程的步骤", "isKeyPoint": true },
+    { "text": "能用配方法解一元二次方程", "isKeyPoint": true },
+    { "text": "了解配方法在求最值问题中的应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "配方法的原理",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "配方法是通过**完全平方公式**，将一元二次方程转化为 $(x + a)^2 = b$ 的形式，再用**开平方法**求解。"
+        },
+        {
+          "type": "paragraph",
+          "content": "完全平方公式：$a^2 \\pm 2ab + b^2 = (a \\pm b)^2$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "核心思想",
+          "content": "配方法的核心是将一次项和常数项配成一个完全平方式，使得方程左边变成一个完全平方式，右边是一个常数。"
+        }
+      ]
+    },
+    {
+      "title": "配方法解方程的步骤",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "用配方法解一元二次方程 $ax^2 + bx + c = 0$ 的步骤："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**移项**：将常数项移到等号右边",
+            "**化1**：将二次项系数化为1（方程两边同除以 $a$）",
+            "**配方**：方程两边加上一次项系数一半的平方",
+            "**开方**：方程两边同时开平方",
+            "**求解**：求出 $x$ 的值"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "配方时，方程两边都要加上一次项系数一半的平方，不能只加一边。开方后要注意正负号。"
+        }
+      ]
+    },
+    {
+      "title": "配方公式",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "对于 $x^2 + px$，配方需加上 $\\left(\\frac{p}{2}\\right)^2$，即："
+        },
+        {
+          "type": "paragraph",
+          "content": "$x^2 + px + \\left(\\frac{p}{2}\\right)^2 = \\left(x + \\frac{p}{2}\\right)^2$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "口诀记忆",
+          "content": "配方口诀：**加上一次项系数一半的平方**。例如 $x^2 + 6x$ 需加上 $\\left(\\frac{6}{2}\\right)^2 = 9$。"
+        }
+      ]
+    },
+    {
+      "title": "配方法的应用",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "配方法不仅可以解方程，还可以用于："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "求二次函数的最值",
+            "将二次三项式化为完全平方式",
+            "推导求根公式"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "求最值",
+          "content": "$ax^2 + bx + c = a\\left(x + \\frac{b}{2a}\\right)^2 + \\frac{4ac - b^2}{4a}$，当 $x = -\\frac{b}{2a}$ 时取最值。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：用配方法解方程",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "用配方法解方程：$x^2 + 6x - 7 = 0$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 移项，得 $x^2 + 6x = 7$"
+        },
+        {
+          "type": "paragraph",
+          "content": "配方，得 $x^2 + 6x + 9 = 7 + 9$"
+        },
+        {
+          "type": "paragraph",
+          "content": "即 $(x + 3)^2 = 16$"
+        },
+        {
+          "type": "paragraph",
+          "content": "开平方，得 $x + 3 = \\pm 4$"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $x_1 = 1$，$x_2 = -7$"
+        }
+      ],
+      "answer": "$x_1 = 1$，$x_2 = -7$"
+    },
+    {
+      "title": "例2：用配方法解方程（二次项系数不为1）",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "用配方法解方程：$2x^2 - 8x + 3 = 0$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 移项，得 $2x^2 - 8x = -3$"
+        },
+        {
+          "type": "paragraph",
+          "content": "两边除以2，得 $x^2 - 4x = -\\frac{3}{2}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "配方，得 $x^2 - 4x + 4 = -\\frac{3}{2} + 4$"
+        },
+        {
+          "type": "paragraph",
+          "content": "即 $(x - 2)^2 = \\frac{5}{2}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "开平方，得 $x - 2 = \\pm \\sqrt{\\frac{5}{2}} = \\pm \\frac{\\sqrt{10}}{2}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $x_1 = 2 + \\frac{\\sqrt{10}}{2}$，$x_2 = 2 - \\frac{\\sqrt{10}}{2}$"
+        }
+      ],
+      "answer": "$x_1 = 2 + \\frac{\\sqrt{10}}{2}$，$x_2 = 2 - \\frac{\\sqrt{10}}{2}$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "配方法的原理",
+      "children": [
+        { "text": "利用完全平方公式将方程转化为 $(x + a)^2 = b$ 的形式" }
+      ]
+    },
+    {
+      "text": "配方步骤",
+      "children": [
+        { "text": "移项 → 化1 → 配方 → 开方 → 求解" },
+        { "text": "配方：加上一次项系数一半的平方" }
+      ]
+    },
+    {
+      "text": "配方法的应用",
+      "children": [
+        { "text": "解一元二次方程" },
+        { "text": "求二次函数的最值" },
+        { "text": "推导求根公式" }
+      ]
+    }
+  ]
+}

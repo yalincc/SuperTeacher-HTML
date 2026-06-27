@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "id": 8,
+    "slug": "lesson-08-整式",
+    "title": "整式",
+    "unit": "第三章 整式及其加减",
+    "week": 3,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解单项式的概念，能确定单项式的系数和次数", "isKeyPoint": true },
+    { "text": "理解多项式的概念，能确定多项式的项和次数", "isKeyPoint": true },
+    { "text": "理解整式的概念，知道整式包括单项式和多项式", "isKeyPoint": true },
+    { "text": "能正确识别单项式、多项式和整式", "isKeyPoint": false },
+    { "text": "能根据实际问题列出单项式和多项式", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "单项式的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "单项式是由数与字母的乘积组成的代数式。单独一个数或字母也是单项式。" },
+        { "type": "callout", "variant": "tip", "title": "学习技巧", "content": "单项式的系数是数字因数，包括前面的符号；次数是所有字母指数的和。" },
+        { "type": "table", "headers": ["单项式", "系数", "次数"], "rows": [["$3x^2$", "$3$", "$2$"], ["$-\\frac{1}{2}ab$", "$-\\frac{1}{2}$", "$2$"], ["$x$", "$1$", "$1$"], ["$-5$", "$-5$", "$0$"]] },
+        { "type": "callout", "variant": "warning", "title": "易错点", "content": "单项式的次数是所有字母指数的和，不是某个字母的指数。例如 $3x^2y$ 的次数是 $2 + 1 = 3$。" }
+      ]
+    },
+    {
+      "title": "多项式的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "多项式是几个单项式的和。多项式中的每个单项式叫做多项式的项，不含字母的项叫做常数项。" },
+        { "type": "callout", "variant": "note", "title": "说明", "content": "多项式的次数是次数最高的项的次数。多项式的项包括前面的符号。" },
+        { "type": "paragraph", "content": "例如，多项式 $2x^2 - 3x + 1$ 有三项：$2x^2$、$-3x$、$1$，其中 $1$ 是常数项，次数是 $2$。" }
+      ]
+    },
+    {
+      "title": "整式的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "整式是单项式和多项式的统称。整式是代数式的一部分。" },
+        { "type": "list", "ordered": false, "items": ["单项式：$2x$、$-3a^2b$、$5$", "多项式：$x^2 - 1$、$2a + 3b - c$", "整式 = 单项式 + 多项式"] },
+        { "type": "callout", "variant": "tip", "title": "判断方法", "content": "判断一个代数式是否为整式，看它是否只含有加、减、乘运算和数字指数（不含字母在分母或根号内）。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：确定单项式的系数和次数",
+      "problem": [
+        { "type": "paragraph", "content": "指出下列单项式的系数和次数：" },
+        { "type": "list", "ordered": true, "items": ["$-2x^2y$", "$\\frac{1}{3}a^2b^3$", "$-7$"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "① $-2x^2y$ 的系数是 $-2$，次数是 $2 + 1 = 3$；" },
+        { "type": "paragraph", "content": "② $\\frac{1}{3}a^2b^3$ 的系数是 $\\frac{1}{3}$，次数是 $2 + 3 = 5$；" },
+        { "type": "paragraph", "content": "③ $-7$ 是常数项，系数是 $-7$，次数是 $0$。" }
+      ],
+      "answer": "① 系数 $-2$，次数 $3$；② 系数 $\\frac{1}{3}$，次数 $5$；③ 系数 $-7$，次数 $0$。"
+    },
+    {
+      "title": "例2：确定多项式的项和次数",
+      "problem": [
+        { "type": "paragraph", "content": "指出多项式 $3x^3 - 2x^2 + x - 5$ 的项、常数项和次数。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "多项式 $3x^3 - 2x^2 + x - 5$ 有四项：$3x^3$、$-2x^2$、$x$、$-5$。" },
+        { "type": "paragraph", "content": "常数项是 $-5$。" },
+        { "type": "paragraph", "content": "次数最高的项是 $3x^3$，所以多项式的次数是 $3$。" }
+      ],
+      "answer": "项：$3x^3$、$-2x^2$、$x$、$-5$；常数项：$-5$；次数：$3$。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "单项式",
+      "children": [
+        { "text": "由数与字母的乘积组成" },
+        { "text": "系数是数字因数（含符号）" },
+        { "text": "次数是所有字母指数的和" }
+      ]
+    },
+    {
+      "text": "多项式",
+      "children": [
+        { "text": "几个单项式的和" },
+        { "text": "项包括前面的符号" },
+        { "text": "次数是次数最高项的次数" }
+      ]
+    },
+    {
+      "text": "整式",
+      "children": [
+        { "text": "整式 = 单项式 + 多项式" },
+        { "text": "整式只含加、减、乘运算和数字指数" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "id": 10,
+    "slug": "lesson-10-相似三角形的判定",
+    "title": "相似三角形的判定",
+    "unit": "第四章 图形的相似",
+    "week": 4,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解相似三角形的概念", "isKeyPoint": true },
+    { "text": "掌握相似三角形的判定定理：AA、SAS、SSS", "isKeyPoint": true },
+    { "text": "掌握平行于三角形一边的直线截其他两边的性质", "isKeyPoint": true },
+    { "text": "能利用判定定理证明三角形相似", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "相似三角形的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "对应角相等，对应边成比例的两个三角形叫做**相似三角形**。相似三角形的对应边的比叫做**相似比**（或相似系数）。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "符号表示",
+          "content": "相似用符号\"$\\sim$\"表示，读作\"相似于\"。$\\triangle ABC \\sim \\triangle DEF$ 表示三角形 $ABC$ 相似于三角形 $DEF$。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "相似三角形的对应顶点必须写在对应位置上。$\\triangle ABC \\sim \\triangle DEF$，则 $A$ 与 $D$、$B$ 与 $E$、$C$ 与 $F$ 是对应顶点。"
+        }
+      ]
+    },
+    {
+      "title": "相似三角形的判定定理",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "判定两个三角形相似的方法有："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**AA**（两角对应相等）：两角对应相等的两个三角形相似",
+            "**SAS**（两边对应成比例且夹角相等）：两边对应成比例且夹角相等的两个三角形相似",
+            "**SSS**（三边对应成比例）：三边对应成比例的两个三角形相似"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "判定方法选择",
+          "content": "AA是最常用的方法，因为只需证明两组角相等。SAS需要证明两边成比例且夹角相等。SSS需要证明三边成比例。"
+        }
+      ]
+    },
+    {
+      "title": "平行于三角形一边的直线",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**平行于三角形一边的直线**截其他两边（或两边的延长线），所得的对应线段成比例。"
+        },
+        {
+          "type": "paragraph",
+          "content": "特别地，平行于三角形一边的直线截其他两边，所截得的三角形与原三角形相似。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "基本定理",
+          "content": "平行于三角形一边的直线截其他两边，所得的三角形与原三角形相似。这是证明三角形相似的重要方法。"
+        }
+      ]
+    },
+    {
+      "title": "相似三角形与全等三角形的关系",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "全等三角形是相似比为1的相似三角形。即全等三角形一定是相似三角形，但相似三角形不一定是全等三角形。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "关系总结",
+          "content": "全等三角形 $\\subset$ 相似三角形。全等要求对应边相等，相似只要求对应边成比例。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：用AA判定相似",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，$DE \\parallel BC$，$AD = 2$，$DB = 3$，$AE = 1.6$。求 $EC$ 的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $DE \\parallel BC$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\triangle ADE \\sim \\triangle ABC$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\frac{AD}{AB} = \\frac{AE}{AC}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "即 $\\frac{2}{2+3} = \\frac{1.6}{1.6 + EC}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\frac{2}{5} = \\frac{1.6}{1.6 + EC}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$2(1.6 + EC) = 5 \\times 1.6$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$3.2 + 2EC = 8$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$2EC = 4.8$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$EC = 2.4$"
+        }
+      ],
+      "answer": "$EC = 2.4$"
+    },
+    {
+      "title": "例2：用SAS判定相似",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，在 $\\triangle ABC$ 和 $\\triangle DEF$ 中，$\\angle A = \\angle D = 70°$，$\\frac{AB}{DE} = \\frac{AC}{DF} = \\frac{2}{3}$。求证：$\\triangle ABC \\sim \\triangle DEF$。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**证明：** 在 $\\triangle ABC$ 和 $\\triangle DEF$ 中，"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\frac{AB}{DE} = \\frac{AC}{DF} = \\frac{2}{3}$（已知），"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\angle A = \\angle D = 70°$（已知），"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\triangle ABC \\sim \\triangle DEF$（SAS）。"
+        }
+      ],
+      "answer": "利用SAS判定定理证明相似"
+    }
+  ],
+  "summary": [
+    {
+      "text": "相似三角形的概念",
+      "children": [
+        { "text": "对应角相等，对应边成比例的两个三角形" },
+        { "text": "对应边的比叫做相似比" }
+      ]
+    },
+    {
+      "text": "判定定理",
+      "children": [
+        { "text": "AA：两角对应相等" },
+        { "text": "SAS：两边对应成比例且夹角相等" },
+        { "text": "SSS：三边对应成比例" }
+      ]
+    },
+    {
+      "text": "平行线截三角形",
+      "children": [
+        { "text": "平行于三角形一边的直线截其他两边，截得的三角形与原三角形相似" }
+      ]
+    }
+  ]
+}

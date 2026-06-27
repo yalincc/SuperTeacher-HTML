@@ -1,0 +1,63 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-02-01",
+      "stem": "下列关于矩形的说法中，正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "矩形的对角线互相垂直" },
+        { "label": "B", "text": "矩形的四条边都相等" },
+        { "label": "C", "text": "矩形的四个角都是直角" },
+        { "label": "D", "text": "矩形的对角线互相垂直平分" }
+      ],
+      "answer": "C",
+      "analysis": "矩形的四个角都是直角，对角线相等且互相平分，但对角线不一定垂直。只有正方形的对角线才互相垂直。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-02-02",
+      "stem": "矩形 $ABCD$ 中，$AB = 3$，$BC = 4$，则对角线 $AC$ 的长为（  ）",
+      "options": [
+        { "label": "A", "text": "$5$" },
+        { "label": "B", "text": "$7$" },
+        { "label": "C", "text": "$12$" },
+        { "label": "D", "text": "$25$" }
+      ],
+      "answer": "A",
+      "analysis": "矩形的角都是直角，在 $\\text{Rt}\\triangle ABC$ 中，$AC = \\sqrt{AB^2 + BC^2} = \\sqrt{3^2 + 4^2} = 5$。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-02-03",
+      "stem": "下列条件中，能判定四边形 $ABCD$ 是矩形的是（  ）",
+      "options": [
+        { "label": "A", "text": "$AB \\parallel CD$，$AD \\parallel BC$" },
+        { "label": "B", "text": "$\\angle A = \\angle B = \\angle C = \\angle D$" },
+        { "label": "C", "text": "$AB = CD$，$AD = BC$" },
+        { "label": "D", "text": "$AO = BO = CO = DO$" }
+      ],
+      "answer": "D",
+      "analysis": "A、C只能判定是平行四边形；B只能判定是矩形（四个角相等则都为直角）；D中 $AO = CO$，$BO = DO$，且 $AO = BO$，所以 $AC = BD$，对角线相等的平行四边形是矩形。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-02-04",
+      "stem": "对角线相等的四边形一定是矩形。",
+      "answer": false,
+      "analysis": "对角线相等的四边形不一定是矩形，例如等腰梯形的对角线也相等。必须是对角线相等的**平行四边形**才是矩形。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-02-05",
+      "segments": ["矩形 $ABCD$ 中，对角线 $AC$、$BD$ 相交于点 $O$，$\\angle OAB = 30°$，$AC = 10$，则 $AB = $ ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$5\\sqrt{3}$" }
+      ],
+      "analysis": "矩形对角线相等且互相平分，$OA = OB = 5$。$\\angle OAB = 30°$，则 $\\angle AOB = 120°$。由余弦定理 $AB^2 = 5^2 + 5^2 - 2 \\times 5 \\times 5 \\times \\cos 120° = 75$，$AB = 5\\sqrt{3}$。"
+    }
+  ]
+}

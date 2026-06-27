@@ -1,0 +1,63 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-06-01",
+      "stem": "二次函数 $y = -x^2 + 4x - 3$ 的最大值为（  ）",
+      "options": [
+        { "label": "A", "text": "$1$" },
+        { "label": "B", "text": "$3$" },
+        { "label": "C", "text": "$4$" },
+        { "label": "D", "text": "$-3$" }
+      ],
+      "answer": "A",
+      "analysis": "配方得 $y = -(x - 2)^2 + 1$，$a = -1 < 0$，最大值为 $1$。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-06-02",
+      "stem": "若二次函数 $y = x^2 + bx + c$ 的图象经过 $(0, 3)$ 和 $(2, 3)$ 两点，则该函数的对称轴为（  ）",
+      "options": [
+        { "label": "A", "text": "$x = 1$" },
+        { "label": "B", "text": "$x = 2$" },
+        { "label": "C", "text": "$x = -1$" },
+        { "label": "D", "text": "$x = 3$" }
+      ],
+      "answer": "A",
+      "analysis": "因为 $y(0) = y(2) = 3$，由抛物线的对称性，对称轴为 $x = \\frac{0 + 2}{2} = 1$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-06-03",
+      "stem": "二次函数 $y = x^2 - 4x + 5$ 与 $x$ 轴的交点个数为（  ）",
+      "options": [
+        { "label": "A", "text": "$0$ 个" },
+        { "label": "B", "text": "$1$ 个" },
+        { "label": "C", "text": "$2$ 个" },
+        { "label": "D", "text": "无法确定" }
+      ],
+      "answer": "A",
+      "analysis": "$\\Delta = (-4)^2 - 4 \\times 1 \\times 5 = 16 - 20 = -4 < 0$，方程无实数根，图象与 $x$ 轴无交点。",
+      "source": ""
+    },
+    {
+      "type": "true_false",
+      "id": "ex-06-04",
+      "stem": "二次函数 $y = ax^2 + bx + c$ 的图象与 $x$ 轴有两个交点，则 $\\Delta > 0$。",
+      "answer": true,
+      "analysis": "图象与 $x$ 轴有两个交点，说明方程 $ax^2 + bx + c = 0$ 有两个不相等的实数根，所以 $\\Delta = b^2 - 4ac > 0$。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-06-05",
+      "segments": ["若二次函数 $y = x^2 - 2x + k$ 的图象与 $x$ 轴没有交点，则 $k$ 的取值范围是 ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$k > 1$" }
+      ],
+      "analysis": "与 $x$ 轴没有交点，则 $\\Delta = 4 - 4k < 0$，解得 $k > 1$。"
+    }
+  ]
+}

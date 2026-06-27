@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "id": 3,
+    "slug": "lesson-03-正方形",
+    "title": "正方形",
+    "unit": "第一章 特殊四边形",
+    "week": 1,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "理解正方形的定义：既是菱形又是矩形的四边形", "isKeyPoint": true },
+    { "text": "掌握正方形的性质：四边相等、四角都是直角、对角线相等且互相垂直", "isKeyPoint": true },
+    { "text": "理解正方形与菱形、矩形的关系", "isKeyPoint": true },
+    { "text": "能利用正方形的性质解决相关几何问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "正方形的定义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "既是菱形又是矩形的四边形叫做**正方形**。正方形既是特殊的菱形，也是特殊的矩形，它同时具有菱形和矩形的所有性质。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "定义要点",
+          "content": "正方形必须满足：①是平行四边形；②有一组邻边相等；③有一个角是直角。"
+        }
+      ]
+    },
+    {
+      "title": "正方形的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "正方形具有以下性质："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**四边相等**：正方形的四条边都相等",
+            "**四个角都是直角**：正方形的四个角都是 $90°$",
+            "**对角线相等且互相垂直平分**：对角线相等、互相垂直、互相平分",
+            "**对角线平分对角**：每条对角线平分一组对角"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "正方形的对角线将正方形分成四个全等的等腰直角三角形，每个三角形的锐角为 $45°$。"
+        }
+      ]
+    },
+    {
+      "title": "正方形与菱形、矩形的关系",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "正方形、菱形、矩形都是特殊的平行四边形，它们之间的关系如下："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "正方形是特殊的菱形（有一个角是直角的菱形是正方形）",
+            "正方形是特殊的矩形（有一组邻边相等的矩形是正方形）",
+            "正方形既是菱形又是矩形"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "包含关系",
+          "content": "正方形 $\\subset$ 菱形 $\\subset$ 平行四边形；正方形 $\\subset$ 矩形 $\\subset$ 平行四边形。"
+        }
+      ]
+    },
+    {
+      "title": "正方形的面积",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "正方形的面积有两种计算方法："
+        },
+        {
+          "type": "paragraph",
+          "content": "方法一：$S = a^2$（其中 $a$ 为边长）"
+        },
+        {
+          "type": "paragraph",
+          "content": "方法二：$S = \\frac{1}{2} d^2$（其中 $d$ 为对角线长）"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "对角线与边长关系",
+          "content": "正方形的对角线 $d$ 与边长 $a$ 的关系为 $d = \\sqrt{2}a$，即 $a = \\frac{d}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}d$。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：正方形对角线的应用",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "正方形 $ABCD$ 的对角线 $AC$ 与 $BD$ 相交于点 $O$，若 $AC = 8\\text{cm}$，求正方形的边长和面积。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为正方形的对角线相等且互相垂直平分，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $OA = OB = \\frac{AC}{2} = 4\\text{cm}$，且 $\\angle AOB = 90°$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle AOB$ 中，$AB = \\sqrt{OA^2 + OB^2} = \\sqrt{4^2 + 4^2} = 4\\sqrt{2}\\text{cm}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "正方形的面积为 $S = AB^2 = (4\\sqrt{2})^2 = 32\\text{cm}^2$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "或用对角线求面积：$S = \\frac{1}{2} AC^2 = \\frac{1}{2} \\times 64 = 32\\text{cm}^2$。"
+        }
+      ],
+      "answer": "边长为 $4\\sqrt{2}\\text{cm}$，面积为 $32\\text{cm}^2$"
+    },
+    {
+      "title": "例2：正方形与菱形的关系",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "菱形 $ABCD$ 中，对角线 $AC = BD$。求证：菱形 $ABCD$ 是正方形。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**证明：** 因为四边形 $ABCD$ 是菱形，所以 $AB = BC = CD = DA$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "又因为 $AC = BD$，且菱形的对角线互相垂直平分，"
+        },
+        {
+          "type": "paragraph",
+          "content": "设对角线交点为 $O$，则 $OA = OC = \\frac{AC}{2}$，$OB = OD = \\frac{BD}{2}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $OA = OB = OC = OD$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\triangle AOB$ 中，$OA = OB$，且 $\\angle AOB = 90°$，所以 $\\angle OAB = \\angle OBA = 45°$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "同理 $\\angle OAD = \\angle ODA = 45°$，所以 $\\angle DAB = \\angle OAB + \\angle OAD = 90°$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "有一个角是直角的菱形是正方形，所以菱形 $ABCD$ 是正方形。"
+        }
+      ],
+      "answer": "对角线相等的菱形是正方形"
+    }
+  ],
+  "summary": [
+    {
+      "text": "正方形的定义",
+      "children": [
+        { "text": "既是菱形又是矩形的四边形叫做正方形" }
+      ]
+    },
+    {
+      "text": "正方形的性质",
+      "children": [
+        { "text": "四边相等，四个角都是直角" },
+        { "text": "对角线相等且互相垂直平分" }
+      ]
+    },
+    {
+      "text": "正方形与菱形、矩形的关系",
+      "children": [
+        { "text": "正方形是特殊的菱形（有一个角是直角）" },
+        { "text": "正方形是特殊的矩形（有一组邻边相等）" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "id": 1,
+    "slug": "lesson-01-锐角三角函数",
+    "title": "锐角三角函数",
+    "unit": "第一章 直角三角形的边角关系",
+    "week": 1,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解锐角三角函数的定义（正弦、余弦、正切）", "isKeyPoint": true },
+    { "text": "能根据直角三角形中的边角关系求三角函数值", "isKeyPoint": true },
+    { "text": "记住三角函数的记号：$\\sin A$、$\\cos A$、$\\tan A$", "isKeyPoint": false },
+    { "text": "了解三角函数值随角度变化的大致趋势", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "正弦",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle ABC$ 中，$\\angle C = 90°$，锐角 $A$ 的**对边**与**斜边**的比值叫做角 $A$ 的**正弦**，记作 $\\sin A$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "$$\\sin A = \\frac{\\angle A \\text{ 的对边}}{\\text{斜边}} = \\frac{a}{c}$$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆口诀",
+          "content": "正弦记为 sin，分子是对边，分母是斜边——对斜正弦。"
+        }
+      ]
+    },
+    {
+      "title": "余弦",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle ABC$ 中，$\\angle C = 90°$，锐角 $A$ 的**邻边**与**斜边**的比值叫做角 $A$ 的**余弦**，记作 $\\cos A$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "$$\\cos A = \\frac{\\angle A \\text{ 的邻边}}{\\text{斜边}} = \\frac{b}{c}$$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆口诀",
+          "content": "余弦记为 cos，分子是邻边，分母是斜边——邻斜余弦。"
+        }
+      ]
+    },
+    {
+      "title": "正切",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle ABC$ 中，$\\angle C = 90°$，锐角 $A$ 的**对边**与**邻边**的比值叫做角 $A$ 的**正切**，记作 $\\tan A$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "$$\\tan A = \\frac{\\angle A \\text{ 的对边}}{\\angle A \\text{ 的邻边}} = \\frac{a}{b}$$"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "正切没有分母为斜边的情况，只涉及两条直角边的比值。"
+        }
+      ]
+    },
+    {
+      "title": "三角函数值的变化规律",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "当锐角 $A$ 从 $0°$ 增大到 $90°$ 时：$\\sin A$ 随角度增大而**增大**，$\\cos A$ 随角度增大而**减小**，$\\tan A$ 随角度增大而**增大**。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "三角函数值只与角的大小有关，与三角形的大小无关。同一个锐角在不同的直角三角形中，其三角函数值是相同的。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求三角函数值",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle ABC$ 中，$\\angle C = 90°$，$BC = 3$，$AC = 4$，求 $\\sin A$、$\\cos A$、$\\tan A$ 的值。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 由勾股定理，$AB = \\sqrt{AC^2 + BC^2} = \\sqrt{4^2 + 3^2} = 5$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\sin A = \\frac{BC}{AB} = \\frac{3}{5}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\cos A = \\frac{AC}{AB} = \\frac{4}{5}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\tan A = \\frac{BC}{AC} = \\frac{3}{4}$"
+        }
+      ],
+      "answer": "$\\sin A = \\frac{3}{5}$，$\\cos A = \\frac{4}{5}$，$\\tan A = \\frac{3}{4}$"
+    },
+    {
+      "title": "例2：利用三角函数求边长",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle ABC$ 中，$\\angle C = 90°$，$\\sin A = \\frac{5}{13}$，$BC = 10$，求 $AB$ 和 $AC$ 的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $\\sin A = \\frac{BC}{AB}$，所以 $\\frac{10}{AB} = \\frac{5}{13}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "解得 $AB = 26$"
+        },
+        {
+          "type": "paragraph",
+          "content": "由勾股定理：$AC = \\sqrt{AB^2 - BC^2} = \\sqrt{26^2 - 10^2} = \\sqrt{576} = 24$"
+        }
+      ],
+      "answer": "$AB = 26$，$AC = 24$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "锐角三角函数的定义",
+      "children": [
+        { "text": "$\\sin A = \\frac{\\text{对边}}{\\text{斜边}}$" },
+        { "text": "$\\cos A = \\frac{\\text{邻边}}{\\text{斜边}}$" },
+        { "text": "$\\tan A = \\frac{\\text{对边}}{\\text{邻边}}$" }
+      ]
+    },
+    {
+      "text": "三角函数值的变化规律",
+      "children": [
+        { "text": "$\\sin A$ 和 $\\tan A$ 随角度增大而增大" },
+        { "text": "$\\cos A$ 随角度增大而减小" }
+      ]
+    },
+    {
+      "text": "重要性质",
+      "children": [
+        { "text": "三角函数值只与角的大小有关，与三角形大小无关" }
+      ]
+    }
+  ]
+}

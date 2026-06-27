@@ -1,0 +1,60 @@
+{
+  "lessonId": 14,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-14-01",
+      "stem": "方程 $3x+1=7$ 的解是（  ）",
+      "options": [
+        { "label": "A", "text": "$x=2$" },
+        { "label": "B", "text": "$x=\\frac{7}{3}$" },
+        { "label": "C", "text": "$x=\\frac{8}{3}$" },
+        { "label": "D", "text": "$x=6$" }
+      ],
+      "answer": "A",
+      "analysis": "移项得 $3x=7-1=6$，系数化为1得 $x=2$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-14-02",
+      "stem": "解方程 $2(x-1)=x+3$ 时，去括号正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$2x-1=x+3$" },
+        { "label": "B", "text": "$2x-2=x+3$" },
+        { "label": "C", "text": "$2x+2=x+3$" },
+        { "label": "D", "text": "$2x-2=x-3$" }
+      ],
+      "answer": "B",
+      "analysis": "去括号时，括号前是2，要乘以括号内的每一项：$2(x-1)=2x-2$，右边不变。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-14-03",
+      "stem": "移项时，被移动的项一定要改变符号。",
+      "answer": true,
+      "analysis": "移项是根据等式性质1，把项从等号一边移到另一边，相当于两边同时加上这项的相反数，所以符号必须改变。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-14-04",
+      "segments": ["解方程 $\\frac{x}{2}+1=3$ 时，第一步去分母，方程两边同乘___1___，得到 $x+2=6$。"],
+      "blanks": [
+        { "index": 1, "answer": "2" }
+      ],
+      "analysis": "方程左边分母是2，去分母时两边同乘2，得 $2\\times\\frac{x}{2}+2\\times1=2\\times3$，即 $x+2=6$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-14-05",
+      "stem": "若 $2x+3=5$，则 $4x+6$ 的值是（  ）",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "10" },
+        { "label": "D", "text": "12" }
+      ],
+      "answer": "C",
+      "analysis": "由 $2x+3=5$ 得 $2x=2$，所以 $x=1$。则 $4x+6=4\\times1+6=10$。"
+    }
+  ]
+}

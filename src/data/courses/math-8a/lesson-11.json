@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": 11,
+    "slug": "lesson-11-认识二元一次方程组",
+    "title": "认识二元一次方程组",
+    "unit": "第五章 二元一次方程组",
+    "week": 5,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解二元一次方程的概念", "isKeyPoint": true },
+    { "text": "理解二元一次方程组的概念", "isKeyPoint": true },
+    { "text": "理解二元一次方程组的解的概念", "isKeyPoint": true },
+    { "text": "能判断一个方程是否为二元一次方程", "isKeyPoint": false },
+    { "text": "能检验一组数是否为方程组的解", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "二元一次方程的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "含有两个未知数，并且含有未知数的项的次数都是 $1$ 的方程，叫做**二元一次方程**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "一般形式：$ax + by = c$（$a$、$b$、$c$ 为常数，$ab \\neq 0$）。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "判断方法",
+          "content": "判断一个方程是否为二元一次方程，需要满足三个条件：①含有两个未知数；②未知数的次数都是 $1$；③是整式方程。"
+        }
+      ]
+    },
+    {
+      "title": "二元一次方程组的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "含有两个未知数的两个一次方程所组成的一组方程，叫做**二元一次方程组**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "二元一次方程组的一般形式：\n$\\begin{cases} a_1x + b_1y = c_1 \\\\ a_2x + b_2y = c_2 \\end{cases}$（$a_1$、$b_1$、$a_2$、$b_2$ 不全为 $0$）"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "注意",
+          "content": "方程组中的两个方程共含有两个相同的未知数，且每个方程都是一次方程。"
+        }
+      ]
+    },
+    {
+      "title": "二元一次方程组的解",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一般地，使二元一次方程组中两个方程的左右两边都相等的两个未知数的值，叫做二元一次方程组的**解**。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "方程组的解是一对数 $(x, y)$，不是单个的值。检验时需要将这对数代入方程组中的每一个方程。"
+        }
+      ]
+    },
+    {
+      "title": "二元一次方程的解",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "二元一次方程有无数多组解。使二元一次方程两边的值相等的两个未知数的值，叫做二元一次方程的**解**。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆要点",
+          "content": "一个二元一次方程有无数多组解，而一个二元一次方程组通常只有一组解。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断二元一次方程",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "判断下列方程是否为二元一次方程：\n(1) $x + y = 5$　(2) $x^2 + y = 3$　(3) $\\frac{1}{x} + y = 2$　(4) $2x - 3y = 0$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**分析**：\n(1) $x + y = 5$ 含有两个未知数，且未知数的次数都是 $1$，是二元一次方程。\n(2) $x^2 + y = 3$ 中 $x$ 的次数是 $2$，不是二元一次方程。\n(3) $\\frac{1}{x} + y = 2$ 中 $x$ 在分母上，不是整式方程，不是二元一次方程。\n(4) $2x - 3y = 0$ 含有两个未知数，且未知数的次数都是 $1$，是二元一次方程。"
+        }
+      ],
+      "answer": "(1) 和 (4) 是二元一次方程；(2) 和 (3) 不是二元一次方程。"
+    },
+    {
+      "title": "例2：检验方程组的解",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "检验 $\\begin{cases} x = 3 \\\\ y = 2 \\end{cases}$ 是否为方程组 $\\begin{cases} x + y = 5 \\\\ x - y = 1 \\end{cases}$ 的解。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "将 $x = 3$，$y = 2$ 代入第一个方程：$3 + 2 = 5$，等式成立。\n将 $x = 3$，$y = 2$ 代入第二个方程：$3 - 2 = 1$，等式成立。\n由于这对值同时满足两个方程，所以是方程组的解。"
+        }
+      ],
+      "answer": "$\\begin{cases} x = 3 \\\\ y = 2 \\end{cases}$ 是该方程组的解。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "二元一次方程",
+      "children": [
+        { "text": "含有两个未知数，未知数次数为 $1$ 的整式方程" },
+        { "text": "一般形式：$ax + by = c$（$ab \\neq 0$）" }
+      ]
+    },
+    {
+      "text": "二元一次方程组",
+      "children": [
+        { "text": "两个二元一次方程组成的一组方程" },
+        { "text": "方程组的解：使两个方程都成立的一对未知数的值" }
+      ]
+    },
+    {
+      "text": "检验方法",
+      "children": [
+        { "text": "将未知数的值代入每个方程检验" },
+        { "text": "只有同时满足所有方程才是方程组的解" }
+      ]
+    }
+  ]
+}

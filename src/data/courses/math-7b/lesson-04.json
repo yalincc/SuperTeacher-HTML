@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "id": 4,
+    "slug": "lesson-04-相交线",
+    "title": "相交线",
+    "unit": "第二章 相交线与平行线",
+    "week": 2,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解对顶角的概念，掌握对顶角相等的性质", "isKeyPoint": true },
+    { "text": "理解邻补角的概念及其关系", "isKeyPoint": true },
+    { "text": "理解垂线的概念，掌握垂线的性质", "isKeyPoint": true },
+    { "text": "了解点到直线的距离的概念", "isKeyPoint": false },
+    { "text": "能运用对顶角和垂线的性质解决简单问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "对顶角及其性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**对顶角**：两条直线相交后所得的只有一个公共顶点且两边互为反向延长线的两个角叫做对顶角。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**对顶角的性质**：对顶角相等。即若两条直线相交，则对顶角的度数相等。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "判断方法",
+          "content": "判断两个角是否为对顶角，需满足：①有一个公共顶点；②两边互为反向延长线（即由两条直线相交而成）。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "对顶角相等，但相等的角不一定是对顶角。例如等腰三角形的两个底角相等，但它们不是对顶角。"
+        }
+      ]
+    },
+    {
+      "title": "邻补角",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**邻补角**：两条直线相交后，有公共顶点且有一条公共边的两个角叫做邻补角。邻补角互为补角，即它们的度数之和为 $180^\\circ$。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "邻补角有公共顶点",
+            "邻补角有一条公共边",
+            "邻补角的另一边互为反向延长线",
+            "邻补角互补：$\\angle 1 + \\angle 2 = 180^\\circ$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "对顶角与邻补角的区别",
+          "content": "对顶角没有公共边，邻补角有公共边。两条直线相交形成两对对顶角和四对邻补角。"
+        }
+      ]
+    },
+    {
+      "title": "垂线及其性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**垂线**：当两条直线相交所成的四个角中，有一个角是直角时，就说这两条直线互相垂直，其中一条直线叫做另一条直线的垂线，它们的交点叫做垂足。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**垂线的性质**：①过一点有且只有一条直线与已知直线垂直；②直线外一点与直线上各点连接的所有线段中，垂线段最短。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "点到直线的距离",
+          "content": "从直线外一点到这条直线的垂线段的长度，叫做点到直线的距离。垂线段最短，所以距离是唯一的最小值。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：对顶角的性质",
+      "problem": [
+        { "type": "paragraph", "content": "如图，直线 $AB$ 和 $CD$ 相交于点 $O$，若 $\\angle AOC = 70^\\circ$，求 $\\angle BOD$ 和 $\\angle AOD$ 的度数。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "$\\angle AOC$ 与 $\\angle BOD$ 是对顶角，所以 $\\angle BOD = \\angle AOC = 70^\\circ$。" },
+        { "type": "paragraph", "content": "$\\angle AOC$ 与 $\\angle AOD$ 是邻补角，所以 $\\angle AOD = 180^\\circ - 70^\\circ = 110^\\circ$。" }
+      ],
+      "answer": "$\\angle BOD = 70^\\circ$，$\\angle AOD = 110^\\circ$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "对顶角",
+      "children": [
+        { "text": "两条直线相交形成的对顶角相等" },
+        { "text": "对顶角有公共顶点，两边互为反向延长线" }
+      ]
+    },
+    {
+      "text": "邻补角",
+      "children": [
+        { "text": "有公共顶点和公共边，度数之和为 $180^\\circ$" }
+      ]
+    },
+    {
+      "text": "垂线",
+      "children": [
+        { "text": "过一点有且只有一条直线与已知直线垂直" },
+        { "text": "垂线段最短" },
+        { "text": "点到直线的距离：垂线段的长度" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-07-01",
+      "stem": "点 $(-3, 2)$ 在（  ）",
+      "options": [
+        { "label": "A", "text": "第一象限" },
+        { "label": "B", "text": "第二象限" },
+        { "label": "C", "text": "第三象限" },
+        { "label": "D", "text": "第四象限" }
+      ],
+      "answer": "B",
+      "analysis": "点 $(-3, 2)$ 横坐标为负、纵坐标为正，在第二象限。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-07-02",
+      "stem": "点 $(0, -5)$ 在（  ）",
+      "options": [
+        { "label": "A", "text": "x 轴上" },
+        { "label": "B", "text": "y 轴上" },
+        { "label": "C", "text": "第一象限" },
+        { "label": "D", "text": "第三象限" }
+      ],
+      "answer": "B",
+      "analysis": "点 $(0, -5)$ 横坐标为 0，在 y 轴上。坐标轴上的点不属于任何象限。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-07-03",
+      "stem": "点 $(4, -3)$ 关于 x 轴对称的点的坐标是（  ）",
+      "options": [
+        { "label": "A", "text": "$(-4, 3)$" },
+        { "label": "B", "text": "$(4, 3)$" },
+        { "label": "C", "text": "$(-4, -3)$" },
+        { "label": "D", "text": "$(4, -3)$" }
+      ],
+      "answer": "B",
+      "analysis": "关于 x 轴对称，横坐标不变，纵坐标变号：$(4, -3) \\to (4, 3)$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-07-04",
+      "stem": "平面直角坐标系中，x 轴和 y 轴将平面分为四个象限，坐标轴上的点属于某个象限。",
+      "answer": false,
+      "analysis": "坐标轴（x 轴和 y 轴）上的点不属于任何象限。只有不在坐标轴上的点才属于某个象限。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-07-05",
+      "segments": ["若点 $P(a, b)$ 在第三象限，则 $a$___1___0，$b$___2___0（填\\\">\\\"、\\\"<\\\"或\\\"=\\\")."],
+      "blanks": [
+        { "index": 1, "answer": "<" },
+        { "index": 2, "answer": "<" }
+      ],
+      "analysis": "第三象限的点横坐标和纵坐标都为负，即 $a < 0$，$b < 0$。"
+    }
+  ]
+}

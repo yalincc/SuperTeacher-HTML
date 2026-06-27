@@ -1,0 +1,60 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-02-01",
+      "stem": "计算 $(a^2)^3$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$a^5$" },
+        { "label": "B", "text": "$a^6$" },
+        { "label": "C", "text": "$a^8$" },
+        { "label": "D", "text": "$a^9$" }
+      ],
+      "answer": "B",
+      "analysis": "$(a^2)^3 = a^{2 \\times 3} = a^6$，幂的乘方底数不变，指数相乘。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-02-02",
+      "stem": "计算 $(2x^2y)^3$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$6x^6y^3$" },
+        { "label": "B", "text": "$8x^5y^3$" },
+        { "label": "C", "text": "$8x^6y^3$" },
+        { "label": "D", "text": "$8x^6y$" }
+      ],
+      "answer": "C",
+      "analysis": "$(2x^2y)^3 = 2^3 \\cdot (x^2)^3 \\cdot y^3 = 8x^6y^3$。注意 $2$ 是系数也要乘方。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-02-03",
+      "stem": "下列运算正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$(a^3)^2 = a^5$" },
+        { "label": "B", "text": "$(ab)^3 = a^3b$" },
+        { "label": "C", "text": "$(a^2)^3 = a^6$" },
+        { "label": "D", "text": "$(3a)^2 = 3a^2$" }
+      ],
+      "answer": "C",
+      "analysis": "A 应为 $a^6$（指数相乘），B 应为 $a^3b^3$，D 应为 $9a^2$（系数也要乘方）。C 正确。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-02-04",
+      "stem": "$(a+b)^2 = a^2 + b^2$。",
+      "answer": false,
+      "analysis": "和的乘方不等于乘方的和。$(a+b)^2 = a^2 + 2ab + b^2$，这是完全平方公式。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-02-05",
+      "segments": ["若 $(x^2)^n = x^{10}$，则 $n = $___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "5" }
+      ],
+      "analysis": "由 $(x^2)^n = x^{2n} = x^{10}$，得 $2n = 10$，解得 $n = 5$。"
+    }
+  ]
+}

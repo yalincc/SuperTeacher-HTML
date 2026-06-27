@@ -1,0 +1,63 @@
+{
+  "lessonId": 9,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-09-01",
+      "stem": "在 $\\odot O$ 中，圆心角 $\\angle AOB = 80°$，则同弧上的圆周角 $\\angle ACB$ 为（  ）",
+      "options": [
+        { "label": "A", "text": "$40°$" },
+        { "label": "B", "text": "$80°$" },
+        { "label": "C", "text": "$160°$" },
+        { "label": "D", "text": "$20°$" }
+      ],
+      "answer": "A",
+      "analysis": "由圆周角定理，$\\angle ACB = \\frac{1}{2}\\angle AOB = \\frac{1}{2} \\times 80° = 40°$。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-09-02",
+      "stem": "$AB$ 是 $\\odot O$ 的直径，$C$ 是圆上一点，则 $\\angle ACB$ 的度数为（  ）",
+      "options": [
+        { "label": "A", "text": "$60°$" },
+        { "label": "B", "text": "$90°$" },
+        { "label": "C", "text": "$120°$" },
+        { "label": "D", "text": "不确定" }
+      ],
+      "answer": "B",
+      "analysis": "直径所对的圆周角是直角，所以 $\\angle ACB = 90°$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-09-03",
+      "stem": "在 $\\odot O$ 中，同弧上的两个圆周角 $\\angle A$ 和 $\\angle B$，若 $\\angle A = 35°$，则 $\\angle B$ 为（  ）",
+      "options": [
+        { "label": "A", "text": "$35°$" },
+        { "label": "B", "text": "$70°$" },
+        { "label": "C", "text": "$55°$" },
+        { "label": "D", "text": "无法确定" }
+      ],
+      "answer": "A",
+      "analysis": "同弧上的圆周角相等，所以 $\\angle B = \\angle A = 35°$。",
+      "source": ""
+    },
+    {
+      "type": "true_false",
+      "id": "ex-09-04",
+      "stem": "圆周角等于它所对弧的度数。",
+      "answer": false,
+      "analysis": "圆心角等于它所对弧的度数，而圆周角等于圆心角的一半，所以圆周角等于它所对弧度数的一半。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-09-05",
+      "segments": ["在 $\\odot O$ 中，$\\angle AOB = 120°$，$C$ 是圆上一点（不与 $A$、$B$ 重合），则 $\\angle ACB = $ ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$60°$" }
+      ],
+      "analysis": "由圆周角定理，$\\angle ACB = \\frac{1}{2}\\angle AOB = \\frac{1}{2} \\times 120° = 60°$。"
+    }
+  ]
+}

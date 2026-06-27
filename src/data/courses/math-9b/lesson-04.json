@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "id": 4,
+    "slug": "lesson-04-二次函数的概念",
+    "title": "二次函数的概念",
+    "unit": "第二章 二次函数",
+    "week": 2,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解二次函数的定义：$y = ax^2 + bx + c$（$a \\neq 0$）", "isKeyPoint": true },
+    { "text": "能判断一个函数是否为二次函数", "isKeyPoint": true },
+    { "text": "了解二次函数的几种特殊形式", "isKeyPoint": false },
+    { "text": "能根据实际问题建立二次函数模型", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "二次函数的定义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一般地，形如 $y = ax^2 + bx + c$（$a$、$b$、$c$ 为常数，$a \\neq 0$）的函数，叫做**二次函数**。其中 $x$ 是自变量，$a$、$b$、$c$ 分别是二次项系数、一次项系数和常数项。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "判断是否为二次函数，关键看两点：①自变量 $x$ 的最高次数为 $2$；②二次项系数 $a \\neq 0$。"
+        }
+      ]
+    },
+    {
+      "title": "二次函数的特殊形式",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["形式", "表达式", "特点"],
+          "rows": [
+            ["一般式", "$y = ax^2 + bx + c$", "包含三项"],
+            ["顶点式", "$y = a(x - h)^2 + k$", "可直接看出顶点 $(h, k)$"],
+            ["交点式", "$y = a(x - x_1)(x - x_2)$", "可直接看出与 $x$ 轴交点"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "三种形式的联系",
+          "content": "当 $b = 0$，$c = 0$ 时，$y = ax^2$ 是最简单的二次函数形式。"
+        }
+      ]
+    },
+    {
+      "title": "实际问题中的二次函数模型",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "许多实际问题中的数量关系可以用二次函数来描述，例如：面积问题、利润问题、抛物线运动等。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "建立二次函数模型时，关键是找出变量之间的关系，然后设出函数表达式，利用已知条件求出系数。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断二次函数",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "下列函数中，哪些是二次函数？\n① $y = 2x^2 + 3x - 1$\n② $y = (x - 1)^2$\n③ $y = \\frac{1}{x^2}$\n④ $y = (a^2 + 1)x^2 - 3x + 5$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：**"
+        },
+        {
+          "type": "paragraph",
+          "content": "① $y = 2x^2 + 3x - 1$：符合 $y = ax^2 + bx + c$ 的形式，$a = 2 \\neq 0$，**是**二次函数。"
+        },
+        {
+          "type": "paragraph",
+          "content": "② $y = (x - 1)^2 = x^2 - 2x + 1$：展开后符合二次函数定义，$a = 1 \\neq 0$，**是**二次函数。"
+        },
+        {
+          "type": "paragraph",
+          "content": "③ $y = \\frac{1}{x^2}$：自变量 $x$ 在分母上，是分式，**不是**二次函数。"
+        },
+        {
+          "type": "paragraph",
+          "content": "④ $y = (a^2 + 1)x^2 - 3x + 5$：因为 $a^2 + 1 \\geq 1 > 0$，所以二次项系数不为零，**是**二次函数。"
+        }
+      ],
+      "answer": "①②④ 是二次函数"
+    },
+    {
+      "title": "例2：建立二次函数模型",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "用一根长为 $20\\text{m}$ 的篱笆围成一个矩形花圃，设矩形的一边长为 $x\\text{m}$，面积为 $S\\text{m}^2$。求 $S$ 关于 $x$ 的函数表达式，并指出 $x$ 的取值范围。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 设矩形的另一边长为 $y$，则 $2x + 2y = 20$，即 $y = 10 - x$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "面积 $S = x \\cdot y = x(10 - x) = -x^2 + 10x$"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为 $x > 0$ 且 $10 - x > 0$，所以 $0 < x < 10$。"
+        }
+      ],
+      "answer": "$S = -x^2 + 10x$（$0 < x < 10$）"
+    }
+  ],
+  "summary": [
+    {
+      "text": "二次函数的定义",
+      "children": [
+        { "text": "$y = ax^2 + bx + c$（$a \\neq 0$）" },
+        { "text": "判断条件：最高次数为 $2$，且 $a \\neq 0$" }
+      ]
+    },
+    {
+      "text": "三种特殊形式",
+      "children": [
+        { "text": "一般式：$y = ax^2 + bx + c$" },
+        { "text": "顶点式：$y = a(x - h)^2 + k$" },
+        { "text": "交点式：$y = a(x - x_1)(x - x_2)$" }
+      ]
+    },
+    {
+      "text": "实际应用",
+      "children": [
+        { "text": "面积问题、利润问题、抛物线运动等" }
+      ]
+    }
+  ]
+}

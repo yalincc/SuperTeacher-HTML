@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": 11,
+    "slug": "lesson-11-相似三角形的性质",
+    "title": "相似三角形的性质",
+    "unit": "第四章 图形的相似",
+    "week": 4,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "掌握相似三角形的对应边成比例", "isKeyPoint": true },
+    { "text": "掌握相似三角形的面积比等于相似比的平方", "isKeyPoint": true },
+    { "text": "掌握相似三角形的周长比等于相似比", "isKeyPoint": true },
+    { "text": "能利用相似三角形的性质解决实际问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "相似三角形的对应边成比例",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "相似三角形的对应边成比例，对应角相等。若 $\\triangle ABC \\sim \\triangle DEF$，相似比为 $k$，则："
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{AC}{DF} = k$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "比例关系",
+          "content": "相似比 $k$ 是相似三角形对应边的比值。$k > 1$ 表示放大，$k < 1$ 表示缩小，$k = 1$ 表示全等。"
+        }
+      ]
+    },
+    {
+      "title": "相似三角形的周长比",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "相似三角形的**周长比等于相似比**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "若 $\\triangle ABC \\sim \\triangle DEF$，相似比为 $k$，则："
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\frac{\\triangle ABC \\text{的周长}}{\\triangle DEF \\text{的周长}} = k$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "推导过程",
+          "content": "$\\triangle ABC$ 的周长 $= AB + BC + AC = k \\cdot DE + k \\cdot EF + k \\cdot DF = k(DE + EF + DF) = k \\times \\triangle DEF$ 的周长。"
+        }
+      ]
+    },
+    {
+      "title": "相似三角形的面积比",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "相似三角形的**面积比等于相似比的平方**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "若 $\\triangle ABC \\sim \\triangle DEF$，相似比为 $k$，则："
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\frac{S_{\\triangle ABC}}{S_{\\triangle DEF}} = k^2$"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "面积比是相似比的**平方**，不是相似比。例如相似比为 $2:3$，面积比为 $4:9$，不是 $2:3$。"
+        }
+      ]
+    },
+    {
+      "title": "相似三角形的实际应用",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "相似三角形在实际生活中有广泛应用："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**测量高度**：利用影子测量建筑物的高度",
+            "**测量距离**：利用相似三角形测量不可直接到达的距离",
+            "**地图比例**：地图上的距离与实际距离的比",
+            "**模型制作**：按比例缩放制作模型"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "测量方法",
+          "content": "测量高度常用方法：在同一时刻，物体高度与影长成正比。即 $\\frac{\\text{物体高度}}{\\text{影长}} = \\frac{\\text{标杆高度}}{\\text{标杆影长}}$。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：利用相似比求边长",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知 $\\triangle ABC \\sim \\triangle DEF$，$AB = 6$，$DE = 9$，$BC = 4$。求 $EF$ 的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $\\triangle ABC \\sim \\triangle DEF$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\frac{AB}{DE} = \\frac{BC}{EF}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "即 $\\frac{6}{9} = \\frac{4}{EF}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "$6EF = 36$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$EF = 6$"
+        }
+      ],
+      "answer": "$EF = 6$"
+    },
+    {
+      "title": "例2：利用面积比求面积",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知 $\\triangle ABC \\sim \\triangle DEF$，相似比为 $2 : 3$，$\\triangle ABC$ 的面积为 $8$。求 $\\triangle DEF$ 的面积。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $\\triangle ABC \\sim \\triangle DEF$，相似比为 $2 : 3$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\frac{S_{\\triangle ABC}}{S_{\\triangle DEF}} = \\left(\\frac{2}{3}\\right)^2 = \\frac{4}{9}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "即 $\\frac{8}{S_{\\triangle DEF}} = \\frac{4}{9}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "$4S_{\\triangle DEF} = 72$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$S_{\\triangle DEF} = 18$"
+        }
+      ],
+      "answer": "$S_{\\triangle DEF} = 18$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "对应边成比例",
+      "children": [
+        { "text": "相似三角形的对应边成比例，对应角相等" },
+        { "text": "对应边的比等于相似比 $k$" }
+      ]
+    },
+    {
+      "text": "周长比",
+      "children": [
+        { "text": "相似三角形的周长比等于相似比" },
+        { "text": "$\\frac{\\triangle ABC \\text{的周长}}{\\triangle DEF \\text{的周长}} = k$" }
+      ]
+    },
+    {
+      "text": "面积比",
+      "children": [
+        { "text": "相似三角形的面积比等于相似比的平方" },
+        { "text": "$\\frac{S_{\\triangle ABC}}{S_{\\triangle DEF}} = k^2$" }
+      ]
+    }
+  ]
+}

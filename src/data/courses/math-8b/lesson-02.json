@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "id": 2,
+    "slug": "lesson-02-等腰三角形的证明",
+    "title": "等腰三角形的证明",
+    "unit": "第一章 三角形的证明",
+    "week": 1,
+    "day": 2
+  },
+  "objectives": [
+    {
+      "text": "理解等腰三角形的性质和判定定理",
+      "isKeyPoint": true
+    },
+    {
+      "text": "掌握等腰三角形的\"等边对等角\"性质",
+      "isKeyPoint": true
+    },
+    {
+      "text": "掌握等腰三角形的\"等角对等边\"判定",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解等边三角形的性质",
+      "isKeyPoint": false
+    },
+    {
+      "text": "能利用等腰三角形的性质和判定进行证明",
+      "isKeyPoint": true
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "等腰三角形的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "等腰三角形的两个底角相等，简称**等边对等角**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "性质定理",
+          "content": "在等腰三角形中，等边对等角。即如果 $AB=AC$，那么 $\\angle B=\\angle C$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "等腰三角形的顶角平分线、底边上的中线、底边上的高互相重合，简称**三线合一**。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "三线合一",
+          "content": "等腰三角形中，顶角的平分线既是底边上的中线，也是底边上的高。这个性质在证明中经常用到。"
+        }
+      ]
+    },
+    {
+      "title": "等腰三角形的判定",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "如果一个三角形有两个角相等，那么这两个角所对的边也相等，简称**等角对等边**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "判定定理",
+          "content": "在三角形中，如果 $\\angle B=\\angle C$，那么 $AB=AC$，这个三角形是等腰三角形。"
+        },
+        {
+          "type": "paragraph",
+          "content": "等腰三角形的判定定理可以用来证明一个三角形是等腰三角形，也可以用来证明两条线段相等。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "判定等腰三角形时，必须是同一个三角形中的两个角相等。如果两个不同的三角形各有一个角相等，不能判定它们是等腰三角形。"
+        }
+      ]
+    },
+    {
+      "title": "等边三角形的性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "等边三角形是特殊的等腰三角形，它的三条边都相等，三个角都相等。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "等边三角形的角",
+          "content": "等边三角形的每个角都是 $60°$。这是因为三个角相等，三角形内角和为 $180°$，所以每个角为 $180°÷3=60°$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "等边三角形的性质可以用来证明角度相等或线段相等。"
+        }
+      ]
+    },
+    {
+      "title": "等腰三角形的应用",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "等腰三角形的性质和判定在几何证明中应用广泛，主要包括："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "证明线段相等",
+            "证明角相等",
+            "证明一个三角形是等腰三角形",
+            "利用三线合一证明线段或角相等"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "在证明等腰三角形时，常用的方法是：先证明两个角相等，再利用等角对等边判定是等腰三角形。或者先证明两条边相等，再利用等边对等角得出角相等。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：利用等腰三角形性质证明角相等",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，已知 $AB=AC$，$D$ 是 $BC$ 上的一点，$DE \\parallel AC$ 交 $AB$ 于 $E$，$DF \\parallel AB$ 交 $AC$ 于 $F$。求证：$DE=DF$。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**证明：** 因为 $AB=AC$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle B=\\angle C$（等边对等角）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为 $DE \\parallel AC$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle EDB=\\angle C$（两直线平行，同位角相等）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle EDB=\\angle B$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $EB=ED$（等角对等边）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "同理可得 $FC=FD$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "又因为 $DE \\parallel AC$，$DF \\parallel AB$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以四边形 $AEDF$ 是平行四边形。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $AE=DF$（平行四边形的对边相等）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "又因为 $AB=AC$，$EB=ED$，$FC=FD$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $DE=DF$。"
+        }
+      ],
+      "answer": "利用等腰三角形的性质和平行四边形的性质证明"
+    },
+    {
+      "title": "例2：利用等腰三角形判定证明三角形是等腰三角形",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，已知 $\\angle ABC=\\angle ACB$，$BD$ 平分 $\\angle ABC$，$CE$ 平分 $\\angle ACB$。求证：$\\triangle BDC$ 是等腰三角形。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**证明：** 因为 $\\angle ABC=\\angle ACB$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "$BD$ 平分 $\\angle ABC$，$CE$ 平分 $\\angle ACB$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle DBC=\\frac{1}{2}\\angle ABC$，$\\angle ECB=\\frac{1}{2}\\angle ACB$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle DBC=\\angle ECB$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\triangle BDC$ 中，"
+        },
+        {
+          "type": "paragraph",
+          "content": "因为 $\\angle DBC=\\angle ECB$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $BD=CE$（等角对等边）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "又因为 $\\angle BDC=180°-\\angle DBC-\\angle DCB$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\angle BEC=180°-\\angle ECB-\\angle EBC$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "且 $\\angle DCB=\\angle EBC$（因为 $\\angle ACB=\\angle ABC$），"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle BDC=\\angle BEC$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\triangle BDC$ 是等腰三角形。"
+        }
+      ],
+      "answer": "利用角平分线的性质和等腰三角形的判定定理证明"
+    }
+  ],
+  "summary": [
+    {
+      "text": "等腰三角形的性质",
+      "children": [
+        {
+          "text": "等边对等角：等腰三角形的两个底角相等"
+        },
+        {
+          "text": "三线合一：顶角平分线、底边上的中线、底边上的高互相重合"
+        }
+      ]
+    },
+    {
+      "text": "等腰三角形的判定",
+      "children": [
+        {
+          "text": "等角对等边：如果一个三角形有两个角相等，那么这两个角所对的边也相等"
+        }
+      ]
+    },
+    {
+      "text": "等边三角形的性质",
+      "children": [
+        {
+          "text": "三条边都相等"
+        },
+        {
+          "text": "三个角都相等，每个角都是 $60°$"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-03-01",
+      "stem": "正方形具有而菱形不一定具有的性质是（  ）",
+      "options": [
+        { "label": "A", "text": "四边相等" },
+        { "label": "B", "text": "对角线互相垂直" },
+        { "label": "C", "text": "对角线相等" },
+        { "label": "D", "text": "对角线互相平分" }
+      ],
+      "answer": "C",
+      "analysis": "正方形的对角线相等，但菱形的对角线不一定相等。四边相等、对角线互相垂直、对角线互相平分是菱形和正方形都具有的性质。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-03-02",
+      "stem": "正方形的对角线长为 $2\\sqrt{2}$，则正方形的边长为（  ）",
+      "options": [
+        { "label": "A", "text": "$2$" },
+        { "label": "B", "text": "$4$" },
+        { "label": "C", "text": "$2\\sqrt{2}$" },
+        { "label": "D", "text": "$\\sqrt{2}$" }
+      ],
+      "answer": "A",
+      "analysis": "正方形的对角线 $d$ 与边长 $a$ 的关系为 $d = \\sqrt{2}a$，所以 $a = \\frac{d}{\\sqrt{2}} = \\frac{2\\sqrt{2}}{\\sqrt{2}} = 2$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-03-03",
+      "stem": "下列四边形中，既是菱形又是矩形的是（  ）",
+      "options": [
+        { "label": "A", "text": "平行四边形" },
+        { "label": "B", "text": "菱形" },
+        { "label": "C", "text": "矩形" },
+        { "label": "D", "text": "正方形" }
+      ],
+      "answer": "D",
+      "analysis": "正方形既是菱形（四边相等的平行四边形）又是矩形（有一个角是直角的平行四边形）。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-03-04",
+      "stem": "正方形的面积等于对角线乘积的一半。",
+      "answer": true,
+      "analysis": "正方形的面积 $S = \\frac{1}{2} d_1 d_2$，因为正方形的对角线相等，所以 $S = \\frac{1}{2} d^2$。这也是菱形面积公式的特例。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-03-05",
+      "segments": ["正方形 $ABCD$ 的边长为 $3$，则对角线 $AC = $ ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$3\\sqrt{2}$" }
+      ],
+      "analysis": "正方形的对角线 $AC = \\sqrt{AB^2 + BC^2} = \\sqrt{3^2 + 3^2} = \\sqrt{18} = 3\\sqrt{2}$。"
+    }
+  ]
+}

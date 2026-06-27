@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "id": 6,
+    "slug": "lesson-06-二次函数的应用",
+    "title": "二次函数的应用",
+    "unit": "第二章 二次函数",
+    "week": 2,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "能利用二次函数求最大值或最小值", "isKeyPoint": true },
+    { "text": "理解二次函数与一元二次方程的关系", "isKeyPoint": true },
+    { "text": "能用二次函数解决实际问题", "isKeyPoint": false },
+    { "text": "能根据图象判断一元二次方程根的情况", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "求最大值或最小值",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "当 $a > 0$ 时，抛物线开口向上，在顶点处取得**最小值** $y = \\frac{4ac - b^2}{4a}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "当 $a < 0$ 时，抛物线开口向下，在顶点处取得**最大值** $y = \\frac{4ac - b^2}{4a}$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "求最值时，先确定 $a$ 的符号，再求顶点坐标。顶点的纵坐标即为最值。"
+        }
+      ]
+    },
+    {
+      "title": "二次函数与一元二次方程的关系",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "二次函数 $y = ax^2 + bx + c$ 与 $x$ 轴的交点的横坐标，就是一元二次方程 $ax^2 + bx + c = 0$ 的根。"
+        },
+        {
+          "type": "table",
+          "headers": ["$\\Delta = b^2 - 4ac$", "与 $x$ 轴交点个数", "方程的根"],
+          "rows": [
+            ["$\\Delta > 0$", "两个交点", "两个不相等的实数根"],
+            ["$\\Delta = 0$", "一个交点（切点）", "两个相等的实数根"],
+            ["$\\Delta < 0$", "无交点", "无实数根"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$\\Delta = 0$ 时，抛物线与 $x$ 轴相切（只有一个交点），但方程仍有两个相等的实数根。"
+        }
+      ]
+    },
+    {
+      "title": "实际问题建模",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "解决实际问题的步骤：①设变量，建立函数关系式；②确定自变量的取值范围；③利用函数性质求最值或解方程。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "实际问题中，要注意自变量的取值范围，最值必须在取值范围内才能取到。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求最值问题",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "某商品的进价为每件 $40$ 元，售价为每件 $60$ 元，每天可售出 $300$ 件。市场调查发现：每件涨价 $1$ 元，日销量减少 $10$ 件。问每件涨价多少元时，日利润最大？最大日利润是多少？"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 设每件涨价 $x$ 元，则每件利润为 $(20 + x)$ 元，日销量为 $(300 - 10x)$ 件。"
+        },
+        {
+          "type": "paragraph",
+          "content": "日利润 $W = (20 + x)(300 - 10x) = -10x^2 + 100x + 6000$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$= -10(x - 5)^2 + 6250$"
+        },
+        {
+          "type": "paragraph",
+          "content": "当 $x = 5$ 时，$W$ 取最大值 $6250$ 元。"
+        }
+      ],
+      "answer": "每件涨价 $5$ 元时，日利润最大，为 $6250$ 元"
+    },
+    {
+      "title": "例2：二次函数与方程",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知二次函数 $y = x^2 - 2x + m$ 的图象与 $x$ 轴有交点，求 $m$ 的取值范围。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 图象与 $x$ 轴有交点，等价于方程 $x^2 - 2x + m = 0$ 有实数根。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\Delta = (-2)^2 - 4m \\geq 0$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$4 - 4m \\geq 0$，$m \\leq 1$"
+        }
+      ],
+      "answer": "$m \\leq 1$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "求最值",
+      "children": [
+        { "text": "$a > 0$：最小值在顶点处" },
+        { "text": "$a < 0$：最大值在顶点处" }
+      ]
+    },
+    {
+      "text": "与一元二次方程的关系",
+      "children": [
+        { "text": "$\\Delta > 0$：两个交点" },
+        { "text": "$\\Delta = 0$：一个交点" },
+        { "text": "$\\Delta < 0$：无交点" }
+      ]
+    },
+    {
+      "text": "实际应用",
+      "children": [
+        { "text": "建立函数关系式" },
+        { "text": "确定自变量范围" },
+        { "text": "利用函数性质求解" }
+      ]
+    }
+  ]
+}

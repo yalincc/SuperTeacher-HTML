@@ -1,0 +1,63 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-02-01",
+      "stem": "下列各式正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\sin 30° = \\frac{\\sqrt{3}}{2}$" },
+        { "label": "B", "text": "$\\cos 45° = \\frac{1}{2}$" },
+        { "label": "C", "text": "$\\tan 60° = \\sqrt{3}$" },
+        { "label": "D", "text": "$\\cos 30° = \\frac{1}{2}$" }
+      ],
+      "answer": "C",
+      "analysis": "$\\sin 30° = \\frac{1}{2}$，$\\cos 45° = \\frac{\\sqrt{2}}{2}$，$\\cos 30° = \\frac{\\sqrt{3}}{2}$，只有 $\\tan 60° = \\sqrt{3}$ 正确。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-02-02",
+      "stem": "计算 $2\\sin 30° - \\tan 45°$ 的值为（  ）",
+      "options": [
+        { "label": "A", "text": "$0$" },
+        { "label": "B", "text": "$1$" },
+        { "label": "C", "text": "$-1$" },
+        { "label": "D", "text": "$\\frac{1}{2}$" }
+      ],
+      "answer": "A",
+      "analysis": "$2\\sin 30° - \\tan 45° = 2 \\times \\frac{1}{2} - 1 = 1 - 1 = 0$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-02-03",
+      "stem": "在 $\\text{Rt}\\triangle ABC$ 中，$\\angle C = 90°$，$\\angle B = 60°$，$AC = 3$，则 $AB$ 的长为（  ）",
+      "options": [
+        { "label": "A", "text": "$3\\sqrt{3}$" },
+        { "label": "B", "text": "$6$" },
+        { "label": "C", "text": "$\\sqrt{3}$" },
+        { "label": "D", "text": "$2\\sqrt{3}$" }
+      ],
+      "answer": "D",
+      "analysis": "$\\sin B = \\sin 60° = \\frac{AC}{AB}$，即 $\\frac{\\sqrt{3}}{2} = \\frac{3}{AB}$，解得 $AB = \\frac{6}{\\sqrt{3}} = 2\\sqrt{3}$。",
+      "source": "2024年深圳中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-02-04",
+      "stem": "$\\sin 30° + \\cos 60° = 1$。",
+      "answer": true,
+      "analysis": "$\\sin 30° = \\frac{1}{2}$，$\\cos 60° = \\frac{1}{2}$，所以 $\\sin 30° + \\cos 60° = \\frac{1}{2} + \\frac{1}{2} = 1$。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-02-05",
+      "segments": ["计算：$\\tan^2 60° - 2\\sin 45° \\cdot \\cos 45° + \\tan 45° = $ ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$3$" }
+      ],
+      "analysis": "$\\tan^2 60° = (\\sqrt{3})^2 = 3$，$2\\sin 45° \\cdot \\cos 45° = 2 \\times \\frac{\\sqrt{2}}{2} \\times \\frac{\\sqrt{2}}{2} = 1$，$\\tan 45° = 1$，原式 $= 3 - 1 + 1 = 3$。"
+    }
+  ]
+}

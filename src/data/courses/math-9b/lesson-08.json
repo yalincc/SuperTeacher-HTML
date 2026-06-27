@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": 8,
+    "slug": "lesson-08-垂径定理",
+    "title": "垂径定理",
+    "unit": "第三章 圆",
+    "week": 3,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解垂径定理：垂直于弦的直径平分弦", "isKeyPoint": true },
+    { "text": "掌握垂径定理的推论", "isKeyPoint": true },
+    { "text": "能利用垂径定理求弦长、半径、弦心距", "isKeyPoint": true },
+    { "text": "了解垂径定理的实际应用", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "垂径定理",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**垂径定理**：垂直于弦的直径平分这条弦，并且平分弦所对的两条弧。"
+        },
+        {
+          "type": "paragraph",
+          "content": "如图，$AB$ 是 $\\odot O$ 的弦，$CD$ 是直径，$CD \\perp AB$ 于 $M$，则 $AM = BM$，$\\overset{\\frown}{AC} = \\overset{\\frown}{BC}$，$\\overset{\\frown}{AD} = \\overset{\\frown}{BD}$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆口诀",
+          "content": "垂径定理：垂直、平分、对弧。只要满足垂直于弦的直径，就能得到平分弦和弧。"
+        }
+      ]
+    },
+    {
+      "title": "垂径定理的推论",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "平分弦（不是直径）的直径垂直于弦，并且平分弦所对的两条弧",
+            "弦的垂直平分线经过圆心，并且平分弦所对的两条弧",
+            "平分弦所对的一条弧的直径，垂直平分弦，并且平分弦所对的另一条弧"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "推论中平分弦（不是直径）的直径垂直于弦，如果弦本身就是直径，则不一定垂直。"
+        }
+      ]
+    },
+    {
+      "title": "垂径定理的应用",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "垂径定理常用于求解圆中的长度问题。基本模型：已知弦长和半径（或弦心距），利用勾股定理求解。"
+        },
+        {
+          "type": "paragraph",
+          "content": "设圆的半径为 $r$，弦心距为 $d$，半弦长为 $a$，则 $r^2 = d^2 + a^2$。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "在圆中遇到弦的问题，通常过圆心作弦的垂线，利用垂径定理和勾股定理求解。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求弦长",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\odot O$ 中，半径 $OA = 10$，弦 $AB$ 的弦心距 $OC = 6$，求弦 $AB$ 的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $OC \\perp AB$，由垂径定理，$AC = BC = \\frac{AB}{2}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle OAC$ 中，$AC = \\sqrt{OA^2 - OC^2} = \\sqrt{100 - 36} = 8$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $AB = 2AC = 16$。"
+        }
+      ],
+      "answer": "$AB = 16$"
+    },
+    {
+      "title": "例2：求半径",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\odot O$ 中，弦 $AB = 16$，弦心距 $OC = 6$，求 $\\odot O$ 的半径。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $OC \\perp AB$，所以 $AC = \\frac{AB}{2} = 8$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\text{Rt}\\triangle OAC$ 中，$OA = \\sqrt{AC^2 + OC^2} = \\sqrt{64 + 36} = 10$。"
+        }
+      ],
+      "answer": "半径为 $10$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "垂径定理",
+      "children": [
+        { "text": "垂直于弦的直径平分弦" },
+        { "text": "同时平分弦所对的两条弧" }
+      ]
+    },
+    {
+      "text": "推论",
+      "children": [
+        { "text": "平分弦（非直径）的直径垂直于弦" },
+        { "text": "弦的垂直平分线过圆心" }
+      ]
+    },
+    {
+      "text": "应用",
+      "children": [
+        { "text": "基本关系：$r^2 = d^2 + a^2$" },
+        { "text": "过圆心作弦的垂线是常用辅助线" }
+      ]
+    }
+  ]
+}

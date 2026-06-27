@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": 10,
+    "slug": "lesson-10-一次函数的应用",
+    "title": "一次函数的应用",
+    "unit": "第四章 一次函数",
+    "week": 4,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "能用一次函数解决实际问题", "isKeyPoint": true },
+    { "text": "掌握求一次函数解析式的方法", "isKeyPoint": true },
+    { "text": "理解一次函数与一元一次方程的关系", "isKeyPoint": true },
+    { "text": "能根据实际问题建立一次函数模型", "isKeyPoint": false },
+    { "text": "能利用一次函数图象解决简单问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "用一次函数解决实际问题",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "许多实际问题中的两个变量之间存在一次函数关系。解决这类问题的关键是：根据题意找出两个变量之间的关系，建立一次函数模型，然后利用函数性质解决问题。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题步骤",
+          "content": "①设未知数；②根据题意列出函数关系式；③利用函数关系式求解问题；④检验答案是否符合实际意义。"
+        }
+      ]
+    },
+    {
+      "title": "求一次函数的解析式",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "求一次函数 $y = kx + b$ 的解析式，需要知道两个条件（通常是两个点的坐标），建立关于 $k$ 和 $b$ 的方程组，解方程组即可求出 $k$ 和 $b$ 的值。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "常用方法",
+          "content": "这种方法叫做**待定系数法**，是求函数解析式的基本方法。"
+        }
+      ]
+    },
+    {
+      "title": "一次函数与一元一次方程的关系",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一次函数 $y = kx + b$ 的图象与 $x$ 轴交点的横坐标，就是一元一次方程 $kx + b = 0$ 的解。"
+        },
+        {
+          "type": "paragraph",
+          "content": "换句话说，求一元一次方程 $kx + b = 0$ 的解，可以转化为求一次函数 $y = kx + b$ 的图象与 $x$ 轴交点的横坐标。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "注意区分：一次函数与 $x$ 轴交点的坐标是 $(x, 0)$，与 $y$ 轴交点的坐标是 $(0, b)$。"
+        }
+      ]
+    },
+    {
+      "title": "实际问题中的应用举例",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "常见的应用类型包括：行程问题（路程与时间的关系）、费用问题（总费用与数量的关系）、温度转换（摄氏度与华氏度的关系）等。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "建模思路",
+          "content": "找变量→设未知数→列关系式→求解→检验。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：用待定系数法求解析式",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知一次函数的图象经过点 $(2, 3)$ 和点 $(4, 7)$，求这个一次函数的解析式。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "设一次函数的解析式为 $y = kx + b$（$k \\neq 0$）。\n将点 $(2, 3)$ 和 $(4, 7)$ 代入得：\n$\\begin{cases} 2k + b = 3 \\\\ 4k + b = 7 \\end{cases}$\n② - ① 得：$2k = 4$，所以 $k = 2$。\n将 $k = 2$ 代入 ① 得：$4 + b = 3$，所以 $b = -1$。"
+        }
+      ],
+      "answer": "一次函数的解析式为 $y = 2x - 1$。"
+    },
+    {
+      "title": "例2：用一次函数解决实际问题",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "某出租车的收费标准是：起步价 $8$ 元（含 $3$ 公里），超过 $3$ 公里后每公里收费 $1.6$ 元。\n(1) 写出车费 $y$（元）与行驶里程 $x$（公里，$x > 3$）之间的函数关系式；\n(2) 小明乘该出租车行驶了 $10$ 公里，应付多少车费？"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "(1) 当 $x > 3$ 时，车费 = 起步价 + 超出部分的费用\n$y = 8 + 1.6(x - 3) = 8 + 1.6x - 4.8 = 1.6x + 3.2$\n所以 $y = 1.6x + 3.2$（$x > 3$）。\n(2) 当 $x = 10$ 时，$y = 1.6 \\times 10 + 3.2 = 16 + 3.2 = 19.2$（元）。"
+        }
+      ],
+      "answer": "(1) $y = 1.6x + 3.2$（$x > 3$）；(2) 应付 $19.2$ 元。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "一次函数的应用",
+      "children": [
+        { "text": "实际问题中找变量关系，建立一次函数模型" },
+        { "text": "解题步骤：设未知数→列关系式→求解→检验" }
+      ]
+    },
+    {
+      "text": "求一次函数解析式",
+      "children": [
+        { "text": "待定系数法：设 $y = kx + b$，代入已知点求解" },
+        { "text": "需要两个条件（通常是两个点的坐标）" }
+      ]
+    },
+    {
+      "text": "一次函数与方程的关系",
+      "children": [
+        { "text": "一次函数与 $x$ 轴交点的横坐标是一元一次方程的解" },
+        { "text": "方程问题可以转化为函数图象问题" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "id": 6,
+    "slug": "lesson-06-用公式法和因式分解法求解",
+    "title": "用公式法和因式分解法求解",
+    "unit": "第二章 一元二次方程",
+    "week": 2,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "理解求根公式的推导过程", "isKeyPoint": true },
+    { "text": "掌握求根公式：$x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$", "isKeyPoint": true },
+    { "text": "理解判别式 $\\Delta = b^2 - 4ac$ 的意义", "isKeyPoint": true },
+    { "text": "掌握因式分解法解一元二次方程", "isKeyPoint": true },
+    { "text": "能选择合适的方法解一元二次方程", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "求根公式",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "对于一元二次方程 $ax^2 + bx + c = 0$（$a \\neq 0$），用配方法可以推导出求根公式："
+        },
+        {
+          "type": "paragraph",
+          "content": "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "使用条件",
+          "content": "求根公式的使用条件是 $\\Delta = b^2 - 4ac \\geq 0$。当 $\\Delta < 0$ 时，方程在实数范围内无解。"
+        }
+      ]
+    },
+    {
+      "title": "判别式 $\\Delta$ 的意义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "判别式 $\\Delta = b^2 - 4ac$ 可以判断一元二次方程根的情况："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "$\\Delta > 0$：方程有两个不相等的实数根",
+            "$\\Delta = 0$：方程有两个相等的实数根（重根）",
+            "$\\Delta < 0$：方程没有实数根"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "判别式只能判断根的存在性和个数，不能判断根的正负。要判断根的正负，还需结合韦达定理。"
+        }
+      ]
+    },
+    {
+      "title": "公式法解方程的步骤",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "用公式法解一元二次方程的步骤："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**化标准**：将方程化为一般形式 $ax^2 + bx + c = 0$",
+            "**求判别**：计算 $\\Delta = b^2 - 4ac$",
+            "**判断根**：根据 $\\Delta$ 的值判断根的情况",
+            "**代公式**：将 $a$、$b$、$c$ 代入求根公式"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "公式记忆口诀",
+          "content": "一化二判三代四解：先化为一般形式，再求判别式，判断根的情况，最后代入公式求解。"
+        }
+      ]
+    },
+    {
+      "title": "因式分解法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "如果一元二次方程可以因式分解，可以将方程化为两个一次因式的乘积等于0的形式，然后令每个因式为0，分别求解。"
+        },
+        {
+          "type": "paragraph",
+          "content": "即若 $(x - a)(x - b) = 0$，则 $x_1 = a$，$x_2 = b$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "常用方法",
+          "content": "因式分解常用方法：①提公因式法；②公式法（平方差、完全平方）；③十字相乘法。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：用公式法解方程",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "用公式法解方程：$2x^2 - 3x - 1 = 0$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** $a = 2$，$b = -3$，$c = -1$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\Delta = b^2 - 4ac = (-3)^2 - 4 \\times 2 \\times (-1) = 9 + 8 = 17 > 0$"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以方程有两个不相等的实数根："
+        },
+        {
+          "type": "paragraph",
+          "content": "$x = \\frac{-b \\pm \\sqrt{\\Delta}}{2a} = \\frac{3 \\pm \\sqrt{17}}{4}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "即 $x_1 = \\frac{3 + \\sqrt{17}}{4}$，$x_2 = \\frac{3 - \\sqrt{17}}{4}$"
+        }
+      ],
+      "answer": "$x_1 = \\frac{3 + \\sqrt{17}}{4}$，$x_2 = \\frac{3 - \\sqrt{17}}{4}$"
+    },
+    {
+      "title": "例2：用因式分解法解方程",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "用因式分解法解方程：$x^2 - 5x + 6 = 0$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 将左边因式分解："
+        },
+        {
+          "type": "paragraph",
+          "content": "$x^2 - 5x + 6 = (x - 2)(x - 3) = 0$"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $x - 2 = 0$ 或 $x - 3 = 0$"
+        },
+        {
+          "type": "paragraph",
+          "content": "解得 $x_1 = 2$，$x_2 = 3$"
+        }
+      ],
+      "answer": "$x_1 = 2$，$x_2 = 3$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "求根公式",
+      "children": [
+        { "text": "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$（$a \\neq 0$，$\\Delta \\geq 0$）" }
+      ]
+    },
+    {
+      "text": "判别式的意义",
+      "children": [
+        { "text": "$\\Delta > 0$：两个不等实根" },
+        { "text": "$\\Delta = 0$：两个相等实根" },
+        { "text": "$\\Delta < 0$：无实数根" }
+      ]
+    },
+    {
+      "text": "因式分解法",
+      "children": [
+        { "text": "将方程化为 $(x - a)(x - b) = 0$ 的形式" },
+        { "text": "令每个因式为0，分别求解" }
+      ]
+    }
+  ]
+}

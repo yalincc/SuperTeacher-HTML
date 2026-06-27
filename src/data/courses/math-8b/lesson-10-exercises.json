@@ -1,0 +1,60 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-10-01",
+      "stem": "下列式子中，是分式的是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\frac{x}{3}$" },
+        { "label": "B", "text": "$\\frac{3}{x}$" },
+        { "label": "C", "text": "$\\frac{x+y}{2}$" },
+        { "label": "D", "text": "$\\frac{1}{\\pi}$" }
+      ],
+      "answer": "B",
+      "analysis": "分式的分母必须含有字母。A分母是3（常数），C分母是2（常数），D分母是 $\\pi$（常数），都不是分式。B的分母含有字母 $x$，是分式。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-02",
+      "stem": "要使分式 $\frac{x}{x-1}$ 有意义，则 $x$ 应满足的条件是（  ）",
+      "options": [
+        { "label": "A", "text": "$x = 0$" },
+        { "label": "B", "text": "$x \\neq 0$" },
+        { "label": "C", "text": "$x = 1$" },
+        { "label": "D", "text": "$x \\neq 1$" }
+      ],
+      "answer": "D",
+      "analysis": "分式有意义的条件是分母不为零，即 $x - 1 \\neq 0$，解得 $x \\neq 1$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-03",
+      "stem": "若分式 $\frac{x-2}{x+3}$ 的值为零，则 $x$ 的值为（  ）",
+      "options": [
+        { "label": "A", "text": "$x = 2$" },
+        { "label": "B", "text": "$x = -3$" },
+        { "label": "C", "text": "$x = 2$ 或 $x = -3$" },
+        { "label": "D", "text": "$x = 0$" }
+      ],
+      "answer": "A",
+      "analysis": "分式值为零需分子为零且分母不为零。分子为零：$x - 2 = 0$，$x = 2$。此时分母 $x + 3 = 5 \\neq 0$，满足条件。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-04",
+      "stem": "分式 $\frac{x^2}{x}$ 可以约分为 $x$。",
+      "answer": false,
+      "analysis": "约分后得 $\\frac{x^2}{x} = x$（$x \\neq 0$），但原分式在 $x = 0$ 时无意义，而 $x$ 在 $x = 0$ 时有意义，两者定义域不同，不能简单说约分为 $x$。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-05",
+      "segments": ["当 $x = ___1___$ 时，分式 $\frac{x+2}{x-3}$ 无意义。"],
+      "blanks": [
+        { "index": 1, "answer": "3" }
+      ],
+      "analysis": "分式无意义的条件是分母为零，即 $x - 3 = 0$，解得 $x = 3$。"
+    }
+  ]
+}

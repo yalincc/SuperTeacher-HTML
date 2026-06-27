@@ -1,0 +1,63 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-11-01",
+      "stem": "已知 $\\triangle ABC \\sim \\triangle DEF$，相似比为 $1 : 2$，则 $\\triangle ABC$ 与 $\\triangle DEF$ 的面积比为（  ）",
+      "options": [
+        { "label": "A", "text": "$1 : 2$" },
+        { "label": "B", "text": "$1 : 4$" },
+        { "label": "C", "text": "$1 : \\sqrt{2}$" },
+        { "label": "D", "text": "$4 : 1$" }
+      ],
+      "answer": "B",
+      "analysis": "相似三角形的面积比等于相似比的平方，即 $1^2 : 2^2 = 1 : 4$。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-02",
+      "stem": "两个相似三角形的周长比为 $3 : 5$，则它们的相似比为（  ）",
+      "options": [
+        { "label": "A", "text": "$3 : 5$" },
+        { "label": "B", "text": "$9 : 25$" },
+        { "label": "C", "text": "$\\sqrt{3} : \\sqrt{5}$" },
+        { "label": "D", "text": "$5 : 3$" }
+      ],
+      "answer": "A",
+      "analysis": "相似三角形的周长比等于相似比，所以相似比为 $3 : 5$。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-03",
+      "stem": "在同一时刻，某物体的高度为 $3\\text{m}$，影长为 $2\\text{m}$。若一标杆的高度为 $1.8\\text{m}$，则标杆的影长为（  ）",
+      "options": [
+        { "label": "A", "text": "$1.08\\text{m}$" },
+        { "label": "B", "text": "$1.2\\text{m}$" },
+        { "label": "C", "text": "$3\\text{m}$" },
+        { "label": "D", "text": "$3.6\\text{m}$" }
+      ],
+      "answer": "B",
+      "analysis": "同一时刻，物体高度与影长成正比。$\\frac{3}{2} = \\frac{1.8}{x}$，解得 $x = 1.2\\text{m}$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-11-04",
+      "stem": "相似三角形的面积比等于相似比。",
+      "answer": false,
+      "analysis": "相似三角形的面积比等于相似比的**平方**，不是相似比。例如相似比为 $2:3$，面积比为 $4:9$。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-11-05",
+      "segments": ["已知 $\\triangle ABC \\sim \\triangle DEF$，$AB = 4$，$DE = 6$，$\\triangle ABC$ 的周长为 $12$，则 $\\triangle DEF$ 的周长为 ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$18$" }
+      ],
+      "analysis": "相似比 $k = \\frac{AB}{DE} = \\frac{4}{6} = \\frac{2}{3}$。周长比等于相似比，$\\frac{12}{C_{\\triangle DEF}} = \\frac{2}{3}$，解得 $C_{\\triangle DEF} = 18$。"
+    }
+  ]
+}

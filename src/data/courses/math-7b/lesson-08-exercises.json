@@ -1,0 +1,60 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-08-01",
+      "stem": "下列关系式中，$y$ 不是 $x$ 的函数的是（  ）",
+      "options": [
+        { "label": "A", "text": "$y = 2x + 1$" },
+        { "label": "B", "text": "$y = x^2$" },
+        { "label": "C", "text": "$y = \\frac{1}{x}$" },
+        { "label": "D", "text": "$y^2 = x$" }
+      ],
+      "answer": "D",
+      "analysis": "对于 $y^2 = x$，当 $x = 4$ 时，$y = 2$ 或 $y = -2$，一个 $x$ 值对应两个 $y$ 值，不满足函数的定义。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-08-02",
+      "stem": "已知变量 $x$ 和 $y$ 的关系如图象所示（一条从左下到右上的直线），下列说法正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$y$ 随 $x$ 的增大而减小" },
+        { "label": "B", "text": "$y$ 随 $x$ 的增大而增大" },
+        { "label": "C", "text": "$y$ 不随 $x$ 变化" },
+        { "label": "D", "text": "无法判断" }
+      ],
+      "answer": "B",
+      "analysis": "图象从左下到右上，说明 $y$ 随 $x$ 的增大而增大。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-08-03",
+      "stem": "正方形的面积 $S$ 与边长 $a$ 的关系式为 $S = a^2$，当 $a = 4$ 时，$S$ 的值为（  ）",
+      "options": [
+        { "label": "A", "text": "$8$" },
+        { "label": "B", "text": "$16$" },
+        { "label": "C", "text": "$4$" },
+        { "label": "D", "text": "$32$" }
+      ],
+      "answer": "B",
+      "analysis": "将 $a = 4$ 代入 $S = a^2$，得 $S = 4^2 = 16$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-08-04",
+      "stem": "图象法可以直观地展示变量变化的趋势。",
+      "answer": true,
+      "analysis": "图象法的优点就是直观，可以清楚地看到变量是增大、减小还是波动。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-08-05",
+      "segments": ["已知 $y = 3x - 2$，当 $x = 5$ 时，$y = $___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "13" }
+      ],
+      "analysis": "将 $x = 5$ 代入 $y = 3x - 2$，得 $y = 3 \\times 5 - 2 = 15 - 2 = 13$。"
+    }
+  ]
+}

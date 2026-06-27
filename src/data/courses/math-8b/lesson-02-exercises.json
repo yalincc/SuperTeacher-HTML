@@ -1,0 +1,74 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-2-1",
+      "stem": "下列说法中，正确的是（    ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "等腰三角形的顶角一定是锐角"
+        },
+        {
+          "label": "B",
+          "text": "等腰三角形的底角一定是锐角"
+        },
+        {
+          "label": "C",
+          "text": "等腰三角形的顶角平分线垂直于底边"
+        },
+        {
+          "label": "D",
+          "text": "等腰三角形的顶角等于底角"
+        }
+      ],
+      "answer": "B",
+      "analysis": "等腰三角形的底角一定是锐角，因为如果底角是直角或钝角，那么两个底角之和就会等于或大于 $180°$，不符合三角形内角和定理。顶角可以是锐角、直角或钝角。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-2-2",
+      "stem": "如图，在 $\\triangle ABC$ 中，$AB=AC$，$BD$ 平分 $\\angle ABC$，如果 $\\angle A=36°$，那么 $\\angle BDC$ 的度数是（    ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$36°$"
+        },
+        {
+          "label": "B",
+          "text": "$54°$"
+        },
+        {
+          "label": "C",
+          "text": "$72°$"
+        },
+        {
+          "label": "D",
+          "text": "$108°$"
+        }
+      ],
+      "answer": "C",
+      "analysis": "因为 $AB=AC$，所以 $\\angle ABC=\\angle ACB=\\frac{180°-36°}{2}=72°$。$BD$ 平分 $\\angle ABC$，所以 $\\angle DBC=36°$。在 $\\triangle BDC$ 中，$\\angle BDC=180°-\\angle DBC-\\angle DCB=180°-36°-72°=72°$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-2-3",
+      "stem": "如果一个三角形有两个角相等，那么这个三角形一定是等腰三角形。",
+      "answer": true,
+      "analysis": "这是等腰三角形的判定定理：等角对等边。如果三角形有两个角相等，那么这两个角所对的边也相等，所以这个三角形是等腰三角形。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-4",
+      "segments": ["等腰三角形的顶角平分线、底边上的中线、底边上的高互相重合，简称 ______。"],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "三线合一"
+        }
+      ],
+      "analysis": "等腰三角形的顶角平分线、底边上的中线、底边上的高互相重合，这是等腰三角形的重要性质，简称'三线合一'。"
+    }
+  ]
+}

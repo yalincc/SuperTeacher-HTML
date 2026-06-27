@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "id": 1,
+    "slug": "lesson-01-全等三角形的证明",
+    "title": "全等三角形的证明",
+    "unit": "第一章 三角形的证明",
+    "week": 1,
+    "day": 1
+  },
+  "objectives": [
+    {
+      "text": "理解全等三角形的概念和性质",
+      "isKeyPoint": false
+    },
+    {
+      "text": "掌握全等三角形的五种判定方法：SSS、SAS、ASA、AAS、HL",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能正确书写证明三角形全等的格式",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能利用全等三角形证明线段或角相等",
+      "isKeyPoint": true
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "全等三角形的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "能够完全重合的两个三角形叫做**全等三角形**。全等三角形的对应边相等，对应角相等。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "全等符号",
+          "content": "全等符号是\"≌\"，读作\"全等于\"。$\\triangle ABC \\cong \\triangle DEF$ 表示三角形 $ABC$ 全等于三角形 $DEF$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "全等三角形的对应顶点必须写在对应位置上。例如 $\\triangle ABC \\cong \\triangle DEF$，则 $A$ 与 $D$、$B$ 与 $E$、$C$ 与 $F$ 是对应顶点。"
+        }
+      ]
+    },
+    {
+      "title": "全等三角形的判定条件",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "判定两个三角形全等的方法有五种："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**SSS**（边边边）：三边对应相等的两个三角形全等",
+            "**SAS**（边角边）：两边和它们的夹角对应相等的两个三角形全等",
+            "**ASA**（角边角）：两角和它们的夹边对应相等的两个三角形全等",
+            "**AAS**（角角边）：两角和其中一角的对边对应相等的两个三角形全等",
+            "**HL**（斜边、直角边）：斜边和一条直角边对应相等的两个直角三角形全等"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "**SSA**（边边角）不能判定两个三角形全等！例如，已知两边和其中一边的对角相等，不能保证两个三角形全等。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "判定方法选择",
+          "content": "选择判定方法时，先看已知条件中有几组边相等、几组角相等，再选择合适的判定方法。优先考虑用 SAS、ASA，其次是 SSS、AAS，最后考虑 HL（仅限直角三角形）。"
+        }
+      ]
+    },
+    {
+      "title": "证明三角形全等的书写格式",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "证明三角形全等时，需要按照规范的格式书写，包括：已知条件、求证内容、证明过程。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**书写步骤：**"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "写出在哪些三角形中要证明全等",
+            "列出已知条件（题目给出的和隐含的条件）",
+            "根据判定方法写出证明过程",
+            "最后写出结论"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "格式要求",
+          "content": "证明过程中，每一步都要写清理由。例如：在 $\\triangle ABC$ 和 $\\triangle DEF$ 中，$AB=DE$（已知），$\\angle B=\\angle E$（已知），$BC=EF$（已知），所以 $\\triangle ABC \\cong \\triangle DEF$（SAS）。"
+        }
+      ]
+    },
+    {
+      "title": "利用全等证明线段或角相等",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "利用全等三角形可以证明线段相等或角相等。基本思路是：要证明某条线段（或某个角）相等，可以证明它们所在的两个三角形全等。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**解题步骤：**"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "确定要证明相等的线段（或角）分别在哪两个三角形中",
+            "找出这两个三角形全等的条件",
+            "利用全等三角形的对应边相等（或对应角相等）得出结论"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "辅助线技巧",
+          "content": "有时需要添加辅助线构造全等三角形。常用的辅助线有：连接两点、延长线段、作平行线等。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：证明三角形全等",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，已知 $AB=CD$，$AD=CB$。求证：$\\triangle ABD \\cong \\triangle CDB$。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**证明：** 在 $\\triangle ABD$ 和 $\\triangle CDB$ 中，"
+        },
+        {
+          "type": "paragraph",
+          "content": "$AB=CD$（已知），"
+        },
+        {
+          "type": "paragraph",
+          "content": "$AD=CB$（已知），"
+        },
+        {
+          "type": "paragraph",
+          "content": "$BD=DB$（公共边），"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\triangle ABD \\cong \\triangle CDB$（SSS）。"
+        }
+      ],
+      "answer": "利用 SSS 判定证明全等"
+    },
+    {
+      "title": "例2：利用全等证明角相等",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "如图，已知 $AB=AC$，$AD=AE$，$\\angle BAC=\\angle DAE$。求证：$\\angle B=\\angle C$。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**证明：** 因为 $\\angle BAC=\\angle DAE$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle BAC-\\angle DAC=\\angle DAE-\\angle DAC$，"
+        },
+        {
+          "type": "paragraph",
+          "content": "即 $\\angle BAD=\\angle CAE$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\triangle ABD$ 和 $\\triangle ACE$ 中，"
+        },
+        {
+          "type": "paragraph",
+          "content": "$AB=AC$（已知），"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\angle BAD=\\angle CAE$（已证），"
+        },
+        {
+          "type": "paragraph",
+          "content": "$AD=AE$（已知），"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\triangle ABD \\cong \\triangle ACE$（SAS）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $\\angle B=\\angle C$（全等三角形的对应角相等）。"
+        }
+      ],
+      "answer": "利用 SAS 判定证明全等，再利用全等三角形的对应角相等得出结论"
+    }
+  ],
+  "summary": [
+    {
+      "text": "全等三角形的概念",
+      "children": [
+        {
+          "text": "能够完全重合的两个三角形叫做全等三角形"
+        },
+        {
+          "text": "全等三角形的对应边相等，对应角相等"
+        }
+      ]
+    },
+    {
+      "text": "全等三角形的判定方法",
+      "children": [
+        {
+          "text": "SSS（边边边）：三边对应相等"
+        },
+        {
+          "text": "SAS（边角边）：两边和它们的夹角对应相等"
+        },
+        {
+          "text": "ASA（角边角）：两角和它们的夹边对应相等"
+        },
+        {
+          "text": "AAS（角角边）：两角和其中一角的对边对应相等"
+        },
+        {
+          "text": "HL（斜边、直角边）：斜边和一条直角边对应相等"
+        }
+      ]
+    },
+    {
+      "text": "证明格式",
+      "children": [
+        {
+          "text": "在哪些三角形中证明全等"
+        },
+        {
+          "text": "列出已知条件"
+        },
+        {
+          "text": "根据判定方法写出证明过程"
+        },
+        {
+          "text": "写出结论"
+        }
+      ]
+    }
+  ]
+}

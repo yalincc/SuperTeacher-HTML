@@ -1,0 +1,63 @@
+{
+  "lessonId": 1,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-01-01",
+      "stem": "下列关于菱形的说法中，错误的是（  ）",
+      "options": [
+        { "label": "A", "text": "菱形的四条边都相等" },
+        { "label": "B", "text": "菱形的对角线互相垂直" },
+        { "label": "C", "text": "菱形的对角线相等" },
+        { "label": "D", "text": "菱形的对角线互相平分" }
+      ],
+      "answer": "C",
+      "analysis": "菱形的对角线互相垂直平分，但不一定相等。只有正方形的对角线才相等。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-01-02",
+      "stem": "菱形 $ABCD$ 中，对角线 $AC = 6$，$BD = 8$，则菱形的边长为（  ）",
+      "options": [
+        { "label": "A", "text": "$5$" },
+        { "label": "B", "text": "$10$" },
+        { "label": "C", "text": "$7$" },
+        { "label": "D", "text": "$14$" }
+      ],
+      "answer": "A",
+      "analysis": "菱形对角线互相垂直平分，$AO = 3$，$BO = 4$，由勾股定理 $AB = \\sqrt{3^2 + 4^2} = 5$。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-01-03",
+      "stem": "菱形的两条对角线长分别为 $10$ 和 $24$，则该菱形的面积为（  ）",
+      "options": [
+        { "label": "A", "text": "$120$" },
+        { "label": "B", "text": "$240$" },
+        { "label": "C", "text": "$60$" },
+        { "label": "D", "text": "$34$" }
+      ],
+      "answer": "A",
+      "analysis": "菱形面积 $S = \\frac{1}{2} d_1 d_2 = \\frac{1}{2} \\times 10 \\times 24 = 120$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-01-04",
+      "stem": "菱形是特殊的平行四边形，因此菱形具有平行四边形的所有性质。",
+      "answer": true,
+      "analysis": "菱形是平行四边形的一种特殊形式，因此菱形具有平行四边形的所有性质（对边平行且相等、对角相等、对角线互相平分），同时还有自己独特的性质。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-01-05",
+      "segments": ["菱形 $ABCD$ 中，$\\angle A = 60°$，边长为 $4$，则对角线 $BD = $ ___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "$4$" }
+      ],
+      "analysis": "因为 $AB = AD$ 且 $\\angle A = 60°$，所以 $\\triangle ABD$ 是等边三角形，故 $BD = AB = 4$。"
+    }
+  ]
+}

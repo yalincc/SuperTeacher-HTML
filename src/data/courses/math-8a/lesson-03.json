@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "id": 3,
+    "slug": "lesson-03-无理数",
+    "title": "无理数",
+    "unit": "第二章 实数",
+    "week": 2,
+    "day": 1
+  },
+  "objectives": [
+    {
+      "text": "理解无理数的概念：无限不循环小数",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能识别常见的无理数，如 $\\pi$、$\\sqrt{2}$ 等",
+      "isKeyPoint": true
+    },
+    {
+      "text": "理解有理数与无理数的区别",
+      "isKeyPoint": false
+    },
+    {
+      "text": "了解实数的分类",
+      "isKeyPoint": false
+    },
+    {
+      "text": "体会从有理数到实数的扩展过程",
+      "isKeyPoint": false
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "无理数的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "我们知道，分数可以化成有限小数或无限循环小数。但有些小数既不是有限小数，也不是无限循环小数，而是**无限不循环小数**，这就是**无理数**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "定义要点",
+          "content": "无理数的关键特征：①无限 ②不循环。两者缺一不可。例如 $0.333\\cdots$ 是无限循环小数，属于有理数；而 $0.1010010001\\cdots$ 是无限不循环小数，属于无理数。"
+        }
+      ]
+    },
+    {
+      "title": "常见的无理数",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "常见的无理数有以下几种类型："
+        },
+        {
+          "type": "table",
+          "headers": [
+            "类型",
+            "示例",
+            "说明"
+          ],
+          "rows": [
+            [
+              "含 $\\pi$ 的数",
+              "$\\pi$, $2\\pi$, $\\frac{\\pi}{3}$",
+              "$\\pi \\approx 3.14159265\\cdots$ 是无限不循环小数"
+            ],
+            [
+              "开方开不尽的数",
+              "$\\sqrt{2}$, $\\sqrt{3}$, $\\sqrt{5}$",
+              "不能表示为分数"
+            ],
+            [
+              "特殊构造的数",
+              "$0.1010010001\\cdots$",
+              "有规律但不循环的小数"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$\\sqrt{4}$ 不是无理数，因为 $\\sqrt{4} = 2$ 是整数。只有开方开不尽的数才是无理数。"
+        }
+      ]
+    },
+    {
+      "title": "有理数与无理数的区别",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**有理数**包括整数和分数，它们都可以写成有限小数或无限循环小数的形式。**无理数**是无限不循环小数，不能写成分数形式。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "content": "有理数和无理数统称为**实数**。实数包括有理数和无理数两大类。",
+          "title": "补充说明"
+        }
+      ]
+    },
+    {
+      "title": "实数的分类",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "实数可以按以下方式分类："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "按正负分：正实数、零、负实数",
+            "按有理无理分：有理数（整数、分数）、无理数"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "分类口诀",
+          "content": "实数分两类，有理加无理；有理含整分，无理不循环。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：识别无理数",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "下列各数中，哪些是无理数？$3.14$，$\\sqrt{9}$，$\\pi$，$\\sqrt{2}$，$0.333\\cdots$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "$3.14$ 是有限小数，是有理数；$\\sqrt{9} = 3$ 是整数，是有理数；$\\pi$ 是无限不循环小数，是无理数；$\\sqrt{2}$ 开方开不尽，是无理数；$0.333\\cdots$ 是无限循环小数，是有理数。"
+        }
+      ],
+      "answer": "无理数有 $\\pi$ 和 $\\sqrt{2}$"
+    },
+    {
+      "title": "例2：判断数的类型",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "判断 $\\sqrt{7}$、$\\sqrt{16}$、$-\\sqrt{3}$、$0.123456$ 分别是有理数还是无理数。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "$\\sqrt{7}$ 开方开不尽，是无理数；$\\sqrt{16} = 4$ 是整数，是有理数；$-\\sqrt{3}$ 是负的无理数；$0.123456$ 是有限小数，是有理数。"
+        }
+      ],
+      "answer": "无理数：$\\sqrt{7}$、$-\\sqrt{3}$；有理数：$\\sqrt{16}$、$0.123456$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "无理数的概念",
+      "children": [
+        {
+          "text": "无限不循环小数叫做无理数"
+        },
+        {
+          "text": "必须同时满足\\\"无限\\\"和\\\"不循环\\\"两个条件"
+        }
+      ]
+    },
+    {
+      "text": "常见的无理数",
+      "children": [
+        {
+          "text": "含 $\\pi$ 的数：$\\pi$、$2\\pi$ 等"
+        },
+        {
+          "text": "开方开不尽的数：$\\sqrt{2}$、$\\sqrt{3}$ 等"
+        },
+        {
+          "text": "特殊构造的无限不循环小数"
+        }
+      ]
+    },
+    {
+      "text": "实数的分类",
+      "children": [
+        {
+          "text": "有理数和无理数统称为实数"
+        },
+        {
+          "text": "有理数可以表示为分数，无理数不能"
+        }
+      ]
+    }
+  ]
+}

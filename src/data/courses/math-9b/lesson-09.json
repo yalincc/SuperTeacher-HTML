@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": 9,
+    "slug": "lesson-09-圆周角与圆心角",
+    "title": "圆周角与圆心角",
+    "unit": "第三章 圆",
+    "week": 3,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "理解圆周角的定义", "isKeyPoint": true },
+    { "text": "掌握圆周角定理：同弧上的圆周角等于圆心角的一半", "isKeyPoint": true },
+    { "text": "掌握直径所对的圆周角是直角", "isKeyPoint": true },
+    { "text": "能利用圆周角定理解决相关问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "圆周角的定义",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "顶点在圆上，且两边都与圆相交的角叫做**圆周角**。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "圆周角的顶点必须在圆上，两边必须与圆相交。如果顶点在圆内或圆外，则不是圆周角。"
+        }
+      ]
+    },
+    {
+      "title": "圆周角定理",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**圆周角定理**：同弧上的圆周角等于这条弧上的圆心角的**一半**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "即：若圆周角 $\\angle BAC$ 和圆心角 $\\angle BOC$ 对同一条弧 $\\overset{\\frown}{BC}$，则 $\\angle BAC = \\frac{1}{2}\\angle BOC$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆技巧",
+          "content": "圆周角是圆心角的一半，所以圆周角是它所对弧的半角。"
+        }
+      ]
+    },
+    {
+      "title": "圆周角定理的推论",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "同弧上的圆周角相等",
+            "直径所对的圆周角是直角（$90°$）",
+            "直角所对的弦是直径"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "推论2非常实用：在圆中看到直径，立刻想到直角；看到直角，立刻想到直径。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：利用圆周角定理",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在 $\\odot O$ 中，圆心角 $\\angle BOC = 100°$，求圆周角 $\\angle BAC$ 的度数。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 由圆周角定理，$\\angle BAC = \\frac{1}{2}\\angle BOC$"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\angle BAC = \\frac{1}{2} \\times 100° = 50°$"
+        }
+      ],
+      "answer": "$\\angle BAC = 50°$"
+    },
+    {
+      "title": "例2：直径所对的圆周角",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "$AB$ 是 $\\odot O$ 的直径，$C$ 是圆上一点，$\\angle ABC = 30°$，求 $\\angle AOC$ 的度数。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $AB$ 是直径，所以 $\\angle ACB = 90°$（直径所对的圆周角是直角）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "在 $\\triangle ABC$ 中，$\\angle BAC = 180° - 90° - 30° = 60°$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "$\\angle AOC = 2\\angle ABC = 2 \\times 30° = 60°$（圆心角是圆周角的 $2$ 倍）。"
+        }
+      ],
+      "answer": "$\\angle AOC = 60°$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "圆周角",
+      "children": [
+        { "text": "顶点在圆上，两边与圆相交" }
+      ]
+    },
+    {
+      "text": "圆周角定理",
+      "children": [
+        { "text": "圆周角 $= \\frac{1}{2} \\times$ 同弧上的圆心角" },
+        { "text": "同弧上的圆周角相等" }
+      ]
+    },
+    {
+      "text": "重要推论",
+      "children": [
+        { "text": "直径所对的圆周角是直角" },
+        { "text": "直角所对的弦是直径" }
+      ]
+    }
+  ]
+}

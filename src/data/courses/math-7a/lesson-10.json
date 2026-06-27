@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "id": 10,
+    "slug": "lesson-10-线段射线直线",
+    "title": "线段、射线、直线",
+    "unit": "第四章 基本平面图形",
+    "week": 4,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解线段、射线、直线的概念，掌握它们的区别与联系", "isKeyPoint": true },
+    { "text": "掌握线段、射线、直线的表示方法", "isKeyPoint": true },
+    { "text": "理解线段的度量与比较方法", "isKeyPoint": false },
+    { "text": "掌握线段的和差运算", "isKeyPoint": false },
+    { "text": "了解两点之间线段最短的性质", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "线段、射线、直线的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "线段：直线上两点间的部分，有两个端点，长度可以度量。" },
+        { "type": "paragraph", "content": "射线：直线上的一点和它一旁的部分，有一个端点，向一方无限延伸，长度不可度量。" },
+        { "type": "paragraph", "content": "直线：没有端点，向两方无限延伸，长度不可度量。" },
+        { "type": "callout", "variant": "tip", "title": "区别要点", "content": "端点个数：线段有2个，射线有1个，直线没有。延伸性：线段不延伸，射线向一方延伸，直线向两方延伸。" }
+      ]
+    },
+    {
+      "title": "线段、射线、直线的表示方法",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "线段：用两个端点的大写字母表示，如线段 $AB$；或用一个小写字母表示，如线段 $a$。" },
+        { "type": "paragraph", "content": "射线：用端点和射线上另一点的大写字母表示，端点字母必须写在前面，如射线 $OA$。" },
+        { "type": "paragraph", "content": "直线：用直线上任意两点的大写字母表示，如直线 $AB$；或用一个小写字母表示，如直线 $l$。" },
+        { "type": "callout", "variant": "warning", "title": "易错点", "content": "射线 $OA$ 和射线 $OA'$ 是同一条射线，但射线 $OA$ 和射线 $AO$ 不是同一条射线，因为端点不同。" }
+      ]
+    },
+    {
+      "title": "线段的度量与比较",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "线段的长度可以用刻度尺直接度量。比较两条线段长短的方法有：度量法和叠合法。" },
+        { "type": "callout", "variant": "note", "title": "叠合法", "content": "将两条线段的一个端点重合，另一端点落在同侧，观察另一端点的位置，即可比较长短。" },
+        { "type": "paragraph", "content": "两点之间的所有连线中，线段最短。这个性质叫做'两点之间，线段最短'。" }
+      ]
+    },
+    {
+      "title": "线段的和差运算",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "已知线段 $AB$ 和 $BC$，如果点 $C$ 在线段 $AB$ 上，则 $AC = AB - BC$；如果点 $B$ 在线段 $AC$ 上，则 $AC = AB + BC$。" },
+        { "type": "callout", "variant": "tip", "title": "计算技巧", "content": "线段的和差运算要结合图形分析，确定点的位置关系。" },
+        { "type": "paragraph", "content": "线段的中点：如果点 $M$ 是线段 $AB$ 的中点，则 $AM = MB = \\frac{1}{2}AB$。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：线段的表示和识别",
+      "problem": [
+        { "type": "paragraph", "content": "如图，点 $A$、$B$、$C$ 在同一条直线上，写出图中所有的线段。" },
+        { "type": "paragraph", "content": "（图示：一条直线上有三个点 $A$、$B$、$C$，$B$ 在 $A$ 和 $C$ 之间）" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "图中有三条线段：线段 $AB$、线段 $BC$、线段 $AC$。" },
+        { "type": "paragraph", "content": "其中 $AB + BC = AC$。" }
+      ],
+      "answer": "线段 $AB$、线段 $BC$、线段 $AC$。"
+    },
+    {
+      "title": "例2：线段的和差计算",
+      "problem": [
+        { "type": "paragraph", "content": "已知线段 $AB = 8$ cm，点 $C$ 是线段 $AB$ 的中点，点 $D$ 是线段 $CB$ 的中点，求线段 $AD$ 的长度。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "因为点 $C$ 是 $AB$ 的中点，所以 $AC = CB = \\frac{1}{2}AB = 4$ cm。" },
+        { "type": "paragraph", "content": "因为点 $D$ 是 $CB$ 的中点，所以 $CD = DB = \\frac{1}{2}CB = 2$ cm。" },
+        { "type": "paragraph", "content": "所以 $AD = AC + CD = 4 + 2 = 6$ cm。" }
+      ],
+      "answer": "$AD = 6$ cm。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "线段、射线、直线的区别",
+      "children": [
+        { "text": "线段：2个端点，不延伸，可度量" },
+        { "text": "射线：1个端点，向一方延伸，不可度量" },
+        { "text": "直线：无端点，向两方延伸，不可度量" }
+      ]
+    },
+    {
+      "text": "表示方法",
+      "children": [
+        { "text": "线段：两个端点字母或一个小写字母" },
+        { "text": "射线：端点字母在前" },
+        { "text": "直线：两个字母或一个小写字母" }
+      ]
+    },
+    {
+      "text": "重要性质",
+      "children": [
+        { "text": "两点之间，线段最短" },
+        { "text": "线段中点将线段平分" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "lessonId": 1,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-01-01",
+      "stem": "计算 $a^2 \\cdot a^3$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$a^6$" },
+        { "label": "B", "text": "$a^5$" },
+        { "label": "C", "text": "$a^8$" },
+        { "label": "D", "text": "$2a^5$" }
+      ],
+      "answer": "B",
+      "analysis": "根据同底数幂的乘法法则：$a^2 \\cdot a^3 = a^{2+3} = a^5$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-01-02",
+      "stem": "下列计算正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$x^3 \\cdot x^3 = 2x^3$" },
+        { "label": "B", "text": "$x^3 \\cdot x^3 = x^9$" },
+        { "label": "C", "text": "$x^3 \\cdot x^3 = x^6$" },
+        { "label": "D", "text": "$x^3 \\cdot x^3 = x^1$" }
+      ],
+      "answer": "C",
+      "analysis": "$x^3 \\cdot x^3 = x^{3+3} = x^6$，不能把指数相乘（$x^9$ 错误），也不能把指数相加后乘系数。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-01-03",
+      "stem": "计算 $(-a)^2 \\cdot (-a)^3$ 的结果是（  ）",
+      "options": [
+        { "label": "A", "text": "$a^5$" },
+        { "label": "B", "text": "$-a^5$" },
+        { "label": "C", "text": "$-a^6$" },
+        { "label": "D", "text": "$a^6$" }
+      ],
+      "answer": "B",
+      "analysis": "$(-a)^2 \\cdot (-a)^3 = (-a)^{2+3} = (-a)^5 = -a^5$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-01-04",
+      "stem": "$2^3 \\times 2^4 = 2^{12}$。",
+      "answer": false,
+      "analysis": "应为 $2^3 \\times 2^4 = 2^{3+4} = 2^7$，指数相加而非相乘。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-01-05",
+      "segments": ["若 $a^m = 2$，$a^n = 3$，则 $a^{m+n} = $___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "6" }
+      ],
+      "analysis": "由同底数幂乘法法则：$a^{m+n} = a^m \\cdot a^n = 2 \\times 3 = 6$。"
+    }
+  ]
+}

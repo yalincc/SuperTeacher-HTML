@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "id": 9,
+    "slug": "lesson-09-整式的加减",
+    "title": "整式的加减",
+    "unit": "第三章 整式及其加减",
+    "week": 3,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "理解同类项的概念，能正确识别同类项", "isKeyPoint": true },
+    { "text": "掌握合并同类项的法则", "isKeyPoint": true },
+    { "text": "掌握去括号法则", "isKeyPoint": true },
+    { "text": "能熟练进行整式的加减运算", "isKeyPoint": false },
+    { "text": "能解决简单的整式加减实际问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "同类项的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "所含字母相同，并且相同字母的指数也相同的项叫做同类项。几个常数项也是同类项。" },
+        { "type": "callout", "variant": "tip", "title": "判断技巧", "content": "判断同类项要满足两个条件：①所含字母相同；②相同字母的指数分别相同。与字母的顺序无关。" },
+        { "type": "list", "ordered": false, "items": ["$3x^2$ 和 $-5x^2$ 是同类项", "$2ab$ 和 $3ba$ 是同类项", "$x^2y$ 和 $xy^2$ 不是同类项", "$2$ 和 $-7$ 是同类项"] }
+      ]
+    },
+    {
+      "title": "合并同类项法则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "合并同类项时，把同类项的系数相加，字母和字母的指数不变。" },
+        { "type": "callout", "variant": "mnemonic", "title": "合并口诀", "content": "系数相加减，字母指数不变。" },
+        { "type": "paragraph", "content": "例如：$3x^2 + 2x^2 = (3 + 2)x^2 = 5x^2$；$-2ab + 5ab = (-2 + 5)ab = 3ab$。" },
+        { "type": "callout", "variant": "warning", "title": "易错点", "content": "不是同类项的项不能合并。例如 $x^2$ 和 $x$ 不是同类项，不能合并。" }
+      ]
+    },
+    {
+      "title": "去括号法则",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "括号前是正号，去括号后各项符号不变；括号前是负号，去括号后各项符号都要改变。" },
+        { "type": "callout", "variant": "tip", "title": "记忆方法", "content": "正号不变号，负号全变号。" },
+        { "type": "table", "headers": ["原式", "去括号结果"], "rows": [["$+(a - b)$", "$a - b$"], ["$-(a - b)$", "$-a + b$"], ["$+(2x + 1)$", "$2x + 1$"], ["$-(2x + 1)$", "$-2x - 1$"]] }
+      ]
+    },
+    {
+      "title": "整式加减运算步骤",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "整式加减运算的步骤：①去括号；②合并同类项；③写出结果。" },
+        { "type": "callout", "variant": "note", "title": "运算顺序", "content": "有括号先去括号，然后合并同类项，最后按某个字母的降幂排列结果。" },
+        { "type": "paragraph", "content": "例如：$(3x^2 - 2x + 1) + (x^2 + 4x - 3) = 3x^2 - 2x + 1 + x^2 + 4x - 3 = 4x^2 + 2x - 2$。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：合并同类项",
+      "problem": [
+        { "type": "paragraph", "content": "合并同类项：$3x^2y - 5xy^2 + 2x^2y + 3xy^2$" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "找出同类项：$3x^2y$ 与 $2x^2y$ 是同类项，$-5xy^2$ 与 $3xy^2$ 是同类项。" },
+        { "type": "paragraph", "content": "合并同类项：$3x^2y + 2x^2y - 5xy^2 + 3xy^2 = (3 + 2)x^2y + (-5 + 3)xy^2 = 5x^2y - 2xy^2$。" }
+      ],
+      "answer": "$5x^2y - 2xy^2$"
+    },
+    {
+      "title": "例2：整式的加减运算",
+      "problem": [
+        { "type": "paragraph", "content": "计算：$(2x^2 - 3x + 1) - (x^2 - 2x + 3)$" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "去括号：$2x^2 - 3x + 1 - x^2 + 2x - 3$" },
+        { "type": "paragraph", "content": "合并同类项：$(2 - 1)x^2 + (-3 + 2)x + (1 - 3) = x^2 - x - 2$" }
+      ],
+      "answer": "$x^2 - x - 2$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "同类项",
+      "children": [
+        { "text": "所含字母相同，相同字母的指数也相同" },
+        { "text": "几个常数项也是同类项" }
+      ]
+    },
+    {
+      "text": "合并同类项",
+      "children": [
+        { "text": "系数相加减，字母和指数不变" },
+        { "text": "不是同类项不能合并" }
+      ]
+    },
+    {
+      "text": "去括号",
+      "children": [
+        { "text": "括号前是正号，各项符号不变" },
+        { "text": "括号前是负号，各项符号都要改变" }
+      ]
+    },
+    {
+      "text": "运算步骤",
+      "children": [
+        { "text": "去括号 → 合并同类项 → 写出结果" }
+      ]
+    }
+  ]
+}

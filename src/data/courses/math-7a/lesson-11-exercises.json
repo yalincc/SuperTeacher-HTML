@@ -1,0 +1,58 @@
+{
+  "lessonId": 11,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-11-01",
+      "stem": "下列各式中，正确的是（    ）",
+      "options": [
+        { "label": "A", "text": "$1^\\circ = 60''$" },
+        { "label": "B", "text": "$1' = 60^\\circ$" },
+        { "label": "C", "text": "$1^\\circ = 60'$" },
+        { "label": "D", "text": "$1' = 60''$" }
+      ],
+      "answer": "C",
+      "analysis": "角的度量单位中，$1^\\circ = 60'$，$1' = 60''$，故选C。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-02",
+      "stem": "如果 $\\angle \\alpha = 40^\\circ$，那么 $\\angle \\alpha$ 的余角是（    ）",
+      "options": [
+        { "label": "A", "text": "$50^\\circ$" },
+        { "label": "B", "text": "$40^\\circ$" },
+        { "label": "C", "text": "$140^\\circ$" },
+        { "label": "D", "text": "$60^\\circ$" }
+      ],
+      "answer": "A",
+      "analysis": "余角是指两角之和为 $90^\\circ$，所以 $\\angle \\alpha$ 的余角 $= 90^\\circ - 40^\\circ = 50^\\circ$，故选A。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-11-03",
+      "stem": "计算 $25^\\circ 30' + 15^\\circ 45'$ 的结果是（    ）",
+      "options": [
+        { "label": "A", "text": "$40^\\circ 75'$" },
+        { "label": "B", "text": "$41^\\circ 15'$" },
+        { "label": "C", "text": "$41^\\circ 75'$" },
+        { "label": "D", "text": "$40^\\circ 15'$" }
+      ],
+      "answer": "B",
+      "analysis": "$25^\\circ 30' + 15^\\circ 45' = 40^\\circ 75' = 41^\\circ 15'$，故选B。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-11-04",
+      "stem": "一个角的补角一定大于这个角。",
+      "answer": false,
+      "analysis": "当角为钝角时，其补角为锐角，补角小于这个角。所以这句话是错误的。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-11-05",
+      "segments": ["$0.5^\\circ =$", "___1___", "$'$。"],
+      "blanks": [{ "index": 1, "answer": "$30$" }],
+      "analysis": "因为 $1^\\circ = 60'$，所以 $0.5^\\circ = 0.5 \\times 60' = 30'$。"
+    }
+  ]
+}

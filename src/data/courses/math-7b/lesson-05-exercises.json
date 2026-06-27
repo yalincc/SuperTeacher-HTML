@@ -1,0 +1,62 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-05-01",
+      "stem": "如图，直线 $a$、$b$ 被直线 $c$ 所截，下列条件中能判定 $a \\parallel b$ 的是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\angle 1 = \\angle 3$（对顶角）" },
+        { "label": "B", "text": "$\\angle 1 = \\angle 2$（同位角相等）" },
+        { "label": "C", "text": "$\\angle 1 + \\angle 2 = 180^\\circ$（邻补角）" },
+        { "label": "D", "text": "$\\angle 2 = \\angle 3$（邻补角）" }
+      ],
+      "answer": "B",
+      "analysis": "同位角相等，两直线平行。$\\angle 1$ 和 $\\angle 2$ 是同位角，它们相等可以判定 $a \\parallel b$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-05-02",
+      "stem": "如图，$\\angle 1 = \\angle 2$，$\\angle 1$ 和 $\\angle 2$ 是内错角，则下列结论正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$a \\parallel b$（同位角相等）" },
+        { "label": "B", "text": "$a \\parallel b$（内错角相等）" },
+        { "label": "C", "text": "$a \\parallel b$（同旁内角互补）" },
+        { "label": "D", "text": "无法判定" }
+      ],
+      "answer": "B",
+      "analysis": "$\\angle 1$ 和 $\\angle 2$ 是内错角，内错角相等可以判定两直线平行。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-05-03",
+      "stem": "两条直线被第三条直线所截，如果同旁内角互补，那么这两条直线（  ）",
+      "options": [
+        { "label": "A", "text": "垂直" },
+        { "label": "B", "text": "平行" },
+        { "label": "C", "text": "相交" },
+        { "label": "D", "text": "重合" }
+      ],
+      "answer": "B",
+      "analysis": "同旁内角互补，两直线平行。这是平行线的判定方法之一。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-05-04",
+      "stem": "如果两条直线被第三条直线所截，内错角相等，则这两条直线平行。",
+      "answer": true,
+      "analysis": "内错角相等，两直线平行。这是平行线的基本判定方法之一。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-05-05",
+      "segments": ["两条平行线被第三条直线所截，同位角___1___，内错角___2___，同旁内角___3___。"],
+      "blanks": [
+        { "index": 1, "answer": "相等" },
+        { "index": 2, "answer": "相等" },
+        { "index": 3, "answer": "互补" }
+      ],
+      "analysis": "两直线平行时：同位角相等，内错角相等，同旁内角互补（和为 $180^\\circ$）。"
+    }
+  ]
+}

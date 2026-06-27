@@ -1,0 +1,61 @@
+{
+  "lessonId": 1,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-01-01",
+      "stem": "下列几何体中，属于锥体的是（  ）",
+      "options": [
+        { "label": "A", "text": "圆柱" },
+        { "label": "B", "text": "棱柱" },
+        { "label": "C", "text": "圆锥" },
+        { "label": "D", "text": "球" }
+      ],
+      "answer": "C",
+      "analysis": "圆柱和棱柱属于柱体，球属于球体，只有圆锥属于锥体。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-01-02",
+      "stem": "关于棱柱，下列说法正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "棱柱的侧面是三角形" },
+        { "label": "B", "text": "棱柱的上下两个底面完全相同" },
+        { "label": "C", "text": "棱柱有曲面" },
+        { "label": "D", "text": "圆柱是特殊的棱柱" }
+      ],
+      "answer": "B",
+      "analysis": "棱柱的侧面是长方形（不是三角形），上下底面是完全相同的多边形，没有曲面。圆柱不是棱柱，因为圆柱的底面是圆而不是多边形。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-01-03",
+      "stem": "一个五棱柱有（  ）个顶点",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "10" },
+        { "label": "D", "text": "15" }
+      ],
+      "answer": "C",
+      "analysis": "五棱柱底面是五边形，上下两个底面各有5个顶点，共 $5 \\times 2 = 10$ 个顶点。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-01-04",
+      "stem": "圆柱有两个底面和一个侧面，侧面是曲面，所以圆柱有曲面。",
+      "answer": true,
+      "analysis": "圆柱的侧面确实是曲面，底面是平面。所以圆柱包含曲面，该说法正确。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-01-05",
+      "segments": ["一个正方体有___1___个面，___2___条棱。"],
+      "blanks": [
+        { "index": 1, "answer": "6" },
+        { "index": 2, "answer": "12" }
+      ],
+      "analysis": "正方体有6个面（上下前后左右），12条棱（上下各4条，侧棱4条）。"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "id": 8,
+    "slug": "lesson-08-变量与函数",
+    "title": "变量与函数",
+    "unit": "第四章 一次函数",
+    "week": 4,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解变量与常量的概念", "isKeyPoint": true },
+    { "text": "理解函数的定义，明确自变量和因变量", "isKeyPoint": true },
+    { "text": "掌握函数的三种表示方法：列表法、关系式法、图象法", "isKeyPoint": true },
+    { "text": "能从实际问题中找出变量之间的函数关系", "isKeyPoint": false },
+    { "text": "能根据函数关系式求函数值", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "变量与常量",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在某一变化过程中，数值发生变化的量称为**变量**，数值保持不变的量称为**常量**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "例如：在匀速运动中，路程 $s$、速度 $v$ 和时间 $t$ 的关系为 $s = vt$。如果速度 $v$ 保持不变，那么 $v$ 是常量，$s$ 和 $t$ 是变量。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "区分方法",
+          "content": "判断一个量是变量还是常量，关键看它在所讨论的过程中是否发生变化。同一个量在不同情境下可能有不同的身份。"
+        }
+      ]
+    },
+    {
+      "title": "函数的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "一般地，在一个变化过程中，如果有两个变量 $x$ 和 $y$，并且对于 $x$ 的每一个确定的值，$y$ 都有唯一确定的值与其对应，那么就说 $y$ 是 $x$ 的函数，$x$ 是**自变量**，$y$ 是**因变量**。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "函数的定义强调「唯一确定」，即对于一个自变量的值，因变量只能有一个对应值。例如 $y^2 = x$ 中，当 $x=4$ 时，$y$ 可以是 $2$ 或 $-2$，所以 $y$ 不是 $x$ 的函数。"
+        }
+      ]
+    },
+    {
+      "title": "函数的三种表示方法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "函数有三种常用的表示方法："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**列表法**：用表格列出变量之间的对应值",
+            "**关系式法**：用数学式子表示变量之间的关系，如 $y = 2x + 1$",
+            "**图象法**：用图象表示变量之间的关系"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "方法选择",
+          "content": "列表法直观但不全面，关系式法精确但有时不易理解，图象法形象但可能不精确。实际应用中常结合使用。"
+        }
+      ]
+    },
+    {
+      "title": "函数值的计算",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "对于函数 $y = f(x)$，当 $x = a$ 时，对应的函数值记为 $f(a)$。求函数值就是将自变量的值代入关系式进行计算。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "计算口诀",
+          "content": "代入求值要细心，先代后算记分明；自变量值代进去，因变量值算出来。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：识别变量与常量",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在正方形的面积公式 $S = a^2$ 中（$a$ 为边长），哪些是变量？哪些是常量？"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**分析**：在这个公式中，边长 $a$ 可以取不同的值，面积 $S$ 也会随之变化，所以 $a$ 和 $S$ 都是变量。公式中的指数 $2$ 是固定不变的，所以 $2$ 是常量。"
+        }
+      ],
+      "answer": "变量：边长 $a$ 和面积 $S$；常量：指数 $2$。"
+    },
+    {
+      "title": "例2：求函数值",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知函数 $y = 3x - 2$，求当 $x = -1$、$x = 0$、$x = 2$ 时的函数值。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "当 $x = -1$ 时，$y = 3 \times (-1) - 2 = -3 - 2 = -5$；\n当 $x = 0$ 时，$y = 3 \times 0 - 2 = 0 - 2 = -2$；\n当 $x = 2$ 时，$y = 3 \times 2 - 2 = 6 - 2 = 4$。"
+        }
+      ],
+      "answer": "当 $x = -1$ 时 $y = -5$；当 $x = 0$ 时 $y = -2$；当 $x = 2$ 时 $y = 4$。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "变量与常量",
+      "children": [
+        { "text": "变量：数值发生变化的量" },
+        { "text": "常量：数值保持不变的量" }
+      ]
+    },
+    {
+      "text": "函数的定义",
+      "children": [
+        { "text": "对于自变量的每一个值，因变量都有唯一确定的值与之对应" },
+        { "text": "自变量是主动变化的量，因变量是随之变化的量" }
+      ]
+    },
+    {
+      "text": "函数的表示方法",
+      "children": [
+        { "text": "列表法：用表格表示" },
+        { "text": "关系式法：用数学式子表示" },
+        { "text": "图象法：用图形表示" }
+      ]
+    }
+  ]
+}

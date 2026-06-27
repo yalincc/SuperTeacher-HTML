@@ -1,0 +1,60 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-04-01",
+      "stem": "9 的算术平方根是（  ）",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "-3" },
+        { "label": "C", "text": "$\\pm 3$" },
+        { "label": "D", "text": "81" }
+      ],
+      "answer": "A",
+      "analysis": "9 的算术平方根是 $\\sqrt{9} = 3$。注意算术平方根取非负值。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-04-02",
+      "stem": "下列各式中，正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "$\\sqrt{16} = \\pm 4$" },
+        { "label": "B", "text": "$\\pm\\sqrt{9} = 3$" },
+        { "label": "C", "text": "$\\sqrt{(-5)^2} = 5$" },
+        { "label": "D", "text": "$\\sqrt{-9} = 3$" }
+      ],
+      "answer": "C",
+      "analysis": "A 错，$\\sqrt{16} = 4$（算术平方根）；B 错，$\\pm\\sqrt{9} = \\pm 3$；C 对，$\\sqrt{(-5)^2} = \\sqrt{25} = 5$；D 错，负数没有平方根。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-04-03",
+      "stem": "$\\sqrt{(-3)^2}$ 的值为（  ）",
+      "options": [
+        { "label": "A", "text": "-3" },
+        { "label": "B", "text": "3" },
+        { "label": "C", "text": "$\\pm 3$" },
+        { "label": "D", "text": "9" }
+      ],
+      "answer": "B",
+      "analysis": "$\\sqrt{(-3)^2} = \\sqrt{9} = 3$。先算平方再开方，结果取算术平方根。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-04-04",
+      "stem": "一个正数有两个平方根，且它们互为相反数。",
+      "answer": true,
+      "analysis": "正数 $a$ 的两个平方根分别为 $\\sqrt{a}$ 和 $-\\sqrt{a}$，它们互为相反数。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-04-05",
+      "segments": ["若 $\\sqrt{x} = 4$，则 $x = $___1___。"],
+      "blanks": [
+        { "index": 1, "answer": "16" }
+      ],
+      "analysis": "由 $\\sqrt{x} = 4$，两边平方得 $x = 4^2 = 16$。"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "id": 5,
+    "slug": "lesson-05-有理数的加减",
+    "title": "有理数的加减",
+    "unit": "第二章 有理数及其运算",
+    "week": 2,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "掌握有理数加法的运算法则", "isKeyPoint": true },
+    { "text": "掌握有理数减法的运算法则", "isKeyPoint": true },
+    { "text": "能熟练进行有理数的加减混合运算", "isKeyPoint": true },
+    { "text": "理解有理数加法的运算律（交换律、结合律）", "isKeyPoint": false },
+    { "text": "能用加减运算解决简单的实际问题", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "有理数加法法则",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "有理数加法分三种情况："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**同号两数相加**：取相同的符号，并把绝对值相加",
+            "**异号两数相加**：取绝对值较大的加数的符号，并用较大的绝对值减去较小的绝对值",
+            "**互为相反数的两数相加**：和为 $0$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆口诀",
+          "content": "同号相加取同号，绝对值相加不变号；异号相加大减小，符号跟着绝对值大的跑。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "异号相加时，是绝对值相减（大减小），不是相加！例如 $(-3)+5$，取正号，绝对值为 $5-3=2$，结果为 $2$。"
+        }
+      ]
+    },
+    {
+      "title": "有理数减法法则",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "有理数的减法法则：**减去一个数，等于加上这个数的相反数**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "即 $a - b = a + (-b)$。减法可以转化为加法，然后按照加法法则计算。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "说明",
+          "content": "减法转化为加法的关键是同时改变\"减号\"和\"减数的符号\"。例如 $7-(-3)=7+3=10$。"
+        }
+      ]
+    },
+    {
+      "title": "加法运算律",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "有理数的加法满足**交换律**和**结合律**："
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "交换律：$a+b=b+a$",
+            "结合律：$(a+b)+c=a+(b+c)$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "巧算技巧",
+          "content": "利用运算律可以凑整。例如 $(-3)+5+(-5)=(-3)+[5+(-5)]=(-3)+0=-3$。"
+        }
+      ]
+    },
+    {
+      "title": "加减混合运算",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "加减混合运算的步骤：\n1. 把减法转化为加法\n2. 省略加号和括号\n3. 运用运算律简化计算"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "运算步骤",
+          "content": "减法变加法，去括号变号，同号先加，异号后算，结果化简。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：有理数加法",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "计算：（1）$(-8)+(-3)$ （2）$(-5)+7$ （3）$(-4.5)+4.5$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "（1）同号两数相加，取负号，绝对值相加：$(-8)+(-3)=-(8+3)=-11$\n\n（2）异号两数相加，取正号（$7$ 的绝对值大），绝对值相减：$(-5)+7=7-5=2$\n\n（3）互为相反数的两数相加：$(-4.5)+4.5=0$"
+        }
+      ],
+      "answer": "$-11$，$2$，$0$"
+    },
+    {
+      "title": "例2：加减混合运算",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "计算：$(-3)-(-5)+(-2)-4$"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**第一步**：减法变加法\n$(-3)-(-5)+(-2)-4=(-3)+5+(-2)+(-4)$\n\n**第二步**：运用结合律简化\n$=(-3)+[5+(-2)+(-4)]$\n$=(-3)+[5+(-6)]$\n$=(-3)+(-1)$\n$=-4$"
+        }
+      ],
+      "answer": "$-4$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "有理数加法法则",
+      "children": [
+        { "text": "同号相加：取相同符号，绝对值相加" },
+        { "text": "异号相加：取绝对值较大的符号，绝对值相减" },
+        { "text": "互为相反数相加：和为 $0$" }
+      ]
+    },
+    {
+      "text": "有理数减法法则",
+      "children": [
+        { "text": "减去一个数 = 加上这个数的相反数" },
+        { "text": "$a - b = a + (-b)$" }
+      ]
+    },
+    {
+      "text": "加减混合运算",
+      "children": [
+        { "text": "减法统一转化为加法" },
+        { "text": "利用交换律和结合律简化计算" }
+      ]
+    }
+  ]
+}

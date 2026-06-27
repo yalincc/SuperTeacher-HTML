@@ -1,0 +1,74 @@
+{
+  "lessonId": 3,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-3-1",
+      "stem": "如果 $a<b$，那么下列不等式中正确的是（    ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a+2>b+2$"
+        },
+        {
+          "label": "B",
+          "text": "$a-2>b-2$"
+        },
+        {
+          "label": "C",
+          "text": "$-2a>-2b$"
+        },
+        {
+          "label": "D",
+          "text": "$\frac{a}{2}>\frac{b}{2}$"
+        }
+      ],
+      "answer": "C",
+      "analysis": "A、B、D 都违反了不等式的基本性质。A 和 B 中，两边同时加减同一个数，不等号方向应该不变；D 中，两边同时除以正数，不等号方向应该不变。C 中，两边同时乘负数 $-2$，不等号方向改变，所以 $-2a>-2b$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-3-2",
+      "stem": "不等式 $2x-1>3$ 的解集是（    ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x>1$"
+        },
+        {
+          "label": "B",
+          "text": "$x>2$"
+        },
+        {
+          "label": "C",
+          "text": "$x>4$"
+        },
+        {
+          "label": "D",
+          "text": "$x<2$"
+        }
+      ],
+      "answer": "B",
+      "analysis": "解不等式 $2x-1>3$：两边同时加 $1$，得 $2x>4$；两边同时除以正数 $2$，得 $x>2$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-3-3",
+      "stem": "如果 $a>b$，$c>d$，那么 $a+c>b+d$。",
+      "answer": true,
+      "analysis": "根据不等式性质1，由 $a>b$ 得 $a+c>b+c$；由 $c>d$ 得 $b+c>b+d$。所以 $a+c>b+c>b+d$，即 $a+c>b+d$。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-3-4",
+      "segments": ["不等式两边同时乘（或除以）同一个负数，不等号的方向 ______。"],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "改变"
+        }
+      ],
+      "analysis": "这是不等式的基本性质3，两边同乘（或除以）同一个负数，不等号的方向改变。这是不等式与等式的重要区别。"
+    }
+  ]
+}

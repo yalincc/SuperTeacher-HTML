@@ -1,0 +1,74 @@
+{
+  "lessonId": 5,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-5-1",
+      "stem": "不等式组 $\\begin{cases} x>2 \\ x<5 \\end{cases}$ 的解集是（    ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x>2$"
+        },
+        {
+          "label": "B",
+          "text": "$x<5$"
+        },
+        {
+          "label": "C",
+          "text": "$2<x<5$"
+        },
+        {
+          "label": "D",
+          "text": "无解"
+        }
+      ],
+      "answer": "C",
+      "analysis": "不等式组 $\\begin{cases} x>2 \\ x<5 \\end{cases}$ 的解集是两个不等式解集的公共部分，即 $2<x<5$。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-5-2",
+      "stem": "不等式组 $\\begin{cases} x>3 \\ x>5 \\end{cases}$ 的解集是（    ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x>3$"
+        },
+        {
+          "label": "B",
+          "text": "$x>5$"
+        },
+        {
+          "label": "C",
+          "text": "$3<x<5$"
+        },
+        {
+          "label": "D",
+          "text": "无解"
+        }
+      ],
+      "answer": "B",
+      "analysis": "根据'同大取大'的原则，两个不等式都是'大于'，取较大的那个，所以解集是 $x>5$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-5-3",
+      "stem": "不等式组 $\\begin{cases} x>3 \\ x<2 \\end{cases}$ 的解集是 $2<x<3$。",
+      "answer": false,
+      "analysis": "不等式组 $\\begin{cases} x>3 \\ x<2 \\end{cases}$ 无解。因为 $x>3$ 和 $x<2$ 没有公共部分。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-5-4",
+      "segments": ["不等式组 $\\begin{cases} x≤2 \\ x≥-1 \\end{cases}$ 的解集是 ______。"],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "$-1≤x≤2$"
+        }
+      ],
+      "analysis": "不等式组 $\\begin{cases} x≤2 \\ x≥-1 \\end{cases}$ 的解集是两个不等式解集的公共部分，即 $-1≤x≤2$。"
+    }
+  ]
+}

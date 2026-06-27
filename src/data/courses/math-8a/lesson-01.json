@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": 1,
+    "slug": "lesson-01-勾股定理",
+    "title": "勾股定理",
+    "unit": "第一章 勾股定理",
+    "week": 1,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解勾股定理的内容：直角三角形两直角边的平方和等于斜边的平方", "isKeyPoint": true },
+    { "text": "能用勾股定理进行简单的计算", "isKeyPoint": true },
+    { "text": "了解勾股定理的证明方法（面积法）", "isKeyPoint": false },
+    { "text": "知道常见的勾股数", "isKeyPoint": false },
+    { "text": "体会数形结合的数学思想", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "勾股定理的内容",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "如果直角三角形的两条直角边分别为 $a$，$b$，斜边为 $c$，那么 $a^2 + b^2 = c^2$。这就是**勾股定理**。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "命名由来",
+          "content": "我国古代称直角三角形的短直角边为\\\"勾\\\"，长直角边为\\\"股\\\"，斜边为\\\"弦\\\"。勾股定理即\\\"勾² + 股² = 弦²\\\"。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "注意条件",
+          "content": "勾股定理只适用于**直角三角形**。使用前必须确认三角形是直角三角形。"
+        }
+      ]
+    },
+    {
+      "title": "勾股定理的证明",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "勾股定理可以用**面积法**来证明。将四个全等的直角三角形拼成一个大正方形，利用面积关系推导："
+        },
+        {
+          "type": "paragraph",
+          "content": "大正方形面积 = $(a+b)^2$，也可以表示为 $c^2 + 4 \\times \\frac{1}{2}ab$。展开后得 $a^2 + 2ab + b^2 = c^2 + 2ab$，化简即得 $a^2 + b^2 = c^2$。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "面积法要点",
+          "content": "面积法的核心思想是：同一个图形用两种不同的方法计算面积，结果相等，从而建立等式。"
+        }
+      ]
+    },
+    {
+      "title": "常见的勾股数",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "满足 $a^2 + b^2 = c^2$ 的三个正整数 $(a, b, c)$ 称为一组**勾股数**。常见的勾股数有："
+        },
+        {
+          "type": "table",
+          "headers": ["勾股数", "验证"],
+          "rows": [
+            ["3, 4, 5", "$3^2 + 4^2 = 9 + 16 = 25 = 5^2$"],
+            ["5, 12, 13", "$5^2 + 12^2 = 25 + 144 = 169 = 13^2$"],
+            ["6, 8, 10", "$6^2 + 8^2 = 36 + 64 = 100 = 10^2$"],
+            ["8, 15, 17", "$8^2 + 15^2 = 64 + 225 = 289 = 17^2$"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆技巧",
+          "content": "3-4-5 是最基本的勾股数。将每一项同时乘以相同的正整数 $k$，得到 $3k, 4k, 5k$ 也是一组勾股数。"
+        }
+      ]
+    },
+    {
+      "title": "勾股定理的简单应用",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "已知直角三角形中任意两条边的长度，可以用勾股定理求第三条边的长度。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题步骤",
+          "content": "①确定已知条件和所求问题 ②判断哪条是斜边 ③代入公式 $a^2 + b^2 = c^2$ ④求解并检验。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：求直角三角形的边长",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "在直角三角形 $ABC$ 中，$\\angle C = 90°$，$AC = 3$，$BC = 4$，求斜边 $AB$ 的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "由勾股定理：$AB^2 = AC^2 + BC^2 = 3^2 + 4^2 = 9 + 16 = 25$，所以 $AB = \\sqrt{25} = 5$。"
+        }
+      ],
+      "answer": "$AB = 5$"
+    },
+    {
+      "title": "例2：勾股定理的逆向应用",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知直角三角形的一条直角边为 5，斜边为 13，求另一条直角边的长。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "设另一条直角边为 $b$，由勾股定理：$5^2 + b^2 = 13^2$，即 $25 + b^2 = 169$，$b^2 = 144$，所以 $b = 12$。"
+        }
+      ],
+      "answer": "另一条直角边的长为 12"
+    }
+  ],
+  "summary": [
+    {
+      "text": "勾股定理的内容",
+      "children": [
+        { "text": "直角三角形中：$a^2 + b^2 = c^2$（$a$, $b$ 为直角边，$c$ 为斜边）" },
+        { "text": "只适用于直角三角形" }
+      ]
+    },
+    {
+      "text": "勾股定理的证明",
+      "children": [
+        { "text": "面积法：用两种方法计算同一个图形的面积" },
+        { "text": "核心思想是数形结合" }
+      ]
+    },
+    {
+      "text": "勾股数",
+      "children": [
+        { "text": "常见勾股数：3-4-5、5-12-13、8-15-17" },
+        { "text": "勾股数的整数倍仍是勾股数" }
+      ]
+    }
+  ]
+}

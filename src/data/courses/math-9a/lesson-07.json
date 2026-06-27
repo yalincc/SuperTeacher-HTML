@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "id": 7,
+    "slug": "lesson-07-用树状图和列表法求概率",
+    "title": "用树状图和列表法求概率",
+    "unit": "第三章 概率的进一步认识",
+    "week": 3,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "掌握用树状图列举等可能结果的方法", "isKeyPoint": true },
+    { "text": "掌握用列表法列举等可能结果的方法", "isKeyPoint": true },
+    { "text": "能用列举法求简单事件的概率", "isKeyPoint": true },
+    { "text": "理解概率的古典定义", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "树状图法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**树状图法**是通过画树状图来列举所有等可能结果的方法。适用于多步骤试验，每一步有多种选择的情况。"
+        },
+        {
+          "type": "paragraph",
+          "content": "画树状图的步骤：先列出第一步的所有可能结果，再对每个结果列出第二步的所有可能结果，依此类推。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "适用场景",
+          "content": "树状图法适用于试验步骤较少（一般不超过3步）的情况。每一步的分支数不宜太多，否则树状图会过于复杂。"
+        }
+      ]
+    },
+    {
+      "title": "列表法",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**列表法**是通过画表格来列举所有等可能结果的方法。适用于涉及两个因素的情况。"
+        },
+        {
+          "type": "paragraph",
+          "content": "列表法的步骤：用表格的行表示第一个因素的所有可能结果，用列表示第二个因素的所有可能结果，表格中的每个单元格就是一种等可能结果。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "适用场景",
+          "content": "列表法适用于两个因素的情况，如两次抛硬币、同时掷两个骰子等。"
+        }
+      ]
+    },
+    {
+      "title": "用列举法求概率",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "用列举法求概率的基本公式：$P(A) = \\frac{\\text{事件}A\\text{包含的结果数}}{\\text{所有等可能结果数}}$"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "使用列举法求概率的前提是：所有结果必须是**等可能的**。如果结果不是等可能的，不能直接用此公式。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "概率的范围",
+          "content": "任何事件的概率都在 $0$ 到 $1$ 之间，即 $0 \\leq P(A) \\leq 1$。$P(A) = 0$ 表示不可能事件，$P(A) = 1$ 表示必然事件。"
+        }
+      ]
+    },
+    {
+      "title": "概率的古典定义",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在一次试验中，如果各种结果出现的可能性相同，那么事件 $A$ 发生的概率等于事件 $A$ 包含的结果数与所有可能结果数之比。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "古典概型条件",
+          "content": "古典概型需满足两个条件：①有限性：试验结果只有有限个；②等可能性：每个结果出现的可能性相同。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：用树状图求概率",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "同时抛掷两枚硬币，用树状图求两枚硬币都正面朝上的概率。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 画树状图如下："
+        },
+        {
+          "type": "paragraph",
+          "content": "第一枚硬币：正、反"
+        },
+        {
+          "type": "paragraph",
+          "content": "第二枚硬币：对每个结果都有正、反两种可能"
+        },
+        {
+          "type": "paragraph",
+          "content": "所有等可能结果为：(正,正)、(正,反)、(反,正)、(反,反)，共4种。"
+        },
+        {
+          "type": "paragraph",
+          "content": "两枚都正面朝上的结果只有1种：(正,正)。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $P(\\text{两枚都正面朝上}) = \\frac{1}{4}$。"
+        }
+      ],
+      "answer": "$P = \\frac{1}{4}$"
+    },
+    {
+      "title": "例2：用列表法求概率",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "同时掷两个骰子，用列表法求点数之和为7的概率。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 列表如下："
+        },
+        {
+          "type": "paragraph",
+          "content": "| | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n| 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n| 3 | 4 | 5 | 6 | 7 | 8 | 9 |\n| 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n| 5 | 6 | 7 | 8 | 9 | 10 | 11 |\n| 6 | 7 | 8 | 9 | 10 | 11 | 12 |"
+        },
+        {
+          "type": "paragraph",
+          "content": "所有等可能结果有 $6 \\times 6 = 36$ 种。"
+        },
+        {
+          "type": "paragraph",
+          "content": "点数之和为7的结果有：(1,6)、(2,5)、(3,4)、(4,3)、(5,2)、(6,1)，共6种。"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $P(\\text{点数之和为7}) = \\frac{6}{36} = \\frac{1}{6}$。"
+        }
+      ],
+      "answer": "$P = \\frac{1}{6}$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "树状图法",
+      "children": [
+        { "text": "通过画树状图列举所有等可能结果" },
+        { "text": "适用于多步骤试验" }
+      ]
+    },
+    {
+      "text": "列表法",
+      "children": [
+        { "text": "通过画表格列举所有等可能结果" },
+        { "text": "适用于两个因素的情况" }
+      ]
+    },
+    {
+      "text": "概率计算",
+      "children": [
+        { "text": "$P(A) = \\frac{\\text{事件}A\\text{包含的结果数}}{\\text{所有等可能结果数}}$" },
+        { "text": "前提是所有结果必须是等可能的" }
+      ]
+    }
+  ]
+}

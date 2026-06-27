@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "id": 7,
+    "slug": "lesson-07-字母表示数",
+    "title": "字母表示数",
+    "unit": "第三章 整式及其加减",
+    "week": 3,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解用字母表示数的意义和作用", "isKeyPoint": true },
+    { "text": "掌握用字母表示数和数量关系的方法", "isKeyPoint": true },
+    { "text": "学会用字母表示运算律和公式", "isKeyPoint": false },
+    { "text": "了解代数式的概念，能正确识别代数式", "isKeyPoint": false },
+    { "text": "能根据实际问题列出简单的代数式", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "用字母表示数的意义",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "用字母表示数是数学中的重要方法，它使得我们可以用简洁的方式表达一般性的数量关系。字母可以表示任意数，也可以表示特定的数。" },
+        { "type": "callout", "variant": "tip", "title": "学习技巧", "content": "用字母表示数时，要注意字母的选择和书写规范。通常用 $a$、$b$、$c$ 等表示已知数，用 $x$、$y$、$z$ 等表示未知数。" },
+        { "type": "paragraph", "content": "例如，用 $a$ 表示一个数，那么 $a$ 的相反数是 $-a$，$a$ 的绝对值是 $|a|$。" }
+      ]
+    },
+    {
+      "title": "用字母表示数量关系",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "用字母可以简洁地表示各种数量关系。例如：用 $s$ 表示路程，$v$ 表示速度，$t$ 表示时间，则 $s = vt$。" },
+        { "type": "table", "headers": ["实际问题", "字母表示"], "rows": [["长方形的周长", "$C = 2(a + b)$"], ["长方形的面积", "$S = ab$"], ["圆的周长", "$C = 2\\pi r$"], ["圆的面积", "$S = \\pi r^2$"]] },
+        { "type": "callout", "variant": "note", "title": "注意事项", "content": "在实际问题中，字母通常代表具有实际意义的量，如长度、时间、价格等。用字母表示数时，要注意单位的统一。" }
+      ]
+    },
+    {
+      "title": "用字母表示运算律和公式",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "运算律和公式用字母表示后，具有普遍适用性。常见的运算律有：加法交换律 $a + b = b + a$，乘法分配律 $a(b + c) = ab + ac$ 等。" },
+        { "type": "list", "ordered": false, "items": ["加法交换律：$a + b = b + a$", "乘法交换律：$ab = ba$", "加法结合律：$(a + b) + c = a + (b + c)$", "乘法结合律：$(ab)c = a(bc)$", "乘法分配律：$a(b + c) = ab + ac$"] },
+        { "type": "callout", "variant": "mnemonic", "title": "记忆口诀", "content": "交换律换位置，结合律变括号，分配律要展开。" }
+      ]
+    },
+    {
+      "title": "代数式的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "代数式是由数和表示数的字母经有限次加、减、乘、除、乘方和开方等代数运算所得的式子。单独一个数或字母也是代数式。" },
+        { "type": "callout", "variant": "warning", "title": "易错点", "content": "代数式中不含有等号或不等号。例如 $2x + 1$ 是代数式，但 $2x + 1 = 5$ 不是代数式，而是方程。" },
+        { "type": "paragraph", "content": "常见的代数式形式包括：$2a + 3b$、$x^2 - 1$、$\\frac{1}{2}xy$ 等。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：用字母表示数量关系",
+      "problem": [
+        { "type": "paragraph", "content": "小明每小时走 $v$ 千米，走了 $t$ 小时，走了多少千米？如果 $v = 4$，$t = 3$，走了多少千米？" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "根据路程 = 速度 × 时间，走了 $vt$ 千米。" },
+        { "type": "paragraph", "content": "当 $v = 4$，$t = 3$ 时，$vt = 4 \\times 3 = 12$（千米）。" }
+      ],
+      "answer": "走了 $vt$ 千米；当 $v = 4$，$t = 3$ 时，走了 12 千米。"
+    },
+    {
+      "title": "例2：识别代数式",
+      "problem": [
+        { "type": "paragraph", "content": "下列各式中，哪些是代数式？哪些不是？" },
+        { "type": "list", "ordered": true, "items": ["$2a + 1$", "$x = 3$", "$\\frac{1}{2}xy$", "$a > b$", "$\\pi r^2$"] }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "代数式是由数和字母经有限次代数运算组成的式子，不含有等号或不等号。" },
+        { "type": "paragraph", "content": "① $2a + 1$ 是代数式；② $x = 3$ 含有等号，不是代数式；③ $\\frac{1}{2}xy$ 是代数式；④ $a > b$ 含有不等号，不是代数式；⑤ $\\pi r^2$ 是代数式。" }
+      ],
+      "answer": "代数式有：①、③、⑤；不是代数式的有：②、④。"
+    }
+  ],
+  "summary": [
+    {
+      "text": "字母表示数",
+      "children": [
+        { "text": "用字母可以简洁地表示数和数量关系" },
+        { "text": "字母可以表示运算律和公式，具有普遍性" },
+        { "text": "代数式是由数和字母经代数运算组成的式子" }
+      ]
+    },
+    {
+      "text": "学习要点",
+      "children": [
+        { "text": "注意字母表示数的一般性和特殊性" },
+        { "text": "代数式中不含有等号或不等号" },
+        { "text": "用字母表示数时，要注意书写规范" }
+      ]
+    }
+  ]
+}

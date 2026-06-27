@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "id": 9,
+    "slug": "lesson-09-比例的基本性质",
+    "title": "比例的基本性质",
+    "unit": "第四章 图形的相似",
+    "week": 4,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解比例的概念和基本性质", "isKeyPoint": true },
+    { "text": "掌握比例的基本性质：$\\frac{a}{b} = \\frac{c}{d} \\Leftrightarrow ad = bc$", "isKeyPoint": true },
+    { "text": "了解黄金分割的概念", "isKeyPoint": false },
+    { "text": "能用比例的基本性质解决相关问题", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "比例的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "表示两个比相等的式子叫做**比例**。如果 $a$ 与 $b$ 的比等于 $c$ 与 $d$ 的比，那么 $\\frac{a}{b} = \\frac{c}{d}$，$a$、$b$、$c$、$d$ 叫做比例的**项**。"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "$a$ 和 $d$ 叫做比例的**外项**",
+            "$b$ 和 $c$ 叫做比例的**内项**"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "比例中项",
+          "content": "如果 $\\frac{a}{b} = \\frac{b}{c}$，即 $b^2 = ac$，那么 $b$ 叫做 $a$ 和 $c$ 的**比例中项**。"
+        }
+      ]
+    },
+    {
+      "title": "比例的基本性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**比例的基本性质**：$\\frac{a}{b} = \\frac{c}{d} \\Leftrightarrow ad = bc$（$b \\neq 0$，$d \\neq 0$）"
+        },
+        {
+          "type": "paragraph",
+          "content": "即：两个外项的积等于两个内项的积。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "性质推导",
+          "content": "由 $\\frac{a}{b} = \\frac{c}{d}$，两边同乘以 $bd$，得 $ad = bc$。反之，由 $ad = bc$，两边同除以 $bd$，得 $\\frac{a}{b} = \\frac{c}{d}$。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "比例的基本性质要求 $b \\neq 0$，$d \\neq 0$。在使用时要注意分母不为零。"
+        }
+      ]
+    },
+    {
+      "title": "比例的其他性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "比例还有一些重要的性质："
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**合比性质**：若 $\\frac{a}{b} = \\frac{c}{d}$，则 $\\frac{a+b}{b} = \\frac{c+d}{d}$",
+            "**等比性质**：若 $\\frac{a}{b} = \\frac{c}{d} = \\frac{e}{f} = \\cdots = k$（$b+d+f+\\cdots \\neq 0$），则 $\\frac{a+c+e+\\cdots}{b+d+f+\\cdots} = k$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "比例变形",
+          "content": "比例 $\\frac{a}{b} = \\frac{c}{d}$ 可以变形为：$\\frac{b}{a} = \\frac{d}{c}$、$\\frac{a}{c} = \\frac{b}{d}$、$\\frac{d}{b} = \\frac{c}{a}$ 等。"
+        }
+      ]
+    },
+    {
+      "title": "黄金分割",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "如果点 $C$ 把线段 $AB$ 分成两条线段 $AC$ 和 $BC$（$AC > BC$），且 $\\frac{AC}{AB} = \\frac{BC}{AC}$，那么称线段 $AB$ 被点 $C$ **黄金分割**。"
+        },
+        {
+          "type": "paragraph",
+          "content": "黄金比为 $\\frac{\\sqrt{5}-1}{2} \\approx 0.618$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "黄金分割的应用",
+          "content": "黄金分割在建筑、艺术、自然界中广泛应用，如帕特农神庙、蒙娜丽莎的构图等。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：用比例的基本性质解题",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知 $\\frac{a}{b} = \\frac{2}{3}$，求 $\\frac{a+2b}{a-b}$ 的值。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 由 $\\frac{a}{b} = \\frac{2}{3}$，设 $a = 2k$，$b = 3k$（$k \\neq 0$）。"
+        },
+        {
+          "type": "paragraph",
+          "content": "则 $\\frac{a+2b}{a-b} = \\frac{2k + 6k}{2k - 3k} = \\frac{8k}{-k} = -8$。"
+        }
+      ],
+      "answer": "$-8$"
+    },
+    {
+      "title": "例2：比例中项的应用",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "已知 $2$ 是 $x$ 和 $8$ 的比例中项，求 $x$ 的值。"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "**解：** 因为 $2$ 是 $x$ 和 $8$ 的比例中项，"
+        },
+        {
+          "type": "paragraph",
+          "content": "所以 $2^2 = x \\times 8$，即 $4 = 8x$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "解得 $x = \\frac{1}{2}$。"
+        }
+      ],
+      "answer": "$x = \\frac{1}{2}$"
+    }
+  ],
+  "summary": [
+    {
+      "text": "比例的概念",
+      "children": [
+        { "text": "表示两个比相等的式子" },
+        { "text": "比例中项：$b^2 = ac$" }
+      ]
+    },
+    {
+      "text": "比例的基本性质",
+      "children": [
+        { "text": "$\\frac{a}{b} = \\frac{c}{d} \\Leftrightarrow ad = bc$" },
+        { "text": "两个外项的积等于两个内项的积" }
+      ]
+    },
+    {
+      "text": "比例的其他性质",
+      "children": [
+        { "text": "合比性质：$\\frac{a+b}{b} = \\frac{c+d}{d}$" },
+        { "text": "等比性质：$\\frac{a+c+e+\\cdots}{b+d+f+\\cdots} = k$" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "lessonId": 7,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-07-01",
+      "stem": "下列说法正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "直径是弦" },
+        { "label": "B", "text": "弦是直径" },
+        { "label": "C", "text": "半径是弦" },
+        { "label": "D", "text": "弧是半圆" }
+      ],
+      "answer": "A",
+      "analysis": "直径是经过圆心的弦，所以直径一定是弦。但弦不一定是直径（不一定经过圆心）。半径不是弦（一端在圆心）。弧不一定是半圆。",
+      "source": "2023年深圳中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-07-02",
+      "stem": "已知 $\\odot O$ 的半径为 $4$，点 $A$ 在圆上，则 $OA$ 的长为（  ）",
+      "options": [
+        { "label": "A", "text": "$2$" },
+        { "label": "B", "text": "$4$" },
+        { "label": "C", "text": "$8$" },
+        { "label": "D", "text": "无法确定" }
+      ],
+      "answer": "B",
+      "analysis": "点 $A$ 在圆上，所以 $OA$ 等于半径 $4$。",
+      "source": ""
+    },
+    {
+      "type": "choice",
+      "id": "ex-07-03",
+      "stem": "$\\odot O$ 的半径为 $5$，$AB$ 是弦，$OC \\perp AB$ 于 $C$，$OC = 3$，则弦 $AB$ 的长为（  ）",
+      "options": [
+        { "label": "A", "text": "$6$" },
+        { "label": "B", "text": "$8$" },
+        { "label": "C", "text": "$10$" },
+        { "label": "D", "text": "$4$" }
+      ],
+      "answer": "B",
+      "analysis": "连接 $OA$，$OA = 5$，$OC = 3$，$AC = \\sqrt{OA^2 - OC^2} = \\sqrt{25 - 9} = 4$，$AB = 2AC = 8$。",
+      "source": "2022年深圳中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-07-04",
+      "stem": "半径相等的两个圆是等圆。",
+      "answer": true,
+      "analysis": "等圆的定义就是半径相等的两个圆。半径相等，圆的大小就相同。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-07-05",
+      "segments": ["$\\odot O$ 的半径为 $10$，点 $P$ 到圆心的距离 $OP = 6$，则点 $P$ 在 $\\odot O$ 的 ___1___（填内部、外部或上）。"],
+      "blanks": [
+        { "index": 1, "answer": "内部" }
+      ],
+      "analysis": "$OP = 6 < 10 = r$，点 $P$ 在圆的内部。"
+    }
+  ]
+}
