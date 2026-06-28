@@ -1,4 +1,5 @@
 import type { CourseConfig, LessonData, ExerciseData, Exercise } from '../types'
+import { getHomeItemOrder } from '../utils/storage'
 
 // ===== 自动扫描 courses/ 目录 =====
 const courseModules = import.meta.glob<{ default: CourseConfig }>('./courses/*/course.json', { eager: true })
@@ -117,6 +118,23 @@ export function getHomeDisplayItems(): HomeDisplayItem[] {
     const orderB = b.kind === 'course' ? (b.course.order ?? 99) : b.group.order
     return orderA - orderB
   })
+
+  // 应用用户自定义排序
+  const savedOrder = getHomeItemOrder()
+  if (savedOrder && savedOrder.length === items.length) {
+    const idMap = new Map<string, typeof items[0]>()
+    for (const item of items) {
+      const id = item.kind === 'course' ? item.course.id : item.group.id
+      idMap.set(id, item)
+    }
+    const sorted: typeof items = []
+    for (const id of savedOrder) {
+      const item = idMap.get(id)
+      if (item) sorted.push(item)
+    }
+    if (sorted.length === items.length) return sorted
+  }
+
   return items
 }
 

@@ -127,3 +127,19 @@ function recalculateStats(progress: UserProgress): ProgressStats {
 export function resetProgress(courseId: string): void {
   localStorage.removeItem(getStorageKey(courseId))
 }
+
+// ===== 首页排序 =====
+const HOME_ORDER_KEY = 'superteacher_home_order'
+
+export function getHomeItemOrder(): string[] | null {
+  try {
+    const raw = localStorage.getItem(HOME_ORDER_KEY)
+    return raw ? JSON.parse(raw) : null
+  } catch {
+    return null
+  }
+}
+
+export function setHomeItemOrder(ids: string[]): void {
+  localStorage.setItem(HOME_ORDER_KEY, JSON.stringify(ids))
+}
