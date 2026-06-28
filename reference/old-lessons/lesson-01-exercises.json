@@ -1,9 +1,0 @@
-{
-  "lessonId": 1,
-  "exercises": [
-    { "type": "choice", "id": "ex-1-1", "stem": "下列变化中，属于化学变化的是（  ）", "options": [{ "label": "A", "text": "水结成冰" }, { "label": "B", "text": "汽油挥发" }, { "label": "C", "text": "食物腐烂" }, { "label": "D", "text": "胆矾研碎" }], "answer": "C", "analysis": "食物腐烂有新物质生成，属于化学变化。水结冰、汽油挥发、胆矾研碎都没有新物质生成。", "source": "2024广州中考" },
-    { "type": "true_false", "id": "ex-1-2", "stem": "电灯发光发热的过程属于化学变化。", "answer": false, "analysis": "电灯发光发热是电能转化为光能和热能，灯丝本身没有变成新物质，属于物理变化。" },
-    { "type": "fill", "id": "ex-1-3", "segments": ["化学变化与物理变化的本质区别是", "___1___", "。铁生锈属于", "___2___", "变化。"], "blanks": [{ "index": 1, "answer": "是否有新物质生成" }, { "index": 2, "answer": "化学" }], "analysis": "化学变化的本质是有新物质生成。铁生锈生成了铁锈（Fe₂O₃），是化学变化。" },
-    { "type": "short_answer", "id": "ex-1-4", "question": "请列举2个生活中的化学变化实例和2个物理变化实例。", "referenceAnswer": "化学变化：食物腐烂、铁钉生锈。物理变化：冰融化成水、酒精挥发。", "scoringPoints": ["正确举出化学变化实例", "正确举出物理变化实例"] }
-  ]
-}

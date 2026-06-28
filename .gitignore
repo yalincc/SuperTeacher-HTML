@@ -3,6 +3,7 @@ node_modules/
 
 # Build output
 dist/
+*.zip
 
 # IDE
 .vscode/
@@ -22,9 +23,13 @@ Thumbs.db
 # Logs
 *.log
 
-# Generated data (regenerated from MD)
-# src/data/lessons/
-.vercel
+# Temporary scripts
+fix-*.cjs
+
+# Vercel
+.vercel/
+
+# AI agent directories
 /.agents
 /.qoder
 /.mimocode
