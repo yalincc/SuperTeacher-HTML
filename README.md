@@ -16,6 +16,51 @@
 - **响应式设计** — 手机、平板、电脑均可使用
 - **零后端部署** — 纯静态 SPA，GitHub Pages 托管
 
+## 模块化架构
+
+本项目采用**高度模块化**设计，扩展新课程或新功能非常简单：
+
+### 扩展新课程
+
+只需在 `src/data/courses/` 下新建目录，放入 JSON 文件，首页自动发现：
+
+```bash
+src/data/courses/
+└── your-subject/          # 新学科目录
+    ├── course.json         # 课程配置（名称、图标、学期分组）
+    ├── lesson-01.json      # 知识点文件
+    └── lesson-01-exercises.json  # 练习题文件
+```
+
+无需修改任何代码，`import.meta.glob` 自动扫描加载。
+
+### 扩展新题型
+
+练习引擎采用**注册表模式**（`ExerciseRegistry`），新增题型只需：
+
+1. 在 `src/types/index.ts` 定义题型接口
+2. 创建对应的 Exercise 组件
+3. 在注册表中注册
+
+### 扩展新内容块
+
+知识点渲染采用**内容块抽象**（`ContentBlock`），支持 6 种内置类型：
+
+| 类型 | 用途 |
+|------|------|
+| `paragraph` | 正文段落（支持 KaTeX） |
+| `table` | 对比表格 |
+| `callout` | 提示框（warning/tip/note/mnemonic） |
+| `equation` | 化学方程式/公式 |
+| `list` | 列表 |
+| `figure` | 数学图形（函数/几何/构造） |
+
+新增内容块类型只需添加 Block 组件 + 注册到 ContentRenderer。
+
+### 扩展新学科分组
+
+课程支持**学期分组**（`group` + `semester`），多学期学科自动在首页显示为分组卡片：
+
 ## 技术栈
 
 | 层级 | 技术 |
@@ -26,6 +71,22 @@
 | 公式 | KaTeX |
 | 路由 | React Router v7 |
 | 图标 | Lucide React |
+
+```json
+{
+  "id": "physics-8a",
+  "group": { "id": "physics", "name": "初中物理", "icon": "⚡" },
+  "semester": { "name": "八年级上", "order": 1 }
+}
+```
+
+同一 `group.id` 的课程自动归类，首页显示为：
+
+```
+⚡ 初中物理
+├── 人教版 · 4 个学期
+└── 22 课时
+```
 
 ## 课程结构
 
@@ -43,6 +104,23 @@ src/data/courses/
 ├── english-vocabulary/ 英语词汇（12课）
 └── english-exam/      英语考试（9课）
 ```
+
+## AI 课程生成
+
+项目内置 AI Skill 系统，可自动生成符合教材规范的课程 JSON：
+
+```bash
+# 使用 generate-lesson skill 生成课程
+# 输入：课号 + 课程标题
+# 输出：lesson-XX.json + lesson-XX-exercises.json
+```
+
+**课程 JSON 规范**：
+- 知识点：3-6 学习目标 + 2-4 知识分区 + 1-2 例题 + 小结
+- 练习题：4-6 道（选择 2-3 + 判断 1 + 填空 1 + 简答 0-1）
+- 内容块：paragraph / table / callout / equation / list / figure
+
+详细规范见 `docs/curriculum-format.md`。
 
 ## 本地开发
 
