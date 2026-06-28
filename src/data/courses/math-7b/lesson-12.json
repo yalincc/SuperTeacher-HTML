@@ -24,6 +24,30 @@
           "content": "如果一个图形沿一条直线折叠，直线两旁的部分能够**完全重合**，这个图形就叫做**轴对称图形**，这条直线叫做**对称轴**。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [1, 1] },
+              { "op": "point", "id": "B", "at": [2, 4] },
+              { "op": "point", "id": "C", "at": [1, 4] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "B", "to": "C" },
+              { "op": "segment", "from": "C", "to": "A" },
+              { "op": "point", "id": "D", "at": [5, 1] },
+              { "op": "point", "id": "E", "at": [4, 4] },
+              { "op": "point", "id": "F", "at": [5, 4] },
+              { "op": "segment", "from": "D", "to": "E" },
+              { "op": "segment", "from": "E", "to": "F" },
+              { "op": "segment", "from": "F", "to": "D" },
+              { "op": "point", "id": "M1", "at": [3, 0] },
+              { "op": "point", "id": "M2", "at": [3, 5.5] },
+              { "op": "segment", "from": "M1", "to": "M2", "style": "dashed", "color": "#9ca3af" },
+              { "op": "label", "at": [3.5, 5.5], "text": "对称轴" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "理解要点",

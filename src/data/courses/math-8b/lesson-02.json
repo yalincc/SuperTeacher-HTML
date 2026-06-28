@@ -39,6 +39,23 @@
           "content": "等腰三角形的两个底角相等，简称**等边对等角**。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [3, 5] },
+              { "op": "point", "id": "B", "at": [1, 1] },
+              { "op": "point", "id": "C", "at": [5, 1] },
+              { "op": "triangle", "points": ["A", "B", "C"], "labels": ["A", "B", "C"],
+                "ticks": { "ab": 1, "ac": 1 }
+              },
+              { "op": "label", "at": [1.8, 3.2], "text": "AB" },
+              { "op": "label", "at": [4.2, 3.2], "text": "AC" },
+              { "op": "label", "at": [3, 0.5], "text": "AB = AC" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "性质定理",

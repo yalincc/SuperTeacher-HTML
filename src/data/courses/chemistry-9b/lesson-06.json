@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": 6,
+    "slug": "lesson-06-溶液的浓度",
+    "title": "溶液的浓度",
+    "unit": "第九单元",
+    "week": 3,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解溶质质量分数的概念", "isKeyPoint": true },
+    { "text": "掌握溶质质量分数的计算公式", "isKeyPoint": true },
+    { "text": "能进行有关溶质质量分数的简单计算", "isKeyPoint": true },
+    { "text": "掌握溶液稀释的计算方法", "isKeyPoint": true },
+    { "text": "了解配制一定溶质质量分数溶液的步骤", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "溶质质量分数的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**溶质质量分数**是指溶质质量与溶液质量之比，通常用百分数表示。计算公式为：$$\\text{溶质质量分数} = \\frac{\\text{溶质质量}}{\\text{溶液质量}} \\times 100\\%$$ 其中：溶液质量 = 溶质质量 + 溶剂质量。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "溶质质量分数的分母是**溶液质量**（溶质+溶剂），不是溶剂质量。计算时要注意单位统一，都用克（g）。"
+        }
+      ]
+    },
+    {
+      "title": "溶质质量分数的计算",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "溶质质量分数的计算有三种常见类型：\n①已知溶质和溶剂质量，求溶质质量分数\n②已知溶质质量分数和溶液质量，求溶质或溶剂质量\n③已知溶质质量和溶质质量分数，求溶液质量"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "解题时先确定已知量和未知量，再选择合适的公式变形。记住：溶质质量 = 溶液质量 × 溶质质量分数；溶剂质量 = 溶液质量 - 溶质质量。"
+        }
+      ]
+    },
+    {
+      "title": "溶液的稀释",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "溶液稀释时，**溶质质量不变**。稀释公式为：$$m_1 \\times w_1 = m_2 \\times w_2$$ 其中 $m_1$、$w_1$ 为稀释前溶液的质量和溶质质量分数，$m_2$、$w_2$ 为稀释后溶液的质量和溶质质量分数。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "稀释前后溶质质量不变是解题关键。加入的水的质量 = 稀释后溶液质量 - 稀释前溶液质量。"
+        }
+      ]
+    },
+    {
+      "title": "配制一定溶质质量分数的溶液",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "计算：算出所需溶质质量和溶剂质量",
+            "称量：用天平称取溶质",
+            "量取：用量筒量取水",
+            "溶解：将溶质放入烧杯，加水溶解并搅拌"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "量取水时，若俯视读数会导致量取的水偏少，使溶质质量分数偏大；仰视读数会导致量取的水偏多，使溶质质量分数偏小。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：溶质质量分数的计算",
+      "problem": [
+        { "type": "paragraph", "content": "将 $10\\text{ g}$ 氯化钠完全溶解在 $90\\text{ g}$ 水中，求所得溶液的溶质质量分数。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "溶液质量 = 溶质质量 + 溶剂质量 = $10\\text{ g} + 90\\text{ g} = 100\\text{ g}$\n溶质质量分数 = $\\frac{10\\text{ g}}{100\\text{ g}} \\times 100\\% = 10\\%$" }
+      ],
+      "answer": "10%"
+    }
+  ],
+  "summary": [
+    {
+      "text": "溶液的浓度",
+      "children": [
+        {
+          "text": "溶质质量分数",
+          "children": [
+            { "text": "公式：$\\frac{\\text{溶质质量}}{\\text{溶液质量}} \\times 100\\%$" },
+            { "text": "溶液质量 = 溶质质量 + 溶剂质量" }
+          ]
+        },
+        {
+          "text": "溶液稀释",
+          "children": [
+            { "text": "稀释前后溶质质量不变" },
+            { "text": "$m_1 \\times w_1 = m_2 \\times w_2$" }
+          ]
+        },
+        {
+          "text": "配制步骤",
+          "children": [
+            { "text": "计算 → 称量 → 量取 → 溶解" }
+          ]
+        }
+      ]
+    }
+  ]
+}

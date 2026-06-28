@@ -28,6 +28,27 @@
           "content": "**判定1**：两组对边分别**平行**的四边形是平行四边形（定义法）\n**判定2**：两组对边分别**相等**的四边形是平行四边形\n**判定3**：一组对边**平行且相等**的四边形是平行四边形\n**判定4**：对角线**互相平分**的四边形是平行四边形\n**判定5**：两组对角分别**相等**的四边形是平行四边形"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [0.5, 1] },
+              { "op": "point", "id": "B", "at": [4.5, 1] },
+              { "op": "point", "id": "D", "at": [2, 5] },
+              { "op": "point_relative", "id": "C", "from": "D", "dx": 4, "dy": 0 },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "B", "to": "C" },
+              { "op": "segment", "from": "C", "to": "D" },
+              { "op": "segment", "from": "D", "to": "A" },
+              { "op": "label", "at": [0, 0.5], "text": "A" },
+              { "op": "label", "at": [5, 0.5], "text": "B" },
+              { "op": "label", "at": [6.5, 5.3], "text": "C" },
+              { "op": "label", "at": [1.5, 5.5], "text": "D" },
+              { "op": "label", "at": [2.5, 0.3], "text": "AB // CD, AB = CD" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "选择策略",

@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "id": 2,
+    "slug": "lesson-02-金属的化学性质",
+    "title": "金属的化学性质",
+    "unit": "第八单元",
+    "week": 1,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "掌握金属与氧气反应的规律", "isKeyPoint": true },
+    { "text": "理解金属与酸反应的条件和现象", "isKeyPoint": true },
+    { "text": "掌握金属与盐溶液反应的规律", "isKeyPoint": true },
+    { "text": "熟记金属活动性顺序表，能判断反应能否发生", "isKeyPoint": true },
+    { "text": "理解置换反应的概念和特点", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "金属与氧气的反应",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "大多数金属都能与氧气反应，但反应的难易程度和剧烈程度不同。**镁**在空气中就能燃烧，**铝**在常温下就能与氧气反应生成致密的氧化铝薄膜，**铁**在纯氧中才能燃烧。"
+        },
+        {
+          "type": "equation",
+          "latex": "2Mg + O_2 \\xrightarrow{点燃} 2MgO",
+          "display": true
+        },
+        {
+          "type": "equation",
+          "latex": "4Al + 3O_2 \\xrightarrow{常温} 2Al_2O_3",
+          "display": true
+        },
+        {
+          "type": "equation",
+          "latex": "3Fe + 2O_2 \\xrightarrow{点燃} Fe_3O_4",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "铁在氧气中燃烧生成 $Fe_3O_4$（四氧化三铁），不是 $Fe_2O_3$（氧化铁）。铁锈的主要成分才是 $Fe_2O_3$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "金属与氧气反应的难易程度可以判断金属活动性强弱：反应越容易，活动性越强。"
+        }
+      ]
+    },
+    {
+      "title": "金属与酸的反应",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在金属活动性顺序中，排在**氢前面**的金属能与稀盐酸或稀硫酸反应，生成氢气和盐。反应的剧烈程度反映金属的活动性强弱。"
+        },
+        {
+          "type": "equation",
+          "latex": "Fe + 2HCl \\rightarrow FeCl_2 + H_2\\uparrow",
+          "display": true
+        },
+        {
+          "type": "equation",
+          "latex": "Zn + H_2SO_4 \\rightarrow ZnSO_4 + H_2\\uparrow",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "铁与盐酸反应生成 $FeCl_2$（氯化亚铁），铁元素显+2价，不是+3价。铜（$Cu$）排在氢后面，不能与稀盐酸或稀硫酸反应。"
+        }
+      ]
+    },
+    {
+      "title": "金属与盐溶液的反应",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "在金属活动性顺序中，排在**前面**的金属能把排在**后面**的金属从其盐溶液中置换出来（钾、钙、钠除外，它们会先与水反应）。"
+        },
+        {
+          "type": "equation",
+          "latex": "Fe + CuSO_4 \\rightarrow FeSO_4 + Cu",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "铁与硫酸铜溶液反应是湿法炼铜的原理，古代就已用于冶炼铜。铁钉放入硫酸铜溶液中，铁钉表面会覆盖一层红色物质（铜），溶液由蓝色变为浅绿色。"
+        }
+      ]
+    },
+    {
+      "title": "金属活动性顺序",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "常见金属活动性顺序为：$K \\ Ca \\ Na \\ Mg \\ Al \\ Zn \\ Fe \\ Sn \\ Pb \\ (H) \\ Cu \\ Hg \\ Ag \\ Pt \\ Au$。排在氢前面的金属能与酸反应生成氢气；排在前面的金属能把排在后面的金属从其盐溶液中置换出来。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "钾钙钠镁铝，锌铁锡铅氢，铜汞银铂金。（谐音：嫁给那美女，身体细纤轻，统共一百斤）"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "钾、钙、钠三种金属非常活泼，不能用于置换盐溶液中的金属，因为它们会先与水剧烈反应。"
+        }
+      ]
+    },
+    {
+      "title": "置换反应",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**置换反应**是指一种单质与一种化合物反应，生成另一种单质和另一种化合物的反应。通式为：$A + BC \\rightarrow B + AC$。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "置换反应的特征是「单换单」——反应物和生成物中都有单质和化合物。金属与酸、金属与盐溶液的反应都属于置换反应。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断反应能否发生",
+      "problem": [
+        { "type": "paragraph", "content": "下列金属中，能与硫酸铜溶液发生反应的是（　）\nA. 铜\nB. 银\nC. 锌\nD. 金" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "根据金属活动性顺序，只有排在铜前面的金属才能置换出铜。铜排在铜的位置，不能置换自己；银和金排在铜后面，不能置换铜；锌排在铜前面，能置换出铜。反应方程式为 $Zn + CuSO_4 \\rightarrow ZnSO_4 + Cu$。" }
+      ],
+      "answer": "C",
+      "source": "改编自2022年山东中考"
+    }
+  ],
+  "summary": [
+    {
+      "text": "金属的化学性质",
+      "children": [
+        {
+          "text": "与氧气反应",
+          "children": [
+            { "text": "镁：$2Mg + O_2 \\xrightarrow{点燃} 2MgO$" },
+            { "text": "铁：$3Fe + 2O_2 \\xrightarrow{点燃} Fe_3O_4$" }
+          ]
+        },
+        {
+          "text": "与酸反应",
+          "children": [
+            { "text": "排在氢前面的金属能与稀酸反应" },
+            { "text": "生成盐和氢气" }
+          ]
+        },
+        {
+          "text": "与盐溶液反应",
+          "children": [
+            { "text": "排在前面的金属置换排在后面的金属" },
+            { "text": "钾钙钠除外（先与水反应）" }
+          ]
+        },
+        {
+          "text": "金属活动性顺序",
+          "children": [
+            { "text": "$K \\ Ca \\ Na \\ Mg \\ Al \\ Zn \\ Fe \\ Sn \\ Pb \\ (H) \\ Cu \\ Hg \\ Ag \\ Pt \\ Au$" }
+          ]
+        }
+      ]
+    }
+  ]
+}

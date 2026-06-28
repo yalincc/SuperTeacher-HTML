@@ -1,0 +1,56 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-02-1",
+      "stem": "将铁钉放入下列溶液中，溶液质量会增加的是（　）",
+      "options": [
+        { "label": "A", "text": "稀盐酸" },
+        { "label": "B", "text": "硫酸铜溶液" },
+        { "label": "C", "text": "硫酸锌溶液" },
+        { "label": "D", "text": "硝酸银溶液" }
+      ],
+      "answer": "A",
+      "analysis": "铁与稀盐酸反应：$Fe + 2HCl \\rightarrow FeCl_2 + H_2\\uparrow$，铁溶解（56份质量）进入溶液，放出氢气（2份质量），溶液质量增加54份。铁与硫酸铜反应：$Fe + CuSO_4 \\rightarrow FeSO_4 + Cu$，溶液质量减少（56→64）。铁不能与硫酸锌反应。铁与硝酸银反应溶液质量也减少。",
+      "source": "改编自2023年湖北中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-02-2",
+      "stem": "下列金属活动性由强到弱排列正确的是（　）",
+      "options": [
+        { "label": "A", "text": "Mg > Fe > Cu" },
+        { "label": "B", "text": "Fe > Mg > Cu" },
+        { "label": "C", "text": "Cu > Fe > Mg" },
+        { "label": "D", "text": "Mg > Cu > Fe" }
+      ],
+      "answer": "A",
+      "analysis": "根据金属活动性顺序 $K \\ Ca \\ Na \\ Mg \\ Al \\ Zn \\ Fe \\ Sn \\ Pb \\ (H) \\ Cu$，可知活动性：Mg > Fe > Cu。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-02-3",
+      "stem": "铜能与稀硫酸反应生成硫酸铜和氢气。",
+      "answer": false,
+      "analysis": "铜在金属活动性顺序中排在氢后面，不能与稀硫酸反应。只有排在氢前面的金属才能与稀酸反应生成氢气。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-02-4",
+      "segments": ["铁与硫酸铜溶液反应的化学方程式为", "___1___", "，该反应属于___2___反应类型。"],
+      "blanks": [
+        { "index": 1, "answer": "Fe + CuSO₄ → FeSO₄ + Cu", "alternatives": ["Fe+CuSO4=FeSO4+Cu", "Fe + CuSO4 → FeSO4 + Cu"] },
+        { "index": 2, "answer": "置换", "alternatives": [] }
+      ],
+      "analysis": "铁与硫酸铜反应：$Fe + CuSO_4 \\rightarrow FeSO_4 + Cu$，该反应是单质与化合物反应生成另一种单质和另一种化合物，属于置换反应。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-02-5",
+      "question": "为什么实验室制取氢气常用锌和稀硫酸，而不用镁和稀硫酸？",
+      "referenceAnswer": "镁的活动性太强，反应过于剧烈，不易控制；锌与稀硫酸反应速率适中，便于收集气体。",
+      "scoringPoints": ["镁反应过于剧烈", "不易控制", "锌反应速率适中"]
+    }
+  ]
+}

@@ -40,6 +40,30 @@
           "content": "**三角形中位线定理**：三角形的中位线**平行于第三边**，并且**等于第三边的一半**。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [1, 1] },
+              { "op": "point", "id": "B", "at": [5, 1] },
+              { "op": "point", "id": "C", "at": [3, 5] },
+              { "op": "triangle", "points": ["A", "B", "C"], "labels": ["A", "B", "C"] },
+              { "op": "midpoint", "id": "D", "of": ["A", "B"] },
+              { "op": "midpoint", "id": "E", "of": ["B", "C"] },
+              { "op": "midpoint", "id": "F", "of": ["A", "C"] },
+              { "op": "segment", "from": "D", "to": "E" },
+              { "op": "segment", "from": "E", "to": "F" },
+              { "op": "segment", "from": "F", "to": "D" },
+              { "op": "label", "at": [0.5, 0.5], "text": "A" },
+              { "op": "label", "at": [5.5, 0.5], "text": "B" },
+              { "op": "label", "at": [3, 5.5], "text": "C" },
+              { "op": "label", "at": [3, 0.5], "text": "D" },
+              { "op": "label", "at": [5.5, 3.2], "text": "E" },
+              { "op": "label", "at": [0.5, 3.2], "text": "F" }
+            ]
+          }
+        },
+        {
           "type": "paragraph",
           "content": "即：若 $D$、$E$ 分别是 $\\triangle ABC$ 的边 $AB$、$AC$ 的中点，则 $DE \\parallel BC$ 且 $DE = \\frac{1}{2}BC$。"
         },

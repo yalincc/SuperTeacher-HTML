@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "id": 9,
+    "slug": "lesson-09-生活中常见的盐",
+    "title": "生活中常见的盐",
+    "unit": "第十一单元",
+    "week": 5,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "了解常见盐的名称、化学式和用途", "isKeyPoint": false },
+    { "text": "掌握NaCl、Na₂CO₃、NaHCO₃、CaCO₃的性质和用途", "isKeyPoint": true },
+    { "text": "理解复分解反应的条件", "isKeyPoint": true },
+    { "text": "能判断复分解反应能否发生", "isKeyPoint": true },
+    { "text": "了解盐的化学性质", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "常见的盐",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "盐是由金属离子（或铵根离子）和酸根离子组成的化合物。常见的盐有：氯化钠（$NaCl$）、碳酸钠（$Na_2CO_3$，俗称纯碱或苏打）、碳酸氢钠（$NaHCO_3$，俗称小苏打）、碳酸钙（$CaCO_3$）等。"
+        },
+        {
+          "type": "table",
+          "headers": ["名称", "化学式", "俗称", "主要用途"],
+          "rows": [
+            ["氯化钠", "NaCl", "食盐", "调味、防腐、医疗"],
+            ["碳酸钠", "Na₂CO₃", "纯碱、苏打", "制玻璃、造纸、纺织"],
+            ["碳酸氢钠", "NaHCO₃", "小苏打", "发酵粉、治疗胃酸过多"],
+            ["碳酸钙", "CaCO₃", "石灰石、大理石主要成分", "建筑材料、补钙剂"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "碳酸钠（$Na_2CO_3$）虽然叫「纯碱」，但它属于**盐**类，不是碱。因为它是金属离子+酸根离子组成的。"
+        }
+      ]
+    },
+    {
+      "title": "盐的化学性质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "盐 + 金属 → 新盐 + 新金属（置换反应）",
+            "盐 + 酸 → 新盐 + 新酸（复分解反应）",
+            "盐 + 碱 → 新盐 + 新碱（复分解反应）",
+            "盐 + 盐 → 两种新盐（复分解反应）"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "判断盐的反应能否发生，要注意反应条件：金属与盐反应要求盐可溶且金属活动性强于盐中金属；复分解反应要求生成物中有沉淀、气体或水。"
+        }
+      ]
+    },
+    {
+      "title": "复分解反应的条件",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**复分解反应**是两种化合物互相交换成分生成另外两种化合物的反应。复分解反应发生的条件是：生成物中有**沉淀**、**气体**或**水**生成。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "生成沉淀：如 $BaSO_4$（白色沉淀，不溶于酸）、$AgCl$（白色沉淀，不溶于酸）",
+            "生成气体：如 $CO_2$、$NH_3$",
+            "生成水：如中和反应生成 $H_2O$"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$BaSO_4$ 和 $AgCl$ 是两种既不溶于水也不溶于酸的白色沉淀。检验 $SO_4^{2-}$ 用 $Ba(NO_3)_2$ 溶液和稀硝酸，检验 $Cl^-$ 用 $AgNO_3$ 溶液和稀硝酸。"
+        },
+        {
+          "type": "callout",
+          "variant": "mnemonic",
+          "title": "记忆口诀",
+          "content": "复分解反应条件：有沉淀、气体或水生成。「钾钠铵硝都可溶，盐酸盐不溶银亚汞，硫酸盐不溶钡和铅，碳酸盐只溶钾钠铵。」"
+        }
+      ]
+    },
+    {
+      "title": "Na₂CO₃和NaHCO₃的区别",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["性质", "Na₂CO₃（纯碱）", "NaHCO₃（小苏打）"],
+          "rows": [
+            ["与稀盐酸反应", "反应较慢", "反应剧烈，产生气泡快"],
+            ["热稳定性", "稳定，受热不易分解", "不稳定，受热分解"],
+            ["水溶性", "易溶", "可溶"]
+          ]
+        },
+        {
+          "type": "equation",
+          "latex": "2NaHCO_3 \\xrightarrow{\\Delta} Na_2CO_3 + H_2O + CO_2\\uparrow",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "鉴别 $Na_2CO_3$ 和 $NaHCO_3$：加稀盐酸，反应剧烈产生气泡快的是 $NaHCO_3$；或加热，能分解的是 $NaHCO_3$。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：复分解反应的判断",
+      "problem": [
+        { "type": "paragraph", "content": "下列反应能发生的是（　）\nA. $NaCl + KNO_3$\nB. $Na_2CO_3 + Ca(OH)_2$\nC. $BaSO_4 + NaNO_3$\nD. $Cu(OH)_2 + NaCl$" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "复分解反应需要生成沉淀、气体或水。A中交换成分后无沉淀、气体或水，不反应。B中生成 $CaCO_3$ 沉淀和 $NaOH$，能反应。C中 $BaSO_4$ 不溶，不能反应。D中 $Cu(OH)_2$ 不溶，不能反应。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    {
+      "text": "生活中常见的盐",
+      "children": [
+        {
+          "text": "常见盐",
+          "children": [
+            { "text": "NaCl：食盐，调味" },
+            { "text": "Na₂CO₃：纯碱，制玻璃" },
+            { "text": "NaHCO₃：小苏打，发酵粉" },
+            { "text": "CaCO₃：建筑材料" }
+          ]
+        },
+        {
+          "text": "复分解反应条件",
+          "children": [
+            { "text": "生成沉淀、气体或水" }
+          ]
+        },
+        {
+          "text": "盐的化学性质",
+          "children": [
+            { "text": "与金属、酸、碱、盐反应" }
+          ]
+        }
+      ]
+    }
+  ]
+}

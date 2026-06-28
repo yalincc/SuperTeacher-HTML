@@ -102,6 +102,34 @@
           "content": "例如，$x>2$ 在数轴上表示为：在 $2$ 处画空心圆圈，向右画线；$x≤2$ 在数轴上表示为：在 $2$ 处画实心圆点，向左画线。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "L", "at": [-1, 2] },
+              { "op": "point", "id": "R", "at": [7, 2] },
+              { "op": "segment", "from": "L", "to": "R" },
+              { "op": "point", "id": "O", "at": [0, 2] },
+              { "op": "point", "id": "P1", "at": [1, 2] },
+              { "op": "point", "id": "P2", "at": [2, 2] },
+              { "op": "point", "id": "P3", "at": [3, 2] },
+              { "op": "point", "id": "P4", "at": [4, 2] },
+              { "op": "point", "id": "P5", "at": [5, 2] },
+              { "op": "point", "id": "P6", "at": [6, 2] },
+              { "op": "label", "at": [0, 1.3], "text": "0" },
+              { "op": "label", "at": [1, 1.3], "text": "1" },
+              { "op": "label", "at": [2, 1.3], "text": "2" },
+              { "op": "label", "at": [3, 1.3], "text": "3" },
+              { "op": "label", "at": [4, 1.3], "text": "4" },
+              { "op": "label", "at": [5, 1.3], "text": "5" },
+              { "op": "label", "at": [6, 1.3], "text": "6" },
+              { "op": "point", "id": "V", "at": [2, 2], "style": "circle" },
+              { "op": "segment", "from": "V", "to": "P6", "color": "#2563eb" },
+              { "op": "label", "at": [4, 2.8], "text": "x > 2" }
+            ]
+          }
+        },
+        {
           "type": "paragraph",
           "content": "数轴表示可以直观地看出不等式的解集，也可以用来验证解集是否正确。"
         }

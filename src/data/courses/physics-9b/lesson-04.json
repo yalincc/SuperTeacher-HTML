@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "id": 4,
+    "slug": "lesson-04-信息的传递",
+    "title": "信息的传递",
+    "unit": "第二十一章 信息的传递",
+    "week": 4,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "了解电磁波的产生和传播", "isKeyPoint": true },
+    { "text": "掌握波速、波长和频率的关系 $c=\\lambda f$", "isKeyPoint": true },
+    { "text": "了解现代通信方式的特点", "isKeyPoint": false },
+    { "text": "了解光纤通信和卫星通信的基本原理", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "电磁波的产生和传播",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**电磁波**是由迅速变化的电流产生的。导体中有迅速变化的电流时，周围就会产生电磁波。" },
+        { "type": "paragraph", "content": "电磁波的传播不需要介质，可以在真空中传播。电磁波在真空中的传播速度等于光速：$c = 3 \\times 10^8\\text{ m/s}$。" },
+        { "type": "callout", "variant": "warning", "title": "易错提醒", "content": "声音的传播需要介质，不能在真空中传播；电磁波的传播不需要介质，可以在真空中传播。这是声音和电磁波的重要区别。" },
+        { "type": "paragraph", "content": "电磁波按频率从低到高排列：无线电波、红外线、可见光、紫外线、X射线、γ射线。它们都属于电磁波家族。" }
+      ]
+    },
+    {
+      "title": "波速、波长和频率",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**波速** $c$ 是波传播的速度，**波长** $\\lambda$ 是相邻两个波峰（或波谷）之间的距离，**频率** $f$ 是单位时间内波振动的次数。" },
+        { "type": "equation", "latex": "c = \\lambda f", "display": true },
+        { "type": "paragraph", "content": "电磁波在真空中的速度 $c = 3 \\times 10^8\\text{ m/s}$ 是定值。因此波长与频率成**反比**：频率越高，波长越短。" },
+        {
+          "type": "table",
+          "headers": ["电磁波类型", "频率范围", "主要应用"],
+          "rows": [
+            ["无线电波", "较低", "广播、电视、手机通信"],
+            ["微波", "较高", "微波炉、卫星通信"],
+            ["红外线", "更高", "遥控器、红外热成像"],
+            ["可见光", "更高", "照明、光纤通信"]
+          ]
+        },
+        { "type": "callout", "variant": "tip", "title": "解题技巧", "content": "已知电磁波的频率和波速，求波长：$\\lambda = \\frac{c}{f}$。已知波长和波速，求频率：$f = \\frac{c}{\\lambda}$。注意单位统一为米和赫兹。" }
+      ]
+    },
+    {
+      "title": "现代通信方式",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "**微波通信**：微波频率高、波长短，携带信息量大，但只能沿直线传播，需要建立微波中继站。" },
+        { "type": "paragraph", "content": "**卫星通信**：利用地球同步卫星作为中继站，实现全球通信。一颗同步卫星可覆盖地球表面约三分之一。" },
+        { "type": "paragraph", "content": "**光纤通信**：利用激光在光导纤维中传播来传递信息。光纤通信的优点是容量大、损耗小、抗干扰能力强。" },
+        { "type": "callout", "variant": "note", "title": "补充说明", "content": "光纤通信利用了光的**全反射**原理。激光在光纤内壁多次反射，几乎无损耗地传播很远的距离。" }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：电磁波计算",
+      "problem": [
+        { "type": "paragraph", "content": "某电磁波的频率为 $3 \\times 10^{10}\\text{ Hz}$，求该电磁波在真空中的波长。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "已知：$f = 3 \\times 10^{10}\\text{ Hz}$，$c = 3 \\times 10^8\\text{ m/s}$" },
+        { "type": "paragraph", "content": "由 $c = \\lambda f$ 得：$\\lambda = \\frac{c}{f} = \\frac{3 \\times 10^8\\text{ m/s}}{3 \\times 10^{10}\\text{ Hz}} = 0.01\\text{ m} = 1\\text{ cm}$" }
+      ],
+      "answer": "0.01 m（1 cm）"
+    },
+    {
+      "title": "例2：通信方式判断",
+      "problem": [
+        { "type": "paragraph", "content": "下列关于信息传递的说法中，正确的是（  ）" },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A. 声音可以在真空中传播",
+            "B. 电磁波在真空中的传播速度是 $3 \\times 10^8\\text{ m/s}$",
+            "C. 光纤通信利用的是超声波",
+            "D. 微波通信不需要中继站"
+          ]
+        }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "A 错误，声音需要介质。B 正确，电磁波在真空中速度等于光速。C 错误，光纤通信利用激光。D 错误，微波沿直线传播，需要中继站。" }
+      ],
+      "answer": "B"
+    }
+  ],
+  "summary": [
+    {
+      "text": "电磁波",
+      "children": [
+        { "text": "由迅速变化的电流产生" },
+        { "text": "传播不需要介质，可在真空中传播" },
+        { "text": "真空中速度：c = 3×10⁸ m/s" }
+      ]
+    },
+    {
+      "text": "波速公式",
+      "children": [
+        { "text": "c = λf（波速=波长×频率）" },
+        { "text": "波长与频率成反比" }
+      ]
+    },
+    {
+      "text": "现代通信",
+      "children": [
+        { "text": "微波通信：直线传播，需中继站" },
+        { "text": "卫星通信：覆盖面广，同步卫星" },
+        { "text": "光纤通信：容量大，利用全反射" }
+      ]
+    }
+  ]
+}

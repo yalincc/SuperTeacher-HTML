@@ -1,0 +1,131 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-10-1",
+      "stem": "一个物体浸没在水中受到的浮力为 $3\\text{ N}$，则该物体排开水的重力为（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1.5\\text{ N}$"
+        },
+        {
+          "label": "B",
+          "text": "$3\\text{ N}$"
+        },
+        {
+          "label": "C",
+          "text": "$6\\text{ N}$"
+        },
+        {
+          "label": "D",
+          "text": "无法确定"
+        }
+      ],
+      "answer": "B",
+      "analysis": "根据阿基米德原理，$F_{\\text{浮}} = G_{\\text{排}}$，所以 $G_{\\text{排}} = 3\\text{ N}$。",
+      "source": "2023北京中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-2",
+      "stem": "将一个鸡蛋放入浓盐水中，鸡蛋悬浮在盐水中。若向盐水中加水稀释，则鸡蛋将（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "继续悬浮"
+        },
+        {
+          "label": "B",
+          "text": "上浮至漂浮"
+        },
+        {
+          "label": "C",
+          "text": "下沉"
+        },
+        {
+          "label": "D",
+          "text": "无法判断"
+        }
+      ],
+      "answer": "C",
+      "analysis": "加水后盐水密度减小，$\\rho_{\\text{液}}$ 变小而 $\\rho_{\\text{物}}$ 不变，使 $\\rho_{\\text{物}} > \\rho_{\\text{液}}$，所以下沉。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-3",
+      "stem": "下列利用浮力工作的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "弹簧测力计"
+        },
+        {
+          "label": "B",
+          "text": "密度计"
+        },
+        {
+          "label": "C",
+          "text": "天平"
+        },
+        {
+          "label": "D",
+          "text": "压强计"
+        }
+      ],
+      "answer": "B",
+      "analysis": "密度计是利用漂浮条件（$F_{\\text{浮}} = G$）工作的。弹簧测力计利用弹力，天平利用杠杆平衡，压强计利用液体压强。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-4",
+      "stem": "浸没在液体中的物体受到的浮力大小与物体浸没的深度有关。",
+      "answer": false,
+      "analysis": "浸没后 $V_{\\text{排}}$ 不变，$\\rho_{\\text{液}}$ 不变，所以浮力不变，与深度无关。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-5",
+      "segments": [
+        "阿基米德原理公式为 $F_{\\text{浮}} = $",
+        "___1___",
+        "。浮力大小只与液体的",
+        "___2___",
+        "和物体排开液体的",
+        "___3___",
+        "有关。"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "ρ液gV排",
+          "alternatives": [
+            "G排",
+            "ρ液gV排"
+          ]
+        },
+        {
+          "index": 2,
+          "answer": "密度"
+        },
+        {
+          "index": 3,
+          "answer": "体积"
+        }
+      ],
+      "analysis": "阿基米德原理：$F_{\\text{浮}} = \\rho_{\\text{液}} g V_{\\text{排}} = G_{\\text{排}}$。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-10-6",
+      "question": "轮船从长江驶入大海后，是上浮一些还是下沉一些？请用浮力知识解释原因。",
+      "referenceAnswer": "轮船从长江驶入大海后会上浮一些。因为轮船始终漂浮，$F_{\\text{浮}} = G$ 不变。大海的密度大于江水密度，根据 $F_{\\text{浮}} = \\rho_{\\text{液}} g V_{\\text{排}}$，$\\rho_{\\text{液}}$ 增大时 $V_{\\text{排}}$ 减小，所以轮船上浮一些。",
+      "scoringPoints": [
+        "说明浮力不变（漂浮条件）",
+        "说明海水密度大于江水",
+        "得出V排减小的结论"
+      ]
+    }
+  ]
+}

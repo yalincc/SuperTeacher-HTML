@@ -23,6 +23,24 @@
           "content": "二次函数 $y = ax^2 + bx + c$（$a \\neq 0$）的图象是一条**抛物线**。抛物线是轴对称图形，其对称轴是一条垂直于 $x$ 轴的直线。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "function",
+            "xRange": [-4, 6],
+            "yRange": [-3, 8],
+            "grid": true,
+            "plots": [
+              { "expression": "-(x-2)^2+4", "label": "y=-(x-2)²+4", "color": "#2563eb" },
+              { "expression": "2", "label": "x=2 (对称轴)", "color": "#94a3b8", "style": "dashed" }
+            ],
+            "points": [
+              { "coord": [2, 4], "label": "(2,4) 顶点" },
+              { "coord": [0, 0], "label": "(0,0)" },
+              { "coord": [4, 0], "label": "(4,0)" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "画图步骤",

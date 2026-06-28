@@ -1,0 +1,80 @@
+{
+  "id": "physics-9a",
+  "order": 6,
+  "course": {
+    "name": "九年级上册",
+    "icon": "⚡",
+    "subtitle": "人教版九年级上册",
+    "color": "#1d4ed8"
+  },
+  "group": {
+    "id": "physics",
+    "name": "初中物理",
+    "icon": "⚡",
+    "color": "#3b82f6",
+    "order": 1,
+    "subtitle": "人教版 · 4 个学期"
+  },
+  "semester": {
+    "name": "九年级上",
+    "order": 3
+  },
+  "schedule": {
+    "weeks": 5,
+    "weekLabels": [
+      "第一周",
+      "第二周",
+      "第三周",
+      "第四周",
+      "第五周"
+    ],
+    "weekTitles": [
+      "内能",
+      "内能的利用",
+      "电流和电路",
+      "电压 电阻",
+      "欧姆定律"
+    ]
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "title": "内能",
+      "unit": "第十三章 内能",
+      "week": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "title": "内能的利用",
+      "unit": "第十四章 内能的利用",
+      "week": 2,
+      "day": 1
+    },
+    {
+      "id": 3,
+      "title": "电流和电路",
+      "unit": "第十五章 电流和电路",
+      "week": 3,
+      "day": 1
+    },
+    {
+      "id": 4,
+      "title": "电压 电阻",
+      "unit": "第十六章 电压 电阻",
+      "week": 4,
+      "day": 1
+    },
+    {
+      "id": 5,
+      "title": "欧姆定律",
+      "unit": "第十七章 欧姆定律",
+      "week": 5,
+      "day": 1
+    }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  }
+}

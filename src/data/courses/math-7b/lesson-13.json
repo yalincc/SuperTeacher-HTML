@@ -23,6 +23,23 @@
           "content": "等腰三角形是轴对称图形，其对称轴是**底边的垂直平分线**（也就是顶角的平分线、底边上的中线和底边上的高所在的直线）。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [3, 5] },
+              { "op": "point", "id": "B", "at": [1, 1] },
+              { "op": "point", "id": "C", "at": [5, 1] },
+              { "op": "triangle", "points": ["A", "B", "C"], "labels": ["A", "B", "C"],
+                "ticks": { "ab": 1, "ac": 1 }
+              },
+              { "op": "point", "id": "M", "at": [3, 1] },
+              { "op": "segment", "from": "A", "to": "M", "style": "dashed", "color": "#9ca3af" },
+              { "op": "label", "at": [3.5, 1], "text": "对称轴" }
+            ]
+          }
+        },
+        {
           "type": "paragraph",
           "content": "**性质**：等腰三角形的两个底角相等，即「**等边对等角**」。"
         },

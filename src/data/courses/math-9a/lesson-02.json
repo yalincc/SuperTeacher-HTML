@@ -52,6 +52,29 @@
           "variant": "warning",
           "title": "易错提醒",
           "content": "矩形的对角线**不一定垂直**，只有正方形的对角线才互相垂直。"
+        },
+        {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [0.5, 5] },
+              { "op": "point", "id": "B", "at": [5.5, 5] },
+              { "op": "point", "id": "C", "at": [5.5, 1] },
+              { "op": "point", "id": "D", "at": [0.5, 1] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "B", "to": "C" },
+              { "op": "segment", "from": "C", "to": "D" },
+              { "op": "segment", "from": "D", "to": "A" },
+              { "op": "segment", "from": "A", "to": "C", "style": "dashed" },
+              { "op": "segment", "from": "B", "to": "D", "style": "dashed" },
+              { "op": "angle_mark", "vertex": "A", "p1": "B", "p2": "D", "right": true },
+              { "op": "label", "at": [0, 5.3], "text": "A" },
+              { "op": "label", "at": [6, 5.3], "text": "B" },
+              { "op": "label", "at": [6, 0.7], "text": "C" },
+              { "op": "label", "at": [0, 0.7], "text": "D" }
+            ]
+          }
         }
       ]
     },

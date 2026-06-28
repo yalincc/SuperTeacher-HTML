@@ -48,6 +48,21 @@
           "variant": "tip",
           "title": "三种形式的联系",
           "content": "当 $b = 0$，$c = 0$ 时，$y = ax^2$ 是最简单的二次函数形式。"
+        },
+        {
+          "type": "figure",
+          "figure": {
+            "type": "function",
+            "xRange": [-3, 5],
+            "yRange": [-2, 6],
+            "grid": true,
+            "plots": [
+              { "expression": "x^2", "label": "y=x²", "color": "#2563eb" }
+            ],
+            "points": [
+              { "coord": [0, 0], "label": "(0,0) 顶点" }
+            ]
+          }
         }
       ]
     },

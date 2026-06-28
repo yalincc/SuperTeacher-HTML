@@ -93,6 +93,25 @@
           "content": "互为相反数的两个数在数轴上关于原点对称，且到原点的距离相等。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "L", "at": [-4, 2] },
+              { "op": "point", "id": "R", "at": [4, 2] },
+              { "op": "segment", "from": "L", "to": "R" },
+              { "op": "point", "id": "Z", "at": [0, 2], "style": "circle" },
+              { "op": "label", "at": [0, 1.3], "text": "0" },
+              { "op": "label", "at": [1, 1.3], "text": "1" },
+              { "op": "label", "at": [2, 1.3], "text": "2" },
+              { "op": "label", "at": [3, 1.3], "text": "3" },
+              { "op": "label", "at": [-1, 1.3], "text": "-1" },
+              { "op": "label", "at": [-2, 1.3], "text": "-2" },
+              { "op": "label", "at": [-3, 1.3], "text": "-3" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "warning",
           "title": "易错提醒",

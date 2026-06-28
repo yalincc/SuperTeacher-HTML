@@ -1,0 +1,56 @@
+{
+  "lessonId": 10,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-10-1",
+      "stem": "下列物质属于复合肥的是（　）",
+      "options": [
+        { "label": "A", "text": "$CO(NH_2)_2$（尿素）" },
+        { "label": "B", "text": "$KCl$（氯化钾）" },
+        { "label": "C", "text": "$KNO_3$（硝酸钾）" },
+        { "label": "D", "text": "$NH_4HCO_3$（碳酸氢铵）" }
+      ],
+      "answer": "C",
+      "analysis": "复合肥是含有两种或以上营养元素（N、P、K）的化肥。$KNO_3$ 含有K和N两种营养元素，是复合肥。尿素只含N，KCl只含K，碳酸氢铵只含N。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-10-2",
+      "stem": "小麦生长过程中出现了植株矮小、叶片发黄的症状，应该施用的化肥是（　）",
+      "options": [
+        { "label": "A", "text": "磷肥" },
+        { "label": "B", "text": "钾肥" },
+        { "label": "C", "text": "氮肥" },
+        { "label": "D", "text": "复合肥" }
+      ],
+      "answer": "C",
+      "analysis": "植株矮小、叶片发黄是缺氮的典型症状。氮肥能促进植物茎叶生长，使叶色浓绿。应施用氮肥。",
+      "source": "改编自2022年吉林中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-10-3",
+      "stem": "铵态氮肥可以与熟石灰混合使用以提高肥效。",
+      "answer": false,
+      "analysis": "铵态氮肥（含 $NH_4^+$）不能与碱性物质（如熟石灰）混合使用，因为会发生反应释放氨气（$NH_3$），降低肥效。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-10-4",
+      "segments": ["鉴别化肥的简易步骤为：一看（___1___）、二溶（水溶性）、三磨（加___2___研磨闻气味）。"],
+      "blanks": [
+        { "index": 1, "answer": "外观", "alternatives": ["颜色"] },
+        { "index": 2, "answer": "熟石灰", "alternatives": ["Ca(OH)₂", "氢氧化钙", "消石灰"] }
+      ],
+      "analysis": "化肥鉴别三步法：一看外观（氮钾肥白色晶体，磷肥灰白粉末）、二溶于水（氮钾肥易溶，磷肥难溶）、三加熟石灰研磨（铵态氮肥产生氨气）。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-10-5",
+      "question": "为什么铵态氮肥不能与碱性物质混合使用？用化学方程式说明原因。",
+      "referenceAnswer": "铵态氮肥中的 $NH_4^+$ 与碱性物质中的 $OH^-$ 反应生成 $NH_3$ 和 $H_2O$，$NH_3$ 逸出导致氮元素损失，降低肥效。例如：$NH_4HCO_3 + Ca(OH)_2 \\rightarrow CaCO_3 + NH_3\\uparrow + 2H_2O$。",
+      "scoringPoints": ["铵根离子与氢氧根离子反应", "生成氨气逸出", "氮元素损失", "正确化学方程式"]
+    }
+  ]
+}

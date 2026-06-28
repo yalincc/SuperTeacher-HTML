@@ -85,6 +85,28 @@
           "variant": "tip",
           "title": "比例变形",
           "content": "比例 $\\frac{a}{b} = \\frac{c}{d}$ 可以变形为：$\\frac{b}{a} = \\frac{d}{c}$、$\\frac{a}{c} = \\frac{b}{d}$、$\\frac{d}{b} = \\frac{c}{a}$ 等。"
+        },
+        {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [1, 1] },
+              { "op": "point", "id": "B", "at": [5, 1] },
+              { "op": "point", "id": "C", "at": [3, 4] },
+              { "op": "triangle", "points": ["A", "B", "C"], "labels": ["A", "B", "C"] },
+              { "op": "label", "at": [3, 0.5], "text": "a" },
+              { "op": "label", "at": [5.3, 2.5], "text": "b" },
+              { "op": "label", "at": [0.7, 2.5], "text": "c" },
+              { "op": "point", "id": "D", "at": [2, 1] },
+              { "op": "point", "id": "E", "at": [4, 1] },
+              { "op": "point", "id": "F", "at": [3, 2.5] },
+              { "op": "triangle", "points": ["D", "E", "F"], "labels": ["D", "E", "F"],
+                "style": { "fill": "#dbeafe", "fillOpacity": 0.3 }
+              },
+              { "op": "label", "at": [3, 3.3], "text": "a/2 = b/2 = c/2" }
+            ]
+          }
         }
       ]
     },

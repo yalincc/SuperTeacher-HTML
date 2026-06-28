@@ -1,0 +1,49 @@
+{
+  "lessonId": 2,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-2-1",
+      "stem": "下列关于热机的说法中，正确的是",
+      "options": [
+        { "label": "A", "text": "热机是将机械能转化为内能的机器" },
+        { "label": "B", "text": "汽油机的压缩冲程将内能转化为机械能" },
+        { "label": "C", "text": "热机效率可以达到 $100\\\\%$" },
+        { "label": "D", "text": "内燃机的做功冲程将内能转化为机械能" }
+      ],
+      "answer": "D",
+      "analysis": "热机是将内能转化为机械能的机器，A错误；压缩冲程将机械能转化为内能，B错误；热机效率总小于 $100\\\\%$，C错误；做功冲程将内能转化为机械能，D正确。",
+      "source": "2023年天津中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-2-2",
+      "stem": "已知汽油的热值为 $4.6\\\\times10^7\\\\text{ J/kg}$，完全燃烧 $1\\\\text{ kg}$ 汽油放出的热量相当于完全燃烧多少千克木柴放出的热量？[木柴的热值 $q=1.2\\\\times10^7\\\\text{ J/kg}$]",
+      "options": [
+        { "label": "A", "text": "$0.26\\\\text{ kg}$" },
+        { "label": "B", "text": "$0.38\\\\text{ kg}$" },
+        { "label": "C", "text": "$3.83\\\\text{ kg}$" },
+        { "label": "D", "text": "$2.6\\\\text{ kg}$" }
+      ],
+      "answer": "C",
+      "analysis": "汽油完全燃烧放出热量 $Q=mq=1\\\\text{ kg}\\\\times4.6\\\\times10^7\\\\text{ J/kg}=4.6\\\\times10^7\\\\text{ J}$。设木柴质量为 $m'$，则 $m'=Q/q'=4.6\\\\times10^7\\\\text{ J}/(1.2\\\\times10^7\\\\text{ J/kg})\\\\approx3.83\\\\text{ kg}$。",
+      "source": "2022年河北中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-2-3",
+      "stem": "燃料的热值与燃料的质量和燃烧程度有关。",
+      "answer": false,
+      "analysis": "热值是燃料的一种特性，只与燃料的种类有关，与燃料的质量、燃烧程度无关。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-2-4",
+      "segments": ["某汽油机的效率为 $30\\\\%$，完全燃烧 $10\\\\text{ kg}$ 汽油，对外做的有用功是 ___1___。[汽油的热值 $q=4.6\\\\times10^7\\\\text{ J/kg}$]"],
+      "blanks": [
+        { "index": 1, "answer": "$1.38\\\\times10^8\\\\text{ J}$", "alternatives": ["138000000 J", "$138000000\\\\text{ J}$"] }
+      ],
+      "analysis": "汽油完全燃烧放出热量 $Q=mq=10\\\\text{ kg}\\\\times4.6\\\\times10^7\\\\text{ J/kg}=4.6\\\\times10^8\\\\text{ J}$。有用功 $W=\\\\eta Q=30\\\\%\\\\times4.6\\\\times10^8\\\\text{ J}=1.38\\\\times10^8\\\\text{ J}$。"
+    }
+  ]
+}

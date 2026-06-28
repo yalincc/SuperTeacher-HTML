@@ -1,6 +1,6 @@
 {
   "id": "math-7a",
-  "order": 10,
+  "order": 1,
   "course": {
     "name": "七年级上册",
     "icon": "📐",
@@ -12,7 +12,9 @@
     "name": "初中数学",
     "icon": "📐",
     "color": "#10b981",
-    "order": 2
+    "order": 1,
+    "unit": "学期",
+    "subtitle": "北师大版，6个学期"
   },
   "semester": {
     "name": "七年级上",

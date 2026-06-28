@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "id": 8,
+    "slug": "lesson-08-酸和碱的中和反应",
+    "title": "酸和碱的中和反应",
+    "unit": "第十单元",
+    "week": 4,
+    "day": 2
+  },
+  "objectives": [
+    { "text": "理解中和反应的概念和实质", "isKeyPoint": true },
+    { "text": "掌握pH的概念和测定方法", "isKeyPoint": true },
+    { "text": "了解中和反应在生活和生产中的应用", "isKeyPoint": false },
+    { "text": "能用pH判断溶液的酸碱性强弱", "isKeyPoint": true },
+    { "text": "能用化学方程式表示中和反应", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "中和反应的概念和实质",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**中和反应**是指酸与碱作用生成盐和水的反应。中和反应的**实质**是酸中的氢离子（$H^+$）与碱中的氢氧根离子（$OH^-$）结合生成水分子（$H_2O$）。"
+        },
+        {
+          "type": "equation",
+          "latex": "HCl + NaOH \\rightarrow NaCl + H_2O",
+          "display": true
+        },
+        {
+          "type": "equation",
+          "latex": "H_2SO_4 + 2NaOH \\rightarrow Na_2SO_4 + 2H_2O",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "中和反应一定是酸和碱之间的反应，生成物一定是盐和水。但生成盐和水的反应不一定是中和反应（如金属氧化物与酸反应也生成盐和水）。"
+        }
+      ]
+    },
+    {
+      "title": "pH与溶液酸碱性",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**pH**是表示溶液酸碱度的数值，范围通常在 $0 \\sim 14$ 之间。pH < 7 为酸性（越小酸性越强），pH = 7 为中性，pH > 7 为碱性（越大碱性越强）。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "pH试纸的使用方法：将一小片pH试纸放在玻璃片上，用玻璃棒蘸取待测液滴在试纸上，将显示的颜色与标准比色卡对照。不能直接将试纸浸入溶液中，也不能先用水润湿试纸。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "pH试纸不能用水润湿，否则会稀释待测液，导致测量结果不准确。测酸性溶液时pH偏大，测碱性溶液时pH偏小。"
+        }
+      ]
+    },
+    {
+      "title": "中和反应的应用",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "改良酸性土壤：用熟石灰 $Ca(OH)_2$ 中和酸性土壤",
+            "处理工业废水：用碱中和酸性废水，或用酸中和碱性废水",
+            "医药应用：用含 $Al(OH)_3$ 的药物治疗胃酸过多",
+            "日常生活：用肥皂（碱性）清洗油污"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "胃酸的主要成分是盐酸，$Al(OH)_3 + 3HCl \\rightarrow AlCl_3 + 3H_2O$，中和过多的胃酸。不能用NaOH，因为NaOH腐蚀性太强。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：中和反应的计算",
+      "problem": [
+        { "type": "paragraph", "content": "向含有 $4\\text{ g}$ $NaOH$ 的溶液中加入溶质质量分数为 $9.8\\%$ 的稀硫酸，恰好完全反应，求需要稀硫酸的质量。" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "设需要稀硫酸的质量为 $x$。\n$2NaOH + H_2SO_4 \\rightarrow Na_2SO_4 + 2H_2O$\n$80$　　　　　$98$\n$4\\text{ g}$　　　$9.8\\% \\cdot x$\n$\\frac{80}{98} = \\frac{4\\text{ g}}{9.8\\% \\cdot x}$\n$x = \\frac{4 \\times 98}{80 \\times 0.098} = 50\\text{ g}$" }
+      ],
+      "answer": "50g"
+    }
+  ],
+  "summary": [
+    {
+      "text": "酸和碱的中和反应",
+      "children": [
+        {
+          "text": "中和反应",
+          "children": [
+            { "text": "酸 + 碱 → 盐 + 水" },
+            { "text": "实质：$H^+ + OH^- \\rightarrow H_2O$" }
+          ]
+        },
+        {
+          "text": "pH",
+          "children": [
+            { "text": "pH < 7：酸性" },
+            { "text": "pH = 7：中性" },
+            { "text": "pH > 7：碱性" }
+          ]
+        },
+        {
+          "text": "应用",
+          "children": [
+            { "text": "改良酸性土壤" },
+            { "text": "处理工业废水" },
+            { "text": "医药（治疗胃酸过多）" }
+          ]
+        }
+      ]
+    }
+  ]
+}

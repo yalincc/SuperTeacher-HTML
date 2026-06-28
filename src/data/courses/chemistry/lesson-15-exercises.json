@@ -1,9 +1,0 @@
-{
-  "lessonId": 15,
-  "exercises": [
-    { "type": "choice", "id": "ex-15-1", "stem": "检验CO₂的常用方法是（  ）", "options": [{ "label": "A", "text": "通入石蕊试液" }, { "label": "B", "text": "通入澄清石灰水" }, { "label": "C", "text": "点燃" }, { "label": "D", "text": "闻气味" }], "answer": "B", "analysis": "CO₂使澄清石灰水变浑浊是特征反应。" },
-    { "type": "choice", "id": "ex-15-2", "stem": "下列关于CO和CO₂的说法正确的是（  ）", "options": [{ "label": "A", "text": "都有毒" }, { "label": "B", "text": "都能使石灰水变浑浊" }, { "label": "C", "text": "CO有还原性，CO₂没有" }, { "label": "D", "text": "都是气体" }], "answer": "C", "analysis": "CO有毒可燃有还原性，CO₂无毒不可燃。只有CO₂能使石灰水变浑浊。" },
-    { "type": "true_false", "id": "ex-15-3", "stem": "CO和CO₂的化学性质相同。", "answer": false, "analysis": "CO有毒可燃有还原性，CO₂无毒不可燃，化学性质不同。" },
-    { "type": "fill", "id": "ex-15-4", "segments": ["CO有剧毒，能与血液中的", "___1___", "结合使人中毒。CO₂能使澄清石灰水变", "___2___", "。"], "blanks": [{ "index": 1, "answer": "血红蛋白" }, { "index": 2, "answer": "浑浊" }], "analysis": "CO与血红蛋白结合导致中毒。CO₂与Ca(OH)₂反应生成CaCO₃沉淀。" }
-  ]
-}

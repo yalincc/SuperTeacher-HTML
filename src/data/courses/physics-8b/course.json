@@ -1,0 +1,89 @@
+{
+  "id": "physics-8b",
+  "order": 5,
+  "course": {
+    "name": "八年级下册",
+    "icon": "⚡",
+    "subtitle": "人教版八年级下册",
+    "color": "#2563eb"
+  },
+  "group": {
+    "id": "physics",
+    "name": "初中物理",
+    "icon": "⚡",
+    "color": "#3b82f6",
+    "order": 1,
+    "subtitle": "人教版 · 4 个学期"
+  },
+  "semester": {
+    "name": "八年级下",
+    "order": 2
+  },
+  "schedule": {
+    "weeks": 6,
+    "weekLabels": [
+      "第一周",
+      "第二周",
+      "第三周",
+      "第四周",
+      "第五周",
+      "第六周"
+    ],
+    "weekTitles": [
+      "力",
+      "运动和力",
+      "压强",
+      "浮力",
+      "功和机械能",
+      "简单机械"
+    ]
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "title": "力",
+      "unit": "第七章 力",
+      "week": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "title": "运动和力",
+      "unit": "第八章 运动和力",
+      "week": 2,
+      "day": 1
+    },
+    {
+      "id": 3,
+      "title": "压强",
+      "unit": "第九章 压强",
+      "week": 3,
+      "day": 1
+    },
+    {
+      "id": 4,
+      "title": "浮力",
+      "unit": "第十章 浮力",
+      "week": 4,
+      "day": 1
+    },
+    {
+      "id": 5,
+      "title": "功和机械能",
+      "unit": "第十一章 功和机械能",
+      "week": 5,
+      "day": 1
+    },
+    {
+      "id": 6,
+      "title": "简单机械",
+      "unit": "第十二章 简单机械",
+      "week": 6,
+      "day": 1
+    }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  }
+}

@@ -69,6 +69,22 @@
           ]
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "function",
+            "xRange": [-3, 5],
+            "yRange": [-2, 6],
+            "grid": true,
+            "plots": [
+              { "expression": "2*x+1", "label": "y=2x+1", "color": "#2563eb" }
+            ],
+            "points": [
+              { "coord": [0, 1], "label": "(0,1)" },
+              { "coord": [2, 5], "label": "(2,5)" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "note",
           "title": "方法选择",

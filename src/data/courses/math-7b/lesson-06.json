@@ -24,6 +24,27 @@
           "content": "**性质一**：两直线平行，同位角相等。即若 $a \\parallel b$，则 $\\angle 1 = \\angle 2$（同位角）。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [0, 2] },
+              { "op": "point", "id": "B", "at": [6, 2] },
+              { "op": "point", "id": "C", "at": [0, 5] },
+              { "op": "point", "id": "D", "at": [6, 5] },
+              { "op": "point", "id": "E", "at": [2, 0] },
+              { "op": "point", "id": "F", "at": [4, 7] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "C", "to": "D" },
+              { "op": "segment", "from": "E", "to": "F" },
+              { "op": "label", "at": [0.3, 1.5], "text": "a" },
+              { "op": "label", "at": [0.3, 5.5], "text": "b" },
+              { "op": "label", "at": [4.5, 6.5], "text": "l" },
+              { "op": "label", "at": [3, 3.5], "text": "a // b" }
+            ]
+          }
+        },
+        {
           "type": "paragraph",
           "content": "**性质二**：两直线平行，内错角相等。即若 $a \\parallel b$，则 $\\angle 1 = \\angle 2$（内错角）。"
         },

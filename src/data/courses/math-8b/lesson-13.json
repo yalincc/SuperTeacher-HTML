@@ -48,6 +48,28 @@
           "content": "**性质3**：平行四边形的**对角线互相平分**。\n即对角线 $AC$ 和 $BD$ 的交点 $O$ 是两条对角线的中点：$OA = OC$，$OB = OD$。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [0, 0] },
+              { "op": "point", "id": "B", "at": [4, 0] },
+              { "op": "point", "id": "D", "at": [1, 3] },
+              { "op": "point_relative", "id": "C", "from": "D", "dx": 4, "dy": 0 },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "B", "to": "C" },
+              { "op": "segment", "from": "C", "to": "D" },
+              { "op": "segment", "from": "D", "to": "A" },
+              { "op": "segment", "from": "A", "to": "C", "style": "dashed" },
+              { "op": "segment", "from": "B", "to": "D", "style": "dashed" },
+              { "op": "label", "at": [0, -0.5], "text": "A" },
+              { "op": "label", "at": [4, -0.5], "text": "B" },
+              { "op": "label", "at": [5, 3], "text": "C" },
+              { "op": "label", "at": [1, 3.5], "text": "D" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "note",
           "title": "性质的记忆",

@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "id": 5,
+    "slug": "lesson-05-欧姆定律",
+    "title": "欧姆定律",
+    "unit": "第十七章 欧姆定律",
+    "week": 5,
+    "day": 1
+  },
+  "objectives": [
+    {
+      "text": "通过实验探究电流与电压、电阻的关系",
+      "isKeyPoint": false
+    },
+    {
+      "text": "理解欧姆定律的内容和公式",
+      "isKeyPoint": true
+    },
+    {
+      "text": "能运用欧姆定律进行简单计算",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解伏安法测电阻的原理和电路",
+      "isKeyPoint": true
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "探究电流与电压、电阻的关系",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "通过实验探究，在**电阻一定**时，导体中的电流与导体两端的电压成**正比**；在**电压一定**时，导体中的电流与导体的电阻成**反比**。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "控制变量法",
+          "content": "探究电流与电压关系时，保持电阻不变；探究电流与电阻关系时，保持电压不变。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "探究内容",
+            "控制变量",
+            "改变量",
+            "测量量"
+          ],
+          "rows": [
+            [
+              "电流与电压的关系",
+              "电阻不变",
+              "电压",
+              "电流"
+            ],
+            [
+              "电流与电阻的关系",
+              "电压不变",
+              "电阻",
+              "电流"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "欧姆定律",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**欧姆定律**：导体中的电流，跟导体两端的电压成正比，跟导体的电阻成反比。"
+        },
+        {
+          "type": "equation",
+          "latex": "I = \\frac{U}{R}",
+          "display": true
+        },
+        {
+          "type": "paragraph",
+          "content": "其中 $I$ 表示电流（单位：安培 A），$U$ 表示电压（单位：伏特 V），$R$ 表示电阻（单位：欧姆 $\\Omega$）。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "欧姆定律的适用条件",
+          "content": "欧姆定律适用于**纯电阻电路**（电能全部转化为内能的电路），不适用于电动机等非纯电阻电路。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "由 $I=U/R$ 可变形为 $U=IR$ 或 $R=U/I$",
+            "电阻 $R$ 是导体本身的性质，与 $U$、$I$ 无关"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "伏安法测电阻",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**伏安法测电阻**的原理：根据欧姆定律 $R=U/I$，用电压表测出电阻两端的电压 $U$，用电流表测出通过电阻的电流 $I$，即可计算出电阻 $R$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "实验电路：电源、开关、滑动变阻器、待测电阻、电流表串联，电压表与待测电阻并联。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "滑动变阻器的作用",
+          "content": "1. 保护电路；2. 改变待测电阻两端的电压和通过的电流，多次测量求平均值减小误差。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "多次测量求平均值可以减小误差",
+            "实验中滑动变阻器应调到最大阻值处"
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "欧姆定律计算",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "一个电阻 $R=10\\Omega$，接在电压 $U=6\\text{ V}$ 的电源上，通过电阻的电流是多少？"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "已知：$R=10\\Omega$，$U=6\\text{ V}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "根据欧姆定律 $I=U/R$：$I=6\\text{ V}/10\\Omega=0.6\\text{ A}$"
+        }
+      ],
+      "answer": "$0.6\\text{ A}$",
+      "source": "人教版九年级物理教材例题"
+    }
+  ],
+  "summary": [
+    {
+      "text": "欧姆定律",
+      "children": [
+        {
+          "text": "探究实验",
+          "children": [
+            {
+              "text": "电流与电压成正比（电阻一定）"
+            },
+            {
+              "text": "电流与电阻成反比（电压一定）"
+            }
+          ]
+        },
+        {
+          "text": "欧姆定律",
+          "children": [
+            {
+              "text": "公式：$I=U/R$"
+            },
+            {
+              "text": "适用：纯电阻电路"
+            }
+          ]
+        },
+        {
+          "text": "伏安法测电阻",
+          "children": [
+            {
+              "text": "原理：$R=U/I$"
+            },
+            {
+              "text": "多次测量求平均值减小误差"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

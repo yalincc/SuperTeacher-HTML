@@ -110,7 +110,7 @@ function FillExercise({ exercise, savedResult, onAnswer }: Props) {
               ❌ 正确答案：
               {exercise.blanks.map((blank, i) => (
                 <span key={i} className="ml-1">
-                  第{blank.index}空 = <strong>{blank.answer}</strong>
+                  第{blank.index}空 = <strong>{renderInline(blank.answer)}</strong>
                   {i < exercise.blanks.length - 1 ? '，' : ''}
                 </span>
               ))}

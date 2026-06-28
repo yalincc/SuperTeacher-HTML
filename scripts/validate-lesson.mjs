@@ -15,7 +15,7 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const COURSES_DIR = join(__dirname, '..', 'src', 'data', 'courses')
 
-const VALID_BLOCK_TYPES = ['paragraph', 'table', 'callout', 'equation', 'list', 'animation', 'timeline']
+const VALID_BLOCK_TYPES = ['paragraph', 'table', 'callout', 'equation', 'list', 'animation', 'timeline', 'figure']
 const VALID_EXERCISE_TYPES = ['choice', 'true_false', 'fill', 'short_answer']
 const VALID_CALLOUT_VARIANTS = ['warning', 'tip', 'note', 'mnemonic', 'quote']
 
@@ -234,6 +234,10 @@ function validateBlock(block, path, errors) {
           if (item.content !== undefined && typeof item.content !== 'string') errors.push(`${path}.items[${j}].content 应为字符串`)
         })
       }
+      break
+    case 'figure':
+      if (!block.figure || typeof block.figure !== 'object') errors.push(`${path}.figure 应为对象`)
+      else if (!block.figure.type) errors.push(`${path}.figure.type 缺失`)
       break
   }
 }

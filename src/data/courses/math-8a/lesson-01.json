@@ -24,6 +24,21 @@
           "content": "如果直角三角形的两条直角边分别为 $a$，$b$，斜边为 $c$，那么 $a^2 + b^2 = c^2$。这就是**勾股定理**。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [0, 0] },
+              { "op": "point", "id": "B", "at": [4, 0] },
+              { "op": "point", "id": "C", "at": [0, 3] },
+              { "op": "triangle", "points": ["A", "B", "C"], "labels": ["A", "B", "C"],
+                "sideLabels": { "ab": "a", "bc": "c", "ca": "b" },
+                "angles": { "A": { "right": true } }
+              }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "命名由来",

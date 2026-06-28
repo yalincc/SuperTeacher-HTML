@@ -1,0 +1,68 @@
+{
+  "lessonId": 20,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-20-1",
+      "stem": "下列不属于化石燃料的是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "煤"
+        },
+        {
+          "label": "B",
+          "text": "石油"
+        },
+        {
+          "label": "C",
+          "text": "酒精"
+        },
+        {
+          "label": "D",
+          "text": "天然气"
+        }
+      ],
+      "answer": "C",
+      "analysis": "酒精（乙醇）可通过粮食发酵制取，不属于化石燃料。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-20-2",
+      "stem": "氢气作为燃料的最大优点是热值高。",
+      "answer": false,
+      "analysis": "氢气作为理想燃料的最大优点是燃烧产物只有水，无污染，而非热值高。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-20-3",
+      "segments": [
+        "三大化石燃料包括煤、___1___和天然气。",
+        "氢气燃烧的化学方程式为___2___。"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "石油"
+        },
+        {
+          "index": 2,
+          "answer": "2H_2 + O_2 \\xrightarrow{点燃} 2H_2O"
+        }
+      ],
+      "analysis": "三大化石燃料：煤、石油、天然气。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-20-4",
+      "question": "简述氢气作为理想燃料的优点和目前未能广泛使用的原因。",
+      "referenceAnswer": "优点：燃烧产物只有水，无污染；来源广泛（可分解水制取）。原因：制取成本高，储存和运输困难。",
+      "scoringPoints": [
+        "燃烧产物是水，无污染",
+        "来源广泛",
+        "制取成本高",
+        "储存运输困难"
+      ]
+    }
+  ]
+}

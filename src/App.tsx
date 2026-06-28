@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage'
 import CoursePage from './pages/CoursePage'
 import SemesterPage from './pages/SemesterPage'
 import LessonPage from './pages/LessonPage'
+import LessonComplete from './pages/LessonComplete'
 import GamePage from './pages/GamePage'
 
 function CourseProvider({ children }: { children: React.ReactNode }) {
@@ -56,6 +57,7 @@ function App() {
               <GamePage />
             </CourseProvider>
           } />
+          <Route path="/course/:courseId/lesson/:id/complete" element={<LessonComplete />} />
         </Route>
       </Routes>
     </BrowserRouter>

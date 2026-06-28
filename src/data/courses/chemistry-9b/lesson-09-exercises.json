@@ -1,0 +1,57 @@
+{
+  "lessonId": 9,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-09-1",
+      "stem": "下列物质俗称纯碱的是（　）",
+      "options": [
+        { "label": "A", "text": "NaCl" },
+        { "label": "B", "text": "NaOH" },
+        { "label": "C", "text": "Na₂CO₃" },
+        { "label": "D", "text": "NaHCO₃" }
+      ],
+      "answer": "C",
+      "analysis": "碳酸钠（$Na_2CO_3$）俗称纯碱或苏打，属于盐类。NaCl俗称食盐，NaOH俗称烧碱，NaHCO₃俗称小苏打。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-09-2",
+      "stem": "下列各组物质中，不能发生复分解反应的是（　）",
+      "options": [
+        { "label": "A", "text": "NaOH 和 HCl" },
+        { "label": "B", "text": "NaCl 和 KNO₃" },
+        { "label": "C", "text": "Na₂CO₃ 和 H₂SO₄" },
+        { "label": "D", "text": "Ba(OH)₂ 和 CuSO₄" }
+      ],
+      "answer": "B",
+      "analysis": "复分解反应需要生成沉淀、气体或水。A生成水；B交换成分后生成NaNO₃和KCl，都可溶，无沉淀、气体或水，不反应；C生成CO₂气体；D生成BaSO₄沉淀和Cu(OH)₂沉淀。",
+      "source": "改编自2023年广东中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-09-3",
+      "stem": "碳酸钠属于碱类物质。",
+      "answer": false,
+      "analysis": "碳酸钠（Na₂CO₃）虽然俗称纯碱，但它是由金属离子（Na⁺）和酸根离子（CO₃²⁻）组成的，属于**盐**类，不是碱。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-09-4",
+      "segments": ["复分解反应发生的条件是生成物中有___1___、___2___或___3___生成。"],
+      "blanks": [
+        { "index": 1, "answer": "沉淀", "alternatives": [] },
+        { "index": 2, "answer": "气体", "alternatives": [] },
+        { "index": 3, "answer": "水", "alternatives": ["H₂O"] }
+      ],
+      "analysis": "复分解反应发生的条件：生成物中有沉淀、气体或水。三者满足其一即可发生。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-09-5",
+      "question": "如何鉴别 Na₂CO₃ 和 NaHCO₃ 两种白色粉末？写出实验方案。",
+      "referenceAnswer": "方法一：分别取少量样品，加入稀盐酸，反应剧烈产生气泡快的是NaHCO₃，反应较慢的是Na₂CO₃。方法二：分别取少量样品加热，能分解（产生使澄清石灰水变浑浊的气体）的是NaHCO₃，不分解的是Na₂CO₃。",
+      "scoringPoints": ["选择合理的方法", "描述操作步骤", "预期现象和结论"]
+    }
+  ]
+}

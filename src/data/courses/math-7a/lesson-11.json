@@ -48,6 +48,27 @@
       "defaultExpanded": true,
       "blocks": [
         { "type": "paragraph", "content": "如果两个角的和等于 $90^\\circ$，那么这两个角互为余角。如果两个角的和等于 $180^\\circ$，那么这两个角互为补角。" },
+        {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "O", "at": [3, 2] },
+              { "op": "point", "id": "A", "at": [0, 2] },
+              { "op": "point", "id": "B", "at": [4.5, 4.5] },
+              { "op": "point", "id": "C", "at": [3, 5] },
+              { "op": "segment", "from": "O", "to": "A" },
+              { "op": "segment", "from": "O", "to": "B" },
+              { "op": "segment", "from": "O", "to": "C" },
+              { "op": "angle_mark", "vertex": "O", "p1": "A", "p2": "B", "label": "60°" },
+              { "op": "angle_mark", "vertex": "O", "p1": "B", "p2": "C", "label": "30°" },
+              { "op": "angle_mark", "vertex": "O", "p1": "A", "p2": "C", "right": true },
+              { "op": "label", "at": [3, 1.3], "text": "O" },
+              { "op": "label", "at": [-0.5, 2], "text": "A" },
+              { "op": "label", "at": [5.3, 5], "text": "C" }
+            ]
+          }
+        },
         { "type": "callout", "variant": "note", "title": "性质", "content": "同角（或等角）的余角相等；同角（或等角）的补角相等。" },
         { "type": "paragraph", "content": "如果 $\\angle \\alpha + \\angle \\beta = 90^\\circ$，则 $\\angle \\alpha$ 与 $\\angle \\beta$ 互余；如果 $\\angle \\alpha + \\angle \\beta = 180^\\circ$，则 $\\angle \\alpha$ 与 $\\angle \\beta$ 互补。" }
       ]

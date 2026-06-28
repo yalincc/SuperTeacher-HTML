@@ -1,0 +1,138 @@
+{
+  "id": "chemistry-9b",
+  "order": 4,
+  "course": {
+    "name": "九年级下册",
+    "icon": "⚗️",
+    "subtitle": "人教版九年级下册",
+    "color": "#d97706"
+  },
+  "group": {
+    "id": "chemistry",
+    "name": "初中化学",
+    "icon": "⚗️",
+    "color": "#e8600c",
+    "order": 3,
+    "subtitle": "人教版 · 2 个学期"
+  },
+  "semester": {
+    "name": "九年级下",
+    "order": 2
+  },
+  "schedule": {
+    "weeks": 7,
+    "weekLabels": [
+      "第一周",
+      "第二周",
+      "第三周",
+      "第四周",
+      "第五周",
+      "第六周",
+      "第七周"
+    ],
+    "weekTitles": [
+      "金属和金属材料",
+      "溶液",
+      "酸和碱",
+      "盐 化肥",
+      "化学与生活"
+    ]
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "title": "金属材料",
+      "unit": "第八单元",
+      "week": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "title": "金属的化学性质",
+      "unit": "第八单元",
+      "week": 1,
+      "day": 2
+    },
+    {
+      "id": 3,
+      "title": "金属资源的利用和保护",
+      "unit": "第八单元",
+      "week": 1,
+      "day": 3
+    },
+    {
+      "id": 4,
+      "title": "溶液的形成",
+      "unit": "第九单元",
+      "week": 2,
+      "day": 1
+    },
+    {
+      "id": 5,
+      "title": "溶解度",
+      "unit": "第九单元",
+      "week": 3,
+      "day": 1
+    },
+    {
+      "id": 6,
+      "title": "溶液的浓度",
+      "unit": "第九单元",
+      "week": 3,
+      "day": 2
+    },
+    {
+      "id": 7,
+      "title": "常见的酸和碱",
+      "unit": "第十单元",
+      "week": 4,
+      "day": 1
+    },
+    {
+      "id": 8,
+      "title": "酸和碱的中和反应",
+      "unit": "第十单元",
+      "week": 4,
+      "day": 2
+    },
+    {
+      "id": 9,
+      "title": "生活中常见的盐",
+      "unit": "第十一单元",
+      "week": 5,
+      "day": 1
+    },
+    {
+      "id": 10,
+      "title": "化学肥料",
+      "unit": "第十一单元",
+      "week": 5,
+      "day": 2
+    },
+    {
+      "id": 11,
+      "title": "人类重要的营养物质",
+      "unit": "第十二单元",
+      "week": 6,
+      "day": 1
+    },
+    {
+      "id": 12,
+      "title": "化学元素与人体健康",
+      "unit": "第十二单元",
+      "week": 6,
+      "day": 2
+    },
+    {
+      "id": 13,
+      "title": "有机合成材料",
+      "unit": "第十二单元",
+      "week": 7,
+      "day": 1
+    }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  }
+}

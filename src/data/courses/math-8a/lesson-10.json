@@ -60,6 +60,22 @@
           "content": "换句话说，求一元一次方程 $kx + b = 0$ 的解，可以转化为求一次函数 $y = kx + b$ 的图象与 $x$ 轴交点的横坐标。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "function",
+            "xRange": [-3, 5],
+            "yRange": [-2, 6],
+            "grid": true,
+            "plots": [
+              { "expression": "x+1", "label": "y=x+1", "color": "#2563eb" },
+              { "expression": "-x+4", "label": "y=-x+4", "color": "#dc2626" }
+            ],
+            "points": [
+              { "coord": [1.5, 2.5], "label": "(1.5,2.5)" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "warning",
           "title": "易错提醒",

@@ -1,0 +1,57 @@
+{
+  "lessonId": 8,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-08-1",
+      "stem": "下列反应中，属于中和反应的是（　）",
+      "options": [
+        { "label": "A", "text": "$2NaOH + CO_2 \\rightarrow Na_2CO_3 + H_2O$" },
+        { "label": "B", "text": "$HCl + NaOH \\rightarrow NaCl + H_2O$" },
+        { "label": "C", "text": "$Fe_2O_3 + 6HCl \\rightarrow 2FeCl_3 + 3H_2O$" },
+        { "label": "D", "text": "$CaCO_3 + 2HCl \\rightarrow CaCl_2 + H_2O + CO_2\\uparrow$" }
+      ],
+      "answer": "B",
+      "analysis": "中和反应必须是酸和碱之间的反应。A是碱与非金属氧化物反应；B是酸与碱反应，是中和反应；C是酸与金属氧化物反应；D是酸与盐反应。",
+      "source": "改编自2023年北京中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-08-2",
+      "stem": "下列溶液的pH最大的是（　）",
+      "options": [
+        { "label": "A", "text": "pH = 3 的盐酸" },
+        { "label": "B", "text": "pH = 5 的醋酸" },
+        { "label": "C", "text": "pH = 7 的蒸馏水" },
+        { "label": "D", "text": "pH = 12 的NaOH溶液" }
+      ],
+      "answer": "D",
+      "analysis": "pH越大，碱性越强。pH=12的NaOH溶液是碱性溶液，pH最大。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-08-3",
+      "stem": "中和反应的实质是 $H^+$ 和 $OH^-$ 结合生成 $H_2O$。",
+      "answer": true,
+      "analysis": "中和反应的实质就是酸电离出的 $H^+$ 与碱电离出的 $OH^-$ 结合生成 $H_2O$，即 $H^+ + OH^- \\rightarrow H_2O$。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-08-4",
+      "segments": ["测定溶液pH的方法：将一小片pH试纸放在___1___上，用___2___蘸取待测液滴在试纸上，将显示的颜色与___3___对照。"],
+      "blanks": [
+        { "index": 1, "answer": "玻璃片", "alternatives": ["表面皿"] },
+        { "index": 2, "answer": "玻璃棒", "alternatives": [] },
+        { "index": 3, "answer": "标准比色卡", "alternatives": ["比色卡"] }
+      ],
+      "analysis": "使用pH试纸时，将试纸放在玻璃片或表面皿上，用玻璃棒蘸取待测液滴在试纸上，然后与标准比色卡对照读出pH值。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-08-5",
+      "question": "用化学方程式表示用熟石灰改良酸性土壤的反应原理。",
+      "referenceAnswer": "若土壤中的酸为硫酸：$Ca(OH)_2 + H_2SO_4 \\rightarrow CaSO_4 + 2H_2O$；若为盐酸：$Ca(OH)_2 + 2HCl \\rightarrow CaCl_2 + 2H_2O$。",
+      "scoringPoints": ["正确写出化学方程式", "配平正确", "注明条件（如需要）"]
+    }
+  ]
+}

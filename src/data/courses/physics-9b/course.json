@@ -1,0 +1,80 @@
+{
+  "id": "physics-9b",
+  "order": 7,
+  "course": {
+    "name": "九年级下册",
+    "icon": "⚡",
+    "subtitle": "人教版九年级下册",
+    "color": "#1e40af"
+  },
+  "group": {
+    "id": "physics",
+    "name": "初中物理",
+    "icon": "⚡",
+    "color": "#3b82f6",
+    "order": 1,
+    "subtitle": "人教版 · 4 个学期"
+  },
+  "semester": {
+    "name": "九年级下",
+    "order": 4
+  },
+  "schedule": {
+    "weeks": 5,
+    "weekLabels": [
+      "第一周",
+      "第二周",
+      "第三周",
+      "第四周",
+      "第五周"
+    ],
+    "weekTitles": [
+      "电功率",
+      "家庭电路与安全用电",
+      "电与磁",
+      "信息的传递",
+      "能源与可持续发展"
+    ]
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "title": "电功率",
+      "unit": "第十八章 电功率",
+      "week": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "title": "家庭电路与安全用电",
+      "unit": "第十九章 家庭电路与安全用电",
+      "week": 2,
+      "day": 1
+    },
+    {
+      "id": 3,
+      "title": "电与磁",
+      "unit": "第二十章 电与磁",
+      "week": 3,
+      "day": 1
+    },
+    {
+      "id": 4,
+      "title": "信息的传递",
+      "unit": "第二十一章 信息的传递",
+      "week": 4,
+      "day": 1
+    },
+    {
+      "id": 5,
+      "title": "能源与可持续发展",
+      "unit": "第二十二章 能源与可持续发展",
+      "week": 5,
+      "day": 1
+    }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  }
+}

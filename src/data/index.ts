@@ -58,6 +58,8 @@ export interface CourseGroup {
   icon: string
   color: string
   order: number
+  unit?: string
+  subtitle?: string
   courses: CourseWithLessons[]
 }
 
@@ -67,7 +69,10 @@ function buildGroups(): CourseGroup[] {
     if (!course.group) continue
     const g = course.group
     if (!map.has(g.id)) {
-      map.set(g.id, { id: g.id, name: g.name, icon: g.icon, color: g.color, order: g.order, courses: [] })
+      map.set(g.id, { id: g.id, name: g.name, icon: g.icon, color: g.color, order: g.order, unit: g.unit, subtitle: g.subtitle, courses: [] })
+    } else {
+      const existing = map.get(g.id)!
+      if (!existing.subtitle && g.subtitle) existing.subtitle = g.subtitle
     }
     map.get(g.id)!.courses.push(course)
   }
@@ -154,4 +159,14 @@ export function getExercisesByLessonId(courseId: string, lessonId: number): Exer
   if (separate) return separate.exercises
   const lesson = course.lessonData.find((l) => l.meta.id === lessonId)
   return lesson?.exercises ?? []
+}
+
+/** 获取同一分组中的下一学期课程 */
+export function getNextCourseInGroup(courseId: string): CourseWithLessons | undefined {
+  const course = getCourseById(courseId)
+  if (!course?.group) return undefined
+  const group = getGroupById(course.group.id)
+  if (!group) return undefined
+  const idx = group.courses.findIndex((c) => c.id === courseId)
+  return idx >= 0 && idx < group.courses.length - 1 ? group.courses[idx + 1] : undefined
 }

@@ -24,6 +24,24 @@
           "content": "**对顶角**：两条直线相交后所得的只有一个公共顶点且两边互为反向延长线的两个角叫做对顶角。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "O", "at": [3, 3] },
+              { "op": "point", "id": "A", "at": [0, 1] },
+              { "op": "point", "id": "B", "at": [6, 5] },
+              { "op": "point", "id": "C", "at": [6, 1] },
+              { "op": "point", "id": "D", "at": [0, 5] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "C", "to": "D" },
+              { "op": "angle_mark", "vertex": "O", "p1": "A", "p2": "D", "label": "∠1" },
+              { "op": "angle_mark", "vertex": "O", "p1": "B", "p2": "C", "label": "∠1'" },
+              { "op": "label", "at": [3, 3.5], "text": "O" }
+            ]
+          }
+        },
+        {
           "type": "paragraph",
           "content": "**对顶角的性质**：对顶角相等。即若两条直线相交，则对顶角的度数相等。"
         },

@@ -31,6 +31,23 @@
           "variant": "tip",
           "title": "记忆口诀",
           "content": "正弦记为 sin，分子是对边，分母是斜边——对斜正弦。"
+        },
+        {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [0, 0] },
+              { "op": "point", "id": "B", "at": [4, 0] },
+              { "op": "point", "id": "C", "at": [0, 3] },
+              { "op": "triangle", "points": ["A", "B", "C"], "labels": ["A", "B", "C"],
+                "angles": { "A": { "right": true } }
+              },
+              { "op": "label", "at": [2, -0.5], "text": "邻边" },
+              { "op": "label", "at": [-0.5, 1.5], "text": "对边" },
+              { "op": "label", "at": [2.3, 1.8], "text": "斜边" }
+            ]
+          }
         }
       ]
     },

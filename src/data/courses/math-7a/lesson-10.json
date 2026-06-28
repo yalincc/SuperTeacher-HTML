@@ -22,7 +22,33 @@
         { "type": "paragraph", "content": "线段：直线上两点间的部分，有两个端点，长度可以度量。" },
         { "type": "paragraph", "content": "射线：直线上的一点和它一旁的部分，有一个端点，向一方无限延伸，长度不可度量。" },
         { "type": "paragraph", "content": "直线：没有端点，向两方无限延伸，长度不可度量。" },
-        { "type": "callout", "variant": "tip", "title": "区别要点", "content": "端点个数：线段有2个，射线有1个，直线没有。延伸性：线段不延伸，射线向一方延伸，直线向两方延伸。" }
+        { "type": "callout", "variant": "tip", "title": "区别要点", "content": "端点个数：线段有2个，射线有1个，直线没有。延伸性：线段不延伸，射线向一方延伸，直线向两方延伸。" },
+        {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [0, 4] },
+              { "op": "point", "id": "B", "at": [3, 4] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "label", "at": [-0.3, 4.5], "text": "A" },
+              { "op": "label", "at": [3.3, 4.5], "text": "B" },
+              { "op": "label", "at": [6, 4], "text": "线段 AB" },
+              { "op": "point", "id": "C", "at": [0, 2.5] },
+              { "op": "point", "id": "D", "at": [3, 2.5] },
+              { "op": "segment", "from": "C", "to": "D" },
+              { "op": "label", "at": [-0.3, 3], "text": "C" },
+              { "op": "label", "at": [3.3, 3], "text": "D" },
+              { "op": "label", "at": [6, 2.5], "text": "射线 CD" },
+              { "op": "point", "id": "E", "at": [0, 1] },
+              { "op": "point", "id": "F", "at": [3, 1] },
+              { "op": "segment", "from": "E", "to": "F" },
+              { "op": "label", "at": [-0.3, 1.5], "text": "E" },
+              { "op": "label", "at": [3.3, 1.5], "text": "F" },
+              { "op": "label", "at": [6, 1], "text": "直线 EF" }
+            ]
+          }
+        }
       ]
     },
     {

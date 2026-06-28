@@ -20,6 +20,29 @@
       "defaultExpanded": true,
       "blocks": [
         { "type": "paragraph", "content": "多边形是由三条或三条以上的线段首尾顺次连接所组成的封闭图形。多边形的边、顶点、内角是多边形的基本要素。" },
+        {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [3, 5] },
+              { "op": "point", "id": "B", "at": [5.5, 3.5] },
+              { "op": "point", "id": "C", "at": [4.5, 1] },
+              { "op": "point", "id": "D", "at": [1.5, 1] },
+              { "op": "point", "id": "E", "at": [0.5, 3.5] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "B", "to": "C" },
+              { "op": "segment", "from": "C", "to": "D" },
+              { "op": "segment", "from": "D", "to": "E" },
+              { "op": "segment", "from": "E", "to": "A" },
+              { "op": "label", "at": [3, 5.5], "text": "A" },
+              { "op": "label", "at": [6.2, 3.5], "text": "B" },
+              { "op": "label", "at": [5, 0.5], "text": "C" },
+              { "op": "label", "at": [1, 0.5], "text": "D" },
+              { "op": "label", "at": [-0.2, 3.5], "text": "E" }
+            ]
+          }
+        },
         { "type": "callout", "variant": "tip", "title": "识别方法", "content": "多边形必须满足：①由线段组成；②首尾顺次连接；③封闭图形。曲线不能构成多边形。" },
         { "type": "list", "ordered": false, "items": ["三角形：三条边，三个顶点", "四边形：四条边，四个顶点", "五边形：五条边，五个顶点", "$n$ 边形：$n$ 条边，$n$ 个顶点"] },
         { "type": "callout", "variant": "note", "title": "命名规则", "content": "多边形按照边数命名：三角形（3边）、四边形（4边）、五边形（5边）等。" }

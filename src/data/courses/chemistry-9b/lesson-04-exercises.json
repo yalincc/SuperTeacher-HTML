@@ -1,0 +1,58 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-04-1",
+      "stem": "下列物质放入水中，能使溶液温度明显升高的是（　）",
+      "options": [
+        { "label": "A", "text": "氯化钠（$NaCl$）" },
+        { "label": "B", "text": "硝酸铵（$NH_4NO_3$）" },
+        { "label": "C", "text": "氢氧化钠（$NaOH$）" },
+        { "label": "D", "text": "蔗糖（$C_{12}H_{22}O_{11}$）" }
+      ],
+      "answer": "C",
+      "analysis": "$NaOH$ 溶解放热，使溶液温度明显升高。$NH_4NO_3$ 溶解吸热使温度降低。$NaCl$ 和蔗糖溶解温度变化不大。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-04-2",
+      "stem": "关于溶液的说法正确的是（　）",
+      "options": [
+        { "label": "A", "text": "溶液一定是无色透明的" },
+        { "label": "B", "text": "溶液是均一、稳定的混合物" },
+        { "label": "C", "text": "溶液中的溶剂一定是水" },
+        { "label": "D", "text": "均一、稳定的液体一定是溶液" }
+      ],
+      "answer": "B",
+      "analysis": "溶液的特征是均一性和稳定性，且一定是混合物。A错误，$CuSO_4$ 溶液是蓝色的；C错误，碘酒的溶剂是酒精；D错误，蒸馏水是纯净物不是溶液。",
+      "source": "改编自2022年湖南中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-04-3",
+      "stem": "洗涤剂去油污属于乳化现象，不是溶解现象。",
+      "answer": true,
+      "analysis": "洗涤剂能使植物油分散成无数细小的液滴，形成乳浊液，这是乳化现象。油并没有溶解在水中，只是被分散成小液滴。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-04-4",
+      "segments": ["碘酒中溶质是___1___，溶剂是___2___；稀硫酸中溶质是___3___，溶剂是___4___。"],
+      "blanks": [
+        { "index": 1, "answer": "碘", "alternatives": ["I₂", "碘单质"] },
+        { "index": 2, "answer": "酒精", "alternatives": ["乙醇", "C₂H₅OH"] },
+        { "index": 3, "answer": "硫酸", "alternatives": ["H₂SO₄"] },
+        { "index": 4, "answer": "水", "alternatives": ["H₂O"] }
+      ],
+      "analysis": "碘酒是碘溶解在酒精中形成的溶液，溶质是碘，溶剂是酒精。稀硫酸是硫酸溶解在水中，溶质是硫酸，溶剂是水。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-04-5",
+      "question": "为什么夏天给发烧的病人用硝酸铵冷敷袋降温？",
+      "referenceAnswer": "硝酸铵溶于水时吸收大量的热，使周围温度降低，所以可以用来制作冷敷袋给病人降温。",
+      "scoringPoints": ["硝酸铵溶解吸热", "使温度降低"]
+    }
+  ]
+}

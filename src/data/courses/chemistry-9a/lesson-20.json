@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "id": 20,
+    "slug": "lesson-20-燃料的合理利用与开发",
+    "title": "燃料的合理利用与开发",
+    "unit": "第七单元",
+    "week": 8,
+    "day": 2
+  },
+  "objectives": [
+    {
+      "text": "了解化学反应中的能量变化",
+      "isKeyPoint": false
+    },
+    {
+      "text": "知道三大化石燃料及其不可再生性",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解氢气等清洁能源的优点",
+      "isKeyPoint": true
+    },
+    {
+      "text": "认识新能源开发的重要性",
+      "isKeyPoint": false
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "化学反应中的能量变化",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "化学反应在生成新物质的同时，常伴随着能量变化，主要表现为**吸热**和**放热**两种形式。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "记忆技巧",
+          "content": "燃烧、活泼金属与酸反应等是放热反应；大多数分解反应、C还原CuO等是吸热反应。"
+        }
+      ]
+    },
+    {
+      "title": "化石燃料与清洁能源",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "三大化石燃料：**煤**（工业粮食）、**石油**（工业血液）、**天然气**。它们都是不可再生能源。"
+        },
+        {
+          "type": "paragraph",
+          "content": "**氢气**是最理想的清洁燃料，燃烧产物只有水：$2H_2 + O_2 \\xrightarrow{点燃} 2H_2O$。但制取成本高、储存运输困难。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "氢气是理想燃料的原因是燃烧产物无污染，不是因为热值最高。天然气的热值比氢气高。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例题：能源分类",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "下列能源中，属于可再生能源的是（  ）\nA. 煤  B. 石油  C. 太阳能  D. 天然气"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "煤、石油、天然气都是化石燃料，属于不可再生能源。太阳能可以持续利用，是可再生能源。"
+        }
+      ],
+      "answer": "C"
+    }
+  ],
+  "summary": [
+    {
+      "text": "燃料的合理利用与开发",
+      "children": [
+        {
+          "text": "化学反应伴随能量变化（吸热/放热）"
+        },
+        {
+          "text": "三大化石燃料：煤、石油、天然气（不可再生）"
+        },
+        {
+          "text": "理想燃料：氢气（产物为水，无污染）"
+        },
+        {
+          "text": "新能源：太阳能、风能、核能等"
+        }
+      ]
+    }
+  ]
+}

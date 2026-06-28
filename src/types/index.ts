@@ -6,6 +6,7 @@ export interface CourseConfig {
     icon: string
     subtitle: string
     color: string
+    unit?: string
   }
   schedule: {
     weeks: number
@@ -24,6 +25,8 @@ export interface CourseConfig {
     icon: string
     color: string
     order: number
+    unit?: string
+    subtitle?: string
   }
   semester?: {
     name: string
@@ -84,6 +87,7 @@ export type ContentBlock =
   | ListBlock
   | AnimationBlock
   | TimelineBlock
+  | FigureBlock
 
 export interface ParagraphBlock {
   type: 'paragraph'
@@ -131,6 +135,11 @@ export interface TimelineItem {
   time: string
   title: string
   content?: string
+}
+
+export interface FigureBlock {
+  type: 'figure'
+  figure: import('./figure').Figure
 }
 
 // ===== 典型例题 =====

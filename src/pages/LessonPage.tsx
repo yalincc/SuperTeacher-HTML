@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { getLessonById, getExercisesByLessonId } from '@/data'
+import { getLessonById, getExercisesByLessonId, getNextCourseInGroup, getCourseById } from '@/data'
 import { useProgressContext } from '@/hooks/ProgressContext'
 import SectionObjectives from '@/components/knowledge/SectionObjectives'
 import SectionKnowledge from '@/components/knowledge/SectionKnowledge'
@@ -68,7 +68,7 @@ function LessonPage() {
           </div>
 
           <div className="flex items-center gap-1">
-            {lesson.meta.id > 1 && (
+            {lesson.meta.id > 1 ? (
               <Link
                 to={`/course/${courseId}/lesson/${lesson.meta.id - 1}`}
                 className="flex items-center gap-0.5 px-2.5 py-1.5 text-xs text-text-secondary hover:text-primary hover:bg-primary-bg rounded-lg transition"
@@ -76,14 +76,39 @@ function LessonPage() {
                 <ChevronLeft className="w-3.5 h-3.5" />
                 上一课
               </Link>
+            ) : (
+              <Link
+                to={`/course/${courseId}`}
+                className="flex items-center gap-0.5 px-2.5 py-1.5 text-xs text-text-secondary hover:text-primary hover:bg-primary-bg rounded-lg transition"
+              >
+                <ChevronLeft className="w-3.5 h-3.5" />
+                课程首页
+              </Link>
             )}
-            <Link
-              to={`/course/${courseId}/lesson/${lesson.meta.id + 1}`}
-              className="flex items-center gap-0.5 px-2.5 py-1.5 text-xs text-text-secondary hover:text-primary hover:bg-primary-bg rounded-lg transition"
-            >
-              下一课
-              <ChevronRight className="w-3.5 h-3.5" />
-            </Link>
+            {(() => {
+              const currentCourse = getCourseById(courseId || '')
+              const isLastLesson = currentCourse && lesson.meta.id >= Math.max(...currentCourse.lessonData.map((l) => l.meta.id))
+              if (isLastLesson) {
+                return (
+                  <Link
+                    to={`/course/${courseId}/lesson/${lessonId}/complete`}
+                    className="flex items-center gap-0.5 px-2.5 py-1.5 text-xs text-primary font-medium hover:bg-primary-bg rounded-lg transition"
+                  >
+                    课时完结
+                    <ChevronRight className="w-3.5 h-3.5" />
+                  </Link>
+                )
+              }
+              return (
+                <Link
+                  to={`/course/${courseId}/lesson/${lesson.meta.id + 1}`}
+                  className="flex items-center gap-0.5 px-2.5 py-1.5 text-xs text-text-secondary hover:text-primary hover:bg-primary-bg rounded-lg transition"
+                >
+                  下一课
+                  <ChevronRight className="w-3.5 h-3.5" />
+                </Link>
+              )
+            })()}
           </div>
         </div>
 

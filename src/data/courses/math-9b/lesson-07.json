@@ -23,6 +23,24 @@
           "content": "平面内到定点的距离等于定长的点的集合叫做**圆**。定点称为圆心，定长称为半径。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "O", "at": [3, 3] },
+              { "op": "circle", "id": "c1", "center": "O", "radius": 2.5 },
+              { "op": "point", "id": "A", "at": [3, 5.5] },
+              { "op": "point", "id": "B", "at": [5.5, 3] },
+              { "op": "segment", "from": "O", "to": "A" },
+              { "op": "segment", "from": "O", "to": "B" },
+              { "op": "label", "at": [3, 3.5], "text": "O" },
+              { "op": "label", "at": [3, 6], "text": "A" },
+              { "op": "label", "at": [6, 3], "text": "B" },
+              { "op": "label", "at": [3, 4.5], "text": "r" }
+            ]
+          }
+        },
+        {
           "type": "paragraph",
           "content": "以点 $O$ 为圆心，$r$ 为半径的圆，记作 $\\odot O$。"
         },

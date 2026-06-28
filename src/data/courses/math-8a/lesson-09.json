@@ -48,6 +48,22 @@
           "content": "一次函数的图象也是一条直线。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "function",
+            "xRange": [-5, 5],
+            "yRange": [-3, 6],
+            "grid": true,
+            "plots": [
+              { "expression": "2*x+1", "label": "y=2x+1", "color": "#2563eb" }
+            ],
+            "points": [
+              { "coord": [0, 1], "label": "(0,1)" },
+              { "coord": [-0.5, 0], "label": "(-0.5,0)" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "note",
           "title": "与坐标轴的交点",

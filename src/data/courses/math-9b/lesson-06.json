@@ -27,6 +27,22 @@
           "content": "当 $a < 0$ 时，抛物线开口向下，在顶点处取得**最大值** $y = \\frac{4ac - b^2}{4a}$。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "function",
+            "xRange": [-3, 5],
+            "yRange": [-4, 6],
+            "grid": true,
+            "plots": [
+              { "expression": "-(x-1)^2+4", "label": "y=-(x-1)²+4", "color": "#2563eb" },
+              { "expression": "1", "style": "dashed", "color": "#9ca3af" }
+            ],
+            "points": [
+              { "coord": [1, 4], "label": "顶点(1,4) 最大值" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "解题技巧",

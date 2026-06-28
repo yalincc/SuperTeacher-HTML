@@ -1,0 +1,89 @@
+{
+  "id": "physics-8a",
+  "order": 4,
+  "course": {
+    "name": "八年级上册",
+    "icon": "⚡",
+    "subtitle": "人教版八年级上册",
+    "color": "#3b82f6"
+  },
+  "group": {
+    "id": "physics",
+    "name": "初中物理",
+    "icon": "⚡",
+    "color": "#3b82f6",
+    "order": 1,
+    "subtitle": "人教版 · 4 个学期"
+  },
+  "semester": {
+    "name": "八年级上",
+    "order": 1
+  },
+  "schedule": {
+    "weeks": 6,
+    "weekLabels": [
+      "第一周",
+      "第二周",
+      "第三周",
+      "第四周",
+      "第五周",
+      "第六周"
+    ],
+    "weekTitles": [
+      "机械运动",
+      "声现象",
+      "物态变化",
+      "光现象",
+      "透镜及其应用",
+      "质量与密度"
+    ]
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "title": "长度和时间的测量",
+      "unit": "第一章 机械运动",
+      "week": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "title": "声现象",
+      "unit": "第二章 声现象",
+      "week": 2,
+      "day": 1
+    },
+    {
+      "id": 3,
+      "title": "物态变化",
+      "unit": "第三章 物态变化",
+      "week": 3,
+      "day": 1
+    },
+    {
+      "id": 4,
+      "title": "光现象",
+      "unit": "第四章 光现象",
+      "week": 4,
+      "day": 1
+    },
+    {
+      "id": 5,
+      "title": "透镜及其应用",
+      "unit": "第五章 透镜及其应用",
+      "week": 5,
+      "day": 1
+    },
+    {
+      "id": 6,
+      "title": "质量与密度",
+      "unit": "第六章 质量与密度",
+      "week": 6,
+      "day": 1
+    }
+  ],
+  "features": {
+    "katex": true,
+    "formulaNormalize": true
+  }
+}

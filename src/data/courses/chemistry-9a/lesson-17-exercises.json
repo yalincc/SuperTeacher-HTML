@@ -1,0 +1,84 @@
+{
+  "lessonId": 17,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-17-1",
+      "stem": "实验室制取CO₂不选用稀硫酸的原因是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "反应太慢"
+        },
+        {
+          "label": "B",
+          "text": "生成CaSO₄微溶覆盖表面"
+        },
+        {
+          "label": "C",
+          "text": "不产生CO₂"
+        },
+        {
+          "label": "D",
+          "text": "价格贵"
+        }
+      ],
+      "answer": "B",
+      "analysis": "CaSO₄微溶覆盖在大理石表面阻止反应。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-17-2",
+      "stem": "实验室制取CO₂选用的药品是（  ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "大理石和稀硫酸"
+        },
+        {
+          "label": "B",
+          "text": "大理石和稀盐酸"
+        },
+        {
+          "label": "C",
+          "text": "碳酸钠和稀盐酸"
+        },
+        {
+          "label": "D",
+          "text": "木炭和氧气"
+        }
+      ],
+      "answer": "B",
+      "analysis": "大理石（CaCO₃）和稀盐酸是实验室制CO₂的标准药品。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-17-3",
+      "stem": "收集CO₂可以用排水法。",
+      "answer": false,
+      "analysis": "CO₂能溶于水，不能用排水法，应用向上排空气法。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-17-4",
+      "segments": [
+        "实验室制CO₂用大理石和稀盐酸，收集CO₂用",
+        "___1___",
+        "法，因为CO₂密度比空气",
+        "___2___",
+        "。"
+      ],
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "向上排空气"
+        },
+        {
+          "index": 2,
+          "answer": "大"
+        }
+      ],
+      "analysis": "CO₂密度大于空气，能溶于水，用向上排空气法。"
+    }
+  ]
+}

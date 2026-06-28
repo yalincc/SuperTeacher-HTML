@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { getLessonById, getExercisesByLessonId } from '@/data'
+import { getLessonById, getExercisesByLessonId, getNextCourseInGroup, getCourseById } from '@/data'
 import { useProgressContext } from '@/hooks/ProgressContext'
 import { useGameContext } from '@/hooks/useGame'
 import { useState, useMemo, useEffect } from 'react'
@@ -116,11 +116,17 @@ function GamePage() {
   }, [current])
 
   if (!lesson) {
+    const nextCourse = getNextCourseInGroup(courseId || '')
     return (
       <div className="min-h-screen flex items-center justify-center bg-bg">
         <div className="text-center">
-          <p className="text-text-muted mb-2">课时不存在</p>
-          <Link to="/" className="text-primary hover:underline">返回首页</Link>
+          <p className="text-text-muted mb-3">本学期课时已结束</p>
+          <div className="flex items-center justify-center gap-4">
+            <Link to={`/course/${courseId}`} className="text-primary hover:underline">返回课程</Link>
+            {nextCourse && (
+              <Link to={`/course/${nextCourse.id}`} className="text-primary hover:underline">下一学期 →</Link>
+            )}
+          </div>
         </div>
       </div>
     )
@@ -283,13 +289,30 @@ function GamePage() {
                   <RotateCcw className="w-4 h-4" />
                   再来一次
                 </button>
-                <button
-                  onClick={() => navigate(`/course/${courseId}/lesson/${lessonId + 1}`)}
-                  className="flex-1 py-3 bg-primary text-white rounded-full font-medium hover:bg-primary-dark transition flex items-center justify-center gap-1.5 text-sm shadow-md"
-                >
-                  下一课
-                  <ChevronRight className="w-4 h-4" />
-                </button>
+                {(() => {
+                  const currentCourse = getCourseById(courseId || '')
+                  const isLastLesson = currentCourse && lessonId >= Math.max(...currentCourse.lessonData.map((l) => l.meta.id))
+                  if (isLastLesson) {
+                    return (
+                      <button
+                        onClick={() => navigate(`/course/${courseId}/lesson/${lessonId}/complete`)}
+                        className="flex-1 py-3 bg-primary text-white rounded-full font-medium hover:bg-primary-dark transition flex items-center justify-center gap-1.5 text-sm shadow-md"
+                      >
+                        课时完结
+                        <ChevronRight className="w-4 h-4" />
+                      </button>
+                    )
+                  }
+                  return (
+                    <button
+                      onClick={() => navigate(`/course/${courseId}/lesson/${lessonId + 1}`)}
+                      className="flex-1 py-3 bg-primary text-white rounded-full font-medium hover:bg-primary-dark transition flex items-center justify-center gap-1.5 text-sm shadow-md"
+                    >
+                      下一课
+                      <ChevronRight className="w-4 h-4" />
+                    </button>
+                  )
+                })()}
               </div>
             </div>
           </div>

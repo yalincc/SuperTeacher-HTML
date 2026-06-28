@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "id": 1,
+    "slug": "lesson-01-电功率",
+    "title": "电功率",
+    "unit": "第十八章 电功率",
+    "week": 1,
+    "day": 1
+  },
+  "objectives": [
+    {
+      "text": "理解电功的概念和计算公式 $W=UIt$",
+      "isKeyPoint": true
+    },
+    {
+      "text": "理解电功率的定义，掌握 $P=UI$ 及其推导公式",
+      "isKeyPoint": true
+    },
+    {
+      "text": "区分额定电压、额定功率与实际电压、实际功率",
+      "isKeyPoint": true
+    },
+    {
+      "text": "了解测量小灯泡电功率的实验原理和方法",
+      "isKeyPoint": false
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "电功",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**电功**是电流所做的功，表示电流做功的多少。电流做了多少功，就有多少电能转化为其他形式的能。"
+        },
+        {
+          "type": "paragraph",
+          "content": "电功的计算公式：$W = UIt$，其中 $U$ 是电压（V），$I$ 是电流（A），$t$ 是时间（s）。电功的单位是焦耳（J）。"
+        },
+        {
+          "type": "equation",
+          "latex": "W = UIt = Pt",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "电功公式 $W=UIt$ 适用于所有电路。$W=Pt$ 由 $P=\\frac{W}{t}$ 变形而来，是通用公式。注意单位换算：$1\\text{ kW·h} = 3.6 \\times 10^6\\text{ J}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "电能表（电度表）是测量电功的仪表，单位是千瓦时（kW·h），俗称'度'。"
+        }
+      ]
+    },
+    {
+      "title": "电功率",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**电功率**表示电流做功的快慢，等于电功与时间的比值：$P = \\frac{W}{t}$。"
+        },
+        {
+          "type": "equation",
+          "latex": "P = UI = I^2R = \\frac{U^2}{R}",
+          "display": true
+        },
+        {
+          "type": "table",
+          "headers": [
+            "公式",
+            "适用范围",
+            "说明"
+          ],
+          "rows": [
+            [
+              "$P=UI$",
+              "所有电路",
+              "定义式，通用"
+            ],
+            [
+              "$P=I^2R$",
+              "纯电阻电路",
+              "已知电流和电阻时用"
+            ],
+            [
+              "$P=\\frac{U^2}{R}$",
+              "纯电阻电路",
+              "已知电压和电阻时用"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "选择公式时，根据已知条件选最简便的。串联电路电流相等，用 $P=I^2R$；并联电路电压相等，用 $P=\\frac{U^2}{R}$。"
+        }
+      ]
+    },
+    {
+      "title": "额定电压和额定功率",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**额定电压**是用电器正常工作时的电压，**额定功率**是用电器在额定电压下工作的功率。"
+        },
+        {
+          "type": "paragraph",
+          "content": "当实际电压等于额定电压时，实际功率等于额定功率；当实际电压大于额定电压时，实际功率大于额定功率，可能烧坏用电器。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "灯泡的亮度由**实际功率**决定，不是额定功率。'220V 40W'和'220V 100W'的灯泡串联接在电路中，40W的灯泡更亮。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "实际功率与额定功率的关系：$\\frac{P_{\\text{实}}}{P_{\\text{额}}} = \\left(\\frac{U_{\\text{实}}}{U_{\\text{额}}}\\right)^2$（电阻不变时）。"
+        }
+      ]
+    },
+    {
+      "title": "测量小灯泡的电功率",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "实验原理：$P = UI$，用伏安法测量。需要电压表测电压，电流表测电流。"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "连接电路时开关断开，滑动变阻器调到最大阻值处",
+            "闭合开关前检查电路连接是否正确",
+            "调节滑动变阻器使电压表读数分别等于、略高于、略低于额定电压",
+            "记录每次的电压和电流，计算功率并观察灯泡亮度"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "实验要点",
+          "content": "滑动变阻器的作用：①保护电路；②改变灯泡两端的电压，测量不同电压下的实际功率。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：电功率计算",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "一只标有'220V 100W'的灯泡，正常工作时的电流是多少？灯丝电阻是多少？"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "正常工作时电压等于额定电压 $U = 220\\text{ V}$，功率 $P = 100\\text{ W}$。"
+        },
+        {
+          "type": "paragraph",
+          "content": "由 $P = UI$ 得：$I = \\frac{P}{U} = \\frac{100\\text{ W}}{220\\text{ V}} \\approx 0.45\\text{ A}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "由 $P = \\frac{U^2}{R}$ 得：$R = \\frac{U^2}{P} = \\frac{(220\\text{ V})^2}{100\\text{ W}} = 484\\text{ Ω}$"
+        }
+      ],
+      "answer": "电流约 0.45 A，电阻 484 Ω"
+    },
+    {
+      "title": "例2：实际功率与额定功率",
+      "problem": [
+        {
+          "type": "paragraph",
+          "content": "一个标有'6V 3W'的小灯泡，接在 4.5V 的电源上，它的实际功率是多少？（设灯丝电阻不变）"
+        }
+      ],
+      "solution": [
+        {
+          "type": "paragraph",
+          "content": "先求灯丝电阻：$R = \\frac{U_{\\text{额}}^2}{P_{\\text{额}}} = \\frac{(6\\text{ V})^2}{3\\text{ W}} = 12\\text{ Ω}$"
+        },
+        {
+          "type": "paragraph",
+          "content": "实际功率：$P_{\\text{实}} = \\frac{U_{\\text{实}}^2}{R} = \\frac{(4.5\\text{ V})^2}{12\\text{ Ω}} \\approx 1.69\\text{ W}$"
+        }
+      ],
+      "answer": "约 1.69 W"
+    }
+  ],
+  "summary": [
+    {
+      "text": "电功",
+      "children": [
+        {
+          "text": "定义：电流所做的功"
+        },
+        {
+          "text": "公式：W = UIt = Pt"
+        },
+        {
+          "text": "单位：焦耳（J），1 kW·h = 3.6×10⁶ J"
+        },
+        {
+          "text": "测量：电能表"
+        }
+      ]
+    },
+    {
+      "text": "电功率",
+      "children": [
+        {
+          "text": "定义：表示电流做功的快慢"
+        },
+        {
+          "text": "公式：P = UI = I²R = U²/R"
+        },
+        {
+          "text": "单位：瓦特（W）"
+        }
+      ]
+    },
+    {
+      "text": "额定功率",
+      "children": [
+        {
+          "text": "额定电压下工作的功率"
+        },
+        {
+          "text": "灯泡亮度由实际功率决定"
+        }
+      ]
+    }
+  ]
+}

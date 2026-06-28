@@ -43,6 +43,22 @@
           "variant": "tip",
           "title": "坐标系要素",
           "content": "平面直角坐标系由三要素组成：①原点 $O$ ②x轴（水平向右为正方向）③y轴（竖直向上为正方向）。"
+        },
+        {
+          "type": "figure",
+          "figure": {
+            "type": "function",
+            "xRange": [-4, 4],
+            "yRange": [-4, 4],
+            "grid": false,
+            "plots": [],
+            "points": [
+              { "coord": [2, 3], "label": "A(2,3)" },
+              { "coord": [-2, 2], "label": "B(-2,2)" },
+              { "coord": [-3, -1], "label": "C(-3,-1)" },
+              { "coord": [1, -2], "label": "D(1,-2)" }
+            ]
+          }
         }
       ]
     },

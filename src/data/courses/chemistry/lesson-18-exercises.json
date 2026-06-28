@@ -1,9 +1,0 @@
-{
-  "lessonId": 18,
-  "exercises": [
-    { "type": "choice", "id": "ex-18-1", "stem": "下列不属于化石燃料的是（  ）", "options": [{ "label": "A", "text": "煤" }, { "label": "B", "text": "石油" }, { "label": "C", "text": "天然气" }, { "label": "D", "text": "酒精" }], "answer": "D", "analysis": "酒精是可再生能源，不属于化石燃料。" },
-    { "type": "choice", "id": "ex-18-2", "stem": "被认为是最理想的新能源是（  ）", "options": [{ "label": "A", "text": "太阳能" }, { "label": "B", "text": "风能" }, { "label": "C", "text": "氢能" }, { "label": "D", "text": "核能" }], "answer": "C", "analysis": "氢能来源广、热值高、产物是水无污染，被认为是最理想新能源。" },
-    { "type": "true_false", "id": "ex-18-3", "stem": "煤的干馏是物理变化。", "answer": false, "analysis": "煤的干馏（隔绝空气加热）是化学变化，石油的分馏是物理变化。" },
-    { "type": "fill", "id": "ex-18-4", "segments": ["三大化石燃料：煤、石油、", "___1___", "，它们都是", "___2___", "再生能源。"], "blanks": [{ "index": 1, "answer": "天然气" }, { "index": 2, "answer": "不可" }], "analysis": "煤、石油、天然气是三大化石燃料，都是不可再生能源。" }
-  ]
-}

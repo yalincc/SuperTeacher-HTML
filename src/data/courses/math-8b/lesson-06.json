@@ -39,6 +39,29 @@
           "content": "在平面内，将一个图形沿某个方向移动一定的距离，这样的图形运动称为**平移**。平移不改变图形的形状和大小。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [1, 1] },
+              { "op": "point", "id": "B", "at": [3, 1] },
+              { "op": "point", "id": "C", "at": [2, 3.5] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "B", "to": "C" },
+              { "op": "segment", "from": "C", "to": "A" },
+              { "op": "point", "id": "D", "at": [4, 1] },
+              { "op": "point", "id": "E", "at": [6, 1] },
+              { "op": "point", "id": "F", "at": [5, 3.5] },
+              { "op": "segment", "from": "D", "to": "E", "color": "#2563eb" },
+              { "op": "segment", "from": "E", "to": "F", "color": "#2563eb" },
+              { "op": "segment", "from": "F", "to": "D", "color": "#2563eb" },
+              { "op": "label", "at": [2, 0.5], "text": "原图" },
+              { "op": "label", "at": [5, 0.5], "text": "平移后" },
+              { "op": "label", "at": [3.5, 2], "text": "→" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "平移的三要素",

@@ -1,0 +1,67 @@
+{
+  "lessonId": 4,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-4-1",
+      "stem": "下列关于电磁波的说法中，正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "电磁波的传播需要介质" },
+        { "label": "B", "text": "电磁波在真空中的传播速度约为 $3 \\times 10^8\\text{ m/s}$" },
+        { "label": "C", "text": "电磁波的频率越高，波长越长" },
+        { "label": "D", "text": "红外线不属于电磁波" }
+      ],
+      "answer": "B",
+      "analysis": "A 错误，电磁波传播不需要介质。B 正确。C 错误，频率越高波长越短。D 错误，红外线是电磁波的一种。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-4-2",
+      "stem": "关于光纤通信，下列说法正确的是（  ）",
+      "options": [
+        { "label": "A", "text": "光纤通信利用的是超声波" },
+        { "label": "B", "text": "光纤通信的容量比微波通信小" },
+        { "label": "C", "text": "光纤通信利用了光的全反射原理" },
+        { "label": "D", "text": "光纤通信容易受电磁干扰" }
+      ],
+      "answer": "C",
+      "analysis": "光纤通信利用激光在光导纤维中通过全反射传播信息。A 错误，用的是激光不是超声波。B 错误，光纤容量大。D 错误，光纤抗干扰能力强。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-4-3",
+      "stem": "已知某电磁波的波长为 $0.1\\text{ m}$，则该电磁波的频率为（  ）",
+      "options": [
+        { "label": "A", "text": "$3 \\times 10^6\\text{ Hz}$" },
+        { "label": "B", "text": "$3 \\times 10^7\\text{ Hz}$" },
+        { "label": "C", "text": "$3 \\times 10^8\\text{ Hz}$" },
+        { "label": "D", "text": "$3 \\times 10^9\\text{ Hz}$" }
+      ],
+      "answer": "D",
+      "analysis": "由 $c = \\lambda f$ 得：$f = \\frac{c}{\\lambda} = \\frac{3 \\times 10^8}{0.1} = 3 \\times 10^9\\text{ Hz}$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-4-4",
+      "stem": "声音和电磁波都能在真空中传播。",
+      "answer": false,
+      "analysis": "声音的传播需要介质，不能在真空中传播。电磁波的传播不需要介质，可以在真空中传播。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-4-5",
+      "segments": [
+        "电磁波在真空中的传播速度等于",
+        "___1___",
+        "，约为 $3 \\times 10^8\\text{ m/s}$。波速、波长和频率的关系是 $c=$",
+        "___2___",
+        "。"
+      ],
+      "blanks": [
+        { "index": 1, "answer": "光速" },
+        { "index": 2, "answer": "\\lambda f" }
+      ],
+      "analysis": "电磁波在真空中速度等于光速 $c = 3 \\times 10^8\\text{ m/s}$。波速公式 $c = \\lambda f$。"
+    }
+  ]
+}

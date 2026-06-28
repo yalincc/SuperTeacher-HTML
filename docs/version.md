@@ -4,6 +4,99 @@
 
 ---
 
+## v2.7 (2026-06-28)
+
+> 物理化学按学期拆分 + 九下化学全新生成 + 教材目录修正
+
+### ✨ 新增
+- **物理课程拆分为 4 学期** — `physics-8a`（八上6课）、`physics-8b`（八下6课）、`physics-9a`（九上5课）、`physics-9b`（九下5课）
+- **化学九下课程全新生成** — `chemistry-9b`，13 课题覆盖第八至第十二单元（金属、溶液、酸碱盐、化学与生活）
+- **首页分组显示教材版本** — 物理/化学分组副标题显示"人教版 · X 个学期"
+
+### 🔧 改造
+- **化学课程按教材拆分** — 原 `chemistry`（19课全一册）拆为 `chemistry-9a`（21课含走进化学实验室+方程式计算）+ `chemistry-9b`（13课）
+- **化学九上课题修正** — 补充"走进化学实验室"、"依据化学方程式的简单计算"；修正第六/七单元课题名称与2024人教版一致
+- **物理课程 unit 字段更新** — 与教材章节名称统一
+
+### 🔧 移除
+- 旧 `src/data/courses/physics/` 目录（24文件）
+- 旧 `src/data/courses/chemistry/` 目录（38文件）
+
+### 📝 文档
+- `docs/version.md` — v2.7 版本记录
+- `docs/roadmap.md` — P20 阶段
+
+### 🎨 改造文件
+| 文件 | 改动 |
+|------|------|
+| `src/data/courses/physics-8a/` | 从 physics 拆分，6课+course.json |
+| `src/data/courses/physics-8b/` | 从 physics 拆分，6课+course.json |
+| `src/data/courses/physics-9a/` | 新建，5课+course.json |
+| `src/data/courses/physics-9b/` | 新建，5课+course.json |
+| `src/data/courses/chemistry-9a/` | 从 chemistry 拆分，21课+course.json |
+| `src/data/courses/chemistry-9b/` | 新建，13课+course.json |
+
+---
+
+## v2.6 (2026-06-28)
+
+> 数学画图引擎 + 首页排序 + GitHub Pages 部署 + 导航重构 + 内容规范化
+
+### ✨ 新增
+- **数学画图引擎** — 从 SuperTest-HTML 移植，支持函数图像、几何图形、构造指令 DSL 三种图形类型
+- **29 课数学图示** — 一次函数/二次函数图像、三角形、平行四边形、圆、坐标系、数轴、轴对称、平移旋转等
+- **首页排序功能** — "调整顺序"按钮，上移/下移箭头，localStorage 持久化
+- **GitHub Pages 部署** — `.github/workflows/deploy.yml` 自动构建部署，`base` 路径适配
+- **课时完结页面** — 最后一课显示"课时完结"按钮，跳转完结页（返回课程/下一学期）
+- **数学课程模板** — `math-lesson-template.json`，含 figure 块使用示例
+- **GitHub Pages 部署技能** — `github-pages-deploy/SKILL.md`，含完整流程和踩坑记录
+
+### 🔧 改造
+- **首页卡片规范化** — 统一副标题格式（教材版，X个学期），按钮文字根据 unit 字段自适应
+- **LessonPage 导航重构** — 第一课显示"课程首页+下一课"，最后一课显示"上一课+课时完结"
+- **GamePage 导航同步** — 通关后最后一课显示"课时完结"
+- **BrowserRouter basename** — 适配 GitHub Pages 子路径部署
+- **SectionExamples 渲染修复** — 例题答案调用 renderInline 支持 KaTeX
+- **FillExercise 答案渲染** — 填空题正确答案调用 renderInline
+
+### 🔧 修复
+- **buildGroups subtitle 丢失** — glob 扫描顺序不确定导致 group.subtitle 被覆盖，增加回填逻辑
+- **TypeScript 类型缺失** — CourseConfig.course.unit、CourseGroup.subtitle、group 类型补充
+
+### 📝 文档
+- `generate-lesson` skill 新增数学图形规范（function/construction/geometry 三种类型）
+- `github-pages-deploy` skill 新建（部署流程 + 常见问题排查）
+- `docs/version.md` — v2.6 版本记录
+- `docs/roadmap.md` — P19 阶段
+
+### 🎨 改造文件
+| 文件 | 改动 |
+|------|------|
+| `src/types/figure.ts` | 图形类型定义（从 SuperTest-HTML 移植） |
+| `src/types/index.ts` | ContentBlock 新增 FigureBlock，CourseConfig/course 新增 unit，CourseGroup 新增 subtitle |
+| `src/components/figure/` | 6 个图形渲染组件（GeometryBoard/FunctionBoard/ConstructionBoard/FigureRenderer/useJSXGraph/figureBuilders） |
+| `src/utils/geoEngine.ts` | 几何构造引擎（612 行） |
+| `src/utils/storage.ts` | 新增 getHomeItemOrder/setHomeItemOrder |
+| `src/data/index.ts` | getHomeDisplayItems 排序覆盖 + getNextCourseInGroup + buildGroups subtitle 回填 |
+| `src/pages/HomePage.tsx` | 排序功能 + 编辑模式 + 卡片副标题渲染 |
+| `src/pages/LessonPage.tsx` | 导航按钮重构 |
+| `src/pages/LessonComplete.tsx` | 课时完结页面（新建） |
+| `src/pages/GamePage.tsx` | 导航同步 |
+| `src/App.tsx` | basename + /complete 路由 |
+| `src/components/knowledge/ContentRenderer.tsx` | 新增 figure 块渲染分支 |
+| `src/components/knowledge/SectionExamples.tsx` | 例题答案 renderInline 修复 |
+| `src/components/exercises/types/FillExercise.tsx` | 填空题答案 renderInline |
+| `vite.config.ts` | base 路径适配 GitHub Pages |
+| `.github/workflows/deploy.yml` | GitHub Actions 自动部署（新建） |
+| `.agents/skills/generate-lesson/SKILL.md` | 数学图形规范 |
+| `.agents/skills/github-pages-deploy/SKILL.md` | 部署技能（新建） |
+| `scripts/validate-lesson.mjs` | 识别 figure 块类型 |
+| `src/data/courses/math-7a/` ~ `math-9b/` | 29 课添加 figure 图形块 |
+| `src/data/courses/physics/course.json` | subtitle + unit 字段 |
+| `src/data/courses/chemistry/course.json` | subtitle + unit 字段 |
+
+---
+
 ## v2.5 (2026-06-27)
 
 > 北师大版初中数学全套六册上线（84 课），统一归入"初中数学"科目

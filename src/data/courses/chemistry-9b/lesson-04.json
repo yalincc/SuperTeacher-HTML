@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "id": 4,
+    "slug": "lesson-04-溶液的形成",
+    "title": "溶液的形成",
+    "unit": "第九单元",
+    "week": 2,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "理解溶液的概念，知道溶液的特征", "isKeyPoint": true },
+    { "text": "区分溶质和溶剂，能判断常见溶液中的溶质和溶剂", "isKeyPoint": true },
+    { "text": "了解物质溶解时的吸热和放热现象", "isKeyPoint": false },
+    { "text": "理解乳化现象及其应用", "isKeyPoint": false },
+    { "text": "能用溶解性解释生活中的现象", "isKeyPoint": false }
+  ],
+  "knowledge": [
+    {
+      "title": "溶液的概念",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "**溶液**是一种或几种物质分散到另一种物质里，形成均一的、稳定的混合物。溶液具有**均一性**（各部分性质相同）和**稳定性**（条件不变时不会分层或沉淀）。"
+        },
+        {
+          "type": "table",
+          "headers": ["组成", "说明", "举例"],
+          "rows": [
+            ["溶质", "被溶解的物质", "食盐水中的NaCl"],
+            ["溶剂", "能溶解其他物质的物质", "食盐水中的水"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "溶液不一定是无色的。例如：$CuSO_4$ 溶液是蓝色的，$FeCl_3$ 溶液是黄色的，$KMnO_4$ 溶液是紫色的。溶液一定是混合物。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "当溶剂是水时，通常不说水溶液；当溶剂是其他液体时，需要说明，如碘的酒精溶液（碘酒）。"
+        }
+      ]
+    },
+    {
+      "title": "溶质和溶剂的判断",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "固体、气体溶于液体：固体或气体是溶质，液体是溶剂",
+            "两种液体互溶：量多的是溶剂，量少的是溶质",
+            "有水参与时，水通常作溶剂"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "判断溶质溶剂的口诀：「固气溶于液，固气为溶质；液液互溶时，量多为溶剂；水存在时，水是溶剂。」"
+        }
+      ]
+    },
+    {
+      "title": "溶解时的热量变化",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "物质溶解时常伴随着吸热或放热现象。有些物质溶解时放热（如 $NaOH$），有些物质溶解时吸热（如 $NH_4NO_3$），有些物质溶解时温度变化不大（如 $NaCl$）。"
+        },
+        {
+          "type": "table",
+          "headers": ["物质", "溶解时温度变化", "原因"],
+          "rows": [
+            ["$NaOH$（氢氧化钠）", "明显升高（放热）", "溶解放出大量热"],
+            ["$NH_4NO_3$（硝酸铵）", "明显降低（吸热）", "溶解吸收大量热"],
+            ["$NaCl$（氯化钠）", "变化不大", "热量变化小"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "$NaOH$ 溶解放热不是化学反应放热，而是物理过程的溶解热。$NH_4NO_3$ 溶解吸热常用于制作冷敷袋。"
+        }
+      ]
+    },
+    {
+      "title": "乳化现象",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "植物油不溶于水，但加入洗涤剂后，洗涤剂能使植物油分散成无数细小的液滴，形成乳浊液，这种现象叫做**乳化**。乳化不等于溶解。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "乳化和溶解的本质区别：溶解是溶质以分子或离子形式均匀分散在溶剂中；乳化是大液滴被分散成小液滴，仍然是混合物但不形成溶液。洗洁精去油污就是乳化原理。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：判断溶质和溶剂",
+      "problem": [
+        { "type": "paragraph", "content": "指出下列溶液中的溶质和溶剂：\n（1）食盐水\n（2）碘酒\n（3）稀硫酸" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "（1）食盐水：溶质是NaCl（氯化钠），溶剂是水。\n（2）碘酒：溶质是碘（$I_2$），溶剂是酒精。\n（3）稀硫酸：溶质是硫酸（$H_2SO_4$），溶剂是水。" }
+      ],
+      "answer": "（1）溶质NaCl，溶剂水（2）溶质碘，溶剂酒精（3）溶质硫酸，溶剂水"
+    }
+  ],
+  "summary": [
+    {
+      "text": "溶液的形成",
+      "children": [
+        {
+          "text": "溶液概念",
+          "children": [
+            { "text": "均一、稳定的混合物" },
+            { "text": "溶质 + 溶剂" }
+          ]
+        },
+        {
+          "text": "溶解热量变化",
+          "children": [
+            { "text": "放热：$NaOH$" },
+            { "text": "吸热：$NH_4NO_3$" },
+            { "text": "变化不大：$NaCl$" }
+          ]
+        },
+        {
+          "text": "乳化现象",
+          "children": [
+            { "text": "洗涤剂使油分散成小液滴" },
+            { "text": "乳化不等于溶解" }
+          ]
+        }
+      ]
+    }
+  ]
+}

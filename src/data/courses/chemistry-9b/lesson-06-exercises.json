@@ -1,0 +1,56 @@
+{
+  "lessonId": 6,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-06-1",
+      "stem": "将 $50\\text{ g}$ 质量分数为 $10\\%$ 的 $NaCl$ 溶液稀释为 $5\\%$ 的溶液，需要加水（　）",
+      "options": [
+        { "label": "A", "text": "25g" },
+        { "label": "B", "text": "50g" },
+        { "label": "C", "text": "75g" },
+        { "label": "D", "text": "100g" }
+      ],
+      "answer": "B",
+      "analysis": "稀释前后溶质质量不变。稀释前溶质质量 = $50\\text{ g} \\times 10\\% = 5\\text{ g}$。稀释后溶液质量 = $5\\text{ g} \\div 5\\% = 100\\text{ g}$。需加水 = $100\\text{ g} - 50\\text{ g} = 50\\text{ g}$。",
+      "source": "改编自2022年河北中考"
+    },
+    {
+      "type": "choice",
+      "id": "ex-06-2",
+      "stem": "配制 $100\\text{ g}$ 质量分数为 $6\\%$ 的 $NaCl$ 溶液，需要 $NaCl$ 的质量和水的体积分别为（$\\rho_{\\text{水}} = 1\\text{ g/mL}$）（　）",
+      "options": [
+        { "label": "A", "text": "$6\\text{ g}$，$94\\text{ mL}$" },
+        { "label": "B", "text": "$6\\text{ g}$，$100\\text{ mL}$" },
+        { "label": "C", "text": "$94\\text{ g}$，$6\\text{ mL}$" },
+        { "label": "D", "text": "$16.7\\text{ g}$，$83.3\\text{ mL}$" }
+      ],
+      "answer": "A",
+      "analysis": "需要 $NaCl$ 的质量 = $100\\text{ g} \\times 6\\% = 6\\text{ g}$。需要水的质量 = $100\\text{ g} - 6\\text{ g} = 94\\text{ g}$，水的体积 = $94\\text{ g} \\div 1\\text{ g/mL} = 94\\text{ mL}$。"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-06-3",
+      "stem": "配制一定溶质质量分数的溶液时，俯视量筒读数会使配制的溶液浓度偏大。",
+      "answer": true,
+      "analysis": "俯视读数时，实际量取的水的体积偏小（读数偏大），导致溶剂质量偏少，溶质质量分数偏大（浓度偏大）。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-06-4",
+      "segments": ["溶质质量分数的计算公式为：溶质质量分数 = ___1___ × 100%。若要稀释溶液，稀释前后___2___不变。"],
+      "blanks": [
+        { "index": 1, "answer": "溶质质量/溶液质量", "alternatives": ["溶质质量÷溶液质量"] },
+        { "index": 2, "answer": "溶质质量", "alternatives": [] }
+      ],
+      "analysis": "溶质质量分数 = $\\frac{\\text{溶质质量}}{\\text{溶液质量}} \\times 100\\%$。溶液稀释时，溶质质量不变，只是溶剂增加导致溶液质量增大。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-06-5",
+      "question": "在配制 $50\\text{ g}$ 质量分数为 $15\\%$ 的 $NaCl$ 溶液时，发现溶质质量分数偏小，请分析可能的原因（写出两种）。",
+      "referenceAnswer": "①量取水时仰视读数，导致水偏多；②称量 $NaCl$ 时砝码和物品放反了（且使用了游码）；③将 $NaCl$ 倒入烧杯时有少量洒出；④烧杯中有少量水。",
+      "scoringPoints": ["量取水时仰视读数", "称量时操作错误", "转移时溶质损失", "烧杯不干燥"]
+    }
+  ]
+}

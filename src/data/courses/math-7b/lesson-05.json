@@ -24,6 +24,26 @@
           "content": "两条直线被第三条直线所截，会形成各种位置关系的角："
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [0, 2] },
+              { "op": "point", "id": "B", "at": [6, 2] },
+              { "op": "point", "id": "C", "at": [0, 5] },
+              { "op": "point", "id": "D", "at": [6, 5] },
+              { "op": "point", "id": "E", "at": [1, 0] },
+              { "op": "point", "id": "F", "at": [5, 7] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "C", "to": "D" },
+              { "op": "segment", "from": "E", "to": "F" },
+              { "op": "label", "at": [0.3, 1.5], "text": "a" },
+              { "op": "label", "at": [0.3, 5.5], "text": "b" },
+              { "op": "label", "at": [5.5, 6.5], "text": "l" }
+            ]
+          }
+        },
+        {
           "type": "table",
           "headers": ["角的类型", "位置特征", "形状特征"],
           "rows": [

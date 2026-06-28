@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "id": 3,
+    "slug": "lesson-03-金属资源的利用和保护",
+    "title": "金属资源的利用和保护",
+    "unit": "第八单元",
+    "week": 1,
+    "day": 3
+  },
+  "objectives": [
+    { "text": "了解金属资源的存在形式和分布", "isKeyPoint": false },
+    { "text": "掌握工业炼铁的原理和主要反应", "isKeyPoint": true },
+    { "text": "理解铁生锈的条件和防锈方法", "isKeyPoint": true },
+    { "text": "了解保护金属资源的途径", "isKeyPoint": false },
+    { "text": "能用化学方程式表示炼铁和防锈相关反应", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "金属资源的利用",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "金属资源以**单质**和**化合物**两种形式存在。地壳中含量最多的金属元素是**铝**（$Al$），其次是**铁**（$Fe$）。金属资源是不可再生资源，应注意节约和保护。"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "自然界中只有极少数金属（如金、银、铂）以单质形式存在，大多数金属以化合物形式存在。"
+        }
+      ]
+    },
+    {
+      "title": "工业炼铁原理",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "工业炼铁的主要原料是**铁矿石**、**焦炭**、**石灰石**和**空气**。核心反应是在高温下用**一氧化碳**还原氧化铁。"
+        },
+        {
+          "type": "equation",
+          "latex": "Fe_2O_3 + 3CO \\xrightarrow{高温} 2Fe + 3CO_2",
+          "display": true
+        },
+        {
+          "type": "equation",
+          "latex": "Fe_3O_4 + 4CO \\xrightarrow{高温} 3Fe + 4CO_2",
+          "display": true
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "工业炼铁的产品是**生铁**（含碳量 $2\\% \\sim 4.3\\%$），不是纯铁。生铁还需要进一步冶炼才能得到钢。"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "解题技巧",
+          "content": "实验室模拟炼铁实验中，要先通CO再加热，结束时要先停止加热继续通CO直到冷却。这是为了防止铁被再次氧化，也防止液体倒吸。"
+        }
+      ]
+    },
+    {
+      "title": "铁的锈蚀与防护",
+      "defaultExpanded": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "铁生锈的条件是铁同时与**氧气**和**水**接触。铁锈的主要成分是 $Fe_2O_3 \\cdot xH_2O$（水合氧化铁），铁锈疏松多孔，不能阻碍铁继续锈蚀。"
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "易错提醒",
+          "content": "铁在干燥的空气中不易生锈，在纯净的水中也不易生锈，只有同时接触氧气和水才会生锈。氯化钠（食盐）会加速铁的锈蚀。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "刷漆——隔绝氧气和水",
+            "涂油——隔绝氧气和水",
+            "电镀——用更耐腐蚀的金属覆盖表面",
+            "制成合金——如不锈钢（铬、镍合金）",
+            "保持干燥——减少水的接触"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "保护金属资源",
+      "defaultExpanded": false,
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "防止金属腐蚀",
+            "回收利用废旧金属",
+            "有计划、合理地开采矿物",
+            "寻找金属的替代品"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "补充说明",
+          "content": "回收利用废旧金属是保护金属资源最有效的途径之一，既能节约资源又能减少环境污染。"
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "例1：铁生锈条件的探究",
+      "problem": [
+        { "type": "paragraph", "content": "将三支试管分别放置：A中铁钉浸没在煮沸过的蒸馏水中（隔绝氧气），B中铁钉一半浸在蒸馏水中（接触水和空气），C中铁钉放在干燥的试管中（只接触空气）。一段时间后，哪支试管中的铁钉生锈最严重？" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "铁生锈需要同时接触氧气和水。A试管中水经煮沸已去除溶解的氧气，铁钉不易生锈；B试管中铁钉同时接触水和空气，最易生锈；C试管中铁钉只接触干燥空气，不易生锈。所以B试管中的铁钉生锈最严重。" }
+      ],
+      "answer": "B试管",
+      "source": "改编自2022年安徽中考"
+    }
+  ],
+  "summary": [
+    {
+      "text": "金属资源的利用和保护",
+      "children": [
+        {
+          "text": "炼铁原理",
+          "children": [
+            { "text": "$Fe_2O_3 + 3CO \\xrightarrow{高温} 2Fe + 3CO_2$" },
+            { "text": "原料：铁矿石、焦炭、石灰石、空气" }
+          ]
+        },
+        {
+          "text": "铁的锈蚀",
+          "children": [
+            { "text": "条件：同时接触 $O_2$ 和 $H_2O$" },
+            { "text": "铁锈成分：$Fe_2O_3 \\cdot xH_2O$" }
+          ]
+        },
+        {
+          "text": "防锈方法",
+          "children": [
+            { "text": "刷漆、涂油、电镀、制成合金" },
+            { "text": "原理：隔绝氧气和水" }
+          ]
+        },
+        {
+          "text": "保护途径",
+          "children": [
+            { "text": "防腐蚀、回收利用、合理开采、寻找替代品" }
+          ]
+        }
+      ]
+    }
+  ]
+}

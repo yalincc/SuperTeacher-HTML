@@ -27,6 +27,24 @@
           "content": "如图，$AB$ 是 $\\odot O$ 的弦，$CD$ 是直径，$CD \\perp AB$ 于 $M$，则 $AM = BM$，$\\overset{\\frown}{AC} = \\overset{\\frown}{BC}$，$\\overset{\\frown}{AD} = \\overset{\\frown}{BD}$。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "O", "at": [3, 3] },
+              { "op": "circle", "id": "c1", "center": "O", "radius": 2.5 },
+              { "op": "point", "id": "A", "at": [1, 1.5] },
+              { "op": "point", "id": "B", "at": [5, 1.5] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "O", "to": [3, 1.5] },
+              { "op": "label", "at": [3, 3.5], "text": "O" },
+              { "op": "label", "at": [0.5, 1], "text": "A" },
+              { "op": "label", "at": [5.5, 1], "text": "B" },
+              { "op": "angle_mark", "vertex": "O", "p1": "A", "p2": [3, 1.5], "right": true }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "记忆口诀",

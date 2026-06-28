@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "id": 2,
+    "slug": "lesson-02-内能的利用",
+    "title": "内能的利用",
+    "unit": "第十四章 内能的利用",
+    "week": 2,
+    "day": 1
+  },
+  "objectives": [
+    { "text": "了解热机的基本原理和工作过程", "isKeyPoint": false },
+    { "text": "理解燃料热值的概念和计算", "isKeyPoint": true },
+    { "text": "掌握热机效率的计算方法", "isKeyPoint": true },
+    { "text": "能运用公式 $q=Q/m$ 和 $\\eta=W/Q$ 进行简单计算", "isKeyPoint": true }
+  ],
+  "knowledge": [
+    {
+      "title": "热机工作原理",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "热机是利用内能做功的机器，将内能转化为机械能。常见的热机有蒸汽机、内燃机（汽油机和柴油机）等。" },
+        { "type": "paragraph", "content": "内燃机的工作循环包括四个冲程：**吸气冲程**、**压缩冲程**、**做功冲程**和**排气冲程**。其中，做功冲程将内能转化为机械能。" },
+        {
+          "type": "callout",
+          "variant": "note",
+          "title": "汽油机与柴油机的区别",
+          "content": "汽油机：火花塞点火，效率较低，轻便。柴油机：压燃式，效率较高，较笨重。"
+        },
+        {
+          "type": "table",
+          "headers": ["冲程", "进气门", "排气门", "活塞运动", "能量转化"],
+          "rows": [
+            ["吸气冲程", "打开", "关闭", "向下", "无"],
+            ["压缩冲程", "关闭", "关闭", "向上", "机械能→内能"],
+            ["做功冲程", "关闭", "关闭", "向下", "内能→机械能"],
+            ["排气冲程", "关闭", "打开", "向上", "无"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "燃料热值",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "燃料完全燃烧放出的热量与燃料质量的比值，叫做燃料的**热值**。热值是燃料的一种特性，只与燃料的种类有关。" },
+        { "type": "equation", "latex": "q = \\frac{Q}{m}", "display": true },
+        { "type": "paragraph", "content": "其中 $q$ 表示热值，$Q$ 表示燃料完全燃烧放出的热量，$m$ 表示燃料的质量。热值的单位是 $\\text{J/kg}$（固体、液体）或 $\\text{J/m}^3$（气体）。" },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "热值计算",
+          "content": "使用公式 $Q=mq$ 时，注意 $m$ 是燃料的质量，不是物体的质量。"
+        }
+      ]
+    },
+    {
+      "title": "热机效率",
+      "defaultExpanded": true,
+      "blocks": [
+        { "type": "paragraph", "content": "热机用来做有用功的那部分能量，与燃料完全燃烧放出的能量之比，叫做**热机效率**。" },
+        { "type": "equation", "latex": "\\eta = \\frac{W}{Q} \\times 100\\%", "display": true },
+        { "type": "paragraph", "content": "其中 $\\eta$ 表示热机效率，$W$ 表示有用功，$Q$ 表示燃料完全燃烧放出的热量。热机效率总小于 $100\\%$。" },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "提高热机效率的途径",
+          "content": "1. 使燃料充分燃烧；2. 减少各种热量损失；3. 保持良好的润滑，减少摩擦。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "汽油机的效率约为 $20\\%\\sim30\\%$",
+            "柴油机的效率约为 $30\\%\\sim45\\%$"
+          ]
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "热值与效率计算",
+      "problem": [
+        { "type": "paragraph", "content": "完全燃烧 $2\\text{ kg}$ 的汽油，放出的热量是多少？若这些热量被水吸收，能使多少千克的水温度升高 $50^{\\circ}\\text{C}$？[汽油的热值 $q=4.6\\times10^7\\text{ J/kg}$，水的比热容 $c=4.2\\times10^3\\text{ J/(kg·}^{\\circ}\\text{C)}$]" }
+      ],
+      "solution": [
+        { "type": "paragraph", "content": "汽油完全燃烧放出的热量：$Q=mq=2\\text{ kg}\\times4.6\\times10^7\\text{ J/kg}=9.2\\times10^7\\text{ J}$" },
+        { "type": "paragraph", "content": "水吸收的热量 $Q_{\\text{吸}}=Q=9.2\\times10^7\\text{ J}$" },
+        { "type": "paragraph", "content": "由 $Q=cm\\Delta t$ 得：$m=\\frac{Q}{c\\Delta t}=\\frac{9.2\\times10^7\\text{ J}}{4.2\\times10^3\\text{ J/(kg·}^{\\circ}\\text{C)}\\times50^{\\circ}\\text{C}}\\approx438\\text{ kg}$" }
+      ],
+      "answer": "汽油放出热量 $9.2\\times10^7\\text{ J}$，能使约 $438\\text{ kg}$ 水升高 $50^{\\circ}\\text{C}$。",
+      "source": "人教版九年级物理教材习题改编"
+    }
+  ],
+  "summary": [
+    {
+      "text": "内能的利用",
+      "children": [
+        {
+          "text": "热机",
+          "children": [
+            { "text": "原理：将内能转化为机械能" },
+            { "text": "四冲程：吸气、压缩、做功、排气" }
+          ]
+        },
+        {
+          "text": "燃料热值",
+          "children": [
+            { "text": "定义：完全燃烧放出的热量与质量的比值" },
+            { "text": "公式：$q=Q/m$" }
+          ]
+        },
+        {
+          "text": "热机效率",
+          "children": [
+            { "text": "定义：有用功与燃料完全燃烧放出能量的比值" },
+            { "text": "公式：$\\eta=W/Q$" }
+          ]
+        }
+      ]
+    }
+  ]
+}

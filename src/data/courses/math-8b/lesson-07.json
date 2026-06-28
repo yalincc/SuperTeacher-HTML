@@ -39,6 +39,28 @@
           "content": "在平面内，将一个图形绕一个定点沿某个方向转动一个角度，这样的图形运动称为**旋转**。旋转不改变图形的形状和大小。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "O", "at": [3, 3] },
+              { "op": "point", "id": "A", "at": [3, 5] },
+              { "op": "point", "id": "B", "at": [5, 5] },
+              { "op": "segment", "from": "O", "to": "A" },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "B", "to": "O" },
+              { "op": "point", "id": "A2", "at": [5, 3] },
+              { "op": "point", "id": "B2", "at": [5, 1] },
+              { "op": "segment", "from": "O", "to": "A2", "color": "#2563eb" },
+              { "op": "segment", "from": "A2", "to": "B2", "color": "#2563eb" },
+              { "op": "segment", "from": "B2", "to": "O", "color": "#2563eb" },
+              { "op": "label", "at": [3, 3.5], "text": "O" },
+              { "op": "label", "at": [3.5, 5.5], "text": "原图" },
+              { "op": "label", "at": [5.5, 3], "text": "旋转后" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "旋转的三要素",

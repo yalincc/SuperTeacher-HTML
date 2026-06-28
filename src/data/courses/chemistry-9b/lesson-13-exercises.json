@@ -1,0 +1,58 @@
+{
+  "lessonId": 13,
+  "exercises": [
+    {
+      "type": "choice",
+      "id": "ex-13-1",
+      "stem": "下列物质中，属于有机物的是（　）",
+      "options": [
+        { "label": "A", "text": "碳酸钙（$CaCO_3$）" },
+        { "label": "B", "text": "二氧化碳（$CO_2$）" },
+        { "label": "C", "text": "甲烷（$CH_4$）" },
+        { "label": "D", "text": "碳酸（$H_2CO_3$）" }
+      ],
+      "answer": "C",
+      "analysis": "有机物是含碳化合物，但 $CO_2$、$H_2CO_3$、碳酸盐等除外。$CH_4$（甲烷）是最简单的有机物。$CaCO_3$ 是碳酸盐，$CO_2$ 和 $H_2CO_3$ 虽含碳但归为无机物。"
+    },
+    {
+      "type": "choice",
+      "id": "ex-13-2",
+      "stem": "下列材料中，属于合成材料的是（　）",
+      "options": [
+        { "label": "A", "text": "棉花" },
+        { "label": "B", "text": "羊毛" },
+        { "label": "C", "text": "塑料" },
+        { "label": "D", "text": "天然橡胶" }
+      ],
+      "answer": "C",
+      "analysis": "塑料、合成纤维、合成橡胶属于三大合成材料。棉花、羊毛、天然橡胶属于天然材料。",
+      "source": "改编自2022年山西中考"
+    },
+    {
+      "type": "true_false",
+      "id": "ex-13-3",
+      "stem": "所有含碳元素的化合物都是有机物。",
+      "answer": false,
+      "analysis": "$CO$、$CO_2$、$H_2CO_3$ 和碳酸盐（如 $CaCO_3$、$Na_2CO_3$）虽然含碳元素，但它们的性质与无机物相似，通常归为无机物，不属于有机物。"
+    },
+    {
+      "type": "fill",
+      "id": "ex-13-4",
+      "segments": ["三大合成材料是指___1___、___2___和___3___。废弃塑料造成的环境污染称为___4___。"],
+      "blanks": [
+        { "index": 1, "answer": "塑料", "alternatives": [] },
+        { "index": 2, "answer": "合成纤维", "alternatives": [] },
+        { "index": 3, "answer": "合成橡胶", "alternatives": [] },
+        { "index": 4, "answer": "白色污染", "alternatives": [] }
+      ],
+      "analysis": "三大合成材料是塑料、合成纤维和合成橡胶。废弃塑料随意丢弃造成的环境污染称为白色污染。"
+    },
+    {
+      "type": "short_answer",
+      "id": "ex-13-5",
+      "question": "如何鉴别天然纤维和合成纤维？请简述方法和现象。",
+      "referenceAnswer": "取少量纤维灼烧，闻气味。天然纤维（如棉花）灼烧有烧纸气味，灰烬细碎；天然蛋白质纤维（如羊毛）灼烧有烧羽毛气味，灰烬可碎；合成纤维灼烧有特殊刺激性气味，灰烬硬且结成小球。",
+      "scoringPoints": ["灼烧闻气味", "天然纤维有烧纸/烧羽毛气味", "合成纤维有特殊气味", "灰烬特征不同"]
+    }
+  ]
+}

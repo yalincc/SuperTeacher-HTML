@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Eye, EyeOff, BookOpen } from 'lucide-react'
 import type { Example } from '@/types'
 import ContentRenderer from './ContentRenderer'
+import { renderInline } from '@/utils/renderInline'
 
 interface Props {
   examples: Example[]
@@ -66,7 +67,7 @@ function ExampleCard({ example, index }: { example: Example; index: number }) {
             {/* 答案 */}
             <div className="flex items-center gap-3 px-5 py-3.5 bg-success-bg rounded-2xl mb-4">
               <span className="text-success text-sm font-bold">答案</span>
-              <span className="text-base text-text font-medium">{example.answer}</span>
+              <span className="text-base text-text font-medium">{renderInline(example.answer)}</span>
             </div>
 
             {/* 解析 */}

@@ -53,6 +53,28 @@
           "variant": "warning",
           "title": "易错提醒",
           "content": "正方形的对角线将正方形分成四个全等的等腰直角三角形，每个三角形的锐角为 $45°$。"
+        },
+        {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [1, 5] },
+              { "op": "point", "id": "B", "at": [5, 5] },
+              { "op": "point", "id": "C", "at": [5, 1] },
+              { "op": "point", "id": "D", "at": [1, 1] },
+              { "op": "segment", "from": "A", "to": "B" },
+              { "op": "segment", "from": "B", "to": "C" },
+              { "op": "segment", "from": "C", "to": "D" },
+              { "op": "segment", "from": "D", "to": "A" },
+              { "op": "segment", "from": "A", "to": "C", "style": "dashed" },
+              { "op": "segment", "from": "B", "to": "D", "style": "dashed" },
+              { "op": "label", "at": [0.5, 5.5], "text": "A" },
+              { "op": "label", "at": [5.5, 5.5], "text": "B" },
+              { "op": "label", "at": [5.5, 0.5], "text": "C" },
+              { "op": "label", "at": [0.5, 0.5], "text": "D" }
+            ]
+          }
         }
       ]
     },

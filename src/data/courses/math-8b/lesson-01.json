@@ -35,6 +35,27 @@
           "content": "能够完全重合的两个三角形叫做**全等三角形**。全等三角形的对应边相等，对应角相等。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "A", "at": [0.5, 1] },
+              { "op": "point", "id": "B", "at": [3, 1] },
+              { "op": "point", "id": "C", "at": [1.5, 3.5] },
+              { "op": "triangle", "points": ["A", "B", "C"], "labels": ["A", "B", "C"],
+                "ticks": { "ab": 1, "bc": 2, "ca": 1 }
+              },
+              { "op": "point", "id": "D", "at": [4, 1] },
+              { "op": "point", "id": "E", "at": [6.5, 1] },
+              { "op": "point", "id": "F", "at": [5, 3.5] },
+              { "op": "triangle", "points": ["D", "E", "F"], "labels": ["D", "E", "F"],
+                "ticks": { "de": 1, "ef": 2, "fd": 1 }
+              },
+              { "op": "label", "at": [3.5, 0.5], "text": "≌" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "全等符号",

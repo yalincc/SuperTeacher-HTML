@@ -43,6 +43,29 @@
           "content": "即：若圆周角 $\\angle BAC$ 和圆心角 $\\angle BOC$ 对同一条弧 $\\overset{\\frown}{BC}$，则 $\\angle BAC = \\frac{1}{2}\\angle BOC$。"
         },
         {
+          "type": "figure",
+          "figure": {
+            "type": "construction",
+            "construction": [
+              { "op": "point", "id": "O", "at": [3, 3] },
+              { "op": "circle", "id": "c1", "center": "O", "radius": 2.5 },
+              { "op": "point", "id": "A", "at": [1, 1.5] },
+              { "op": "point", "id": "B", "at": [5, 1.5] },
+              { "op": "point", "id": "C", "at": [3, 5.5] },
+              { "op": "segment", "from": "O", "to": "A" },
+              { "op": "segment", "from": "O", "to": "B" },
+              { "op": "segment", "from": "C", "to": "A" },
+              { "op": "segment", "from": "C", "to": "B" },
+              { "op": "label", "at": [3, 3.5], "text": "O" },
+              { "op": "label", "at": [0.5, 1], "text": "A" },
+              { "op": "label", "at": [5.5, 1], "text": "B" },
+              { "op": "label", "at": [3, 6], "text": "C" },
+              { "op": "angle_mark", "vertex": "O", "p1": "A", "p2": "B", "label": "圆心角" },
+              { "op": "angle_mark", "vertex": "C", "p1": "A", "p2": "B", "label": "圆周角" }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "variant": "tip",
           "title": "记忆技巧",
