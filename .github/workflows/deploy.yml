@@ -27,6 +27,8 @@ jobs:
       - run: npm ci
       - run: npm run validate
       - run: npm run build
+        env:
+          VITE_BASE: /SuperTeacher-HTML/
 
       - name: SPA 404 fallback
         run: cp dist/index.html dist/404.html
