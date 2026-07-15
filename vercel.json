@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build -- --base=/",
+  "outputDirectory": "dist",
+  "framework": "vite"
+}
