@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom'
+import { HashRouter, Routes, Route, useParams } from 'react-router-dom'
 import { ProgressContext } from './hooks/ProgressContext'
 import { useProgress } from './hooks/useProgress'
 import { GameContext } from './hooks/useGame'
@@ -42,7 +42,7 @@ function CourseEntry() {
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route element={<AppLayout />}>
           <Route path="/" element={<HomePage />} />
@@ -60,7 +60,7 @@ function App() {
           <Route path="/course/:courseId/lesson/:id/complete" element={<LessonComplete />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
