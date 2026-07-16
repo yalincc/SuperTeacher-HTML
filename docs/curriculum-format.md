@@ -175,7 +175,67 @@ B. 选项B
 
 ---
 
-## 四、转换命令
+## 四、JSON 中的 LaTeX 转义规则
+
+> **这是最容易出错的地方！** 物理课程曾因转义错误导致 8 个文件的 LaTeX 全部无法渲染。
+
+### 4.1 核心规则
+
+JSON 中 `\` 是转义字符，所以 LaTeX 命令需要双重转义：
+
+| LaTeX 写法 | JSON 中正确写法 | JSON 中错误写法 | 后果 |
+|-----------|----------------|----------------|------|
+| `\text{}` | `\\text{}` | `\\\\text{}` | KaTeX 显示原始文本 |
+| `\circ` | `\\circ` | `\\\\circ` | °符号无法渲染 |
+| `\Delta` | `\\Delta` | `\\\\Delta` | Δ符号无法渲染 |
+| `\times` | `\\times` | `\\\\times` | ×符号无法渲染 |
+| `\\` (换行) | `\\\\` | `\\\\\\\\` | 换行失效 |
+
+### 4.2 验证方法
+
+用 Node.js 验证 JSON 解析后的实际字符串：
+
+```bash
+node -e "const fs = require('fs'); const data = JSON.parse(fs.readFileSync('文件路径.json', 'utf-8')); console.log(包含LaTeX的字段);"
+```
+
+**正确输出**（单反斜杠）：
+```
+将 $2\text{ kg}$ 的水从 $20^{\circ}\text{C}$ 加热到 $70^{\circ}\text{C}$
+```
+
+**错误输出**（双反斜杠，KaTeX 无法识别）：
+```
+将 $2\\text{ kg}$ 的水从 $20^{\\circ}\\text{C}$ 加热到 $70^{\\circ}\\text{C}$
+```
+
+### 4.3 常见错误模式
+
+| 错误模式 | 原因 | 修复 |
+|---------|------|------|
+| `\\\\text` 出现在 JSON 中 | 生成时多加了反斜杠 | 改为 `\\text` |
+| `\\circ` 出现在 JSON 中 | 转义正确但浏览器显示双斜杠 | 检查 KaTeX 加载 |
+| `\text` 出现在 JSON 中 | 转义不足，JSON 解析出错 | 改为 `\\text` |
+
+### 4.4 批量检查脚本
+
+```javascript
+// 检查目录下所有 JSON 文件的 LaTeX 转义
+import { readFileSync, readdirSync } from 'fs';
+const dir = 'src/data/courses/物理目录';
+const files = readdirSync(dir).filter(f => f.endsWith('.json'));
+for (const f of files) {
+  const content = readFileSync(dir + '/' + f, 'utf-8');
+  // 检查是否有 4 个连续反斜杠（错误）
+  if (/\\\\\\\\/.test(content)) {
+    console.log(`❌ 需要修复: ${f}`);
+  }
+}
+```
+
+---
+
+## 五、转换命令
 
 ```bash
 node scripts/fix-md-format.mjs    # 可选：修正公式格式
@@ -185,7 +245,7 @@ npm run build                      # 构建
 
 ---
 
-## 五、转换脚本已知问题
+## 六、转换脚本已知问题
 
 | 问题 | 影响范围 | 状态 |
 |------|---------|------|
