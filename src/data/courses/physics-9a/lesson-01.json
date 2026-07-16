@@ -11,7 +11,7 @@
     { "text": "了解分子热运动的基本概念", "isKeyPoint": false },
     { "text": "理解内能的定义和影响因素", "isKeyPoint": true },
     { "text": "掌握改变内能的两种方式：做功和热传递", "isKeyPoint": true },
-    { "text": "能够运用热量计算公式 $Q=cm\\\\Delta t$ 进行简单计算", "isKeyPoint": true }
+    { "text": "能够运用热量计算公式 $Q=cm\\Delta t$ 进行简单计算", "isKeyPoint": true }
   ],
   "knowledge": [
     {
@@ -67,11 +67,11 @@
           "type": "callout",
           "variant": "tip",
           "title": "热量计算",
-          "content": "热量计算公式：$Q=cm\\\\Delta t$，其中 $c$ 是比热容，$m$ 是质量，$\\\\Delta t$ 是温度变化量。"
+          "content": "热量计算公式：$Q=cm\\Delta t$，其中 $c$ 是比热容，$m$ 是质量，$\\Delta t$ 是温度变化量。"
         },
         {
           "type": "equation",
-          "latex": "Q = cm\\\\Delta t",
+          "latex": "Q = cm\\Delta t",
           "display": true
         }
       ]
@@ -81,14 +81,14 @@
     {
       "title": "热量计算",
       "problem": [
-        { "type": "paragraph", "content": "将 $2\\\\text{ kg}$ 的水从 $20^{\\\\circ}\\\\text{C}$ 加热到 $70^{\\\\circ}\\\\text{C}$，需要吸收多少热量？[水的比热容 $c=4.2\\\\times10^3\\\\text{ J/(kg·}^{\\\\circ}\\\\text{C)}$]" }
+        { "type": "paragraph", "content": "将 $2\\text{ kg}$ 的水从 $20^{\\circ}\\text{C}$ 加热到 $70^{\\circ}\\text{C}$，需要吸收多少热量？[水的比热容 $c=4.2\\times10^3\\text{ J/(kg·}^{\\circ}\\text{C)}$]" }
       ],
       "solution": [
-        { "type": "paragraph", "content": "已知：$m=2\\\\text{ kg}$，$t_0=20^{\\\\circ}\\\\text{C}$，$t=70^{\\\\circ}\\\\text{C}$，$c=4.2\\\\times10^3\\\\text{ J/(kg·}^{\\\\circ}\\\\text{C)}$" },
-        { "type": "paragraph", "content": "温度变化：$\\\\Delta t = t - t_0 = 70^{\\\\circ}\\\\text{C} - 20^{\\\\circ}\\\\text{C} = 50^{\\\\circ}\\\\text{C}$" },
-        { "type": "paragraph", "content": "根据公式 $Q=cm\\\\Delta t$：$Q = 4.2\\\\times10^3\\\\text{ J/(kg·}^{\\\\circ}\\\\text{C)} \\times 2\\\\text{ kg} \\times 50^{\\\\circ}\\\\text{C} = 4.2\\\\times10^5\\\\text{ J}$" }
+        { "type": "paragraph", "content": "已知：$m=2\\text{ kg}$，$t_0=20^{\\circ}\\text{C}$，$t=70^{\\circ}\\text{C}$，$c=4.2\\times10^3\\text{ J/(kg·}^{\\circ}\\text{C)}$" },
+        { "type": "paragraph", "content": "温度变化：$\\Delta t = t - t_0 = 70^{\\circ}\\text{C} - 20^{\\circ}\\text{C} = 50^{\\circ}\\text{C}$" },
+        { "type": "paragraph", "content": "根据公式 $Q=cm\\Delta t$：$Q = 4.2\\times10^3\\text{ J/(kg·}^{\\circ}\\text{C)} \times 2\\text{ kg} \times 50^{\\circ}\\text{C} = 4.2\\times10^5\\text{ J}$" }
       ],
-      "answer": "$4.2\\\\times10^5\\\\text{ J}$",
+      "answer": "$4.2\\times10^5\\text{ J}$",
       "source": "人教版九年级物理教材例题改编"
     }
   ],
@@ -110,7 +110,7 @@
             { "text": "热传递：能量转移" }
           ]
         },
-        { "text": "热量计算：$Q=cm\\\\Delta t$" }
+        { "text": "热量计算：$Q=cm\\Delta t$" }
       ]
     }
   ]

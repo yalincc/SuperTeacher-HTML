@@ -34,7 +34,7 @@
       "id": "ex-4-3",
       "stem": "在串联电路中，总电压等于各部分电路电压之和。",
       "answer": true,
-      "analysis": "串联电路的电压规律：总电压等于各部分电路电压之和，即 $U=U_1+U_2+\\cdots$。"
+      "analysis": "串联电路的电压规律：总电压等于各部分电路电压之和，即 $U=U_1+U_2+\cdots$。"
     },
     {
       "type": "fill",
@@ -43,9 +43,9 @@
       "blanks": [
         { "index": 1, "answer": "伏特", "alternatives": ["伏"] },
         { "index": 2, "answer": "V", "alternatives": ["v"] },
-        { "index": 3, "answer": "$36\\text{ V}$", "alternatives": ["36伏", "36V"] }
+        { "index": 3, "answer": "$36\text{ V}$", "alternatives": ["36伏", "36V"] }
       ],
-      "analysis": "电压的单位是伏特，简称伏，符号 V。对人体的安全电压是不高于 $36\\text{ V}$。"
+      "analysis": "电压的单位是伏特，简称伏，符号 V。对人体的安全电压是不高于 $36\text{ V}$。"
     },
     {
       "type": "short_answer",

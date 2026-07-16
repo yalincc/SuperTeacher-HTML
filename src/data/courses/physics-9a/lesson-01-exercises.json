@@ -20,7 +20,7 @@
       "id": "ex-1-2",
       "stem": "关于内能，下列说法正确的是",
       "options": [
-        { "label": "A", "text": "温度为 $0^{\\\\circ}\\\\text{C}$ 的物体没有内能" },
+        { "label": "A", "text": "温度为 $0^{\\circ}\\text{C}$ 的物体没有内能" },
         { "label": "B", "text": "温度越高的物体内能一定越大" },
         { "label": "C", "text": "物体的内能增加，一定是从外界吸收了热量" },
         { "label": "D", "text": "内能是物体内所有分子热运动的动能与分子势能的总和" }
@@ -39,12 +39,12 @@
     {
       "type": "fill",
       "id": "ex-1-4",
-      "segments": ["水的比热容是 $4.2\\\\times10^3\\\\text{ J/(kg·}^{\\\\circ}\\\\text{C)}$，表示 $1\\\\text{ kg}$ 的水温度升高 $1^{\\\\circ}\\\\text{C}$ 吸收的热量是 ___1___。若将 $2\\\\text{ kg}$ 的水温度升高 $30^{\\\\circ}\\\\text{C}$，吸收的热量是 ___2___。"],
+      "segments": ["水的比热容是 $4.2\\times10^3\\text{ J/(kg·}^{\\circ}\\text{C)}$，表示 $1\\text{ kg}$ 的水温度升高 $1^{\\circ}\\text{C}$ 吸收的热量是 ___1___。若将 $2\\text{ kg}$ 的水温度升高 $30^{\\circ}\\text{C}$，吸收的热量是 ___2___。"],
       "blanks": [
-        { "index": 1, "answer": "$4.2\\\\times10^3\\\\text{ J}$", "alternatives": ["4200 J", "$4200\\\\text{ J}$"] },
-        { "index": 2, "answer": "$2.52\\\\times10^5\\\\text{ J}$", "alternatives": ["252000 J", "$252000\\\\text{ J}$"] }
+        { "index": 1, "answer": "$4.2\\times10^3\\text{ J}$", "alternatives": ["4200 J", "$4200\\text{ J}$"] },
+        { "index": 2, "answer": "$2.52\\times10^5\\text{ J}$", "alternatives": ["252000 J", "$252000\\text{ J}$"] }
       ],
-      "analysis": "比热容的物理意义：单位质量的某种物质温度升高 $1^{\\\\circ}\\\\text{C}$ 吸收的热量。根据 $Q=cm\\\\Delta t$ 计算：$Q=4.2\\\\times10^3\\\\times2\\\\times30=2.52\\\\times10^5\\\\text{ J}$。"
+      "analysis": "比热容的物理意义：单位质量的某种物质温度升高 $1^{\\circ}\\text{C}$ 吸收的热量。根据 $Q=cm\\Delta t$ 计算：$Q=4.2\\times10^3\\times2\\times30=2.52\\times10^5\\text{ J}$。"
     }
   ]
 }

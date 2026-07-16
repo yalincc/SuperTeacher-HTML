@@ -75,12 +75,12 @@
         },
         {
           "type": "equation",
-          "latex": "I = \\frac{U}{R}",
+          "latex": "I = \frac{U}{R}",
           "display": true
         },
         {
           "type": "paragraph",
-          "content": "其中 $I$ 表示电流（单位：安培 A），$U$ 表示电压（单位：伏特 V），$R$ 表示电阻（单位：欧姆 $\\Omega$）。"
+          "content": "其中 $I$ 表示电流（单位：安培 A），$U$ 表示电压（单位：伏特 V），$R$ 表示电阻（单位：欧姆 $\Omega$）。"
         },
         {
           "type": "callout",
@@ -133,20 +133,20 @@
       "problem": [
         {
           "type": "paragraph",
-          "content": "一个电阻 $R=10\\Omega$，接在电压 $U=6\\text{ V}$ 的电源上，通过电阻的电流是多少？"
+          "content": "一个电阻 $R=10\Omega$，接在电压 $U=6\text{ V}$ 的电源上，通过电阻的电流是多少？"
         }
       ],
       "solution": [
         {
           "type": "paragraph",
-          "content": "已知：$R=10\\Omega$，$U=6\\text{ V}$"
+          "content": "已知：$R=10\Omega$，$U=6\text{ V}$"
         },
         {
           "type": "paragraph",
-          "content": "根据欧姆定律 $I=U/R$：$I=6\\text{ V}/10\\Omega=0.6\\text{ A}$"
+          "content": "根据欧姆定律 $I=U/R$：$I=6\text{ V}/10\Omega=0.6\text{ A}$"
         }
       ],
-      "answer": "$0.6\\text{ A}$",
+      "answer": "$0.6\text{ A}$",
       "source": "人教版九年级物理教材例题"
     }
   ],
