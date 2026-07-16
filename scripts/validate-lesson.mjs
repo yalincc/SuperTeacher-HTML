@@ -1,14 +1,15 @@
 /**
  * SuperTeacher 课程 JSON 校验脚本
- * 用法: node scripts/validate-lesson.mjs [file]
+ * 用法: node scripts/validate-lesson.mjs [--fix] [file]
  * 不传参数则校验 src/data/courses/ 下所有 lesson-*.json
+ * --fix 自动修复 LaTeX 转义问题
  *
  * 支持两种文件格式：
  *   - 知识点文件: lesson-XX.json（含 meta/objectives/knowledge/examples/summary）
  *   - 练习题文件: lesson-XX-exercises.json（含 lessonId/exercises）
  */
 
-import { readFileSync, readdirSync } from 'fs'
+import { readFileSync, writeFileSync, readdirSync } from 'fs'
 import { join, dirname, basename } from 'path'
 import { fileURLToPath } from 'url'
 
@@ -19,52 +20,84 @@ const VALID_BLOCK_TYPES = ['paragraph', 'table', 'callout', 'equation', 'list', 
 const VALID_EXERCISE_TYPES = ['choice', 'true_false', 'fill', 'short_answer']
 const VALID_CALLOUT_VARIANTS = ['warning', 'tip', 'note', 'mnemonic', 'quote']
 
-// ===== 主流程 =====
+// ===== LaTeX 转义检查 =====
 
-const targetFile = process.argv[2]
+// 常见 LaTeX 命令（单反斜杠在 JSON 中无效，需要双反斜杠）
+const LATEX_COMMANDS = [
+  // 希腊字母
+  'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta',
+  'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron', 'pi', 'rho',
+  'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega',
+  'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta',
+  'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho',
+  'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega',
+  // 数学函数
+  'text', 'frac', 'sqrt', 'sin', 'cos', 'tan', 'cot', 'sec', 'csc',
+  'log', 'ln', 'lim', 'max', 'min', 'sum', 'prod', 'int', 'partial', 'nabla', 'infty',
+  // 符号
+  'circ', 'cdot', 'cdots', 'times', 'sim', 'approx', 'leq', 'geq', 'neq',
+  'pm', 'mp', 'div', 'quad', 'qquad',
+  // 箭头
+  'rightarrow', 'leftarrow', 'Rightarrow', 'Leftarrow', 'leftrightarrow',
+  'xrightarrow', 'xleftarrow', 'uparrow', 'downarrow',
+  // 数学字体
+  'mathrm', 'mathbf', 'mathit', 'mathbb', 'operatorname',
+  // 其他
+  'Omega', 'overrightarrow'
+]
 
-let allFiles = []
-try {
-  const courseDirs = readdirSync(COURSES_DIR, { withFileTypes: true })
-    .filter(d => d.isDirectory())
-    .map(d => d.name)
-  for (const course of courseDirs) {
-    const courseDir = join(COURSES_DIR, course)
-    const files = readdirSync(courseDir).filter(f => f.endsWith('.json') && f.startsWith('lesson-'))
-    allFiles.push(...files.map(f => join(courseDir, f)))
+function checkLatexEscaping(content, file) {
+  const errors = []
+  const lines = content.split('\n')
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i]
+    for (const cmd of LATEX_COMMANDS) {
+      // 匹配单反斜杠 + 命令（不是双反斜杠）
+      const regex = new RegExp(`(?<!\\\\)\\\\${cmd}(?![a-zA-Z])`, 'g')
+      if (regex.test(line)) {
+        errors.push(`LaTeX 转义错误: 第 ${i + 1} 行有 \\${cmd}，应为 \\\\${cmd}`)
+      }
+    }
+    // 检查 \% 问题
+    const percentRegex = /(?<!\\)\\%(?!["\s])/
+    if (percentRegex.test(line)) {
+      errors.push(`LaTeX 转义错误: 第 ${i + 1} 行有 \\%，应为 \\\\%`)
+    }
   }
-} catch {
-  // courses 目录不存在时忽略
+
+  return errors
 }
 
-const files = targetFile
-  ? [join(process.cwd(), targetFile)]
-  : allFiles
-
-let totalErrors = 0
-
-for (const file of files) {
-  const name = basename(file)
-  const errors = validateFile(file, name)
-  if (errors.length === 0) {
-    console.log(`  ✓ ${name}`)
-  } else {
-    console.log(`  ✗ ${name}:`)
-    for (const e of errors) console.log(`      ${e}`)
-    totalErrors += errors.length
+function fixLatexEscaping(content) {
+  for (const cmd of LATEX_COMMANDS) {
+    const regex = new RegExp(`(?<!\\\\)\\\\${cmd}(?![a-zA-Z])`, 'g')
+    content = content.replace(regex, `\\\\${cmd}`)
   }
+  // 修复 \%
+  content = content.replace(/(?<!\\)\\%/g, '\\\\%')
+  return content
 }
-
-console.log(totalErrors === 0
-  ? `\n✅ 全部通过！共 ${files.length} 个文件`
-  : `\n❌ 共 ${totalErrors} 个错误`)
-process.exit(totalErrors > 0 ? 1 : 0)
 
 // ===== 校验逻辑 =====
 
 function validateFile(file, name) {
   const errors = []
   let data
+
+  // 检查 LaTeX 转义问题（在 JSON 解析之前）
+  const rawContent = readFileSync(file, 'utf-8')
+  const latexErrors = checkLatexEscaping(rawContent, file)
+  if (latexErrors.length > 0) {
+    if (autoFix) {
+      const fixed = fixLatexEscaping(rawContent)
+      writeFileSync(file, fixed, 'utf-8')
+      console.log(`    🔧 已自动修复 LaTeX 转义`)
+    } else {
+      errors.push(...latexErrors)
+    }
+  }
+
   try {
     data = JSON.parse(readFileSync(file, 'utf-8'))
   } catch (e) {
@@ -291,3 +324,46 @@ function validateSummaryNode(node, path, errors) {
     }
   }
 }
+
+// ===== 主流程 =====
+
+const args = process.argv.slice(2)
+const autoFix = args.includes('--fix')
+const targetFile = args.find(a => !a.startsWith('--'))
+
+let allFiles = []
+try {
+  const courseDirs = readdirSync(COURSES_DIR, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+  for (const course of courseDirs) {
+    const courseDir = join(COURSES_DIR, course)
+    const files = readdirSync(courseDir).filter(f => f.endsWith('.json') && f.startsWith('lesson-'))
+    allFiles.push(...files.map(f => join(courseDir, f)))
+  }
+} catch {
+  // courses 目录不存在时忽略
+}
+
+const files = targetFile
+  ? [join(process.cwd(), targetFile)]
+  : allFiles
+
+let totalErrors = 0
+
+for (const file of files) {
+  const name = basename(file)
+  const errors = validateFile(file, name)
+  if (errors.length === 0) {
+    console.log(`  ✓ ${name}`)
+  } else {
+    console.log(`  ✗ ${name}:`)
+    for (const e of errors) console.log(`      ${e}`)
+    totalErrors += errors.length
+  }
+}
+
+console.log(totalErrors === 0
+  ? `\n✅ 全部通过！共 ${files.length} 个文件`
+  : `\n❌ 共 ${totalErrors} 个错误`)
+process.exit(totalErrors > 0 ? 1 : 0)
