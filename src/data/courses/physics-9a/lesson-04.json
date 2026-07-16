@@ -19,7 +19,7 @@
       "defaultExpanded": true,
       "blocks": [
         { "type": "paragraph", "content": "电压是使电路中形成电流的原因。电源提供电压，电压的单位是**伏特**（V）。" },
-        { "type": "paragraph", "content": "常见电压值：一节干电池 $1.5\text{ V}$，家庭电路 $220\text{ V}$，对人体安全电压不高于 $36\text{ V}$。" },
+        { "type": "paragraph", "content": "常见电压值：一节干电池 $1.5\\text{ V}$，家庭电路 $220\\text{ V}$，对人体安全电压不高于 $36\\text{ V}$。" },
         {
           "type": "callout",
           "variant": "note",
@@ -40,8 +40,8 @@
       "title": "串联和并联电路的电压规律",
       "defaultExpanded": true,
       "blocks": [
-        { "type": "paragraph", "content": "**串联电路**中，总电压等于各部分电路电压之和：$U=U_1+U_2+\cdots$" },
-        { "type": "paragraph", "content": "**并联电路**中，各支路两端的电压相等，且等于电源电压：$U=U_1=U_2=\cdots$" },
+        { "type": "paragraph", "content": "**串联电路**中，总电压等于各部分电路电压之和：$U=U_1+U_2+\\cdots$" },
+        { "type": "paragraph", "content": "**并联电路**中，各支路两端的电压相等，且等于电源电压：$U=U_1=U_2=\\cdots$" },
         {
           "type": "callout",
           "variant": "tip",
@@ -50,12 +50,12 @@
         },
         {
           "type": "equation",
-          "latex": "U = U_1 + U_2 \quad (\text{串联})",
+          "latex": "U = U_1 + U_2 \\quad (\\text{串联})",
           "display": true
         },
         {
           "type": "equation",
-          "latex": "U = U_1 = U_2 \quad (\text{并联})",
+          "latex": "U = U_1 = U_2 \\quad (\\text{并联})",
           "display": true
         }
       ]
@@ -64,7 +64,7 @@
       "title": "电阻及其影响因素",
       "defaultExpanded": true,
       "blocks": [
-        { "type": "paragraph", "content": "电阻是表示导体对电流阻碍作用大小的物理量。电阻的单位是**欧姆**（$\Omega$）。" },
+        { "type": "paragraph", "content": "电阻是表示导体对电流阻碍作用大小的物理量。电阻的单位是**欧姆**（$\\Omega$）。" },
         { "type": "paragraph", "content": "导体的电阻是导体本身的一种性质，其大小决定于导体的**材料**、**长度**、**横截面积**和**温度**。" },
         {
           "type": "callout",
@@ -88,13 +88,13 @@
     {
       "title": "电压表读数",
       "problem": [
-        { "type": "paragraph", "content": "如图所示，电压表使用的是 $0\sim3\text{ V}$ 量程，指针指在 $2.5\text{ V}$ 处，则电压表的示数为多少？" }
+        { "type": "paragraph", "content": "如图所示，电压表使用的是 $0\\sim3\\text{ V}$ 量程，指针指在 $2.5\\text{ V}$ 处，则电压表的示数为多少？" }
       ],
       "solution": [
-        { "type": "paragraph", "content": "电压表量程为 $0\sim3\text{ V}$，分度值为 $0.1\text{ V}$。" },
-        { "type": "paragraph", "content": "指针指在 $2.5\text{ V}$ 处，所以电压表的示数为 $2.5\text{ V}$。" }
+        { "type": "paragraph", "content": "电压表量程为 $0\\sim3\\text{ V}$，分度值为 $0.1\\text{ V}$。" },
+        { "type": "paragraph", "content": "指针指在 $2.5\\text{ V}$ 处，所以电压表的示数为 $2.5\\text{ V}$。" }
       ],
-      "answer": "$2.5\text{ V}$",
+      "answer": "$2.5\\text{ V}$",
       "source": "人教版九年级物理教材习题"
     }
   ],

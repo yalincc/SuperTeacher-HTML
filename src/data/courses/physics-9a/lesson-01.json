@@ -86,7 +86,7 @@
       "solution": [
         { "type": "paragraph", "content": "已知：$m=2\\text{ kg}$，$t_0=20^{\\circ}\\text{C}$，$t=70^{\\circ}\\text{C}$，$c=4.2\\times10^3\\text{ J/(kg·}^{\\circ}\\text{C)}$" },
         { "type": "paragraph", "content": "温度变化：$\\Delta t = t - t_0 = 70^{\\circ}\\text{C} - 20^{\\circ}\\text{C} = 50^{\\circ}\\text{C}$" },
-        { "type": "paragraph", "content": "根据公式 $Q=cm\\Delta t$：$Q = 4.2\\times10^3\\text{ J/(kg·}^{\\circ}\\text{C)} \times 2\\text{ kg} \times 50^{\\circ}\\text{C} = 4.2\\times10^5\\text{ J}$" }
+        { "type": "paragraph", "content": "根据公式 $Q=cm\\Delta t$：$Q = 4.2\\times10^3\\text{ J/(kg·}^{\\circ}\\text{C)} \\times 2\\text{ kg} \\times 50^{\\circ}\\text{C} = 4.2\\times10^5\\text{ J}$" }
       ],
       "answer": "$4.2\\times10^5\\text{ J}$",
       "source": "人教版九年级物理教材例题改编"
