@@ -8,7 +8,7 @@
     "day": 1
   },
   "objectives": [
-    { "text": "理解分式的概念：$\frac{A}{B}$，其中 $A$、$B$ 是整式，且 $B$ 含有字母", "isKeyPoint": true },
+    { "text": "理解分式的概念：$\\frac{A}{B}$，其中 $A$、$B$ 是整式，且 $B$ 含有字母", "isKeyPoint": true },
     { "text": "掌握分式有意义、无意义、值为零的条件", "isKeyPoint": true },
     { "text": "理解分式的基本性质：约分与通分", "isKeyPoint": true },
     { "text": "能正确判断一个代数式是否为分式", "isKeyPoint": false },
@@ -21,19 +21,19 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "一般地，如果 $A$、$B$ 表示两个整式，并且 $B$ 中含有字母，那么式子 $\frac{A}{B}$ 叫做**分式**。其中 $A$ 叫做分式的**分子**，$B$ 叫做分式的**分母**。"
+          "content": "一般地，如果 $A$、$B$ 表示两个整式，并且 $B$ 中含有字母，那么式子 $\\frac{A}{B}$ 叫做**分式**。其中 $A$ 叫做分式的**分子**，$B$ 叫做分式的**分母**。"
         },
         {
           "type": "callout",
           "variant": "tip",
           "title": "与分数类比",
-          "content": "分式是分数的推广。分数 $\frac{3}{5}$ 中分子分母都是整数，分式 $\frac{x}{x+1}$ 中分母含有字母。"
+          "content": "分式是分数的推广。分数 $\\frac{3}{5}$ 中分子分母都是整数，分式 $\\frac{x}{x+1}$ 中分母含有字母。"
         },
         {
           "type": "callout",
           "variant": "warning",
           "title": "判断要点",
-          "content": "分母必须含有字母。$\frac{x}{2}$ 不是分式（分母是常数），$\frac{2}{x}$ 是分式（分母含字母）。"
+          "content": "分母必须含有字母。$\\frac{x}{2}$ 不是分式（分母是常数），$\\frac{2}{x}$ 是分式（分母含字母）。"
         }
       ]
     },
@@ -49,13 +49,13 @@
           "type": "callout",
           "variant": "tip",
           "title": "解题关键",
-          "content": "求分式有意义的条件：令分母 $\neq 0$，解不等式。\n求分式值为零：令分子 $= 0$ 且分母 $\neq 0$，联立求解。"
+          "content": "求分式有意义的条件：令分母 $\\neq 0$，解不等式。\n求分式值为零：令分子 $= 0$ 且分母 $\\neq 0$，联立求解。"
         },
         {
           "type": "callout",
           "variant": "warning",
           "title": "易错点",
-          "content": "分式值为零需要**同时**满足分子为零且分母不为零。例如 $\frac{x-1}{x^2-1}$，当 $x=1$ 时分子为零但分母也为零，分式无意义，值不为零。"
+          "content": "分式值为零需要**同时**满足分子为零且分母不为零。例如 $\\frac{x-1}{x^2-1}$，当 $x=1$ 时分子为零但分母也为零，分式无意义，值不为零。"
         }
       ]
     },
@@ -92,7 +92,7 @@
       "problem": [
         {
           "type": "paragraph",
-          "content": "当 $x$ 取何值时，分式 $\frac{x+1}{x-2}$ 有意义？"
+          "content": "当 $x$ 取何值时，分式 $\\frac{x+1}{x-2}$ 有意义？"
         }
       ],
       "solution": [
@@ -108,7 +108,7 @@
       "problem": [
         {
           "type": "paragraph",
-          "content": "当 $x$ 取何值时，分式 $\frac{x^2 - 1}{x + 1}$ 的值为零？"
+          "content": "当 $x$ 取何值时，分式 $\\frac{x^2 - 1}{x + 1}$ 的值为零？"
         }
       ],
       "solution": [

@@ -88,7 +88,7 @@
           "type": "callout",
           "variant": "tip",
           "title": "性质2的数学表达",
-          "content": "如果 $a>b$，$c>0$，那么 $ac>bc$，$\frac{a}{c}>\frac{b}{c}$。"
+          "content": "如果 $a>b$，$c>0$，那么 $ac>bc$，$\\frac{a}{c}>\\frac{b}{c}$。"
         },
         {
           "type": "paragraph",
@@ -114,7 +114,7 @@
           "type": "callout",
           "variant": "warning",
           "title": "重要性质",
-          "content": "如果 $a>b$，$c<0$，那么 $ac<bc$，$\frac{a}{c}<\frac{b}{c}$。这是不等式性质中最容易出错的地方！"
+          "content": "如果 $a>b$，$c<0$，那么 $ac<bc$，$\\frac{a}{c}<\\frac{b}{c}$。这是不等式性质中最容易出错的地方！"
         },
         {
           "type": "paragraph",
@@ -169,7 +169,7 @@
         },
         {
           "type": "paragraph",
-          "content": "两边同时除以 $-2$（不等式性质3），得 $x<\frac{6}{-2}$，"
+          "content": "两边同时除以 $-2$（不等式性质3），得 $x<\\frac{6}{-2}$，"
         },
         {
           "type": "paragraph",

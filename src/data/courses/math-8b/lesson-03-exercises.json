@@ -20,7 +20,7 @@
         },
         {
           "label": "D",
-          "text": "$\frac{a}{2}>\frac{b}{2}$"
+          "text": "$\\frac{a}{2}>\\frac{b}{2}$"
         }
       ],
       "answer": "C",

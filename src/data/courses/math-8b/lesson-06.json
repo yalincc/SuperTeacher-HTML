@@ -168,7 +168,7 @@
       "problem": [
         {
           "type": "paragraph",
-          "content": "将三角形 $ABC$ 沿 $AB$ 方向平移 $2\text{ cm}$，画出平移后的三角形 $A'B'C'$。"
+          "content": "将三角形 $ABC$ 沿 $AB$ 方向平移 $2\\text{ cm}$，画出平移后的三角形 $A'B'C'$。"
         }
       ],
       "solution": [
@@ -178,7 +178,7 @@
         },
         {
           "type": "paragraph",
-          "content": "1. 确定平移方向为 $AB$ 方向，平移距离为 $2\text{ cm}$。"
+          "content": "1. 确定平移方向为 $AB$ 方向，平移距离为 $2\\text{ cm}$。"
         },
         {
           "type": "paragraph",
@@ -186,15 +186,15 @@
         },
         {
           "type": "paragraph",
-          "content": "3. 将点 $A$ 沿 $AB$ 方向移动 $2\text{ cm}$，得到对应点 $A'$。"
+          "content": "3. 将点 $A$ 沿 $AB$ 方向移动 $2\\text{ cm}$，得到对应点 $A'$。"
         },
         {
           "type": "paragraph",
-          "content": "4. 将点 $B$ 沿 $AB$ 方向移动 $2\text{ cm}$，得到对应点 $B'$。"
+          "content": "4. 将点 $B$ 沿 $AB$ 方向移动 $2\\text{ cm}$，得到对应点 $B'$。"
         },
         {
           "type": "paragraph",
-          "content": "5. 将点 $C$ 沿 $AB$ 方向移动 $2\text{ cm}$，得到对应点 $C'$。"
+          "content": "5. 将点 $C$ 沿 $AB$ 方向移动 $2\\text{ cm}$，得到对应点 $C'$。"
         },
         {
           "type": "paragraph",
@@ -208,7 +208,7 @@
       "problem": [
         {
           "type": "paragraph",
-          "content": "如图，将矩形 $ABCD$ 沿 $AD$ 方向平移 $3\text{ cm}$，得到矩形 $A'B'C'D'$。已知 $AB=4\text{ cm}$，$BC=5\text{ cm}$，求阴影部分的面积。"
+          "content": "如图，将矩形 $ABCD$ 沿 $AD$ 方向平移 $3\\text{ cm}$，得到矩形 $A'B'C'D'$。已知 $AB=4\\text{ cm}$，$BC=5\\text{ cm}$，求阴影部分的面积。"
         }
       ],
       "solution": [
@@ -218,22 +218,22 @@
         },
         {
           "type": "paragraph",
-          "content": "因为矩形 $ABCD$ 沿 $AD$ 方向平移 $3\text{ cm}$，"
+          "content": "因为矩形 $ABCD$ 沿 $AD$ 方向平移 $3\\text{ cm}$，"
         },
         {
           "type": "paragraph",
-          "content": "所以 $AA'=3\text{ cm}$，$DD'=3\text{ cm}$。"
+          "content": "所以 $AA'=3\\text{ cm}$，$DD'=3\\text{ cm}$。"
         },
         {
           "type": "paragraph",
-          "content": "阴影部分是一个矩形，长为 $BC=5\text{ cm}$，宽为 $AA'=3\text{ cm}$。"
+          "content": "阴影部分是一个矩形，长为 $BC=5\\text{ cm}$，宽为 $AA'=3\\text{ cm}$。"
         },
         {
           "type": "paragraph",
-          "content": "所以阴影部分的面积为 $5×3=15\text{ cm}^2$。"
+          "content": "所以阴影部分的面积为 $5×3=15\\text{ cm}^2$。"
         }
       ],
-      "answer": "阴影部分的面积为 $15\text{ cm}^2$"
+      "answer": "阴影部分的面积为 $15\\text{ cm}^2$"
     }
   ],
   "summary": [

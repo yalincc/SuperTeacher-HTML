@@ -29,27 +29,27 @@
     {
       "type": "choice",
       "id": "ex-7-2",
-      "stem": "如图，将三角形 $ABC$ 绕点 $A$ 逆时针旋转 $90°$，得到三角形 $AB'C'$。如果 $AB=3\text{ cm}$，那么 $AB'$ 的长为（    ）",
+      "stem": "如图，将三角形 $ABC$ 绕点 $A$ 逆时针旋转 $90°$，得到三角形 $AB'C'$。如果 $AB=3\\text{ cm}$，那么 $AB'$ 的长为（    ）",
       "options": [
         {
           "label": "A",
-          "text": "$1.5\text{ cm}$"
+          "text": "$1.5\\text{ cm}$"
         },
         {
           "label": "B",
-          "text": "$3\text{ cm}$"
+          "text": "$3\\text{ cm}$"
         },
         {
           "label": "C",
-          "text": "$4.5\text{ cm}$"
+          "text": "$4.5\\text{ cm}$"
         },
         {
           "label": "D",
-          "text": "$6\text{ cm}$"
+          "text": "$6\\text{ cm}$"
         }
       ],
       "answer": "B",
-      "analysis": "旋转不改变图形的大小，所以旋转后的线段 $AB'$ 与原线段 $AB$ 长度相等，即 $AB'=AB=3\text{ cm}$。"
+      "analysis": "旋转不改变图形的大小，所以旋转后的线段 $AB'$ 与原线段 $AB$ 长度相等，即 $AB'=AB=3\\text{ cm}$。"
     },
     {
       "type": "true_false",

@@ -29,27 +29,27 @@
     {
       "type": "choice",
       "id": "ex-6-2",
-      "stem": "如图，将线段 $AB$ 沿 $AB$ 方向平移 $3\text{ cm}$ 得到线段 $A'B'$，已知 $AB=5\text{ cm}$，则 $A'B'$ 的长为（    ）",
+      "stem": "如图，将线段 $AB$ 沿 $AB$ 方向平移 $3\\text{ cm}$ 得到线段 $A'B'$，已知 $AB=5\\text{ cm}$，则 $A'B'$ 的长为（    ）",
       "options": [
         {
           "label": "A",
-          "text": "$2\text{ cm}$"
+          "text": "$2\\text{ cm}$"
         },
         {
           "label": "B",
-          "text": "$3\text{ cm}$"
+          "text": "$3\\text{ cm}$"
         },
         {
           "label": "C",
-          "text": "$5\text{ cm}$"
+          "text": "$5\\text{ cm}$"
         },
         {
           "label": "D",
-          "text": "$8\text{ cm}$"
+          "text": "$8\\text{ cm}$"
         }
       ],
       "answer": "C",
-      "analysis": "平移不改变图形的大小，所以平移后的线段 $A'B'$ 与原线段 $AB$ 长度相等，即 $A'B'=AB=5\text{ cm}$。"
+      "analysis": "平移不改变图形的大小，所以平移后的线段 $A'B'$ 与原线段 $AB$ 长度相等，即 $A'B'=AB=5\\text{ cm}$。"
     },
     {
       "type": "true_false",
