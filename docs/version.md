@@ -4,6 +4,26 @@
 
 ---
 
+## v2.9 (2026-07-18)
+
+> GitHub Pages 白屏修复（HashRouter basename 误用）+ 部署远程改用 SSH
+
+### 🔧 修复
+- **GitHub Pages 白屏** — 根因：`App.tsx` 中 `<HashRouter basename={import.meta.env.BASE_URL}>`，生产构建 `BASE_URL=/SuperTeacher-HTML/`（由 `VITE_BASE` 设的部署子路径）被当成 HashRouter 的 basename；而 HashRouter 的 basename 匹配的是 URL 中 `#` 之后的路由路径（恒为 `/`），与 `/SuperTeacher-HTML/` 不匹配 → Router 拒绝渲染任何内容 → 白屏（console 报 "basename is not able to match the URL /"）。
+  - 修复：移除 basename，改回 `<HashRouter>`。部署子路径仅由 Vite `base`（`VITE_BASE`）负责静态资源加载，与 HashRouter 路由无关。
+  - 引入历史：`a9f2cc0` 为 GitHub Pages（BrowserRouter 时代）加的 basename；`f8dd46c`（v2.8）切到 HashRouter 时误保留，成为子路径白屏根因。EdgeOne 根路径部署（`BASE_URL=/`）不受影响——本地用 `VITE_BASE=/SuperTeacher-HTML/`（GitHub）与 `VITE_BASE=/`（EdgeOne）两套配置经无头浏览器验证均正常渲染。
+
+### 🔧 部署
+- **origin 远程改用 SSH** — `git@github.com:yalincc/SuperTeacher-HTML.git`，复用本机 ED25519 密钥（原挂 Gitee），不再依赖 token。`git push origin main` 照常工作。
+- **关闭 v2.8 待解决项** — GitHub Pages 空白问题已修复，GitHub Actions 部署成功，线上恢复。
+
+### 🎨 改造文件
+| 文件 | 改动 |
+|------|------|
+| `src/App.tsx` | 移除 `<HashRouter basename={import.meta.env.BASE_URL}>`，改回 `<HashRouter>`，加注释说明 basename 不能用部署子路径 |
+
+---
+
 ## v2.8 (2026-07-17)
 
 > LaTeX 转义修复 + 格式检查工具 + 渲染组件修复 + 部署配置优化
@@ -32,8 +52,8 @@
 - `docs/curriculum-format-liberal-arts.md` — 第九节「JSON 转义注意事项」
 - `.agents/skills/generate-lesson/SKILL.md` — 新增「JSON 转义规则」小节
 
-### ⚠️ 待解决
-- **GitHub Pages 无法加载内容** — Actions 构建成功，但页面空白（只有标题）。可能是 Pages 配置问题或 CDN 缓存问题。Vercel 已卸载，需要进一步排查。
+### ✅ 已解决（见 v2.9）
+- **GitHub Pages 无法加载内容** — 已确认根因为 `App.tsx` 中 HashRouter 误用部署子路径作 `basename`（非 Pages 配置或 CDN 问题），v2.9 已修复并重新部署。
 
 ---
 

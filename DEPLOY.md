@@ -48,6 +48,8 @@ git push gitee main     # 推送到 Gitee main
 git push gitee main:master  # 同步 Gitee master
 ```
 
+> **认证方式**：`origin` (GitHub) 与 `gitee` 均使用 SSH 密钥认证，复用同一把本机 ED25519 公钥（同时添加在 GitHub 和 Gitee 账号的 SSH keys 中），无需 token。`git remote -v` 可见 URL 为 `git@github.com:yalincc/SuperTeacher-HTML.git` 与 `git@gitee.com:yalincc/SuperTeacher-HTML.git`。
+
 ## 已知问题
 
 1. GitHub Pages 在中国大陆偶尔不稳定，需要 VPN 或等待恢复
