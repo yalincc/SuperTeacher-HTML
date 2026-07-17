@@ -4,6 +4,39 @@
 
 ---
 
+## v2.8 (2026-07-17)
+
+> LaTeX 转义修复 + 格式检查工具 + 渲染组件修复 + 部署配置优化
+
+### ✨ 新增
+- **格式检查工具** — `scripts/check-format.mjs`，检测三类问题：LaTeX 转义、renderInline 遗漏、JSON 内容错误
+- **validate --fix** — `scripts/validate-lesson.mjs` 支持 `--fix` 自动修复 LaTeX 转义问题
+- **DEPLOY.md** — 部署指南文档
+
+### 🔧 修复
+- **物理九上 LaTeX 转义** — 修复 13 个文件的反斜杠问题（单→双反斜杠）
+- **数学课程 LaTeX 转义** — validate --fix 自动修复 9 个数学课程文件
+- **SectionKnowledge.tsx** — 知识分区标题支持 KaTeX 渲染
+- **TimelineBlock.tsx** — 时间线 title/time/content 支持 KaTeX 渲染
+- **App.tsx** — BrowserRouter 改为 HashRouter（兼容静态托管）
+- **vite.config.ts** — base path 改用环境变量 `VITE_BASE`
+
+### 🔧 部署
+- **HashRouter** — 所有静态托管平台无需配置 URL 重写规则
+- **EdgeOne 配置** — Gitee master 分支部署，自动构建
+- **Vercel 已移除** — 避免与 GitHub Pages 部署冲突
+- **GitHub Actions** — 设置 `VITE_BASE=/SuperTeacher-HTML/` 确保资源路径正确
+
+### 📝 文档
+- `docs/curriculum-format.md` — 第四节「JSON 中的 LaTeX 转义规则」
+- `docs/curriculum-format-liberal-arts.md` — 第九节「JSON 转义注意事项」
+- `.agents/skills/generate-lesson/SKILL.md` — 新增「JSON 转义规则」小节
+
+### ⚠️ 待解决
+- **GitHub Pages 无法加载内容** — Actions 构建成功，但页面空白（只有标题）。可能是 Pages 配置问题或 CDN 缓存问题。Vercel 已卸载，需要进一步排查。
+
+---
+
 ## v2.7 (2026-06-28)
 
 > 物理化学按学期拆分 + 九下化学全新生成 + 教材目录修正
