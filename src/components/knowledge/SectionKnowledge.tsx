@@ -1,5 +1,6 @@
 import type { KnowledgeSection } from '@/types'
 import ContentRenderer from './ContentRenderer'
+import { renderInline } from '@/utils/renderInline'
 
 interface Props {
   sections: KnowledgeSection[]
@@ -23,7 +24,7 @@ function KnowledgeCard({ section, index }: { section: KnowledgeSection; index: n
         <span className="w-8 h-8 rounded-xl bg-primary text-white flex items-center justify-center text-sm font-bold shrink-0">
           {index + 1}
         </span>
-        <h3 className="font-semibold text-text text-base">{section.title}</h3>
+        <h3 className="font-semibold text-text text-base">{renderInline(section.title)}</h3>
       </div>
 
       {/* 卡片内容 */}
