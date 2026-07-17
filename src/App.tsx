@@ -41,8 +41,11 @@ function CourseEntry() {
 }
 
 function App() {
+  // HashRouter 的 basename 匹配的是 URL 中 # 之后的路由路径（恒为 "/"），
+  // 不能用部署子路径（如 /SuperTeacher-HTML/）。部署子路径仅由 Vite base 处理静态资源加载。
+  // 之前在 GitHub Pages 子路径下把子路径当 basename，会导致无法匹配 #/ 而白屏。
   return (
-    <HashRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <Routes>
         <Route element={<AppLayout />}>
           <Route path="/" element={<HomePage />} />
