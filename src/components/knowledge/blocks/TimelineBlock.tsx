@@ -1,4 +1,5 @@
 import type { TimelineBlock } from '@/types'
+import { renderInline } from '@/utils/renderInline'
 
 interface Props {
   block: TimelineBlock
@@ -15,11 +16,11 @@ function TimelineBlockComponent({ block }: Props) {
 
             <div className="ml-2">
               <span className="inline-block text-xs font-medium text-amber-700 bg-amber-50 px-2 py-0.5 rounded-full mb-1">
-                {item.time}
+                {renderInline(item.time)}
               </span>
-              <div className="font-semibold text-text text-sm">{item.title}</div>
+              <div className="font-semibold text-text text-sm">{renderInline(item.title)}</div>
               {item.content && (
-                <p className="text-text-secondary text-sm mt-0.5 leading-relaxed">{item.content}</p>
+                <p className="text-text-secondary text-sm mt-0.5 leading-relaxed">{renderInline(item.content)}</p>
               )}
             </div>
           </div>
